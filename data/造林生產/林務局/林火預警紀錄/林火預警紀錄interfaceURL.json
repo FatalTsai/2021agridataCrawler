@@ -17088,174 +17088,6 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
   },
   {
-    "id": "20201122_1",
-    "LOCATION": "水里",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_2",
-    "LOCATION": "甲仙",
-    "DIST_C": "屏東          ",
-    "STTN_C": "旗山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_3",
-    "LOCATION": "大湖",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_4",
-    "LOCATION": "和社",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_5",
-    "LOCATION": "虎山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_6",
-    "LOCATION": "清水",
-    "DIST_C": "南投          ",
-    "STTN_C": "台中  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_7",
-    "LOCATION": "南澳",
-    "DIST_C": "羅東          ",
-    "STTN_C": "南澳  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_8",
-    "LOCATION": "南澳2",
-    "DIST_C": "羅東          ",
-    "STTN_C": "和平  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_9",
-    "LOCATION": "泰平",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_10",
-    "LOCATION": "礁溪",
-    "DIST_C": "羅東          ",
-    "STTN_C": "礁溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_11",
-    "LOCATION": "梨山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_12",
-    "LOCATION": "雙崎",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_13",
-    "LOCATION": "麻必浩",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_14",
-    "LOCATION": "麗陽",
-    "DIST_C": "東勢          ",
-    "STTN_C": "麗陽  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_15",
-    "LOCATION": "鞍馬山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "鞍馬山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_16",
-    "LOCATION": "內茅埔",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "內茅埔",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_17",
-    "LOCATION": "阿里山",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "阿里山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_18",
-    "LOCATION": "太平山",
-    "DIST_C": "羅東          ",
-    "STTN_C": "太平山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_19",
-    "LOCATION": "奮起湖",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "奮起湖",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_20",
-    "LOCATION": "達觀山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
-    "id": "20201122_21",
-    "LOCATION": "東眼山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
-  },
-  {
     "id": "20201122_22",
     "LOCATION": "滿月圓",
     "DIST_C": "新竹          ",
@@ -17604,6 +17436,174 @@
     "LOCATION": "麗陽2",
     "DIST_C": "東勢          ",
     "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_1",
+    "LOCATION": "水里",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_2",
+    "LOCATION": "甲仙",
+    "DIST_C": "屏東          ",
+    "STTN_C": "旗山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_3",
+    "LOCATION": "大湖",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_4",
+    "LOCATION": "和社",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_5",
+    "LOCATION": "虎山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_6",
+    "LOCATION": "清水",
+    "DIST_C": "南投          ",
+    "STTN_C": "台中  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_7",
+    "LOCATION": "南澳",
+    "DIST_C": "羅東          ",
+    "STTN_C": "南澳  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_8",
+    "LOCATION": "南澳2",
+    "DIST_C": "羅東          ",
+    "STTN_C": "和平  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_9",
+    "LOCATION": "泰平",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_10",
+    "LOCATION": "礁溪",
+    "DIST_C": "羅東          ",
+    "STTN_C": "礁溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_11",
+    "LOCATION": "梨山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_12",
+    "LOCATION": "雙崎",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_13",
+    "LOCATION": "麻必浩",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_14",
+    "LOCATION": "麗陽",
+    "DIST_C": "東勢          ",
+    "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_15",
+    "LOCATION": "鞍馬山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "鞍馬山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_16",
+    "LOCATION": "內茅埔",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "內茅埔",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_17",
+    "LOCATION": "阿里山",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "阿里山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_18",
+    "LOCATION": "太平山",
+    "DIST_C": "羅東          ",
+    "STTN_C": "太平山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_19",
+    "LOCATION": "奮起湖",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "奮起湖",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_20",
+    "LOCATION": "達觀山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
+  },
+  {
+    "id": "20201122_21",
+    "LOCATION": "東眼山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
     "DANGERRATELEVEL": "無資料或未上傳",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201122A.png"
   },
@@ -21016,6 +21016,94 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201116A.png"
   },
   {
+    "id": "20201115_61",
+    "LOCATION": "人倫2",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_62",
+    "LOCATION": "鞍馬山2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "鞍馬山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_63",
+    "LOCATION": "雙崎2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_64",
+    "LOCATION": "麻必浩2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_65",
+    "LOCATION": "麗陽2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_66",
+    "LOCATION": "梨山2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_67",
+    "LOCATION": "杉林溪",
+    "DIST_C": "南投          ",
+    "STTN_C": "竹山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_68",
+    "LOCATION": "武陵",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_69",
+    "LOCATION": "冬山",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_70",
+    "LOCATION": "冷水坑",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
+    "id": "20201115_71",
+    "LOCATION": "拉拉山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
+  },
+  {
     "id": "20201115_17",
     "LOCATION": "阿里山",
     "DIST_C": "嘉義          ",
@@ -21365,94 +21453,6 @@
     "DIST_C": "南投          ",
     "STTN_C": "台中  ",
     "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_61",
-    "LOCATION": "人倫2",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_62",
-    "LOCATION": "鞍馬山2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "鞍馬山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_63",
-    "LOCATION": "雙崎2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_64",
-    "LOCATION": "麻必浩2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_65",
-    "LOCATION": "麗陽2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "麗陽  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_66",
-    "LOCATION": "梨山2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_67",
-    "LOCATION": "杉林溪",
-    "DIST_C": "南投          ",
-    "STTN_C": "竹山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_68",
-    "LOCATION": "武陵",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_69",
-    "LOCATION": "冬山",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_70",
-    "LOCATION": "冷水坑",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
-  },
-  {
-    "id": "20201115_71",
-    "LOCATION": "拉拉山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201115A.png"
   },
   {
@@ -31808,6 +31808,310 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201028A.png"
   },
   {
+    "id": "20201027_50",
+    "LOCATION": "埔里",
+    "DIST_C": "南投          ",
+    "STTN_C": "埔里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_51",
+    "LOCATION": "奧萬大",
+    "DIST_C": "南投          ",
+    "STTN_C": "埔里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_52",
+    "LOCATION": "集集",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_53",
+    "LOCATION": "人倫",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_54",
+    "LOCATION": "望鄉",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_55",
+    "LOCATION": "藤枝",
+    "DIST_C": "屏東          ",
+    "STTN_C": "六龜  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_56",
+    "LOCATION": "牡丹",
+    "DIST_C": "屏東          ",
+    "STTN_C": "恆春  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_57",
+    "LOCATION": "清水溝",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "清水溝",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_58",
+    "LOCATION": "金門林務所",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_59",
+    "LOCATION": "和平",
+    "DIST_C": "羅東          ",
+    "STTN_C": "南澳  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_60",
+    "LOCATION": "土城",
+    "DIST_C": "南投          ",
+    "STTN_C": "台中  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_61",
+    "LOCATION": "人倫2",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_62",
+    "LOCATION": "鞍馬山2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "鞍馬山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_63",
+    "LOCATION": "雙崎2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_64",
+    "LOCATION": "麻必浩2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_65",
+    "LOCATION": "麗陽2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_66",
+    "LOCATION": "梨山2",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_67",
+    "LOCATION": "杉林溪",
+    "DIST_C": "南投          ",
+    "STTN_C": "竹山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_68",
+    "LOCATION": "武陵",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_69",
+    "LOCATION": "冬山",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_70",
+    "LOCATION": "冷水坑",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_71",
+    "LOCATION": "拉拉山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_1",
+    "LOCATION": "水里",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_2",
+    "LOCATION": "甲仙",
+    "DIST_C": "屏東          ",
+    "STTN_C": "旗山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_3",
+    "LOCATION": "大湖",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_4",
+    "LOCATION": "和社",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_5",
+    "LOCATION": "虎山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_6",
+    "LOCATION": "清水",
+    "DIST_C": "南投          ",
+    "STTN_C": "台中  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_7",
+    "LOCATION": "南澳",
+    "DIST_C": "羅東          ",
+    "STTN_C": "南澳  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_8",
+    "LOCATION": "南澳2",
+    "DIST_C": "羅東          ",
+    "STTN_C": "和平  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_9",
+    "LOCATION": "泰平",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_10",
+    "LOCATION": "礁溪",
+    "DIST_C": "羅東          ",
+    "STTN_C": "礁溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_11",
+    "LOCATION": "梨山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_12",
+    "LOCATION": "雙崎",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_13",
+    "LOCATION": "麻必浩",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_14",
+    "LOCATION": "麗陽",
+    "DIST_C": "東勢          ",
+    "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_15",
+    "LOCATION": "鞍馬山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "鞍馬山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
+    "id": "20201027_16",
+    "LOCATION": "內茅埔",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "內茅埔",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
+  },
+  {
     "id": "20201027_17",
     "LOCATION": "阿里山",
     "DIST_C": "嘉義          ",
@@ -32068,310 +32372,6 @@
     "LOCATION": "十林班",
     "DIST_C": "南投          ",
     "STTN_C": "丹大  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_1",
-    "LOCATION": "水里",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_2",
-    "LOCATION": "甲仙",
-    "DIST_C": "屏東          ",
-    "STTN_C": "旗山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_3",
-    "LOCATION": "大湖",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_4",
-    "LOCATION": "和社",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_5",
-    "LOCATION": "虎山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_6",
-    "LOCATION": "清水",
-    "DIST_C": "南投          ",
-    "STTN_C": "台中  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_7",
-    "LOCATION": "南澳",
-    "DIST_C": "羅東          ",
-    "STTN_C": "南澳  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_8",
-    "LOCATION": "南澳2",
-    "DIST_C": "羅東          ",
-    "STTN_C": "和平  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_9",
-    "LOCATION": "泰平",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_10",
-    "LOCATION": "礁溪",
-    "DIST_C": "羅東          ",
-    "STTN_C": "礁溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_11",
-    "LOCATION": "梨山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_12",
-    "LOCATION": "雙崎",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_13",
-    "LOCATION": "麻必浩",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_14",
-    "LOCATION": "麗陽",
-    "DIST_C": "東勢          ",
-    "STTN_C": "麗陽  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_15",
-    "LOCATION": "鞍馬山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "鞍馬山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_16",
-    "LOCATION": "內茅埔",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "內茅埔",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_50",
-    "LOCATION": "埔里",
-    "DIST_C": "南投          ",
-    "STTN_C": "埔里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_51",
-    "LOCATION": "奧萬大",
-    "DIST_C": "南投          ",
-    "STTN_C": "埔里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_52",
-    "LOCATION": "集集",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_53",
-    "LOCATION": "人倫",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_54",
-    "LOCATION": "望鄉",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_55",
-    "LOCATION": "藤枝",
-    "DIST_C": "屏東          ",
-    "STTN_C": "六龜  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_56",
-    "LOCATION": "牡丹",
-    "DIST_C": "屏東          ",
-    "STTN_C": "恆春  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_57",
-    "LOCATION": "清水溝",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "清水溝",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_58",
-    "LOCATION": "金門林務所",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_59",
-    "LOCATION": "和平",
-    "DIST_C": "羅東          ",
-    "STTN_C": "南澳  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_60",
-    "LOCATION": "土城",
-    "DIST_C": "南投          ",
-    "STTN_C": "台中  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_61",
-    "LOCATION": "人倫2",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_62",
-    "LOCATION": "鞍馬山2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "鞍馬山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_63",
-    "LOCATION": "雙崎2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_64",
-    "LOCATION": "麻必浩2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_65",
-    "LOCATION": "麗陽2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "麗陽  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_66",
-    "LOCATION": "梨山2",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_67",
-    "LOCATION": "杉林溪",
-    "DIST_C": "南投          ",
-    "STTN_C": "竹山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_68",
-    "LOCATION": "武陵",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_69",
-    "LOCATION": "冬山",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_70",
-    "LOCATION": "冷水坑",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
-  },
-  {
-    "id": "20201027_71",
-    "LOCATION": "拉拉山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
     "DANGERRATELEVEL": "無資料或未上傳",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201027A.png"
   },
@@ -42600,270 +42600,6 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201008A.png"
   },
   {
-    "id": "20201007_1",
-    "LOCATION": "水里",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_2",
-    "LOCATION": "甲仙",
-    "DIST_C": "屏東          ",
-    "STTN_C": "旗山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_3",
-    "LOCATION": "大湖",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_4",
-    "LOCATION": "和社",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_5",
-    "LOCATION": "虎山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_6",
-    "LOCATION": "清水",
-    "DIST_C": "南投          ",
-    "STTN_C": "台中  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_7",
-    "LOCATION": "南澳",
-    "DIST_C": "羅東          ",
-    "STTN_C": "南澳  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_8",
-    "LOCATION": "南澳2",
-    "DIST_C": "羅東          ",
-    "STTN_C": "和平  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_9",
-    "LOCATION": "泰平",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_10",
-    "LOCATION": "礁溪",
-    "DIST_C": "羅東          ",
-    "STTN_C": "礁溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_11",
-    "LOCATION": "梨山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_12",
-    "LOCATION": "雙崎",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_13",
-    "LOCATION": "麻必浩",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_14",
-    "LOCATION": "麗陽",
-    "DIST_C": "東勢          ",
-    "STTN_C": "麗陽  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_15",
-    "LOCATION": "鞍馬山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "鞍馬山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_16",
-    "LOCATION": "內茅埔",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "內茅埔",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_17",
-    "LOCATION": "阿里山",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "阿里山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_18",
-    "LOCATION": "太平山",
-    "DIST_C": "羅東          ",
-    "STTN_C": "太平山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_19",
-    "LOCATION": "奮起湖",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "奮起湖",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_20",
-    "LOCATION": "達觀山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_21",
-    "LOCATION": "東眼山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_22",
-    "LOCATION": "滿月圓",
-    "DIST_C": "新竹          ",
-    "STTN_C": "烏來",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_23",
-    "LOCATION": "內洞",
-    "DIST_C": "新竹          ",
-    "STTN_C": "烏來",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_24",
-    "LOCATION": "竹東",
-    "DIST_C": "新竹          ",
-    "STTN_C": "竹東  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_25",
-    "LOCATION": "觀霧",
-    "DIST_C": "新竹          ",
-    "STTN_C": "竹東  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_26",
-    "LOCATION": "草漯",
-    "DIST_C": "新竹          ",
-    "STTN_C": "海岸林",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_27",
-    "LOCATION": "溪頭",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "溪頭",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_28",
-    "LOCATION": "棲蘭山",
-    "DIST_C": "森保處",
-    "STTN_C": "棲蘭山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_29",
-    "LOCATION": "成功",
-    "DIST_C": "台東          ",
-    "STTN_C": "成功  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_30",
-    "LOCATION": "一百線",
-    "DIST_C": "森保處",
-    "STTN_C": "棲蘭山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_31",
-    "LOCATION": "大漢",
-    "DIST_C": "森保處",
-    "STTN_C": "棲蘭山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_32",
-    "LOCATION": "勝光",
-    "DIST_C": "森保處",
-    "STTN_C": "棲蘭山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
-    "id": "20201007_33",
-    "LOCATION": "南華",
-    "DIST_C": "花蓮          ",
-    "STTN_C": "南華  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
-  },
-  {
     "id": "20201007_34",
     "LOCATION": "大武",
     "DIST_C": "台東          ",
@@ -43165,6 +42901,270 @@
     "DIST_C": "新竹          ",
     "STTN_C": "大溪  ",
     "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_1",
+    "LOCATION": "水里",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_2",
+    "LOCATION": "甲仙",
+    "DIST_C": "屏東          ",
+    "STTN_C": "旗山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_3",
+    "LOCATION": "大湖",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_4",
+    "LOCATION": "和社",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_5",
+    "LOCATION": "虎山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_6",
+    "LOCATION": "清水",
+    "DIST_C": "南投          ",
+    "STTN_C": "台中  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_7",
+    "LOCATION": "南澳",
+    "DIST_C": "羅東          ",
+    "STTN_C": "南澳  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_8",
+    "LOCATION": "南澳2",
+    "DIST_C": "羅東          ",
+    "STTN_C": "和平  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_9",
+    "LOCATION": "泰平",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_10",
+    "LOCATION": "礁溪",
+    "DIST_C": "羅東          ",
+    "STTN_C": "礁溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_11",
+    "LOCATION": "梨山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_12",
+    "LOCATION": "雙崎",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_13",
+    "LOCATION": "麻必浩",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_14",
+    "LOCATION": "麗陽",
+    "DIST_C": "東勢          ",
+    "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_15",
+    "LOCATION": "鞍馬山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "鞍馬山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_16",
+    "LOCATION": "內茅埔",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "內茅埔",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_17",
+    "LOCATION": "阿里山",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "阿里山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_18",
+    "LOCATION": "太平山",
+    "DIST_C": "羅東          ",
+    "STTN_C": "太平山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_19",
+    "LOCATION": "奮起湖",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "奮起湖",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_20",
+    "LOCATION": "達觀山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_21",
+    "LOCATION": "東眼山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_22",
+    "LOCATION": "滿月圓",
+    "DIST_C": "新竹          ",
+    "STTN_C": "烏來",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_23",
+    "LOCATION": "內洞",
+    "DIST_C": "新竹          ",
+    "STTN_C": "烏來",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_24",
+    "LOCATION": "竹東",
+    "DIST_C": "新竹          ",
+    "STTN_C": "竹東  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_25",
+    "LOCATION": "觀霧",
+    "DIST_C": "新竹          ",
+    "STTN_C": "竹東  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_26",
+    "LOCATION": "草漯",
+    "DIST_C": "新竹          ",
+    "STTN_C": "海岸林",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_27",
+    "LOCATION": "溪頭",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "溪頭",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_28",
+    "LOCATION": "棲蘭山",
+    "DIST_C": "森保處",
+    "STTN_C": "棲蘭山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_29",
+    "LOCATION": "成功",
+    "DIST_C": "台東          ",
+    "STTN_C": "成功  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_30",
+    "LOCATION": "一百線",
+    "DIST_C": "森保處",
+    "STTN_C": "棲蘭山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_31",
+    "LOCATION": "大漢",
+    "DIST_C": "森保處",
+    "STTN_C": "棲蘭山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_32",
+    "LOCATION": "勝光",
+    "DIST_C": "森保處",
+    "STTN_C": "棲蘭山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
+  },
+  {
+    "id": "20201007_33",
+    "LOCATION": "南華",
+    "DIST_C": "花蓮          ",
+    "STTN_C": "南華  ",
+    "DANGERRATELEVEL": "安全級",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20201007A.png"
   },
   {
@@ -54528,166 +54528,6 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200917A.png"
   },
   {
-    "id": "20200916_1",
-    "LOCATION": "水里",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_2",
-    "LOCATION": "甲仙",
-    "DIST_C": "屏東          ",
-    "STTN_C": "旗山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_3",
-    "LOCATION": "大湖",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_4",
-    "LOCATION": "和社",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_5",
-    "LOCATION": "虎山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_6",
-    "LOCATION": "清水",
-    "DIST_C": "南投          ",
-    "STTN_C": "台中  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_7",
-    "LOCATION": "南澳",
-    "DIST_C": "羅東          ",
-    "STTN_C": "南澳  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_8",
-    "LOCATION": "南澳2",
-    "DIST_C": "羅東          ",
-    "STTN_C": "和平  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_9",
-    "LOCATION": "泰平",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_10",
-    "LOCATION": "礁溪",
-    "DIST_C": "羅東          ",
-    "STTN_C": "礁溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_11",
-    "LOCATION": "梨山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "梨山  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_12",
-    "LOCATION": "雙崎",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_13",
-    "LOCATION": "麻必浩",
-    "DIST_C": "東勢          ",
-    "STTN_C": "雙崎  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_14",
-    "LOCATION": "麗陽",
-    "DIST_C": "東勢          ",
-    "STTN_C": "麗陽  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_15",
-    "LOCATION": "鞍馬山",
-    "DIST_C": "東勢          ",
-    "STTN_C": "鞍馬山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_16",
-    "LOCATION": "內茅埔",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "內茅埔",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_17",
-    "LOCATION": "阿里山",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "阿里山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_18",
-    "LOCATION": "太平山",
-    "DIST_C": "羅東          ",
-    "STTN_C": "太平山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_19",
-    "LOCATION": "奮起湖",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "奮起湖",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
-    "id": "20200916_20",
-    "LOCATION": "達觀山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
-  },
-  {
     "id": "20200916_59",
     "LOCATION": "和平",
     "DIST_C": "羅東          ",
@@ -55092,6 +54932,166 @@
     "LOCATION": "金門林務所",
     "DIST_C": "台大實驗林 ",
     "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_17",
+    "LOCATION": "阿里山",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "阿里山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_18",
+    "LOCATION": "太平山",
+    "DIST_C": "羅東          ",
+    "STTN_C": "太平山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_19",
+    "LOCATION": "奮起湖",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "奮起湖",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_20",
+    "LOCATION": "達觀山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_1",
+    "LOCATION": "水里",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_2",
+    "LOCATION": "甲仙",
+    "DIST_C": "屏東          ",
+    "STTN_C": "旗山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_3",
+    "LOCATION": "大湖",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_4",
+    "LOCATION": "和社",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_5",
+    "LOCATION": "虎山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_6",
+    "LOCATION": "清水",
+    "DIST_C": "南投          ",
+    "STTN_C": "台中  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_7",
+    "LOCATION": "南澳",
+    "DIST_C": "羅東          ",
+    "STTN_C": "南澳  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_8",
+    "LOCATION": "南澳2",
+    "DIST_C": "羅東          ",
+    "STTN_C": "和平  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_9",
+    "LOCATION": "泰平",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_10",
+    "LOCATION": "礁溪",
+    "DIST_C": "羅東          ",
+    "STTN_C": "礁溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_11",
+    "LOCATION": "梨山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "梨山  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_12",
+    "LOCATION": "雙崎",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_13",
+    "LOCATION": "麻必浩",
+    "DIST_C": "東勢          ",
+    "STTN_C": "雙崎  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_14",
+    "LOCATION": "麗陽",
+    "DIST_C": "東勢          ",
+    "STTN_C": "麗陽  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_15",
+    "LOCATION": "鞍馬山",
+    "DIST_C": "東勢          ",
+    "STTN_C": "鞍馬山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
+  },
+  {
+    "id": "20200916_16",
+    "LOCATION": "內茅埔",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "內茅埔",
     "DANGERRATELEVEL": "無資料或未上傳",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200916A.png"
   },
@@ -55664,6 +55664,46 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200915A.png"
   },
   {
+    "id": "20200914_1",
+    "LOCATION": "水里",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
+  },
+  {
+    "id": "20200914_2",
+    "LOCATION": "甲仙",
+    "DIST_C": "屏東          ",
+    "STTN_C": "旗山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
+  },
+  {
+    "id": "20200914_3",
+    "LOCATION": "大湖",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
+  },
+  {
+    "id": "20200914_4",
+    "LOCATION": "和社",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
+  },
+  {
+    "id": "20200914_5",
+    "LOCATION": "虎山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
+  },
+  {
     "id": "20200914_6",
     "LOCATION": "清水",
     "DIST_C": "南投          ",
@@ -56189,46 +56229,6 @@
     "DIST_C": "新竹          ",
     "STTN_C": "大溪  ",
     "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
-  },
-  {
-    "id": "20200914_1",
-    "LOCATION": "水里",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
-  },
-  {
-    "id": "20200914_2",
-    "LOCATION": "甲仙",
-    "DIST_C": "屏東          ",
-    "STTN_C": "旗山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
-  },
-  {
-    "id": "20200914_3",
-    "LOCATION": "大湖",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
-  },
-  {
-    "id": "20200914_4",
-    "LOCATION": "和社",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
-  },
-  {
-    "id": "20200914_5",
-    "LOCATION": "虎山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200914A.png"
   },
   {
@@ -60208,6 +60208,86 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200907A.png"
   },
   {
+    "id": "20200906_1",
+    "LOCATION": "水里",
+    "DIST_C": "南投          ",
+    "STTN_C": "水里  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_2",
+    "LOCATION": "甲仙",
+    "DIST_C": "屏東          ",
+    "STTN_C": "旗山  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_3",
+    "LOCATION": "大湖",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_4",
+    "LOCATION": "和社",
+    "DIST_C": "台大實驗林 ",
+    "STTN_C": "和社  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_5",
+    "LOCATION": "虎山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大湖  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_6",
+    "LOCATION": "清水",
+    "DIST_C": "南投          ",
+    "STTN_C": "台中  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_7",
+    "LOCATION": "南澳",
+    "DIST_C": "羅東          ",
+    "STTN_C": "南澳  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_8",
+    "LOCATION": "南澳2",
+    "DIST_C": "羅東          ",
+    "STTN_C": "和平  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_9",
+    "LOCATION": "泰平",
+    "DIST_C": "羅東          ",
+    "STTN_C": "台北  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
+    "id": "20200906_10",
+    "LOCATION": "礁溪",
+    "DIST_C": "羅東          ",
+    "STTN_C": "礁溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
+  },
+  {
     "id": "20200906_11",
     "LOCATION": "梨山",
     "DIST_C": "東勢          ",
@@ -60693,86 +60773,6 @@
     "DIST_C": "新竹          ",
     "STTN_C": "大溪  ",
     "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_1",
-    "LOCATION": "水里",
-    "DIST_C": "南投          ",
-    "STTN_C": "水里  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_2",
-    "LOCATION": "甲仙",
-    "DIST_C": "屏東          ",
-    "STTN_C": "旗山  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_3",
-    "LOCATION": "大湖",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_4",
-    "LOCATION": "和社",
-    "DIST_C": "台大實驗林 ",
-    "STTN_C": "和社  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_5",
-    "LOCATION": "虎山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大湖  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_6",
-    "LOCATION": "清水",
-    "DIST_C": "南投          ",
-    "STTN_C": "台中  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_7",
-    "LOCATION": "南澳",
-    "DIST_C": "羅東          ",
-    "STTN_C": "南澳  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_8",
-    "LOCATION": "南澳2",
-    "DIST_C": "羅東          ",
-    "STTN_C": "和平  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_9",
-    "LOCATION": "泰平",
-    "DIST_C": "羅東          ",
-    "STTN_C": "台北  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
-  },
-  {
-    "id": "20200906_10",
-    "LOCATION": "礁溪",
-    "DIST_C": "羅東          ",
-    "STTN_C": "礁溪  ",
-    "DANGERRATELEVEL": "安全級",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200906A.png"
   },
   {
@@ -74200,6 +74200,86 @@
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
   },
   {
+    "id": "20200813_17",
+    "LOCATION": "阿里山",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "阿里山",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_18",
+    "LOCATION": "太平山",
+    "DIST_C": "羅東          ",
+    "STTN_C": "太平山",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_19",
+    "LOCATION": "奮起湖",
+    "DIST_C": "嘉義          ",
+    "STTN_C": "奮起湖",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_20",
+    "LOCATION": "達觀山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_21",
+    "LOCATION": "東眼山",
+    "DIST_C": "新竹          ",
+    "STTN_C": "大溪  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_22",
+    "LOCATION": "滿月圓",
+    "DIST_C": "新竹          ",
+    "STTN_C": "烏來",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_23",
+    "LOCATION": "內洞",
+    "DIST_C": "新竹          ",
+    "STTN_C": "烏來",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_24",
+    "LOCATION": "竹東",
+    "DIST_C": "新竹          ",
+    "STTN_C": "竹東  ",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_25",
+    "LOCATION": "觀霧",
+    "DIST_C": "新竹          ",
+    "STTN_C": "竹東  ",
+    "DANGERRATELEVEL": "安全級",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
+    "id": "20200813_26",
+    "LOCATION": "草漯",
+    "DIST_C": "新竹          ",
+    "STTN_C": "海岸林",
+    "DANGERRATELEVEL": "無資料或未上傳",
+    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
+  },
+  {
     "id": "20200813_1",
     "LOCATION": "水里",
     "DIST_C": "南投          ",
@@ -74324,86 +74404,6 @@
     "LOCATION": "內茅埔",
     "DIST_C": "台大實驗林 ",
     "STTN_C": "內茅埔",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_17",
-    "LOCATION": "阿里山",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "阿里山",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_18",
-    "LOCATION": "太平山",
-    "DIST_C": "羅東          ",
-    "STTN_C": "太平山",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_19",
-    "LOCATION": "奮起湖",
-    "DIST_C": "嘉義          ",
-    "STTN_C": "奮起湖",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_20",
-    "LOCATION": "達觀山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_21",
-    "LOCATION": "東眼山",
-    "DIST_C": "新竹          ",
-    "STTN_C": "大溪  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_22",
-    "LOCATION": "滿月圓",
-    "DIST_C": "新竹          ",
-    "STTN_C": "烏來",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_23",
-    "LOCATION": "內洞",
-    "DIST_C": "新竹          ",
-    "STTN_C": "烏來",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_24",
-    "LOCATION": "竹東",
-    "DIST_C": "新竹          ",
-    "STTN_C": "竹東  ",
-    "DANGERRATELEVEL": "無資料或未上傳",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_25",
-    "LOCATION": "觀霧",
-    "DIST_C": "新竹          ",
-    "STTN_C": "竹東  ",
-    "DANGERRATELEVEL": "安全級",
-    "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
-  },
-  {
-    "id": "20200813_26",
-    "LOCATION": "草漯",
-    "DIST_C": "新竹          ",
-    "STTN_C": "海岸林",
     "DANGERRATELEVEL": "無資料或未上傳",
     "IMGURL": "https://forecast.forest.gov.tw/Forecast/UploadFiles/Forest/ForestDanger/20200813A.png"
   },

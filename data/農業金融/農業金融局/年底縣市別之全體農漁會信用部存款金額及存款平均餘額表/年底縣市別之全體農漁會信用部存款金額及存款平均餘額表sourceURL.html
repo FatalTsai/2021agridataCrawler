@@ -1,0 +1,264 @@
+
+
+<html>
+<head id="head1"><meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1" />
+    <script type="text/javascript" src="/WFR/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/WFR/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/WFR/js/json3.min.js"></script>
+    <script type="text/javascript" src="/WFR/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/WFR/js/datepicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="/WFR/js/util.js"></script>
+    <script type="text/javascript" src="/WFR/js/string.js"></script>    
+    <script type="text/javascript" src="/WFR/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/WFR/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function InitMaster() {
+            //單行文字方塊按下enter觸發按鈕事件
+            $("input[type=text]").keypress(function (e) {
+                if (e.keyCode == 13) {
+                    var fbtns = $(".FunctionButtons input[type=submit]");
+                    if (fbtns.length > 0) {
+                        fbtns.first().trigger("click");
+                        return false;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+            });
+
+            var span = $(".ui-dialog-buttonset button span");
+            if ($(span).length > 0) {
+                $(span).parent().focus();
+            }
+        }
+
+        $(document).ready(function () {
+            InitCalendar();
+            InitMaster();
+            RecoverDisabledWebControl();
+        });
+    </script>
+    <title>
+	
+    肥料廠牌查詢
+
+</title><link id="Link1" href="../css/style.css" type="text/css" rel="stylesheet" /><link id="Link2" href="../css/jquery-ui.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        .ui-dialog { margin:0 auto; }
+    </style>
+</head>
+<body>
+    <form method="post" action="./QueryFertBrand.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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t+axgemJgOiCpeaWmRLlia/nlKLpiYDos6rogqXmlpkS5re35ZCI6YmA6LOq6IKl5paZD+ehq+mFuOmOguiCpeaWmRLmsKvmsKfljJbpjoLogqXmlpkP5rCn5YyW6Y6C6IKl5paZEuiFkOakjemFuOmOguiCpeaWmRXmnKjos6rno7rphbjpjoLogqXmlpkS5Yqg5bel6Y6C6LOq6IKl5paZEuWJr+eUoumOguizquiCpeaWmRLmt7flkIjpjoLos6rogqXmlpkS6YmX5ZCI5oWL6Y6C6IKl5paZD+eUn+efs+eBsOiCpeaWmQ/mtojnn7PngbDogqXmlpkP56Kz6YW46Yij6IKl5paZD+iyneauvOeyieiCpeaWmRLlia/nlKLnn7PngbDogqXmlpkS5re35ZCI55+z54Gw6IKl5paZCemIo+a2suiCpQ/noavphbjpiKPogqXmlpkS55m96Zuy55+z54Gw6IKl5paZEueZvembsuefs+eyieiCpeaWmRXnn73os6rnn7PngbDnn7PogqXmlpkS55+96YW454iQ5rij6IKl5paZDOehvOmFuOiCpeaWmQ/nobzphbjpub3ogqXmlpkS54aU6KO956G86LOq6IKl5paZEuWKoOW3peehvOizquiCpeaWmQ/noavphbjpjLPogqXmlpkS56Sm5rij6Yyz6LOq6IKl5paZEumJl+WQiOaFi+mMs+iCpeaWmRLliqDlt6XpjLPos6rogqXmlpkS5re35ZCI6Yyz6LOq6IKl5paZD+awp+WMlumLheiCpeaWmQ/noavphbjpi4XogqXmlpkS6YmX5ZCI5oWL6YuF6IKl5paZEuehq+mFuOS6numQteiCpeaWmRLpiZflkIjmhYvpkLXogqXmlpkP6Yms6YW46YiJ6IKl5paZEumJl+WQiOaFi+mKheiCpeaWmRjnhpToo73lvq7ph4/opoHntKDogqXmlpkb6KSH5ZCI5qyh5b6u6YeP6KaB57Sg6IKl5paZIea2suaFi+ikh+WQiOasoeW+rumHj+imgee0oOiCpeaWmR7pm5zpoIXmrKHph4/lvq7ph4/opoHntKDogqXmlpkk5ray5oWL6Zuc6aCF5qyh6YeP5b6u6YeP6KaB57Sg6IKl5paZEuakjeeJqea4o+eyleiCpeaWmRXlia/nlKLmpI3nianos6rogqXmlpkP6a2a5bui5rij6IKl5paZEuWLleeJqeW7oua4o+iCpeaWmRXlia/nlKLli5Xnianos6rogqXmlpkS5Lm+54el6I+M6auU6IKl5paZFeawruizqua1t+mzpeeznuiCpeaWmRLpm57ns57liqDlt6XogqXmlpkP56a955Wc57Oe5aCG6IKlDOS4gOiIrOWghuiCpQzpm5zpoIXloIbogqUV5re35ZCI5pyJ5qmf6LOq6IKl5paZFembnOmgheacieapn+izquiCpeaWmRvmtrLmhYvpm5zpoIXmnInmqZ/os6rogqXmlpkV5ray5oWL5pyJ5qmf6LOq6IKl5paZDOikh+WQiOiCpeaWmRLoo7nopobopIflkIjogqXmlpkb5a625bqt5ZyS6Jed55So6KSH5ZCI6IKl5paZEuWMluaIkOikh+WQiOiCpeaWmRLpm5zpoIXopIflkIjogqXmlpkS5ray5oWL6KSH5ZCI6IKl5paZGOa2suaFi+mbnOmgheikh+WQiOiCpeaWmR/mpI3niannlJ/plbfovJTliqnlipEt6IWQ5qSN6YW4G+mbnOmgheacieapn+izquagveWfueS7i+izqhXmnInmqZ/os6rmoL3ln7nku4vos6oV6LGG56eR5qC555ik6I+M6IKl5paZFea4uOmbouWbuuawruiPjOiCpeaWmQ/murbno7foj4zogqXmlpkP5rq26YmA6I+M6IKl5paZFeikh+WQiOW+rueUn+eJqeiCpeaWmRXlj6Lmnp3oj4zmoLnoj4zogqXmlpkP5YW25LuW6IKl5paZ6aGeFCsDcmdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAg0PFCsAEQ8WBB4LQWxsb3dQYWdpbmdnHhNBdXRvR2VuZXJhdGVDb2x1bW5zaGQQFgAWABYAZGRkZGRkZBYCHghQb3NpdGlvbgsqJ1N5c3RlbS5XZWIuVUkuV2ViQ29udHJvbHMuUGFnZXJQb3NpdGlvbgFkFgQeCENzc0NsYXNzBQR2aWV3HgRfIVNCAgIUKwAAZGRkZGQCDw8UKwARDxYEHwloHwpoZBAWABYAFgBkZGRkZGRkFgIfCwsrBQFkFgQfDAUEdmlldx8NAgIUKwAAZGRkZGQYAgUcY3RsMDAkTWFpbiRtX0NvbXBvc2l0aW9uR3JpZA9nZAUXY3RsMDAkTWFpbiRtX1Jlc3VsdEdyaWQPZ2T7G7XmmcUYNR0xaf60GmI2nL6BOVKXbM73GTEtTMCtmA==" />
+
+
+<script src="/WFR/ScriptResource.axd?d=BjetErLDzjQsJM-Lje38KB3s_-kMCs4lKKzLRkmJj2k7A8SWG1Xiu18w-w73oy719ERFWyhKoDFf1eWzuVgSrn82UIQLbi6qgckALwLJ7s8H4-_z1DxOx4fEs3rXJ6npzzfzlCvklmqBSMn27chq-3COjcL0mV9mUNf1vBIkjwNAeXm5Z6Sg0Rx73z_-yhyX0&amp;t=4f7d5f1" type="text/javascript"></script>
+<script src="/WFR/ScriptResource.axd?d=HnlmGufKXKdYgch0M_uZp8xTkAOnPVpR5G2XiYgwV8X_ePIO-f1ptvpTXtVGhMVS5sks_F1GDDEFWXaeeuj9KCroIGMxpI69SYH3pVdwamgjWyhquBtOyUTPlDqPCLgHTAgB2SVUObDFTVJ3Jwqp7eLPDoP2iWBVQ0pkkuIW_IU1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/WFR/ScriptResource.axd?d=ZmU4PVuTUDbMKpD8uXrvi2kXBdRxU9GYi-pQLSt2pI2imMo4q9J4VxghHW184DTOOBMCFFPZFp1c_-my83Su1UJZ_y5fexnWfi6MFUKtFw_DLLl4bHDRKmT7km9Hl8poS-jJwK2H2mtsAAowFrTiAzs0CkZ2n5Krfmq2_dAs1t01&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/WFR/ScriptResource.axd?d=gTiz35Pbj2T3QEYUq_ZMjp5hy6Tu3uGjJHBZuU4g-hcC3X-Isg8rEIKBH5I2TSwhHm__5lIlGif3P62yB1eFh-IWBrTr7nMfFjkTWK3z3zgfgBua8T-v2F7ZdmRHGLO-CACtrVBTu34rPuWtCCQ7AzMIiSeuHV2dPLzJ_12TBWE1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/WFR/ScriptResource.axd?d=hMw1B_Z9LnOXeR4zKu9cTMT8pvUhIMJD0YIAMb70OwRsrhBin7_Wa8Xc5ksaGboR2CeB8R_qE9bPkW4zlDnIA5989bls5hPND2bvHdoJ8y96n-euRndISFJzRcW5l_1HS9D3Ts3DogzsGA_npon8m4UyEHLjkeQMTsePF_C1sDU1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/WFR/ScriptResource.axd?d=iG_REXMt3WApp_z0oZbuyPgsqHl3frE3QbxR61qsc4UVPImXrBQncO92Vs6IO5XjBo-HG-iXhby4we9xmSFGyafoMyasyBJe3dnIC-P8qn-wQ74aPK4UNxj9H4pC-zbcXXNHfMbVuPB-5VaFovoOjYUoYgIrBLf6WvXHMOiIwoI1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/WFR/ScriptResource.axd?d=42I2-m5-_7tQDPo8YKLT9hKNoqPyhhX2Qy_eKldPKL7Gxe4AUzj_KybaAOwOSXK0gF5cMqEKtyMEnvk1QgXj4O7och3Ahnoe73E7cHHmX9B0GqSHXYsalI0c34E06PzdTlIgX1CXImUKJz1l9UFeMFwPej8apjrnK3RzN0pKXDa3HV74x8UIkjRBNioaydvDVDnOlAccN1ee6Jf1l2Ry4Q2&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="40F0AB1E" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+        
+        
+        <table id="container" style="background-color: white;border-collapse:collapse; margin:auto">
+            <tr>
+                <td>
+                    <div class="container">
+                        <div class="header">
+                            <img id="m_HeaderImage" src="../images/top_banner2.jpg" width="100%" />
+                        </div>
+                        <div class="content" style="width: 100%">
+                            <table style="width: 100%">
+                                <tr>
+                                    
+                                    <td class="maincol">
+                                        
+                                        
+    <div id="Main_UpdatePanel1">
+	
+
+            <span id="Main_m_Msg"></span>
+            <table class="view">
+                <tr>
+                    <th>
+                        登記證字號
+                    </th>
+                    <td>
+                        <input name="ctl00$Main$m_RegNo" type="text" id="Main_m_RegNo" />
+                    </td>
+                    <th>
+                        廠牌商品名稱
+                    </th>
+                    <td>
+                        <input name="ctl00$Main$m_Brand" type="text" id="Main_m_Brand" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        業者名稱
+                    </th>
+                    <td>
+                        <input name="ctl00$Main$m_SupplierName" type="text" id="Main_m_SupplierName" />
+                    </td>
+                    <th>
+                        品目名稱
+                    </th>
+                    <td>                        
+                          <select name="ctl00$Main$m_ItemName" id="Main_m_ItemName">
+		<option value="-2">---請選擇---</option>
+		<option value="尿素肥料">1-01-尿素肥料</option>
+		<option value="裹覆尿素肥料">1-02-裹覆尿素肥料</option>
+		<option value="甲醛縮合尿素肥料">1-03-甲醛縮合尿素肥料</option>
+		<option value="丁烯醛縮合尿素肥料">1-04-丁烯醛縮合尿素肥料</option>
+		<option value="異丁醛縮合尿素肥料">1-05-異丁醛縮合尿素肥料</option>
+		<option value="硫酸胍基尿素肥料">1-06-硫酸胍基尿素肥料</option>
+		<option value="硫酸銨肥料">1-07-硫酸銨肥料</option>
+		<option value="腐植酸銨肥料">1-08-腐植酸銨肥料</option>
+		<option value="乙二醯二銨肥料">1-09-乙二醯二銨肥料</option>
+		<option value="氯化銨肥料">1-10-氯化銨肥料</option>
+		<option value="硝酸銨肥料">1-11-硝酸銨肥料</option>
+		<option value="硝酸銨鈣肥料">1-12-硝酸銨鈣肥料</option>
+		<option value="液態尿素硝酸銨肥料">1-13-液態尿素硝酸銨肥料</option>
+		<option value="硝酸鈣肥料">1-14-硝酸鈣肥料</option>
+		<option value="硝酸鈉肥料">1-15-硝酸鈉肥料</option>
+		<option value="氰氮化鈣肥料">1-16-氰氮化鈣肥料</option>
+		<option value="固態副產氮質肥料">1-17-固態副產氮質肥料</option>
+		<option value="液態副產氮質肥料">1-18-液態副產氮質肥料</option>
+		<option value="固態混合氮質肥料">1-19-固態混合氮質肥料</option>
+		<option value="液態混合氮質肥料">1-20-液態混合氮質肥料</option>
+		<option value="過磷酸鈣肥料">2-01-過磷酸鈣肥料</option>
+		<option value="重過磷酸鈣肥料">2-02-重過磷酸鈣肥料</option>
+		<option value="燒製磷肥料">2-03-燒製磷肥料</option>
+		<option value="熔製磷肥料">2-04-熔製磷肥料</option>
+		<option value="腐植酸磷肥料">2-05-腐植酸磷肥料</option>
+		<option value="加工磷質肥料">2-06-加工磷質肥料</option>
+		<option value="副產磷質肥料">2-07-副產磷質肥料</option>
+		<option value="混合磷質肥料">2-08-混合磷質肥料</option>
+		<option value="磷礦粉肥料">2-09-磷礦粉肥料</option>
+		<option value="氯化鉀肥料">3-01-氯化鉀肥料</option>
+		<option value="硫酸鉀肥料">3-02-硫酸鉀肥料</option>
+		<option value="碳酸氫鉀肥料">3-03-碳酸氫鉀肥料</option>
+		<option value="粗製鉀鹽肥料">3-04-粗製鉀鹽肥料</option>
+		<option value="硫酸鉀鎂肥料">3-05-硫酸鉀鎂肥料</option>
+		<option value="腐植酸鉀肥料">3-06-腐植酸鉀肥料</option>
+		<option value="矽酸鉀肥料">3-07-矽酸鉀肥料</option>
+		<option value="加工滷汁鉀肥料">3-08-加工滷汁鉀肥料</option>
+		<option value="副產鉀質肥料">3-09-副產鉀質肥料</option>
+		<option value="混合鉀質肥料">3-10-混合鉀質肥料</option>
+		<option value="硫酸鎂肥料">4-01-硫酸鎂肥料</option>
+		<option value="氫氧化鎂肥料">4-02-氫氧化鎂肥料</option>
+		<option value="氧化鎂肥料">4-03-氧化鎂肥料</option>
+		<option value="腐植酸鎂肥料">4-04-腐植酸鎂肥料</option>
+		<option value="木質磺酸鎂肥料">4-05-木質磺酸鎂肥料</option>
+		<option value="加工鎂質肥料">4-06-加工鎂質肥料</option>
+		<option value="副產鎂質肥料">4-07-副產鎂質肥料</option>
+		<option value="混合鎂質肥料">4-08-混合鎂質肥料</option>
+		<option value="鉗合態鎂肥料">4-09-鉗合態鎂肥料</option>
+		<option value="生石灰肥料">4-10-生石灰肥料</option>
+		<option value="消石灰肥料">4-11-消石灰肥料</option>
+		<option value="碳酸鈣肥料">4-12-碳酸鈣肥料</option>
+		<option value="貝殼粉肥料">4-13-貝殼粉肥料</option>
+		<option value="副產石灰肥料">4-14-副產石灰肥料</option>
+		<option value="混合石灰肥料">4-15-混合石灰肥料</option>
+		<option value="鈣液肥">4-16-鈣液肥</option>
+		<option value="硫酸鈣肥料">4-17-硫酸鈣肥料</option>
+		<option value="白雲石灰肥料">4-18-白雲石灰肥料</option>
+		<option value="白雲石粉肥料">4-19-白雲石粉肥料</option>
+		<option value="矽質石灰石肥料">4-20-矽質石灰石肥料</option>
+		<option value="矽酸爐渣肥料">4-21-矽酸爐渣肥料</option>
+		<option value="硼酸肥料">4-22-硼酸肥料</option>
+		<option value="硼酸鹽肥料">4-23-硼酸鹽肥料</option>
+		<option value="熔製硼質肥料">4-24-熔製硼質肥料</option>
+		<option value="加工硼質肥料">4-25-加工硼質肥料</option>
+		<option value="硫酸錳肥料">4-26-硫酸錳肥料</option>
+		<option value="礦渣錳質肥料">4-27-礦渣錳質肥料</option>
+		<option value="鉗合態錳肥料">4-28-鉗合態錳肥料</option>
+		<option value="加工錳質肥料">4-29-加工錳質肥料</option>
+		<option value="混合錳質肥料">4-30-混合錳質肥料</option>
+		<option value="氧化鋅肥料">4-31-氧化鋅肥料</option>
+		<option value="硫酸鋅肥料">4-32-硫酸鋅肥料</option>
+		<option value="鉗合態鋅肥料">4-33-鉗合態鋅肥料</option>
+		<option value="硫酸亞鐵肥料">4-34-硫酸亞鐵肥料</option>
+		<option value="鉗合態鐵肥料">4-35-鉗合態鐵肥料</option>
+		<option value="鉬酸鈉肥料">4-36-鉬酸鈉肥料</option>
+		<option value="鉗合態銅肥料">4-37-鉗合態銅肥料</option>
+		<option value="熔製微量要素肥料">4-38-熔製微量要素肥料</option>
+		<option value="複合次微量要素肥料">4-39-複合次微量要素肥料</option>
+		<option value="液態複合次微量要素肥料">4-40-液態複合次微量要素肥料</option>
+		<option value="雜項次量微量要素肥料">4-41-雜項次量微量要素肥料</option>
+		<option value="液態雜項次量微量要素肥料">4-42-液態雜項次量微量要素肥料</option>
+		<option value="植物渣粕肥料">5-01-植物渣粕肥料</option>
+		<option value="副產植物質肥料">5-02-副產植物質肥料</option>
+		<option value="魚廢渣肥料">5-03-魚廢渣肥料</option>
+		<option value="動物廢渣肥料">5-04-動物廢渣肥料</option>
+		<option value="副產動物質肥料">5-05-副產動物質肥料</option>
+		<option value="乾燥菌體肥料">5-06-乾燥菌體肥料</option>
+		<option value="氮質海鳥糞肥料">5-07-氮質海鳥糞肥料</option>
+		<option value="雞糞加工肥料">5-08-雞糞加工肥料</option>
+		<option value="禽畜糞堆肥">5-09-禽畜糞堆肥</option>
+		<option value="一般堆肥">5-10-一般堆肥</option>
+		<option value="雜項堆肥">5-11-雜項堆肥</option>
+		<option value="混合有機質肥料">5-12-混合有機質肥料</option>
+		<option value="雜項有機質肥料">5-13-雜項有機質肥料</option>
+		<option value="液態雜項有機質肥料">5-14-液態雜項有機質肥料</option>
+		<option value="液態有機質肥料">5-15-液態有機質肥料</option>
+		<option value="複合肥料">6-01-複合肥料</option>
+		<option value="裹覆複合肥料">6-02-裹覆複合肥料</option>
+		<option value="家庭園藝用複合肥料">6-03-家庭園藝用複合肥料</option>
+		<option value="化成複合肥料">6-04-化成複合肥料</option>
+		<option value="雜項複合肥料">6-05-雜項複合肥料</option>
+		<option value="液態複合肥料">6-06-液態複合肥料</option>
+		<option value="液態雜項複合肥料">6-07-液態雜項複合肥料</option>
+		<option value="植物生長輔助劑-腐植酸">7-01-植物生長輔助劑-腐植酸</option>
+		<option value="雜項有機質栽培介質">7-02-雜項有機質栽培介質</option>
+		<option value="有機質栽培介質">7-03-有機質栽培介質</option>
+		<option value="豆科根瘤菌肥料">8-01-豆科根瘤菌肥料</option>
+		<option value="游離固氮菌肥料">8-02-游離固氮菌肥料</option>
+		<option value="溶磷菌肥料">8-03-溶磷菌肥料</option>
+		<option value="溶鉀菌肥料">8-04-溶鉀菌肥料</option>
+		<option value="複合微生物肥料">8-05-複合微生物肥料</option>
+		<option value="叢枝菌根菌肥料">8-06-叢枝菌根菌肥料</option>
+		<option value="其他肥料類">9-01-其他肥料類</option>
+
+	</select>  
+                    </td>
+                </tr>                
+            </table>
+            <div class="FunctionButtons">
+                <input type="submit" name="ctl00$Main$m_Query" value="查詢" id="Main_m_Query" />
+            </div>
+
+            <div>
+
+	</div>
+            
+        
+</div>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <img id="m_FooterImage" class="footerImg" src="../images/footer_banner.png" width="100%" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+InitCalendar();InitMaster();RecoverDisabledWebControl();Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.Animation.UpdatePanelAnimationBehavior, {"OnUpdated":"{\"AnimationName\":\"Parallel\",\"duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"ScriptAction\",\"script\":\"ajaxStop();\",\"AnimationChildren\":[]}]}","OnUpdating":"{\"AnimationName\":\"Parallel\",\"duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"ScriptAction\",\"script\":\"ajaxStart();\",\"AnimationChildren\":[]}]}","id":"Main_ctl01"}, null, null, $get("Main_UpdatePanel1"));
+});
+//]]>
+</script>
+</form>    
+</body>
+</html>

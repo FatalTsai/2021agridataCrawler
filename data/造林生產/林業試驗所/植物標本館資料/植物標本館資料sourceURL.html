@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--for Safari-->
+        <meta name="format-detection" content="telephone=no" />
+        <title>林業試驗所植物標本館</title>
+        
+                <link rel="stylesheet" type="text/css" href="../css/tw/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/tw/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/tw/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../css/tw/inner.css" />
+    <link rel="stylesheet" type="text/css" href="../css/tw/menuStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/tw/flexslider.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../css/tw/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="../css/tw/datepicker-main.css" />            
+	<!-- 玻璃底片展示的css -->
+	<link rel="stylesheet" href="../css/tw/lightbox.css">
+    <script src="../js/jquery.js"></script>
+    <!--列印的js-->
+    <script src="../js/jqprint.0.3.js"></script>    
+    
+        <script>
+    $(document).ready(function(){
+    	$("#topBtn").hide();
+    	$(function () {
+    		//檢查螢幕高度
+    		var height=$(window).height();
+    		$(window).scroll(function(){
+    			if ($(window).scrollTop()>100){
+    				$("#topBtn").fadeIn();
+    			}else{
+    				$("#topBtn").fadeOut();
+    				}
+    		});
+    		$('#topBtn').click(function () {
+    			$('html,body').animate({ scrollTop: '0px' }, 600);
+    			return false;
+    		});
+    	});
+    });
+    </script>        
+        <script>
+                    
+            var OnSearchKeyword = function(){
+                //var url = "//taif.tfri.gov.tw/search/result.php?l=Cht&ol=1&keyword="        
+                //var url = "//taif.tfri.gov.tw/search/result.php?l=Cht&ol=1"        
+                var url = "https://taifdb.tfri.gov.tw/search/result.php?l=Cht&ol=1"        
+                var Keyword = $("#txtKeyword").val();
+                var SearchKeywordError = $("#SearchKeywordError");
+                SearchKeywordError.hide();
+                if(Keyword != ""){
+                    url += "&keyword=" + encodeURIComponent(Keyword);
+                    window.open(url);                                
+                }else{
+                    SearchKeywordError.show();
+                }
+            };
+        </script>        
+        
+    </head>
+
+    <body class="resizeWrap">
+                <a href="#main-content" id="gotocenter" title="跳到主要內容區塊" tabindex="1">跳到主要內容區塊</a>
+
+        <noscript>您的瀏覽器不支援JavaScript功能，若網頁功能無法正常使用時，請開啟瀏覽器JavaScript狀態</noscript>
+        <header>
+            <div class="webWrap">
+            	<h1 class="logo"><a href="index.php" title="林業試驗所植物標本館"><img src="../images/tw/logo/logo.png" alt="林業試驗所植物標本館"/></a></h1>
+                <nav class="topNav">
+                	<ul>
+                        <li><a id="top" title="上方導覽連結區 (Alt+U)" accesskey="U" href="#top">:::</a></li>
+                        <li><a href="SiteMap.php" title="網站導覽">網站導覽</a></li>
+                        <li><a href="/tw/index.php" title="中文">中文</a></li>
+                        <li><a href="/en/index.php" title="English">English</a></li>
+                    </ul>
+                </nav>
+                <div class="langWrap"><a href="/en/index.php" title="English">English</a></div>
+                <div class="mainMenu">
+                    <button id="nav-toggle" class="nav-toggle"><i class="fa fa-bars" aria-hidden="true"></i><span class="sr-only">主選單</span></button>
+                    <nav class="nav-collapse">
+                      <ul class="menu-items">
+					  <!--<li class="onMb langBox">
+                	<a href="#" title="語言">語言</a>
+                	<ul class="sub-menu">
+                        <li class="onMb"><a href="/tw/index.php" title="中文">中文</a></li>
+                        <li class="onMb"><a href="//taif.tfri.gov.tw/en/" title="English">English</a></li>
+                    </ul>
+                </li>-->
+			
+                        <li><a href="/tw/News.php" title="最新消息">最新消息</a></li>
+			
+                        <li><a href="/tw/AboutUs.php" title="關於我們">關於我們</a></li>
+			
+                        <li><a href="/tw/FileDownload.php" title="檔案下載">檔案下載</a></li>
+			
+                        <li><a href="/tw/WhyDigitize.php" title="標本數位化">標本數位化</a></li>
+	
+                        <li class="onMb"><a href="SiteMap.php" title="網站導覽">網站導覽</a></li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="mainWrap">
+            
+        <div class="mainBanner">
+            <div class="slider">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li><img src="../images/tw/banner/mainBanner1.jpg" alt="木薑子彩繪" /></li>
+                        <li><img src="../images/tw/banner/mainBanner2.jpg" alt="三角咪草" /></li>
+                        <li><img src="../images/tw/banner/mainBanner3.jpg" alt="榆科" /></li>
+                        <li><img src="../images/tw/banner/mainBanner4.jpg" alt="台灣草牡丹" /></li>
+                        <li><img src="../images/tw/banner/mainBanner5.jpg" alt="扇葉鐵線蕨" /></li>
+                        <li><img src="../images/tw/banner/mainBanner6.jpg" alt="小木通" /></li>
+                        <li><img src="../images/tw/banner/mainBanner7.jpg" alt="烏來杜鵑" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <noscript>
+			<img src="../images/tw/banner/mainBanner1.jpg" alt="木薑子彩繪" />
+            <img src="../images/tw/banner/mainBanner2.jpg" alt="三角咪草" />
+            <img src="../images/tw/banner/mainBanner3.jpg" alt="榆科" />
+            <img src="../images/tw/banner/mainBanner4.jpg" alt="台灣草牡丹" />
+            <img src="../images/tw/banner/mainBanner5.jpg" alt="扇葉鐵線蕨" />
+            <img src="../images/tw/banner/mainBanner6.jpg" alt="小木通" />
+            <img src="../images/tw/banner/mainBanner7.jpg" alt="烏來杜鵑" />
+        </noscript>
+ 
+			<a class="anchor-fix" id="main-content" title="中間主要內容區 (Alt+C)" accesskey="C" href="#main-content">:::</a>
+
+            <div class="searchWrap">
+                <form id="SearchKeyword" name="SearchKeyword" method="post" >
+                    <label for="txtKeyword"><h2 class="indexTitle"><span>Search</span>館藏查詢</h2></label>
+					<input type="hidden" name="csrf" value="acec770ce75537124cdc6f77051187b760439b92" />	
+                	<input type="text" id="txtKeyword" name="txtKeyword" placeholder="請輸入關鍵字" autocomplete="off" />
+                    <input type="button" id="btnSearchKeyword" class="searchBtn" value="搜尋" onclick="OnSearchKeyword();"  />
+                    <span id="SearchKeywordError" style="display: none;color:Red;">請輸入關鍵字</span>
+                </form>
+            </div>			
+            <div class="webWrap themeBlock">
+            	<ul class="themeList">
+            		<li>
+                        <!--<a class="themeItem" href="http://taif.tfri.gov.tw/search/index.php" target="_blank" title="連結至館藏標本(另開新視窗)" >-->
+                        <a class="themeItem" href="https://taifdb.tfri.gov.tw/search/index.php" target="_blank" title="連結至館藏標本(另開新視窗)" >
+            			<h2 class="indexTitle">館藏標本</h2>
+            			<div class="themeImgBox"><img alt="" src="../images/tw/banner/theme1.jpg"/></div>
+            		</a></li>
+            		<li><!--<a class="themeItem" href="//taif.tfri.gov.tw/search/type/" target="_blank" title="連結至模式標本(另開新視窗)">-->
+                        <a class="themeItem" href="https://taifdb.tfri.gov.tw/search/type/index.php" target="_blank" title="連結至模式標本(另開新視窗)">
+            			<h2 class="indexTitle">模式標本</h2>
+            			<div class="themeImgBox"><img alt="" src="../images/tw/banner/theme2.jpg"/></div>
+            		</a></li>
+            		<li><a class="themeItem" href="GlassFilm.php" title="連結至玻璃底片">
+            			<h2 class="indexTitle">玻璃底片</h2>
+            			<div class="themeImgBox"><img alt="" src="../images/tw/banner/theme3.jpg"/></div>
+            		</a></li>
+            	</ul>
+            	<div class="clear"></div>
+            </div>
+            	
+            <div class="newsBlock">
+            	<div class="webWrap">
+            		<div class="newsWrap">
+            			<h2 class="indexTitle"><span>News</span>最新消息</h2>
+	
+            			<ul class="newsList">
+	
+            				<li><a href="NewsContent.php?ID=12&secureChk=92ce282cb3b14a15d7a44cb49264d1c3" title="植物標本館 2021 上半年度薰蒸休館通知">
+            					<span class="n-date">2021/03/12</span>
+            					<span>植物標本館 2021 上半年度薰蒸休館通知</span>
+            				</a></li>
+	
+            				<li><a href="NewsContent.php?ID=2&secureChk=09f41bf6165fb5aa90e6c959fd8c44f7" title="植物標本館 2020 下半年度薰蒸休館通知">
+            					<span class="n-date">2020/09/07</span>
+            					<span>植物標本館 2020 下半年度薰蒸休館通知</span>
+            				</a></li>
+	
+            				<li><a href="NewsContent.php?ID=6&secureChk=5f435d3a93f1b2c2a37e255dde61de11" title="植物標本館新網站">
+            					<span class="n-date">2020/08/24</span>
+            					<span>植物標本館新網站</span>
+            				</a></li>
+	
+            				<!--
+							<li><a href="#" title="植物標本館2020下半年度薰蒸休館通知">
+            					<span class="n-date">2020/08/19</span>
+            					<span>[休館通知]本館將於9月30日(三)下午5點至10月7日(三)上午8點暫停對外開放。不便之處敬請見諒。</span>
+            				</a></li>
+							-->
+            			</ul>
+            			<a class="moreLink" href="News.php" title="更多最新消息(另開新視窗)">更多最新消息</a>
+            		</div>
+            	</div>
+            </div>
+	
+            <div class="webWrap infoBlock">
+            	<div class="countBox">
+            		<h2 class="indexTitle"><span>Collection</span>本館收藏</h2>
+            		<ul class="countList">
+            			<li>現有標本數量 <span id="count-1" class="countNum">530000</span>筆</li>
+            			<li>模式標本 <span id="count-2" class="countNum">1900</span>份</li>
+            			<li>最老標本 <span id="count-3" class="countNum">1848</span>年</li>
+            		</ul>
+            	</div>
+            	<div class="tpbgBanner"><a href="https://tpbg.tfri.gov.tw/index.php" title="台北植物園(另開新視窗)" target="_blank"><img alt="台北植物園" src="../images/tw/logo/logo-tpbg.png"/></a></div>
+            	<div class="herbariumBanner"><a href="https://tpbg.tfri.gov.tw/tpbg_herbarium.php" title="台北植物園臘葉館(另開新視窗)" target="_blank"><img alt="台北植物園臘葉館" src="../images/tw/logo/stamp.png"/></a></div>
+            </div>
+        </div>
+
+        <footer>
+        <a class="bottomAccesskey" id="bottom" title="下方導覽連結區 (Alt+B)" accesskey="B" href="#bottom">:::</a>
+            
+        <div class="footerBot webWrap">
+            <div class="alignL">
+                <p>林業試驗所植物標本館 © 2020</p>
+                <ul class="webInfo">
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span class="sr-only">地址</span>台北市三元街67號</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><span class="sr-only">電話</span>02-23039978#2205</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">Email</span>taif@tfri.gov.tw</li>
+                </ul>
+            </div>
+            <div class="alignR">
+			
+                <p>今日拜訪人次：10 人</p>
+                <p>總訪客人次：9,062 人</p>
+                <div class="govBox">
+                    <a class="aLink" href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20201116102941" target="_blank" title="無障礙網站(另開新視窗)"><img src="../images/tw/logo/A.jpg" alt="通過A檢測等級無障礙網頁檢測" /></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="goTop"><a href="#" title="回頂端" id="topBtn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sr-only">回頂端</span></a></div>
+    </footer>
+    
+    <script  src="../js/menu.js"></script>
+    
+    <!-- FlexSlider -->
+    <script src="../js/jquery.flexslider.min.js"></script>
+    <script>
+        $('.flexslider').flexslider({
+          animation: "fade",
+    	  startAt:0,
+    	  slideshow:true,
+    	  slideshowSpeed:4000,
+    	  animationSpeed:1500,
+    	  //pauseOnAction:true,
+    	  pauseOnHover:true,
+    	  directionNav:false
+    	  //pausePlay:true
+    	  
+        });
+    </script>
+    
+    <!-- counter的js -->
+    <script src="../js/jQuerySimpleCounter.js"></script>
+    <script>
+        $('#count-1').jQuerySimpleCounter({
+            start:  529996,
+            end:    530000,
+        });
+        $('#count-2').jQuerySimpleCounter({
+            start:  1896,
+            end:    1900,
+        });
+        $('#count-3').jQuerySimpleCounter({
+            start:  1844,
+            end:    1848,
+        });
+    </script>
+    
+    <!-- 小日曆的js -->
+    <script src="../js/datepicker.js"></script>
+    <script src="../js/datepicker.zh-CN.js"></script>
+    <script src="../js/datepicker-main.js"></script>
+    <script>
+        $(".docs-date").datepicker({
+            language: 'zh-CN'
+        });
+    </script>
+
+	<!-- 玻璃底片展示的js -->
+	<script src="../js/lightbox-plus-jquery.min.js"></script>
+        
+    </body>
+</html>    

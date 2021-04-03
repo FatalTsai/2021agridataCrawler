@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='www.hdares.gov.tw', port=80): Max retries exceeded with url: /view.php?catid=2323 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2f0eac9358>: Failed to establish a new connection: [Errno 101] Network is unreachable',))

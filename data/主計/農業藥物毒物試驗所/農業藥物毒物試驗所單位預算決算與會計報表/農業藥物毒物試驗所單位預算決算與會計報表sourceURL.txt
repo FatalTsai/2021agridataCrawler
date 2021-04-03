@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='www.tactri.gov.tw', port=80): Max retries exceeded with url: /wSite/np?ctNode=1135&amp;mp=11&amp;idPath=213_857 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2f0eac9eb8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))

@@ -94,8 +94,8 @@
 			</tr>
 			<tr class="nav">
 				<td height="50">
-					<a href="/Feed/Unlogin/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA">首頁</a>
-					<a href="/Feed/Login/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA">登入</a>
+					<a href="/Feed/Unlogin/index.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2">首頁</a>
+					<a href="/Feed/Login/index.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2">登入</a>
 				</td>
 			</tr>
 			<tr>
@@ -172,7 +172,7 @@
 			var cname=$("#qry_cname").val();
 			clearInput("queryForm");
 			if(cname!=""){
-				$("#queryForm").attr("action", '/Feed/B0201/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA');
+				$("#queryForm").attr("action", '/Feed/B0201/index.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2');
 				$("#queryForm").submit();
 			}
 		});
@@ -200,7 +200,7 @@
 			$("#caNo2").empty();
 			
 			$.ajax({
-				url : '/Feed/B0201/getFeedCategoryList.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA',
+				url : '/Feed/B0201/getFeedCategoryList.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2',
 				dataType : "json",
 				type : "POST",
 				data : {
@@ -225,7 +225,7 @@
 		
 		if(val!=null && val!=""){
 			$.ajax({
-				url : '/Feed/B0201/getFeedClassList.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA',
+				url : '/Feed/B0201/getFeedClassList.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2',
 				dataType : "json",
 				type : "POST",
 				data : {
@@ -254,7 +254,7 @@
 		$("span").html("");
 		clearInput("viewForm");
 		$.ajax({
-			url : '/Feed/B0201/view.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA',
+			url : '/Feed/B0201/view.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2',
 			dataType : "json",
 			type : "POST",
 			data : {
@@ -365,7 +365,7 @@
 <div id="feedCategoryDialog" title="飼料種類查詢帶入作業">
 	<div id="queryCss">
 		<div class="fm">
-			<form id="feedCategoryQueryForm" name="feedCategoryQueryForm" action="/Feed/Common/getFeedCategoryList.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA" method="post">
+			<form id="feedCategoryQueryForm" name="feedCategoryQueryForm" action="/Feed/Common/getFeedCategoryList.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2" method="post">
 				<table style="width: 100%">
 					<tr>
 						<td class="group2">
@@ -514,7 +514,7 @@
 
 
 <div class="fm">
-	<form id="queryForm" name="queryForm" action="/Feed/B0201/query.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA" method="post">
+	<form id="queryForm" name="queryForm" action="/Feed/B0201/query.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2" method="post">
 		<input type="hidden" id="fileType" name="fileType" />
 		<table style="width: 100%">
 			<tr>
@@ -731,7 +731,7 @@
 
 
 	<div id="viewDialog" title="檢視">
-		<form id="viewForm" name="viewForm" action="/Feed/B0201/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA" method="post">
+		<form id="viewForm" name="viewForm" action="/Feed/B0201/index.action;jsessionid=E24D0D767FE1B70E593D1AE0595514A2" method="post">
 			<table width="100%" border="0" cellspacing="20" cellpadding="0" >
 				<tr><td align=center><font size=3><b><span id="view_feedCertDoc_certCodeDesc"></span></b></font></td></tr>
 				<tr style=" height : 14px;"><td align=right><span id="view_feedCertDoc_certDocHead"></span> 字第 <span id="view_feedCertDoc_certDocTail"></span> 號</td></tr>

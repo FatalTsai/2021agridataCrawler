@@ -1,0 +1,528 @@
+
+
+
+<!DOCTYPE html>
+<html lang="">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	查詢各縣市糧價-依日期 - 糧價、糧商及當旬公糧收購數量資料查詢系統
+</title>
+
+    
+    
+    <link href="/Search/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Search/Css/Lib/jquery.jgrowl.css" rel="stylesheet" />
+    <link href="/Search/Css/Base.css?210404" rel="stylesheet" />
+    <link href="/Search/Css/Main.css?210404" rel="stylesheet" />
+    <link href="/Search/Css/JqueryUI.css?210404" rel="stylesheet" />
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    <script src="/Search/Scripts/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/Lib/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/Lib/jquery.ui.datepicker-zh-TW.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/Lib/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/Lib/jquery.placeholder.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/Lib/jquery.jgrowl.min.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/Lib/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/Search/Scripts/DatePickerFormat_tw.js?0404" type="text/javascript"></script>
+    <script src="/Search/Scripts/ITCFunctions.js?210404" type="text/javascript"></script>
+    <script type="text/javascript">
+        var sessionTimeOutMsg = "登入逾時，請重新登入!";
+
+        // Set jQuery Configure
+        $.ajaxSetup({
+            cache: false,
+            error: function (x, e) {
+                if (x.status === 401) {
+                    alert(sessionTimeOutMsg);
+                }
+                window.location.reload();
+            }
+        });
+    </script>
+    
+    <link href="/Search/Css/Main.css?210404" rel="stylesheet" />
+    <script type="text/javascript" src="/Search/Scripts/Main.js?210404"></script>
+    <script type="text/javascript" src="/Search/aspnet_client/system_web/4_0_30319/crystalreportviewers13/js/crviewer/crv.js"></script>
+    <script type="text/javascript" src="/Search/aspnet_client/system_web/4_0_30319/crystalreportviewers13/allStrings_en.js"></script>
+    <script type="text/javascript" src="/Search/aspnet_client/system_web/4_0_30319/crystalreportviewers13/allStrings_zh_TW.js"></script>
+    <script type="text/javascript" src="/Search/Scripts/Lib/jquery.blockUI.js"></script>
+    <script type="text/javascript">
+        qs_sys_pid = "S020101";
+        curPageFileNameWithInfo = "S02010101.aspx?sys_id=S02&sys_pid=S02010101";
+        jqueryAjaxTypeName = "action";
+    </script>
+    
+    <style>
+        .overText {
+            display: block;
+            max-width: 300px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow-x: hidden;
+        }
+
+        .width75P {
+            width: 75%;
+        }
+
+        .width90P {
+            width: 90%;
+        }
+
+        span.mustFilled-red:before {
+            color: #F44336;
+            content: "*";
+            font-size: 16px;
+            position: absolute;
+            margin: 0 0 0 -6px;
+        }
+
+        .grv {
+            width: auto;
+        }
+
+            .grv td,
+            .grv th,
+            .fv td,
+            .fv th {
+                white-space: nowrap;
+                width: auto;
+            }
+
+        .grvDataRow input {
+            margin: 2px;
+        }
+
+        .grvDataRow .noCenter {
+            text-align: left !important;
+        }
+
+        .ok {
+            background-color: #4CAF50;
+            border-radius: 50%;
+            border: none;
+            color: #FFFFFF;
+            display: inline-block;
+            text-align: center;
+            width: 1.5em;
+            height: 1.5em;
+            transition: all 0.2s;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+            .ok:hover {
+                /*background-color: #2196F3;
+            border-radius: 0;*/
+                transition: all 0.2s;
+                border-radius: 50%;
+                background-color: #4CAF50;
+                border: 3px solid #fff;
+                box-shadow: 0 0 0 3px #4CAF50;
+            }
+
+        .err {
+            visibility: hidden;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            display: inline-block;
+            text-align: center;
+            width: 1.5em;
+            height: 1.5em;
+            vertical-align: middle;
+        }
+
+        .block {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0.5em;
+        }
+
+        select {
+            padding: 4px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Modal -->
+    <div id="bs-modal-confirm">
+        <div class="modal" tabindex="-1" style="background: rgba(0, 0, 0, 0.5);z-index:105000">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="font-size: 14px; padding-bottom: 5px; border: none;">
+                        
+                        <h3 class="modal-title" style="font-weight: bold;font-size:18px">系統提示訊息</h3>
+                    </div>
+                    <div class="modal-body" style="font-size: 16px;">
+                    </div>
+                    <div class="modal-footer" style="border: none">
+                        <button type="button" class="bs-btn bs-btn-primary confirm">確定</button>
+                        <button type="button" class="bs-btn bs-btn-default cancel" data-dismiss="modal">取消</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form method="post" action="./S02010101.aspx?sys_id=S02&amp;sys_pid=S02010101" id="form1" class="baseForm">
+<input type="hidden" name="baseContent_cph_tsm_HiddenField" id="baseContent_cph_tsm_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+$('div.jGrowl').find('div.jGrowl-notification').children().parent().remove();//]]>
+</script>
+
+<script src="/Search/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LSQFXN2WyK9slB9j98sU0jgc_aOpZQM8Tojrb1G9glSNN--bjNF9b7on-N7m-xDT4QEvL3_TG5tZYWKFc85FY81NLpXLl0EcXTqPaE8l0T1q0&amp;t=3a1336b1" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A962AE35" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="eivVIrx80Uvb1Ld/u0To99a/0/eLH4pvsXYEingOxroB6gKN0PNYV4z+XVEVZgBbttLD3CwwEHseYT6EKEcrwjXT+0WBNSuAQfsVZYLYrM3Q5cwMp3pM45PJvsXH7E3ls/aNq8HROmAGpf9juSxIq8rtUeqVRoRzlRH39D7eMTbQNT3XfjwtMtyGzOIMLGwyPxhA7raVGHb2p0Z0TU2hUEyK/4fco5mTw7FPKvK38+0YTi3lAXqqtBnU230D4r55evOA8Y7a3PG7AjQXzOLsfBLCewPMHXfks+hrnPSD/yPiZu+zjFhZoYk9yVq9TjSCpmI0rkCrz6HuAU/ELULUuLFCcMwqvPJtKxWJGfPv+5TbM3LUPQB2Cn8SPF/3L3tXNgT3TOlrdHpS0O0QYbysJ67likLbH7Pt6Nyh8p3bnf9QCA1VO1HXt51xQjxFmDGJOo+5noULG3trCD7Rv6OIMG5VSesZxkOWmP/dCCUdqh4L5LFBA8cJ57xP0G7vsUwjLpRqVfEfeaWVVvxclXi2dnSBJ87hjl46ltntiPQuBoMR+WaoGmAASBLO/GIF3uoo42NqG3FVHqNnHOBU1E8ZtKPmP4CurZiJmM21D3wrwEIlITd93TZIwLJMLBGyVnrsrui0p2x12Nqdm5gljsDM3yZekf+UCWrA8//BE8OCZ8YrYG0//pPN1vThLUYlFJzC9z485Y2QMk5rrKv6mBiRxpMtKKuQADvKGHuEWmKIj5+T0tZnvhrLV7WRr/ZwGy71BnYFXLkQrzf73ZHOx2V4KYcTPOBVhID26PXSTb0QJVt+vqxhFNVeJNtXqlvD3Nbl/inZBqq+g1SI/78ufmOLn6MjA3v5lC6+ADZo1t/HsY3WtVUtDX1YkJlF1dHqowIFiyBheR37fhgSLiz9Nk5eJpN3BcjL4bSP7O8yel66huHDPIOIRNxUWU0UAHcoLdplsLFUzg8MBFn0LKjlyAioAVGPI07zptMkIv+Q2kt1dw3PQnmVVslOc/4bsw8kP3c4qZmQvcUXll8H333spFasAYIoBJ/wxGUHwAIeOA9JlfXA9MW0qxlTaoiu9X4CkgQxmOV3XRV037rZTYGIcm5pXLh32/2/p4BzHyXZUmjHW5TZljb1MN49/mPPbaR8vdN2R3lwMBcnaGAEDfsSyJ0rd6dSszOFU/zy3sfS5jcK19hM09arG+1uXHXkvjSSRRPZ13xp/aAUzoEaKIl3WtCZWvNls5ssS9KzSCJ8p4XUby9HH2KkPAnsN1ne/TzgcHqwT4+oh6lt+wP+0sGC0WAz9tPM+QDhMldX+58viB30nkpNVhT8P2kzPSMyRi/7+Ejj2CGShku2d1PxbN1BRjgAJDIDb+1flbT8APefRTjYFMp20XsHRQDsTc/+lL6FaAsbqWd2s/TxvYDwLf0EMkO1Pdu0MjxTwhY6fqyoT9JwNik=" />
+        <input type="submit" name="ctl00$ctl00$default_btn" value="" onclick="return false;" id="default_btn" class="hide" />
+        
+    
+    <div id="mainWrapper">
+        <div id="mainHeader" style='background-image:url(/Search/Images/SystemBanner/banner.jpg)'>
+            <h3 id="mainHeaderSysName">
+                查詢糧價</h3>
+        </div>
+        <div id="mainSubWrapper">
+            <div>
+                
+                <div id="mainMenu">
+                    <div>
+                        <div id="mainLoginInfo">
+                            
+                        </div>
+                        <ul class="mainMenuModule"><li><a href="javascript: void(0)"><div>糧價查詢</div></a><ul class="mainMenuProcess"><li><a href="/Search/S02/S0201/S02010101.aspx?sys_id=S02&sys_pid=S02010101" sys_pid="S02010101"><div>查詢各縣市糧價-依日期</div></a></li><li><a href="/Search/S02/S0201/S02010601.aspx?sys_id=S02&sys_pid=S02010601" sys_pid="S02010601"><div>查詢糧價日平均-依縣市</div></a></li><li><a href="/Search/S02/S0201/S02010201.aspx?sys_id=S02&sys_pid=S02010201" sys_pid="S02010201"><div>查詢糧價月平均-依縣市</div></a></li><li><a href="/Search/S02/S0201/S02010301.aspx?sys_id=S02&sys_pid=S02010301" sys_pid="S02010301"><div>查詢糧價月平均-依日期</div></a></li><li><a href="/Search/S02/S0201/S02010401.aspx?sys_id=S02&sys_pid=S02010401" sys_pid="S02010401"><div>查詢糧價年平均-依月份</div></a></li><li><a href="/Search/S02/S0201/S02010501.aspx?sys_id=S02&sys_pid=S02010501" sys_pid="S02010501"><div>查詢糧價年平均-依縣市</div></a></li></ul></li><li><a href="S02010701.aspx?sys_id=S02&sys_pid=S02010701"><div>公糧稻穀收購情形旬報表</div></a></li><li><a href="https://foodinformation.afa.gov.tw/RicerSearch/index.aspx" target="_blank"><div>查詢糧商資料</div></a></li><li><a href="https://ricetrace.afa.gov.tw/TrackingWeb/Login.aspx" target="_blank"><div>糧食追蹤追溯系統</div></a></li></ul>
+                        <div id="mainMenuBottomOp">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="mainContent">
+                    <div id="mainContentInner">
+                        <div id="processHeader">
+                            <span id="baseContent_cph_processName_lbl">查詢各縣市糧價-依日期</span>
+                        </div>
+                        
+                        <div id="processContentSubFunction">
+                            <div id="processContentSubFunctionInner">
+                                <div id="baseContent_cph_mainContentSubFunction_upl">
+	
+                                        
+
+                                    
+</div>
+                            </div>
+                        </div>
+                        
+                        <div id="processContent">
+                            <div id="baseContent_cph_mainContent_upl">
+	
+                                    
+    <div id="baseContent_cph_mainContent_cph_ctl00">
+		
+            <div style="width: 200px;">
+                <table class="fv table">
+                    <tr class="fvRow">
+                        <th>年度</th>
+                        <td style="width: 100px;">
+                            <select name="ctl00$ctl00$baseContent_cph$mainContent_cph$qryYear_ddl$ddl" id="baseContent_cph_mainContent_cph_qryYear_ddl_ddl" class="  form-control">
+			<option selected="selected" value="110">110</option>
+			<option value="109">109</option>
+			<option value="108">108</option>
+			<option value="107">107</option>
+			<option value="106">106</option>
+			<option value="105">105</option>
+			<option value="104">104</option>
+			<option value="103">103</option>
+			<option value="102">102</option>
+			<option value="101">101</option>
+			<option value="100">100</option>
+			<option value="99">99</option>
+			<option value="98">98</option>
+			<option value="97">97</option>
+			<option value="96">96</option>
+			<option value="95">95</option>
+			<option value="94">94</option>
+			<option value="93">93</option>
+			<option value="92">92</option>
+			<option value="91">91</option>
+			<option value="90">90</option>
+			<option value="89">89</option>
+			<option value="88">88</option>
+			<option value="87">87</option>
+			<option value="86">86</option>
+			<option value="85">85</option>
+			<option value="84">84</option>
+			<option value="83">83</option>
+			<option value="82">82</option>
+
+		</select>
+                        </td>
+                        <th>月份</th>
+                        <td style="width: 100px;">
+                            <select name="ctl00$ctl00$baseContent_cph$mainContent_cph$qryMonth_ddl$ddl" id="baseContent_cph_mainContent_cph_qryMonth_ddl_ddl" class="  form-control">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option selected="selected" value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+
+		</select>
+                        </td>
+                        <th>縣市</th>
+                        <td style="width: 100px;">
+                            <select name="ctl00$ctl00$baseContent_cph$mainContent_cph$qryCity_ddl$ddl" id="baseContent_cph_mainContent_cph_qryCity_ddl_ddl" class="  form-control">
+			<option selected="selected" value="22">台北市</option>
+			<option value="01">新北市</option>
+			<option value="17">基隆市</option>
+			<option value="02">宜蘭縣</option>
+			<option value="03">桃園市</option>
+			<option value="18">新竹市</option>
+			<option value="04">新竹縣</option>
+			<option value="05">苗栗縣</option>
+			<option value="19">台中市</option>
+			<option value="07">彰化縣</option>
+			<option value="08">南投縣</option>
+			<option value="09">雲林縣</option>
+			<option value="20">嘉義市</option>
+			<option value="10">嘉義縣</option>
+			<option value="21">台南市</option>
+			<option value="23">高雄市</option>
+			<option value="13">屏東縣</option>
+			<option value="14">台東縣</option>
+			<option value="15">花蓮縣</option>
+			<option value="16">澎湖縣</option>
+
+		</select>
+                        </td>
+                        <td style="width: 100px;">
+                            <input type="submit" name="ctl00$ctl00$baseContent_cph$mainContent_cph$query_btn" value="查詢" id="baseContent_cph_mainContent_cph_query_btn" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        
+	</div>
+    <div id="baseContent_cph_mainContent_cph_ctl01">
+		
+            <div id="baseContent_cph_mainContent_cph_main_pl">
+			
+                <div id="main_div" class="block">
+                    <div>
+				<table class="grv table" cellspacing="0" id="baseContent_cph_mainContent_cph_main_gv">
+					<tr class="grvHeaderRow">
+						<th align="center" valign="middle" colspan="16" rowspan="1">110年4月台北市糧價情形調查表</th>
+					</tr><tr class="grvHeaderRow">
+						<th align="center" valign="middle" colspan="1" rowspan="2">日期</th><th align="center" valign="middle" colspan="5" rowspan="1">白米零售價格<br/>(元 / 每公斤)</th><th align="center" valign="middle" colspan="5" rowspan="1">白米躉售價格<br/>(元 / 每百公斤)</th><th align="center" valign="middle" colspan="5" rowspan="1">稻穀價格<br/>(元 / 每百公斤)</th>
+					</tr><tr class="grvHeaderRow">
+						<th align="center" valign="middle">稉種(蓬萊)</th><th align="center" valign="middle">硬秈(在來)</th><th align="center" valign="middle">軟秈</th><th align="center" valign="middle">圓糯</th><th align="center" valign="middle">長糯</th><th align="center" valign="middle">稉種(蓬萊)</th><th align="center" valign="middle">硬秈(在來)</th><th align="center" valign="middle">軟秈</th><th align="center" valign="middle">圓糯</th><th align="center" valign="middle">長糯</th><th align="center" valign="middle">稉種(蓬萊)</th><th align="center" valign="middle">硬秈(在來)</th><th align="center" valign="middle">軟秈</th><th align="center" valign="middle">圓糯</th><th align="center" valign="middle">長糯</th>
+					</tr><tr class="grvHeaderRow">
+
+					</tr><tr class="grvDataRow odd">
+						<td align="center">
+                                    <span title="1">1</span>
+                                </td><td align="right">
+                                    <span title="44.41">44.41</span>
+                                </td><td align="right">
+                                    <span title="50.28">50.28</span>
+                                </td><td align="right">
+                                    <span title="47.32">47.32</span>
+                                </td><td align="right">
+                                    <span title="55.09">55.09</span>
+                                </td><td align="right">
+                                    <span title="57.59">57.59</span>
+                                </td><td align="right">
+                                    <span title="3611">3,611</span>
+                                </td><td align="right">
+                                    <span title="4024">4,024</span>
+                                </td><td align="right">
+                                    <span title="3944">3,944</span>
+                                </td><td align="right">
+                                    <span title="4691">4,691</span>
+                                </td><td align="right">
+                                    <span title="5065">5,065</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td>
+					</tr><tr class="grvDataRow even">
+						<td align="center">
+                                    <span title="2">2</span>
+                                </td><td align="right">
+                                    <span title="44.41">44.41</span>
+                                </td><td align="right">
+                                    <span title="50.28">50.28</span>
+                                </td><td align="right">
+                                    <span title="47.32">47.32</span>
+                                </td><td align="right">
+                                    <span title="55.09">55.09</span>
+                                </td><td align="right">
+                                    <span title="57.59">57.59</span>
+                                </td><td align="right">
+                                    <span title="3611">3,611</span>
+                                </td><td align="right">
+                                    <span title="4024">4,024</span>
+                                </td><td align="right">
+                                    <span title="3944">3,944</span>
+                                </td><td align="right">
+                                    <span title="4691">4,691</span>
+                                </td><td align="right">
+                                    <span title="5065">5,065</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td>
+					</tr><tr class="grvDataRow odd">
+						<td align="center">
+                                    <span title="3">3</span>
+                                </td><td align="right">
+                                    <span title="44.41">44.41</span>
+                                </td><td align="right">
+                                    <span title="50.28">50.28</span>
+                                </td><td align="right">
+                                    <span title="47.32">47.32</span>
+                                </td><td align="right">
+                                    <span title="55.09">55.09</span>
+                                </td><td align="right">
+                                    <span title="57.59">57.59</span>
+                                </td><td align="right">
+                                    <span title="3611">3,611</span>
+                                </td><td align="right">
+                                    <span title="4024">4,024</span>
+                                </td><td align="right">
+                                    <span title="3944">3,944</span>
+                                </td><td align="right">
+                                    <span title="4691">4,691</span>
+                                </td><td align="right">
+                                    <span title="5065">5,065</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td><td align="right">
+                                    <span title="0">0</span>
+                                </td>
+					</tr>
+				</table>
+			</div>
+                    
+                </div>
+            
+		</div>
+        
+	</div>
+
+                                
+</div>
+                        </div>
+                    </div>
+                </div>
+                <a id="mainMenuOp" href="javascript: void(0)" onclick="opMenu()"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mainFooter">
+
+        <div class="footer">
+
+            <div class="footer-container">
+
+                <div>
+                    <p>行政院農業委員會農糧署版權所有，本網站建議使用Firefox, Chrome, IE 11 以上之瀏覽器，最佳瀏覽解析度為1024x768以上</p>
+                    <div>
+                        <p style="margin-top: -5px">中興辦公區: 54044南投縣南投市光華路8號 (049) 233-2380 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 台北辦公區: 10050台北市杭州南路1段15號 (02) 2393-7231</p>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="https://www.afa.gov.tw/cht/index.php?code=list&ids=263">
+                        <p>【隱私權及安全政策】</p>
+                    </a>
+                    <a href="https://www.afa.gov.tw/cht/index.php?code=list&ids=1013">
+                        <p>【網站安全政策】</p>
+                    </a>
+                </div>
+                <span class="footerRBtitle"></span>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="loadingBox">
+        <div id="baseContent_cph_UpdateProgress2" style="display:none;">
+	
+                <div class="loadingMsgWrapper">
+                    <span class="loadingMsg">載入中...</span>
+                </div>
+            
+</div>
+        <div id="baseContent_cph_UpdateProgress1" style="display:none;">
+	
+                <div class="loadingOverlay">
+                </div>
+            
+</div>
+        
+        <div class="loadingMsgWrapper" style="display: none">
+            <span class="loadingMsg">載入中...</span>
+        </div>
+        <div class="loadingOverlay" style="display: none">
+        </div>
+    </div>
+    <script type="text/javascript">
+        // Initital
+        init();
+    </script>
+    <div id="baseContent_cph_main_upl">
+	
+            <script type="text/javascript">
+                var prm = Sys.WebForms.PageRequestManager.getInstance();
+                if (prm != null) {
+                    prm.add_endRequest(init);
+                }
+            </script>
+        
+</div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("baseContent_cph_tsm_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='www.tari.gov.tw', port=80): Max retries exceeded with url: /form/index-1.asp?Parser=2,7,44,,,,4722 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f2f0ead84a8>, 'Connection to www.tari.gov.tw timed out. (connect timeout=5)'))

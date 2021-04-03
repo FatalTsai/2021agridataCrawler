@@ -1,0 +1,612 @@
+[
+  {
+    "年度": "2020",
+    "月份": "11",
+    "日期1": "11-03",
+    "連結網址1": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1091103.pdf",
+    "日期2": "11-13",
+    "連結網址2": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1091113.pdf",
+    "日期3": null,
+    "連結網址3": null
+  },
+  {
+    "年度": "2020",
+    "月份": "10",
+    "日期1": "10-03",
+    "連結網址1": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1091003.pdf",
+    "日期2": "10-13",
+    "連結網址2": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1091013.pdf",
+    "日期3": "10-23",
+    "連結網址3": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1091023.pdf"
+  },
+  {
+    "年度": "2020",
+    "月份": "9",
+    "日期1": "09-03",
+    "連結網址1": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090903.pdf",
+    "日期2": "09-13",
+    "連結網址2": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090913.pdf",
+    "日期3": "09-23",
+    "連結網址3": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090923.pdf"
+  },
+  {
+    "年度": "2020",
+    "月份": "8",
+    "日期1": "08-03",
+    "連結網址1": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090803.pdf",
+    "日期2": "08-13",
+    "連結網址2": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090813.pdf",
+    "日期3": "08-23",
+    "連結網址3": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090823-2.pdf"
+  },
+  {
+    "年度": "2020",
+    "月份": "7",
+    "日期1": "07-03",
+    "連結網址1": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090703.pdf",
+    "日期2": "07-13",
+    "連結網址2": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090713.pdf",
+    "日期3": "07-23",
+    "連結網址3": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090723.pdf"
+  },
+  {
+    "年度": "2020",
+    "月份": "6",
+    "日期1": "06-03",
+    "連結網址1": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090603.pdf",
+    "日期2": "06-13",
+    "連結網址2": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090613.pdf",
+    "日期3": "06-23",
+    "連結網址3": "https://www.tari.gov.tw/form/df_ufiles/g/bulletin_worm_1090623.pdf"
+  },
+  {
+    "年度": "2019",
+    "月份": "11",
+    "日期1": "1103",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1081103.pdf",
+    "日期2": "1113",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1081113.pdf",
+    "日期3": "1123",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1081123.pdf"
+  },
+  {
+    "年度": "2019",
+    "月份": "10",
+    "日期1": "1003",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1081003.pdf",
+    "日期2": "1013",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1081013.pdf",
+    "日期3": "1023",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1081023.pdf"
+  },
+  {
+    "年度": "2019",
+    "月份": "9",
+    "日期1": "0903",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080903.pdf",
+    "日期2": "0913",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080913.pdf",
+    "日期3": "0923",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080923.pdf"
+  },
+  {
+    "年度": "2019",
+    "月份": "8",
+    "日期1": "0803",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080803.pdf",
+    "日期2": "0813",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080813.pdf",
+    "日期3": "0823",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080823.pdf"
+  },
+  {
+    "年度": "2019",
+    "月份": "7",
+    "日期1": "0703",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080703.pdf",
+    "日期2": "0713",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080713.pdf",
+    "日期3": "0723",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080723.pdf"
+  },
+  {
+    "年度": "2019",
+    "月份": "6",
+    "日期1": "0603",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080603.pdf ",
+    "日期2": "0613",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080613.pdf",
+    "日期3": "0623",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1080623.pdf"
+  },
+  {
+    "年度": "2018",
+    "月份": "11",
+    "日期1": "1103",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1071103.pdf",
+    "日期2": "1113",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1071113.pdf",
+    "日期3": "1123",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1071123.pdf"
+  },
+  {
+    "年度": "2018",
+    "月份": "10",
+    "日期1": "1003",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1071003.pdf",
+    "日期2": "1013",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1071013.pdf",
+    "日期3": "1023",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1071023.pdf"
+  },
+  {
+    "年度": "2018",
+    "月份": "9",
+    "日期1": "0903",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070903.pdf",
+    "日期2": "0913",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070913.pdf",
+    "日期3": "0923",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070923.pdf"
+  },
+  {
+    "年度": "2018",
+    "月份": "8",
+    "日期1": "0803",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070803.pdf",
+    "日期2": "0813",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070813.pdf",
+    "日期3": "0823",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070823.pdf"
+  },
+  {
+    "年度": "2018",
+    "月份": "7",
+    "日期1": "0703",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070703.pdf",
+    "日期2": "0713",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070713.pdf",
+    "日期3": "0723",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070723.pdf"
+  },
+  {
+    "年度": "2018",
+    "月份": "6",
+    "日期1": "0603",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070603-0702.pdf",
+    "日期2": "0613",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070613-0713.pdf",
+    "日期3": "0623",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1070623-0713.pdf"
+  },
+  {
+    "年度": "2017",
+    "月份": "11",
+    "日期1": "1103",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1061103.pdf",
+    "日期2": "1113",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1061113.pdf",
+    "日期3": "1123",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1061123.pdf"
+  },
+  {
+    "年度": "2017",
+    "月份": "10",
+    "日期1": "1003",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1061003.pdf",
+    "日期2": "1013",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1061013.pdf",
+    "日期3": "1023",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1061023.pdf"
+  },
+  {
+    "年度": "2017",
+    "月份": "9",
+    "日期1": "0903",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060903.pdf",
+    "日期2": "0913",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060913.pdf",
+    "日期3": "0923",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060923.pdf"
+  },
+  {
+    "年度": "2017",
+    "月份": "8",
+    "日期1": "0803",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060803.pdf",
+    "日期2": "0813",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060813.pdf",
+    "日期3": "0823",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060823.pdf"
+  },
+  {
+    "年度": "2017",
+    "月份": "7",
+    "日期1": "0703",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060703.pdf",
+    "日期2": "0713",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060713.pdf",
+    "日期3": "0723",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060723.pdf"
+  },
+  {
+    "年度": "2017",
+    "月份": "6",
+    "日期1": "0603",
+    "連結網址1": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060603.pdf",
+    "日期2": "0613",
+    "連結網址2": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060613.pdf",
+    "日期3": "0623",
+    "連結網址3": "https://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1060623.pdf"
+  },
+  {
+    "年度": "2016",
+    "月份": "11",
+    "日期1": "1103",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20161103.pdf",
+    "日期2": "1113",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20161113.pdf",
+    "日期3": "1123",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20161123.pdf"
+  },
+  {
+    "年度": "2016",
+    "月份": "10",
+    "日期1": "1003",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20161003.pdf",
+    "日期2": "1013",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20161013.pdf",
+    "日期3": "1023",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20161023.pdf"
+  },
+  {
+    "年度": "2016",
+    "月份": "9",
+    "日期1": "0903",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160903.pdf",
+    "日期2": "0913",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160913.pdf",
+    "日期3": "0923",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160923.pdf"
+  },
+  {
+    "年度": "2016",
+    "月份": "8",
+    "日期1": "0803",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160803.pdf",
+    "日期2": "0813",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160813.pdf",
+    "日期3": "0823",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160823.pdf"
+  },
+  {
+    "年度": "2016",
+    "月份": "7",
+    "日期1": "0703",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160703.pdf",
+    "日期2": "0713",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160713.pdf",
+    "日期3": "0723",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160723.pdf"
+  },
+  {
+    "年度": "2016",
+    "月份": "6",
+    "日期1": "0603",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160603.pdf",
+    "日期2": "0613",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160613.pdf",
+    "日期3": "0623",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20160623.pdf"
+  },
+  {
+    "年度": "2015",
+    "月份": "11",
+    "日期1": "1103",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1041103.pdf",
+    "日期2": "1113",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1041113.pdf",
+    "日期3": "1123",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1041123.pdf"
+  },
+  {
+    "年度": "2015",
+    "月份": "10",
+    "日期1": "1003",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1041003.pdf",
+    "日期2": "1013",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1041013.pdf",
+    "日期3": "1023",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1041023.pdf"
+  },
+  {
+    "年度": "2015",
+    "月份": "9",
+    "日期1": "0903",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040903.pdf",
+    "日期2": "0913",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040913.pdf",
+    "日期3": "0923",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040923.pdf"
+  },
+  {
+    "年度": "2015",
+    "月份": "8",
+    "日期1": "0803",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040803.pdf",
+    "日期2": "0813",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040813.pdf",
+    "日期3": "0823",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040823.pdf"
+  },
+  {
+    "年度": "2015",
+    "月份": "7",
+    "日期1": "0703",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040703.pdf",
+    "日期2": "0713",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040713.pdf",
+    "日期3": "0723",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040723.pdf"
+  },
+  {
+    "年度": "2015",
+    "月份": "6",
+    "日期1": "0603",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040603.pdf",
+    "日期2": "0613",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040613.pdf",
+    "日期3": "0623",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_1040623.pdf"
+  },
+  {
+    "年度": "2014",
+    "月份": "11",
+    "日期1": "1123",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20141123.pdf",
+    "日期2": "1113",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20141113.pdf",
+    "日期3": "1103",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20141103.pdf"
+  },
+  {
+    "年度": "2014",
+    "月份": "10",
+    "日期1": "1023",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20141023.pdf",
+    "日期2": "1013",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20141013.pdf",
+    "日期3": "1003",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20141003.pdf"
+  },
+  {
+    "年度": "2014",
+    "月份": "9",
+    "日期1": "0923",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140923.pdf",
+    "日期2": "0913",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140913.pdf",
+    "日期3": "0903",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140903.pdf"
+  },
+  {
+    "年度": "2014",
+    "月份": "8",
+    "日期1": "0823",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140823.pdf",
+    "日期2": "0813",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140813.pdf",
+    "日期3": "0803",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140803.pdf"
+  },
+  {
+    "年度": "2014",
+    "月份": "7",
+    "日期1": "0723",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140723.pdf",
+    "日期2": "0713",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140713.pdf",
+    "日期3": "0703",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140703.pdf"
+  },
+  {
+    "年度": "2014",
+    "月份": "6",
+    "日期1": "0623",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140623.pdf",
+    "日期2": "0613",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140613.pdf",
+    "日期3": "0603",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20140603.pdf"
+  },
+  {
+    "年度": "2013",
+    "月份": "11",
+    "日期1": "1123",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20131123.pdf",
+    "日期2": "1113",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20131113.pdf",
+    "日期3": "1103",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20131103.pdf"
+  },
+  {
+    "年度": "2013",
+    "月份": "10",
+    "日期1": "1023",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20131023.pdf",
+    "日期2": "1013",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20131013.pdf",
+    "日期3": "1003",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20131003.pdf"
+  },
+  {
+    "年度": "2013",
+    "月份": "9",
+    "日期1": "0923",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130923.pdf",
+    "日期2": "0913",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130913.pdf",
+    "日期3": "0903",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130903.pdf"
+  },
+  {
+    "年度": "2013",
+    "月份": "8",
+    "日期1": "0823",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130823.pdf",
+    "日期2": "0813",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130813.pdf",
+    "日期3": "0803",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130803.pdf"
+  },
+  {
+    "年度": "2013",
+    "月份": "7",
+    "日期1": "0723",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130723.pdf",
+    "日期2": "0713",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130713.pdf",
+    "日期3": "0703",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130703.pdf"
+  },
+  {
+    "年度": "2013",
+    "月份": "6",
+    "日期1": "0623",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130623.pdf",
+    "日期2": "0613",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130613.pdf",
+    "日期3": "0603",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20130603.pdf"
+  },
+  {
+    "年度": "2012",
+    "月份": "11",
+    "日期1": "1123",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20121123.pdf",
+    "日期2": "1113",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20121113.pdf",
+    "日期3": "1103",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20121103.pdf"
+  },
+  {
+    "年度": "2012",
+    "月份": "10",
+    "日期1": "1023",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20121023.pdf",
+    "日期2": "1013",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20121013.pdf",
+    "日期3": "1003",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20121003.pdf"
+  },
+  {
+    "年度": "2012",
+    "月份": "9",
+    "日期1": "0923",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120923.pdf",
+    "日期2": "0913",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120913.pdf",
+    "日期3": "0903",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120903.pdf"
+  },
+  {
+    "年度": "2012",
+    "月份": "8",
+    "日期1": "0823",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120823.pdf",
+    "日期2": "0813",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120813.pdf",
+    "日期3": "0803",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120803.pdf"
+  },
+  {
+    "年度": "2012",
+    "月份": "7",
+    "日期1": "0723",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120723.pdf",
+    "日期2": "0713",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120713.pdf",
+    "日期3": "0703",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120703.pdf"
+  },
+  {
+    "年度": "2012",
+    "月份": "6",
+    "日期1": "0623",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120623.pdf",
+    "日期2": "0613",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120613.pdf",
+    "日期3": "0603",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20120603.pdf"
+  },
+  {
+    "年度": "2011",
+    "月份": "11",
+    "日期1": "1123",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20111123.pdf",
+    "日期2": "1113",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20111113.pdf",
+    "日期3": "1103",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20111103.pdf"
+  },
+  {
+    "年度": "2011",
+    "月份": "10",
+    "日期1": "1023",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20111023.pdf",
+    "日期2": "1013",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20111013.pdf",
+    "日期3": "1003",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20111003.pdf"
+  },
+  {
+    "年度": "2011",
+    "月份": "9",
+    "日期1": "0923",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110923.pdf",
+    "日期2": "0913",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110913.pdf",
+    "日期3": "0903",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110903.pdf"
+  },
+  {
+    "年度": "2011",
+    "月份": "8",
+    "日期1": "0823",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110823.pdf",
+    "日期2": "0813",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110813.pdf",
+    "日期3": "0803",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110803.pdf"
+  },
+  {
+    "年度": "2011",
+    "月份": "7",
+    "日期1": "0723",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110723.pdf",
+    "日期2": "0713",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110713.pdf",
+    "日期3": "0703",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110703.pdf"
+  },
+  {
+    "年度": "2011",
+    "月份": "6",
+    "日期1": "0623",
+    "連結網址1": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110623.pdf",
+    "日期2": "0613",
+    "連結網址2": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110613.pdf",
+    "日期3": "0603",
+    "連結網址3": "http://www.tari.gov.tw/df_ufiles/g/bulletin_worm_20110603.pdf"
+  },
+  {
+    "年度": null,
+    "月份": null,
+    "日期1": null,
+    "連結網址1": null,
+    "日期2": null,
+    "連結網址2": null,
+    "日期3": null,
+    "連結網址3": ""
+  }
+]

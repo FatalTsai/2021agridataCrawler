@@ -1,1 +1,1 @@
-HTTPConnectionPool(host='agrstat.coa.gov.tw', port=80): Max retries exceeded with url: /sdweb/public/inquiry/InquireAdvance.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb1f7c93e48>, 'Connection to agrstat.coa.gov.tw timed out. (connect timeout=5)'))
+HTTPConnectionPool(host='agrstat.coa.gov.tw', port=80): Max retries exceeded with url: /sdweb/public/inquiry/InquireAdvance.aspx (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f2f0ead8a90>, 'Connection to agrstat.coa.gov.tw timed out. (connect timeout=5)'))
