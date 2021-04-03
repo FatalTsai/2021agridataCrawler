@@ -1,0 +1,2210 @@
+[
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4101,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4101,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4101,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4101,
+    "type": "秈稻",
+    "type_reward_area": 20
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4101,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4101,
+    "type": "蓬萊",
+    "type_reward_area": 4081
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 234,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 234,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 234,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 234,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 234,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 234,
+    "type": "蓬萊",
+    "type_reward_area": 234
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 10,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 10,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 10,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 10,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 10,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 10,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 754,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 754,
+    "type": "長糯",
+    "type_reward_area": 7
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 754,
+    "type": "圓糯",
+    "type_reward_area": 21
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 754,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 754,
+    "type": "在來",
+    "type_reward_area": 115
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "plant_area": 754,
+    "type": "蓬萊",
+    "type_reward_area": 556
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 486,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 486,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 486,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 486,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 486,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "plant_area": 486,
+    "type": "蓬萊",
+    "type_reward_area": 486
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 8315,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 8315,
+    "type": "長糯",
+    "type_reward_area": 8
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 8315,
+    "type": "圓糯",
+    "type_reward_area": 133
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 8315,
+    "type": "秈稻",
+    "type_reward_area": 257
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 8315,
+    "type": "在來",
+    "type_reward_area": 54
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "plant_area": 8315,
+    "type": "蓬萊",
+    "type_reward_area": 7862
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 6277,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 6277,
+    "type": "長糯",
+    "type_reward_area": 4
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 6277,
+    "type": "圓糯",
+    "type_reward_area": 87
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 6277,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 6277,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "plant_area": 6277,
+    "type": "蓬萊",
+    "type_reward_area": 6186
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 911,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 911,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 911,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 911,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 911,
+    "type": "在來",
+    "type_reward_area": 12
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "plant_area": 911,
+    "type": "蓬萊",
+    "type_reward_area": 899
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 15314,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 15314,
+    "type": "長糯",
+    "type_reward_area": 32
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 15314,
+    "type": "圓糯",
+    "type_reward_area": 180
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 15314,
+    "type": "秈稻",
+    "type_reward_area": 8
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 15314,
+    "type": "在來",
+    "type_reward_area": 291
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "plant_area": 15314,
+    "type": "蓬萊",
+    "type_reward_area": 14803
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 14662,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 14662,
+    "type": "長糯",
+    "type_reward_area": 261
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 14662,
+    "type": "圓糯",
+    "type_reward_area": 1171
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 14662,
+    "type": "秈稻",
+    "type_reward_area": 24
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 14662,
+    "type": "在來",
+    "type_reward_area": 155
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "plant_area": 14662,
+    "type": "蓬萊",
+    "type_reward_area": 13051
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 2423,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 2423,
+    "type": "長糯",
+    "type_reward_area": 56
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 2423,
+    "type": "圓糯",
+    "type_reward_area": 27
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 2423,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 2423,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "plant_area": 2423,
+    "type": "蓬萊",
+    "type_reward_area": 2340
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 21762,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 21762,
+    "type": "長糯",
+    "type_reward_area": 2382
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 21762,
+    "type": "圓糯",
+    "type_reward_area": 147
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 21762,
+    "type": "秈稻",
+    "type_reward_area": 5469
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 21762,
+    "type": "在來",
+    "type_reward_area": 24
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "plant_area": 21762,
+    "type": "蓬萊",
+    "type_reward_area": 18593
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 26619,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 5066,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 5066,
+    "type": "長糯",
+    "type_reward_area": 1
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 5066,
+    "type": "圓糯",
+    "type_reward_area": 10
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 5066,
+    "type": "秈稻",
+    "type_reward_area": 12
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 5066,
+    "type": "在來",
+    "type_reward_area": 3
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "plant_area": 5066,
+    "type": "蓬萊",
+    "type_reward_area": 5039
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 3427,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 3427,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 3427,
+    "type": "圓糯",
+    "type_reward_area": 5
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 3427,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 3427,
+    "type": "在來",
+    "type_reward_area": 3422
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "plant_area": 3427,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "plant_area": 0,
+    "type": "蓬萊",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 510,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 510,
+    "type": "長糯",
+    "type_reward_area": 2
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 510,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 510,
+    "type": "秈稻",
+    "type_reward_area": 13
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 510,
+    "type": "在來",
+    "type_reward_area": 2
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "plant_area": 510,
+    "type": "蓬萊",
+    "type_reward_area": 492
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 10155,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 10155,
+    "type": "長糯",
+    "type_reward_area": 67
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 10155,
+    "type": "圓糯",
+    "type_reward_area": 335
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 10155,
+    "type": "秈稻",
+    "type_reward_area": 42
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 10155,
+    "type": "在來",
+    "type_reward_area": 53
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "plant_area": 10155,
+    "type": "蓬萊",
+    "type_reward_area": 9657
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 12957,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 12957,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 12957,
+    "type": "圓糯",
+    "type_reward_area": 215
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 12957,
+    "type": "秈稻",
+    "type_reward_area": 26
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 12957,
+    "type": "在來",
+    "type_reward_area": 73
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "plant_area": 12957,
+    "type": "蓬萊",
+    "type_reward_area": 12633
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4160,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4160,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4160,
+    "type": "圓糯",
+    "type_reward_area": 24
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4160,
+    "type": "秈稻",
+    "type_reward_area": 20
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4160,
+    "type": "在來",
+    "type_reward_area": 4103
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "plant_area": 4160,
+    "type": "蓬萊",
+    "type_reward_area": 4148
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 242,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 242,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 242,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 242,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 242,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "plant_area": 242,
+    "type": "蓬萊",
+    "type_reward_area": 248
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 11,
+    "type": "陸稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 11,
+    "type": "長糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 11,
+    "type": "圓糯",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 11,
+    "type": "秈稻",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 11,
+    "type": "在來",
+    "type_reward_area": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "plant_area": 11,
+    "type": "蓬萊",
+    "type_reward_area": 7
+  }
+]

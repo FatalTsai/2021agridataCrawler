@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='newhub.swcb.gov.tw', port=80): Read timed out. (read timeout=5)

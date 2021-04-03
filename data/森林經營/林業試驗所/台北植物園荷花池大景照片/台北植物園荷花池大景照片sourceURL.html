@@ -1,0 +1,1213 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+	
+	
+	
+
+
+   
+
+
+   
+
+
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Product">
+<head>
+<meta name="google-site-verification" content="pInKegofaoZIKj0BelbJHEKrhK4hCQE89p0yQ9nNNAc" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link id="master_shareLink" rel="image_src" href="https://iesn.tfri.gov.tw/forestDW/resources/images/TFRI-share-default.gif" />
+<meta id="master_shareLink2" property="og:image" content="https://iesn.tfri.gov.tw/forestDW/resources/images/TFRI-share-default.gif" />
+<title>林業試驗所生態感測展示平台</title>
+
+
+
+
+<link rel="govtwsimpledc.xsd" href="http://www.gov.tw/schema/dc/" title="Dublin Core" />
+<meta name="DC.Title" content="首頁"/>
+<meta name="DC.Creator" content=""/>
+<meta name="DC.Subject" content=""/>
+<meta name="DC.Description" content=""/>
+<meta name="DC.Contributor" content=""/>
+<meta name="DC.Type" content=""/>
+<meta name="DC.Format" content=""/>
+<meta name="DC.Source" content=""/>
+<meta name="DC.Language" content=""/>
+<meta name="DC.coverage.t.max" content=""/>
+<meta name="DC.coverage.t.min" content=""/>
+<meta name="DC.Publisher" content=""/>
+<meta name="DC.Date" content=""/>
+<meta name="DC.Identifier" content=""/>
+<meta name="DC.Relation" content=""/>
+<meta name="DC.Rights" content=""/>
+<meta name="Category.Theme" content=""/>
+<meta name="Category.Cake" content=""/>
+<meta name="Category.Service" content=""/>
+<meta name="Keywords" content=""/>
+
+<link rel="stylesheet" href="/forestDW/resources/css/normalize.css" />
+<link rel="stylesheet" href="/forestDW/resources/css/animate.css" />
+<link rel="stylesheet" href="/forestDW/resources/fw/kendoui.web/styles/kendo.common.min.css" />
+<link rel="stylesheet" href="/forestDW/resources/fw/kendoui.web/styles/kendo.default.min.css" />
+<link rel="stylesheet" href="/forestDW/resources/fw/kendoui.web/styles/kendo.metro.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/forestDW/resources/fw/bootstrap/css/bootstrap.min.css" />
+
+
+<link rel="stylesheet" href="/forestDW/resources/css/webkit-scrollbar.css" />
+<link rel="stylesheet" href="/forestDW/resources/css/style-utils.css" />
+<link rel="stylesheet" href="/forestDW/resources/css/layout-web.css" />
+<link rel="stylesheet" href="/forestDW/resources/css/menu-web.css" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<link href="/forestDW/resources/css/layout-web-art.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="/forestDW/resources/images/favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="/forestDW/resources/images/favicon.ico" type="image/x-icon" /> 
+
+
+
+<link href="/forestDW/resources/fw/fotorama/fotorama.css" rel="stylesheet">
+<style type='text/css'>
+#head-slider{
+ 	width: 475px;
+	height: 210px;
+	overflow: hidden;
+	margin: 10px auto;
+}
+#head-slider>div{
+	position: relative;
+	width: 100%;
+	height: 232px;
+	overflow: hidden;
+}
+#head-slider>div>div{
+	background-color:white;
+}
+.wrapper-outer{
+	position: absolute;
+	left: 50%;
+}
+.wrapper-inner{
+	position: relative;
+	left: -50%;
+}
+.wrapper-right{
+	float: right;
+}
+.image-content{
+	position: relative;
+	display: table;
+}
+.image-content>img{
+	height: 210px;
+	display: block;
+}
+.image-content>a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 18;
+	opacity: 1;
+}
+.inner-border{
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	left: 4px;
+	right: 4px;
+	border: 2px solid white;
+	display: block;
+}
+#slider-area .cycle-ctrls{
+	transition: all 0.1s ease;
+	opacity: 0.1;
+}
+#slider-area:hover .cycle-ctrls{
+	opacity: 1;
+}
+#slider-area:hover .image-content>a>.desc{
+	bottom: 0;
+}
+.image-content>a>.desc{
+	transition: all 0.1s ease;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	right: 0;
+	background: rgba(18,52,22,0.8);
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	font-size: 1.35em;
+	font-family: 微軟正黑體;
+}
+.lotus-image-block{
+	width: 475px;
+	height: 210px;
+	position: relative;
+}
+.lotus-image-block>img{
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+.cycle-ctrls{
+	opacity: 0;
+	position: relative;
+	margin: 0 20%;
+	transition: all 1s ease;
+}
+#slider-area:hover .cycle-ctrls{
+	margin: 0 11%;
+}
+.cycle-ctrls>div{
+	position: absolute;
+	display: table;
+	height: 80px;
+	font-size: 4em;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	z-index: 999;
+	cursor: pointer;
+	
+	opacity: 0.4;
+}
+.cycle-ctrls>div:hover{
+	opacity: 1;
+}
+#cycle-prev{
+	left: 0;
+}
+#cycle-next{
+	right: 0;
+}
+</style>
+
+<style type='text/css'>
+.table-list{
+	clear: both;
+	width: 60%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	outline: 0;
+	border: 1px solid #dbdbde;
+	
+	background-color: white;
+	
+	margin: 0 0 30px 30px;
+}
+
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+div#abgne_marquee {
+	position: relative;
+	overflow: hidden;	/* 超出範圍的部份要隱藏 */
+	width: 375px;
+	height: 25px;
+	border: 1px solid #ccc;
+}
+div#abgne_marquee ul, div#abgne_marquee li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div#abgne_marquee ul {
+	position: absolute;
+}
+div#abgne_marquee ul li a {
+	display: block;
+	overflow: hidden;	/* 超出範圍的部份要隱藏 */
+	font-size:14px;
+	height: 25px;
+	line-height: 25px;
+	text-decoration: none;
+	padding: 0px 0px 0px 30px;
+}
+
+
+
+
+
+#abgneBlock {
+	width: 660px;
+	height: 25px;
+
+	position: relative;
+	overflow: hidden;
+	
+}
+#abgneBlock ul.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	width: 9999px;
+	height: 100%;
+}
+#abgneBlock ul.list li {
+	float: left;
+	width: 660px;
+	height: 100%;
+}
+#abgneBlock .list img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+#abgneBlock ul.playerControl {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	height: 14px;
+}
+#abgneBlock ul.playerControl li {
+	float: left;
+	width: 23px;
+	height: 14px;
+	cursor: pointer;
+	margin: 0px 2px;
+	background:  no-repeat 0 0;
+}
+#abgneBlock ul.playerControl li.current { 
+	background-position: -23px 0;
+}
+
+.img-desc {     
+position: relative;     
+display: block;     
+width: 140px;
+align: left ; 
+valign: top;
+height: 110px;
+font-family: "微軟正黑體" ,"Microsoft JhengHei", "新細明體"; 
+      font-color: #000000; 
+   color: #000000; 
+      line-height: 13px;
+} 
+
+.img-desc cite.citetop { 
+align: left ; 
+text-align: left; 
+font-style:normal;
+ font-size: 14px;  
+ position: absolute;    
+  top: 0;     
+  left: 0px;     
+  width: 140px;    
+   padding: 5px;     
+   border-top: 0px solid #999; 
+      font-color: #000000; 
+   color: #000000; 
+   font-family: "微軟正黑體" ,"Microsoft JhengHei", "新細明體"; 
+   font-weight:bold;
+}
+
+.img-desc cite.citetop1 {   
+align: left ; 
+text-align: left; 
+font-style:normal;
+ font-size: 18px;  
+ position: absolute;    
+  top: 20px;     
+  left: 0px;     
+  width: 140px;    
+   padding: 5px;     
+   border-top: 0px solid #999; 
+      font-color: #000000; 
+   color: #000000; 
+   font-family: "微軟正黑體" ,"Microsoft JhengHei", "新細明體"; 
+   font-weight:bold;
+}
+
+
+.img-desc cite {   
+ font-style:normal;
+ align: right ; 
+ font-size: 10px;  
+ position: absolute;    
+  bottom: 0;     
+  left: 0px;     
+  width: 135px;    
+   padding: 0px;     
+   border-top: 0px solid #999; 
+   font-family: "微軟正黑體" ,"Microsoft JhengHei", "新細明體"; 
+      font-color: #000000; 
+   color: #000000; 
+text-align:right;
+   padding-bottom: 3px;
+   
+   }
+
+.img-desc cite>span{   
+ 
+ font-size: 15px;  
+font-weight:bold;
+}
+   
+.img-desc p{     
+    position: absolute;  
+}
+#news-block{
+	margin-right: 150px;
+}
+#news-block .news-header{
+	padding: 0.5em 0 0.2em 0.2em;
+	border-bottom: 1px solid black;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0;
+}
+#news-block .news-header>span{
+	font-weight: bold;
+}
+#news-block .news-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+#news-block .news-list>li{
+	margin: 0;
+	padding: 1em 0 0.5em 0;
+}
+#news-block .news-list>li{
+	display: block;
+	border-bottom: 1px dashed gray;
+	text-decoration: none;
+	
+	padding: 8px;
+	position: relative;
+}
+#news-block .news-list>li a.title{
+	display: block;
+	margin-right: 7em;
+}
+#news-block .news-list>li .date{
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+}
+#news-block .more-news{
+	text-align: right;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#news-block .more-news a:before{
+	content: ">>";
+}
+#weather-block{
+	
+}
+.weather-block-wrapper{
+	float: right;
+	width: 140px;
+}
+#weather-block{
+	width: 140px;
+	position: relative;
+}
+#weather-block .weather-item{
+	position: absolute;
+	width: 140px;
+	height: 150px;
+	top: 120px;
+	color: #666;
+}
+#weather-block:hover .weather-item{
+	top: 0;
+	color: white;
+	background: rgba(0,0,0,0.4);
+}
+a.weather-item{
+	display: block;
+	text-decoration: none;
+	
+	transition: color 0.3s ease-out, background 0.3s ease-out, top 0.3s ease-out;
+}
+.weather-item .weather-header{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	margin-top: 6px;
+	margin-bottom: 45px;
+	
+	transition: font-size 0.3s ease-out;
+}
+#weather-block:hover .weather-item .weather-header{
+	font-size: 19px;
+}
+.weather-item .weather-props{
+	text-align: center;
+	font-size: 12px;
+}
+.weather-overlay span{
+	display: block;
+}
+</style>
+<script src="/forestDW/resources/js/jquery-1.10.2.min.js"></script>
+<script src="/forestDW/resources/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="/forestDW/resources/js/modernizr.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.0/URI.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+<script>window['context'] = '/forestDW';</script>
+</head>
+<body>
+	
+		<img itemprop="image" src="https://iesn.tfri.gov.tw/forestDW/resources/images/TFRI-share-default.gif" style="display: none;" />
+  	
+	<input type="hidden" id="context-path" value="/forestDW" />
+	<input type="hidden" id="url-version" value="20141125-2" />
+	<div class="web-layout-top"></div>
+	<div class="web-layout-body">
+		<div>
+			<ul class="top-right-small-menu">
+				<li><a href="/forestDW">首頁</a></li>
+				<li><a href="/forestDW/OpenData" target="_blank">開放資料(OpenData)</a></li>
+				<li><a href="/forestDW/Sitemap">網站地圖</a></li>
+				<li><a href="/forestDW/MailBox">意見信箱</a></li>
+				<li><a href="/forestDW/RSS">RSS</a></li>
+			</ul>
+
+			
+			
+			
+				
+				
+			
+			<div style="position: relative; width: 970px; height: 210px; background: url(/forestDW/resources/images/logo/ts001.gif)">
+				<ul class="top-main-menu">
+					<li><a href="/forestDW/About">關於平台</a></li>
+					<li><a href="/forestDW/News">最新消息</a></li>
+					<li><a href="/forestDW/AllFrogs">蛙言蛙語</a></li>
+					<li><a href="/forestDW/Animals">野生動物</a></li>
+					<li><a href="/forestDW/Promote">文宣推廣</a></li>
+					<li><a href="/forestDW/WorkHistory">工作足跡</a></li>
+				</ul>
+				<div class="search-block">
+					<form action="/forestDW/Search">
+			            <input type="text" name="q" value="" placeholder="全文搜尋"  />
+			            <button type="submit">
+				        	<img src="/forestDW/resources/images/top_btt002_2.png" title="search" style="cursor: pointer" />
+					    </button>
+					</form>
+			    </div>
+			</div>
+			<div class="full-page-wrapper">
+				<div class="body">
+					<div class="left-menu">
+					    <div class="h_indexwinleft">
+							
+
+
+
+
+
+
+<ul class="site-menu">
+	
+		
+			<li>
+				<div class="site-name">台北植物園</div>
+				
+					<ul class="function-menu">
+						
+							
+						
+							
+								<li>
+									
+										
+										
+											<a class="function-name" data-func-id="01,lotus">荷花池</a>
+										
+									
+									
+										<ul class="detail-menu hide">
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Lotus/BigPhoto">大景照片</a>
+											  		</li>
+										  		
+											
+												
+											
+										</ul>
+									
+						  		</li>
+					  		
+						
+							
+								<li>
+									
+										
+										
+											<a class="function-name" data-func-id="01,flower">花曆植物</a>
+										
+									
+									
+										<ul class="detail-menu hide">
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Flower/Calendar/Monthly">開花日曆</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Flower/Map">開花分布</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Flower/Species">物候資訊</a>
+											  		</li>
+										  		
+											
+										</ul>
+									
+						  		</li>
+					  		
+						
+							
+								<li>
+									
+										
+										
+											<a class="function-name" data-func-id="01,frog">蛙類聲景</a>
+										
+									
+									
+										<ul class="detail-menu hide">
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Frog/Species?siteId=01">認識蛙類叫聲</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Frog/Listen?siteId=01">聆聽蛙叫聲</a>
+											  		</li>
+										  		
+											
+										</ul>
+									
+						  		</li>
+					  		
+						
+							
+						
+					</ul>
+				
+			</li>
+		
+	
+		
+			<li>
+				<div class="site-name">蓮華池</div>
+				
+					<ul class="function-menu">
+						
+							
+						
+							
+								<li>
+									
+										
+										
+											<a class="function-name" data-func-id="02,frog">蛙類聲景</a>
+										
+									
+									
+										<ul class="detail-menu hide">
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Frog/Species?siteId=02">認識蛙類叫聲</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Frog/Listen?siteId=02">聆聽蛙叫聲</a>
+											  		</li>
+										  		
+											
+										</ul>
+									
+						  		</li>
+					  		
+						
+							
+								<li>
+									
+										
+										
+											<a class="function-name" data-func-id="02,grass">菱形奴草</a>
+										
+									
+									
+										<ul class="detail-menu hide">
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Grass/Intro">簡介</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Grass/SlideShow">觀測照片</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Grass/Live">直播</a>
+											  		</li>
+										  		
+											
+										</ul>
+									
+						  		</li>
+					  		
+						
+							
+								<li>
+									
+										
+											<a href="/forestDW/Weather?siteId=02" class="function-name" data-func-id="02,weather">氣象資料</a>
+										
+										
+									
+									
+						  		</li>
+					  		
+						
+					</ul>
+				
+			</li>
+		
+	
+		
+			<li>
+				<div class="site-name">六龜</div>
+				
+					<ul class="function-menu">
+						
+							
+						
+							
+								<li>
+									
+										
+										
+											<a class="function-name" data-func-id="03,frog">蛙類聲景</a>
+										
+									
+									
+										<ul class="detail-menu hide">
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Frog/Species?siteId=03">認識蛙類叫聲</a>
+											  		</li>
+										  		
+											
+												
+													<li>
+														<a class="detail-name" href="/forestDW/Frog/Listen?siteId=03">聆聽蛙叫聲</a>
+											  		</li>
+										  		
+											
+										</ul>
+									
+						  		</li>
+					  		
+						
+							
+								<li>
+									
+										
+											<a href="/forestDW/Weather?siteId=03" class="function-name" data-func-id="03,weather">氣象資料</a>
+										
+										
+									
+									
+						  		</li>
+					  		
+						
+					</ul>
+				
+			</li>
+		
+	
+		
+	
+		
+			<li>
+				<div class="site-name">野生動物觀測</div>
+				
+					<ul class="function-menu">
+						
+							
+								<li>
+									
+										
+											<a href="/forestDW/Camera/Video" class="function-name" data-func-id="05,camera">觀測影片</a>
+										
+										
+									
+									
+						  		</li>
+					  		
+						
+					</ul>
+				
+			</li>
+		
+	
+		
+			<li>
+				<div class="site-name">植物物候地圖</div>
+				
+					<ul class="function-menu">
+						
+							
+						
+							
+								<li>
+									
+										
+											<a href="/forestDW/Plant/Species" class="function-name" data-func-id="06,species">物種查詢</a>
+										
+										
+									
+									
+						  		</li>
+					  		
+						
+							
+								<li>
+									
+										
+											<a href="/forestDW/Plant/Location" class="function-name" data-func-id="06,location">地點查詢</a>
+										
+										
+									
+									
+						  		</li>
+					  		
+						
+					</ul>
+				
+			</li>
+		
+	
+</ul>
+						</div>
+						<div class="h_indexwinleft1">
+							
+
+
+<div class="panel panel-default" style="margin-right: 15px;">
+	<div class="panel-heading">
+		<span>相關連結</span>
+		<a href="/forestDW/Links" title="更多相關連結" class="pull-right label label-info">more</a>
+	</div>
+	<div class="panel-body" style="padding: 8px;">
+		<ul class="top-links">
+			
+				<li>
+					<a href="http://www.tfri.gov.tw/main/index.aspx" target="_blank">
+						<img src="/forestDW/UploadDispatch?fid=showImg&path=/links/310085350TFRI_Banner (3).jpg" />
+					</a>
+				</li>
+			
+				<li>
+					<a href="https://www.youtube.com/channel/UCOCkBE7EcyRNDj5-JgY_MIA/featured" target="_blank">
+						<img src="/forestDW/UploadDispatch?fid=showImg&path=/links/116204718TFRI_YouTube_344902794_thumb.jpg" />
+					</a>
+				</li>
+			
+				<li>
+					<a href="http://tpbg.tfri.gov.tw" target="_blank">
+						<img src="/forestDW/UploadDispatch?fid=showImg&path=/links/304151852banner.jpg" />
+					</a>
+				</li>
+			
+				<li>
+					<a href="http://fushan.tfri.gov.tw/" target="_blank">
+						<img src="/forestDW/UploadDispatch?fid=showImg&path=/links/116204526tfrifs_300624514_thumb.jpg" />
+					</a>
+				</li>
+			
+				<li>
+					<a href="http://group.ieco.tw" target="_blank">
+						<img src="/forestDW/UploadDispatch?fid=showImg&path=/links/423170410banner 180x60 (001).jpg" />
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+						</div>
+					</div>
+					<div id="content" class="content">
+					     <div> 
+							
+
+
+
+
+
+
+<div class="h_indexwin04 h_bk_02 h_size14px">
+    <div style="padding:5px; " id="abgneBlock" class="marqueelist">
+       <marquee behavior="scroll" scrollamount="4" direction="left" width="670" >
+			 
+		</marquee>
+    </div>
+</div>
+
+<div id="slider-area">
+<div class="cycle-ctrls">
+	<div id="cycle-prev"><img height="80" src="/forestDW/resources/images/ang-left.png" /></div>
+	<div id="cycle-next"><img height="80" src="/forestDW/resources/images/ang-right.png" /></div>
+</div>
+<div id="head-slider" class="cycle-slideshow"
+	data-cycle-fx="fade"
+	data-cycle-loader="true"
+	data-cycle-speed="900"
+	data-cycle-slides=">div"
+	data-cycle-pause-on-hover="true"
+    data-cycle-timeout="7000"
+    data-cycle-carousel-fluid="true"
+    data-cycle-prev="#cycle-prev"
+    data-cycle-next="#cycle-next"
+	data-allow-wrap="true">
+	<div>
+		<div class="wrapper-outer">
+			<div class="wrapper-inner">
+				<div class="image-content">
+					
+					<img src="https://iesn.tfri.gov.tw/tpbg2012/upload/file/20150316_20063503_0.jpg" alt="花曆植物" />
+					<div class="inner-border"></div>
+					<a href="/forestDW/Flower/Calendar/Monthly" title="花曆植物" target="_blank">
+						<span class="desc">花曆植物</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div>
+			<div class="">
+				<div class="image-content">
+					<div class="lotus-image-block"><img src="/obs/01/0101/202104/20210403_lotus_17.jpg" alt="荷花池" /></div>
+					<div class="inner-border"></div>
+					<a href="/forestDW/Lotus/BigPhoto" title="荷花池" target="_blank" class="lotus-anchor">
+			    		<span class="desc pos-right">荷花池</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="wrapper-outer">
+			<div class="wrapper-inner">
+				<div class="image-content">
+					<img src="/forestDW/UploadDispatch?fid=showImg&path=/frog/306142248樹蛙科-面天樹蛙.JPG" alt="蛙類聲景" />
+					<div class="inner-border"></div>
+					<a href="/forestDW/Frog/Species?siteId=02" title="蛙類聲景" target="_blank">
+						<span class="desc">蛙類聲景</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="wrapper-outer">
+			<div class="wrapper-inner">
+				<div class="image-content">
+					<img src="https://iesn.tfri.gov.tw/obs/02/0216/202104/lhc_09_m2_p_s4_202104031059.jpg" alt="菱形奴草" style="width: 475px; height: 210px;" />
+					<div class="inner-border"></div>
+					<a href="/forestDW/Grass/SlideShow" title="菱形奴草" target="_blank">
+						<span class="desc">菱形奴草</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div id="news-and-weather">
+	<div class="weather-block-wrapper">
+		<div id="weather-block"
+			data-transition="dissolve"
+			data-fit="contain"
+			data-width="140"
+			data-height="150"
+			data-margin="100"
+			data-arrows="false"
+			></div>
+	</div>
+	<div id="news-block">
+		<h3 class="news-header"><span>NEWS</span>最新消息</h3>
+		<ul class="news-list">
+		
+			<li>
+				<a href="/forestDW/News/Detail?id=20201120100551978" class="title">
+					生態感測網站於109年11月21日將暫停服務一天。
+				</a>
+				<span class="date">2020-11-20</span>
+			</li>
+		
+			<li>
+				<a href="/forestDW/News/Detail?id=20201119141000040" class="title">
+					109年11月23日(一) 8:30~12:30 本網站將進行系統升級作業。
+				</a>
+				<span class="date">2020-11-19</span>
+			</li>
+		
+			<li>
+				<a href="/forestDW/News/Detail?id=20200911143107040" class="title">
+					109年9月13日(日) 8:30~12:30 本所將進行核心交換器升級作業。
+				</a>
+				<span class="date">2020-09-11</span>
+			</li>
+		
+			<li>
+				<a href="/forestDW/News/Detail?id=20200723092703810" class="title">
+					台北植物園荷花池大景照片暫時無法提供。已於7月28日修復完成。
+				</a>
+				<span class="date">2020-07-23</span>
+			</li>
+		
+			<li>
+				<a href="/forestDW/News/Detail?id=20191212111936350" class="title">
+					2020月曆電子檔上線囉！
+				</a>
+				<span class="date">2019-12-12</span>
+			</li>
+		
+		</ul>
+		<div class="more-news"><a href="/forestDW/News">More</a></div>
+	</div>
+</div>
+<script id="weather-block-template" type="text/x-handlebars-template">
+	<a class="weather-item" href="/forestDW/Weather?siteId={{siteId}}">
+	   	<span class="weather-overlay">
+	       	<span class="weather-header">{{siteName}}</span>
+			{{#if temp}}
+			<span class="weather-props">氣溫{{temp}} ℃</span>
+			{{/if}}
+			{{#if humd}}
+			<span class="weather-props">濕度 {{humd}} %</span>
+			{{/if}}
+			{{#if rain}}
+			<span class="weather-props">累積雨量 {{rain}} mm</span>
+			{{/if}}
+			{{#if wdsd}}
+			<span class="weather-props">風速 {{wdsd}} m/s</span>
+			{{/if}}
+       	</span>
+     </a>
+</script>
+						</div>	
+					</div>
+				</div>
+				<div class="footer">
+					<div class="copyright">
+						
+
+
+行政院農業委員會林業試驗所 &copy; TFRI All Rights Reserved<br />
+地址：100051 台北市南海路53號　|　電話： (02)23039978　|　傳真： (02)23142234<br />
+服務信箱：<a href="mailto:iesn@tfri.gov.tw">iesn@tfri.gov.tw</a>　|　建議瀏覽解析度 1024 x 768 
+					</div>
+	      			<div class="online-users">線上：13 人,  累積瀏覽：874189人</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="web-layout-bottom"></div>
+	
+	<div class="modal fade" id="oplink-modal" data-backdrop="static" data-keyboard="false">
+		<form action="/forestDW/OpenData/Questionnaire/Form" method="POST" class="question-form">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">問卷調查</h4>
+					</div>
+					<div class="modal-body">
+						<div class="q-form-group">
+						    <label for="purposes">目的：</label>
+						    <div>
+								<!-- ko foreach: purposes -->
+								<label>
+									<input name="purpose" type="radio" data-bind="value: codeId, checked: $parent.purpose" />
+									<span data-bind="text: codeName"></span>
+								</label>
+								<!-- /ko -->
+								<label>
+									<input name="purpose" type="radio" value="other" data-bind="checked: purpose" />
+									其他<input type="text" name="purposeOtherDescription" data-bind="value: purposeOtherDescription, visible: purpose() == 'other'" />
+								</label>
+						    </div>
+						</div>
+						<div class="q-form-group">
+						    <label for="professions">職業別：</label>
+						    <div>
+								<!-- ko foreach: professions -->
+								<label>
+									<input name="profession" type="radio" data-bind="value: codeId, checked: $parent.profession" />
+									<span data-bind="text: codeName"></span>
+								</label>
+								<!-- /ko -->
+								<label>
+									<input name="profession" type="radio" value="other" data-bind="checked: profession" />
+									其他<input type="text" name="professionOtherDescription" data-bind="value: professionOtherDescription, visible: profession() == 'other'" />
+								</label>
+						    </div>
+						</div>
+						<div class="q-form-group">
+						    <label for="ages">年齡：</label>
+						    <div>
+								<!-- ko foreach: ages -->
+								<label>
+									<input name="age" type="radio" data-bind="value: codeId, checked: $parent.age" />
+									<span data-bind="text: codeName"></span>
+								</label>
+								<!-- /ko -->
+						    </div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="k-button" data-bind="
+							click: download, 
+							enable: validateOk,
+							css: {
+								'k-button-primary': validateOk
+							}
+						">填好了~下載！</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	
+	<script src="/forestDW/resources/js/layout-web.js"></script>
+	<script src="/forestDW/resources/js/menu-web.js"></script>
+	<script src="/forestDW/resources/fw/kendoui.web/js/kendo.web.min.js"></script>
+	<script src="/forestDW/resources/fw/kendoui.web/js/cultures/kendo.culture.zh-TW.min.js"></script>
+	<script src="/forestDW/resources/js/knockout-3.0.0beta.js"></script>
+	<script src="/forestDW/resources/fw/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/forestDW/resources/js/jquery.ba-bbq.js"></script>
+	<script src="/forestDW/resources/js/jquery.plugins-listener.js"></script>
+	<script src="/forestDW/resources/js/jquery.plugins-autostart.js"></script>
+	<script src="/forestDW/resources/js/jquery.plugins-share.js"></script>
+	<script src="/forestDW/resources/js/questionnaire-form.js"></script>
+	
+
+
+<script src="/forestDW/resources/js/jquery.cycle2.js"></script>
+<script src="/forestDW/resources/js/jquery.cycle2.flip.min.js"></script>
+<script src="/forestDW/resources/js/jquery.cycle2.tile.js"></script>
+
+<script type="text/javascript" src="/forestDW/resources/js/handlebars-v1.3.0.js"></script>
+<script type="text/javascript" src="/forestDW/resources/fw/fotorama/fotorama.js"></script>
+<script type="text/javascript">
+(function($){
+	var $container = $('#weather-block'),
+		fotorama = $container.fotorama().data('fotorama'),
+		template = Handlebars.compile($('#weather-block-template').html());
+	
+	queryWeatherInfo(function(d){
+		fotorama.push.apply(fotorama, $.map(d, function(v){
+    		return {
+    			img: getStatusUri(v.weather),
+    			html: template($.extend(v, {
+    				statusUri: getStatusUri(v.weather)
+    			}))
+    		};
+    	}));
+
+		setTimeout(function(){
+			fotorama.startAutoplay(2000);
+		}, 500);
+	});
+	function getStatusUri(status){
+		return getRealUri("/Weather/Status/" + encodeURIComponent(status));
+	}
+	function queryWeatherInfo(success){
+		return ajaxCallServer("/Weather/WeatherInfoForHomePage", null, success);
+	}
+	function ajaxCallServer(url, data, success){
+		return $.ajax({
+			type: "POST",
+            url: getRealUri(url),
+            data: data,
+			cache: false,
+			success: success
+		});
+	}
+	function getRealUri(uri){
+		return uri.lastIndexOf('\/', 0) === 0 ? '/forestDW' + uri : uri;
+	}
+})(jQuery);
+</script>
+	<script src="/forestDW/resources/js/google-analytics.js"></script>
+</body>
+</html>
+

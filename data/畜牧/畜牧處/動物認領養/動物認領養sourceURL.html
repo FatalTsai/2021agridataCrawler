@@ -1,0 +1,682 @@
+
+
+<!DOCTYPE HTML>
+<!--[if lt IE 9]>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width,user-scalable=0" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	全國動物收容系統
+</title>
+    <!-- mutual CSS begin -->
+    <link href="../_Css/ENRF/App/reset.css" rel="stylesheet" type="text/css" /><link href="../_Css/ENRF/App/nation_mutual.css" rel="stylesheet" type="text/css" /><link href="../_Css/ENRF/App/nation_mutual_rwd.css" media="screen and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.33)" rel="stylesheet" type="text/css" />
+    <!-- small than iphone 6 plus screen size device -->
+    <!-- mutual CSS end -->
+
+    <!-- mutual SCRIPT begin -->
+    <script language="javascript" type="text/javascript" src="../_Script/ENRF/App/jquery.1.11.1.js"></script>
+    <script language="javascript" type="text/javascript" src="../_Script/ENRF/App/jquery.easing.1.3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../_Script/jquery.lazyload.min.js?v=1.9.3"></script>
+    <!--[if lt IE 9]>
+      <script src="../_Script/ENRF/App/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src="../_Script/ENRF/Utilities.js" type="text/javascript"></script>
+    <script src="../_Script/ENRF/Menu.js" type="text/javascript"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-100574978-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script src="../_Script/ENRF/Utilities.js" type="text/javascript"></script>
+    <script src="../_Script/ENRF/Menu.js" type="text/javascript"></script>
+    
+    <script src="../_Script/classFormat.js" type="text/javascript"></script>
+    <script src="../_Script/common.js"></script>
+    
+    <!---->
+    <link href="../_Css/ENRF/App/nation_announcement.css" rel="stylesheet" type="text/css">
+    <link href="../_Css/ENRF/App/nation_announcement_rwd.css" media="screen and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.33)" rel="stylesheet" type="text/css"><!-- small than iphone 6 plus screen size device -->
+    <style>
+        .btn_More{
+                font-size: 122.8%;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                padding: 0 3em;
+                height: 2.5em;
+                margin-left: 20px;
+                cursor: pointer;
+                background-color: #dcdcdc;
+                color: #009e96;
+        }
+        .btn_More:hover,.btn_More:active{
+             background-color: #009e96;
+             color: #fff;
+        }
+        @media only screen and (max-width: 767px) {
+            .btn_More{
+                width: 100%;
+                margin-left:0;
+            }
+        }
+        @media all and (max-width: 500px) {
+            #QueryData{
+                display:none;
+            }
+        }
+    </style>
+
+    <style>
+        .MenuUnit {
+            color: #FFFFFF;
+            margin: 10px 0px -40px 30px;
+        }
+
+            .MenuUnit div {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 1.2em;
+            }
+
+        #gotop {
+            position: fixed;
+            border-radius: 100px;
+            right: 20px;
+            bottom: 30px;
+            padding: 10px 15px;
+            font-size: 25px;
+            background: #13b5b1;
+            color: #FAFCFD;
+            cursor: pointer;
+            z-index: 1000;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="./AnnounceMent.aspx?PageType=Adopt" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjkzODcwNjcwZGQO3/VjuzfsUDsxjAnFznuHrPFf7EQpPDn+b5/oV4HERw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0E8BC2F7" />
+        <div id="pingForRwd">
+            <p>
+                <!-- RWD check -->
+            </p>
+        </div>
+        <input id="HiddenPageType" type="hidden" value='App' />
+        <input id="HiddenUser" type="hidden" value='' />
+        <input id="Hiddenk" type="hidden" value='' />
+        <input id="HiddenR" type="hidden" value='' />
+        <div class="main">
+            <div class="wrapper">
+                <header>
+                    <div class="wrapper">
+                        <div class="logo">
+                            <h1>
+                                <a href="Default.aspx" title="全國動物收容管理系統 National animal shelter management system">
+                                    <span>全國動物收容預警管理系統</span><br>
+                                    <span>National animal shelter early warning management system</span>
+                                </a>
+                            </h1>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="javascript:location.href='AnnounceMent.aspx?PageType=Announce';" class="rescue"><strong></strong><span>收容公告</span></a></li>
+                                <li><a href="javascript:location.href='AnnounceMent.aspx?PageType=Adopt';" class="adopt"><strong></strong><span>動物認領養</span></a></li>
+                                <li><a href="javascript:location.href='AnnounceMent.aspx?PageType=Transfer';" class="disAdopt"><strong></strong><span>寵物送養媒合</span></a></li>
+                                <li><a href="javascript:location.href='PetsMap1.aspx';" class="trainee"><strong></strong><span>公立收容所</span></a></li>
+                            </ul>
+                        </nav>
+                        <div class="clearFloat"></div>
+                        <button type="button" class="subMenuBtn" onclick="if($(this).hasClass('clicked') == false){$(this).addClass('clicked');$('.subMenu').removeClass('off').addClass('open').hide().fadeIn({complete:function (){$(this).removeAttr('style');}});} else {$(this).removeClass('clicked');$('.subMenu').removeClass('open').addClass('off').show().fadeOut({complete:function (){$(this).removeAttr('style');}});}"><strong></strong><span>更多...</span></button>
+                        <!--右側MENU-->
+                        <div id="menu" class="subMenu off">
+                            <ul>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+                <hr class="hideItem">
+                
+    <script>
+        var PageType = GetUrlVars()["PageType"];
+        var Unit = GetUrlVars()["Unit"]; //取得收容所代碼
+        var AnimalType = GetUrlVars()["AnimalType"];
+        var Breed = GetUrlVars()["Breed"];
+        var AcceptNum = GetUrlVars()["AcceptNum"];
+        var ChipNum = GetUrlVars()["ChipNum"];
+        var PageCount = 200; //每頁筆數
+        var currentPage = 1; //第一頁
+        var _len = 1;
+        $(document).ready(function () {
+            BindUI();
+            BindData();
+            $('#Search').click(function () {
+                var SearchString = "?PageType=" + PageType;
+                if ($("#ddlShelter").val() != null && $("#ddlShelter").val() != "")
+                    SearchString += "&Unit=" + $("#ddlShelter").val();
+                if ($('input[name=rdlAnimalType]:checked').val() != null && $('input[name=rdlAnimalType]:checked').val() != "")
+                    SearchString += "&AnimalType=" + $('input[name=rdlAnimalType]:checked').val();
+                if ($("#ddlBreed").val() != null && $("#ddlBreed").val() != "")
+                    SearchString += "&Breed=" + $("#ddlBreed").val();
+                if ($('#txtAcceptNum').val() != null && $('#txtAcceptNum').val() != "")
+                    SearchString += "&AcceptNum=" + $('#txtAcceptNum').val();
+                if ($('#txtChipID').val() != null && $('#txtChipID').val() != "")
+                    SearchString += "&ChipNum=" + $('#txtChipID').val();
+                location.href = location.href.split('?')[0] + SearchString;
+            });
+            $('#Cancel').click(function () { location.href = location.href.split('?')[0] + "?PageType=" + PageType; });
+            $('#More').click(function () {
+                currentPage += 1;
+                BindData();
+            });
+            $('#btnQuery').click(function () {
+                if ($('#QueryData').css('display') != 'none')
+                    $('#QueryData').hide();
+                else
+                    $('#QueryData').show();
+            });
+            BindCount();
+        });
+        function ChangeAnimalsType() {
+            //動物品種
+            var apiUrl = 'https://asms.coa.gov.tw/Asms/api/';
+            var apiFun = "AnimalCategories";
+            var data = {
+                TypeId: "21",
+                TypeName: "動物品種",
+                AnimalsType: $('input[name=rdlAnimalType]:checked').val()
+            }
+            var apiParam = ToUrlParam(data);
+            var isAsync = false;
+
+            WebAPI.Get(apiUrl + apiFun, apiParam, isAsync, function (jsons) {
+                $("#ddlBreed option").remove();
+                var _len = 1;
+                var dal = new cs.AnimalCategories;
+                dal.ini(jsons[0]);
+                $("#ddlBreed").append("<option value=''>- 動物品種 -</option>");
+                for (var key in jsons) {
+                    dal.ini(jsons[key]);
+                    $("#ddlBreed").append("<option value='" + dal.KeyNo + "'>" + dal.Name + "</option>");
+                    _len++;
+                }
+            });
+        }
+
+
+
+
+        function BindUI() {
+            switch (PageType)
+            {
+                case 'Announce':
+                    $('#spanTitle').html('收容公告');
+                    break;
+                case 'Adopt':
+                    $('#spanTitle').html('動物認領養');
+                    break;
+                case 'Transfer':
+                    $('#spanTitle').html('寵物送養媒合');
+                    break;
+            }
+           
+            $('input[name=rdlAnimalType]').change(function () { ChangeAnimalsType(); }); 
+            //收容所
+            var apiUrl = 'https://asms.coa.gov.tw/Asms/api/';
+            var apiFun = "Shelter";
+            var data = {
+                UserType: 'G' 
+            }
+            var apiParam = ToUrlParam(data);
+            var isAsync = false;
+
+            WebAPI.Get(apiUrl + apiFun, apiParam, isAsync, function (jsons) {
+                $("#ddlShelter option").remove();
+                var _len = 1;
+                var dal = new cs.Shelter;
+                dal.ini(jsons[0]);
+                $("#ddlShelter").append("<option value=''>- 收容所 -</option>");
+                for (var key in jsons) {
+                    dal.ini(jsons[key]);
+                    $("#ddlShelter").append("<option value='" + dal.UserTag + "'>" + dal.ShelterName + "</option>");
+                    _len++;
+                }
+            });
+            if (Unit != null && Unit != "") { $('#ddlShelter').val(Unit); }
+            if (AnimalType != null && AnimalType != "") {
+                $("input[name=rdlAnimalType][value=" + AnimalType + "]").prop('checked', true);
+                ChangeAnimalsType();
+                if (Breed != null && Breed !=""){ $("#ddlBreed").val(Breed); }
+            }
+            if (AcceptNum != null && AcceptNum != "") { $('#txtAcceptNum').val(AcceptNum); }
+            if (ChipNum != null && ChipNum != "") { $('#txtChipID').val(ChipNum); }
+
+        }
+
+        function BindData(){
+            //清除預設資料
+            if (currentPage == 1) {
+                _len = 1;
+                $("#Annoce li").remove();
+            }
+            //設定TableName
+            var Function = "";
+            switch (PageType) {
+                case 'Announce':
+                    Function = "ViewAnimal";
+                    break;
+                case 'Adopt':
+                    Function = "ViewNowAnimal";
+                    break;
+                case 'Transfer':
+                    Function = "AmltransferAdmin";
+                    break;
+            }
+
+            //取得資料
+            var data = {
+                AnimalID: $('#lblKeyNo').text(),
+                Typeid: $('input[name=rdlAnimalType]:checked').val(),
+                BreedID: $("#ddlBreed").val(),
+                chipNum: $('#txtChipID').val(),
+                acceptNum: $('#txtAcceptNum').val(),
+                UserTag: $("#ddlShelter").val(),
+                pageSize: PageCount,
+                currentPage :currentPage,
+                sortDirection: "DESC"
+            }
+            switch (PageType) {
+                case 'Announce':
+                    data.sortFields = "AcceptDate";
+                    break;
+                case 'Adopt':
+                    data.sortFields = "AcceptDate";
+                    break;
+                case 'Transfer':
+                    data.IsAnnounce = '1';
+                    $('.inLeft').remove();
+                    $('.inRight').addClass('inline');
+                    $('.inline').removeClass('inRight');
+                    break;
+            }
+
+
+            var apiUrl = 'https://asms.coa.gov.tw/Asms/api/';
+            var apiFun = Function;
+            var apiParam = ToUrlParam(data);
+            var isAsync = false;
+
+            WebAPI.Get(apiUrl + apiFun, apiParam, isAsync, function (jsons) {
+                if (jsons.length > 0) {
+                    var dal = {};
+                    switch (PageType) {
+                        case 'Announce':
+                            dal = new cs.ViewAnimal;
+                            break;
+                        case 'Adopt':
+                            dal = new cs.ViewNowAnimal;
+                            break;
+                        case 'Transfer':
+                            dal = new cs.AmltransferAdmin;
+                            break;
+                    }
+                    dal.ini(jsons[0]);
+                    for (var key in jsons) {
+                        dal.ini(jsons[key]);
+
+                        var path = "";
+                        if (dal.pic != "" && dal.pic != undefined) {
+                            var folderPath = '../Upload/pic/';
+                            var fileName = dal.pic; //dal.InImage;
+                            path = folderPath + fileName;
+                        } else {
+                            path = "../images/defaultSmall.jpg";
+                        }
+                        if (dal.ShelterName == undefined) {
+                            dal.ShelterName = "";
+                        }
+
+                        var sHtml = "<li id=" + _len + ">"
+                            + "<h4><span>" + _len + "</span></h4>"
+                            // + "<figure><a href='AnnounceList.aspx?Id=" + dal.AnimalId + "&AcceptNum=" + dal.AcceptNum + "&PageType=" + PageType+"'><img id='Img" + _len +"' src='" + path + "'></a></figure>"
+                            + "<figure><a href='AnnounceList.aspx?Id=" + dal.AnimalId + "&AcceptNum=" + dal.AcceptNum + "&PageType=" + PageType + "'><img id='Img" + _len + "' class='lazy' data-original='" + path + "'></a></figure>"
+                            + "<dl>"
+                            + "<dt>品種：</dt>"
+                            + "<dd>" + dal.BreedName + "</dd>"
+                            + "<dt>類別：</dt>"
+                            + "<dd>" + dal.TypeIdName + "</dd>"
+                            + "<dt>性別：</dt>"
+                            + "<dd>" + dal.SexName + "</dd>"
+                            + "<dt>來源：</dt>"
+                            + "<dd>" + dal.areaName + "</dd>";
+
+                        if (dal.ShelterName != "") {
+                            sHtml += "<dt>我在　</dt><dd>" + dal.ShelterName + "</dd>";
+                        } else {
+                            sHtml += "<dt>　</dt><dd>　</dd>";
+                        }
+
+                        sHtml += "<div class='clearFloat'></div></dl></li>";
+
+                        //顯示資料
+                        $("#Annoce").append(sHtml);
+
+                        if (PageType == "Transfer")
+                        {
+                            if (dal.AmlPhoto != '' && dal.AmlPhoto != undefined)
+                                $('#Img' + _len + '').attr('data-original', dal.AmlPhoto);
+                            $('#' + _len + ' figure a').attr('href', "AnnounceList.aspx?Id=" + dal.KeyNo + "&AcceptNum=&PageType=" + PageType);
+                        }
+
+                        _len++;
+                    }
+                    if (_len <= 200)
+                    {
+                        $('#More').hide();
+                    }
+                }
+                else if (currentPage != 1 && jsons.length == 0) {
+                    $('#More').hide();
+                    alert('查無更多資料');
+                }
+                else {
+                    $('#More').hide();
+                    alert('無資料');
+                }
+                //圖片異步載入
+                $("img.lazy").lazyload({
+                    placeholder: '../Images/ENRF/loading.png',
+                    effect: "fadeIn"
+                });
+            });
+        } 
+
+        function BindCount() {
+            var dal = {};
+            dal.TableName = PageType;
+            dal.AnimalType= $('input[name=rdlAnimalType]:checked').val();
+            dal.Breed= $("#ddlBreed").val();
+            dal.ChipID=$('#txtChipID').val();
+            dal.AcceptNum= $('#txtAcceptNum').val();
+            dal.Unit=$("#ddlShelter").val();
+            var url = "../Handler_ENRF/App/getAnimalCount.ashx";
+            var request = $.ajax({
+                type: "POST",
+                dataType: "json",
+                async: false,
+                data: { data: JSON.stringify(dal) },
+                url: url
+            });
+            request.done(function (result, processStatus, $xhr) {
+                switch (result.Status) {
+                    case true:
+                        var rtn = JSON.parse(result.Message);
+                        if (rtn.Total == 0 && rtn.Dog == 0 && rtn.Cat == 0 && rtn.Other == 0) {
+                            $('#h3_Count').hide();
+                        } else {
+                            $('#Count_Total').text(rtn.Total);
+                            $('#Count_Dog').text(rtn.Dog);
+                            $('#Count_Cat').text(rtn.Cat);
+                            $('#Count_Other').text(rtn.Other);
+                            $('#h3_Count').show();
+                        }
+                        break;
+                    default:
+                        console.log(result.Message);
+                        break;
+                }
+            });
+            request.fail(function (xhr, processStatus, httpStatus) {
+                //alert
+                console.log('傳輸至 BindCount 操作異常，請洽系統管理員:'
+                       + processStatus + '\n操作訊息:'
+                       + httpStatus + '');
+            });
+        }
+    </script>
+    <div class="doc">
+        <div class="master">
+            	<h2 class="iconed" id="btnQuery"><span >篩選</span></h2>
+                <div id="QueryData">
+				    <h2><span>請輸入查詢條件</span></h2>
+                    <form onSubmit="return false;">
+                	    <ul class="query">
+                    	    <li><label><input type="radio" name="rdlAnimalType" value="1"/><span>犬</span></label></li>
+                            <li><label><input type="radio" name="rdlAnimalType" value="2"/><span>貓</span></label></li>
+                            <li><label><input type="radio" name="rdlAnimalType" value="3"/><span>其他</span></label></li>
+                            <li class="variety"><label><span>動物品種</span><select id="ddlBreed"><option value="">請選擇</option></select></label></li>
+                            <li class="place"><label><span>收容所</span><select id="ddlShelter"><option value="">請選擇</option></select></label></li>
+                            <li class="inLeft"><label><span>收容編號</span><input id="txtAcceptNum" type="text" placeholder="收容編號"/></label></li>
+                            <li class="inRight"><label><span>動物晶片號碼</span><input id="txtChipID" type="text" placeholder="動物晶片號碼"/></label></li>
+                        </ul>
+                        <div class="clearFloat"></div>
+                        <div class="queryOption">
+                    	    <button id="Cancel" type="button"><span>取消</span></button>
+                            <button id="Search" type="button"><span>查詢</span></button>
+                        </div>
+                    </form>
+                </div>
+                <div style="height:50px;"></div>
+                <hr class="hideItem" />
+                <h2><span id="spanTitle">收容公告</span></h2>
+                <h3 id="h3_Count" hidden="">
+                    總隻數 <span id="Count_Total">0</span> 隻： 犬 <span id="Count_Dog">0</span> 隻 貓 <span id="Count_Cat">0</span> 隻 其他 <span id="Count_Other">0</span> 隻
+                </h3>
+                <ul id="Annoce" class="list toBreakChildren when-2-3-5">
+                    <li>
+                    	<h4><span>001</span></h4>
+                        <figure><a href="#"><img src="../Images/ENRF/loading.png"><!-- 建議為220*130 比例圖檔 --></a></figure>
+                        <!-- <a href="#"> 如果需要 -->
+                        <dl>
+                        	<dt>品種：</dt>
+                            <dd>混種</dd>
+                            <dt>類別：</dt>
+                            <dd>貓</dd>
+                            <dt>性別：</dt>
+                            <dd>公</dd>
+                            <dt>來源：</dt>
+                            <dd>安平區</dd>
+                        </dl>
+                        <!-- </a> 如果需要 -->
+                    </li>
+                    <li>
+                    	<h4><span>001</span></h4>
+                        <figure><a href="#"><img src="../Images/ENRF/loading.png"><!-- 建議為220*130 比例圖檔 --></a></figure>
+                        <!-- <a href="#"> 如果需要 -->
+                        <dl>
+                        	<dt>品種：</dt>
+                            <dd>混種</dd>
+                            <dt>類別：</dt>
+                            <dd>貓</dd>
+                            <dt>性別：</dt>
+                            <dd>公</dd>
+                            <dt>來源：</dt>
+                            <dd>安平區</dd>
+                        </dl>
+                        <!-- </a> 如果需要 -->
+                    </li>
+                    <li>
+                    	<h4><span>001</span></h4>
+                        <figure><a href="#"><img src="../Images/ENRF/loading.png"><!-- 建議為220*130 比例圖檔 --></a></figure>
+                        <!-- <a href="#"> 如果需要 -->
+                        <dl>
+                        	<dt>品種：</dt>
+                            <dd>混種</dd>
+                            <dt>類別：</dt>
+                            <dd>貓</dd>
+                            <dt>性別：</dt>
+                            <dd>公</dd>
+                            <dt>來源：</dt>
+                            <dd>安平區</dd>
+                        </dl>
+                        <!-- </a> 如果需要 -->
+                    </li>
+                    <li>
+                    	<h4><span>001</span></h4>
+                        <figure><a href="#"><img src="../Images/ENRF/loading.png"><!-- 建議為220*130 比例圖檔 --></a></figure>
+                        <!-- <a href="#"> 如果需要 -->
+                        <dl>
+                        	<dt>品種：</dt>
+                            <dd>混種</dd>
+                            <dt>類別：</dt>
+                            <dd>貓</dd>
+                            <dt>性別：</dt>
+                            <dd>公</dd>
+                            <dt>來源：</dt>
+                            <dd>安平區</dd>
+                        </dl>
+                        <!-- </a> 如果需要 -->
+                    </li>
+                    <li>
+                    	<h4><span>001</span></h4>
+                        <figure><a href="#"><img src="../Images/ENRF/loading.png"><!-- 建議為220*130 比例圖檔 --></a></figure>
+                        <!-- <a href="#"> 如果需要 -->
+                        <dl>
+                        	<dt>品種：</dt>
+                            <dd>混種</dd>
+                            <dt>類別：</dt>
+                            <dd>貓</dd>
+                            <dt>性別：</dt>
+                            <dd>公</dd>
+                            <dt>來源：</dt>
+                            <dd>安平區</dd>
+                        </dl>
+                        <!-- </a> 如果需要 -->
+                    </li>
+                </ul>
+                <div class="clearFloat"></div>
+            <div style="text-align:right;"><button id="More" type="button" class="btn_More"><span>顯示更多</span></button></div>
+            <script language="javascript" type="text/javascript">
+            function insertListFix(parentNode){
+	            if($(parentNode).find('.toBreakChildren').length == 0) return;
+	            var _ary = $(parentNode).find('.toBreakChildren');
+	            var breakParent , breakProp , li_ary , _li;
+	            var count;
+	            for(var i = 0;i<_ary.length;i++){
+		            count = 0;
+		            breakParent = _ary[i];
+		            breakProp = $(breakParent).attr('class').split(' ');
+		            breakProp = breakProp[breakProp.length - 1].split('-');
+		            breakProp.shift();//移除第一個無用元素
+		            //console.log(breakProp)
+		            li_ary = $(breakParent).find('> *');//取第一層所有子元素
+		            for(var j = 0;j<li_ary.length;j++){
+			            count += 1;
+			            _li = li_ary[j];
+			            for(var k = 0;k<breakProp.length;k++){
+				            if(count % Number(breakProp[k]) == 0) $($(document.createElement('BR')).attr('class' , 'clearFloat break-' + breakProp[k])).insertAfter(_li);
+			            }
+		            }
+	            }
+            }
+            insertListFix($('ul.list').parent());
+            </script>
+            </div>
+        <div class="sideColumn"></div>
+        <div class="clearFloat"></div>
+    </div>
+        
+
+            </div>
+            <footer>
+                <hr class="hideItem">
+                <div class="wrapper">
+                    <h3><span class="hideItem">聯絡資訊&amp;相關資源</span></h3>
+                    <div class="info">
+                        <ul>
+                            <li><span>地址：10014 臺北市中正區南海路 37 號</span></li>
+                            <li><span>電話：+886-2-2381-2991</span></li>
+                            <li><span>傳真：+886-2-2331-0341</span></li>
+                        </ul>
+                        <ul>
+                            <li><span>服務時間:週一至週五 AM08:30-PM05:30</span><br>
+                                <time date-time="2017/11/20 15:33:44">資料更新:2017/11/20 15:33:44</time></li>
+                        </ul>
+                        <div class="clearFloat"></div>
+                    </div>
+                    <div class="options">
+                        <ul class="service">
+                            <li><a href="#" class="so1"><span>Twitter</span></a></li>
+                            <li><a href="#" class="so2"><span>Facebook</span></a></li>
+                            <li><a href="Tel:0223831698" class="so3"><span>TEL</span></a></li>
+                            <li><a href="Service.aspx?PageType=Apply" class="so4"><span>Email</span></a></li>
+                            <br class="clearFloat">
+                            <li class="apps"><a href="https://goo.gl/qtqtJB"><strong>
+                                <img src="../Images/enrf/APP/frame_google_play.png"></strong><span>下載Android版本</span></a></li>
+                            <li class="apps"><a href="https://goo.gl/w3q6vu"><strong>
+                                <img src="../Images/enrf/APP/frame_ios.png"></strong><span>下載iOS版本</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearFloat"></div>
+                    <!--回頂端-->
+                    <div id="gotop">˄</div>
+                </div>
+                <div class="cprs">
+                    <p>本站使用正體字政府網站資料開放宣告隱私權及網站安全政策 執行單位: <a href="http://www.enrf.com.tw/">豐田生技資訊股份有限公司</a>  <a href="Service.aspx?PageType=Apply">意見信箱</a>  <a href="Tel:0223831698">聯絡我們</a>  <time date-time="2017/11/20 15:33:44">資料更新:2017/11/20 15:33:44</time></p>
+                </div>
+            </footer>
+        </div>
+    </form>
+    <script>
+        $(function () {
+            $.ajaxSetup({ async: true });
+            $(document).ajaxStart(function () {
+                $(".Loading").show();
+            });
+            $(document).ajaxStop(function () {
+                $(".Loading").hide();
+            });
+            $(document).ajaxComplete(function () {
+                $(".Loading").hide();
+            });
+            $("#gotop").click(function () {
+                $("html,body").animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 300) {
+                    $('#gotop').fadeIn("fast");
+                } else {
+                    $('#gotop').stop().fadeOut("fast");
+                }
+            });
+            var U = $('#HiddenUser').val();
+            $('#HiddenUser').val(FormateToBase64string(U));
+
+            var R = localStorage.getItem('Role');
+
+            if (R == '' || R == null) {
+
+                var ro = $('#HiddenR').val();
+                if (ro != "") {
+                    R = FormateToBase64string(ro);
+                    $('#HiddenR').val(R);
+                    var ke = $('#Hiddenk').val();
+                    localStorage.setItem('User', $('#HiddenUser').val());
+                    localStorage.setItem('Role', R);
+                    localStorage.setItem('clientKey', FormateToBase64string(ke));
+                }
+            }
+
+            var ApiLoc = "../Handler_ENRF/getMenu.ashx";
+            if (U == '' || R == '' || R == null) {
+                GetUserMenu("", "0", "", ApiLoc);
+            } else {
+                GetUserMenu(FormateBase64Tostring($('#HiddenUser').val()), FormateBase64Tostring(R), $('#HiddenPageType').val(), ApiLoc);
+            }
+        });
+    </script>
+</body>
+</html>

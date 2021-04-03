@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='www.boaf.gov.tw', port=80): Max retries exceeded with url: /boafwww/index.jsp?a=lp&amp;ctNode=791&amp;CtUnit=280&amp;BaseDSD=7 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb1f7c93198>, 'Connection to www.boaf.gov.tw timed out. (connect timeout=5)'))

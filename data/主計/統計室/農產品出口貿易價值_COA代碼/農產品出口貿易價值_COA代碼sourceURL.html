@@ -1,0 +1,238 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	農業統計資料查詢
+</title><meta http-equiv="X-Frame-Options" content="deny" /> 
+    <script type="text/javascript">
+        if (self == top)
+            document.documentElement.style.display = 'block'
+        else 
+            top.location = self.location;
+    </script>        
+    
+    <link href="./InquireAdvanceTable.css" rel="stylesheet" type="text/css" />
+<link href="../../library/SDWeb.css" rel="stylesheet" type="text/css" />
+    <script src="./../library/SdWeb.js" type="text/javascript"></script>    
+    <link rel="SHORTCUT ICON" href="../../images/coa.ico" />
+
+    <script type="text/javascript">
+        var m_objLastMenu = null;
+        var m_strLastMenuImageUrl = "";
+        var m_intLastMenuTime = 0;
+        var m_objLastSubMenu = null;
+
+        function MenuOver(objMenu, strImageUrl, strSubMenu) {
+            var objSubMenu;
+
+            if (m_intLastMenuTime != 0) {
+                clearTimeout(m_intLastMenuTime);
+                MenuOutTimeout();
+            }
+
+            if (objMenu) objMenu.src = strImageUrl;
+
+            if (strSubMenu != "") {
+                objSubMenu = document.getElementById(strSubMenu);
+                objSubMenu.style.top = String(objMenu.offsetTop + 25) + "px";
+                objSubMenu.style.left = String(objMenu.offsetLeft) + "px";
+                objSubMenu.style.display = "";
+            }
+        }
+
+        function MenuOut(objMenu, strImageUrl, strSubMenu) {
+            m_objLastMenu = objMenu;
+            m_strLastMenuImageUrl = strImageUrl;
+            m_intLastMenuTime = setTimeout("MenuOutTimeout()", 500);
+
+            if (strSubMenu == "")
+                m_objLastSubMenu = null
+            else
+                m_objLastSubMenu = document.getElementById(strSubMenu);
+        }
+
+        function MenuOutTimeout() {
+            m_intLastMenuTime = 0;
+            if (m_objLastMenu) m_objLastMenu.src = m_strLastMenuImageUrl;
+            if (m_objLastSubMenu) m_objLastSubMenu.style.display = "none";
+        }
+
+        function SubMenuOver() {
+            if (m_intLastMenuTime != 0) clearTimeout(m_intLastMenuTime);
+        }
+        function SubMenuOut() {
+            m_intLastMenuTime = setTimeout("MenuOutTimeout()", 500);
+        }
+    </script>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="InquireAdvance.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/SdWeb/ScriptResource.axd?d=YOeoQhFB_gLqBRmlzNCQMqUFWxhprbpifKgyoK4Peu2QBgiWh0GxTF2ZfBFmMcD3CzbzRmaX-DqFn1V0uV_8xr-5AHWrjwcvtV5kpH5dwwdKuiDS8GGlire_mmLoh-C9N9W05yn77blP0FNaqzePkHPsauE1KtedOEPUUnArOziHP4lg0&amp;t=3f4a792d" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="20124335" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="VNGHwVttwLlCRGptyJCpYL+h1eyNAmVJAX1VslDbGOzSLFl28P7fNLrXas16XDc0mg1mLf3GcjZ9N622omv3wES0BkEwCYpdReC15V2WeR/L1Yujll6Byq+IqLDh8maM0dPlGqQbPyrupEz87xNe51Zbuyj90qRpyzUSjE9OtS8EyJGBvtS0Tys8wJfzQtQe7VCARTu2mLbYtx53Ji1C6RuO+10yZcW6pQxRWHTnOHFRiDS1MyFQj6PT/5h2euCgSViFuK07YA5bMQ6lWKRcCNPAm+qjsz39T8KawiE0BL2Gz8yHaI7S4nDEfTdP2dNkJD1cNyh3D93EseXNopYt0R9+gDaDMA3XNbLIFJMuqOPEuQLs4pa06Q5dYkb/S+fYb0I8Ylkq/in5nVfVNcfG3ukWwxBCjbuI+ogMSgkSqleJjLVroUd/QYd4I4V4yiia7MmyzzzTr03FpA38eflBVYji/tKFK3m7OLlVfoq1Tb/IFRa6rWs36yza622Y4EZLRQeucW1KzUaxcJL3hu6E1ZLpLXTy3+iP5ZG8pYcJWR629mZ6" />
+    <div id = "dvTop">
+    <div style="background-image: url(../../images/banner_bg.gif);">
+        <img src="../../images/banner.jpg" alt="農業統計資料查詢" />
+    </div>
+    <div style="background-image: url(../../images/menu_bg.gif); white-space: nowrap;">
+        <span id="ctl00_dtlMenu"><span>
+                <a id="ctl00_dtlMenu_ctl00_lnkMenu" href="../maintenance/Announce.aspx"><img id="ctl00_dtlMenu_ctl00_imgMenu" onmouseover="MenuOver(this,'../../images/menu_announce_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_announce.gif','')" src="../../images/menu_announce.gif" alt="系統公告" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl01_lnkMenu" href="../indicator/Indicator.aspx"><img id="ctl00_dtlMenu_ctl01_imgMenu" onmouseover="MenuOver(this,'../../images/menu_indicator_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_indicator.gif','')" src="../../images/menu_indicator.gif" alt="農業指標" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl02_lnkMenu" href="InquireAdvance.aspx"><img id="ctl00_dtlMenu_ctl02_imgMenu" onmouseover="MenuOver(this,'../../images/menu_advance_s.gif','')" onmouseout="MenuOut(null,'../../images/menu_advance.gif','')" src="../../images/menu_advance_s.gif" alt="動態查詢" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl03_lnkMenu" href="../trade/tradereport.aspx"><img id="ctl00_dtlMenu_ctl03_imgMenu" onmouseover="MenuOver(this,'../../images/menu_trade_s.gif','ctl00_repSubMenu1_ctl03_panSubMenu')" onmouseout="MenuOut(this,'../../images/menu_trade.gif','ctl00_repSubMenu1_ctl03_panSubMenu')" src="../../images/menu_trade.gif" alt="農業貿易" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl04_lnkMenu" href="../book/Book.aspx"><img id="ctl00_dtlMenu_ctl04_imgMenu" onmouseover="MenuOver(this,'../../images/menu_book_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_book.gif','')" src="../../images/menu_book.gif" alt="統計書刊" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl05_lnkMenu" href="../common/Download.aspx"><img id="ctl00_dtlMenu_ctl05_imgMenu" onmouseover="MenuOver(this,'../../images/menu_download_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_download.gif','')" src="../../images/menu_download.gif" alt="下載區" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl06_lnkMenu" href="../official/OfficialInformation.aspx"><img id="ctl00_dtlMenu_ctl06_imgMenu" onmouseover="MenuOver(this,'../../images/menu_Official_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_Official.gif','')" src="../../images/menu_Official.gif" alt="公務統計" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl07_lnkMenu" href="../maintenance/Question.aspx"><img id="ctl00_dtlMenu_ctl07_imgMenu" onmouseover="MenuOver(this,'../../images/menu_question_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_question.gif','')" src="../../images/menu_question.gif" alt="常見問題" border="0" /></a></span></span></div>
+    
+            <div id="ctl00_repSubMenu1_ctl03_panSubMenu" onmouseover="SubMenuOver()" onmouseout="SubMenuOut()" style="position: absolute; top: 125px;
+                display: none;">
+	
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <img src="../../images/sub_menu_left.gif" alt="" /></td>
+                        
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl00_lnkSubMenu" href="../trade/TradeReport.aspx">貿易統計表</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl01_lnkSubMenu" href="../trade/TradeCcc.aspx">稅則號列(CCC)資料查詢</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl02_lnkSubMenu" href="../trade/TradeCoa.aspx">農產品別(COA)資料查詢</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl03_lnkSubMenu" href="../library/Instruction.pdf">操作說明</a>
+                                </td>
+                            
+                        <td>
+                            <img src="../../images/sub_menu_right.gif" alt="" /></td>
+                    </tr>
+                </table>
+            
+</div>
+        
+    <br />
+    <div style="padding: 0 0 15px 15px;">
+        <img src="../../images/title_icon.gif" style="vertical-align: middle; padding-left: 10px;
+            position: relative; top: -6px;" alt="" />
+        <span id="ctl00_dtlMenuPath" class="MenuPath" style="position: relative; top: -6px;"><span>
+                動態查詢
+            </span></span><br />
+        <img src="../../images/title_line.gif" alt="" /></div></div>
+    <div style="margin-left: 15px; margin-right: 10px;">
+        
+    
+
+<script type="text/javascript">
+    function GetCookie(name) {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]); return null;
+    }
+
+    function ShowNounDialog(strParam1, strParam2) {
+        var aryParam = new Array();
+
+        aryParam[0] = "";
+        aryParam[1] = strParam2;
+        window.showModalDialog('../noun/NounCollection.aspx?' + strParam1, aryParam, "dialogWidth:800px;dialogHeight:600px;resizable:yes;scroll:yes");
+        if (aryParam[0] != "")
+            window.open(aryParam[0], "_self");
+    }
+
+    function ShowItemNounDialog(strItemCode) {
+        ShowNounDialog("item_code=" + strItemCode);
+    }
+
+    function ShowDimensionGroupCodeNounDialog(strDimensionGroupCode) {
+        ShowNounDialog("dimension_group_code=" + strDimensionGroupCode);
+    }
+
+    function ShowNounCollectionDialog(strParam2) {
+        ShowNounDialog("", strParam2);
+    }
+</script>
+
+
+
+        <table style="width: 90%; margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <fieldset class="FieldSet">
+                        <b>分類名稱：</b><input name="ctl00$cphMain$uctlInquireAdvance$txtQGrouptName" type="text" size="40" id="ctl00_cphMain_uctlInquireAdvance_txtQGrouptName" />
+                        <span class="ThreeDButton ThreeDButtonBackground" onmouseover="this.className='ThreeDButton ThreeDButtonMouseOver';" onmouseout="this.className='ThreeDButton ThreeDButtonBackground';"><span><input type="submit" name="ctl00$cphMain$uctlInquireAdvance$btnSearch" value="查　詢" id="ctl00_cphMain_uctlInquireAdvance_btnSearch" /></span></span>
+                    </fieldset>
+                    <br />
+                    <img src="../../images/icon_blue.gif" /> <b>業務分類查詢：</b>
+                    <table id="ctl00_cphMain_uctlInquireAdvance_tabCategory" class="List" cellpadding="6" rules="all" border="1" style="margin: 5px 0 0 18px;">
+	<tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl08','')">地理及環境統計</a></td><td class="Header3"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl09','')" style="white-space:nowrap;">土地統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl11','')" style="white-space:nowrap;">環境保護統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl13','')" style="white-space:nowrap;">自然保育統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl15','')" style="white-space:nowrap;">水資源維護統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl16','')">勞工統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl17','')" style="white-space:nowrap;">勞動力統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl18','')">社會保險及社會指標統計</a></td><td class="Header3"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl19','')" style="white-space:nowrap;">社會保險統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl21','')" style="white-space:nowrap;">社會福利統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="InquireAdvance_CategoryLink.ashx?category_code=J" target="_blank">國民經濟統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl23','')" style="white-space:nowrap;">家庭收支之統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl24','')">農業生產統計</a></td><td class="Header3"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl25','')" style="white-space:nowrap;">農業產值結構與指標</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl27','')" style="white-space:nowrap;">農產品生產面積統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl29','')" style="white-space:nowrap;">農產品生產量值統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl31','')" style="white-space:nowrap;">畜禽產品飼養數量統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl33','')" style="white-space:nowrap;">畜禽產品生產量值統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl35','')" style="white-space:nowrap;">水產品生產量值統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl37','')" style="white-space:nowrap;">林產品生產量值統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl39','')" style="white-space:nowrap;">林地與森林蓄積統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl41','')" style="white-space:nowrap;">農畜產品生產成本統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl43','')" style="white-space:nowrap;">農業及農食鏈統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl44','')">農產品運銷統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl45','')" style="white-space:nowrap;">農產品價格統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl47','')" style="white-space:nowrap;">農產品收購統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl48','')">農業生產資材與設備統計</a></td><td class="Header3"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl49','')" style="white-space:nowrap;">肥料</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl51','')" style="white-space:nowrap;">農機</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl53','')" style="white-space:nowrap;">配合飼料與動物藥品</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl55','')" style="white-space:nowrap;">農藥</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl57','')" style="white-space:nowrap;">漁船</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl59','')" style="white-space:nowrap;">土地</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl61','')" style="white-space:nowrap;">固定資本形成</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl62','')">農家統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl63','')" style="white-space:nowrap;">農家人口特性統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl65','')" style="white-space:nowrap;">農民生產所得所付物價指數</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl66','')">糧食供需統計</a></td><td class="Header3"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl67','')" style="white-space:nowrap;">糧食平衡表</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl69','')" style="white-space:nowrap;">糧食供需指標</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl70','')">農業災害統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl71','')" style="white-space:nowrap;">森林災害統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl72','')">其他農業統計</a></td><td class="Header3"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl73','')" style="white-space:nowrap;">水土保持統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl75','')" style="white-space:nowrap;">動植物防疫檢疫統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl77','')" style="white-space:nowrap;">農田水利統計</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl79','')" style="white-space:nowrap;">農民團體數</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl81','')" style="white-space:nowrap;">家畜保險統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl82','')">施政統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl83','')" style="white-space:nowrap;">畜牧處</a> 、 <a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl85','')" style="white-space:nowrap;">農糧署</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="InquireAdvance_CategoryLink.ashx?category_code=U" target="_blank">工業統計</a></td><td class="Header3"><a href="InquireAdvance_CategoryLink.ashx?category_code=UB" target="_blank">製造業統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl88','')">服務業統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl89','')" style="white-space:nowrap;">商業貿易統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="InquireAdvance_CategoryLink.ashx?category_code=X" target="_blank">物價統計</a></td><td class="Header3"><a href="InquireAdvance_CategoryLink.ashx?category_code=XB" target="_blank">消費者物價統計</a></td>
+	</tr><tr>
+		<td class="Header2" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl92','')">一般政務統計</a></td><td class="Header3-2"><a href="javascript:__doPostBack('ctl00$cphMain$uctlInquireAdvance$ctl93','')" style="white-space:nowrap;">銓敘統計</a></td>
+	</tr>
+</table>
+                </td>
+            </tr>
+        </table>
+    
+<br />
+
+
+    </div>
+    <br />
+    <div style="background-color: #5E7E3D; text-align: center; font-size: 9pt; color: #C5D3BA;
+        padding: 10px;" id = "dvDown">
+        行政院農業委員會版權所有©2011 COA All Rights Reserved‧最佳瀏覽狀態為 IE6.0 以上‧Firefox 2.0 以上‧1024*768
+        以上解析度最佳‧
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>

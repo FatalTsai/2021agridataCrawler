@@ -1,0 +1,512 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	農業統計資料查詢
+</title><meta http-equiv="X-Frame-Options" content="deny" /> 
+    <script type="text/javascript">
+        if (self == top)
+            document.documentElement.style.display = 'block'
+        else 
+            top.location = self.location;
+    </script>        
+    
+<link href="../../library/SDWeb.css" rel="stylesheet" type="text/css" />
+    <script src="./../library/SdWeb.js" type="text/javascript"></script>    
+    <link rel="SHORTCUT ICON" href="../../images/coa.ico" />
+
+    <script type="text/javascript">
+        var m_objLastMenu = null;
+        var m_strLastMenuImageUrl = "";
+        var m_intLastMenuTime = 0;
+        var m_objLastSubMenu = null;
+
+        function MenuOver(objMenu, strImageUrl, strSubMenu) {
+            var objSubMenu;
+
+            if (m_intLastMenuTime != 0) {
+                clearTimeout(m_intLastMenuTime);
+                MenuOutTimeout();
+            }
+
+            if (objMenu) objMenu.src = strImageUrl;
+
+            if (strSubMenu != "") {
+                objSubMenu = document.getElementById(strSubMenu);
+                objSubMenu.style.top = String(objMenu.offsetTop + 25) + "px";
+                objSubMenu.style.left = String(objMenu.offsetLeft) + "px";
+                objSubMenu.style.display = "";
+            }
+        }
+
+        function MenuOut(objMenu, strImageUrl, strSubMenu) {
+            m_objLastMenu = objMenu;
+            m_strLastMenuImageUrl = strImageUrl;
+            m_intLastMenuTime = setTimeout("MenuOutTimeout()", 500);
+
+            if (strSubMenu == "")
+                m_objLastSubMenu = null
+            else
+                m_objLastSubMenu = document.getElementById(strSubMenu);
+        }
+
+        function MenuOutTimeout() {
+            m_intLastMenuTime = 0;
+            if (m_objLastMenu) m_objLastMenu.src = m_strLastMenuImageUrl;
+            if (m_objLastSubMenu) m_objLastSubMenu.style.display = "none";
+        }
+
+        function SubMenuOver() {
+            if (m_intLastMenuTime != 0) clearTimeout(m_intLastMenuTime);
+        }
+        function SubMenuOut() {
+            m_intLastMenuTime = setTimeout("MenuOutTimeout()", 500);
+        }
+    </script>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="Book.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AC7AE538" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="uqtBm9riTeCb9antDuCRBr5s1PesnZHl8IcCACwT6aTVmakGCT2wDqFsBQdG8IZNMGg0OU/cH709WmF9WFi2yMO4sYh6EQuJXEigzQmSzGgq00v05uXy0Llt90dTtwa6azCGg3eJGeSkLUI/RrkDmEBjx1QNyIhB1ODAmWD3EQ9SAtLMD2UYFRnLBzsbyM4aaOSwuGa6GkQ+dubaYRpwyGUo/u9YiA+DEwevTKnQtoJUG+Rya80KzIziqFqZWOXf2xlkOHjO0e0Ys2jWZXkujVxs9Naaic7Jym6edvBfzrcSpafYECYtMzXvnWSIaMHo1Od4/LYmI5HdndfP8RT/0Myf3cJ/1tLJl0dtAR9Z3dVHEg3ZPouxxKaifjls1fgF4Jt0VrZb4uReSH7s" />
+    <div id = "dvTop">
+    <div style="background-image: url(../../images/banner_bg.gif);">
+        <img src="../../images/banner.jpg" alt="農業統計資料查詢" />
+    </div>
+    <div style="background-image: url(../../images/menu_bg.gif); white-space: nowrap;">
+        <span id="ctl00_dtlMenu"><span>
+                <a id="ctl00_dtlMenu_ctl00_lnkMenu" href="../maintenance/Announce.aspx"><img id="ctl00_dtlMenu_ctl00_imgMenu" onmouseover="MenuOver(this,'../../images/menu_announce_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_announce.gif','')" src="../../images/menu_announce.gif" alt="系統公告" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl01_lnkMenu" href="../indicator/Indicator.aspx"><img id="ctl00_dtlMenu_ctl01_imgMenu" onmouseover="MenuOver(this,'../../images/menu_indicator_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_indicator.gif','')" src="../../images/menu_indicator.gif" alt="農業指標" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl02_lnkMenu" href="../inquiry/InquireAdvance.aspx"><img id="ctl00_dtlMenu_ctl02_imgMenu" onmouseover="MenuOver(this,'../../images/menu_advance_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_advance.gif','')" src="../../images/menu_advance.gif" alt="動態查詢" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl03_lnkMenu" href="../trade/tradereport.aspx"><img id="ctl00_dtlMenu_ctl03_imgMenu" onmouseover="MenuOver(this,'../../images/menu_trade_s.gif','ctl00_repSubMenu1_ctl03_panSubMenu')" onmouseout="MenuOut(this,'../../images/menu_trade.gif','ctl00_repSubMenu1_ctl03_panSubMenu')" src="../../images/menu_trade.gif" alt="農業貿易" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl04_lnkMenu" href="Book.aspx"><img id="ctl00_dtlMenu_ctl04_imgMenu" onmouseover="MenuOver(this,'../../images/menu_book_s.gif','')" onmouseout="MenuOut(null,'../../images/menu_book.gif','')" src="../../images/menu_book_s.gif" alt="統計書刊" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl05_lnkMenu" href="../common/Download.aspx"><img id="ctl00_dtlMenu_ctl05_imgMenu" onmouseover="MenuOver(this,'../../images/menu_download_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_download.gif','')" src="../../images/menu_download.gif" alt="下載區" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl06_lnkMenu" href="../official/OfficialInformation.aspx"><img id="ctl00_dtlMenu_ctl06_imgMenu" onmouseover="MenuOver(this,'../../images/menu_Official_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_Official.gif','')" src="../../images/menu_Official.gif" alt="公務統計" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl07_lnkMenu" href="../maintenance/Question.aspx"><img id="ctl00_dtlMenu_ctl07_imgMenu" onmouseover="MenuOver(this,'../../images/menu_question_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_question.gif','')" src="../../images/menu_question.gif" alt="常見問題" border="0" /></a></span></span></div>
+    
+            <div id="ctl00_repSubMenu1_ctl03_panSubMenu" onmouseover="SubMenuOver()" onmouseout="SubMenuOut()" style="position: absolute; top: 125px;
+                display: none;">
+	
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <img src="../../images/sub_menu_left.gif" alt="" /></td>
+                        
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl00_lnkSubMenu" href="../trade/TradeReport.aspx">貿易統計表</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl01_lnkSubMenu" href="../trade/TradeCcc.aspx">稅則號列(CCC)資料查詢</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl02_lnkSubMenu" href="../trade/TradeCoa.aspx">農產品別(COA)資料查詢</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl03_lnkSubMenu" href="../library/Instruction.pdf">操作說明</a>
+                                </td>
+                            
+                        <td>
+                            <img src="../../images/sub_menu_right.gif" alt="" /></td>
+                    </tr>
+                </table>
+            
+</div>
+        
+    <br />
+    <div style="padding: 0 0 15px 15px;">
+        <img src="../../images/title_icon.gif" style="vertical-align: middle; padding-left: 10px;
+            position: relative; top: -6px;" alt="" />
+        <span id="ctl00_dtlMenuPath" class="MenuPath" style="position: relative; top: -6px;"><span>
+                統計書刊
+            </span></span><br />
+        <img src="../../images/title_line.gif" alt="" /></div></div>
+    <div style="margin-left: 15px; margin-right: 10px;">
+        
+    
+        <style type="text/css">
+            th
+            {
+                white-space: nowrap;
+            }
+            .HelpPanel
+            {
+                width: 400px;
+                position: absolute;
+                border: solid 1px black;
+                background-color: #FFFFCC;
+                text-align: left;
+                padding: 5px;
+                font-size: 10pt;
+            }
+            .FileExt image
+            {
+                vertical-align: middle;
+            }
+            .Instructions
+            {
+                font-size: 9pt;
+                color: Blue;
+                padding-left: 25px;
+            }
+        </style>
+
+        <script type="text/javascript">
+            function CategoryAllClick(chkQCategoryAll) {
+                var i;
+
+                for (i = 0; i < m_aryCategory.length; i++)
+                    document.getElementById(m_aryCategory[i]).checked = chkQCategoryAll.checked;
+            }
+
+            function CategoryClick() {
+                var i;
+                var blnCheckAll = true;
+
+                for (i = 0; i < m_aryCategory.length; i++)
+                    if (!document.getElementById(m_aryCategory[i]).checked) {
+                    blnCheckAll = false;
+                    break;
+                }
+
+                document.getElementById("ctl00_cphMain_uctlBook_chkQCategoryAll").checked = blnCheckAll;
+            }
+
+            function ElementClientTop(objCtl) {
+                var intTop = objCtl.offsetTop
+
+                while (objCtl = objCtl.offsetParent)
+                    intTop += objCtl.offsetTop;
+                return intTop;
+            }
+
+            function ElementClientLeft(objCtl) {
+                var intLeft = objCtl.offsetLeft
+
+                while (objCtl = objCtl.offsetParent)
+                    intLeft += objCtl.offsetLeft;
+                return intLeft;
+            }
+
+            function HelpMouseOver(objButton, strPanelID) {
+                var objPanel = document.getElementById(strPanelID);
+                var objDiv = document.getElementsByTagName("div")
+
+                for (var i = 0; i < objDiv.length; i++) {
+                    if (objDiv[i].attributes["class"] == "HelpPanel")
+                        objDiv[i].style.display = "none";
+                }
+
+                objPanel.style.top = (ElementClientTop(objButton) - 5) + "px";
+                objPanel.style.left = (ElementClientLeft(objButton) - 400 - 15) + "px";
+                objPanel.style.display = "";
+            }
+
+            function HelpMouseOut(strPanelID) {
+                var objPanel = document.getElementById(strPanelID);
+
+                objPanel.style.display = "none";
+            }        
+        </script>
+
+        <table style="width: 90%; margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <fieldset class="FieldSet" style="padding-top: 8px; padding-bottom: 8px;">
+                        <table>
+                            <tr>
+                                <th valign="top" align="right" rowspan="2">
+                                    類 別：
+                                </th>
+                                <td>
+                                    <input id="ctl00_cphMain_uctlBook_chkQCategoryAll" type="checkbox" name="ctl00$cphMain$uctlBook$chkQCategoryAll" checked="checked" onclick="CategoryAllClick(this);" /><label for="ctl00_cphMain_uctlBook_chkQCategoryAll">全部</label>
+                                </td>
+                                <td colspan="3" style="white-space: nowrap;">
+                                    &nbsp;&nbsp;<input id="ctl00_cphMain_uctlBook_rdoPeriodLastst" type="radio" name="ctl00$cphMain$uctlBook$Period" value="rdoPeriodLastst" checked="checked" /><label for="ctl00_cphMain_uctlBook_rdoPeriodLastst">最新一期</label>&nbsp;&nbsp;<input id="ctl00_cphMain_uctlBook_rdoPeriodAll" type="radio" name="ctl00$cphMain$uctlBook$Period" value="rdoPeriodAll" /><label for="ctl00_cphMain_uctlBook_rdoPeriodAll">包含歷史書刊</label></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <div>
+                                        <span id="ctl00_cphMain_uctlBook_dltQCategory"><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl00_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl00$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl00_chkQCategory">農業統計年報</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl01_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl01$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl01_chkQCategory">糧食供需年報</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl02_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl02$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl02_chkQCategory">農業統計要覽</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl03_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl03$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl03_chkQCategory">農業統計月報</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl04_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl04$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl04_chkQCategory">農業及農食鏈統計</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl05_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl05$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl05_chkQCategory">主力農家所得調查結果</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl06_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl06$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl06_chkQCategory">農產貿易統計要覽</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl07_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl07$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl07_chkQCategory">其他農業統計專文</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl08_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl08$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl08_chkQCategory">養豬頭數調查報告</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl09_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl09$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl09_chkQCategory">畜禽產品物價統計月報</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl10_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl10$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl10_chkQCategory">畜禽統計調查結果</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span><span>
+                                                <span style="white-space: nowrap; display: inline-table;">
+                                                    <input id="ctl00_cphMain_uctlBook_dltQCategory_ctl11_chkQCategory" type="checkbox" name="ctl00$cphMain$uctlBook$dltQCategory$ctl11$chkQCategory" checked="checked" onclick="CategoryClick();" /><label for="ctl00_cphMain_uctlBook_dltQCategory_ctl11_chkQCategory">畜禽產品生產成本與收益</label>&nbsp;&nbsp;&nbsp;</span>
+                                            </span></span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    書名關鍵字：
+                                </th>
+                                <td>
+                                    <input name="ctl00$cphMain$uctlBook$txtQName" type="text" size="30" id="ctl00_cphMain_uctlBook_txtQName" />
+                                </td>
+                                <th>
+                                    &nbsp;&nbsp;出版週期：
+                                </th>
+                                <td>
+                                    <select name="ctl00$cphMain$uctlBook$ddlQPeriod" id="ctl00_cphMain_uctlBook_ddlQPeriod">
+	<option selected="selected" value=""></option>
+	<option value="Y">年報</option>
+	<option value="H">半年報</option>
+	<option value="Q">季報</option>
+	<option value="M">月報</option>
+	<option value="I">不定期</option>
+
+</select>
+                                    &nbsp;&nbsp; </td>
+                                <td>
+                                    <span class="ThreeDButton ThreeDButtonBackground" onmouseover="this.className='ThreeDButton ThreeDButtonMouseOver';" onmouseout="this.className='ThreeDButton ThreeDButtonBackground';"><span><input type="submit" name="ctl00$cphMain$uctlBook$btnQuery" value="查　詢" id="ctl00_cphMain_uctlBook_btnQuery" /></span></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br />
+                    <div>
+	<table class="GridView" cellspacing="0" cellpadding="6" rules="all" border="1" id="ctl00_cphMain_uctlBook_grdBook" width="100%" style="padding-top: 20px;">
+		<tr class="Header">
+			<th scope="col" width="25%"><a href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook','Sort$category_code')">類別</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook','Sort$book_name')">書 名</a></th><th scope="col" width="10%" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook','Sort$period_serial_no')">出版週期</a></th><th scope="col" width="10%" nowrap="nowrap"><a href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook','Sort$publish_date')">出版日期</a></th><th scope="col" width="5%">說明</th>
+		</tr><tr class="Row">
+			<td>畜禽產品物價統計月報</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl02_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl02_lnkBookUrl" title="開啟新視窗" href="http://price.naif.org.tw/Query/Query_now.aspx" target="_blank">畜禽產品物價統計月報</a><br />
+                                    <span id="ctl00_cphMain_uctlBook_grdBook_ctl02_lblInstructions" class="Instructions">｢畜禽產品物價統計月報」自109年1月起停止出刊，原刊布內容已於｢畜產品價格查詢系統」網站，提供彈性查詢，感謝您的配合與支持。</span>
+                                </td><td align="center">月報</td><td align="center">
+                                    </td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl02_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl02_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="AlternatingRow">
+			<td>畜禽統計調查結果</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl03_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl03_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl03$btnBookName','')">畜禽統計調查結果（109年4季）</a><br />
+                                    
+                                </td><td align="center">季報</td><td align="center">
+                                    110/02/08</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl03_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl03_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="Row">
+			<td>養豬頭數調查報告</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl04_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl04_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl04$btnBookName','')">109年11月底養豬頭數調查報告</a><br />
+                                    
+                                </td><td align="center">半年報</td><td align="center">
+                                    110/01/15</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl04_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl04_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="AlternatingRow">
+			<td>農業及農食鏈統計</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl05_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl05_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl05$btnBookName','')">農業及農食鏈統計（108年）</a><br />
+                                    
+                                </td><td align="center">年報</td><td align="center">
+                                    109/12/25</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl05_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl05_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="Row">
+			<td>糧食供需年報</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl06_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl06_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl06$btnBookName','')">糧食供需年報（108年）</a><br />
+                                    <span id="ctl00_cphMain_uctlBook_grdBook_ctl06_lblInstructions" class="Instructions">為配合政府e化及響應環保，本刊將自106年起停印紙本，嗣後請逕至本會網站｢統計與出版品」下查詢，感謝您的配合與支持。</span>
+                                </td><td align="center">年報</td><td align="center">
+                                    109/09/30</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl06_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl06_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="AlternatingRow">
+			<td>畜禽產品生產成本與收益</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl07_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl07_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl07$btnBookName','')">主要畜禽產品生產成本與收益分析（108年）</a><br />
+                                    
+                                </td><td align="center">年報</td><td align="center">
+                                    109/09/25</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl07_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl07_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="Row">
+			<td>農業統計要覽</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl08_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl08_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl08$btnBookName','')">農業統計要覽（108年）</a><br />
+                                    
+                                </td><td align="center">年報</td><td align="center">
+                                    109/09/18</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl08_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl08_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="AlternatingRow">
+			<td>主力農家所得調查結果</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl09_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl09_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl09$btnBookName','')">主力農家所得調查結果（108年）</a><br />
+                                    
+                                </td><td align="center">年報</td><td align="center">
+                                    109/08/31</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl09_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl09_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="Row">
+			<td>農業統計年報</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl10_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl10_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl10$btnBookName','')">農業統計年報（108年）</a><br />
+                                    
+                                </td><td align="center">年報</td><td align="center">
+                                    109/07/10</td><td align="center">
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl10_imgHelp" onclick="HelpMouseOver(this,'ctl00_cphMain_uctlBook_grdBook_ctl10_panHelp')" src="../../images/button_read.gif" border="0" style="cursor: help" />
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl10_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl10_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;" onclick="HelpMouseOut('ctl00_cphMain_uctlBook_grdBook_ctl10_panHelp')">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        1.本年報係依統計法及其施行細則相關規定編製，以原臺灣省政府農林廳編印之「臺灣農業年報」為架構與內容，加以擴編而成。旨在以數字報導農、林、漁、牧之生產、價格、成本、農業及農食鏈、農產貿易、糧食供需、農業天然災害與救助等各項最新基本統計，俾便瞭解整體農業概況。<br />2.本年報資料地區範圍除另有註明外，均以臺閩地區為地區範圍。 <br />3.本年報資料時期屬靜態資料者以108年12月31日為準，屬動態資料者以108年1月至12月資料為準。部分資料因最新調查統計結果尚未產生，故以107年資料刊載。 <br />4.本年報所載數字如與前期內容不同者，應以本期為準。 <br />5.本年報各項資料來源、說明及附註，分別於各表下方註明。 <br />6.本年報部分數字，由於尾數四捨五入關係，總數與細數之間，容或未能完全吻合。 <br />7.本年報所用度量衡單位以公制為準，金額（價值）則以新台幣計算，其有特殊情形者，均分別於各表中註明。 <br />8.本年報所用符號代表意義如下： <br />p ：表示初步統計數 <br />f ：表示預測數 <br />r ：表示修正數 <br />e ：表示估計數 <br />－：表示無數值或數值無統計 <br />…：表示數值尚未發布 <br />0 ：表示數值不及半單位 <br />＊：表示當年度以前（含當年度）資料地區範圍為臺灣地區<br />資料修正歷程：
+			</div>
+                                </td>
+		</tr><tr class="AlternatingRow">
+			<td>農產貿易統計要覽</td><td>
+                                    <img id="ctl00_cphMain_uctlBook_grdBook_ctl11_imgBook" src="../../images/book_close.gif" border="0" style="vertical-align: middle;" />
+                                    <a id="ctl00_cphMain_uctlBook_grdBook_ctl11_btnBookName" href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook$ctl11$btnBookName','')">農產貿易統計要覽（105年）</a><br />
+                                    <span id="ctl00_cphMain_uctlBook_grdBook_ctl11_lblInstructions" class="Instructions">為配合政府e化及響應環保，本刊自106年起停止出刊，刊物內容請逕至本會網站｢農業統計資料查詢」之｢農業貿易&gt;農產品別(COA)資料查詢」下彈性查詢，感謝您的配合與支持。</span>
+                                </td><td align="center">年報</td><td align="center">
+                                    106/04/27</td><td align="center">
+                                    
+                                    <div id="ctl00_cphMain_uctlBook_grdBook_ctl11_panHelp" class="HelpPanel" style="display: none;">
+				
+                                        <div id="ctl00_cphMain_uctlBook_grdBook_ctl11_divClose" style="text-align: right; width: 100%; color: Black;
+                                            cursor: pointer;">
+                                            <img src="../../images/Close.gif" alt="" title="關閉" style="vertical-align: middle;" />&nbsp;關閉
+                                        </div>
+                                        <hr />
+                                        
+			</div>
+                                </td>
+		</tr><tr class="Pager">
+			<td colspan="5"><table border="0">
+				<tr>
+					<td><span>1</span></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlBook$grdBook','Page$2')">2</a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table>
+</div>
+                </td>
+            </t></table>
+    
+
+    </div>
+    <br />
+    <div style="background-color: #5E7E3D; text-align: center; font-size: 9pt; color: #C5D3BA;
+        padding: 10px;" id = "dvDown">
+        行政院農業委員會版權所有©2011 COA All Rights Reserved‧最佳瀏覽狀態為 IE6.0 以上‧Firefox 2.0 以上‧1024*768
+        以上解析度最佳‧
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='gis.swcb.gov.tw', port=443): Read timed out. (read timeout=5)

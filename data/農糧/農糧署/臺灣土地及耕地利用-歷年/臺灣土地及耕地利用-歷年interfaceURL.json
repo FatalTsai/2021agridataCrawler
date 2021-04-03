@@ -1,0 +1,38 @@
+[
+  {
+    "year": 2016,
+    "all_land_area": "3619418.24",
+    "farm_land_area_short_term_rice": 168872,
+    "farm_land_area_short_term_not_rice": 80315,
+    "farm_land_area_short_term_leisure": 230079,
+    "farm_land_area_long_term_all": 266359,
+    "farm_land_area_long_term_leisure": 48378
+  },
+  {
+    "year": 2015,
+    "all_land_area": "3619418.24",
+    "farm_land_area_short_term_rice": 146597,
+    "farm_land_area_short_term_not_rice": 98639,
+    "farm_land_area_short_term_leisure": 236587,
+    "farm_land_area_long_term_all": 264752,
+    "farm_land_area_long_term_leisure": 50042
+  },
+  {
+    "year": 2014,
+    "all_land_area": "3618994.59",
+    "farm_land_area_short_term_rice": 166602,
+    "farm_land_area_short_term_not_rice": 96503,
+    "farm_land_area_short_term_leisure": 221489,
+    "farm_land_area_long_term_all": 264019,
+    "farm_land_area_long_term_leisure": 50999
+  },
+  {
+    "year": 2013,
+    "all_land_area": "3618994.59",
+    "farm_land_area_short_term_rice": 162869,
+    "farm_land_area_short_term_not_rice": 106286,
+    "farm_land_area_short_term_leisure": 216467,
+    "farm_land_area_long_term_all": 265529,
+    "farm_land_area_long_term_leisure": 48679
+  }
+]

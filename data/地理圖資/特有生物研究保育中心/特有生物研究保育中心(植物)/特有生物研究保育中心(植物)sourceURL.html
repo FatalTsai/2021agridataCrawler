@@ -1,0 +1,708 @@
+
+
+
+
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <!-- Owl Stylesheets -->
+    <link href="/static/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="/static/css/owl.theme.default.min.css" rel="stylesheet">
+
+    
+
+    <!-- date range picker CSS -->
+    <link rel="stylesheet" href="/static/css/daterangepicker.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="/static/css/dataTables.bootstrap.min.css">
+
+    
+    
+    <link rel="stylesheet" href="/static/css/theme.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159438257-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159438257-1');
+    </script>
+    <title>TaiBIF :: 首頁</title>
+  </head>
+
+  <body>
+  <button onclick="topFunction()" id="top" title="Return to top" class="btn-2top myicon icon-arrow-up"></button>
+  <!-- Header begin -->
+  <div class="header-fluid">
+    <nav class="navbar-main navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="/static/images/taibif-logo.png" class="hidden-xs navbar-brand-l" style="margin-top:8px"><img src= "/static/images/taibif-logo-rgb-s.jpg" class="visible-xs navbar-brand-s"></a>
+        <div class="row">
+          <!-- hidden xs begin -->
+          <div class="hidden-xs col-xs-6 navbar-hidden-xs">
+            <div class="navbar-search-wrapper">
+              <input type="text" class="navbar-search-input" id="navbar-search-input" placeholder="全站搜尋...">
+              <button class="navbar-search-btn" id="navbar-search-btn" type="button">
+                <span class="myicon icon-search"></span>
+              </button>
+            </div>
+            <a href="https://www.facebook.com/TaiBIF.tw/" target="_blank" class="navbar-oval-btn"><span class="myicon icon-social-fb"></span></a>
+            <a href="#" target="_blank" class="navbar-oval-btn"><span class="myicon icon-social-yt"></span></a>
+            <a href="#" class="navbar-language-btn" data-toggle="modal" data-target=".xs-lang-modal-pos"><span class="myicon icon-language"></span>
+            
+            
+            
+            
+            繁體中文
+             </a>
+
+          </div>
+          <!-- hidden xs end -->
+          <!-- visible xs begin -->
+          <div class="visible-xs col-xs-6 navbar-visible-xs">
+            <a href="#" class="navbar-icon-btn" id="xs-navbtn-search" data-toggle="modal" data-target=".xs-search-modal-pos">
+              <span class="myicon icon-search"></span>
+            </a>
+            <a href="#" class="navbar-icon-btn" id="xs-navbtn-lang" data-toggle="modal" data-target=".xs-lang-modal-pos">
+              <span class="myicon icon-language"></span>
+            </a>
+          </div>
+          <!-- visible xs end -->
+        </div>
+      </div>
+
+      <!-- navbar -->
+      <div class="navbar-collapse-wrapper">
+        <div class="container">
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="DropdownMenu-search" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  找資料
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="DropdownMenu-data">
+                  <li><a href="/occurrence/search/">物種出現紀錄</a></li>
+                  <li><a href="/species/search/">物種</a></li>
+                  <li><a href="/dataset/search/">資料集</a></li>
+                  <li><a href="/publisher/search/">發布者</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="DropdownMenu-data" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  資料開放
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="DropdownMenu-data">
+                  <li><a href="/open-data">Open Data 概述</a></li>
+                  <li><a href="/data-stats">資料發布狀況</a></li>
+                  <li><a href="/publishing-data">資料上傳</a></li>
+                  <li><a href="/journals">資料論文/期刊</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="DropdownMenu-tool" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  工具與文件
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="DropdownMenu-tool">
+                  <li><a href="/tools">工具分享</a></li>
+                  
+                  <li><a href="/cookbook">Cookbook</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="DropdownMenu-about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  關於 TaiBIF
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="DropdownMenu-about">
+                  <li><a href="/about-tibif">TaiBIF 簡介</a></li>
+                  
+                  <li><a href="/about-gbif">GBIF 介紹</a></li>
+                  <li><a href="/contact-us">聯絡我們</a></li>
+                  <li><a href="/links">相關連結</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="DropdownMenu-more" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  更多資訊
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="DropdownMenu-more">
+                  <li class="dropdown-group-wrapper clearfix">
+                    <ul class="dropdown-group-ctn">
+                      <li class="dropdown-group-cate hidden-xs">最新消息</li>
+                      <li><a href="/article/category/news/">新聞</a></li>
+                      <li><a href="/article/category/event/">活動</a></li>
+                      <li><a href="/article/category/update/">更新</a></li>
+                    </ul>
+                    <ul class="dropdown-group-ctn">
+                      <li class="dropdown-group-cate hidden-xs">專題文章</li>
+                      <li><a href="/article/category/sci/">科普文章</a></li>
+                      <li><a href="/article/category/tech/">技術專欄</a></li>
+                      <li><a href="/article/category/pub/">出版品資料</a></li>
+                      <li><a href="/article/category/pos/">TaiBIF發表文章/海報</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="visible-xs navbar-collapse-xs">
+                追蹤：
+                <a href="https://www.facebook.com/TaiBIF.tw/" target="_blank"><span class="myicon icon-social-fb"></span></a>
+                <a href="#" target="_blank"><span class="myicon icon-social-yt"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- xs-search-modal begin -->
+  <div class="modal fade xs-modal-wrapper xs-search-modal-pos" data-backdrop="false">
+    <div class="xs-modal-content">
+      <div class="xs-modal-header">
+        <span class="xs-search-modal-close myicon icon-close" data-dismiss="modal" aria-label="Close"></span>
+        <p class="text-center xs-modal-title">搜尋</p>
+      </div>
+      <div class="xs-modal-body">
+        <div class="xs-search-modal-input-group">
+          <input type="text" class="navbar-search-input" placeholder="請輸入關鍵字...">
+          <button class="navbar-search-btn" type="button">
+            <span class="myicon icon-search"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- xs-search-modal end -->
+
+  <!-- xs-lang-modal begin -->
+  <div class="modal fade lang-modal-wrapper xs-lang-modal-pos" role="dialog" data-backdrop="false">
+    <div class="xs-modal-content">
+      <div class="xs-modal-header">
+        <span class="xs-search-modal-close myicon icon-close" data-dismiss="modal" aria-label="Close"></span>
+        <p class="text-center xs-modal-title">Change Language</p>
+      </div>
+
+      <div class="xs-modal-body">
+        <label class="custom-input-ctn">
+          <input type="radio" name="radio">
+          <form name="ui" action="/i18n/setlang/" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="l7whdTNtnGs10bnG3uRbbK9lxWyFT1ajthfn0F5oOeEaCBoRTbJUsQ8WHJGwlvGC">
+              <input name="next" type="hidden" value="" />
+              <input name="language" type="hidden"/>
+
+            </form>
+          
+              <a href="#" onclick="document.ui.language.value='en'; document.ui.submit();">English</a><br>
+          
+              <a href="#" onclick="document.ui.language.value='zh-hant'; document.ui.submit();">繁體中文</a><br>
+          
+
+        </label>
+      </div>
+    </div>
+  </div>
+  <!-- xs-lang-modal end -->
+
+  <!-- Header end -->
+
+  
+<!-- xs-search-modal begin -->
+<script>
+  function goSearch(cat) {
+    const q = document.querySelector('#taibif-search-keyword');
+    if (q.value) {
+      window.location.href= `/${cat}/search/?q=${q.value}`;
+    }
+    else {
+      window.location.href= `/${cat}/search/`;
+    }
+  }
+</script>
+  <div class="modal fade xs-modal-wrapper xs-search-modal-pos" data-backdrop="false">
+    <div class="xs-modal-content">
+      <form action="/search/" method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="l7whdTNtnGs10bnG3uRbbK9lxWyFT1ajthfn0F5oOeEaCBoRTbJUsQ8WHJGwlvGC">
+      <div class="xs-modal-header">
+        <span class="xs-search-modal-close myicon icon-close" data-dismiss="modal" aria-label="Close"></span>
+        <p class="text-center xs-modal-title">搜尋</p>
+      </div>
+      <div class="xs-modal-body">
+        <div class="xs-search-modal-input-group">
+          <input type="text" class="navbar-search-input search-q" placeholder="請輸入關鍵字..." name="q">
+          <button class="navbar-search-btn" type="submit">
+            <span class="myicon icon-search"></span>
+          </button>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  <!-- xs-search-modal end -->
+
+  <!-- xs-lang-modal begin -->
+  <div class="modal fade xs-modal-wrapper xs-lang-modal-pos" role="dialog" data-backdrop="false">
+    <div class="xs-modal-content">
+      <div class="xs-modal-header">
+        <span class="xs-search-modal-close myicon icon-close" data-dismiss="modal" aria-label="Close"></span>
+        <p class="text-center xs-modal-title">Change Lamguage</p>
+      </div>
+      <div class="xs-modal-body">
+        <label class="custom-input-ctn">
+          <input type="radio" name="radio">
+          <span class="radiomark"></span>
+          English
+        </label>
+      </div>
+    </div>
+  </div>
+  <!-- xs-lang-modal end -->
+
+  <!-- Header end -->
+
+  <!-- carousel begin -->
+  <div id="carousel-example" class="carousel slide" data-ride="carousel">
+    <!-- carousel content wrapper begin -->
+    <div class="carousel-inner" role="listbox">
+      <div class="head-carousel-wrapper item active" style="background-image: url('/static/images/banner/003.jpg');">
+        <div class="head-carousel-search-wrapper">
+          <h1 class="head-carousel-tagline">TaiBIF-生物多樣性資料開放的推手</h1>
+          <div class="head-carousel-search-ctn">
+            <form action="/search/" method="post">
+              <input type="hidden" name="csrfmiddlewaretoken" value="l7whdTNtnGs10bnG3uRbbK9lxWyFT1ajthfn0F5oOeEaCBoRTbJUsQ8WHJGwlvGC">
+              <ul class="row head-carousel-search-cate">
+                <li class="col-xs-3"><a href="#" class="search-type-btn" data-type="occurrence" onclick="goSearch('occurrence');">出現紀錄</a></li>
+                <li class="col-xs-3"><a href="#" class="search-type-btn" data-type="species" onclick="goSearch('species');">物種</a></li>
+                <li class="col-xs-3"><a href="#" class="search-type-btn" data-type="dataset" onclick="goSearch('dataset');">資料集</a></li>
+                <li class="col-xs-3"><a href="#" class="search-type-btn" data-type="publisher" onclick="goSearch('publisher');">發布者</a></li>
+              </ul>
+              <div class="head-carousel-search-form-wrapper">
+              <input type="text" class="head-carousel-search-input search-q" placeholder="全站搜尋..." name="q" id="taibif-search-keyword">
+              <button class="head-carousel-search-btn" type="submit">
+                <span class="myicon icon-search"></span>
+              </button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="home-banner-cover-license"><em>Muntiacus reevesi </em>(Ogilby, 1839) Observed in Taiwan by Liu JimFood. Photo via iNaturalist (CC BY-NC 4.0)</div>
+    </div>
+    <!-- carousel content wrapper begin -->
+  </div>
+  <!-- carousel end -->
+
+  <!-- data wall begin -->
+  <div class="data-wall-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="data-wall-ctn">
+            <span class="dtat-wall-name">出現紀錄</span>
+            <span class="data-wall-numbers">5,127,050</span> <!--手動更改數字 4672885-->
+            
+            <span class="data-wall-icon myicon icon-data-stats"></span>
+          </div>
+          <div style="font-size: 14px;color: #888; margin-top:10px;">於 TaiBIF 公開之資料</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="data-wall-ctn">
+            <span class="dtat-wall-name">資料集</span>
+            <span class="data-wall-numbers">113</span> <!--手動更改數字108 -->
+            
+            <span class="data-wall-icon myicon icon-data-folder"></span>
+          </div>
+          <div style="font-size: 14px;color: #888; margin-top:10px;">於 TaiBIF 公開之資料集（含部分資訊缺漏之資料集</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="data-wall-ctn">
+            <span class="dtat-wall-name">涵蓋物種數</span>
+            <span class="data-wall-numbers">70234</span> <!--手動更改數字70234 -->
+            
+            <span class="data-wall-icon myicon icon-data-tw"></span>
+          </div>
+          <div style="font-size: 14px;color: #888; margin-top:10px;">出現紀錄涵蓋物種數（包含部分國外資料及同物異名）</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="data-wall-ctn">
+            <a href="/data-stats?most=1">
+            <span class="dtat-wall-name">看更多</span>
+            <span class="data-wall-numbers"><small>科技部資料</small></span>
+            
+            <span class="data-wall-icon myicon icon-arrow-right"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- data wall end -->
+
+  <!-- News board begin -->
+  <div class="container">
+    <h1 class="heading-xlg-center">最新消息 </h1>
+    <div class="row">
+      <!-- news list begin -->
+      <div class="col-sm-12 col-md-4">
+        <div class="news-card-wrapper">
+          <a href="/article/category/news/" class="news-card-cate"><span class="myicon icon-news"></span>新聞</a>
+          <div class="news-card-img-wrapper">
+            <a href="/article/4912/">
+            <div class="news-card-title-ctn">
+              <p class="img-date">2021/02/22</p>
+              <p class="img-title">【徵才公告】TaiBIF 徵求2年以上資歷工程師！（前次職缺已徵得，本次為新增…</p>
+              <p class="img-license">Fratercula arctica (Linnaeus, 1758) Observed in Canada by crgillette. Photo via iNaturalist (CC BY-NC 4.0)</p>
+            </div>
+            <div class="news-card-img-overlay"></div>
+            
+            <img src="/static/images/banner/002.jpg">
+            </a>
+          </div>
+          <ul class="news-card-list-ctn">
+            
+            <li>
+              <a href="/article/4910/">【徵求計畫】一年一度的亞洲生物多樣性資訊基金 (BIFA) 計畫徵求提案來了！</a>
+              <span>2021/01/21</span>
+            </li>
+            
+            <li>
+              <a href="/article/4907/">TaiBIF 徵才囉！想當工程師請點入</a>
+              <span>2020/12/23</span>
+            </li>
+            
+            <li>
+              <a href="/article/4906/">近期 TaiBIF 相關服務部分關閉之說明</a>
+              <span>2020/12/16</span>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      <!-- news list end -->
+      <!-- event list begin -->
+      <div class="col-sm-12 col-md-4">
+        <div class="news-card-wrapper">
+          <a href="/article/category/event/" class="news-card-cate"><span class="myicon icon-event"></span>活動</a>
+          <div class="news-card-img-wrapper">
+            <a href="/article/4897/">
+            <div class="news-card-title-ctn">
+              <p class="img-date">2020/09/23</p>
+              <p class="img-title">GBIF 中華民國委員會—109 年度第五屆第一次全體委員大會於 9 月 21…</p>
+              <p class="img-license">Chelonia mydas (Linnaeus, 1758) Observed in Maldives by Gina. Photo via iNaturalist (CC BY-NC 4.0)</p>
+            </div>
+            <div class="news-card-img-overlay"></div>
+            <img src="/static/images/banner/007.jpg">
+            </a>
+          </div>
+          <ul class="news-card-list-ctn">
+            
+            <li>
+              <a href="/article/4898/">【2020 生物多樣性資料發布與應用工作坊】順利完成！</a>
+              <span>2020/08/31</span>
+            </li>
+            
+            <li>
+              <a href="/article/4900/">【線上錄影檔】亞洲蝙蝠聲學 x 怎麼準備資料論文 webinar 來囉！</a>
+              <span>2020/08/21</span>
+            </li>
+            
+            <li>
+              <a href="/article/4893/">GBIF 邀大家參與2020亞洲線上高峰會！</a>
+              <span>2020/07/15</span>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      <!-- event list end -->
+      <!-- update list begin -->
+      <div class="col-sm-12 col-md-4">
+        <div class="news-card-wrapper">
+          <a href="/article/category/update/" class="news-card-cate"><span class="myicon icon-update"></span>更新</a>
+          <div class="news-card-img-wrapper">
+            <a href="/article/4911/">
+            <div class="news-card-title-ctn">
+              <p class="img-date">2021/02/09</p>
+              <p class="img-title">【物種名錄服務春節暫停公告】</p>
+              <p class="img-license">Lutra lutra (Linnaeus, 1758) Observed in Norway by Bird Explorers. Photo via iNaturalist (CC BY-NC 4.0)</p>
+            </div>
+            <div class="news-card-img-overlay"></div>
+            <img src="/static/images/banner/005.jpg">
+            </a>
+          </div>
+          <ul class="news-card-list-ctn">
+            
+            <li>
+              <a href="/article/4909/">【公告】我們有兩項服務開放囉！</a>
+              <span>2020/12/28</span>
+            </li>
+            
+            <li>
+              <a href="/article/4905/">有效學名比對工具 NomenMatch 更新上線囉！</a>
+              <span>2020/10/14</span>
+            </li>
+            
+            <li>
+              <a href="/article/4896/">【網站功能】物種樹搜尋功能即將上線！</a>
+              <span>2020/09/23</span>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      <!-- update list end -->
+    </div>
+  </div>
+  <!-- News board end -->
+
+  <!-- Topic board begin -->
+  <div class="topic-board-wrapper">
+    <h1 class="heading-xlg-center">專題文章</h1>
+    <div class="container">
+      <div class="owl-carousel owl-theme" id="topic-board">
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4902/">關於 TaiBIF 的前世今生 part1</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/event/">活動</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4900/">【線上錄影檔】亞洲蝙蝠聲學 x 怎麼準備資料論文 webinar 來囉！</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4891/">【新聞】GBIF 20 年回顧：獨立評鑑揭示其成功與挑戰</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4901/">臺灣蝙蝠學者透過 BIFA 計畫串聯東南亞研究者，發布 180 種超過七千筆蝙蝠出現紀錄！</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4899/">你知道嗎？特生中心的 TBN 也有在用 TaiBIF 的資料喔！</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4886/">GBIF.org 繁體中文版介面正式上線囉！</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4877/">關於 TaiBIF 的前世今生 part 2</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4884/">【新聞】Biodiversity Heritage Library（BHL，生物多樣性歷史文獻圖書館）發布 17 世紀「動植物圖鑑」開放下載！</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/sci/">科普文章</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4736/">共生關係限制了豆科植物於原生地外的拓展性</a>
+          </p>
+          
+        </div>
+        
+        <div class="topic-card-wrapper item">
+          <span class="topic-inner-ctn">
+            <a class="topic-inner-cate" href="/article/category/news/">新聞</a>
+          </span>
+          <p class="topic-inner-ctn">
+            <a class="topic-inner-title" href="/article/4895/">科發月刊 9月專題報導— 快來看看 TaiBIF 和 TaiCoL 寫了什麼～</a>
+          </p>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Topic board end -->
+
+  <!-- Partners board begin -->
+  <div class="container">
+    <h1 class="heading-xlg-center">指導單位</h1>
+    <ul class="row partner-list-ctn">
+      <li class="col-xs-6">
+        <a href="https://www.most.gov.tw/" target="_blank"><img src="/static/images/logo-most.jpg"></a>
+      </li>
+      <li class="col-xs-6">
+        <a href="https://www.coa.gov.tw/" target="_blank"><img src="/static/images/logo-coa.jpg"></a>
+      </li>
+      <li class="col-xs-6">
+        <a href="http://www.biodiv.tw/tw/" target="_blank"><img src="/static/images/logo-brcas.jpg"></a>
+      </li>
+      <li class="col-xs-6">
+        <a href="https://www.sinica.edu.tw/ch" target="_blank"><img src="/static/images/logo-sinica.jpg"></a>
+      </li>
+    </ul>
+    <h1 class="heading-xlg-center">夥伴組織</h1>
+    <ul class="row partner-list-ctn">
+      <li class="col-xs-6">
+        <a href="https://www.forest.gov.tw/" target="_blank"><img src="/static/images/logo-forest.jpg"></a>
+      </li>
+      <li class="col-xs-6">
+        <a href="https://tesri.tesri.gov.tw/show_index.php" target="_blank"><img src="/static/images/logo-endemic.jpg"></a>
+      </li>
+    </ul>
+  </div>
+  <!-- Partners board end -->
+  
+
+  
+
+
+  <!-- footer begin -->
+  <div class="container-fluid footer-wrapper">
+    <div class="container">
+      <div id='calendar'></div>
+      <a href="/"><img src="/static/images/taibif-logo-w-l.png" class="ft-brand center-block"></a>
+      <p class="ft-contact">
+          <span class="myicon icon-pin-stroke" aria-hidden="true">11529 台北市南港區研究院路二段 128 號</span>
+          <span class="ft-xs-block">跨領域科技研究大樓 C301室</span>
+      </p>
+      <p class="ft-copywrite">Copyright © TaiBIF 臺灣生物多樣性資訊機構</p>
+    </div>
+  </div>
+  <!-- footer end -->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  
+  
+  <script src="/static/js/jquery-1.12.4.min.js"></script>
+  
+
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/page.js"></script>
+
+  <!-- owl carousel -->
+  <script src="/static/js/OwlCarousel/owl.carousel.min.js"></script>
+  <script src="/static/js/OwlCarousel/owl.carousel2.thumbs.min.js"></script>
+
+  <!-- DataTables -->
+  <script src="/static/js/datatable/jquery.dataTables.js"></script>
+  <script src="/static/js/datatable/dataTables.bootstrap.min.js"></script>
+
+
+  <!-- script 4 owl carousel begin -->
+<script>
+  $(document).ready(function() {
+    //navbar-search
+    //const v \ $('#navbar-search-input').val();
+    $('#navbar-search-btn').click(function(){
+      const q =$('#navbar-search-input').val();
+      window.location.href = `/search/?q=${q}`;
+    });
+    var owl_topic = $('#topic-board');
+    owl_topic.owlCarousel({
+      margin: 20,
+      nav: true,
+      dots: true,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      thumbs: false,
+      responsive:{
+          0:{
+              items:1
+          },
+          650:{
+              items:2
+          },
+          1000:{
+              items:4
+          }
+      }
+    })
+  })
+</script>
+<!-- script 4 owl carousel end -->
+
+
+
+  
+<script>
+  $(document).ready(function() {
+    // TODO why?
+    const ele = document.querySelector('.search-q');
+    ele.addEventListener('change', (event) => {
+      //const result = document.querySelector('.result');
+      //result.textContent = `You like ${event.target.value}`;
+      //console.log(event.target);
+    });
+  });
+</script>
+
+
+  </body>
+</html>
+
+
+
+
+
+

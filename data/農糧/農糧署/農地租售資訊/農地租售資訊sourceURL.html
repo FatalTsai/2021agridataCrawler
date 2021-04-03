@@ -1,0 +1,704 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="MyHead"><title>
+	農地租賃平台 | 農地銀行2.0．提供租/法拍農地
+</title><link rel="stylesheet" type="text/css" href="Styles/new_main.css" /><link rel="stylesheet" type="text/css" href="Styles/new_select.css" /><link rel="stylesheet" type="text/css" href="Styles/front.css" /><link rel="stylesheet" type="text/css" href="Styles/whoami.css" /><link rel="stylesheet" type="text/css" href="Scripts/jquery.sliderkit.1.9.2/lib/css/sliderkit-core.css" /><link rel="stylesheet" type="text/css" href="Scripts/jquery.sliderkit.1.9.2/lib/css/sliderkit-demos.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/default.css" />
+<link href="App_Themes/Medium/Medium.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./" id="MyForm" class="myform">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/ScriptResource.axd?d=8VJstqmPfKlQmlaJebP6wqiOxeN4-k8W82UcYgMnaXtPQTygGzbotrHqNLUIM7xH4biMG1oBrfjSksVSK1quzkGNfWJil2lp4ipaCP48IUn68UsA0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="Scripts/ga.js" type="text/javascript"></script>
+<script src="Scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="Scripts/jquery.sliderkit.1.9.2/lib/js/external/jquery.easing.1.3.min.js" type="text/javascript"></script>
+<script src="Scripts/jquery.sliderkit.1.9.2/lib/js/external/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script src="Scripts/jquery.sliderkit.1.9.2/lib/js/sliderkit/jquery.sliderkit.1.9.2.pack.js" type="text/javascript"></script>
+<script src="Scripts/ezland.js" type="text/javascript"></script>
+<script src="Scripts/ezland_ui.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="KkfVMC1KS6LaiYiwPNfVb_FynassNK1YDF68gklgwhbFV_uUSW1e7EhkHZUr7ymTmwEcxoLDi1TImZ0KWzXMD7k5Hm41" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ftg7EXdk69vmP6c/NKXpEKZm8CEgJooabrIgkGoOxV7FwohqtdFjeLuu9RPsi6JQXpNvYywAGgW+egHBlvxqNFZWwEm8niKJgJHrY0qsjvxPKx0Gpb8IV+IumMYJQQz3aFk4E7Yu3KGw7M3ENTuEzf7wbgIaaXO3ot5cCP+uvXu+C4N04QHaP+tMwDyIv5YTZ0BMM8I4aGJ42WlzIR4sepOj4wc0sW17OsnaHMPg9TQhRqrIcp50gyab4w6vKsKHf+HldN/8z8jbdM4Un4vTG/p9yQV/esmB61ceAPppBnDk88aS2kJF5MfdYmICTziDXU9R0mIUyq6yp9sSj8wRa6Quh0Fw9CxohDkF9in3GD5xVyw3hQ+1dpeTvblY4JAS6wZ3MiQdO80Io01pnuXaas7b7k+yhp7CI9TeR45TGd6DZs5Jvfaduhk5FVT51Na/k4/CS5FmcPbAY1JJ2vwR6fvXb7nOKBs2Ba1vWpBNBa0TCpiweZuel1YN8mOlVnGfjuTa4s0uJ+Z3uAyiMopcuEREMiP++qKDhk4oKsTsVdHp1XIcKm8W6sy1b0r1Vxa4eqrvMsWqAXduwU0hwGT1xH4/TV6WGeFIsUC7uNCjUo+5T9K6lD+MbszOSnx1XT1ynazTZt2GSZ8UFphFgkLo5+fjUe8ly/bxvMarNV644r17NsE7EDZ1GdW4zeBe1tuT9ziO2ITidOe/VvBGS7IQJ2eXYVppiJBeIm0qk8PTk3Ah8GAdIACOeABgR3EIVAwe8YcHBOUDIIHnsxtNyrHNYNljpHIqnwyeOvKZcxJ/isD8TaCPQu/9vnBLd2+H8l6lGnBJjnOifhzomNE1XCqQkBXmcKX7dy32iyN7oADlF+XC+0AmpH0tO+MO09WFP8h7Rl/QRdKjHma/Ir3ETn8tffXiaetn5aE9z87V295wi31iDB+K8ettn8zgEdMJ0bc/9xh+z/FH/TA3pHD57YjqqKWr1o0bjjikXxyGX8t8YKqL6xC8HzgB/WhqimHusGEHlFixLYPWJAvo7NPPMwcZ8evWrc55y5IZBON/bJ+hJFgq83Rv5ZUQFR6FYFdR84k5QfiBxI4fI3iQ+wmDxCrgJwRppdVNH406GfeVakZ5d050kr45RxRmbO72/YiiojCljBweztXpRjsDsa3B3poUpbQkO/kIyoFATL+XSBz5b/eu0MQcu5CFYZx8COHb0d+0DLJwwVpHOeiS/e4HUg7wjIShbf0o+l/NAracDLqD4tgk8c7jaJgACTzErbBNdCqSN++CyQSfdomfUbL/yTg+LpvyNU3CaY8O0a851tk42kiQ9xdfjVQV2JpvMwhz8DNbz0+9iWMGL5yGl5gFuiixu2xd5hOUwuIvHUrDuL1hdPDHNJLNwkVWowD2R1rJljEx1R7cXT7yhXjf3Z212XqhfZVsSYeuvcbwmmfA6puY+JXsLKXsmJg6Exs7d8C8wvjTPmsDH2JQkyS7zIH5vBBnrmJVEkWb05zaXs0s3dZUZ6z9Ngue62QqdtF71hjOvK1H/937bKG67AbFTvbf5MSF1MdUc+1xa1D3thJ/67QV9u0jvFU4GzSIO5mTmLbkHXjI0JiaZopIelPtVPXsrViVeWoM+Fwp3Vk/+23ROIT0IIdxob4Dj+UaL7ZJglosVCUJ25+E5ysGwN3kYW337NE1PgE9npNfQHMYaxDvTziy9CxvS4pK" />
+        
+        <script type="text/javascript">
+            $("#MyForm").submit(function (event) {
+                var can_submit = true;
+                $("input[type=text]").each(function () {
+                    var value = $(this).val();
+                    if (value.match("[<>]")) {
+                        $(this).val("");
+                        if (can_submit) can_submit = false;
+                    }
+                })
+
+                if (!can_submit) {
+                    alert("抱歉，輸入欄位不可以包含HTML標籤，自動清除後，請重新輸入！");
+                    event.preventDefault();
+                }
+            });
+
+            function frame_busting() {
+                try {
+                    if (top.location.hostname != self.location.hostname) throw 1;
+                } catch (e) {
+                    top.location.href = self.location.href;
+                }
+            }
+
+            frame_busting();
+        </script>
+        <div class="page">
+            <div class="page_header">
+                <table class="header_table">
+                    <tr>
+                        <td class="header_theme">
+                            <span id="lblThemeHeader">[字型：</span>
+                            <a id="LargeButton" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LargeButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">大</a>
+                            <a id="MediumButton" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MediumButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">中</a>
+                            <a id="SmallButton" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$SmallButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">小</a>
+                            <span id="lblThemeFooter">]</span>
+                        </td>
+                        <td class="header_menu">
+                            
+                            
+                                    <a id="rprHeaderMenu_hlkMenuItem_0" href="Default.aspx" target="_self"><img id="rprHeaderMenu_imgMenuItem_0" title="首頁" class="img_hover" data-image="/Images/header_bar_01.png" data-alt-image="/Images/header_bar_01_m.png" src="/Images/header_bar_01.png" alt="首頁" align="absmiddle" /></a>
+                                
+                                    <a id="rprHeaderMenu_hlkMenuItem_1" href="History.aspx" target="_self"><img id="rprHeaderMenu_imgMenuItem_1" title="歷史電子報" class="img_hover" data-image="/Images/header_bar_02.png" data-alt-image="/Images/header_bar_02_m.png" src="/Images/header_bar_02.png" alt="歷史電子報" align="absmiddle" /></a>
+                                
+                                    <a id="rprHeaderMenu_hlkMenuItem_2" href="RSS.aspx" target="_self"><img id="rprHeaderMenu_imgMenuItem_2" title="訂閱RSS" class="img_hover" data-image="/Images/header_bar_03.png" data-alt-image="/Images/header_bar_03_m.png" src="/Images/header_bar_03.png" alt="訂閱RSS" align="absmiddle" /></a>
+                                
+                                    <a id="rprHeaderMenu_hlkMenuItem_3" href="Question.aspx" target="_self"><img id="rprHeaderMenu_imgMenuItem_3" title="網站常見問題" class="img_hover" data-image="/Images/header_bar_04.png" data-alt-image="/Images/header_bar_04_m.png" src="/Images/header_bar_04.png" alt="網站常見問題" align="absmiddle" /></a>
+                                
+                                    <a id="rprHeaderMenu_hlkMenuItem_4" href="mailto:coa.ezland@gmail.com" target="_self"><img id="rprHeaderMenu_imgMenuItem_4" title="服務信箱" class="img_hover" data-image="/Images/header_bar_05.png" data-alt-image="/Images/header_bar_05_m.png" src="/Images/header_bar_05.png" alt="服務信箱" align="absmiddle" /></a>
+                                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="header_home">
+                            <a id="hplHome" title="農地租賃平台" ImageAlign="AbsMiddle" href="Default.aspx" style="display:inline-block;"><img title="農地租賃平台" src="Images/logo.png" alt="" /></a>
+                        </td>
+                        <td class="header_search">
+                            <div class="header_link">
+                                
+        <span id="ucLoginView_lblLogin">尚未登入系統！</span>
+        
+<script type="text/javascript">
+    function pageLoad() {
+        $(".captcha").keypress(function (event) {
+            if (event.which == 13) {
+
+                $("#ucLoginView_ucLogin_ibnLogin").trigger("click");
+            }
+        });
+
+        if ($("#ucLoginView_ucLogin_pnlPopup").css("display") == "block") {
+            if ($("#ucLoginView_ucLogin_txtUserName").val() == "")
+                $("#ucLoginView_ucLogin_txtUserName").focus();
+            else {
+                if ($("#ucLoginView_ucLogin_txtPassword").val() == "")
+                    $("#ucLoginView_ucLogin_txtPassword").focus();
+                else
+                    $("#ucLoginView_ucLogin_txtCaptcha").focus();
+            }
+        }
+    }
+</script>
+<input type="image" name="ctl00$ucLoginView$ucLogin$ibnPopup" id="ucLoginView_ucLogin_ibnPopup" title="系統登入" src="Images/login_b.png" alt="系統登入" align="absmiddle" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ucLoginView$ucLogin$ibnPopup&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" />
+
+
+
+        |
+        <a id="ucLoginView_lbnSignUp" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ucLoginView$lbnSignUp&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SignUp.aspx&quot;, false, true))">加入會員</a>
+    
+                            </div>
+                            <div class="search_box">
+                                <input name="ctl00$txtKeyword" type="text" id="txtKeyword" class="search" autocomplete="off" />
+                                <input type="image" name="ctl00$btnSearch" id="btnSearch" title="搜尋" src="Images/search_right.png" alt="搜尋" align="absmiddle" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" />
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="page_content clearfix">
+                <div class="left_content">
+                    <div class="left_menu">
+                        
+                        
+                                <a id="rprLeftMenu_hlkMenuItem_0" href="AssoSearch.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_0" title="查詢農會" class="img_hover" data-image="/Images/left01.png" data-alt-image="/Images/left01_m.png" src="/Images/left01.png" alt="查詢農會" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_1" href="PriceList.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_1" title="成交價格查詢" class="img_hover" data-image="/Images/left02.png" data-alt-image="/Images/left02_m.png" src="/Images/left02.png" alt="成交價格查詢" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_2" href="Law.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_2" title="政策與法令" class="img_hover" data-image="/Images/left03.png" data-alt-image="/Images/left03_m.png" src="/Images/left03.png" alt="政策與法令" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_3" href="SaleKnowledge.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_3" title="租賃知識" class="img_hover" data-image="/Images/left10.gif" data-alt-image="/Images/left10_m.png" src="/Images/left10.gif" alt="租賃知識" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_4" href="Helperfarm.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_4" title="農地銀行小幫手" class="img_hover" data-image="/Images/left04.png" data-alt-image="/Images/left04_m.png" src="/Images/left04.png" alt="農地銀行小幫手" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_5" href="Knowledge.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_5" title="農業經營知識庫" class="img_hover" data-image="/Images/left05.png" data-alt-image="/Images/left05_m.png" src="/Images/left05.png" alt="農業經營知識庫" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_6" href="Video.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_6" title="影音專區" class="img_hover" data-image="/Images/left07.png" data-alt-image="/Images/left07_m.png" src="/Images/left07.png" alt="影音專區" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_7" href="DownLoad.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_7" title="檔案下載" class="img_hover" data-image="/Images/left08.png" data-alt-image="/Images/left08_m.png" src="/Images/left08.png" alt="檔案下載" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_8" href="Link.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_8" title="相關網站" class="img_hover" data-image="/Images/left09.png" data-alt-image="/Images/left09_m.png" src="/Images/left09.png" alt="相關網站" align="absmiddle" /></a>
+                            
+                                <a id="rprLeftMenu_hlkMenuItem_9" href="Fnp.aspx" target="_self"><img id="rprLeftMenu_imgMenuItem_9" title="國有財產署租賃專區" class="img_hover" data-image="/Images/left11.png" data-alt-image="/Images/left11_m.png" src="/Images/left11.png" alt="國有財產署租賃專區" align="absmiddle" /></a>
+                            
+                    </div>
+                    <div class="tw_map">
+                        
+<style type="text/css">
+    #MapMenu
+    {
+        float: left;
+        overflow: hidden;
+        margin-bottom: -1px; /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+        border-left: none;
+        position: inherit;
+        margin-left: 10px;
+    }
+</style>
+<div id="ucTwMap_UpdatePanelMap">
+	
+        <div id="MapMenu" style="width: 220px;">
+            <input type="image" name="ctl00$ucTwMap$ibnRentLand" id="ucTwMap_ibnRentLand" src="images/map_tab01m.png" align="left" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ucTwMap$ibnRentLand&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" />
+        </div>
+        <div id="map-contain">
+            <img id="ucTwMap_impRegions" src="images/twmap_all.png" alt="Sales Regions" usemap="#ImageMapucTwMap_impRegions" border="0" height="259" width="240" /><map name="ImageMapucTwMap_impRegions" id="ImageMapucTwMap_impRegions">
+		<area shape="poly" coords="162,13,167,13,175,20,192,30,170,42,167,48,160,52,153,66,150,66,147,60,139,57,125,49,127,39,132,34,143,25,152,24" href="javascript:__doPostBack(&#39;ctl00$ucTwMap$impRegions&#39;,&#39;0&#39;)" title="北部" alt="北部" /><area shape="poly" coords="125,49,139,57,147,60,150,66,153,66,160,68,155,76,156,82,151,91,153,96,148,104,151,112,140,124,132,124,115,140,110,140,103,129,88,137,83,136,83,115,118,55" href="javascript:__doPostBack(&#39;ctl00$ucTwMap$impRegions&#39;,&#39;1&#39;)" title="中部" alt="中部" /><area shape="poly" coords="83,136,88,137,103,129,110,140,115,140,132,124,140,124,137,128,141,129,141,132,134,138,132,151,129,155,135,166,128,172,126,182,129,192,139,198,139,219,131,219,127,212,127,204,110,188,95,176,82,154" href="javascript:__doPostBack(&#39;ctl00$ucTwMap$impRegions&#39;,&#39;2&#39;)" title="南部" alt="南部" /><area shape="poly" coords="192,30,184,40,184,50,188,55,182,73,177,77,167,145,159,158,155,158,155,163,143,176,139,191,139,198,129,192,126,182,128,172,135,166,129,155,132,151,134,138,141,132,141,129,137,128,140,124,151,112,148,104,153,96,151,91,156,82,155,76,160,68,153,66,160,52,167,48,170,42" href="javascript:__doPostBack(&#39;ctl00$ucTwMap$impRegions&#39;,&#39;3&#39;)" title="東部" alt="東部" /><area shape="poly" coords="65,105, 61,111, 58,115, 61,118, 58,134, 66,117, 70,116, 67,111 " href="javascript:__doPostBack(&#39;ctl00$ucTwMap$impRegions&#39;,&#39;4&#39;)" title="外島" alt="外島" />
+	</map>
+        </div>
+    
+</div>
+
+                    </div>
+                    <div class="banner_view">
+                        
+
+
+<script type="text/javascript">
+    $(window).load(function () {
+        $(".photoslider-1click").sliderkit({
+            auto: true,
+            circular: true,
+            shownavitems: 5,
+            panelclick: false,
+            panelfx: "sliding",
+            panelfxspeed: 1000,
+            panelfxeasing: "easeInOutExpo"
+        });
+    });
+
+    function openAd(idx) {
+        window.open(idx);
+    }
+</script>
+<div class="sliderkit photoslider-1click" style="width: 210px; height: 210px">
+    <div class="sliderkit-panels">
+        <div class="sliderkit-panel">
+            <a href="http://ezland.afa.gov.tw/LatestInfo.aspx?KEYID=08D4EAFC087A866C-5966">
+                <img id="ucBanner_Image1" title="農業經營貸款優惠措施" src="Images/ad/002.jpg" align="absmiddle" />
+            </a>
+        </div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+                <div class="right_content">
+                    <div class="content_menu">
+                        
+                        
+                                <a id="rprContentMenu_hlkMenuItem_0" href="RentList.aspx" target="_self"><img id="rprContentMenu_imgMenuItem_0" title="承租農地" class="img_hover" data-image="/Images/_menu01.gif" data-alt-image="/Images/_menu01_m.gif" src="/Images/_menu01.gif" alt="承租農地" align="absmiddle" /></a>
+                            
+                                <a id="rprContentMenu_hlkMenuItem_1" href="ForSale.aspx" target="_self"><img id="rprContentMenu_imgMenuItem_1" title="我要出租" class="img_hover" data-image="/Images/_menu03.gif" data-alt-image="/Images/_menu03_m.gif" src="/Images/_menu03.gif" alt="我要出租" align="absmiddle" /></a>
+                            
+                                <a id="rprContentMenu_hlkMenuItem_2" href="AddTenant.aspx" target="_self"><img id="rprContentMenu_imgMenuItem_2" title="我要成為大專業農" class="img_hover" data-image="/Images/_menu04.gif" data-alt-image="/Images/_menu04_m.gif" src="/Images/_menu04.gif" alt="我要成為大專業農" align="absmiddle" /></a>
+                            
+                    </div>
+                    <div class="sitemap">
+                        目前位置：<span id="MySiteMapPath"><a href="#MySiteMapPath_SkipLink"><img alt="~/Default.aspx" src="/WebResource.axd?d=F3n083G4bl7C5JvuszagbZ2AOnx5m8txfslmu72Zw137u-7nEZTxyKKM6ns7SQK0tNuyobPRgwYg82vjre8mkIMFWaI1&amp;t=637454356754849868" width="0" height="0" border="0" /></a><span>首頁</span><a id="MySiteMapPath_SkipLink"></a></span>
+                    </div>
+                    <div class="main_content">
+                        
+    
+    <script type="text/javascript">
+        function pageLoad() {
+            initSelectStyle();
+        }
+    </script>
+    <div class="Marquee">
+        <a id="MainContentPlaceHolder_Marquee1_hlNewTop" href="/LatestInfo.aspx?KEYID=08D4EAFC087A866C-5966" style="font-size: 16px;"><font color="Red">頭條消息：農地承租之專案農貸相關訊息</font></a>
+<div id="abgne_marquee">
+  
+      <marquee style='
+        text-align: left' scrollamount='1' scrolldelay='100' direction='up' width='100%' onmouseover="stop()" onmouseout="start()"
+        height='80' border='0' align='left'>
+              <font color="blue">
+    
+       <a href='LatestInfo.aspx?KEYID=08D8D4163BB46BF4-5233'>
+        最新消息：  新進從農政府相挺　農業經營準備金開放申請...</a><br />
+       <a href='LatestInfo.aspx?KEYID=08D8C445DD742CDA-4981'>
+        最新消息：  智慧農業計畫研發有成 鋼鐵農夫 肩頸不再頂扣扣...</a><br />
+       <a href='LatestInfo.aspx?KEYID=08D8EF70EB2C5EF3-1381'>
+        最新消息：  「109年農林漁牧業普查」於110年5月1日至6月30日舉辦，敬請支持配合...</a><br />
+       <a href='LatestInfo.aspx?KEYID=08D8EF70BC3C0C61-0540'>
+        最新消息：  110年農民學院開課 歡迎農友至農民學院網查詢與報名！...</a><br />
+       <a href='LatestInfo.aspx?KEYID=08D8DD6CA98CD2D7-0373'>
+        最新消息：  「109年農林漁牧業普查」於110年5月1日至6月30日舉辦，敬請支持配合...</a><br />
+       <a href='LatestInfo.aspx?KEYID=08D8D817A1B3614F-0679'>
+        最新消息：  基層農會於本日順利完成農事小組組長及會員代表改選 全台287家基層農會順利選出農...</a><br />
+      </font> </marquee>
+    
+</div>
+
+        <div class="message_banner">
+            
+        </div>
+    </div>
+    <div id="MainContentPlaceHolder_MyUpdatePanel">
+	
+            <table width="700" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div id="divforec" style="background-image: url(images/quick_box.png); width: 700px;
+                            height: 160px; margin-bottom: 5px">
+                            <div id="MainContentPlaceHolder_Deftbl" class="def_tbl">
+                                <input type="image" name="ctl00$MainContentPlaceHolder$DefRent" id="MainContentPlaceHolder_DefRent" src="images/quick__01m.png" align="left" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContentPlaceHolder$DefRent&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" />
+                            </div>
+                            <div id="MainContentPlaceHolder_pnlDefRent" style="display:block;">
+                                <table id="tblDefRent" border="0" width="700" cellpadding="0" cellspacing="0" class="tbl_def_rent">
+                                    <tr>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlCity" id="MainContentPlaceHolder_ddlCity" class="select">
+		<option selected="selected" value="">請選擇縣市</option>
+		<option value="C">基隆市</option>
+		<option value="A">台北市</option>
+		<option value="F">新北市</option>
+		<option value="H">桃園市</option>
+		<option value="O">新竹市</option>
+		<option value="J">新竹縣</option>
+		<option value="K">苗栗縣</option>
+		<option value="B">台中市</option>
+		<option value="M">南投縣</option>
+		<option value="N">彰化縣</option>
+		<option value="P">雲林縣</option>
+		<option value="I">嘉義市</option>
+		<option value="Q">嘉義縣</option>
+		<option value="D">台南市</option>
+		<option value="E">高雄市</option>
+		<option value="T">屏東縣</option>
+		<option value="G">宜蘭縣</option>
+		<option value="U">花蓮縣</option>
+		<option value="V">台東縣</option>
+		<option value="W">金門縣</option>
+		<option value="X">澎湖縣</option>
+		<option value="Z">連江縣</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlTown" id="MainContentPlaceHolder_ddlTown" class="select">
+		<option selected="selected" value="">請選擇鄉鎮</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlSect" id="MainContentPlaceHolder_ddlSect" class="select">
+		<option value="">請選擇地段</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlRentPrice" id="MainContentPlaceHolder_ddlRentPrice" class="select">
+		<option value="">每年租金(元)</option>
+		<option value="0,10000">10000元以下</option>
+		<option value="10001,20000">10000元-20000元</option>
+		<option value="20001,50000">20000元-50000元</option>
+		<option value="50001,100000">50000元-100000元</option>
+		<option value="100000,999999999">100000元以上</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlRentDate" id="MainContentPlaceHolder_ddlRentDate" class="select">
+		<option value="">租期(年)</option>
+		<option value="1,3">3年以下</option>
+		<option value="3,5">3-5年</option>
+		<option value="5,7">5-7年</option>
+		<option value="7,10">7-10年</option>
+		<option value="10,99">10年以上</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlRarea" id="MainContentPlaceHolder_ddlRarea" class="select">
+		<option value="">持分總面積(平方公尺)</option>
+		<option value="0,1000">1000(平方公尺)以下</option>
+		<option value="1000,2000">1000-2000(平方公尺)</option>
+		<option value="2000,3000">2000-3000(平方公尺)</option>
+		<option value="3000,4000">3000-4000(平方公尺)</option>
+		<option value="4000,5000">4000-5000(平方公尺)</option>
+		<option value="5000,999999">5000(平方公尺)以上</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlLandUse" id="MainContentPlaceHolder_ddlLandUse" class="select">
+		<option value="">使用目的</option>
+		<option value="LD01">農作</option>
+		<option value="LD02">畜牧</option>
+		<option value="LD03">水產養殖</option>
+		<option value="LD04">休閒</option>
+		<option value="Other">其他</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <select name="ctl00$MainContentPlaceHolder$ddlLandSource" id="MainContentPlaceHolder_ddlLandSource" class="select">
+		<option value="">請選農地屬性</option>
+		<option value="1">一般農地</option>
+		<option value="3">國有農地</option>
+		<option value="4">輔導會農地</option>
+		<option value="5">台糖農地</option>
+
+	</select>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <input type="image" name="ctl00$MainContentPlaceHolder$ibnSearch" id="MainContentPlaceHolder_ibnSearch" src="Images/collect_b.png" align="absmiddle" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContentPlaceHolder$ibnSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        
+</div>
+    <div class="collect">
+        <div id="collect-01-title">
+            <img id="MainContentPlaceHolder_imgCollect_01" src="Images/collect_01_title.jpg" align="absmiddle" />
+        </div>
+        
+                <table>
+                    <tr>
+            
+                <td class="smartLand">
+                    <table border="0">
+                        <tr>
+                            <td align="center" width="64%" height="30%">
+                                <a id="MainContentPlaceHolder_rptRent_hlkRent_0" href="RentDetail.aspx?landSource=1&amp;case_name=557109070701&amp;land_id=M156_Jhushan2644077_20200707091157" style="display:inline-block;"><img src="/Ezland_Data/UserFiles/LandImage/M156_Jhushan2644077_20200707091157/M156_Jhushan2644077_20200707091157_photo1.jpg" alt="" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40%">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            案號：<span id="MainContentPlaceHolder_rptRent_lblType_0">557109070701</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            位置：<span id="MainContentPlaceHolder_rptRent_Label1_0">南投縣竹山鎮</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            面積：<span id="MainContentPlaceHolder_rptRent_Label2_0">2994.58平方公尺</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            年租：<span id="MainContentPlaceHolder_rptRent_Label3_0">12000</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            本案件包含
+                                            <span id="MainContentPlaceHolder_rptRent_Label4_0"><b><font color="#C00000">1</font></b></span>
+                                            筆土地
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            
+                <td class="smartLand">
+                    <table border="0">
+                        <tr>
+                            <td align="center" width="64%" height="30%">
+                                <a id="MainContentPlaceHolder_rptRent_hlkRent_1" href="RentDetail.aspx?landSource=1&amp;case_name=704110020501&amp;land_id=D199_vickey0113_20210205135846" style="display:inline-block;"><img src="/Ezland_Data/UserFiles/LandImage/D199_vickey0113_20210205135846/D199_vickey0113_20210205135846_photo1.jpg" alt="" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40%">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            案號：<span id="MainContentPlaceHolder_rptRent_lblType_1">704110020501</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            位置：<span id="MainContentPlaceHolder_rptRent_Label1_1">台南市安南區</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            面積：<span id="MainContentPlaceHolder_rptRent_Label2_1">2600.63平方公尺</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            年租：<span id="MainContentPlaceHolder_rptRent_Label3_1">10000</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            本案件包含
+                                            <span id="MainContentPlaceHolder_rptRent_Label4_1"><b><font color="#C00000">1</font></b></span>
+                                            筆土地
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            
+                <td class="smartLand">
+                    <table border="0">
+                        <tr>
+                            <td align="center" width="64%" height="30%">
+                                <a id="MainContentPlaceHolder_rptRent_hlkRent_2" href="RentDetail.aspx?landSource=1&amp;case_name=704109060401&amp;land_id=D199_vickey0113_20200604130129" style="display:inline-block;"><img src="/Ezland_Data/UserFiles/LandImage/D199_vickey0113_20200604130129/D199_vickey0113_20200604130129_photo1.jpg" alt="" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40%">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            案號：<span id="MainContentPlaceHolder_rptRent_lblType_2">704109060401</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            位置：<span id="MainContentPlaceHolder_rptRent_Label1_2">台南市安南區</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            面積：<span id="MainContentPlaceHolder_rptRent_Label2_2">3749.39平方公尺</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            年租：<span id="MainContentPlaceHolder_rptRent_Label3_2">22500</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            本案件包含
+                                            <span id="MainContentPlaceHolder_rptRent_Label4_2"><b><font color="#C00000">1</font></b></span>
+                                            筆土地
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            
+                <td class="smartLand">
+                    <table border="0">
+                        <tr>
+                            <td align="center" width="64%" height="30%">
+                                <a id="MainContentPlaceHolder_rptRent_hlkRent_3" href="RentDetail.aspx?landSource=1&amp;case_name=557109010701&amp;land_id=M156_jhushan2644077_20200107163714" style="display:inline-block;"><img src="/Ezland_Data/UserFiles/LandImage/M156_jhushan2644077_20200107163714/M156_jhushan2644077_20200107163714_photo1.jpg" alt="" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="40%">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            案號：<span id="MainContentPlaceHolder_rptRent_lblType_3">557109010701</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            位置：<span id="MainContentPlaceHolder_rptRent_Label1_3">南投縣竹山鎮</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            面積：<span id="MainContentPlaceHolder_rptRent_Label2_3">6622.8平方公尺</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            年租：<span id="MainContentPlaceHolder_rptRent_Label3_3">25000</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            本案件包含
+                                            <span id="MainContentPlaceHolder_rptRent_Label4_3"><b><font color="#C00000">1</font></b></span>
+                                            筆土地
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            
+                </tr> </table>
+            
+    </div>
+    <div id="info-01-title">
+        <img id="MainContentPlaceHolder_imgCollect_03" src="Images/info_01_title.jpg" align="absmiddle" />
+    </div>
+    <div id="info-01-content">
+        <table width="700" style="background-color: #ffffff">
+            <tr>
+                <td>
+                    <div>
+	<table class="assoc_news" cellspacing="0" cellpadding="0" id="MainContentPlaceHolder_gvInfo" width="650">
+		<tr>
+			<td align="right" width="5%">
+                                    <span id="MainContentPlaceHolder_gvInfo_lbInfoSerial_0">1</span>
+                                </td><td align="center" width="22%">
+                                    <span id="MainContentPlaceHolder_gvInfo_lblANNOUNCEDATE_0">110/03/25</span>
+                                </td><td align="left" width="72%">
+                                    <a id="MainContentPlaceHolder_gvInfo_hplCaseName_0" href="LatestInfo.aspx?KEYID=08D8EF70EB2C5EF3-1381">「109年農林漁牧業普查」於110年5月1日至6月30日舉辦，敬請支持配合</a>
+                                </td>
+		</tr><tr>
+			<td align="right" width="5%">
+                                    <span id="MainContentPlaceHolder_gvInfo_lbInfoSerial_1">2</span>
+                                </td><td align="center" width="22%">
+                                    <span id="MainContentPlaceHolder_gvInfo_lblANNOUNCEDATE_1">110/03/20</span>
+                                </td><td align="left" width="72%">
+                                    <a id="MainContentPlaceHolder_gvInfo_hplCaseName_1" href="LatestInfo.aspx?KEYID=08D8EF70BC3C0C61-0540">110年農民學院開課 歡迎農友至農民學院網查詢與報名！</a>
+                                </td>
+		</tr><tr>
+			<td align="right" width="5%">
+                                    <span id="MainContentPlaceHolder_gvInfo_lbInfoSerial_2">3</span>
+                                </td><td align="center" width="22%">
+                                    <span id="MainContentPlaceHolder_gvInfo_lblANNOUNCEDATE_2">110/03/02</span>
+                                </td><td align="left" width="72%">
+                                    <a id="MainContentPlaceHolder_gvInfo_hplCaseName_2" href="LatestInfo.aspx?KEYID=08D8DD6CA98CD2D7-0373">「109年農林漁牧業普查」於110年5月1日至6月30日舉辦，敬請支持配合</a>
+                                </td>
+		</tr>
+	</table>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2">
+                    <a id="MainContentPlaceHolder_hlkLatestInfo" href="LatestInfo.aspx" style="display:inline-block;"><img src="Images/readmore.png" alt="" /></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="info-02-title">
+        <img id="MainContentPlaceHolder_imgInfo_05" alt="" src="Images/info_05_title.jpg" align="absmiddle" />
+    </div>
+    <div id="info-02-content">
+        <table width="700" style="background-color: #ffffff">
+            <tr>
+                <td>
+                    <div>
+	<table class="assoc_news" cellspacing="0" cellpadding="0" id="MainContentPlaceHolder_gvFarmStory" width="650">
+		<tr>
+			<td align="right" width="5%">
+                                    <span id="MainContentPlaceHolder_gvFarmStory_lbInfoSerial0_0">1</span>
+                                </td><td align="center" width="20%">
+                                    <span id="MainContentPlaceHolder_gvFarmStory_lbday_0">106/12/07</span>
+                                </td><td align="left" width="20%">
+                                    <a id="MainContentPlaceHolder_gvFarmStory_hplCaseName_0" href="FarmStory.aspx?id=24">農地銀行專刊</a>
+                                </td><td>農地銀行推動農地儲備之展望</td>
+		</tr><tr>
+			<td align="right" width="5%">
+                                    <span id="MainContentPlaceHolder_gvFarmStory_lbInfoSerial0_1">2</span>
+                                </td><td align="center" width="20%">
+                                    <span id="MainContentPlaceHolder_gvFarmStory_lbday_1">106/11/30</span>
+                                </td><td align="left" width="20%">
+                                    <a id="MainContentPlaceHolder_gvFarmStory_hplCaseName_1" href="FarmStory.aspx?id=23">農地銀行專刊</a>
+                                </td><td>農地銀行 十年有成</td>
+		</tr><tr>
+			<td align="right" width="5%">
+                                    <span id="MainContentPlaceHolder_gvFarmStory_lbInfoSerial0_2">3</span>
+                                </td><td align="center" width="20%">
+                                    <span id="MainContentPlaceHolder_gvFarmStory_lbday_2">105/01/19</span>
+                                </td><td align="left" width="20%">
+                                    <a id="MainContentPlaceHolder_gvFarmStory_hplCaseName_2" href="FarmStory.aspx?id=22">嘉義縣義竹鄉農會</a>
+                                </td><td>優化營農環境，提升效率服務(下篇)</td>
+		</tr>
+	</table>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <a id="MainContentPlaceHolder_lykStory" href="FarmStory.aspx" style="display:inline-block;"><img src="Images/readmore.png" alt="" /></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="page_footer">
+                <span id="lblCopyright">Copyright© 中華民國行政院農業委員會農糧署版權所有</span><br />
+                <span id="lblResolution">最佳瀏覽狀態為 IE9.0 以上‧Firefox‧chrome‧1024*768 以上解析度最佳‧</span><br />
+                <span id="lblContract">如有網站使用問題，請洽維護單位：財團法人台灣地理資訊中心</span><br />
+                <span id="lblContact">TEL:(02)23965775 服務時間：平日(星期一至星期五)上午9時至下午5時(不含國定例假日)</span>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        $('.img_hover').hover(function () {
+            this.src = $(this).attr("data-alt-image");
+        }, function () {
+            this.src = $(this).attr("data-image");
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136744348-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136744348-1');
+    </script>
+</body>
+</html>

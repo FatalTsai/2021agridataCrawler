@@ -1,0 +1,242 @@
+[
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "長糯",
+    "yield": 6676
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "長糯",
+    "yield": 31728
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "長糯",
+    "yield": 6768
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "長糯",
+    "yield": 27488
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "長糯",
+    "yield": 7542
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "長糯",
+    "yield": 36080
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "長糯",
+    "yield": 8637
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "長糯",
+    "yield": 32683
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "圓糯",
+    "yield": 6633
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "圓糯",
+    "yield": 15448
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "圓糯",
+    "yield": 8360
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "圓糯",
+    "yield": 16863
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "圓糯",
+    "yield": 10841
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "圓糯",
+    "yield": 17140
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "圓糯",
+    "yield": 10257
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "圓糯",
+    "yield": 14844
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "秈稻",
+    "yield": 6597
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "秈稻",
+    "yield": 36732
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "秈稻",
+    "yield": 7044
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "秈稻",
+    "yield": 38279
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "秈稻",
+    "yield": 10801
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "秈稻",
+    "yield": 42041
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "秈稻",
+    "yield": 11202
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "秈稻",
+    "yield": 42133
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "在來",
+    "yield": 1794
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "在來",
+    "yield": 7066
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "在來",
+    "yield": 2643
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "在來",
+    "yield": 7775
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "在來",
+    "yield": 3959
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "在來",
+    "yield": 8743
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "在來",
+    "yield": 3159
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "在來",
+    "yield": 8164
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "yield": 315004
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "yield": 836451
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "yield": 384654
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "yield": 760488
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "yield": 462520
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "yield": 799724
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "yield": 409340
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "yield": 735036
+  }
+]

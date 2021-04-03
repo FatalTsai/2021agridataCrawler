@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="description" content="動物保護資訊網" />
+    <meta name="author" content="" />
+    <!--Favicon -->
+    <link rel="icon" type="image/png" href="/Areas/Frontend/Content/Frontend_Template/images/favicon.png" />
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/Areas/Frontend/Content/Frontend_Template/images/apple-touch-icon.png" />
+
+    <title>動物保護資訊網-我想了解專區</title>
+
+
+    <!-- ***************************** CSS ************************************** -->
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/plugins.css?v=2.4" />
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/revolutionslider/settings.css" />
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/theme.css?v=2.4" />
+    <!-- Page Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/content/sun-01/css/sun-01.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/custom.css" />
+    <!-- 自訂css -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/all.css?20191028" />
+
+    <!-- SweetAlert2 -->
+    <link href="/Areas/Backend/Plugin/SweetAlert2/sweetalert2.min.css" rel="stylesheet" />
+    <script src="/Areas/Backend/Plugin/SweetAlert2/sweetalert2.min.js"></script>
+    <script src="/Areas/Backend/Plugin/SweetAlert2/SweetAlertBox.js"></script>
+    <script src="/Areas/Backend/Plugin/SweetAlert2/core.js"></script>
+
+    
+    <style>
+        .modern-tabs > li a, .modern-tabs > div a {
+            padding: 12px 14px;
+        }
+    </style>
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/jquery.min.js?v=2.3"></script>
+
+
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '195015961847823');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=195015961847823&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+<!-- LOADER -->
+<div class="page-loader bg-white">
+    <div class="v-center t-center">
+        <div class="spinner">
+            <div class="spinner__item1 bg-colored"></div>
+            <div class="spinner__item2 bg-colored"></div>
+            <div class="spinner__item3 bg-colored"></div>
+            <div class="spinner__item4 bg-colored"></div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGETOP -->
+<div id="pagetop" class="dark">
+    <a class="skip-main" onclick="EnterContent();" href="#accesskeyc" title="進入主要內容" tabindex="1">進入主要內容</a>
+    <div class="container">
+        <!-- Right, socials -->
+        <div class="right clearfix">
+            <a href="#accesskeyu" name="accesskeyu" id="accesskeyu" accesskey="u" title="上方選單區塊" tabindex="1">:::</a>
+            <a href="/Frontend/VUC/SiteMap" class="text" title="網站導覽" tabindex="1">網站導覽</a>
+            <a href="/Frontend/AdoptSearch/AdoptInfo?tab=2" class="text" title="動保申訴電話" rel="nofollow" tabindex="1">動保申訴電話</a>
+            <a href="https://www.facebook.com/animalcoa/" target="_blank" title="facebook粉絲專頁(另開視窗)" class="facebook" tabindex="1"><i class="fa fa-facebook"></i></a>
+        </div>
+    </div>
+</div>
+<!--END PAGETOP -->
+<!-- NAVIGATION -->
+<nav id="navigation" class="white-nav sticky modern hover4 radius-drop" data-offset="55">
+    <!-- Columns -->
+    <div class="columns clearfix container">
+        <!-- Logo -->
+        <div class="logo">
+            <h1>
+                <a href="/" title="動物保護資訊網:回首頁" tabindex="1">
+                    <img src="/Areas/Frontend/Content/Frontend_Template/images/logo.png" data-second-logo="~/Areas/Frontend/Content/Frontend_Template/images/logo.png" alt="動物保護資訊網-徽標">
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav clearfix uppercase">
+                <li class="dropdown-toggle" id="dt-1">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-1');" title="訊息專區" tabindex="1"><button onclick="javascript:location.href='/Frontend/News/LatestNews?tab=1'" tabindex="-1">訊息專區</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/News/LatestNews?tab=1" title="公告訊息" tabindex="1">公告訊息</a></li>
+                        <li><a href="/Frontend/News/LatestNews?tab=2"  title="新聞稿" tabindex="1">新聞稿</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-2">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-2');" title="認領養與協尋" tabindex="1"><button onclick="javascript:location.href='/Frontend/AdoptSearch/AdoptInfo?tab=1'" tabindex="-1">認領養與協尋</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/AdoptSearch/AdoptInfo?tab=1" title="領養資訊" tabindex="1">領養資訊</a></li>
+                        <li><a href="/Frontend/AdoptSearch/AdoptInfo?tab=2" title="協尋資訊" tabindex="1">協尋資訊</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-3">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-3');" title="主題網站" tabindex="1"><button tabindex="-1">主題網站</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/PublicShelter" title="公立動物收容所列表" tabindex="1">公立動物收容所列表</a></li>
+                        <li><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceMent.aspx?PageType=Adopt" target="_blank" title="全國動物收容管理系統 (另開新頁)" tabindex="1">全國動物收容管理系統</a></li>
+                        <li><a href="https://paim.coa.gov.tw/Web/BusinessList.aspx" target="_blank" title="特定寵物業管理系統 (另開新頁)" tabindex="1">特定寵物業管理系統</a></li>
+                        <li><a href="https://petfood.coa.gov.tw/web/" target="_blank" title="寵物食品申報網 (另開新頁)" tabindex="1">寵物食品申報網</a></li>
+                        <li><a href="https://www.pet.gov.tw/" target="_blank" title="寵物登記管理系統 (另開新頁)" tabindex="1">寵物登記管理系統</a></li>
+                        <li><a href="https://www.baphiq.gov.tw/view.php?catid=4507" target="_blank" title="狂犬病專區防檢局 (另開新頁)" tabindex="1">狂犬病專區(防檢局)</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-4">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-4');" title="我想了解專區" tabindex="1"><button onclick="javascript:location.href='/Frontend/Know'" tabindex="-1">我想了解專區</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/Know/EconomicAnimal" title="經濟動物" tabindex="1">經濟動物</a></li>
+                        <li><a href="/Frontend/Know/ExperimentAnimal" title="實驗動物" tabindex="1">實驗動物</a></li>
+                        <li><a href="/Frontend/Know/Laws" title="法令天地" tabindex="1">法令天地</a></li>
+                        <li><a href="/Frontend/Know/AnimalResource" title="動保資源" tabindex="1">動保資源</a></li>
+                        <li><a href="/Frontend/AdoptSearch/DogHotSpot" style="width: 203px;" title="遊蕩犬熱點執行成效管控" tabindex="1">遊蕩犬熱點執行成效管控</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://chiefsuit.coa.gov.tw/ChiefMail/jsp/doms/ac/A001.jsp" target="_blank" title="首長信箱(另開視窗)" tabindex="1">連絡我們</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Navigation Menu -->
+
+        <!-- Right Elements; Nav Button, Language Button, Search .etc -->
+        <div class="nav-elements">
+            <ul class="clearfix nav no-ls normal">
+                <!-- Search Button -->
+                <li><a href="/Frontend/VUC/SiteSearch" class="search-form-trigger" title="全站搜尋" tabindex="1"><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Columns -->
+</nav>
+<!-- END NAVIGATION -->
+
+<script>
+
+    function EnterContent() {
+            $('#accesskeyc').focus();
+    }
+
+    // 鍵盤操作 onFocus  下拉展開
+    function ActOnFocus(TabName) {
+        var $item = $('#'+TabName).find('ul.dropdown-menu');
+        $('.nav-menu ul.dropdown-menu').hide();
+        $item.show(0);
+    }
+</script>
+
+    <noscript>
+        您的瀏覽器不支援JavaScript功能，若網頁功能無法正常使用時，請開啟瀏覽器JavaScript狀態
+        <style>
+            .page-loader {
+                display: none;
+            }
+        </style>
+    </noscript>
+
+    
+
+
+<!-- HeaderTitle -->
+<section id="home" class="sm-py t-center fullwidth o-hidden relative z-index-1">
+    <!-- Parallax Background -->
+    <div class="bg-parallax skrollr loaded skrollable skrollable-between" data-anchor-target="#home" data-0="transform:translate3d(0, 0px, 0px);" data-900="transform:translate3d(0px, 200px, 0px);" data-background="/Areas/Frontend/Content/Frontend_Template/images/backgrounds/background_12.jpg" style="background-image: url(&quot;/Areas/Frontend/Content/Frontend_Template/images/backgrounds/background_12.jpg&quot;); transform: translate3d(0px, 0px, 0px);"></div>
+    <!-- Container -->
+    <div class="container skrollr skrollable skrollable-between" data-0="opacity:1;" data-200="opacity:0;" style="opacity: 1;">
+        <div class="t-center white">
+            <p class="gray5 bdc-links">
+                <a href="/" title="回到首頁" tabindex="1"> 首頁</a> /
+                    <a href="/Frontend/Know">我想了解專區</a>
+            </p>
+            <h2 class="bold-title lh-sm h1" id="HeaderTitle">
+實驗動物            </h2>
+        </div>
+    </div>
+    <!-- End Container -->
+</section>
+
+<!-- 主要區域導盲磚 -->
+<a href="#accesskeyc" name="accesskeyc" id="accesskeyc" accesskey="c" title="主要內容區塊" tabindex="1">:::</a>
+<!-- 主要區域導盲磚 end-->
+
+
+<!-- Content -->
+<section id="about" class="py-4">
+    <!-- Container to details -->
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-12 xs-py " data-animation-delay="200">
+
+                <!-- Nav tabs -->
+                <div class="modern-tabs-container t-center border-gray2 no-border">
+                    <ul class="nav nav-tabs modern-tabs font-11 radius bg-white gray7 uppercase bold" role="tablist">
+                            <li role="presentation"><a href="#tabTab0000009" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="1" class="bg-colored border-colored white" title="前往 實驗動物介紹">實驗動物介紹</a></li>
+                            <li role="presentation"><a href="#tabTab0000010" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="2" class="bg-colored border-colored white" title="前往 實驗動物人道管理">實驗動物人道管理</a></li>
+                            <li role="presentation"><a href="#tabTab0000011" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="3" class="bg-colored border-colored white" title="前往 IACUC管理範例">IACUC管理範例</a></li>
+                            <li role="presentation"><a href="#tabTab0000075" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="4" class="bg-colored border-colored white" title="前往 動物科學應用機構監督查核結果">動物科學應用機構監督查核結果</a></li>
+                            <li role="presentation"><a href="#tabTab0000012" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="5" class="bg-colored border-colored white" title="前往 實驗動物人道管理年報列表">實驗動物人道管理年報列表</a></li>
+                            <li role="presentation"><a href="#tabTab0000073" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="6" class="bg-colored border-colored white" title="前往 實驗動物科學教科書">實驗動物科學教科書</a></li>
+                            <li role="presentation"><a href="#tabTab0000013" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="7" class="bg-colored border-colored white" title="前往 動物實驗替代方案">動物實驗替代方案</a></li>
+                            <li role="presentation"><a href="#tabTab0000014" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="8" class="bg-colored border-colored white" title="前往 實驗動物相關網站">實驗動物相關網站</a></li>
+                            <li role="presentation"><a href="#tabTab0000017" onclick="getTab(this)" role="tab" data-toggle="tab" data-tab="9" class="bg-colored border-colored white" title="前往 實驗動物指定課程列表">實驗動物指定課程列表</a></li>
+                    </ul>
+                </div>
+
+                <!-- Tab panes -->
+                <div class="tab-content t-left">
+                    <!-- Tab -->
+                        <!-- Tab -->
+                        <div id="tabTab0000009" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">實驗動物介紹</p>
+                                            <p class="paragraph">何謂「動物實驗」? 凡是使用動物進行任何科學研發之程序，皆可稱之為動物實驗。而使用之動物，無論是脊椎或無脊椎動物，皆稱之實驗動物。在一般具動物保護相關法律之國家，所規範的實驗動物僅指脊椎動物。</p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>標題</th>
+                                                                        <th>作者</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000033?parentID=Tab0000002" title="實驗動物與生物醫學進步之互動">實驗動物與生物醫學進步之互動</a>
+                </td>
+                                <td>洪昭竹博士</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000034?parentID=Tab0000002" title="實驗動物簡介">實驗動物簡介</a>
+                </td>
+                                <td>王明升博士</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000055?parentID=Tab0000002" title="動物試驗的道德與利益">動物試驗的道德與利益</a>
+                </td>
+                                <td>秦咸靜博士</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000056?parentID=Tab0000002" title="SPF﹙Specific Pathogen Free﹚實驗動物簡介">SPF﹙Specific Pathogen Free﹚實驗動物簡介</a>
+                </td>
+                                <td></td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000057?parentID=Tab0000002" title="實驗動物知多少">實驗動物知多少</a>
+                </td>
+                                <td>農委會畜牧處陳美玲</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000058?parentID=Tab0000002" title="實驗動物人道管理措施之推動成果">實驗動物人道管理措施之推動成果</a>
+                </td>
+                                <td>農委會畜牧處陳美玲</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000059?parentID=Tab0000002" title="農政與農情【專題報導】美國與我國動物實驗管理制度簡介">農政與農情【專題報導】美國與我國動物實驗管理制度簡介</a>
+                </td>
+                                <td>農委會畜牧處
+許桂森</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">8</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000060?parentID=Tab0000002" title="實驗動物模式">實驗動物模式</a>
+                </td>
+                                <td>國家動物中心
+梁鍾鼎</td>
+                <td>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000010" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">實驗動物人道管理</p>
+                                            <p class="paragraph">機構內若有利用脊椎動物進行教學訓練、科學試驗、製造生物製劑、試驗商品、藥物、毒物及移植器官等目的之實驗動物科學應用行為，應依動物保護法之規定申請設置「實驗動物照護委員會或小組」，以督導機構內執行之動物科學應用。</p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>標題</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <span>實驗動物照護及使用指引(107.6.22訂定)</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/181205-1.pdf" target="_blank" title="下載 實驗動物照.pdf (另開視窗下載)" download="實驗動物照.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <span>實驗動物照護及使用委員會或小組行政事宜</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/180626-2.odt" target="_blank" title="下載 實驗動物照.odt (另開視窗下載)" download="實驗動物照.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000280?parentID=Tab0000002" title="實驗動物管理與使用指南第三版(擴充版)(中華實驗動物學會編撰，參考用)">實驗動物管理與使用指南第三版(擴充版)(中華實驗動物學會編撰，參考用)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <span>生醫產業用畜禽動物應用手冊</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/labaratory/170605_120202.pdf" target="_blank" title="下載 生醫產業用.pdf (另開視窗下載)" download="生醫產業用.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/170605_120202.odt" target="_blank" title="下載 生醫產業用.odt (另開視窗下載)" download="生醫產業用.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000282?parentID=Tab0000002" title="國際認證合格動物房範例">國際認證合格動物房範例</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000283?parentID=Tab0000002" title="實驗動物技術教育光碟【第一輯】- 大小鼠保定、灌食、注射、採血">實驗動物技術教育光碟【第一輯】- 大小鼠保定、灌食、注射、採血</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000435?parentID=Tab0000002" title="實驗動物技術教育光碟【第二輯】- 大小鼠基本照護">實驗動物技術教育光碟【第二輯】- 大小鼠基本照護</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">8</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000284?parentID=Tab0000002" title="實驗動物技術人員訓練教材(第一級)">實驗動物技術人員訓練教材(第一級)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">9</td>
+                <td>
+                        <span>直轄市及縣（市）政府實驗動物人道管理單位</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/04_3_190806_1.xls" target="_blank" title="下載 直轄市及縣.xls (另開視窗下載)" download="直轄市及縣.xls">XLS</a>
+                            <a class="badge bg-primary" href="/download/04_3_190806_1.ods" target="_blank" title="下載 直轄市及縣.ods (另開視窗下載)" download="直轄市及縣.ods">ODS</a>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000011" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">IACUC管理範例</p>
+                                            <p class="paragraph">進行動物科學應用之機構，應組成實驗動物照護及使用委員會或小組進行該該機構內之實驗動物人道管理。</p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>標題</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <span>動物實驗計畫書(表)撰寫及審查範例(103.10~)</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/04_4_161013_1.pdf" target="_blank" title="下載 動物實驗計.pdf (另開視窗下載)" download="動物實驗計.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/04_4_161013_1.odt" target="_blank" title="下載 動物實驗計.odt (另開視窗下載)" download="動物實驗計.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <span>動物實驗審查同意書中英文範例(102.12.24~)</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/19103005413799260673WN8.odt" target="_blank" title="下載 動物實驗審.odt (另開視窗下載)" download="動物實驗審.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <span>實驗動物房設施標準操作程序（SOP）撰寫範例</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/04_4_161013_3.odt" target="_blank" title="下載 實驗動物房.odt (另開視窗下載)" download="實驗動物房.odt">ODT</a>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000075" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">動物科學應用機構監督查核結果</p>
+                                            <p class="paragraph"></p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>標題</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <span>105年度81家受查機構及查核結果一覽表</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/201113045920824414S46Z4.pdf" target="_blank" title="下載 105年度81家.pdf (另開視窗下載)" download="105年度81家.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <span>106年度91家受查機構及查核結果一覽表</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/201113050017659194CLX55.pdf" target="_blank" title="下載 106年度91家.pdf (另開視窗下載)" download="106年度91家.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <span>107年度87家受查機構及查核結果一覽表</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/2011130500341208196WKCN.pdf" target="_blank" title="下載 107年度87家.pdf (另開視窗下載)" download="107年度87家.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <span>108年度87家受查機構及查核結果一覽表</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/201113050357946648UQDMB.pdf" target="_blank" title="下載 108年度87家.pdf (另開視窗下載)" download="108年度87家.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <span>109年度80家受查機構及查核結果一覽表</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/201124102456803467433XN.pdf" target="_blank" title="下載 109年度80家.pdf (另開視窗下載)" download="109年度80家.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <span>109年查核項目及判定原則</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/201124102639709947BXUPP.pdf" target="_blank" title="下載 109年查核項.pdf (另開視窗下載)" download="109年查核項.pdf">PDF</a>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000012" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">實驗動物人道管理年報列表</p>
+                                            <p class="paragraph">實驗動物人道管理年報之統計資料，係彙納全國動物科學應用機構依法繳交之年度監督報告內容，以及動物科學應用機構查核輔導結果。</p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>年報標題</th>
+                                                                        <th>執行機關</th>
+                                                                        <th>發行機關</th>
+                                                                        <th>發行日期</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000035?parentID=Tab0000002" title="92年度實驗動物人道管理年報">92年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>93 年06月</td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/1911041031392188108J1YL.odt" target="_blank" title="下載 92年度實驗.odt (另開視窗下載)" download="92年度實驗.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000263?parentID=Tab0000002" title="93年度實驗動物人道管理年報">93年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>94 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000264?parentID=Tab0000002" title="93年度實驗動物人道管理年報 (英文版)">93年度實驗動物人道管理年報 (英文版)</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>94 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000265?parentID=Tab0000002" title="94年度實驗動物人道管理年報">94年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>95 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000266?parentID=Tab0000002" title="94年度實驗動物人道管理年報 (英文版)">94年度實驗動物人道管理年報 (英文版)</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>95 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000267?parentID=Tab0000002" title="95年度實驗動物人道管理年報">95年度實驗動物人道管理年報</a>
+                </td>
+                                <td>國立屏東科技大學</td>
+                                <td>行政院農業委員會</td>
+                                <td>96 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000268?parentID=Tab0000002" title="96年度實驗動物人道管理年報">96年度實驗動物人道管理年報</a>
+                </td>
+                                <td>國立屏東科技大學</td>
+                                <td>行政院農業委員會</td>
+                                <td>97 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">8</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000269?parentID=Tab0000002" title="97年度實驗動物人道管理年報">97年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>98 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">9</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000270?parentID=Tab0000002" title="98年度實驗動物人道管理年報">98年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>99 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">10</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000271?parentID=Tab0000002" title="99年度實驗動物人道管理年報">99年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>100 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">11</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000272?parentID=Tab0000002" title="100年度實驗動物人道管理年報">100年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>101 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">12</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000273?parentID=Tab0000002" title="101年度實驗動物人道管理年報">101年度實驗動物人道管理年報</a>
+                </td>
+                                <td>中華實驗動物學會</td>
+                                <td>行政院農業委員會</td>
+                                <td>102 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">13</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000274?parentID=Tab0000002" title="102年度實驗動物人道管理年報">102年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>103 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">14</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000275?parentID=Tab0000002" title="103年度實驗動物人道管理年報">103年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>104 年12 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">15</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000276?parentID=Tab0000002" title="104年度實驗動物人道管理年報">104年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>105 年 8 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">16</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000277?parentID=Tab0000002" title="105年度實驗動物人道管理年報">105年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>106 年 8 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">17</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000278?parentID=Tab0000002" title="106年度實驗動物人道管理年報">106年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>107 年 8 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">18</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000279?parentID=Tab0000002" title="107年度實驗動物人道管理年報">107年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>108 年 9 月</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">19</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000565?parentID=Tab0000002" title="108年度實驗動物人道管理年報">108年度實驗動物人道管理年報</a>
+                </td>
+                                <td>財團法人台灣優良農產品發展協會</td>
+                                <td>行政院農業委員會</td>
+                                <td>109 年 9 月</td>
+                <td>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000073" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">實驗動物科學教科書</p>
+                                            <p class="paragraph"></p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>標題</th>
+                                                                        <th>出版</th>
+                                                                        <th>年份</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <span>實驗動物科學(基礎篇)</span>
+                </td>
+                                <td>行政院農業委員會</td>
+                                <td>民國109年</td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/2007131152292949968X8WH.pdf" target="_blank" title="下載 實驗動物科.pdf (另開視窗下載)" download="實驗動物科.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <span>實驗動物科學(技術篇)</span>
+                </td>
+                                <td>行政院農業委員會</td>
+                                <td>民國109年</td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/2007131152480827782XU1P.pdf" target="_blank" title="下載 實驗動物科.pdf (另開視窗下載)" download="實驗動物科.pdf">PDF</a>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000013" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-12 col-12">
+                                            <p class="h2 bold-subtitle dark">動物實驗替代方案</p>
+                                            <p class="paragraph"></p>
+                                            <!-- Tables -->
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                        <th>標題</th>
+                                                                <th></th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="http://nehrc.nhri.org.tw/taat/index.php" target="_blank" title="非動物性替代方法資訊網 (另開新頁)">非動物性替代方法資訊網</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <span>107年產品上市前動物測試替代方法研究報告</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/210224040416284221UZVQC.pdf" target="_blank" title="下載 107年產品上.pdf (另開視窗下載)" download="107年產品上.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <span>109年我國導入歐盟替代方法之能量及時程評估研究報告</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/210224044727774436PM3NE.pdf" target="_blank" title="下載 109年我國導.pdf (另開視窗下載)" download="109年我國導.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <span>動物實驗替代方案(全)</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P10-105.pdf" target="_blank" title="下載 動物實驗替.pdf (另開視窗下載)" download="動物實驗替.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P10-105.odt" target="_blank" title="下載 動物實驗替.odt (另開視窗下載)" download="動物實驗替.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <span>生活中的實驗動物</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P10-14.pdf" target="_blank" title="下載 生活中的實.pdf (另開視窗下載)" download="生活中的實.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P10-14.odt" target="_blank" title="下載 生活中的實.odt (另開視窗下載)" download="生活中的實.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <span>十個不該為了教學傷害動物的理由</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P15-19.pdf" target="_blank" title="下載 十個不該為.pdf (另開視窗下載)" download="十個不該為.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P15-19.odt" target="_blank" title="下載 十個不該為.odt (另開視窗下載)" download="十個不該為.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>
+                        <span>動物實驗替代教學倫理</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P20-25.pdf" target="_blank" title="下載 動物實驗替.pdf (另開視窗下載)" download="動物實驗替.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P20-25.odt" target="_blank" title="下載 動物實驗替.odt (另開視窗下載)" download="動物實驗替.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">8</td>
+                <td>
+                        <span>活體動物是最好的教材嗎？簡介InterNICHE，國際專業的教學用動物實驗替代方案推廣組織</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P26-39.pdf" target="_blank" title="下載 活體動物是.pdf (另開視窗下載)" download="活體動物是.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P26-39.odt" target="_blank" title="下載 活體動物是.odt (另開視窗下載)" download="活體動物是.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">9</td>
+                <td>
+                        <span>救援實驗犬五十一號</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P30-32.pdf" target="_blank" title="下載 救援實驗犬.pdf (另開視窗下載)" download="救援實驗犬.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P30-32.odt" target="_blank" title="下載 救援實驗犬.odt (另開視窗下載)" download="救援實驗犬.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">10</td>
+                <td>
+                        <span>【中學以下】替代教學教具介紹</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P33-39.pdf" target="_blank" title="下載 【中學以下.pdf (另開視窗下載)" download="【中學以下.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P33-39.odt" target="_blank" title="下載 【中學以下.odt (另開視窗下載)" download="【中學以下.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">11</td>
+                <td>
+                        <span>【高中】實驗生命事-解剖課</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P40-43.pdf" target="_blank" title="下載 【高中】實.pdf (另開視窗下載)" download="【高中】實.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P40-43.odt" target="_blank" title="下載 【高中】實.odt (另開視窗下載)" download="【高中】實.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">12</td>
+                <td>
+                        <span>【普通生物學實驗】為什麼需要改變？</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P44-45.pdf" target="_blank" title="下載 【普通生物.pdf (另開視窗下載)" download="【普通生物.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P44-45.odt" target="_blank" title="下載 【普通生物.odt (另開視窗下載)" download="【普通生物.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">13</td>
+                <td>
+                        <span>【普通生物學實驗】課程設計應具備的元素</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P46-47.pdf" target="_blank" title="下載 【普通生物.pdf (另開視窗下載)" download="【普通生物.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P46-47.odt" target="_blank" title="下載 【普通生物.odt (另開視窗下載)" download="【普通生物.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">14</td>
+                <td>
+                        <span>【普通生物學實驗】為什麼我決定不做蛙骨解剖</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P48-50.pdf" target="_blank" title="下載 【普通生物.pdf (另開視窗下載)" download="【普通生物.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P48-50.odt" target="_blank" title="下載 【普通生物.odt (另開視窗下載)" download="【普通生物.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">15</td>
+                <td>
+                        <span>【普通生物學實驗】十年生死兩茫茫：學習成效與動物福利的現在和未來</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P51-52.pdf" target="_blank" title="下載 【普通生物.pdf (另開視窗下載)" download="【普通生物.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P51-52.odt" target="_blank" title="下載 【普通生物.odt (另開視窗下載)" download="【普通生物.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">16</td>
+                <td>
+                        <span>普通生物學實驗】執迷不悟，乙醚之誤：生物實驗用乙醚錯了嗎？</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P53-56.pdf" target="_blank" title="下載 普通生物學.pdf (另開視窗下載)" download="普通生物學.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P10-19.odt" target="_blank" title="下載 普通生物學.odt (另開視窗下載)" download="普通生物學.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">17</td>
+                <td>
+                        <span>【普通生物學實驗】實驗蛙的腦脊髓穿刺術真的安樂嗎？</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P57-59.pdf" target="_blank" title="下載 【普通生物.pdf (另開視窗下載)" download="【普通生物.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P57-59.odt" target="_blank" title="下載 【普通生物.odt (另開視窗下載)" download="【普通生物.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">18</td>
+                <td>
+                        <span>【家畜解剖生理學實習】我從市場買標本回來！東海大學畜產與生物科技系</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P60-61.pdf" target="_blank" title="下載 【家畜解剖.pdf (另開視窗下載)" download="【家畜解剖.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P60-61.odt" target="_blank" title="下載 【家畜解剖.odt (另開視窗下載)" download="【家畜解剖.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">19</td>
+                <td>
+                        <span>【生理學】醫學教育必要之惡？</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P62-64.pdf" target="_blank" title="下載 【生理學】.pdf (另開視窗下載)" download="【生理學】.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P10-19.odt" target="_blank" title="下載 【生理學】.odt (另開視窗下載)" download="【生理學】.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">20</td>
+                <td>
+                        <span>【生理學】虛擬蛙腿的美麗與哀愁：電腦模擬在生物教學上之應用</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P65-68.pdf" target="_blank" title="下載 【生理學】.pdf (另開視窗下載)" download="【生理學】.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P65-68.odt" target="_blank" title="下載 【生理學】.odt (另開視窗下載)" download="【生理學】.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">21</td>
+                <td>
+                        <span>【小動物外科手術及實習】獸醫師手術技巧之習得：自製道具與大體老師</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P69-70.pdf" target="_blank" title="下載 【小動物外.pdf (另開視窗下載)" download="【小動物外.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P69-70.odt" target="_blank" title="下載 【小動物外.odt (另開視窗下載)" download="【小動物外.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">22</td>
+                <td>
+                        <span>【獸醫訓練】獸醫教訓練的最佳實作典範與教學替代方案</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P71-90.pdf" target="_blank" title="下載 【獸醫訓練.pdf (另開視窗下載)" download="【獸醫訓練.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P71-90.odt" target="_blank" title="下載 【獸醫訓練.odt (另開視窗下載)" download="【獸醫訓練.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">23</td>
+                <td>
+                        <span>【外科技術】替代訓練方式介紹</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P91-92.pdf" target="_blank" title="下載 【外科技術.pdf (另開視窗下載)" download="【外科技術.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P91-92.odt" target="_blank" title="下載 【外科技術.odt (另開視窗下載)" download="【外科技術.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">24</td>
+                <td>
+                        <span>InterNICHE對於教育訓練用途之動物利用與替代方案之政策</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P93-100.pdf" target="_blank" title="下載 InterNICHE.pdf (另開視窗下載)" download="InterNICHE.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P93-100.odt" target="_blank" title="下載 InterNICHE.odt (另開視窗下載)" download="InterNICHE.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">25</td>
+                <td>
+                        <span>對傷害性動物利用之批判</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P101-103.pdf" target="_blank" title="下載 對傷害性動.pdf (另開視窗下載)" download="對傷害性動.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P101-103.odt" target="_blank" title="下載 對傷害性動.odt (另開視窗下載)" download="對傷害性動.odt">ODT</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">26</td>
+                <td>
+                        <span>替代方案是什麼</span>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/P104-105.pdf" target="_blank" title="下載 替代方案是.pdf (另開視窗下載)" download="替代方案是.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/P104-105.odt" target="_blank" title="下載 替代方案是.odt (另開視窗下載)" download="替代方案是.odt">ODT</a>
+                </td>
+            </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000014" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                        <div class="col-md-3 col-12">
+                                            <div class="divider-1 divider-left container xxs-mb">
+                                                <span class="xs-btn bg-gradient white uppercase extrabold xs-madgin-y">快速連結</span>
+                                            </div>
+                                            <ul class="nav nav-list" role="tablist">
+                                                        <li class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200"><a class="active" data-toggle="tab" href="#tabTab0000015" role="tab" title="前往 國內機構相關網站">國內機構相關網站</a></li>
+                                                        <li class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200"><a class="" data-toggle="tab" href="#tabTab0000016" role="tab" title="前往 國外機構相關網站">國外機構相關網站</a></li>
+                                            </ul>
+                                        </div>
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-9 col-12">
+                                            <div class="tab-content">
+                                                        <div class="tab-pane fade active show" id="tabTab0000015" role="tabpanel">
+                                                            <h2 class="bold-subtitle dark">國內機構相關網站</h2>
+                                                            <p class="paragraph">提供國內實驗動物相關法規、實驗動物資訊、操作技術、動物飼育設施使用與管理方法、實驗動物來源，供各實驗動物科學應用機構查詢。</p>
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                                        <th>標題</th>
+                                                                                <th></th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="http://www.nlac.org.tw/" target="_blank" title="財團法人國家實驗研究院實驗動物中心 (另開新頁)">財團法人國家實驗研究院實驗動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="http://animal.ncku.edu.tw/" target="_blank" title="國立成功大學醫學院動物中心 (另開新頁)">國立成功大學醫學院動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <a href="http://ntucmlac.cloud.ntu.edu.tw/Default.aspx" target="_blank" title="國立臺灣大學醫學院實驗動物中心 (另開新頁)">國立臺灣大學醫學院實驗動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <a href="http://www.ym.edu.tw/lac/" target="_blank" title="國立陽明大學實驗動物中心 (另開新頁)">國立陽明大學實驗動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <a href="http://www.lac.tcu.edu.tw/" target="_blank" title="慈濟大學實驗動物中心 (另開新頁)">慈濟大學實驗動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <a href="http://www.ndmctsgh.edu.tw/web/LaboratoryAnimalCenter/" target="_blank" title="國防醫學院動物中心 (另開新頁)">國防醫學院動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>
+                        <a href="http://lac.nhri.org.tw/" target="_blank" title="國家衛生研究院實驗動物中心 (另開新頁)">國家衛生研究院實驗動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">8</td>
+                <td>
+                        <a href="http://www.kmuh.org.tw/www/clireser/29.htm" target="_blank" title="高雄醫學院實驗動物中心 (另開新頁)">高雄醫學院實驗動物中心</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">9</td>
+                <td>
+                        <a href="http://cslas.org:8000/Entry?Command=GuestWeb_PrintWeb&amp;sFunctionId=00&amp;sFunctionSubId=00" target="_blank" title="中華實驗動物學會 (另開新頁)">中華實驗動物學會</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">10</td>
+                <td>
+                        <a href="http://www.coa.gov.tw/view.php?catid=5698h" target="_blank" title="行政院農業委員會-實驗動物管理 (另開新頁)">行政院農業委員會-實驗動物管理</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">11</td>
+                <td>
+                        <a href="http://www.tlri.gov.tw/" target="_blank" title="行政院農業委員會畜產試驗所 (另開新頁)">行政院農業委員會畜產試驗所</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">12</td>
+                <td>
+                        <a href="http://www.nvri.gov.tw/" target="_blank" title="行政院農業委員會家畜衛生試驗所 (另開新頁)">行政院農業委員會家畜衛生試驗所</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">13</td>
+                <td>
+                        <a href="https://www.baphiq.gov.tw/" target="_blank" title="行政院農業委員會動植物防疫檢疫局 (另開新頁)">行政院農業委員會動植物防疫檢疫局</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">14</td>
+                <td>
+                        <a href="https://www.forest.gov.tw/" target="_blank" title="行政院農業委員會林務局 (另開新頁)">行政院農業委員會林務局</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">15</td>
+                <td>
+                        <a href="http://www.tfrin.gov.tw/" target="_blank" title="行政院農委會水產試驗所 (另開新頁)">行政院農委會水產試驗所</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="tab-pane fade " id="tabTab0000016" role="tabpanel">
+                                                            <h2 class="bold-subtitle dark">國外機構相關網站</h2>
+                                                            <p class="paragraph">提供國內實驗動物相關法規、實驗動物資訊、操作技術、動物飼育設施使用與管理方法、實驗動物來源，供各實驗動物科學應用機構查詢。</p>
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                                        <th>標題</th>
+                                                                                <th></th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="http://dels.nas.edu/ilar" target="_blank" title="國際實驗動物學委員會(ICLAS; International Council for Laboratory Animal Science) (另開新頁)">國際實驗動物學委員會(ICLAS; International Council for Laboratory Animal Science)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="http://www.ufaw.org.uk/" target="_blank" title="英國動物福利大學聯盟（UFAW; The Universities Federation for Animal Welfare） (另開新頁)">英國動物福利大學聯盟（UFAW; The Universities Federation for Animal Welfare）</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <a href="http://www.felasa.eu/" target="_blank" title="歐洲實驗動物科學學會聯盟(FELASA; Federation of European Laboratory Animal Science Associations) (另開新頁)">歐洲實驗動物科學學會聯盟(FELASA; Federation of European Laboratory Animal Science Associations)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>
+                        <a href="http://www.frame.org.uk/index.php" target="_blank" title="英國動物醫學試驗替代基金會(FRAME; Fund for the Replacement of Animals in Medical Experiments) (另開新頁)">英國動物醫學試驗替代基金會(FRAME; Fund for the Replacement of Animals in Medical Experiments)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>
+                        <a href="http://www.aaalac.org/" target="_blank" title="美國實驗動物管理認證協會(AAALAC; International Association for Assessment and Accreditation of Laboratory Animal Care, International) (另開新頁)">美國實驗動物管理認證協會(AAALAC; International Association for Assessment and Accreditation of Laboratory Animal Care, International)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>
+                        <a href="http://www.aalas.org/" target="_blank" title="美國實驗動物學會(AALAS; American Association for Laboratory Animal Science) (另開新頁)">美國實驗動物學會(AALAS; American Association for Laboratory Animal Science)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>
+                        <a href="http://www.iacuc.org/" target="_blank" title="實驗動物管理使用委員會資料中心（IACUC.ORG） (另開新頁)">實驗動物管理使用委員會資料中心（IACUC.ORG）</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">8</td>
+                <td>
+                        <a href="https://www.nal.usda.gov/awic" target="_blank" title="動物福祉資料中心(AWIC; Animal Welfare Information Center) (另開新頁)">動物福祉資料中心(AWIC; Animal Welfare Information Center)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">9</td>
+                <td>
+                        <a href="http://www.nap.edu/catalog.php?record_id=12910" target="_blank" title="實驗動物照護及使用指南(Guide for the Care and Use of Laboratory Animals, eighth edition) (另開新頁)">實驗動物照護及使用指南(Guide for the Care and Use of Laboratory Animals, eighth edition)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">10</td>
+                <td>
+                        <a href="http://www.avma.org/" target="_blank" title="美國獸醫協會(AVMA; American Veterinary Medical Association) (另開新頁)">美國獸醫協會(AVMA; American Veterinary Medical Association)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">11</td>
+                <td>
+                        <a href="http://www.aclam.org/" target="_blank" title="美國實驗動物醫學學院( ACLAM; American College of Laboratory Animal Medicine) (另開新頁)">美國實驗動物醫學學院( ACLAM; American College of Laboratory Animal Medicine)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">12</td>
+                <td>
+                        <a href="http://www.criver.com/en-US/Pages/home.aspx" target="_blank" title="查理斯河實驗室(CRL; Charles River Laboratories) (另開新頁)">查理斯河實驗室(CRL; Charles River Laboratories)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">13</td>
+                <td>
+                        <a href="http://www.jax.org/" target="_blank" title="賈克森實驗室(Jackson Laboratory) (另開新頁)">賈克森實驗室(Jackson Laboratory)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">14</td>
+                <td>
+                        <a href="http://www.interniche.org/en/home" target="_blank" title="國際人道教育聯網(InterNICHE) (另開新頁)">國際人道教育聯網(InterNICHE)</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tab -->
+                        <div id="tabTab0000017" role="tabpanel" class="tab-pane">
+                            <div class="tab-container">
+                                <div class="row">
+                                    <!-- 頁面左方，快速連結(第三層tab) -->
+                                        <div class="col-md-3 col-12">
+                                            <div class="divider-1 divider-left container xxs-mb">
+                                                <span class="xs-btn bg-gradient white uppercase extrabold xs-madgin-y">快速連結</span>
+                                            </div>
+                                            <ul class="nav nav-list" role="tablist">
+                                                        <li class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200"><a class="active" data-toggle="tab" href="#tabTab0000072" role="tab" title="前往 109年">109年</a></li>
+                                                        <li class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200"><a class="" data-toggle="tab" href="#tabTab0000045" role="tab" title="前往 108年">108年</a></li>
+                                                        <li class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200"><a class="" data-toggle="tab" href="#tabTab0000044" role="tab" title="前往 107年">107年</a></li>
+                                                        <li class="animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200"><a class="" data-toggle="tab" href="#tabTab0000043" role="tab" title="前往 106年">106年</a></li>
+                                            </ul>
+                                        </div>
+                                    <!-- 頁面右方內容 -->
+                                    
+                                        <div class="col-md-9 col-12">
+                                            <div class="tab-content">
+                                                        <div class="tab-pane fade active show" id="tabTab0000072" role="tabpanel">
+                                                            <h2 class="bold-subtitle dark">109年</h2>
+                                                            <p class="paragraph"></p>
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                                        <th>標題</th>
+                                                                                <th></th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000541?parentID=Tab0000017" title="財團法人農業科技研究院">財團法人農業科技研究院</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000542?parentID=Tab0000017" title="中華實驗動物學會">中華實驗動物學會</a>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/public/upload/Know_ListFile/2005290244370517031M1XN.pdf" target="_blank" title="下載 中華實驗動.pdf (另開視窗下載)" download="中華實驗動.pdf">PDF</a>
+                </td>
+            </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="tab-pane fade " id="tabTab0000045" role="tabpanel">
+                                                            <h2 class="bold-subtitle dark">108年</h2>
+                                                            <p class="paragraph"></p>
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                                        <th>標題</th>
+                                                                                <th></th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000048?parentID=Tab0000017" title="財團法人農業科技研究院">財團法人農業科技研究院</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000049?parentID=Tab0000017" title="中華實驗動物學會">中華實驗動物學會</a>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/190705-1.pdf" target="_blank" title="下載 中華實驗動.pdf (另開視窗下載)" download="中華實驗動.pdf">PDF</a>
+                </td>
+            </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="tab-pane fade " id="tabTab0000044" role="tabpanel">
+                                                            <h2 class="bold-subtitle dark">107年</h2>
+                                                            <p class="paragraph"></p>
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                                        <th>標題</th>
+                                                                                <th></th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000046?parentID=Tab0000017" title="財團法人農業科技研究院">財團法人農業科技研究院</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000047?parentID=Tab0000017" title="中華實驗動物學會">中華實驗動物學會</a>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/180626-4.pdf" target="_blank" title="下載 中華實驗動.pdf (另開視窗下載)" download="中華實驗動.pdf">PDF</a>
+                </td>
+            </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="tab-pane fade " id="tabTab0000043" role="tabpanel">
+                                                            <h2 class="bold-subtitle dark">106年</h2>
+                                                            <p class="paragraph"></p>
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                                        <th width="100" style="text-align:center;">筆數</th>
+                                                                                        <th>標題</th>
+                                                                                <th></th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+
+
+
+
+<script>
+    //取得標籤ID
+    function getTab(e) {
+        location.hash = 'tab' + $(e).data('tab');
+    }
+
+    // tab標籤顯示內容
+    var TempTab = (!location.hash) ? 'tab1' : location.hash.replace('#', ''); //預設顯示第一個tab
+    var TempTabindex = TempTab.replace('tab', '');
+
+    $(document).ready(function () {
+        $('a[data-tab]').eq(TempTabindex - 1).click();
+    });
+</script>
+
+
+
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000043?parentID=Tab0000017" title="財團法人農業科技研究院">財團法人農業科技研究院</a>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/IACUC-BASIC-0606-0607.pdf" target="_blank" title="下載 財團法人農.pdf (另開視窗下載)" download="財團法人農.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/IACUC-BASIC-0829-0830.pdf" target="_blank" title="下載 財團法人農.pdf (另開視窗下載)" download="財團法人農.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/IACUC-proceed-course.pdf" target="_blank" title="下載 財團法人農.pdf (另開視窗下載)" download="財團法人農.pdf">PDF</a>
+                            <a class="badge bg-primary" href="/download/file/IACUC-proceed-sign.pdf" target="_blank" title="下載 財團法人農.pdf (另開視窗下載)" download="財團法人農.pdf">PDF</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000044?parentID=Tab0000017" title="中華實驗動物學會">中華實驗動物學會</a>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>
+                        <a href="/Frontend/Know/Detail/LT00000045?parentID=Tab0000017" title="國立屏東科技大學實驗動物照護及使用委員會(IACUC)">國立屏東科技大學實驗動物照護及使用委員會(IACUC)</a>
+                </td>
+                <td>
+                            <a class="badge bg-primary" href="/download/file/IACUC_04_6_2.pdf" target="_blank" title="下載 國立屏東科.pdf (另開視窗下載)" download="國立屏東科.pdf">PDF</a>
+                </td>
+            </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <!-- End Tab panes -->
+            </div>
+            <!-- End Col -->
+        </div>
+    </div>
+    <!-- End Container to details -->
+</section>
+<!-- End Content -->
+
+
+<footer id="footer" class="classic_footer">
+    <!-- Container -->
+    <div class="container footer-body">
+        <div class="row clearfix">
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <!-- Title -->
+                <p class="uppercase white extrabold h4">關於我們</p>
+                <p class="xxs-mt bold gray7 h5">動物保護資訊網</p>
+                <p class="mini-mt">本網站讓 ”尊重生命 保護動物” 理念成為生活的一部分！提供基本小常識，從自我檢測是否適合飼養寵物，如何認領養或選擇合法寵物業者、植入晶片並辦理寵物登記、到絕育或提出繁殖管理說明、教導寵物正確行為，並提供相關單位聯絡方式，幫助您了解自己、認識寵物，輕鬆展開您與寵物－愛的新生活。</p>
+                <p class="uppercase white extrabold xs-mt h5">
+                    瀏覽人數：<span class="visitor"></span>
+                </p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <!-- Title -->
+                <p class="uppercase white extrabold h5">聯絡我們</p>
+                <p class="xxs-mt bold gray7 h6"><i class="fa fa-map-marker mini-mr"></i>地址</p>
+                <p class="mini-mt">10014 臺北市中正區南海路 37 號</p>
+                <!-- Google Map -->
+                <a href="https://goo.gl/maps/JRgfxoKedb3DAj5m7" title="前往 google地圖(另開視窗)" target="_blank">
+                    Google Map
+                </a>
+                <p class="xs-mt bold gray7 h6"><i class="fa fa-phone mini-mr"></i>電話</p>
+                <p class="mini-mt">(02)2381-2991</p>
+                <p class="xs-mt bold gray7 h6"><i class="fa fa-fax mini-mr"></i>傳真</p>
+                <p class="mini-mt">(02)2331-0341</p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <p class="uppercase white extrabold xxs-mb h5">快速連結</p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/PetInsurance" class="mini-mt underline-hover gray6-hover gray7" title="前往 寵物保險">寵物保險</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/OpenDeclare" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站資料開放宣告">網站資料開放宣告</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/PrivacyDeclare" class="mini-mt underline-hover gray6-hover gray7" title="前往 隱私權及資訊安全宣告">隱私權及資訊安全宣告</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/SiteMap" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站導覽">網站導覽</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/SiteSearch" class="mini-mt underline-hover gray6-hover gray7" title="前往 全站搜尋">全站搜尋</a></p>
+                
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/APIservice" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站API串接服務">網站API串接服務</a></p>
+                <p class="xxs-mt gray7"><a href="https://www.coa.gov.tw/ws.php?id=19059" target="_blank" title="前往 重大政策(另開視窗)" class="mini-mt underline-hover gray6-hover gray7">重大政策</a></p>
+                <p class="xxs-mt gray7"><a href="https://www.coa.gov.tw/ws.php?id=3" target="_blank" title="前往 施政計畫(另開視窗)" class="mini-mt underline-hover gray6-hover gray7">施政計畫</a></p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <!-- Title -->
+                <p class="uppercase white extrabold no-pm h5">社群連結</p>
+                <p class="xxs-mt gray7">
+                    <span class="fa-stack fa-1x">
+                        <a href="https://www.facebook.com/animalcoa/" target="_blank" title="facebook粉絲專頁(另開視窗)" class="facebook">
+                            <i class="fa fa-square fa-stack-2x" style="color: #3B5998;"></i>
+                            <i class="fa fa-facebook fa-stack-1x" style="color: #fff;"></i>
+                        </a>
+                    </span>
+                </p>
+                    <a href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20191220101946" title="無障礙網站" style="display:block;">
+                        <img alt="通過AA檢測等級無障礙網頁檢測" border="0" height="auto" src="https://www.handicap-free.nat.gov.tw/ImagesUploads/e556a365-33fc-40e3-8d8f-94e2cd96288d.jpg" style="margin:20px 0;" width="150px">
+                    </a>
+            </div>
+            <!-- End Column -->  
+        </div>
+    </div>
+    <!-- End Container -->
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row clearfix calculate-height t-center-xs">
+                <div class="col-sm-6 col-xs-12 table-im t-left height-auto-mobile t-center-xs">
+                    <div class="v-middle">
+                        <img src="/Areas/Frontend/Content/Frontend_Template/content/sun-01/images/logo_02.png" alt="logo icon" class="logo">
+                    </div>
+                </div>
+                <!-- Bottom Note -->
+                <div class="col-sm-6 col-xs-12 table-im t-right height-auto-mobile t-center-xs xxs-mt-mobile">
+                    <p class="v-middle">
+                        <p class="gray6-hover h6">Term and Condition | 行政院農業委員會版權所有</p>
+                        © 2019. COA All Rights Reserved‧
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+<!--========== END FOOTER ==========-->
+<!-- Back To Top -->
+<a id="back-to-top" href="#top" title="返回頂端"><i class="fa fa-angle-up"></i></a>
+<style>
+    a.facebook{
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+</style>
+
+    
+    <input id="sessionlang" name="sessionlang" type="hidden" value="" />
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    
+
+
+
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/revolutionslider/jquery.themepunch.tools.min.js"></script>
+    <!-- PAGE OPTIONS - You can find special scripts for this version -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/content/sun-01/js/plugins.js?20191029"></script>
+    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/scripts.js?v=2.3"></script>
+    <!-- End JS Files -->
+
+    <script type="text/javascript">
+        (function ($, window, document, undefined) {
+            'use strict';
+
+            // init cubeportfolio
+            $('#images').cubeportfolio({
+                layoutMode: 'slider',
+                drag: true,
+                auto: false,
+                autoTimeout: 5000,
+                autoPauseOnHover: true,
+                showNavigation: false,
+                showPagination: false,
+                rewindNav: true,
+                scrollByPage: true,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 0,
+                    cols: 1,
+                }],
+                gapHorizontal: 0,
+                gapVertical: 0,
+                caption: '',
+                displayType: 'fadeIn',
+                displayTypeSpeed: 400,
+
+                plugins: {
+                    slider: {
+                        pagination: '#thumbnails',
+                        paginationClass: 'cbp-pagination-active',
+                    }
+                },
+            });
+
+            $('#recents').cubeportfolio({
+                layoutMode: 'slider',
+                drag: true,
+                auto: false,
+                autoTimeout: 5000,
+                autoPauseOnHover: true,
+                showNavigation: false,
+                showPagination: true,
+                rewindNav: false,
+                scrollByPage: false,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1500,
+                    cols: 5,
+                }, {
+                    width: 1100,
+                    cols: 4,
+                }, {
+                    width: 700,
+                    cols: 3,
+                }, {
+                    width: 480,
+                    cols: 2,
+                }, {
+                    width: 360,
+                    cols: 1,
+                    options: {
+                        caption: '',
+                        gapVertical: 10,
+                    }
+                }],
+                gapHorizontal: 0,
+                gapVertical: 25,
+                caption: '',
+                displayType: 'fadeIn',
+                displayTypeSpeed: 40,
+
+            });
+
+            // 流體排版
+            $('#posts').cubeportfolio({
+                filters: '#tags',
+                search: '#blog-search',
+                gapHorizontal: 50,
+                layoutMode: 'grid',
+                gapVertical: 20,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1050,
+                    cols: 4,
+                }, {
+                    width: 950,
+                    cols: 3,
+                }, {
+                    width: 850,
+                    cols: 2,
+                }, {
+                    width: 770,
+                    cols: 2,
+                }, {
+                    width: 640,
+                    cols: 2,
+                }, {
+                    width: 480,
+                    cols: 1,
+                }, {
+                    width: 320,
+                    cols: 1
+                }],
+                caption: 'none',
+                animationType: 'quicksand',
+                displayType: 'bottomToTop',
+                displayTypeSpeed: 60,
+            });
+        })(jQuery, window, document);
+    </script>
+
+    <script>
+        $(function () {
+            // 瀏覽人數
+            $.ajax({
+                type: "Post",
+                url: "/Frontend/VUC/Visitors",
+                dataType: "json",
+                success: function (response) {
+                    if (response.isSuccess === true) {
+                        $.each($('.visitor'), function (index, element) {
+                            element.innerText = response.data;
+                        })
+                    }
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64678028-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64678028-1');
+    </script>
+</body>
+</html>

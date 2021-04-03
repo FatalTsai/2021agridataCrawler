@@ -1,0 +1,2099 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="禽流感疫情行動資訊網">
+    <meta property="og:description" content="禽流感疫情資料">
+    <meta property="og:image" content="https://twai.baphiq.gov.tw/AI_m/Content/img/baphiqLogo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="672" />
+    <meta property="og:url" content="https://twai.baphiq.gov.tw/AI_m" />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="twai,顯示臺灣「禽流感案例分佈監測」資訊">
+    <meta name="keywords" content="twai,禽流感,案例,臺灣">
+
+    <title>禽流感疫情行動資訊網 - 首頁</title>
+    
+    <script src="https://cdn.bootcss.com/webfont/1.6.16/webfontloader.js"></script>
+    <script>
+        WebFont.load({
+            google: { "families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"] },
+            active: function () {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+    <!--end::Web font -->
+    <!--begin::Base Styles -->
+    <!--begin::Page Vendors -->
+    <link href="/AI_m/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Page Vendors -->
+    <link href="/AI_m/assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="/AI_m/assets/demo/default/base/style.bundle.css?1026" rel="stylesheet" type="text/css" />
+    <!--end::Base Styles -->
+    <link rel="shortcut icon" href="/AI_m/Content/img/logo.png" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180729972-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180729972-1');
+
+        //紀錄GA事件
+        function addGa(gaTitle,gaLabel) {
+            gtag('event', 'click', {
+                'event_category': gaTitle,
+                'event_label': gaLabel
+            });
+        }
+    </script>
+</head>
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default  m-aside-left--fixed">
+    <!-- begin:: Page -->
+    <div class="m-grid m-grid--hor m-grid--root m-page">
+        <!-- BEGIN: Header -->
+        <header class="m-grid__item    m-header " data-minimize-offset="200" data-minimize-mobile-offset="200">
+            <div class="m-container m-container--fluid m-container--full-height">
+                <div class="m-stack m-stack--ver m-stack--desktop">
+                    <!-- BEGIN: Brand -->
+                    <div class="m-stack__item m-brand  m-brand--skin-dark ">
+                        <div class="m-stack m-stack--ver m-stack--general" style="table-layout:auto;">
+                            <div class="m-stack__item m-stack__item--middle m-brand__logo">
+                                <a href="https://twai.baphiq.gov.tw/AI_m" class="m-brand__logo-wrapper">
+                                    <img src="/AI_m/Content/img/logo.png" alt="LOGO圖案" style="width: 13%;"/>
+                                    <span style="color:white;">禽流感疫情行動資訊網</span>
+                                </a>
+                            </div>
+                            <div class="m-stack__item m-stack__item--middle m-brand__tools">
+                                <!-- BEGIN: Left Aside Minimize Toggle -->
+                                <a href="javascript:;" id="m_aside_left_minimize_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-desktop-inline-block
+					 ">
+                                    <span></span>
+                                </a>
+                                <!-- END -->
+                                <!-- BEGIN: Responsive Aside Left Menu Toggler -->
+                                <a href="javascript:;" id="m_aside_left_offcanvas_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-tablet-and-mobile-inline-block">
+                                    <span></span>
+                                </a>
+                                <!-- END -->
+                                <!-- BEGIN: Responsive Header Menu Toggler -->
+                                
+                                <!-- END -->
+                                <!-- BEGIN: Topbar Toggler -->
+                                <a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
+                                    <i class="flaticon-more"></i>
+                                </a>
+                                <!-- BEGIN: Topbar Toggler -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Brand -->
+                    <div class="m-stack__item m-stack__item--fluid m-header-head" id="m_header_nav">
+                        <!-- BEGIN: Horizontal Menu -->
+                        <button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-dark " id="m_aside_header_menu_mobile_close_btn">
+                            <i class="la la-close"></i>
+                        </button>
+                        <!-- END: Horizontal Menu -->								<!-- BEGIN: Topbar -->
+                        <div id="m_header_topbar" class="m-topbar  m-stack m-stack--ver m-stack--general">
+                            <div class="m-stack__item m-topbar__nav-wrapper">
+                                <ul class="m-topbar__nav m-nav m-nav--inline">
+                                    
+                                    <li class="m-nav__item m-topbar__notifications m-topbar__notifications--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-center 	m-dropdown--mobile-full-width" data-toggle="modal" data-target="#m_modal_Event" title="開啟提醒視窗" onclick="addGa('開啟小鈴鐺-點擊','開啟小鈴鐺')">
+                                        <a href="#" class="m-nav__link m-dropdown__toggle" id="m_topbar_notification_icon" >
+                                            
+                                            <span class="m-nav__link-icon">
+                                                <i class="flaticon-music-2"></i>
+                                            </span>
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li id="m_quick_sidebar_toggle" class="m-nav__item" title="開啟篩選條件">
+                                        <a href="#" class="m-nav__link m-dropdown__toggle">
+                                            <span class="m-nav__link-icon">
+                                                <i class="flaticon-interface-7"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- END: Topbar -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END: Header -->
+        <!-- begin::Body -->
+        <div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+            <!-- BEGIN: Left Aside -->
+            <button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn">
+                <i class="la la-close"></i>
+            </button>
+            <div id="m_aside_left" class="m-grid__item	m-aside-left  m-aside-left--skin-dark ">
+                <!-- BEGIN: Aside Menu -->
+                <div id="m_ver_menu"
+                     class="m-aside-menu  m-aside-menu--skin-dark "
+                     data-menu-vertical="true"
+                     data-menu-scrollable="false" data-menu-dropdown-timeout="500">
+                    <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+                        <li class="m-menu__section">
+                            <div class="m-menu__section-text" style="color:white;font-size:larger;">
+                                功能
+                            </div>
+                            <i class="m-menu__section-icon flaticon-more-v3"></i>
+                        </li>
+                        <li id="funcLi0" class="m-menu__item  m-menu__item--active" aria-haspopup="true">
+                            <a href="#" class="m-menu__link " onclick="changeFunc(0)">
+                                <i class="m-menu__link-icon flaticon-placeholder-1"></i>
+                                <span class="m-menu__link-title">
+                                    <span class="m-menu__link-wrap">
+                                        <span class="m-menu__link-text">
+                                            動態地圖
+                                        </span>
+                                        <span class="m-menu__link-badge">
+                                            <i class="m-menu__ver-arrow la la-angle-right"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li id="funcLi1" class="m-menu__item" aria-haspopup="true">
+                            <a href="#" class="m-menu__link " onclick="changeFunc(1)">
+                                <i class="m-menu__link-icon flaticon-diagram"></i>
+                                <span class="m-menu__link-title">
+                                    <span class="m-menu__link-wrap">
+                                        <span class="m-menu__link-text">
+                                            年月趨勢圖
+                                        </span>
+                                        <span class="m-menu__link-badge">
+                                            <i class="m-menu__ver-arrow la la-angle-right"></i>
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+<script src="/AI_m/Scripts/bootstrap-datepicker.zh-TW.js" defer="defer"></script>
+<link href="/AI_m/Content/styleCss.css" rel="stylesheet" />
+<script src="/AI_m/Scripts/nameConfig.js"></script>
+<script src="/AI_m/Scripts/moment.js"></script>
+
+
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/kelly.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+<script src="//cdn.amcharts.com/lib/4/plugins/annotation.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&amp;display=swap" rel="stylesheet">
+<div class="m-grid__item m-grid__item--fluid m-wrapper">
+    <!-- BEGIN: Subheader -->
+    <div id="subHeader" class="m-subheader ">
+        <div class="d-flex align-items-center">
+            <div class="mr-auto" style="width:100%;">
+                
+                
+                <div class="row">
+                    <div id="headTxtId" class="headTxt">臺灣「禽流感案例分佈監測」</div>
+                </div>
+
+                <div class="row">
+                    
+                    <span id="dateChoose" class="badge badge-pill badge-dark" style="font-size:14px;">2020-01-01 ~ 2020-07-01</span>
+                    <span class="ml-auto" style="cursor:pointer;" onclick="$('#m_quick_sidebar_toggle').click();" title="開啟或關閉篩選條件"><i class="flaticon-interface-7"></i></span>
+                </div>
+
+                <span style="color:#455a64;font-size:14px;padding:0;cursor:pointer;" onclick="openCloseChosen()">篩選內容<img id="cUpDown" style="width:24px;" src="/AI_m/Content/img/chevron-double-up.png" alt="關閉已篩選內容" title="收合" /></span>
+
+                <div id="exPicArea" class="row">
+                    <div class="col-12 col-sm-auto">
+                        <span style="font-weight: bold;">禽種</span>
+                        <span id="exMarker0" class="exMarker"><img src="/AI_m/Content/img/poultry-farm-nativechicken.png" alt="雞圖例" /><span>雞</span></span>
+                        <span id="exMarker1" class="exMarker"><img src="/AI_m/Content/img/poultry-farm-turkey.png" alt="火雞圖例" /><span>火雞</span></span>
+                        <span id="exMarker2" class="exMarker"><img src="/AI_m/Content/img/poultry-farm-duck.png" alt="鴨圖例" /><span>鴨</span></span>
+                        <span id="exMarker3" class="exMarker"><img src="/AI_m/Content/img/poultry-farm-goose.png" alt="鵝圖例" /><span>鵝</span></span>
+                    </div>
+                    <div class="col-12 col-sm-auto">
+                        <span style="font-weight: bold;">確診案例</span>
+                        <span class="exMarker2"><img src="/AI_m/Content/img/case-no.png" alt="無確診圖例" /><span>無</span></span>
+                        <span class="exMarker2"><img src="/AI_m/Content/img/case-yes.png" alt="曾有確診圖例" /><span>曾經有</span></span>
+                    </div>
+                    <div class="col-12 col-sm-auto">
+
+                        <span style="font-weight: bold;">風險半徑</span>
+                        <span class="exMarker2"><img src="/AI_m/Content/img/risk1.png" alt="風險1km圖例" /><span>1km</span></span>
+                        <span class="exMarker2"><img src="/AI_m/Content/img/risk3.png" alt="風險3km圖例" /><span>3km</span></span>
+                    </div>
+
+
+                </div>
+                <div id="chooseFilterID" class="row">
+                    <span id="cFilter0" class="chooseFilter">陸禽-雞</span>
+                    <span id="cFilter1" class="chooseFilter">陸禽-火雞</span>
+                    <span id="cFilter2" class="chooseFilter">水禽-鴨</span>
+                    <span id="cFilter3" class="chooseFilter">水禽-鵝</span>
+                    <span id="cFilter4" class="chooseFilter">亞型-H5N2</span>
+                    <span id="cFilter5" class="chooseFilter">亞型-H5N5</span>
+                    <span id="cFilter6" class="chooseFilter">亞型-其他</span>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- END: Subheader -->
+    <div class="m-content" style="padding:0px 0px;">
+        <!--Begin::Main Portlet-->
+        <div class="row">
+
+            
+
+            <div class="col-xl-12">
+                <!--begin:: Widgets/Top Products-->
+                <div class="m-portlet m-portlet--bordered-semi m-portlet--full-height ">
+                    
+                    
+                    <div id="mainSection0" class="m-portlet__body" style="padding-top:0;">
+                        <!--begin::Widget5-->
+                        <div class="m-widget4">
+                            <div class="m-widget4__chart m-portlet-fit--sides m--margin-top-10 m--margin-top-20">
+                                <div id="map_id" style="height:260px;z-index: 1;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="mainSection1" class="m-portlet__body" style="display:none;">
+                        <!--begin::Widget5-->
+                        <div class="m-widget4">
+                            <div class="m-widget4__chart m-portlet-fit--sides m--margin-top-10 m--margin-top-20">
+                                <div id="chartdiv"></div>
+                                <br />
+                                <div id="tablediv">
+                                    <div class="m-portlet__head">
+                                        <div class="m-portlet__head-caption">
+                                            <div class="m-portlet__head-title">
+                                                <h3 class="headTxt" style="font-size:16px;">年月數量</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-section">
+                                        <div class="m-section__content">
+                                            <table id="tblYearMonth" class="table table-striped m-table">
+                                                <thead>
+                                                    <tr id="trTitleYear">
+                                                        <th>
+
+                                                        </th>
+                                                        <th>
+                                                            2020年
+                                                        </th>
+                                                        <th>
+                                                            2019年
+                                                        </th>
+                                                        <th>
+                                                            2018年
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="tblTbody">
+                                                    <tr>
+                                                        <td scope="row">
+                                                            1月
+                                                        </td>
+                                                        <td>
+                                                            10
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            2月
+                                                        </td>
+                                                        <td>
+                                                            2
+                                                        </td>
+                                                        <td>
+                                                            3
+                                                        </td>
+                                                        <td>
+                                                            4
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            3月
+                                                        </td>
+                                                        <td>
+                                                            52
+                                                        </td>
+                                                        <td>
+                                                            32
+                                                        </td>
+                                                        <td>
+                                                            51
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            4月
+                                                        </td>
+                                                        <td>
+                                                            10
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            5月
+                                                        </td>
+                                                        <td>
+                                                            10
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            6月
+                                                        </td>
+                                                        <td>
+                                                            10
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            7月
+                                                        </td>
+                                                        <td>
+                                                            10
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            8月
+                                                        </td>
+                                                        <td>
+                                                            尚無資料
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            9月
+                                                        </td>
+                                                        <td>
+                                                            尚無資料
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            10月
+                                                        </td>
+                                                        <td>
+                                                            尚無資料
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            11月
+                                                        </td>
+                                                        <td>
+                                                            尚無資料
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td scope="row">
+                                                            12月
+                                                        </td>
+                                                        <td>
+                                                            尚無資料
+                                                        </td>
+                                                        <td>
+                                                            20
+                                                        </td>
+                                                        <td>
+                                                            30
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="m_modal_Event" tabindex="-1" role="dialog" aria-labelledby="alert" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="white-space:nowrap;">
+                <div class="modal-title" style="font-weight:bold;">
+                    事件及防疫小提醒
+                </div>
+                
+            </div>
+            <div class="modal-body" style="overflow-y:auto;">
+                <div id="alertBody" class="m-scrollable" data-scrollbar-shown="true" data-scrollable="true" data-max-height="500">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input id="notShow" type="checkbox" style="cursor:pointer;" checked /><span>我知道了，有最新訊息再顯示</span>
+                <button type="button" class="btn btn-info" data-dismiss="modal" onclick="saveNotshow()">
+                    確定
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var idLoaded = [];//這次讀取的所有事件id
+    var farmFilterTemp = [];
+    var aiFilterTemp = [];
+    var map;
+    var markerAll = [];//案例點
+    var circleAll = [];//風險半徑
+    var markerAllFarm = [];//附近禽場點
+    var circleFarm = [];//附近禽場的大框框
+    var nowMenu = 0;//現在選取的功能
+    var nowDateCount = 1;//圖表用-幾組日期
+
+    window.onload = function () {
+        getEventAlert();
+        addGa('動態地圖-點擊', '動態地圖');
+
+        //調整地圖大小
+        var upHeight = $('#m_header_nav').height() + $('#subHeader').height();
+        $('#mainSection0').height(window.innerHeight - upHeight - 110);
+        $('#map_id').height(window.innerHeight - upHeight - 60);
+
+        map = L.map('map_id', {
+            center: [23.553118, 121.0211024],
+            zoom: 8,
+            zoomControl: false
+        });
+        LMAP = map;
+        var taiwan_eMap_grayscale =
+            L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP01/default/GoogleMapsCompatible/{z}/{y}/{x}',
+                { id: 'taiwan_eMap_grayscale_ID', attribution: '臺灣通用電子地圖(灰階)' }),
+            taiwan_eMap =
+                L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP/default/GoogleMapsCompatible/{z}/{y}/{x}',
+                    { id: 'taiwan_eMap_ID', attribution: '臺灣通用電子地圖' }),
+            photo_general =
+                L.tileLayer('https://wmts.nlsc.gov.tw/wmts/PHOTO2/default/GoogleMapsCompatible/{z}/{y}/{x}',
+                    { id: 'photo_general_ID', attribution: '國土測繪 - 正射影像圖(通用)' }),
+            photo_mix =
+                L.tileLayer('https://wmts.nlsc.gov.tw/wmts/PHOTO_MIX/default/GoogleMapsCompatible/{z}/{y}/{x}',
+                    { id: 'photo_mix_ID', attribution: '國土測繪 - 正射影像(混合)' }),
+            open_street_map =
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                    { id: 'open_street_map_ID', attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' });
+
+        var baseMaps = {
+            '臺灣通用電子地圖(灰階)': taiwan_eMap_grayscale,
+            '臺灣通用電子地圖': taiwan_eMap,
+            '國土測繪 - 正射影像圖(通用)': photo_general,
+            '國土測繪 - 正射影像(混合)': photo_mix,
+            'OpenStreetMap': open_street_map
+        };
+        L.control.zoom({
+            position: 'bottomright'
+        }).addTo(map);
+
+        L.control.layers(baseMaps, null, { position: 'bottomright' }).addTo(map);
+
+        taiwan_eMap.addTo(map);  // 預設 "taiwan_eMap"
+
+        //$('[type="date"]').datepicker({
+        //    format: "yyyy-mm-dd",
+        //    autoclose: true,
+        //    //clearBtn: true,
+        //    //calendarWeeks: true,
+        //    todayHighlight: true,
+        //    language: 'zh-TW'
+        //});
+        var d = new Date();
+        var currYear = d.getFullYear();
+        var startDate = new Date(currYear, 0, 1);
+        $('#datepicker_start').datepicker({
+            format: "yyyy-mm-dd",
+            autoclose: true,
+            //clearBtn: true,
+            //calendarWeeks: true,
+            startDate: '2015-01-01',
+            todayHighlight: true,
+            language: 'zh-TW'
+        }).datepicker("setDate", startDate);
+        $('#datepicker_end').datepicker({
+            format: "yyyy-mm-dd",
+            autoclose: true,
+            //clearBtn: true,
+            //calendarWeeks: true,
+            todayHighlight: true,
+            language: 'zh-TW'
+        }).datepicker("setDate", '0');
+
+        //同期比較日期
+        $('#dt_cy_start1').datepicker({
+            format: "yyyy-mm-dd",
+            autoclose: true,
+            //clearBtn: true,
+            //calendarWeeks: true,
+            startDate: '2015-01-01',
+            todayHighlight: true,
+            language: 'zh-TW'
+        }).datepicker("setDate", startDate);
+        $('#dt_cy_end1').datepicker({
+            format: "yyyy-mm-dd",
+            autoclose: true,
+            //clearBtn: true,
+            //calendarWeeks: true,
+            todayHighlight: true,
+            language: 'zh-TW'
+        }).datepicker("setDate", '0');
+
+        applyFilter();//一開始畫案例點
+
+        //抓現在位置
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                onPopupClick_forCase(position.coords.latitude, position.coords.longitude);
+                //關閉popup
+                map.closePopup();
+                map.setView([position.coords.latitude, position.coords.longitude], 13);
+                setTimeout(L.marker([position.coords.latitude, position.coords.longitude]).addTo(map),1000);
+
+            });
+        }
+
+        $("#addThirdDate").click(function () {
+            $('#cy3').show();
+            $('#addThirdDate').hide();
+            nowDateCount = 3;
+        });
+        $("#minusThirdDate").click(function () {
+            $('#cy3').hide();
+            $('#addThirdDate').show();
+            nowDateCount = 2;
+        });
+
+
+       
+
+    }
+
+
+    //判斷行動裝置橫向直向-chrome用
+    window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
+        //if (window.orientation === 180 || window.orientation === 0) {
+        //   
+        //}
+        //if (window.orientation === 90 || window.orientation === -90) {            
+            var upHeight = $('#m_header_nav').height() + $('#subHeader').height();
+            $('#mainSection0').height(window.innerHeight - upHeight - 110);
+            $('#map_id').height(window.innerHeight - upHeight - 60);
+            map.invalidateSize();
+        //}
+    }, false);
+
+    //判斷行動裝置橫向直向-safari及其他瀏覽器用
+    var mql = window.matchMedia("(orientation: portrait)");
+    mql.addListener(function (m) {
+        //if (m.matches) {
+            //調整地圖大小
+            var upHeight = $('#m_header_nav').height() + $('#subHeader').height();
+            $('#mainSection0').height(window.innerHeight - upHeight - 110);
+            $('#map_id').height(window.innerHeight - upHeight - 60);
+            map.invalidateSize();
+        //}
+        //else {
+        //    map.invalidateSize();        }
+    });
+
+    //選擇左邊選單功能
+    function changeFunc(n) {
+        nowMenu = n;
+        switch (n) {
+            case 0://動態地圖
+                $('#headTxtId').text('臺灣「禽流感案例分佈監測」');
+                $('#funcLi1').removeClass("m-menu__item--active");
+                $('#funcLi0').addClass("m-menu__item--active");
+                $('#mainSection1').hide();
+                $('#mainSection0').show();
+                $('#compareYear').hide();
+                $('#dtOne').show();
+                if ($("#chooseFilterID").css('display') != 'none') {
+                    $('#exPicArea').show();
+                }
+                
+
+                applyFilter();
+
+                $('#m_aside_left_close_btn').click();//行動版關閉左邊選單
+                addGa('動態地圖-點擊', '動態地圖');
+                break;
+            case 1://年月趨勢圖
+                $('#headTxtId').text('歷年「禽流感發生案例」數量');
+                $('#funcLi0').removeClass("m-menu__item--active");
+                $('#funcLi1').addClass("m-menu__item--active");
+                $('#mainSection0').hide();
+                $('#mainSection1').show();
+                $('#compareYear').show();
+                $('#exPicArea').hide();
+                cyChange();
+
+                applyFilter();
+
+                $('#m_aside_left_close_btn').click();//行動版關閉左邊選單
+                addGa('年月趨勢圖-點擊','年月趨勢圖');
+                break;
+        }
+        map.invalidateSize();
+    }
+
+    //開啟事件及防疫小提醒
+    function getEventAlert() {
+        $.get(domain + "birdApiNew/EventAlert", function (result) {
+            $('#alertBody').children().remove();
+
+            var alertTxt = "";
+            var tempSplit = "";
+            var tempSplitAlert = "";
+            idLoaded = [];
+            //事件
+            var et1 = result.filter(function (item) {
+                return item.eventType == '0';
+            });
+            //防疫小提醒
+            var et2 = result.filter(function (item) {
+                return item.eventType == '1';
+            });
+            if (et2.length != 0) {
+                for (var i = 0; i < et2.length; i++) {
+                    idLoaded.push(et2[i].id);
+                    tempSplit = et2[i].eventText.split('  ');
+                    tempSplitAlert = "";
+                    tempSplitAlert += "<div><span class='badge badge-secondary'>防疫小提醒</span><span class='alertDateCss'>&nbsp&nbsp" + et2[i].startDate + "</span></div>";
+                    for (var t = 0; t < tempSplit.length; t++) {
+                        tempSplitAlert += "<div>" + tempSplit[t] + "</div>";
+                    }
+                    alertTxt += "<div class='alertTxt'>" + tempSplitAlert + "</div><br>";
+                }
+                alertTxt += "<hr>";
+            }
+
+            for (var i = 0; i < et1.length; i++) {
+                idLoaded.push(et1[i].id);
+                tempSplit = et1[i].eventText.split('  ');
+                tempSplitAlert = "";
+                tempSplitAlert += "<div><span class='badge badge-secondary'>事件</span><span class='alertDateCss'>&nbsp&nbsp" + et1[i].startDate + "</span></div>";
+                for (var t = 0; t < tempSplit.length; t++) {
+                    tempSplitAlert += "<div>" + tempSplit[t] + "</div>";
+                }
+                alertTxt += "<div class='alertTxt'>" + tempSplitAlert + "</div><br>";
+                //alertTxt += "<hr>";
+            }
+            $('#alertBody').append(alertTxt);
+            if (localStorage.getItem('alertNewShow') == "false" || localStorage.getItem('alertNewShow') == null) {//不管有沒有新的都SHOW
+                $('#notShow').prop('checked', false);
+                $('#m_modal_Event').modal();
+            }
+            else {//有新的才SHOW
+                $('#notShow').prop('checked', true);
+                if (localStorage.getItem('idLoaded') != idLoaded.toString()) {
+                    $('#m_modal_Event').modal();
+                }
+            }
+        });
+    }
+    //儲存關閉提醒時設定新訊息顯示設定
+    function saveNotshow() {
+        if ($('#notShow').prop('checked') == true) {
+            localStorage.setItem('alertNewShow', true);
+            localStorage.setItem('idLoaded', idLoaded);
+        }
+        else {
+            localStorage.setItem('alertNewShow', false);
+        }
+    }
+
+    //開啟關閉已篩選內容
+    function openCloseChosen() {
+        if ($("#chooseFilterID").css('display') == 'none') {
+            $('#cUpDown').attr('src', picPath + '/Content/img/chevron-double-up.png');
+            if (nowMenu == 0) {
+                $("#exPicArea").show("fast");
+            }
+            $("#chooseFilterID").show("fast", function () {
+                var upHeight = $('#m_header_nav').height() + $('#subHeader').height();
+                $('#mainSection0').height(window.innerHeight - upHeight - 110);
+                $('#map_id').height(window.innerHeight - upHeight - 60);
+            });
+            $('#cUpDown').prop('title', '收合');
+            $('#cUpDown').prop('alt', '關閉已篩選內容');            
+        }
+        else {
+            $('#cUpDown').attr('src', picPath + '/Content/img/chevron-double-down.png');
+            $("#exPicArea").hide("fast");
+            $("#chooseFilterID").hide("fast",function () {
+                var upHeight = $('#m_header_nav').height() + $('#subHeader').height();
+                $('#mainSection0').height(window.innerHeight - upHeight - 110);
+                $('#map_id').height(window.innerHeight - upHeight - 60);
+            });
+            $('#cUpDown').prop('title', '開啟');
+            $('#cUpDown').prop('alt', '開啟已篩選內容');
+
+        }
+        
+        
+    }
+
+    //資料篩選-禽種
+    function filterFarmClick(e) {
+        //$('.filterFarmCheck>img:visible')[0].alt
+        if (e.getElementsByClassName('filterFarmCheck')[0].style.display == 'none') {
+            e.getElementsByClassName('filterFarmCheck')[0].style.display = '';
+        }
+        else {
+            e.getElementsByClassName('filterFarmCheck')[0].style.display = 'none';
+        }
+    }
+
+    //資料篩選-病原性
+    function filterAIClick(e) {
+        //$('.filterAICheck>img:visible')[0].alt
+        if (e.getElementsByClassName('filterAICheck')[0].style.display == 'none') {
+            e.getElementsByClassName('filterAICheck')[0].style.display = '';
+        }
+        else {
+            e.getElementsByClassName('filterAICheck')[0].style.display = 'none';
+        }
+    }
+
+    //風險半徑選取
+    function riskClick(e) {
+        $('.-km').removeClass('Oval1');
+        $('.-km').removeClass('Oval2');
+        $('.-km').addClass('Oval2');
+        e.classList.remove("Oval2");
+        e.classList.add("Oval1");
+    }
+
+    //資料篩選-重設
+    function resetClick() {
+        //風險半徑
+        $('.-km').removeClass('Oval1');
+        $('.-km').removeClass('Oval2');
+        $('.-km').addClass('Oval2');
+        $('.-km')[1].classList.remove("Oval2");
+        $('.-km')[1].classList.add("Oval1");
+        //日期
+        $('#datepicker_start').val(new Date().getFullYear() + '-01-01');
+        $('#datepicker_end').datepicker("setDate", '0');
+        //禽種
+        $('.filterFarmCheck').show();
+        //病原性
+        $('.filterAICheck').show();
+
+        //同期比較日期
+        $('#dt_cy_start1').val(new Date().getFullYear() + '-01-01');
+        $('#dt_cy_end1').datepicker("setDate", '0');
+        $('#dt_cy_start2_1').val(2019);
+        $('#dt_cy_start3_1').val(2018);
+        $('#dt_cy_start2_2').text($('#dt_cy_start1').val().substring(4));
+        $('#dt_cy_start3_2').text($('#dt_cy_start1').val().substring(4));
+        $('#dt_cy_end2').text($('#dt_cy_start2_1').val() + $('#dt_cy_end1').val().substring(4));
+        $('#dt_cy_end3').text($('#dt_cy_start3_1').val() + $('#dt_cy_end1').val().substring(4));
+        $('#minusThirdDate').click();
+        if ($('#cyId').prop('checked') == true) {
+            $('#cyId').click();
+        }
+        //幾組日期
+        nowDateCount = 1;
+    }
+
+    //資料篩選-套用
+    function applyFilter() {
+
+
+        if ($('.filterFarmCheck>img:visible').length == 0 || $('.filterAICheck>img:visible').length == 0) {
+            alert("陸禽及病原性請至少各選取一種");
+            return;
+        }
+
+        //判斷同期比較年份是否重複
+        if ($('#cyId').prop('checked') == true) {
+            if ($('#minusThirdDate:visible').length == 1) {//三組
+                if ($('#dt_cy_start1').val().substring(0, 4) == $('#dt_cy_start2_1').val() || $('#dt_cy_start1').val().substring(0, 4) == $('#dt_cy_start3_1').val() || $('#dt_cy_start2_1').val() == $('#dt_cy_start3_1').val()) {
+                    alert('同期比較請選取不同年份');
+                    return;
+                }
+            }
+            else {//兩組
+                if ($('#dt_cy_start1').val().substring(0, 4) == $('#dt_cy_start2_1').val()) {
+                    alert('同期比較請選取不同年份');
+                    return;
+                }
+            }
+
+        }
+
+        $('#m_quick_sidebar_close').click();//關閉側欄
+        //$('#riskKmChoose').text($('.-km.Oval1').text());
+        $('#dateChoose').text($('#datepicker_start').val() + ' ~ ' + $('#datepicker_end').val());
+        $('.exMarker').hide();
+        $('.chooseFilter').hide();
+        farmFilterTemp = [];
+        aiFilterTemp = [];
+        var colorTemp = "";
+        for (var fmc = 0; fmc < $('.filterFarmCheck').length; fmc++) {
+            if ($('.filterFarmCheck')[fmc].style.display != 'none') {
+                $('#exMarker' + fmc).show();
+                $('#cFilter' + fmc).show();
+                farmFilterTemp.push($('.filterFarmCheck>img')[fmc].alt);
+                addGa('套用-禽種來源', $('.filterFarmCheck>img').eq(fmc).parent().parent().text().replace('。', ''));
+            }
+        }
+
+        for (var fac = 0; fac < $('.filterAICheck').length; fac++) {
+            if ($('.filterAICheck')[fac].style.display != 'none') {
+                $('#cFilter' + (fac + 4)).show();
+                aiFilterTemp.push(fac);
+                addGa('套用-病原性', $('.filterAICheck>img').eq(fac).parent().parent().text().replace('。', ''));
+
+            }
+        }
+
+        switch (nowMenu) {
+            case 0://地圖
+                //關閉popup
+                map.closePopup();
+                map.setView([23.553118, 121.0211024], 8);
+
+                $.get(domain + "birdApiNew/Case_Farm", { startSampleDate: $('#datepicker_start').val(), endSampleDate: $('#datepicker_end').val(), avian_species: farmFilterTemp.toString(), AI_2_general: aiFilterTemp.toString() },
+                    function (resData) {
+                        //清空案例點
+                        for (var m = 0; m < markerAll.length; m++) {
+                            map.removeLayer(markerAll[m]);
+                        }
+                        clearMarker();
+                        markerAll = [];
+
+                        //清空風險半徑
+                        for (var c = 0; c < circleAll.length; c++) {
+                            map.removeLayer(circleAll[c]);
+                        }
+                        circleAll = [];
+
+                        var iconTmp = "";
+                        for (var r = 0; r < resData.length; r++) {
+                            if (resData[r].avian_species.includes("鴨") == true) {
+                                iconTmp = picPath + '/Content/img/poultry-farm-duck.png';
+                            }
+                            else if (resData[r].avian_species.includes("鵝") == true) {
+                                iconTmp = picPath + '/Content/img/poultry-farm-goose.png';
+                            }
+                            else if (resData[r].avian_species.includes("火雞") == true) {
+                                iconTmp = picPath + '/Content/img/poultry-farm-turkey.png';
+                            }
+                            else if (resData[r].avian_species.includes("雞") == true && resData[r].avian_species.includes("火雞") == false) {
+                                iconTmp = picPath + '/Content/img/poultry-farm-nativechicken.png';
+                            }
+
+                            //畫點
+                            var myIcon = L.icon({
+                                iconUrl: iconTmp,
+                                iconSize: [14, 14]
+                            });
+
+                            popupTxt = "<div style='font-size:18px;font-weight:bold;color:#333333'>" + resData[r].avian_species + "</div> " +
+                                "</br><table style='width:187px;'><tr class='row' style='padding-bottom: 12px;'><td class='popup-title col-7'>採樣日期</td><td class='popup-data col-5'>" + moment(resData[r].sample_date).format('YYYY/MM/DD') + "</td></tr>" +
+                                "<tr class='row'><td class='popup-title col-7'>亞型</td><td class='popup-data col-5'>" + resData[r].AI_2_general + "</td></tr></table> " +
+                                "<br/><div style='font-size:18px;font-weight:bold;color:#333333'>風險半徑內禽場統計數量</div>" +
+                                "<br/><table style='width:187px;'><tr class='row' style='padding-bottom: 12px;'><td class='popup-title col-7'>3km</td><td id='txt3km' class='popup-data col-5'>計算中</td></tr>" +
+                                "<tr class='row' style='padding-bottom: 12px;'><td class='popup-title col-7'>1~3km</td><td id='txt1-3km' class='popup-data col-5'>計算中</td></tr>" +
+                                "<tr class='row'><td class='popup-title col-7'>1km</td><td id='txt1km' class='popup-data col-5'>計算中</td></tr> </table > ";
+
+                            var icon = L.marker([resData[r].lat, resData[r].lng], {
+                                icon: myIcon
+                            }).addTo(map).on("click", function (event) {
+                                map.setView([event.latlng.lat, event.latlng.lng], 13);
+                            }).bindPopup(popupTxt, { maxWidth: 600, minWidth: 300 })
+                                .on('click', function (e) { onPopupClick_forCase(e); });
+                            markerAll.push(icon);
+
+                            if (resData[r].kill_date == '' || resData[r].kill_date == null) {
+                                colorTemp = 'red';//沒有撲殺日
+                            }
+                            else if (parseInt(moment().add(-3, 'months').format('YYYYMMDD')) > parseInt(moment(resData[r].kill_date).format('YYYYMMDD'))) {
+                                colorTemp = 'transparent';//撲殺日三個月後
+                            }
+                            else {
+                                colorTemp = 'orange';//有撲殺日但還沒過三個月
+                            }
+
+                            switch ($('.-km.Oval1').text()) {
+                                case '1及3km':
+                                    //風險半徑
+                                    circleAll.push(L.circle([resData[r].lat, resData[r].lng],
+                                        { color: colorTemp, radius: 1000, fillOpacity: 0.25, stroke: false }
+                                    ).addTo(map));
+
+                                    circleAll.push(cirlce_3km = L.circle([resData[r].lat, resData[r].lng],
+                                        { color: colorTemp, radius: 3000, fillOpacity: 0.1, stroke: false }
+                                    ).addTo(map));
+                                    break;
+                                case '1km':
+                                    circleAll.push(cirlce_1km = L.circle([resData[r].lat, resData[r].lng],
+                                        { color: colorTemp, radius: 1000, fillOpacity: 0.25, stroke: false }
+                                    ).addTo(map));
+                                    break;
+                                case '3km':
+                                    circleAll.push(cirlce_3km = L.circle([resData[r].lat, resData[r].lng],
+                                        { color: colorTemp, radius: 3000, fillOpacity: 0.1, stroke: false }
+                                    ).addTo(map));
+                                    break;
+                            }
+                        }
+                    });
+                break;
+            case 1://年月趨勢圖
+                var cyFirstSDate = "";
+                var cyFirstEDate = "";
+                var cySecondSDate = $('#dt_cy_start2_1').val() + $('#dt_cy_start2_2').text();
+                var cySecondEDate = $('#dt_cy_end2').text();
+                var cyThirdSDate = $('#dt_cy_start3_1').val() + $('#dt_cy_start3_2').text();
+                var cyThirdEDate = $('#dt_cy_end3').text();
+
+                if ($('#cyId').prop('checked') == false) {//非同期比較
+                    cyFirstSDate = $('#datepicker_start').val();
+                    cyFirstEDate = $('#datepicker_end').val();
+                }
+                else {//同期比較
+                    cyFirstSDate = $('#dt_cy_start1').val();
+                    cyFirstEDate = $('#dt_cy_end1').val();
+                }
+                $.get(domain + "birdApiNew/Year_Date", { startSampleDate0: cyFirstSDate, endSampleDate0: cyFirstEDate, startSampleDate1: cySecondSDate, endSampleDate1: cySecondEDate, startSampleDate2: cyThirdSDate, endSampleDate2: cyThirdEDate, dateCount: nowDateCount, avian_species: farmFilterTemp.toString(), AI_2_general: aiFilterTemp.toString() },
+                    function (resData) {
+
+                        //畫圖
+                        // Themes begin
+                        am4core.useTheme(am4themes_kelly);
+                        am4core.useTheme(am4themes_animated);
+                        // Themes end
+
+                        // Create chart instance
+                        var chart = am4core.create("chartdiv", am4charts.XYChart);
+                        //開啟圖表export
+                        chart.exporting.menu = new am4core.ExportMenu();
+                        chart.exporting.adapter.add("data", function (data, target) {
+                            // Assemble data from series
+                            var data = [];
+                            chart.series.each(function (series) {
+                                for (var i = 0; i < series.data.length; i++) {
+                                    series.data[i].name = series.name;
+                                    data.push(series.data[i]);
+                                }
+                            });
+                            return { data: data };
+                        });
+                        //chart.exporting.menu.items = [
+                        //    {
+                        //        "label": "...",
+                        //        "menu": [
+                        //            {
+                        //                "label": "Image",
+                        //                "menu": [
+                        //                    { "type": "png", "label": "PNG" },
+                        //                    { "type": "jpg", "label": "JPG" },
+                        //                    { "type": "svg", "label": "SVG" },
+                        //                    { "type": "pdf", "label": "PDF" }
+                        //                ]
+                        //            }, {
+                        //                "label": "Data",
+                        //                "menu": [
+                        //                    { "type": "json", "label": "JSON" },
+                        //                    { "type": "csv", "label": "CSV" },
+                        //                    { "type": "xlsx", "label": "XLSX" },
+                        //                    { "type": "html", "label": "HTML" },
+                        //                    { "type": "pdfdata", "label": "PDF" }
+                        //                ]
+                        //            }, {
+                        //                "label": "Print", "type": "print"
+                        //            }
+                        //        ]
+                        //    }
+                        //];
+                        chart.plugins.push(new am4plugins_annotation.Annotation());
+                        //chart.exporting.menu.items[0].menu[3].label = "註解";
+                        // Create axes
+                        var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+                        categoryAxis.dataFields.category = "month";
+                        categoryAxis.data = [
+                            { month: '1月' },
+                            { month: '2月' },
+                            { month: '3月' },
+                            { month: '4月' },
+                            { month: '5月' },
+                            { month: '6月' },
+                            { month: '7月' },
+                            { month: '8月' },
+                            { month: '9月' },
+                            { month: '10月' },
+                            { month: '11月' },
+                            { month: '12月' }
+                        ];
+
+                        var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+
+                        var bullet = new am4charts.CircleBullet();
+                        bullet.circle.strokeWidth = 2;
+                        bullet.circle.radius = 4;
+                        bullet.circle.fill = am4core.color("#fff");
+
+                        // Add cursor
+                        chart.cursor = new am4charts.XYCursor();
+                        chart.cursor.xAxis = categoryAxis;
+
+                        chart.legend = new am4charts.Legend();
+                        var smonth;
+
+                        //下方表格清除
+                        $('#trTitleYear').children().remove();
+                        $('#trTitleYear').append('<th></th>');
+                        $('#tblTbody').children().remove();
+
+                        if ($('#cyId').prop('checked') == false) {//建立下方表格-非同期比較表格顯示1~12月
+                            for (var m = 1; m <= 12; m++) {
+                                $('#tblTbody').append('<tr id="tblTr' + m + '"><td scope="row">' + m + '月</td></tr>');
+                            }
+                        }
+                        else {//建立下方表格-同期比較表格顯示選取的區間月份
+                            for (var m = parseInt(moment($('#dt_cy_start1').val()).format('M')); m <= parseInt(moment($('#dt_cy_end1').val()).format('M')); m++) {
+                                $('#tblTbody').append('<tr id="tblTr' + m + '"><td scope="row">' + m + '月</td></tr>');
+                            }
+                        }
+
+                        for (var c = 0; c < resData.length; c++) {
+                            chart.series.push(new am4charts.LineSeries());
+                            chart.series.values[c].name = resData[c][0].sYear.toString();
+                            chart.series.values[c].dataFields.valueY = "caseNum";
+                            chart.series.values[c].dataFields.categoryX = "month";
+                            chart.series.values[c].tooltipText = `{name}年{categoryX}
+                            {valueY}例`;
+
+                            //建立下方表格-年份
+                            $('#trTitleYear').append('<th>' + resData[c][0].sYear.toString() + '</th>');
+
+                            for (var c2 = 1; c2 < 13; c2++) {
+                                switch (c2) {
+                                    case 1:
+                                        smonth = "1月";
+                                        break;
+                                    case 2:
+                                        smonth = "2月";
+                                        break;
+                                    case 3:
+                                        smonth = "3月";
+                                        break;
+                                    case 4:
+                                        smonth = "4月";
+                                        break;
+                                    case 5:
+                                        smonth = "5月";
+                                        break;
+                                    case 6:
+                                        smonth = "6月";
+                                        break;
+                                    case 7:
+                                        smonth = "7月";
+                                        break;
+                                    case 8:
+                                        smonth = "8月";
+                                        break;
+                                    case 9:
+                                        smonth = "9月";
+                                        break;
+                                    case 10:
+                                        smonth = "10月";
+                                        break;
+                                    case 11:
+                                        smonth = "11月";
+                                        break;
+                                    case 12:
+                                        smonth = "12月";
+                                        break;
+                                }
+
+                                var cNum = 0;
+                                for (var c3 = 0; c3 < resData[c].length; c3++) {
+                                    if (resData[c][c3]["sMonth"] == c2) {
+                                        cNum = resData[c][c3]["caseNum"];
+                                    }
+                                }                                
+
+                                //建立下方表格-月份資料
+                                if (cNum != 0) {
+                                    chart.series.values[c].data.push({ month: smonth, caseNum: cNum });
+                                    $('#tblTr' + c2).append('<td>' + cNum + '</td>');
+                                }
+                                else {
+                                    if (resData[c][0].sYear == new Date().getFullYear() && c2 > new Date().getMonth()) {
+                                        $('#tblTr' + c2).append('<td>-</td>');
+                                    }
+                                    else {
+                                        chart.series.values[c].data.push({ month: smonth, caseNum: cNum });
+                                        $('#tblTr' + c2).append('<td>0</td>');
+                                    }
+                                }
+
+                            }
+
+
+                            chart.series.values[c].bullets.push(bullet);
+
+                            //表格列不存在自動填"-"
+                            var rows = document.getElementById("tblYearMonth").rows;
+                            var allcells = rows[0].cells.length;
+                            for (var i = 1; i < rows.length; i++) {
+                                var num = allcells - rows[i].cells.length;
+                                for (var k = 0; k < num; k++) {
+                                    cell = rows[i].insertCell();
+                                    cell.innerHTML = "-";
+                                }
+                            }
+
+                        }
+
+
+                    });
+
+
+                break;
+        }
+        addGa('套用-風險半徑', $('.-km.Oval1').text());
+
+    }
+
+    //點擊案例抓取附近禽場
+    function onPopupClick_forCase(e, f) {
+        var latPopup = "";
+        var lngPopup = "";
+        if (f != undefined) {
+            latPopup = e;
+            lngPopup = f;
+        }
+        else {
+            latPopup = e.latlng.lat;
+            lngPopup = e.latlng.lng;
+
+        }
+
+
+        $.get(domain + "birdApiNew/PoultryFarm", { lat: latPopup, lng: lngPopup },
+            function (pfData) {
+                var range13 = pfData.filter(function (item, index, array) {
+                    return item.range == '1 ~ 3 km';
+                });
+
+                var range01 = pfData.filter(function (item, index, array) {
+                    return item.range == '0 ~ 1 km';
+                });
+                //風險半徑內禽場統計數量
+                $('#txt3km').text(range13.length + range01.length);
+                $('#txt1-3km').text(range13.length);
+                $('#txt1km').text(range01.length);
+
+                clearMarker();
+
+                //外圍兩個大圈圈
+                circleFarm.push(L.circle([latPopup, lngPopup], {
+                    color: 'red',
+                    fillColor: 'white',
+                    fillOpacity: 0,
+                    radius: 1000
+                }).addTo(map));
+
+                circleFarm.push(L.circle([latPopup, lngPopup], {
+                    color: 'orange',
+                    fillColor: 'white',
+                    fillOpacity: 0,
+                    radius: 3000
+                }).addTo(map));
+
+                for (var p = 0; p < pfData.length; p++) {
+                    if (pfData[p].Is_Source_AI != 'true') {
+                        fColor = '#259A9B';
+                    }
+                    else {
+                        fColor = '#ED547D';
+
+                    }
+                    var farmIcon = L.circleMarker([pfData[p].lat, pfData[p].lng], {
+                        color: fColor,
+                        weight: 3,
+                        fillColor: 'white',
+                        fillOpacity: 1,
+                        radius: 7
+                    }).addTo(map).bindTooltip("禽場ID: " + pfData[p].FarmID);
+                    markerAllFarm.push(farmIcon);
+
+                }
+
+
+            })
+    }
+
+    //清除地圖上的點位或圓圈
+    function clearMarker() {
+        //清空禽場點
+        for (var m = 0; m < markerAllFarm.length; m++) {
+            map.removeLayer(markerAllFarm[m]);
+        }
+
+        //清空大圈圈
+        for (var c = 0; c < circleFarm.length; c++) {
+            map.removeLayer(circleFarm[c]);
+        }
+
+    }
+
+    //開啟關閉同期比較
+    function cyChange() {
+        if ($('#cyId').prop('checked') == true) {
+            $('#cyTxt').text('關閉同期比較');
+            $('#dtOne').hide("fast");
+            $('#addCYear').show();
+            $('#dt_cy_end2').text($('#dt_cy_start2_1').val() + $('#dt_cy_end1').val().substring(4));
+            $('#dt_cy_end3').text($('#dt_cy_start3_1').val() + $('#dt_cy_end1').val().substring(4));
+            if ($('#minusThirdDate:hidden').length == 0) {
+                nowDateCount = 3;
+            }
+            else {
+                nowDateCount = 2;
+            }
+        }
+        else {
+            $('#cyTxt').text('開啟同期比較');
+            $('#dtOne').show("fast");
+            $('#addCYear').hide();
+            nowDateCount = 1;
+        }
+    }
+
+    //同期比較第一組年份固定
+    function dtcyChange(sd) {
+        switch (sd) {
+            case 0:
+                $('#dt_cy_end1').val($('#dt_cy_start1').val().substring(0, 4) + $('#dt_cy_end1').val().substring(4));
+                $('#dt_cy_start2_2').text($('#dt_cy_start1').val().substring(4));
+                $('#dt_cy_start3_2').text($('#dt_cy_start1').val().substring(4));
+                break;
+            case 1:
+                $('#dt_cy_start1').val($('#dt_cy_end1').val().substring(0, 4) + $('#dt_cy_start1').val().substring(4));
+                $('#dt_cy_end2').text($('#dt_cy_start2_1').val() + $('#dt_cy_end1').val().substring(4));
+                $('#dt_cy_end3').text($('#dt_cy_start3_1').val() + $('#dt_cy_end1').val().substring(4));
+                break;
+        }
+    }
+
+    //同期比較第二三組更改年份
+    function cySelChange(cy) {
+        switch (cy) {
+            case 0:
+                $('#dt_cy_end2').text($('#dt_cy_start2_1').val() + $('#dt_cy_end2').text().substring(4));
+                break;
+            case 1:
+                $('#dt_cy_end3').text($('#dt_cy_start3_1').val() + $('#dt_cy_end3').text().substring(4));
+                break;
+        }
+    }
+
+</script>
+        </div>
+    </div>
+    <!-- end:: Page -->
+    <!-- begin::Quick Sidebar -->
+    <div id="m_quick_sidebar" class="m-quick-sidebar m-quick-sidebar--tabbed m-quick-sidebar--skin-light" style="width: 253px !important;">
+        <div class="m-quick-sidebar__content">
+            <span id="m_quick_sidebar_close" class="m-quick-sidebar__close">
+                <i class="la la-close"></i>
+            </span>
+            <ul id="m_quick_sidebar_tabs" class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">
+                <li class="nav-item m-tabs__item">
+                    <a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_quick_sidebar_tabs_filter" role="tab" style="font-size:18px;">
+                        資料篩選
+                    </a>
+                </li>
+                <li class="nav-item m-tabs__item" style="display:none;">
+                    <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_quick_sidebar_tabs_messenger" role="tab">
+                        Message
+                    </a>
+                </li>
+                <li class="nav-item m-tabs__item"  style="display:none;">
+                    <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_quick_sidebar_tabs_settings" role="tab">
+                        Settings
+                    </a>
+                </li>
+                <li class="nav-item m-tabs__item"  style="display:none;">
+                    <a class="nav-link m-tabs__link" data-toggle="tab" href="#m_quick_sidebar_tabs_logs" role="tab">
+                        Logs
+                    </a>
+                </li>
+                <li style="margin: auto;">
+                    <div style="cursor:pointer;" onclick="resetClick()">重設</div></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active m-scrollable" id="m_quick_sidebar_tabs_filter" role="tabpanel">
+
+                    <div class="filterTitle">風險半徑</div>
+                    <div class="row">
+                        
+                        <span class="-km Oval2" onclick="riskClick(this)">1km</span>
+                        <span class="-km Oval1" onclick="riskClick(this)">1及3km</span>
+                    </div>
+                    <hr />
+                    <div id="dtOne">
+                        <div class="filterTitle">起訖時間</div>
+                        <div class="row" style="padding:10px;">
+                            <div class="col-xs-4">
+                                <input type="text" id="datepicker_start" placeholder="起始日期" style="width: 90px;cursor:pointer;" readonly="readonly" >
+                            </div>
+                            <div class="col-xs-4">
+                                <i class="la la-arrow-right" style="line-height: inherit;"></i>
+                            </div>
+                            <div class="col-xs-4">
+                                <input type="text" id="datepicker_end" placeholder="結束日期" style="width: 90px;cursor:pointer;" data-date-end-date="0d" readonly="readonly" >
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                    <div id="compareYear" style="display:none;">
+                        <div><span id="cyTxt" class="filterTitle">開啟同期比較</span><span class="ml-auto"></span><input id="cyId" class="cyInput" type="checkbox" onclick="cyChange()"/></div>
+                        <div id="addCYear" style="display:none;">
+                            <div class="row" style="margin:0px 0px 10px 0px;">
+                                <div class="col-xs-4">
+                                    <input type="text" id="dt_cy_start1" placeholder="起始日期" style="width: 90px;cursor:pointer;" onchange="dtcyChange(0)" readonly="readonly" onclick="$('#dt_cy_start1').datepicker('update');">
+                                </div>
+                                <div class="col-xs-4">
+                                    <i class="la la-arrow-right" style="line-height: inherit;"></i>
+                                </div>
+                                <div class="col-xs-4">
+                                    <input type="text" id="dt_cy_end1" placeholder="結束日期" style="width: 90px;cursor:pointer;" onchange="dtcyChange(1)" readonly="readonly" onclick="$('#dt_cy_end1').datepicker('update');">
+                                </div>
+                            </div>
+                            <div class="row" style="margin:0px 0px 10px 0px;">
+                                <div class="col-xs-4">
+                                    <select id="dt_cy_start2_1" onchange="cySelChange(0)">
+                                        <option>2020</option>
+                                        <option selected>2019</option>
+                                        <option>2018</option>
+                                        <option>2017</option>
+                                        <option>2016</option>
+                                        <option>2015</option>
+                                    </select>
+                                    <span id="dt_cy_start2_2">-01-01</span>
+                                </div>
+                                <div class="col-xs-4">
+                                    <i class="la la-arrow-right" style="line-height: inherit;margin: 0px 5px 0px 5px;"></i>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div id="dt_cy_end2" style="margin: 2px;">2020-07-29</div>
+                                </div>
+                                <i id="addThirdDate" class="la la-plus-square" style="line-height: inherit;margin: 0px 5px 0px 5px;cursor:pointer;" title="增加第三組日期"></i>
+                            </div>
+                            <div id="cy3" class="row" style="margin:0px 0px 10px 0px;display:none;">
+                                <div class="col-xs-4">
+                                    <select id="dt_cy_start3_1" onchange="cySelChange(1)">
+                                        <option>2020</option>
+                                        <option>2019</option>
+                                        <option selected>2018</option>
+                                        <option>2017</option>
+                                        <option>2016</option>
+                                        <option>2015</option>
+                                    </select>
+                                    <span id="dt_cy_start3_2">-01-01</span>
+                                </div>
+                                <div class="col-xs-4">
+                                    <i class="la la-arrow-right" style="line-height: inherit;margin: 0px 5px 0px 5px;"></i>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div id="dt_cy_end3" style="margin: 2px;">2020-07-29</div>
+                                </div>
+                                <i id="minusThirdDate" class="la la-minus-square" style="line-height: inherit;margin: 0px 5px 0px 5px;cursor:pointer;" title="刪除第三組日期"></i>
+                            </div>
+
+                        </div>
+                        <hr />
+                    </div>
+                    <div class="filterTitle">禽種來源</div>
+                    <br />
+                    <div class="filterTitle">陸禽</div>
+                    <div class="filterType" onclick="filterFarmClick(this)">。雞<span class="filterFarmCheck"><img src="/AI_m/Content/img/checkmark.png" alt="2" /></span></div>
+                    <div class="filterType" onclick="filterFarmClick(this)">。火雞<span class="filterFarmCheck"><img src="/AI_m/Content/img/checkmark.png" alt="3" /></span></div>
+                    <div class="filterTitle">水禽</div>
+                    <div class="filterType" onclick="filterFarmClick(this)">。鴨<span class="filterFarmCheck"><img src="/AI_m/Content/img/checkmark.png" alt="0" /></span></div>
+                    <div class="filterType" onclick="filterFarmClick(this)">。鵝<span class="filterFarmCheck"><img src="/AI_m/Content/img/checkmark.png" alt="1" /></span></div>
+                    <hr />
+                    <div class="filterTitle">病原性</div>
+                    <div class="filterType" onclick="filterAIClick(this)">。H5N2<span class="filterAICheck"><img src="/AI_m/Content/img/checkmark.png" alt="0" /></span></div>
+                    <div class="filterType" onclick="filterAIClick(this)">。H5N5<span class="filterAICheck"><img src="/AI_m/Content/img/checkmark.png" alt="1" /></span></div>
+                    <div class="filterType" onclick="filterAIClick(this)">。其他<span class="filterAICheck"><img src="/AI_m/Content/img/checkmark.png" alt="2" /></span></div>
+                    <br />
+                    <div class="confirmFilter" onclick="applyFilter()">套用</div>
+                </div>
+                <div class="tab-pane m-scrollable" id="m_quick_sidebar_tabs_messenger" role="tabpanel">
+                    <div class="m-messenger m-messenger--message-arrow m-messenger--skin-light">
+                        <div class="m-messenger__messages">
+                            <div class="m-messenger__message m-messenger__message--in">
+                                <div class="m-messenger__message-pic">
+                                    
+                                </div>
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-username">
+                                            Megan wrote
+                                        </div>
+                                        <div class="m-messenger__message-text">
+                                            Hi Bob. What time will be the meeting ?
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--out">
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-text">
+                                            Hi Megan. It's at 2.30PM
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--in">
+                                <div class="m-messenger__message-pic">
+                                    
+                                </div>
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-username">
+                                            Megan wrote
+                                        </div>
+                                        <div class="m-messenger__message-text">
+                                            Will the development team be joining ?
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--out">
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-text">
+                                            Yes sure. I invited them as well
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__datetime">
+                                2:30PM
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--in">
+                                <div class="m-messenger__message-pic">
+                                    
+                                </div>
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-username">
+                                            Megan wrote
+                                        </div>
+                                        <div class="m-messenger__message-text">
+                                            Noted. For the Coca-Cola Mobile App project as well ?
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--out">
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-text">
+                                            Yes, sure.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--out">
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-text">
+                                            Please also prepare the quotation for the Loop CRM project as well.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__datetime">
+                                3:15PM
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--in">
+                                <div class="m-messenger__message-no-pic m--bg-fill-danger">
+                                    <span>
+                                        M
+                                    </span>
+                                </div>
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-username">
+                                            Megan wrote
+                                        </div>
+                                        <div class="m-messenger__message-text">
+                                            Noted. I will prepare it.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--out">
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-text">
+                                            Thanks Megan. I will see you later.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-messenger__message m-messenger__message--in">
+                                <div class="m-messenger__message-pic">
+                                    
+                                </div>
+                                <div class="m-messenger__message-body">
+                                    <div class="m-messenger__message-arrow"></div>
+                                    <div class="m-messenger__message-content">
+                                        <div class="m-messenger__message-username">
+                                            Megan wrote
+                                        </div>
+                                        <div class="m-messenger__message-text">
+                                            Sure. See you in the meeting soon.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-messenger__seperator"></div>
+                        <div class="m-messenger__form">
+                            <div class="m-messenger__form-controls">
+                                <input type="text" name="" placeholder="Type here..." class="m-messenger__form-input">
+                            </div>
+                            <div class="m-messenger__form-tools">
+                                <a href="" class="m-messenger__form-attachment">
+                                    <i class="la la-paperclip"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane  m-scrollable" id="m_quick_sidebar_tabs_settings" role="tabpanel">
+                    <div class="m-list-settings">
+                        <div class="m-list-settings__group">
+                            <div class="m-list-settings__heading">
+                                General Settings
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Email Notifications
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Site Tracking
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    SMS Alerts
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Backup Storage
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Audit Logs
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="m-list-settings__group">
+                            <div class="m-list-settings__heading">
+                                System Settings
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    System Logs
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Error Reporting
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Applications Logs
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Backup Servers
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="m-list-settings__item">
+                                <span class="m-list-settings__item-label">
+                                    Audit Logs
+                                </span>
+                                <span class="m-list-settings__item-control">
+                                    <span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+                                        <label>
+                                            <input type="checkbox" name="">
+                                            <span></span>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane  m-scrollable" id="m_quick_sidebar_tabs_logs" role="tabpanel">
+                    <div class="m-list-timeline">
+                        <div class="m-list-timeline__group">
+                            <div class="m-list-timeline__heading">
+                                System Logs
+                            </div>
+                            <div class="m-list-timeline__items">
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        12 new users registered
+                                        <span class="m-badge m-badge--warning m-badge--wide">
+                                            important
+                                        </span>
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        Just now
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        System shutdown
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        11 mins
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        New invoice received
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        20 mins
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Database overloaded 89%
+                                        <span class="m-badge m-badge--success m-badge--wide">
+                                            resolved
+                                        </span>
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        1 hr
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        System error
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        2 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Production server down
+                                        <span class="m-badge m-badge--danger m-badge--wide">
+                                            pending
+                                        </span>
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        3 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Production server up
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        5 hrs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-list-timeline__group">
+                            <div class="m-list-timeline__heading">
+                                Applications Logs
+                            </div>
+                            <div class="m-list-timeline__items">
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        New order received
+                                        <span class="m-badge m-badge--info m-badge--wide">
+                                            urgent
+                                        </span>
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        7 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        12 new users registered
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        Just now
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        System shutdown
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        11 mins
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        New invoices received
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        20 mins
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Database overloaded 89%
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        1 hr
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        System error
+                                        <span class="m-badge m-badge--info m-badge--wide">
+                                            pending
+                                        </span>
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        2 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Production server down
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        3 hrs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-list-timeline__group">
+                            <div class="m-list-timeline__heading">
+                                Server Logs
+                            </div>
+                            <div class="m-list-timeline__items">
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Production server up
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        5 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        New order received
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        7 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        12 new users registered
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        Just now
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        System shutdown
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        11 mins
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        New invoice received
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        20 mins
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Database overloaded 89%
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        1 hr
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        System error
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        2 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Production server down
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        3 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        Production server up
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        5 hrs
+                                    </span>
+                                </div>
+                                <div class="m-list-timeline__item">
+                                    <span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+                                    <a href="" class="m-list-timeline__text">
+                                        New order received
+                                    </a>
+                                    <span class="m-list-timeline__time">
+                                        1117 hrs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-scroll-top m-scroll-top--skin-top" data-toggle="m-scroll-top" data-scroll-offset="500" data-scroll-speed="300">
+        <i class="la la-arrow-up"></i>
+    </div>
+    
+    <!-- begin::Quick Nav -->
+    <!--begin::Base Scripts -->
+    <script src="/AI_m/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+    <script src="/AI_m/assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+    <!--end::Base Scripts -->
+    <!--begin::Page Vendors -->
+    <script src="/AI_m/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
+    <!--end::Page Vendors -->
+    <!--begin::Page Snippets -->
+    <script src="/AI_m/assets/app/js/dashboard.js" type="text/javascript"></script>
+    <!--end::Page Snippets -->
+</body>
+</html>

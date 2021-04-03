@@ -1,0 +1,608 @@
+[
+  {
+    "field001": "CHANG YING NO.68",
+    "field002": "BH3492",
+    "field003": "CT6-1492",
+    "field004": "9830393"
+  },
+  {
+    "field001": "CHARNG FU YING",
+    "field002": "BI2407",
+    "field003": "CT7-0407",
+    "field004": "8431061"
+  },
+  {
+    "field001": "CHARNG LUEN NO.22",
+    "field002": "BH3267",
+    "field003": "CT6-1267",
+    "field004": "8671879"
+  },
+  {
+    "field001": "CHEN HSING NO.188",
+    "field002": "BI2584",
+    "field003": "CT7-0584",
+    "field004": "8974532"
+  },
+  {
+    "field001": "CHEN HSING NO.668",
+    "field002": "BI2451",
+    "field003": "CT7-0451",
+    "field004": "8672902"
+  },
+  {
+    "field001": "CHEN HSING NO.888",
+    "field002": "BI2557",
+    "field003": "CT7-0557",
+    "field004": "8947450"
+  },
+  {
+    "field001": "CHIEN JUI NO.102",
+    "field002": "BZEZ",
+    "field003": "CT6-1004",
+    "field004": "8417065"
+  },
+  {
+    "field001": "CHIEN TSAO NO.322",
+    "field002": "BVZF",
+    "field003": "CT6-1003",
+    "field004": "8417077"
+  },
+  {
+    "field001": "CHIEN WEI NO.3",
+    "field002": "BI2251",
+    "field003": "CT7-0251",
+    "field004": "8648339"
+  },
+  {
+    "field001": "CHIN CHANG LONG",
+    "field002": "BH3013",
+    "field003": "CT6-1013",
+    "field004": "8648212"
+  },
+  {
+    "field001": "CHIN LIANG MEI",
+    "field002": "BH3021",
+    "field003": "CT6-1021",
+    "field004": "8648262"
+  },
+  {
+    "field001": "CHIN SHENG WIN",
+    "field002": "BI2462",
+    "field003": "CT7-0462",
+    "field004": "8650667"
+  },
+  {
+    "field001": "DAR LONG CHANG NO.2",
+    "field002": "BH3431",
+    "field003": "CT6-1431",
+    "field004": "9763801"
+  },
+  {
+    "field001": "DAR LONG CHENG NO.288",
+    "field002": "BH3415",
+    "field003": "CT6-1415",
+    "field004": "8674728"
+  },
+  {
+    "field001": "DAR LONG CHENG NO.378",
+    "field002": "BH3411",
+    "field003": "CT6-1411",
+    "field004": "9726657"
+  },
+  {
+    "field001": "DE HAI NO.26",
+    "field002": "BH3420",
+    "field003": "CT6-1420",
+    "field004": "9806598"
+  },
+  {
+    "field001": "FARN SHUEN NO.1",
+    "field002": "BI2442",
+    "field003": "CT7-0442",
+    "field004": "8749078"
+  },
+  {
+    "field001": "FENG KUO NO.616",
+    "field002": "BH3491",
+    "field003": "CT6-1491",
+    "field004": "9838280"
+  },
+  {
+    "field001": "FENG KUO NO.636",
+    "field002": "BI2341",
+    "field003": "CT7-0341",
+    "field004": "8822741"
+  },
+  {
+    "field001": "FENG KUO NO.669",
+    "field002": "BH3473",
+    "field003": "CT6-1473",
+    "field004": "9805556"
+  },
+  {
+    "field001": "FENG KUO NO.888",
+    "field002": "BG3723",
+    "field003": "CT5-1723",
+    "field004": "8670019"
+  },
+  {
+    "field001": "FU YU",
+    "field002": "BH2916",
+    "field003": "CT6-0916",
+    "field004": "8655411"
+  },
+  {
+    "field001": "FUH SHENG NO.11",
+    "field002": "BH2201",
+    "field003": "CT6-0201",
+    "field004": "8749315"
+  },
+  {
+    "field001": "FULL ALWAYS",
+    "field002": "BH3103",
+    "field003": "CT6-1103",
+    "field004": "8648133"
+  },
+  {
+    "field001": "FULL KUO SHENG",
+    "field002": "BI2589",
+    "field003": "CT7-0589",
+    "field004": "8656790"
+  },
+  {
+    "field001": "FULL LI HSIANG",
+    "field002": "BH3298",
+    "field003": "CT6-1298",
+    "field004": "9102693"
+  },
+  {
+    "field001": "HAO CHING NO.101",
+    "field002": "BH3370",
+    "field003": "CT6-1370",
+    "field004": "8674871"
+  },
+  {
+    "field001": "HE JHEN YI",
+    "field002": "BG3717",
+    "field003": "CT5-1717",
+    "field004": "9673599"
+  },
+  {
+    "field001": "HO HSIN HSING NO.601",
+    "field002": "BG3740",
+    "field003": "CT5-1740",
+    "field004": "9723576"
+  },
+  {
+    "field001": "HO YUNG",
+    "field002": "BH3247",
+    "field003": "CT6-1247",
+    "field004": "8648597"
+  },
+  {
+    "field001": "HONG DA NO.1",
+    "field002": "BH3099",
+    "field003": "CT6-1099",
+    "field004": "8648432"
+  },
+  {
+    "field001": "HSIANG FA NO.16",
+    "field002": "BH3236",
+    "field003": "CT6-1236",
+    "field004": "8674950"
+  },
+  {
+    "field001": "HSIANG MAN SHING",
+    "field002": "BI2515",
+    "field003": "CT7-0515",
+    "field004": "8655289"
+  },
+  {
+    "field001": "HSIANG PERNG NO.212",
+    "field002": "BH3450",
+    "field003": "CT6-1450",
+    "field004": "9773648"
+  },
+  {
+    "field001": "HUNG CHUAN NO.232",
+    "field002": "BH3250",
+    "field003": "CT6-1250",
+    "field004": "8673475"
+  },
+  {
+    "field001": "HUNG JIE WEI NO.668",
+    "field002": "BH3421",
+    "field003": "CT6-1421",
+    "field004": "9740603"
+  },
+  {
+    "field001": "HUNG JIE WEI NO.669",
+    "field002": "BH3437",
+    "field003": "CT6-1437",
+    "field004": "9759941"
+  },
+  {
+    "field001": "HUNG JUNG NO.101",
+    "field002": "BI2479",
+    "field003": "CT7-0479",
+    "field004": "9108960"
+  },
+  {
+    "field001": "HUNG JUNG NO.68",
+    "field002": "BH3296",
+    "field003": "CT6-1296",
+    "field004": "9102679"
+  },
+  {
+    "field001": "HUNG RUNG NO.2",
+    "field002": "BH3401",
+    "field003": "CT6-1401",
+    "field004": "9676151"
+  },
+  {
+    "field001": "HWA HUNG NO.202",
+    "field002": "BH3091",
+    "field003": "CT6-1091",
+    "field004": "8648729"
+  },
+  {
+    "field001": "JAIN HSUAN NO.202",
+    "field002": "BI2507",
+    "field003": "CT7-0507",
+    "field004": "8649694"
+  },
+  {
+    "field001": "JAIN LIH NO.212",
+    "field002": "BH3486",
+    "field003": "CT6-1486",
+    "field004": "9822243"
+  },
+  {
+    "field001": "JIN JAAN SHYANG NO.3",
+    "field002": "BH3439",
+    "field003": "CT6-1439",
+    "field004": "9765287"
+  },
+  {
+    "field001": "JIN YI SHIANG",
+    "field002": "BZFD",
+    "field003": "CT6-1011",
+    "field004": "8628561"
+  },
+  {
+    "field001": "JIN YUAN",
+    "field002": "BH3454",
+    "field003": "CT6-1454",
+    "field004": "9767194"
+  },
+  {
+    "field001": "JO WEN",
+    "field002": "BH3428",
+    "field003": "CT6-1428",
+    "field004": "9751482"
+  },
+  {
+    "field001": "JOHO",
+    "field002": "BG3698",
+    "field003": "CT5-1698",
+    "field004": "9643568"
+  },
+  {
+    "field001": "JUBILEE",
+    "field002": "BH3458",
+    "field003": "CT6-1458",
+    "field004": "9790024"
+  },
+  {
+    "field001": "JUI DER NO.112",
+    "field002": "BH3460",
+    "field003": "CT6-1460",
+    "field004": "9783021"
+  },
+  {
+    "field001": "JUI DER NO.16",
+    "field002": "BH3070",
+    "field003": "CT6-1070",
+    "field004": "8674730"
+  },
+  {
+    "field001": "KUANG YING",
+    "field002": "BH3145",
+    "field003": "CT6-1145",
+    "field004": "8648420"
+  },
+  {
+    "field001": "KUANG YING NO.3",
+    "field002": "BH3470",
+    "field003": "CT6-1470",
+    "field004": "9806548"
+  },
+  {
+    "field001": "LI HSIANG",
+    "field002": "BH3467",
+    "field003": "CT6-1467",
+    "field004": "9802944"
+  },
+  {
+    "field001": "LIEN CHING YU NO.127",
+    "field002": "BH3229",
+    "field003": "CT6-1229",
+    "field004": "8674833"
+  },
+  {
+    "field001": "MAN AN",
+    "field002": "BG3725",
+    "field003": "CT5-1725",
+    "field004": "8672926"
+  },
+  {
+    "field001": "MENG FA NO.312",
+    "field002": "BH3038",
+    "field003": "CT6-1038",
+    "field004": "8648767"
+  },
+  {
+    "field001": "MENG FA NO.322",
+    "field002": "BH3039",
+    "field003": "CT6-1039",
+    "field004": "8648779"
+  },
+  {
+    "field001": "MENG FA NO.336",
+    "field002": "BH3285",
+    "field003": "CT6-1285",
+    "field004": "8649797"
+  },
+  {
+    "field001": "REN HORNG DAR NO.68",
+    "field002": "BH3469",
+    "field003": "CT6-1469",
+    "field004": "9803314"
+  },
+  {
+    "field001": "REN HORNG WAY NO.368",
+    "field002": "BH3487",
+    "field003": "CT6-1487",
+    "field004": "9822891"
+  },
+  {
+    "field001": "SHANG FENG NO.3",
+    "field002": "BH3172",
+    "field003": "CT6-1172",
+    "field004": "8673140"
+  },
+  {
+    "field001": "SHANG YANG",
+    "field002": "BH3268",
+    "field003": "CT6-1268",
+    "field004": "8748866"
+  },
+  {
+    "field001": "SHENG FAN NO.119",
+    "field002": "BI2481",
+    "field003": "CT7-0481",
+    "field004": "9108958"
+  },
+  {
+    "field001": "SHENG FAN NO.126",
+    "field002": "BI2477",
+    "field003": "CT7-0477",
+    "field004": "8647385"
+  },
+  {
+    "field001": "SHENG FAN NO.399",
+    "field002": "BI2406",
+    "field003": "CT7-0406",
+    "field004": "8648353"
+  },
+  {
+    "field001": "SHENG FAN NO.699",
+    "field002": "BI2129",
+    "field003": "CT7-0129",
+    "field004": "8648341"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.16",
+    "field002": "BG3667",
+    "field003": "CT5-1667",
+    "field004": "8749547"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.388",
+    "field002": "BH3494",
+    "field003": "CT6-1494",
+    "field004": "9823182"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.668",
+    "field002": "BG3694",
+    "field003": "CT5-1694",
+    "field004": "9627318"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.688",
+    "field002": "BG3733",
+    "field003": "CT5-1733",
+    "field004": "9691993"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.69",
+    "field002": "BG3676",
+    "field003": "CT5-1676",
+    "field004": "8749561"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.699",
+    "field002": "BH3489",
+    "field003": "CT6-1489",
+    "field004": "9823170"
+  },
+  {
+    "field001": "SHIN SHUEN FAR NO.889",
+    "field002": "BH3452",
+    "field003": "CT6-1452",
+    "field004": "9787431"
+  },
+  {
+    "field001": "SHUANG LIAN",
+    "field002": "BH2963",
+    "field003": "CT6-0963",
+    "field004": "8749066"
+  },
+  {
+    "field001": "SHUN FENG NO.12",
+    "field002": "BH3442",
+    "field003": "CT6-1442",
+    "field004": "9761114"
+  },
+  {
+    "field001": "SHUN FENG NO.18",
+    "field002": "BH3432",
+    "field003": "CT6-1432",
+    "field004": "9815288"
+  },
+  {
+    "field001": "SHYANG CHYANG NO.8",
+    "field002": "BH3085",
+    "field003": "CT6-1085",
+    "field004": "8749042"
+  },
+  {
+    "field001": "SHYANG CHYANG NO.88",
+    "field002": "BH2983",
+    "field003": "CT6-0983",
+    "field004": "8749054"
+  },
+  {
+    "field001": "SHYANG CHYANG NO.888",
+    "field002": "BI2475",
+    "field003": "CT7-0475",
+    "field004": "8649046"
+  },
+  {
+    "field001": "SHYE SHIN NO.31",
+    "field002": "BI2508",
+    "field003": "CT7-0508",
+    "field004": "8674821"
+  },
+  {
+    "field001": "SIN HUA FONG NO.16",
+    "field002": "BG3734",
+    "field003": "CT5-1734",
+    "field004": "9727754"
+  },
+  {
+    "field001": "SIN HUA FONG NO.168",
+    "field002": "BH3445",
+    "field003": "CT6-1445",
+    "field004": "9775787"
+  },
+  {
+    "field001": "WEI DE NO.6",
+    "field002": "BH3497",
+    "field003": "CT6-1497",
+    "field004": "9843120"
+  },
+  {
+    "field001": "WEI FA",
+    "field002": "BH3057",
+    "field003": "CT6-1057",
+    "field004": "8648236"
+  },
+  {
+    "field001": "WEII SHEN",
+    "field002": "BH2962",
+    "field003": "CT6-0962",
+    "field004": "8822739"
+  },
+  {
+    "field001": "WIN FAR NO.888",
+    "field002": "BH3337",
+    "field003": "CT6-1337",
+    "field004": "8747329"
+  },
+  {
+    "field001": "WIN LONG",
+    "field002": "BH2998",
+    "field003": "CT6-0998",
+    "field004": "8749597"
+  },
+  {
+    "field001": "WOEN YU NO.168",
+    "field002": "BH3325",
+    "field003": "CT6-1325",
+    "field004": "8647995"
+  },
+  {
+    "field001": "YI JEN CHUN NO.668",
+    "field002": "BH3402",
+    "field003": "CT6-1402",
+    "field004": "8674780"
+  },
+  {
+    "field001": "YI JEN FA NO.888",
+    "field002": "BH3461",
+    "field003": "CT6-1461",
+    "field004": "9777266"
+  },
+  {
+    "field001": "YI LONG",
+    "field002": "BH3490",
+    "field003": "CT6-1490",
+    "field004": "9833955"
+  },
+  {
+    "field001": "YING FA HSIANG NO.368",
+    "field002": "BI2588",
+    "field003": "CT7-0588",
+    "field004": "8661484"
+  },
+  {
+    "field001": "YING YONG HSIANG",
+    "field002": "BH3306",
+    "field003": "CT6-1306",
+    "field004": "8674340"
+  },
+  {
+    "field001": "YNG HSING NO.23",
+    "field002": "BI2480",
+    "field003": "CT7-0480",
+    "field004": "8673085"
+  },
+  {
+    "field001": "YONG QING FA NO.666",
+    "field002": "BH3221",
+    "field003": "CT6-1221",
+    "field004": "8653061"
+  },
+  {
+    "field001": "YONG QING FA NO.688",
+    "field002": "BH2954",
+    "field003": "CT6-0954",
+    "field004": "8747379"
+  },
+  {
+    "field001": "YU CHAN HSIANG",
+    "field002": "BH3294",
+    "field003": "CT6-1294",
+    "field004": "8749585"
+  },
+  {
+    "field001": "YU HSING HSIANG NO.168",
+    "field002": "BI2523",
+    "field003": "CT7-0523",
+    "field004": "8674857"
+  },
+  {
+    "field001": "YUAN TAI",
+    "field002": "BH3115",
+    "field003": "CT6-1115",
+    "field004": "8647983"
+  },
+  {
+    "field001": "YUAN TAI NO.216",
+    "field002": "BI2267",
+    "field003": "CT7-0267",
+    "field004": "8650679"
+  }
+]

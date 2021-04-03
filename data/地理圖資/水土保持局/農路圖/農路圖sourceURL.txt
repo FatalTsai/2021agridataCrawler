@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='tgos.nat.gov.tw', port=443): Max retries exceeded with url: /TGOS/Web/Metadata/TGOS_MetaData_View.aspx?MID=45F3F27F8E11FE7D355AE105F908B29E&amp;SHOW_BACK_BUTTON=false&amp;keyword=%E8%BE%B2%E8%B7%AF%E5%9C%96TWD97 (Caused by SSLError(CertificateError("hostname 'tgos.nat.gov.tw' doesn't match either of '*.tgos.tw', 'tgos.tw'",),))

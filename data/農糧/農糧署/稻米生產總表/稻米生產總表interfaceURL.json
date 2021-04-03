@@ -1,0 +1,58 @@
+[
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "plant_area": 104992,
+    "reward_area": 104965,
+    "price_thousand": 10789194
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "plant_area": 168874,
+    "reward_area": 168872,
+    "price_thousand": 27187501
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "plant_area": 105285,
+    "reward_area": 105264,
+    "price_thousand": 12666519
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "plant_area": 146602,
+    "reward_area": 146597,
+    "price_thousand": 24753272
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "plant_area": 104465,
+    "reward_area": 104449,
+    "price_thousand": 14740086
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "plant_area": 166612,
+    "reward_area": 166602,
+    "price_thousand": 26740144
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "plant_area": 107378,
+    "reward_area": 107296,
+    "price_thousand": 23773241
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "plant_area": 162886,
+    "reward_area": 162869,
+    "price_thousand": 26717144
+  }
+]

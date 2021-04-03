@@ -1,0 +1,30 @@
+[
+  {
+    "year": 2016,
+    "import_count": 124263,
+    "import_price": 73203,
+    "export_count": 85377,
+    "export_price": 51179
+  },
+  {
+    "year": 2015,
+    "import_count": 126875,
+    "import_price": 82086,
+    "export_count": 58207,
+    "export_price": 38789
+  },
+  {
+    "year": 2014,
+    "import_count": 108748,
+    "import_price": 72799,
+    "export_count": 3089,
+    "export_price": 5800
+  },
+  {
+    "year": 2013,
+    "import_count": 117865,
+    "import_price": 77563,
+    "export_count": 2718,
+    "export_price": 5707
+  }
+]

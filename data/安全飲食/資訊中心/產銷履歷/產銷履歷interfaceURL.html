@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	系統發生錯誤
+</title>
+<script type="text/javascript" src='/js/jquery-1.7.js'></script>
+<script type="text/javascript">
+    var codeArr = new Array(6);
+    var idx = 0;
+    $(document).ready(function() {
+        $("#btnShowMsg").hide();
+
+        $(document).keypress(function(e) {
+
+            if (e.which == 13) {
+                idx = 0;
+                if (codeArr[0] == 118 && codeArr[1] == 118 && codeArr[2] == 116
+                && codeArr[3] == 101 && codeArr[4] == 99 && codeArr[5] == 104) {
+                    //$("#btnShowMsg").show();
+                    $("#btnShowMsg").trigger("click");
+                }
+            }
+            else {
+                codeArr[idx] = eval(e.which);
+                idx++;
+            }
+        });
+    });
+</script>
+</head>
+<body>
+    <form method="post" action="./Error.aspx?aspxerrorpath=%2fService%2fOpenData%2fResume%2fResumeData_Plus.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTcxMjA2NDY3M2RkTES3LMFEE/b5nyLv4Mv1PEChChb4+M7wxg/KDvzmmdY=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AB827D4F" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAALOyLX3smuHWqHZdxJerQGr58j4QoS8RzPsFOhevMUlg4MdTpDFrt9CfZa2AD8UHk5mZKe6dHdTdA3c5BDfxwwj" />
+     
+        <input type="submit" name="btnShowMsg" value="顯示文字方塊" id="btnShowMsg" />
+        本系統發生錯誤，請聯絡系統承辦人!<br />
+        
+     
+    </form>
+</body>
+</html>

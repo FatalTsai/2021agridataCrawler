@@ -1,0 +1,659 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><meta charset="utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=big5" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><title>
+	訓練課程查詢
+</title>
+    <style type="text/css">    
+        .body 
+            {
+	            margin-left: 0px;
+	            margin-top: 0px;
+	            margin-right: 0px;
+	            margin-bottom: 0px;
+	        }
+    </style>
+
+    
+    <script type="text/javascript" src="Javascripts/JScript.js"></script>
+        
+    <link rel="stylesheet" type="text/css" title="Style" href="css.css" /><link rel="stylesheet" href="WalkThru/SimpleMenu.css" type="text/css" />    
+<!--[if lt IE 7]>
+    <link id="ctl00_IEMenu6CSS" rel="stylesheet" href="CSS/BrowserSpecific/IEMenu6.css" type="text/css" />
+<![endif]-->      
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" /><link href="CSS/bootstrap-theme.min.css" rel="stylesheet" /><link href="CSS/bootstrap-select.min.css" rel="stylesheet" />
+    <script src="Javascripts/jquery-1.10.2.min.js"></script>
+    <script src="Javascripts/bootstrap.min.js"></script>
+    <script src="Javascripts/bootstrap-select.min.js"></script>
+
+      <script type="text/javascript">
+          if (self != top) {
+              top.location = self.location;
+          }      
+      </script>
+
+<link href="/web/WebResource.axd?d=AdLYAwyzWpG2zz_7L2j_KPPO8WuXjHZhQImX4b-nzyX9sCCAM8t_9T_pDBZcj1ANME6ETluZYCgBTyU1LPCW_7ojcaJjF6jsmNDQvnhcHrsKCMKSU1rNuQUAIeCXSXCA_5DLMM-vVz7W3RV2P_jdFawyEMiHhup2m13rgYJbSio1&amp;t=634834888000000000" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="./ClassSelect.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/web/WebResource.axd?d=Zt4IOZ1HXL25fjXP8Er6DT0HQDOnoI0FgmdqS49YHcd0xiKd_u4V-4721jAETCqWHsnTBrm7TsigU8xWsfou5P3rU3j1jOK4eD153axMj0y3s-3KwkgN2vmPo0-ZLfE_NvSQx0mbwbvJXDZRLsy27g2&amp;t=634834888000000000" type="text/javascript"></script>
+<script src="/web/WebResource.axd?d=XaEDG67VIekCHotNBwARGpJFYh884hIa2RHyYtHRDcsBovHsmtgttNReBTTctXKdNqwrtFKxGKMbJl7TQrGgM5tID6Yd9Xbtfst-gAaOmFvMZpmSXspEhgbJOnZ4OYIYX-Rr0duTpzC-9nuV0OSJTA2&amp;t=634834888000000000" type="text/javascript"></script><link href="/web/WebResource.axd?d=lvuLi8qxSOYIFJ-BGZ7dwGwMfUke4jSuN3GykH3uai4wmimavE0jKewIpa4hY1GRbTuvkpFHmSKhfzXaFGm8vkvl1QfBYR1g0r262Pw4UNBcNhS1Xjf5uS3CmxgYEP2f0&t=634834888000000000" type="text/css" rel="stylesheet"></link><link href="/web/WebResource.axd?d=W1mNDis08UQN9qS-RwGEopE5nJyFjlvV-j2_1nM6OEYS1_iUtGfuppHI27Xge0KAePZow0A1zsPG1PqwGTjuMvuLUiXSLSFXDv3AxqeDk3f8xRs60sCLWQPtr08NoKhMuKLO6QuXhQK9WxjwiEAOhFovpXdlYi89w99qTPsP3dM1&t=634834888000000000" type="text/css" rel="stylesheet"></link>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"zh-TW","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"NT$","NaNSymbol":"不是一個數字","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"負無窮大","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"正無窮大","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"上午","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402271999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027 tt hh:mm:ss","LongDatePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027","LongTimePattern":"tt hh:mm:ss","MonthDayPattern":"M\u0027月\u0027d\u0027日\u0027","PMDesignator":"下午","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"yyyy/M/d","ShortTimePattern":"tt hh:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"yyyy\u0027年\u0027M\u0027月\u0027","AbbreviatedDayNames":["週日","週一","週二","週三","週四","週五","週六"],"ShortestDayNames":["日","一","二","三","四","五","六"],"DayNames":["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],"AbbreviatedMonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"IsReadOnly":true,"NativeCalendarName":"西曆 (中文)","AbbreviatedMonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""]},"eras":[1,"西元",null,0]};//]]>
+</script>
+
+<script src="/web/ScriptResource.axd?d=guaVg4eH5Pjt-0-1iISrTDL9q364cAbT5BKXxqZ5iRmcF7gyVZu29ITFZU2tEB-Bm2Ukqyb0sQ2IcH5WcP7K73K81MA7PaXuqWuMGL7J8WZx9PW6icPWjPDf2cGvlRPDSf09UQM1oC0YGfljwaJEn7-sb2VetKeAgCfA-AfedNtwv_LSA6ry2PXFb23MNhkR0&amp;t=363be08" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax 用戶端架構無法載入。');
+//]]>
+</script>
+
+<script src="/web/ScriptResource.axd?d=nn3nmzTgcyP9febrCUHeo0jxiIqqNa2gEVqNDVWQBOhfDOZPrRTWIYqtunPm-LD3tHzw8sYnft89QW2u_EPby2sc0DQNSwUq1d9BwsmR3xFzSkvdaKzs97HLj98IjFzRV0axwZvR90dJqgv3b-0dcqHTS6UB1QD-XGjSD4W1v2k1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=ve8eIT2PHqjOUUpOYhcVJOzx_bkGjKfYATSMomHj4M9clF3ioKlHPTMkqPDv0acNpJI-wX2H77SJdH5gZV-QLABwYvA_r87uULrPAvEvbbCewLq1dJy2xGhQZBqf7wy34SEALMPdPp5-Vsu8HD8zGcjcv5gZvnnEF1jIHMTv1Ng1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=bB2BJQ2LX2wjxrF_8OTfspMJBR8qakfLRpz1X0vuhgZV3RGHCkNxX0Vk1_eiL175UstrS5uzFzqnEyDJR0OYLjy71vtCQY_d-AYu_-JMduI7H31NPc9Q-JIsO6bUv3d51YKCcrqX1VlR-8p5HSi2IHwNGVe_5xTbNLTtyfH__vc1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=ts8ct3X3rSScaeMsKUfVkY1rVk3q43aU2u4lSUeM_tm15-EEMIbkLhUJTpw-hr8ZCH26losLd2N-P9p5gvSGee1fD8kFByNWUpZ93AOwZgE-deuqCWbfi6y2pwgVDWb3Q82MM-VGIJdWTo2dozOKjblpJBieZv8cSUNhgRZ1LbE1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=MeK3la0CQ1JxRMb6K-b7xcGl9jH7yyHD4ioKkMRvY-5YvDLBTd8Sjrs4NkGEgPGcT4_9tV8gFy6GKFvb4ZemQhrCrpyO0ey2iXXHrfYJDgNSZ1tXrZVb5gYTIiQj70utyPDa8MN_sRLvwR7Ihp6lb-jmBrMvoRm6ZeYzdhZ_1Mg1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=dycpAykwGw5cIq4JARdPuPMCFwV7lYdWeKq7mZ_JI_Lzx93pCAh9oeBcYFHY7qgcNt-sHeltVg9dcF-1Vc9MS4wQ5V9BStayPdzFeQbXqvaufx2U7frYWs45QeMb7n9xVEz6ZjH_b8z7-4Yre_DA0EwyWqe5sxeDGrm9grP836E1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=VO_ZFiqBoiHY_jEI0zHpCbswaf3sCkz_1v_EQBz6Vq5pui2wwkDkEvLcbExBBvb7RxfVasT8x8lVG3oPyHo2ZO7wL67gIzQH_HTLP-wmIJnsD8zW0WR7TbMbB4ywGgW1EkWhi-KUGaB3857_ZInAENZgXEPFaM_Xqf7GgV2yy_M1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=cDax3TAsfXAhUHQDStfaRTeMKtQQzBgasxWU9q3J5KLVSJ8VKtA6VsQoc5iKGv0Tt-9FG1mpnaImJtoBohgFIkdKEKe3-A_UUOeCHmc9LPyZxTxCAPzL6oOGtgWtYHM7l-0pU3Vp7ru7CzqmuWmyE1XNDM8xtnlOmeBmd85MC-g1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<script src="/web/ScriptResource.axd?d=0WI-BvYRWqUXltf9UvQQfiIVFFjRxvXD-oD4tVvT9Nwnhhz_V-stfYK9-UmUjRsr-3wr5l4KO5CP9i5WAw7o4PNUQQoscko7aQoIto8S96RK5Gn5j58rxS3LsI5Ws0YU0cM5WMFczDDfrEsnjEkwokbKZxR3ezTECDGebE1AJyQ1&amp;t=ffffffffc7a6ddb0" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AC2E82A4" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="6Z4Ip7cVOIty1gSPyuQilNfmciMdTeHjO5W4daVPYzxkAcFdHoB1KoFZeN1I5bUX2D+ps37c24KGBPKRPi8/ABX5/Q3ByDrULKrs/Qf4NTopQNADdWhCzYKFh38chHAU7ttu0QzSlnNoAZz0jq3SXcVbumlLDXtzPfgEV8ZM1teUszA8bwGrlpnqXiZGL1KWqacPIsr5mj8nsNrEzjWBZCMbojwITzr3484FwpfgKbPA8tiDAKbrXNdLchUoTT2P3WrbR7hUCINH+Kjue+gNWmGd+/Zs4iu3XgQpka1PfIOxuOzwSX5y3VHyy38YhJHQgrrsX675N1Jet52IxCoJEqsRInmRJeb2JHh9VX6Sa6qWfgMWj1JmxtgaL5q9lfejgaAxdEUyQuwBgtFu1DEBR3vC9GbOa9XCcwGp5T+7Q0GRtByq3QNfzEgR8XlatKNtU6gDJAxqe7G9OXdjsl1uMk/naD6HsdObvh7TdPkKKqgfyIjKQosBmwxv3G+rMtWC8LimIL1dXO9G0z+52Yvk1Q==" />
+    
+      <table width="100%" cellspacing="0" cellpadding="0" border=0>
+            <tr>
+                <th  style="background:url(MasterTmpImg/top_bg.jpg);height:20px;"></th>
+                <td colspan="2" align="right" style="background:url(MasterTmpImg/top_bg.jpg);height:20px;">
+                    <a accesskey="U" href="#" title="上方導覽連結區"><font color="#E4FFAC">:::</font></a>
+                     瀏覽人次:<span id="ctl00_lblVisitCounter">2942991</span> &nbsp; &nbsp;|&nbsp;&nbsp;
+                    
+                    
+                    <a id="ctl00_HyperLink10" tabindex="1" href="MngLogin.aspx">農藥管理人員登入</a>&nbsp; &nbsp;|&nbsp;&nbsp;
+                    <a id="ctl00_HyperLink3" tabindex="1" href="siteMap.aspx">網站地圖</a>&nbsp; &nbsp;|&nbsp;&nbsp;
+                    <a href="mailto:baphiq@mail.baphiq.gov.tw" tabindex="2" title="原則上於收件後3個工作日內回覆，如信件內容屬於較為複雜需進一步查處案件，則依行政院及所屬各機關處理人民陳情案件要點規定辦理。">意見信箱</a>
+                    <span id="ctl00_lblMobile">  |  </span>
+                    <a id="ctl00_hlkMobile" tabindex="1" href="Insecticides_MenuItem1_m.aspx">行動版</a>&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr style="background-image: url(MasterTmpImg/img_04_bg.jpg);">
+                <td style="background-image: url(MasterTmpImg/img_04.jpg);" colspan="3">
+                    <img src="MasterTmpImg/img_03.jpg" alt="back1" /><img src="MasterTmpImg/img_03a.gif" alt="back2" /><img src="MasterTmpImg/img_03b.jpg" alt="back3" />
+                </td>
+            </tr>
+            <tr>
+                <td style="background-image: url(MasterTmpImg/img_06.gif);" align="left">
+                    &nbsp;
+                </td>
+                <td style="width:950px; background-image: url(MasterTmpImg/img_06.gif);" valign="top">
+                    &nbsp;&nbsp;</td>
+                <td style="background-image: url(MasterTmpImg/img_06.gif)">&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="1" valign="top"  bgcolor="#575757"  style="width:100px;" 
+                    class="down">
+                    <a href="#" accesskey="L" title="左選單區"><font color="#454448">:::</a>
+                    
+                           
+<div class="SimpleEntertainmentMenu" id="ctl00_EntertainmentMenu">
+	<div class="AspNet-Menu-Vertical">
+			<ul class="AspNet-Menu">
+				<li class="AspNet-Menu-Leaf">
+					<a href="./Insecticides_MenuItem5_5.aspx" class="AspNet-Menu-Link" title="病蟲害防治">
+						病蟲害防治</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem1.aspx" class="AspNet-Menu-Link" title="最新消息">
+						最新消息</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem2.aspx" class="AspNet-Menu-Link" title="農藥公告">
+						農藥公告</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem3.aspx" class="AspNet-Menu-Link" title="認識農藥">
+						認識農藥</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						農藥法規</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem4.aspx?code=1" class="AspNet-Menu-Link" title="法律及法規命令">
+								法律及法規命令</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem4.aspx?code=2" class="AspNet-Menu-Link" title="行政規則及解釋令">
+								行政規則及解釋令</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=4" class="AspNet-Menu-Link" title="滿15年農藥展延">
+								滿15年農藥展延</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem4.aspx?code=3" class="AspNet-Menu-Link" title="已廢止法規">
+								已廢止法規</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/QA.aspx" class="AspNet-Menu-Link" title="法規常見問答集">
+								法規常見問答集</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						登記管理</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_1.aspx" class="AspNet-Menu-Link" title="登記統計">
+								登記統計</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_2.aspx" class="AspNet-Menu-Link" title="申請作業">
+								申請作業</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_3.aspx" class="AspNet-Menu-Link" title="登記農藥查詢">
+								登記農藥查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_4.aspx" class="AspNet-Menu-Link" title="許可證查詢">
+								許可證查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_5.aspx" class="AspNet-Menu-Link" title="病蟲害防治">
+								病蟲害防治</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem6.aspx" class="AspNet-Menu-Link" title="農藥標示">
+						農藥標示</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						禁 / 限用農藥</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem7_1.aspx" class="AspNet-Menu-Link" title="禁用農藥">
+								禁用農藥</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem7_2.aspx" class="AspNet-Menu-Link" title="限用農藥">
+								限用農藥</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=3" class="AspNet-Menu-Link" title="可能致癌農藥狀態">
+								可能致癌農藥狀態</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem7_3.aspx" class="AspNet-Menu-Link" title="刪除農藥">
+								刪除農藥</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						規格與檢驗</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem8_1.aspx" class="AspNet-Menu-Link" title="檢驗方法">
+								檢驗方法</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem8_2.aspx" class="AspNet-Menu-Link" title="標準規格">
+								標準規格</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						農藥統計</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=7" class="AspNet-Menu-Link" title="農藥產銷量值統計">
+								農藥產銷量值統計</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						資訊公開</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=1" class="AspNet-Menu-Link" title="違法業者資訊">
+								違法業者資訊</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=2" class="AspNet-Menu-Link" title="農藥評估資料">
+								農藥評估資料</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=6" class="AspNet-Menu-Link" title="農藥毒理及環境評估資料">
+								農藥毒理及環境評估資料</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem11.aspx" class="AspNet-Menu-Link" title="諮詢單位">
+						諮詢單位</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem12.aspx" class="AspNet-Menu-Link" title="相關網站">
+						相關網站</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem13.aspx" class="AspNet-Menu-Link" title="檔案下載">
+						檔案下載</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="http://ghs.baphiq.gov.tw:8080" class="AspNet-Menu-Link" onclick="window.open(this.href, '_blank', ''); return false;" onkeypress="window.open(this.href, '_blank', ''); return false;" title="毒理資料庫">
+						毒理資料庫</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren  AspNet-Menu-ChildSelected">
+					<span class="AspNet-Menu-NonLink  AspNet-Menu-ChildSelected">
+						訓練課程</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf  AspNet-Menu-Selected">
+							<a href="/web/ClassSelect.aspx" class="AspNet-Menu-Link  AspNet-Menu-Selected" title="訓練課程查詢">
+								訓練課程查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Class_Login.aspx" class="AspNet-Menu-Link" title="課程學員名單登錄">
+								課程學員名單登錄</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Class_RecordQuery.aspx" class="AspNet-Menu-Link" title="學習紀錄查詢">
+								學習紀錄查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/ClassApply.aspx" class="AspNet-Menu-Link" title="申請辦理訓練課程">
+								申請辦理訓練課程</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/訓練課程簡報.pdf" class="AspNet-Menu-Link" title="操作說明">
+								操作說明</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/MngMenu.aspx" class="AspNet-Menu-Link" title="農藥管理人員專區">
+						農藥管理人員專區</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						免登記植物保護資材專區</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem2_3.aspx" class="AspNet-Menu-Link" title="公告">
+								公告</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem2_3_1.aspx" class="AspNet-Menu-Link" title="登錄產品查詢">
+								登錄產品查詢</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem15.aspx" class="AspNet-Menu-Link" title="聯絡窗口">
+						聯絡窗口</a>
+				</li>
+			</ul>
+
+	</div>
+</div> 
+                </td>
+                <td rowspan="1" valign="top" style="width:950px">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="width:15px" id="tdContent1">&nbsp; &nbsp;</td>
+                        <td>
+                            
+    <table cellspacing="0" cellpadding="0" width="97%">
+        <tr>
+            <td>
+                <div class="cptopic" title="訓練課程查詢">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="內容資訊">
+                        <tr>
+                            <td align="left" class="path">
+                                <span class="submenu"><a href="#" accesskey="c" title="內容區"><font color="#FFFFFF">
+                                :::</font></a></span>目前位置:
+                                <span id="ctl00_ContentPlaceHolder1_SiteMapPath2"><a href="#ctl00_ContentPlaceHolder1_SiteMapPath2_SkipLink"><img alt="略過巡覽連結" src="/web/WebResource.axd?d=ulaXR8Cn7ZRnUtA3oLsqJwugbLK12D1U8g3eNhv-wlXL_1JA0_-UGnqbkIrS0YXHqa362VVjxAL5I6kur10B8sEqYU7XoRqGabZqA_koeck1&amp;t=637454358340000000" width="0" height="0" border="0" /></a><span><a title="農藥資訊服務網" href="/web/"><font color="#666666">農藥資訊服務網</font></a></span><span><font color="#666666"> &gt; </font></span><span><a title="訓練課程"><font color="#666666">訓練課程</font></a></span><span><font color="#666666"> &gt; </font></span><span><a title="訓練課程查詢" href="/web/ClassSelect.aspx"><font color="#666666">訓練課程查詢</font></a></span><a id="ctl00_ContentPlaceHolder1_SiteMapPath2_SkipLink"></a></span>
+                                <div class="lptopic">
+                                    <span id="ctl00_ContentPlaceHolder1_lblLastPath">訓練課程查詢</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <table cellspacing="0" cellpadding="0" width="100%" summary="">
+                    <tr>
+                        <th nowrap="nowrap" align="right" width="5%" bgcolor="#E4F7A2">
+                            舉辦日期：
+                        </th>
+                        <td nowrap="nowrap">
+                            &nbsp;
+                            <input name="ctl00$ContentPlaceHolder1$txtClassDate_Start" type="text" id="ctl00_ContentPlaceHolder1_txtClassDate_Start" class="input" />
+                            <img id="ctl00_ContentPlaceHolder1_ImgDate_Start" src="cal.gif" border="0" />
+                            
+                            ~<input name="ctl00$ContentPlaceHolder1$txtClassDate_End" type="text" id="ctl00_ContentPlaceHolder1_txtClassDate_End" class="input" />
+                            <img id="ctl00_ContentPlaceHolder1_ImgDate_End" src="cal.gif" border="0" />
+                            
+                            <noscript>
+                                輸入格式：yyyy/mm/dd</noscript>
+                        </td>
+                    </tr>
+                    <tr class="lptable">
+                        <th nowrap="nowrap" align="right" width="5%">
+                            課程名稱：
+                        </th>
+                        <td nowrap="nowrap">
+                            <input name="ctl00$ContentPlaceHolder1$txtClassName" type="text" id="ctl00_ContentPlaceHolder1_txtClassName" class="input" value="" />
+                        </td>
+                    </tr>
+                    <tr class="lptable">
+                        <th nowrap="nowrap" align="right" width="5%">
+                            上課區域：
+                        </th>
+                        <td>
+                            <select name="ctl00$ContentPlaceHolder1$ddlDistrict" id="ctl00_ContentPlaceHolder1_ddlDistrict" class="input">
+	<option selected="selected" value="0">--全部--</option>
+	<option value="1">北部</option>
+	<option value="2">中部</option>
+	<option value="3">南部</option>
+	<option value="4">東部</option>
+	<option value="5">其他</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr class="lptable">
+                        <th nowrap="nowrap" align="right" width="5%">
+                            上課地點：
+                        </th>
+                        <td>
+                            <div id="ctl00_ContentPlaceHolder1_UpdP_ClassPlan">
+	
+                                    <select name="ctl00$ContentPlaceHolder1$ddlClassPlan" id="ctl00_ContentPlaceHolder1_ddlClassPlan" class="input">
+		<option selected="selected" value="--全部--">--全部--</option>
+
+	</select>
+                                
+</div>
+                            
+                        </td>
+                    </tr>
+                    <tr class="lptable">
+                        <th nowrap="nowrap" align="right" width="5%">
+                            狀態：
+                        </th>
+                        <td>
+                            <select name="ctl00$ContentPlaceHolder1$ddlCheckState" id="ctl00_ContentPlaceHolder1_ddlCheckState" class="input">
+	<option value="0">--全部--</option>
+	<option value="1">申請中</option>
+	<option selected="selected" value="3">已核准</option>
+
+</select>
+                        </td>
+                    </tr>
+                    <tr class="lptable">
+                        <td nowrap="nowrap" align="center" class="submit" colspan="2">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$btnQuery" id="ctl00_ContentPlaceHolder1_btnQuery" title="搜尋" onkeypress="btnQuery_Click" src="MasterTmpImg/img_21.gif" alt="Query" align="absmiddle" border="0" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td nowrap="nowrap" style="width: 50%" align="center">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td nowrap="nowrap" style="width: 50%" align="left">
+                <span id="ctl00_ContentPlaceHolder1_lblTotal">經查詢後，總計有 1529 筆資料符合您的查詢條件</span>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" nowrap="nowrap">
+                <div>
+	<table cellspacing="0" cellpadding="4" rules="all" border="1" id="ctl00_ContentPlaceHolder1_gvClass" width="100%">
+		<tr bgcolor="#E4F7A2">
+			<th scope="col" abbr="開新視窗；訓練課稱申請資料"><font color="#333333"><b>&nbsp;</b></font></th><th align="center" valign="middle" scope="col" nowrap="nowrap"><font color="#333333"><b>舉辦日期</b></font></th><th align="center" valign="middle" scope="col" nowrap="nowrap"><font color="#333333"><b>課程名稱</b></font></th><th align="center" valign="middle" scope="col" nowrap="nowrap"><font color="#333333"><b>認證時數</b></font></th><th align="center" valign="middle" scope="col" width="5%" nowrap="nowrap"><font color="#333333"><b>上課區域</b></font></th><th align="center" valign="middle" scope="col" nowrap="nowrap"><font color="#333333"><b>辦理單位</b></font></th><th align="center" valign="middle" scope="col" nowrap="nowrap"><font color="#333333"><b>狀態</b></font></th>
+		</tr><tr bgcolor="Yellow">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2316" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/05/08</font></td><td nowrap="nowrap"><font color="#333333">南投縣鹿谷鄉農會員工在職訓練</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">16.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">中部</font></td><td nowrap="nowrap"><font color="#333333">南投縣政府</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="White">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2314" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/04/28</font></td><td nowrap="nowrap"><font color="#333333">110年度新竹縣植物用藥安全講習會</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">2.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">北部</font></td><td nowrap="nowrap"><font color="#333333">新竹縣植物保護商業同業公會</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="Yellow">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2315" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/04/28</font></td><td nowrap="nowrap"><font color="#333333">110年度農藥代噴技術人員講習</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">4.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">北部</font></td><td nowrap="nowrap"><font color="#333333">新竹縣植物保護公會(防檢局委託)</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="Yellow">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2313" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/31</font></td><td nowrap="nowrap"><font color="#333333">110年度臺中市農藥販賣業者在職訓練講習會(承辦防檢局計畫)</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">4.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">中部</font></td><td nowrap="nowrap"><font color="#333333">臺中市植物保護商業同業公會</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="White">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2308" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/30</font></td><td nowrap="nowrap"><font color="#333333">水稻栽培管理(含病蟲害防治)</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">4.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">南部</font></td><td nowrap="nowrap"><font color="#333333">嘉義縣水上鄉農會</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="White">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2311" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/29</font></td><td nowrap="nowrap"><font color="#333333">番荔枝粉介殼蟲防治暨安全用藥講習</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">2.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">東部</font></td><td nowrap="nowrap"><font color="#333333">臺東區農業改良場</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="Yellow">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2312" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/29</font></td><td nowrap="nowrap"><font color="#333333">東方果實蠅共同防治方法與資材應用暨110年地方政府疫病蟲害主動調查監測計畫教育訓練</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">6.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">北部</font></td><td nowrap="nowrap"><font color="#333333">行政院農業委員會動植物防疫檢疫局</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="White">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2302" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/27</font></td><td nowrap="nowrap"><font color="#333333">2021年環境友善植物保護資材技術應用班</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">8.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">中部</font></td><td nowrap="nowrap"><font color="#333333">興農股份有限公司</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="White">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2310" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/26</font></td><td nowrap="nowrap"><font color="#333333">番荔枝粉介殼蟲防治暨安全用藥講習</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">2.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">東部</font></td><td nowrap="nowrap"><font color="#333333">臺東區農業改良場</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr bgcolor="White">
+			<td width="3%" nowrap="nowrap"><font color="#333333"><a href="ClassData.aspx?CA_NO=2306" target="_blank">選取</a></font></td><td width="5%" nowrap="nowrap"><font color="#333333">2021/03/25</font></td><td nowrap="nowrap"><font color="#333333">芒果外銷供果園推廣教育訓練講習會</font></td><td align="center" valign="middle" width="5%" nowrap="nowrap"><font color="#333333">3.0</font></td><td align="center" valign="middle" width="5%"><font color="#333333">南部</font></td><td nowrap="nowrap"><font color="#333333">台南市南化區農會</font></td><td width="5%" nowrap="nowrap"><font color="#333333">已核准</font></td>
+		</tr><tr align="right">
+			<td colspan="7"><font color="#333333"><table border="0">
+				<tr>
+					<td><font color="#333333"><span>1</span></font></td><td><font color="#333333"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvClass&#39;,&#39;Page$2&#39;)"><font color="#333333">2</font></a></font></td><td><font color="#333333"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvClass&#39;,&#39;Page$3&#39;)"><font color="#333333">3</font></a></font></td><td><font color="#333333"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvClass&#39;,&#39;Page$4&#39;)"><font color="#333333">4</font></a></font></td><td><font color="#333333"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvClass&#39;,&#39;Page$5&#39;)"><font color="#333333">5</font></a></font></td><td><font color="#333333"><a href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$gvClass&#39;,&#39;Page$6&#39;)"><font color="#333333">...</font></a></font></td>
+				</tr>
+			</table></font></td>
+		</tr>
+	</table>
+</div>
+                
+            </td>
+        </tr>
+        <tr>
+            <td align="left" nowrap="nowrap">
+                <table><tr><td style="width:30px;"></td><td style="background-color:Yellow; width:30px;"></td><td>表示為主管機關舉辦</td></tr></table>
+            </td>
+        </tr>
+    </table>
+    
+
+
+
+                        </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top" rowspan="1" bgcolor="#ededed">
+                    <table align="left" border="0" cellpadding="2" cellspacing="2" 
+                        style="width:160px;height:100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink7" tabindex="4" href="https://www.baphiq.gov.tw/" target="_blank"><img src="./MasterTmpImg/banner1.gif" id="ctl00_img1" border="0" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink8" tabindex="9" title="植物保護手冊" href="https://otserv2.tactri.gov.tw/ppm/" target="_blank">
+                                    <img src="./MasterTmpImg/banner2.jpg" alt="植物保護手冊" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink9" title="農藥登記管理系統(業者版)" href="https://pesticide.baphiq.gov.tw/aims/login.aspx" target="_blank">
+                                    <img src="./MasterTmpImg/banner3.jpg" alt="農藥登記管理系統(業者版)" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink4" title="農藥登記管理系統(機關版)" href="https://pesticide.baphiq.gov.tw/org/login.aspx" target="_blank">
+                                    <img src="./MasterTmpImg/banner4.jpg" alt="農藥登記管理系統(機關版)" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink11" title="農藥銷售管理資訊網" href="https://pest.baphiq.gov.tw/" target="_blank">
+                                    <img src="./MasterTmpImg/banner7.gif" alt="農藥銷售管理資訊網" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink5" title="農業藥物毒物試驗所" href="https://www.tactri.gov.tw/" target="_blank">
+                                    <img src="./MasterTmpImg/banner5.gif" alt="農業藥物毒物試驗所" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink6" title="GHS全球調和制度" href="http://ghs.baphiq.gov.tw/" target="_blank">
+                                    <img src="./MasterTmpImg/banner6.gif" alt="GHS全球調和制度" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink12" title="農藥田間藥效委託試驗報告查詢系統" href="https://otserv.tactri.gov.tw/pesticidetest/" target="_blank">
+                                    <img src="./MasterTmpImg/banner8.png" alt="農藥田間藥效委託試驗報告查詢系統" border="0" width="140" height="48"/>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td valign="top" style="height: 70px; background-image: url(MasterTmpImg/img_18.jpg);" align="center">
+                    <br />
+                    <!--<img src="MasterTmpImg/a+.gif" alt="A+" />--></td>
+                <td style="background-image: url(MasterTmpImg/img_18.jpg);  height: 70px;" valign="middle" class="down">
+                    行政院農業委員會動植物防疫檢疫局 版權所有 Copy right 2008<br />
+                    地址： 10070台北市中正區和平西路二段 100 號 11 樓&nbsp;電話： (02)2343-1401<br />
+                    檢舉電話： 0800-039-131 &nbsp;&nbsp; 傳真： (02)2343-1400 E-Mail ： <a href="mailto:baphiq@mail.baphiq.gov.tw" title="原則上於收件後3個工作日內回覆，如信件內容屬於較為複雜需進一步查處案件，則依行政院及所屬各機關處理人民陳情案件要點規定辦理。">
+                    baphiq@mail.baphiq.gov.tw</a>
+                     &nbsp;&nbsp;<a href="./Policy.aspx"> 隱私權及安全政策</a> | <a href="./Open.aspx">網站資料開放宣告</a>
+                </td>
+                <td valign="top" style="height: 70px; font-size:xx-small; background-image: url(MasterTmpImg/img_18.jpg);" class="down">
+                    <br />
+                    <a id="ctl00_HyperLink1" tabindex="10" href="http://www.gov.tw"><img src="MasterTmpImg/gov.gif" alt="HyperLink" border="0" /></a></td>
+            </tr>
+            <tr>
+                <td valign="top" style="height: 70px; background-image: url(MasterTmpImg/img_18.jpg);" align="center" colspan="3">
+                    <table cellspacing="5" cellpadding="5">
+                        <tr valign="top">
+                            <td>
+                                <a href="./Insecticides_MenuItem1.aspx">最新消息</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem2.aspx">農藥公告</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem3.aspx">認識農藥</a>
+                            </td>
+                            <td>
+                                農藥法規<br/>
+                                <a href="./Insecticides_MenuItem4.aspx?code=1">法律及法規命令</a><br />
+                                <a href="./Insecticides_MenuItem4.aspx?code=2">行政規則及解釋令</a><br />
+                                <a href="./Insecticides_MenuItem4.aspx?code=3">已廢止法規</a><br />
+                                <a href="./QA.aspx">法規常見問答集</a>
+                            </td>
+                            <td>
+                                登記管理<br />
+                                <a href="./Insecticides_MenuItem5_1.aspx">登記統計</a><br />
+                                <a href="./Insecticides_MenuItem5_2.aspx">申請作業</a><br />
+                                <a href="./Insecticides_MenuItem5_3.aspx">登記農藥查詢</a><br />
+                                <a href="./Insecticides_MenuItem5_4.aspx">許可證查詢</a><br />
+                                <a href="./Insecticides_MenuItem5_5.aspx">病蟲害防治</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem6.aspx">農藥標示</a>
+                            </td>
+                            <td>
+                                禁 / 限用農藥<br />
+                                <a href="./Insecticides_MenuItem7_1.aspx">禁用農藥</a><br />
+                                <a href="./Insecticides_MenuItem7_2.aspx">限用農藥</a><br />
+                                <a href="./Insecticides_MenuItem7_3.aspx">刪除農藥</a>
+                            </td>
+                            <td>
+                                規格與檢驗<br />
+                                <a href="./Insecticides_MenuItem8_1.aspx">檢驗方法</a><br />
+                                <a href="./Insecticides_MenuItem8_2.aspx">標準規格</a>
+                            </td>
+                            <td>
+                                農藥統計<br />
+                                <a href="./Insecticides_MenuItem9_1S.aspx">農藥產銷統計</a><br />
+                                <a href="./Insecticides_MenuItem9_2S.aspx">農藥進出口統計</a><br />
+                                <a href="./Insecticides_MenuItem9_4S.aspx">農藥產銷量值統計</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem11.aspx">諮詢單位</a>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td>
+                                <a href="./Insecticides_MenuItem12.aspx">相關網站</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem13.aspx">檔案下載</a>
+                            </td>
+                            <td>
+                                <a href="http://ghs.baphiq.gov.tw:8080" target="_blank">毒理資料庫</a>
+                            </td>
+                            <td>
+                                訓練課程<br />
+                                <a href="./ClassSelect.aspx">訓練課程查詢</a><br />
+                                <a href="./Class_Login.aspx">課程學員名單登錄</a><br />
+                                <a href="./Class_RecordQuery.aspx">學習紀錄查詢</a><br />
+                                <a href="./ClassApply.aspx">申請辦理訓練課程</a><br />
+                                <a href="./訓練課程簡報.pdf">操作說明</a>
+                            </td>
+                            <td>
+                                <a href="./MngMenu.aspx">農藥管理人員專區</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem15.aspx">聯絡窗口</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem2_3.aspx">免登記植物保護資材專區</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem16.aspx">資訊公開</a>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+         </table>
+        
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.CalendarBehavior, {"button":$get("ctl00_ContentPlaceHolder1_ImgDate_Start"),"format":"yyyy/MM/dd","id":"ctl00_ContentPlaceHolder1_CalendarExtender1"}, null, null, $get("ctl00_ContentPlaceHolder1_txtClassDate_Start"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.CalendarBehavior, {"button":$get("ctl00_ContentPlaceHolder1_ImgDate_End"),"format":"yyyy/MM/dd","id":"ctl00_ContentPlaceHolder1_CalendarExtender2"}, null, null, $get("ctl00_ContentPlaceHolder1_txtClassDate_End"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

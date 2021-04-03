@@ -1,0 +1,1078 @@
+
+
+<!DOCTYPE html>
+
+<html lang="zh">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Title -->
+	<title>
+	歡迎光臨屏東農業生物科技園區
+</title>
+	<!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+	<!-- Stylesheets -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../css/fontello.css" rel="stylesheet" type="text/css" /><link href="../css/flexslider.css" rel="stylesheet" type="text/css" /><link href="../js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css" media="screen" /><link href="../css/owl.carousel.css" rel="stylesheet" type="text/css" /><link href="../css/responsive-calendar.css" rel="stylesheet" type="text/css" /><link href="../css/chosen.css" rel="stylesheet" type="text/css" /><link href="../css/cloud-zoom.css" rel="stylesheet" type="text/css" /><link href="../css/style.css" rel="stylesheet" type="text/css" /><link href="../css/myCss.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="../js/autoCompUI/jquery-ui.css" />
+	<!--[if IE 9]>
+		<link rel="stylesheet" href="css/ie9.css" />
+	<![endif]-->
+	<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+		<link href="../css/jackbox-ie8.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="../css/ie.css" />
+    <![endif]-->
+	<!--[if gt IE 8]>
+		<link href="../css/jackbox-ie9.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="../css/fontello-ie7.css" />
+	<![endif]-->
+	<!-- jQuery -->
+	<script src="../js/jquery-1.11.0.min.js"></script>
+	<script src="../js/jquery-ui-1.10.4.min.js"></script>
+    <script src="../js/autoCompUI/jquery-ui.js"></script>
+    <noscript>您的瀏覽器似乎不支援JavaScript語法，但沒關係，這裡的JavaScript語法並不會影響到內容的陳述， 如需要選擇字級大小，IE6請利用鍵盤按住ALT鍵+ V → X → (G)最大(L)較大(M)中(S)較小(A)小，來選擇適合您的文字大小， 而IE7或Firefox瀏覽器則可利用鍵盤 Ctrl + (+)放大(-)縮小來改變字型大小，如需要回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能，列印可使用瀏覽器提供的(Ctrl+P)功能。</noscript>
+	<!-- Preloader -->
+	<script src="../js/jquery.queryloader2.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $('html').addClass('no-fouc');
+        $(document).ready(function () {
+            $("#seach").autocomplete({ source: "autoCompQueryData.ashx", delay: 0, minLength: 1 }); //定義查詢延遲時間與字數限制
+            $("#fontsize-s").click(function () {
+                $("*").removeClass("fontsize-B");
+                $("*").addClass("fontsize-S");
+            });
+            $("#fontsize-m").click(function () {
+                $("*").removeClass("fontsize-S");
+                $("*").removeClass("fontsize-B");
+            });
+            $("#fontsize-b").click(function () {
+                $("*").removeClass("fontsize-S");
+                $("*").addClass("fontsize-B");
+            });
+            $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+                options.async = true;
+            });
+            $(document).on('show.bs.modal', '.modal', function (event) {
+                var zIndex = 1040 + (10 * $('.modal:visible').length);
+                $(this).css('z-index', zIndex);
+                setTimeout(function () {
+                    $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
+                }, 0);
+            });
+            $('html').show();
+            var window_w = $(window).width();
+            var window_h = $(window).height();
+            var window_s = $(window).scrollTop();
+            $(window).load(function () {
+                if ($(window).scrollTop() > 100) {
+                    if ($(window).width() < 980) {
+                        $(".modal-dialog").css({ "max-width": "100%", "width": "100%", "margin-top": "55px", "z-index": " 999999" });
+                    }
+                    else {
+                        $(".modal-dialog").css({ "max-width": "85%", "width": "85%", "margin-top": "55px", "z-index": " 999999" });
+                    }
+                }
+                else {
+                    if ($(window).width() < 980) {
+                        $(".modal-dialog").css({ "max-width": "100%", "width": "100%", "margin-top": "55px", "z-index": " 999999" });
+                    }
+                    else {
+                        $(".modal-dialog").css({ "max-width": "85%", "width": "85%", "margin-top": "219px", "z-index": " 999999" });
+                    }
+                }
+            });
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    if ($(window).width() < 980) {
+                        $("#Top-Menu").removeClass("visible-lg", "visible-md", " visible-sm");
+                        $(".modal-dialog").css({ "max-width": "100%", "width": "100%", "margin-top": "55px", "z-index": " 999999" });
+                    }
+                    else {
+                        $("#Top-Menu").removeClass("visible-lg", "visible-md", " visible-sm");
+                        $(".modal-dialog").css({ "max-width": "85%", "width": "85%", "margin-top": "55px", "z-index": " 999999" });
+                    }
+                }
+                else {
+                    if ($(window).width() < 980) {
+                        $("#Top-Menu").addClass("visible-lg", "visible-md", " visible-sm");
+                        $(".modal-dialog").css({ "max-width": "100%", "width": "100%", "margin-top": "55px", "z-index": " 999999" });
+                    }
+                    else {
+                        $("#Top-Menu").addClass("visible-lg", "visible-md", " visible-sm");
+                        $(".modal-dialog").css({ "max-width": "85%", "width": "85%", "margin-top": "219px", "z-index": " 999999" });
+                    }
+                }
+            });
+            $("body").queryLoader2({
+                backgroundColor: '#B8D3C4',
+                barColor: '#43AF8D',
+                barHeight: 4,
+                percentage: false,
+                deepSearch: true,
+                minimumTime: 1000,
+                onComplete: function () {
+                    $('.animate-onscroll').filter(function (index) {
+                        return this.offsetTop < (window_s + window_h);
+                    }).each(function (index, value) {
+                        var el = $(this);
+                        var el_y = $(this).offset().top;
+                        if ((window_s) > el_y) {
+                            $(el).addClass('animated fadeInDown').removeClass('animate-onscroll');
+                            setTimeout(function () {
+                                $(el).css('opacity', '1').removeClass('animated fadeInDown');
+                            }, 2000);
+                        }
+                    });
+                }
+            });
+            $(window).bind('beforeunload', function (e) {
+                var data1 = this.location;
+                nurl = "default.aspx"
+                var data2 = '離開網頁';
+                $.post("WebGet.ashx", { GetUrl: data1 , GetItem: data2 },
+                    function (data) {
+                    });
+            });
+            $("a").click(function (event) {
+                var data1 = $(this).attr("href");
+                var data2 = $(this).attr("title");
+                if (typeof (data2) == 'undefined' || data2 == null || data2 == '') {
+                    data2 = this.innerText;
+                }
+                $.ajaxSetup({
+                    cache: false
+                });
+                var aa = function () {
+                    $.post("WebGet.ashx", { GetUrl: data1, GetItem: data2 },
+                       function (data) {
+                           //alert("Data Loaded: " + data);
+                       });
+                };
+                $(function () {
+                    aa();
+                });
+            });
+        });
+    </script>
+    
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/myCss.css" rel="stylesheet" />
+	<link href="/jackbox/css/jackbox.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/jackbox/js/jackbox-packed.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            enableJackBox();
+        });
+        function enableJackBox() {
+            $(window).load(function () {
+                jQuery(".jackbox[data-group]").jackBox("init", {
+                    deepLinking: false
+                });
+            });
+        }
+    </script>
+</head>
+<body class="sticky-header-on tablet-sticky-header">
+    <form method="post" action="./cl01051.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6D62FE32" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="u/DvWgJt1Qi55OYu8RwNh8jDuMRPIYTImPXzE6gGVre2prMf5G5jF03xezVPECxZbUkmQQNGB2gLZRbH64eUcv7qsPIrmtKLeM3s3DTmdDRld9qUIWjmU6LRidq9oseCv+YG7bk3vgO8yb3FLEbBJr8IVzNuPVp/EpJ7Q6pVlgTakqAsdt7qm4JgdN7RBGsgh7tVS+lvRvwLgFoyF8mQkN2ppbDgzKt1ZB3ea3YszAa/sRI8bCdWPcGGAJY0iGCLzPzSTFHlqKhINzgN/dkNLQ==" />
+        <input type="hidden" name="ctl00$AColor" id="AColor" value="#6BB017" />
+        <input type="hidden" name="ctl00$BColor" id="BColor" value="#291baa" />
+        <input type="hidden" name="ctl00$CColor" id="CColor" value="#279CE2" />
+        <input type="hidden" name="ctl00$DColor" id="DColor" value="#016310" />
+        <input type="hidden" name="ctl00$EColor" id="EColor" value="#9AD03E" />
+        <input type="hidden" name="ctl00$FColor" id="FColor" value="#BABEBF" />
+        <!-- 頁面內容 START -->
+        <div class="container">
+            <!-- 頂層START -->
+            <header id="header" class="animate-onscroll">
+                <!-- 最高層內容 START -->
+                <div id="main-header" style="background-color:#6BB017;">
+                    <div class="container">
+                        <div class="row">
+                            <!-- 放置Logo圖片位置 START -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin:auto;text-align:center;">
+                                <a href="#" title=""><img src="../Upload/logo-b.png" alt="LOGO圖片" /></a>
+                            </div>
+                            <!-- 放置Logo圖片位置 END -->
+                            <!-- 全文檢索位置 START -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:0px;padding-top:0px;">
+                                <div class="visible-lg visible-md" style="float:right;margin-right:5px;">
+                                    <div style="float:left;padding:3px;margin:3px;"><a href="Default.aspx" title="選單-回到首頁" class="top_txt">回首頁</a></div>
+                                    <div style="float:left;padding:3px;margin:3px;"><a href="cl0116.aspx" title="選單-網站導覽" class="top_txt">網站導覽</a></div>
+                                    <div style="float:left;padding:3px;margin:3px;"><a href="mailContactus1.aspx" title="選單-首長信箱" class="top_txt">首長信箱</a></div>
+                                    <div style="float:left;padding:3px;margin:3px;"><a href="../ENG/Default.aspx" title="選單-English" class="top_txt">English</a></div>
+                                    <div style="float:left;padding:3px;margin:3px;"><a href="../JPN/Default.aspx" title="選單-日本語" class="top_txt">日本語</a></div>
+                                </div>
+                                <div style="clear:both;margin-bottom:-10px;"></div>
+                                <div id="newsletter" style="padding-bottom: 9px; margin-bottom: 9px; padding-top: 9px; margin-top: 9px;background-color:#B9BACF;">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xm-12" style="vertical-align: middle;">
+                                        <div class="seach_txt">
+                                            <h4 style="padding: 0px; margin: 0px; color: #2E3337;font-weight:600;">全文檢索</h4>
+                                        </div>
+                                        <div class="newsletter-form seach_form">
+                                            <div style="float: left; width: 79%;" class="newsletter-zip">
+                                                <input name="ctl00$seach" type="text" id="seach" name="newsletter-zip" placeholder="請輸入關鍵字" value="請輸入關鍵字" title="請輸入關鍵字" />
+                                            </div>
+                                            <div style="float: left; width: 21%;" class="newsletter-submit">
+                                                <input type="submit" name="ctl00$btnSearch" value="Button" id="btnSearch" />
+                                                <i class="icons icon-search" style="color:#FFFFFF;background-color:#4666A3;"></i>
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </div>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </div>
+                            <!-- 全文檢索位置 END -->
+                        </div>
+                    </div>
+                </div>
+                <!-- 最高層內容 END -->
+                <!-- 選單內容 START -->
+                <div id="lower-header" style="max-height:59px;">
+                    <div class="container" style="max-height:59px;">
+                        <div id="menu-button" style="max-height:59px;">
+                            <div>
+                                <span style="background:#FFFFFF;"></span>
+                                <span style="background:#FFFFFF;"></span>
+                                <span style="background:#FFFFFF;"></span>
+                            </div>
+                            <span title="手機版-選單">選單</span>
+                        </div>
+                        <ul id="navigation" style="max-height:59px;">
+                            <li><a href="#" title="回上方導覽連結區(Top)" accesskey="U">::: </a></li>
+                            <!-- 首頁按鈕 START -->
+                            <li class="home-button current-menu-item" style="background-color:#FFFFFF;">
+                                <span><i class="icons icon-home"></i></span>
+                                <ul>
+                                    <li>
+                                        <span>語系</span>
+                                        <ul>
+                                            <li><a href="Default.aspx" title="選單-回到中文版首頁">中文版</a></li>
+                                            <li><a href="../ENG/Default.aspx" title="選單-語系-English">English</a></li>
+                                            <li><a href="../JPN/Default.aspx" title="選單-語系-日本語">日本語</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="cl0116.aspx" title="選單-網站地圖">網站地圖</a></li>
+                                    <li><a href="mailContactus1.aspx" title="選單-聯絡我們">聯絡我們</a></li>
+                                    <li><a href="cl011550.aspx" title="選單-最新消息">最新消息</a></li>
+                                    <li><a href="cl011552.aspx" title="選單-園區通報">園區通報</a></li>
+                                    <li><a href="cl011553.aspx" title="選單-法規公告">法規公告</a></li>
+                                    <li><a href="cl011554.aspx" title="選單-人才招募">人才招募</a></li>
+                                    <li><a href="cl011555.aspx" title="選單-政策宣導">政策宣導</a></li>
+                                    <li><a href="cl011556.aspx" title="選單-多媒體下載">多媒體下載</a></li>
+                                    <li><a href="Rss.aspx" title="選單-RSS">RSS</a></li>
+                                </ul>
+                            </li>
+                            <!-- 首頁按鈕 END --> 
+                            <!-- 產業聚落按鈕 START -->
+                            <li>
+                                <span>產業聚落</span>
+                                <ul>
+                                    <li><a href="cl010101.aspx" title="選單-產業聚落-說明">說明</a></li>
+                                    <li><a href="cl010103.aspx" title="選單-產業聚落-進駐企業名單">進駐企業名單</a></li>
+                                    <!--<li><a href="cl010102.aspx" title="選單-產業聚落-園區前店後廠企業名單">園區前店後廠企業名單</a></li>20170818遮蔽-->
+                                </ul>
+                            </li>
+                            <!-- 產業聚落按鈕 END -->
+                            <!-- 園區介紹 START -->
+                            <li>
+                                <span>園區介紹</span>
+                                <ul>
+                                    <!--<li style="display:none"><a href="cl01042.aspx" title="選單-園區介紹-首長引言">首長引言</a></li>-->
+                                    <li><a href="cl0104.aspx" title="選單-園區介紹-團隊介紹">團隊介紹</a></li>	
+                                    <li><a href="cl01041.aspx" title="選單-園區介紹-組織架構">組織架構</a></li>
+                                    <li>
+                                        <span>園區建設</span>
+                                        <ul>
+                                            <li><a href="cl0102.aspx" title="選單-園區介紹-園區建設-園區軟體建設">園區軟體建設</a></li>
+                                            <li><a href="cl010202.aspx" title="選單-園區介紹-園區建設-園區硬體建設">園區硬體建設</a></li>
+                                            <li><a href="cl010201.aspx" title="選單-園區介紹-園區建設-園區生活機能">園區生活機能</a></li>
+                                            <li><a href="cl010203.aspx" title="選單-園區介紹-園區建設-園區事業廠房">園區事業廠房</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>交通區位</span>
+                                        <ul>
+                                            <li><a href="cl010301.aspx" title="選單-園區介紹-交通區位-農科地理位置">農科地理位置</a></li>
+                                            <li><a href="cl010302.aspx" title="選單-園區介紹-交通區位-保稅範圍界定">保稅範圍界定</a></li>
+                                            <li><a href="cl010303.aspx" title="選單-園區介紹-交通區位-交通網絡">交通網絡</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>綠色園區</span>
+                                        <ul>
+                                            <li><a href="cl0105.aspx" title="選單-園區介紹-綠色園區-園區景觀">園區景觀</a></li>
+                                            <li><a href="cl01051.aspx" title="選單-園區介紹-綠色園區-公共藝術">公共藝術</a></li>
+                                        </ul>
+                                    </li>
+                                    <!--<li>
+                                        <span>歷史資料</span>
+                                        <ul>
+                                            <li><a href="cl01043.aspx" title="選單-園區介紹-歷史沿革-農科大事紀">農科大事紀</a></li>
+                                            <li>
+                                                <span>自由經濟示範區</span>
+                                                <ul>
+                                                    <li><a href="cr0201.aspx" title="選單-園區介紹-歷史沿革-自由經濟示範區-緣起與目標">緣起與目標</a></li>
+                                                    <li><a href="cr0202.aspx" title="選單-園區介紹-歷史沿革-自由經濟示範區-政策說明">政策說明</a></li>
+                                                    <li><a href="cr0203.aspx" title="選單-園區介紹-歷史沿革-自由經濟示範區-問與答">問與答</a></li>
+                                                    <li><a href="http://www.fepz.org.tw/" target="_blank" title="選單-園區介紹-歷史沿革-自由經濟示範區-自由經濟示範區">自由經濟示範區</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>-->
+                                </ul>
+                            </li>
+                            <!-- 園區介紹 END -->
+                            <!-- 參訪預約 START -->
+                            <li><a href="cl0106.aspx" title="選單-參訪預約">參訪預約</a></li>
+                            <!-- 參訪預約 END -->
+                            <!-- 產學研發 START -->
+                            <li>
+                                <span>產學研發</span>
+                                <ul>
+                                    <li>
+                                        <span>園區事業研究發展補助計畫</span>
+                                        <ul> 
+                                            <li><a href="cl01070102.aspx" title="選單-產學研發-園區事業研究發展補助計畫-歷年補助清單">歷年補助清單</a></li> 
+                                            <li><a href="../Upload/106年度研發補助計畫公告.zip" target="_blank" title="選單-產學研發-園區事業研究發展補助計畫-另開檔案(106年度研發補助計畫公告)">106年度研發補助計畫公告</a></li>
+                                            <li><a href="../Upload/107年度研發補助計畫公告.zip" target="_blank" title="選單-產學研發-園區事業研究發展補助計畫-另開檔案(107年度研發補助計畫公告)">107年度研發補助計畫公告</a></li>
+											<li><a href="../Upload/108年度研發補助計畫公告.zip" target="_blank" title="選單-產學研發-園區事業研究發展補助計畫-另開檔案(108年度研發補助計畫公告)">108年度研發補助計畫公告</a></li>
+                                            <li><a href="../Upload/109年度研發補助計畫公告.zip" target="_blank" title="選單-產學研發-園區事業研究發展補助計畫-另開檔案(109年度研發補助計畫公告)">109年度研發補助計畫公告</a></li>											
+											<li><a href="../Upload/110年度研發補助計畫公告.zip" target="_blank" title="選單-產學研發-園區事業研究發展補助計畫-另開檔案(110年度研發補助計畫公告)">110年度研發補助計畫公告</a></li>											
+                                        </ul> 
+                                    </li>
+									<li>
+                                        <!--<span>109年紓困專案計畫</span>-->
+										<a href="../Upload/109年紓困專案計畫.zip" target="_blank" title="選單-109年紓困專案計畫-另開檔案(109年紓困專案計畫)">109年紓困專案計畫</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <!-- 產學研發 END -->
+                            <!-- 投資資訊 START -->
+                            <li>
+                                <span>投資資訊</span>
+                                <ul>
+                                    <li>
+                                        <span>進駐要領</span>
+                                        <ul>
+                                            <li><a href="cl010801.aspx" title="選單-投資資訊-進駐要領-申請資格">申請資格</a></li>
+                                            <li><a href="cl010802.aspx" title="選單-投資資訊-進駐要領-主要進駐對象">主要進駐對象</a></li>
+                                            <li>
+                                                <span>投資設廠申請</span>
+                                                <ul>
+                                                    <li><a href="cl010803.aspx" title="選單-投資資訊-進駐要領-投資設廠申請-投資申請">投資申請</a></li>
+                                                    <li><a href="cl010804.aspx" title="選單-投資資訊-進駐要領-投資設廠申請-繳納保證金">繳納保證金</a></li>
+                                                    <li><a href="cl010805.aspx" title="選單-投資資訊-進駐要領-投資設廠申請-租用標準廠房或自建廠房之土地">租用標準廠房或自建廠房之土地</a></li>
+                                                    <li><a href="cl010806.aspx" title="選單-投資資訊-進駐要領-投資設廠申請-增資或投資案變更">增資或投資案變更</a></li>
+                                                    <!--20180614暫時遮蔽<li><a href="cl010807.aspx" title="選單-投資資訊-進駐要領-投資設廠申請-退還投資保證金">退還投資保證金</a></li>-->
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>租金及管理費</span>
+                                                <ul>
+                                                    <li><a href="cr0103.aspx" title="選單-投資資訊-進駐要領-租金及管理費-土地廠房租金">土地廠房租金</a></li>
+                                                    <li><a href="cl010809.aspx" title="選單-投資資訊-進駐要領-租金及管理費-管理費及污水費">管理費及污水費</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="cl010810.aspx" title="選單-投資資訊-進駐要領-線上申辦">線上申辦</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="cl010811.aspx" title="選單-投資資訊-園區優勢">園區優勢</a></li>
+                                    <li><a href="cl010812.aspx" title="選單-投資資訊-標準廠房">標準廠房</a></li>
+                                    <li><a href="cl010813.aspx" title="選單-投資資訊-優惠獎勵">優惠獎勵</a></li>
+                                    <li><a href="cl010814.aspx" title="選單-投資資訊-鄰近資源">鄰近資源</a></li>
+                                    <li><a href="../Upload/農科投資須知2019.pdf" target="_blank" title="選單-投資資訊-另開檔案(園區投資須知)">園區投資須知下載(附件)</a></li>
+                                </ul>
+                            </li>
+                            <!-- 投資資訊 END -->
+                            <!-- 行政專區 START -->
+                            <li>
+                                <span>行政服務</span>
+                                <ul>
+                                    <li>
+                                        <span>工商服務</span>
+                                        <ul>
+                                            <li><a href="cl010901.aspx" title="選單-行政服務-工商服務-公司或分公司登記、變更">公司或分公司登記、變更</a></li>
+                                            <li><a href="cl010912.aspx" title="選單-行政服務-工商服務-動力用電、用水、電話安裝">動力用電、用水、電話安裝</a></li>
+                                            <!--<li><a href="cl010913.aspx" title="選單-行政服務-工商服務-園區事業統一發證作業">園區事業統一發證作業</a></li>-->
+                                            <li><a href="cl010914.aspx" title="選單-行政服務-工商服務-勞工相關事項">勞工相關事項</a></li>
+                                            <li><a href="cl010920.aspx" title="選單-行政服務-工商服務-申請機器設備新增或遷移廠址工廠檢查">申請機器設備新增或遷移廠址工廠檢查</a></li>
+                                            <li><a href="cl010921.aspx" title="選單-行政服務-工商服務-進出口簽證及貿易事項">進出口簽證及貿易事項</a></li>
+                                            <li><a href="cl010925.aspx" title="儲運及保稅事項">儲運及保稅事項</a></li>
+                                            <li><a href="cl010930.aspx" title="選單-行政服務-工商服務-聘雇外國籍人員及入出境事項">聘雇外國籍人員及入出境事項</a></li>
+                                            <li><a href="http://gcis.nat.gov.tw/main/classNewAction.do?method=list&pkGcisClassNew=6" target="_blank" title="選單-行政服務-工商服務-所需表單及填寫範例，請至經濟部全國商工行政服務入口網下載">所需表單及填寫範例，請至經濟部全國商工行政服務入口網下載</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="cl0110.aspx" title="選單-行政服務-建管服務">建管服務</a></li>
+                                    <li><a href="cl0111.aspx" title="選單-行政服務-環保服務">環保服務</a></li>
+                                </ul>
+                            </li>
+                            <!-- 行政專區 END -->
+                            <!-- 物流專區 START -->
+                            <li><a href="cl0112.aspx" title="選單-物流專區">物流專區</a></li>
+                            <!-- 物流專區 END -->
+                            <!-- 政府資訊公開 START -->
+                            <li>
+                                <span>公開資訊</span>
+                                <ul>
+                                    <li><a href="cl0115.aspx" title="選單-公開資訊-政府資訊公開">政府資訊公開</a></li>
+                                </ul>
+                            </li>
+                            <!-- 政府資訊公開 END -->
+                            <!-- 相關連結 START -->
+                            <li><a href="cl0113.aspx" title="選單-相關連結">相關連結</a></li>
+                            <!-- 相關連結 END -->
+                            <!-- 相關法規 START -->
+                            <li><a href="cl011042.aspx" title="選單-相關法規">相關法規</a></li>
+                            <!-- 相關法規 END -->
+                            <!-- 園區通報按鈕 START -->
+                            <li><a href="cl011552.aspx" title="選單-園區通報">園區通報</a></li>
+                            <!-- 園區通報按鈕 END -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- 選單內容 END -->
+            </header>
+            <!-- 頂層END -->
+            <!-- 中間內容START -->
+            <section id="content">
+                
+	<section class="section page-heading animate-onscroll">
+		<h1>公共藝術</h1>
+		<p class="breadcrumb"><a href="Default.aspx">首頁</a> / 園區介紹 / 綠色園區 / 公共藝術</p>
+	</section>
+	<section class="section full-width-bg">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h4 style="line-height:200%;margin-top:0px;padding-top:0px;">農科園區從開園到建置過程，皆秉持著與自然環境共存共容之理念，以五生（生技、生產、生活、生態、生命）園區之概念，透過低密度開發的方式，結合在地優質之空氣與水質以及低碳無污染之製程與資源再利用等全方位之環境保護措施，透過高規格之管控，讓園區事業不僅是生產具有高附加價值之農業生物科技產品， 亦是生產對環境友善之綠色產品。希望透過這些努力，讓農科園區成為台灣農業生物科技之綠色典範與永續創新之科學園區。</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="owl-carousel-container testimonial-carousel animate-onscroll">
+                    <div class="owl-carousel" data-max-items="1">
+                        
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>生態園區意向圖，魚兒成群悠游。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic20.jpg" alt='生態園區意向圖，魚兒成群悠游。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic20.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">魚兒悠游</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>走進色彩濱紛的彩虹橋及玻璃帷幕的水牆解放沉積已久的疲憊，倘佯在如茵的綠地，仰望蔚藍的天空，朗朗雲天，七色彩虹彷彿就在天邊。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic05S1.jpg" alt='走進色彩濱紛的彩虹橋及玻璃帷幕的水牆解放沉積已久的疲憊，倘佯在如茵的綠地，仰望蔚藍的天空，朗朗雲天，七色彩虹彷彿就在天邊。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic05S1.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">彩虹園</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>南瓜綿延不絕的生機表達對全人類、科學發展和光明遠景和平與愛的訊息，將滿滿熱情灌注於這顆南瓜上，安放在這片擁有無限未來的農科。（本項作品創作者為國際知名藝術家草間彌生）</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic01-1.jpg" alt='南瓜綿延不絕的生機表達對全人類、科學發展和光明遠景和平與愛的訊息，將滿滿熱情灌注於這顆南瓜上，安放在這片擁有無限未來的農科。（本項作品創作者為國際知名藝術家草間彌生）' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic01-1.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">南瓜</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>生命的細胞就像音符或組織或分散或分裂或融合，帶來無數的變化，細細探索，奇妙的大自然，將譜下動人的生命樂章。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic08-1.jpg" alt='生命的細胞就像音符或組織或分散或分裂或融合，帶來無數的變化，細細探索，奇妙的大自然，將譜下動人的生命樂章。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic08-1.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">生命的樂章</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>當天地仍處於混沌不明，一個象徵生命的小點，已經懂得要用力吸取週遭土壤的養分。這不僅是生命最原始的狀態，也將貫徹至宇宙最後一刻。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic11.jpg" alt='當天地仍處於混沌不明，一個象徵生命的小點，已經懂得要用力吸取週遭土壤的養分。這不僅是生命最原始的狀態，也將貫徹至宇宙最後一刻。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic11.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">種子的天空</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>以疊羅漢的形式象徵農業生物技術的進步與發展，就猶如疊羅漢一樣，不同階層的力量同心協力推動農業生物技術的發展與進步。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic12s.jpg" alt='以疊羅漢的形式象徵農業生物技術的進步與發展，就猶如疊羅漢一樣，不同階層的力量同心協力推動農業生物技術的發展與進步。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic12s.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">同心協力</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>以點、線、面三種元素作為設計的主要構思，象徵農業科技的演化以及蛻變，最後將翱翔藍天。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic13s.jpg" alt='以點、線、面三種元素作為設計的主要構思，象徵農業科技的演化以及蛻變，最後將翱翔藍天。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic13s.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">演化</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <div class="testimonial">
+                                        <div class="testimonial-content" style="min-height:105px;">
+                                            <p>蕃薯具有旺盛的生命力，也常被用來作為台灣的代名詞，藉由蕃薯的意象，期望農業生技產業能像蕃薯一樣，在屏東落地生根，成長茁壯。</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class='media-item gallery-item no-margin-bottom'>
+                                                <img src="../Upload/a01074Pic14s.jpg" alt='蕃薯具有旺盛的生命力，也常被用來作為台灣的代名詞，藉由蕃薯的意象，期望農業生技產業能像蕃薯一樣，在屏東落地生根，成長茁壯。' style="width:100%;min-height:207px;max-height:302px;">
+                                                <div class='media-hover'>
+                                                    <div class='media-icons' style='text-align: center;'>
+                                                        <a href="../Upload/a01074Pic14s.jpg" data-group='media-jackbox' class='jackbox media-icon' title='公共藝術'><i class='icons icon-eye'></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="author-meta">
+                                                <span class="name">蕃薯仔</span>
+                                                <span class="location">公共藝術</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                    </div>
+                    <div class="owl-header">
+                        <div class="carousel-arrows">
+                            <span class="left-arrow"><i class="icons icon-left-dir"></i></span>
+                            <span class="right-arrow"><i class="icons icon-right-dir"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JackBox -->
+    <script type="text/javascript" src="/jackbox/js/jackbox-packed.min.js"></script>
+
+            </section>
+            <!-- 中間內容END -->
+            <!-- 底部內容 START -->
+            <footer id="footer" style="margin-top:-30px;padding-top:-30px;">
+                <!-- 最底部內容 START -->
+                <div id="lower-footer" style="background-color:#7A7A7A;">
+                    <div class="row">
+                        <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 animate-onscroll">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../Upload/logo_b.png" alt="屏東農業生物技術園區LOGO圖片" /></div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                <div class="copyright" style="font-size:16px;">瀏覽人數：1,361,646</div>
+                                <div class="copyright" style="font-size:16px;">地址：908126屏東縣長治鄉德和村神農路一號
+                                <div class="copyright" style="font-size:16px;">TEL：886-08-7623205　<a href="http://www.pabp.gov.tw/Upload/進駐廠商緊急突發事件及待解決事項通報電話.docx" style="color:#FFFFFF" target="_blank">(服務專線及緊急電話)</a></div>
+                                <div class="copyright" style="font-size:16px;">FAX：886-08-7623235</div> </div>
+                                <div class="copyright" style="font-size:16px;letter-spacing:-1px;">行政院農業委員會屏東農業生物技術園區籌備處　<a href="http://www.pabp.gov.tw/Security.htm" style="color:#FFFFFF" target="_blank">(隱私權宣言)</a></div>
+                                <div class="copyright" style="font-size:16px;">Copyright © 2016 All Rights Reserved</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-3 animate-onscroll hidden-xs" style="margin-right:0px;padding-right:0px;">
+                            <img src="../Upload/fb.jpg" alt="屏東農業生物技術園區Facebook臉書" style="float:left;" />
+                            <div class="social-media" style="float:left;margin-left:10px;margin-top:-6px;">
+                                <ul class="social-icons">
+                                    <li style="display:block;" class="rss"><a href="Rss.aspx" class="tooltip-ontop" title="RSS"><i class="icons icon-rss"></i></a></li>
+                                    <li style="display:block;" class="facebook"><a href="http://www.facebook.com/#!/pabptaiwan" target="_blank" class="tooltip-ontop" title="[樂活在農科]"><i class="icons icon-facebook"></i></a></li>
+                                    <!--<li style="display:block;" class="email"><a href="mailContactus2.aspx" class="tooltip-ontop" title="諮詢信箱"><i class="icons icon-mail"></i></a></li>-->
+                                </ul>
+                            </div>
+                            <div style="clear:both;height:5px;"></div>
+                            <a href="#" title=""><img src="../Upload/handicap-free.png" alt="A+無障礙" /></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 最底部內容 END -->
+            </footer>
+            <!-- 底部內容 END -->
+            <!-- 回到頂端 START -->
+            <a href="#" id="button-to-top" style="background-color:#40980D;"><i class="icons icon-up-dir" style="color:#FFFFFF;"></i></a>
+            <!-- 回到頂端 END -->
+        </div>
+        <!-- 頁面內容 END -->
+
+        <!-- 要參考的JavaScript START -->
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <!-- Modernizr -->
+        <script type="text/javascript" src="../js/modernizr.js"></script>
+        <!-- Sliders/Carousels -->
+        <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+        <!-- Revolution Slider  -->
+        <script type="text/javascript" src="../js/revolution-slider/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="../js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- Calendar -->
+        <script type="text/javascript" src="../js/responsive-calendar.min.js"></script>
+        <!-- Raty -->
+        <script type="text/javascript" src="../js/jquery.raty.min.js"></script>
+        <!-- Chosen -->
+        <script type="text/javascript" src="../js/chosen.jquery.min.js"></script>
+        <!-- jFlickrFeed -->
+        <script type="text/javascript" src="../js/jflickrfeed.min.js"></script>
+        <!-- InstaFeed -->
+        <script type="text/javascript" src="../js/instafeed.min.js"></script>
+        <!-- MixItUp -->
+        <script type="text/javascript" src="../js/jquery.mixitup.js"></script>
+        <!-- CloudZoom -->
+        <script type="text/javascript" src="../js/zoomsl-3.0.min.js"></script>
+        <!-- Main Script -->
+        <script type="text/javascript" src="../js/script.js"></script>
+        <!--[if lt IE 9]>
+			<script type="text/javascript" src="../js/jquery.placeholder.js"></script>
+			<script type="text/javascript" src="../js/script_ie.js"></script>
+		<![endif]-->
+        <!-- 要參考的JavaScript END -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#seach").focus(function () {
+                    if ($("#seach").val() == "請輸入關鍵字") {
+                        $("#seach").val("");
+                    }
+                });
+                $("#seach").focusout(function () {
+                    if ($("#seach").val().length == 0) {
+                        $("#seach").val("請輸入關鍵字");
+                    }
+                });
+                $(".Contactus").click(function () {
+                    $("#myContactus").modal("show");
+                });
+                $(".BossContactus").click(function () {
+                    $("#bossContactus").modal("show");
+                });
+            });
+        </script>
+        <script src="../js/myScript.js"></script>
+    </form>
+
+    <div class="modal fade" id="myPropaganda" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">政策宣導</h4>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myMultimedia" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">多媒體下載</h4>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myFriendsLinks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">友站連結</h4>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<div class="modal fade" id="myPublic_dvi01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">農業生物科技園區促進園區事業研究發展補助要點</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="Public_dvi001">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">就業服務</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="Public_dvi002">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">廉政資訊專區</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="Public_dvi003">
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $("#Public_dvi031").click(function () {
+                            $("#myPublic_dvi031").modal("show");
+                            $.get("Public_dvi.ashx?Item=031", function (data) {
+                                $("#Public_031").html(data);
+                            });
+                        });
+                        $("#Public_dvi032").click(function () {
+                            $("#myPublic_dvi032").modal("show");
+                            $.get("Public_dvi.ashx?Item=032", function (data) {
+                                $("#Public_032").html(data);
+                            });
+                        });
+                        $("#Public_dvi033").click(function () {
+                            $("#myPublic_dvi033").modal("show");
+                            $.get("Public_dvi.ashx?Item=033", function (data) {
+                                $("#Public_033").html(data);
+                            });
+                        });
+                        $("#Public_dvi034").click(function () {
+                            $("#myPublic_dvi034").modal("show");
+                            $.get("Public_dvi.ashx?Item=034", function (data) {
+                                $("#Public_034").html(data);
+                            });
+                        });
+                    });
+                </script>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi031" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">常見詐騙案例犯罪手法及預防方式一覽表94年6月協會</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="Public_031">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi032" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">常見詐騙案例犯罪手法及預防方式一覽表97年9月協會</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="Public_032">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi033" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">公務員廉政倫理規範</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="Public_033">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi034" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">政風宣導簡報三</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="Public_034">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myr0105" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">亞太水族中心</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="r0105">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myr0106" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">進駐廠商通報電話</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="r0106">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myGender" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">性別平等專區</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="Gender_div">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myl011042_div3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">農業科技園區園區事業營運計畫審核評分作業要點</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="l011042_div3">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myPublic_dvi06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">農業生物科技園區污水處理及污水下水道使用管理要點</h4>
+            </div>
+            <div class="modal-body" style="margin-bottom: -20px; padding-bottom: -20px;">
+                <div class="row" id="Public_dvi06">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myContactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">首長信箱</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <a href="http://www.pabp.gov.tw/CHT/mailContactus1.aspx"><h4>首長信箱</h4></a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="bossContactus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">首長信箱</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <a href="mailto:liang@ms.pabp.gov.tw?cc=hung8386@ms.pabp.gov.tw">liang@ms.pabp.gov.tw</a> 
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" autofocus class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>

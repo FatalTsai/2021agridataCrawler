@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	國產生鮮豬肉追溯資訊網
+</title><link href="_css/public.css" rel="stylesheet" />
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+        function fourStr(obj) {
+            var intChars = parseInt(obj.value.length);
+            if (intChars == 4) {
+                document.getElementById('TextBox_code2').focus();
+            }
+        }
+    </script>
+    <script>
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'ZzQw0WinIps'
+        });
+      }
+    </script>
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="sNvNtAeI0SkHd3SAqDg8YoYCyONIRxVu61GafuSFFbVdwdAOGyJTN2l1QwElbBOwZY0HyTcGgntZYmRJbKlkfPrrrNL1PJOGhOuXZqwQYWDhbPtc1g/uRE4NS22XeeRB+dc/JN/Jzs0VbXrQk0mjMNqDgCLZUhOxMN4VyTftkVCPRVNKLC+xK+D/Hbutv17d0hM6QBqUJd7dCJHq5UvdyKW7StsVk4vEhz3Pr4BHtKsenNAy3y9iVC2Jpz+RNDZZ6Cl17ZN6q4t1RLBa4KStT6eoF1/p0mwXyMMtAXFDi63zhahOFDqUGETP6qpbb2PZkfIVgpu7wv6OiYzB10mP5/F4CRFKvw0QW5zigt+4EMA=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="RT/5QQIfLo+4ZWunj4z20R17iOwJvRsDNkQm/S6ObNofe7b3yvV/izjHM00cUFKMPGa5A1RhrYIXW/fPU4RvL7MXT6YmFk54UPmYLG15H71Fr3NPtlzL5SOSMALh4tJN4kalWwGE0P6xZKQP2POjX1+86SN5xjlvi0ujmIXA20WmRZXe8KNbVH+EVQ6Os2H0" />
+        <div class="header">
+            
+            <img src="_img/logo.png" height="60" alt="國產生鮮豬肉追溯資訊網"/>
+        </div>
+        <div class="content">
+            <h2 class="title">溯源編號查詢</h2>
+            拍賣／屠宰編號說明：
+            <ul>
+                <li style="font-weight:bold">拍賣編號（共4＋4碼）</li>
+                <li>第一組：第1個英文字代表拍賣市場，第2個英文字代表月份，第3、4碼表示日期。</li>
+                <li>第二組：第1～4碼表示拍賣編號。</li>
+                <li style="font-weight:bold">屠宰編號（共4＋4碼）</li>
+	            <li>第一組：第1個英文字Z代表屠宰場，第2個英文字代表月份，第3、4碼表示日期。</li>
+	            <li>第二組：第1～2碼代表屠宰場，3～4碼代表屠宰批號。</li>
+            </ul>
+            <br />
+            <div style="width:410px;margin:0 auto;text-align:center;margin-bottom:5px;">
+                <input name="TextBox_code1" type="text" maxlength="4" id="TextBox_code1" placeholder="範例：FB25" onKeyUp="fourStr(this)" style="text-align:center" /> - <input name="TextBox_code2" type="text" maxlength="4" id="TextBox_code2" placeholder="範例：0999" style="text-align:center" />
+                <input type="submit" name="Button_farmQuery" value="查詢" id="Button_farmQuery" class="btn_red" />
+                <div style="font-size:0.7em;">
+                    <span id="Label_count">系統累計查詢次數443,695次，平均每日查詢量為1,216次</span>
+                </div>
+                
+            </div>
+            <div style="text-align:right;font-size:0.9em;">
+                *僅供查詢近90日的追溯資料<br />
+                *本網站資訊內容僅供消費者進行豬肉追溯查詢<br />
+                <input type="submit" name="Button_multiSearch" value="多筆查詢" id="Button_multiSearch" style="border:1px solid #696969;background-color:#fff;font-family:'微軟正黑體';padding:3px;" />
+            </div>
+        </div>
+        <div class="menuBlock">
+            <span><a href="Page/News.aspx">更多消息</a></span>
+            
+            
+            <span><a href="Page/FAQ.aspx">常見問答</a></span>
+            <span><a href="Page/ContactUs.aspx">聯繫我們</a></span>
+            <span><a href="Page/Link.aspx">相關資源</a></span>
+        </div>
+        <div class="content">
+            <h2 class="title">最新消息</h2>
+            <h4 style="font-size:1.2em;margin:10px 0px;"><span id="Label_subject">國產生鮮豬肉追溯系統宣導廣告</span></h4>
+            <span id="Label_content"></span><br />
+            <div id="player" style="width:100%;"></div>
+            <div style="text-align:right">發布日期：<span id="Label_date">2016/09/01</span></div>
+        </div>
+        <div class="footer">
+            網站瀏覽人次：<span id="Label_browseCount">1,164,814</span><br />
+            
+            財團法人中央畜產會 © 2016-2020 NAIF All Rights Reserved.<br />
+            本站背景來源取自免費圖庫pixabay，符合CC0 Public Domain
+            
+        </div>
+    </form>
+</body>
+</html>

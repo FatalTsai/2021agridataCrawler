@@ -1,0 +1,98 @@
+[
+  {
+    "year": 2016,
+    "type": "畜產",
+    "yield": 165384015,
+    "yield_percen": "32.19"
+  },
+  {
+    "year": 2016,
+    "type": "漁產",
+    "yield": 82640192,
+    "yield_percen": "16.09"
+  },
+  {
+    "year": 2016,
+    "type": "林產",
+    "yield": 206705,
+    "yield_percen": "0.04"
+  },
+  {
+    "year": 2016,
+    "type": "農產",
+    "yield": 265529212,
+    "yield_percen": "51.68"
+  },
+  {
+    "year": 2015,
+    "type": "畜產",
+    "yield": 163941310,
+    "yield_percen": "32.73"
+  },
+  {
+    "year": 2015,
+    "type": "漁產",
+    "yield": 92255540,
+    "yield_percen": "18.42"
+  },
+  {
+    "year": 2015,
+    "type": "林產",
+    "yield": 243783,
+    "yield_percen": "0.05"
+  },
+  {
+    "year": 2015,
+    "type": "農產",
+    "yield": 244422383,
+    "yield_percen": "48.8"
+  },
+  {
+    "year": 2014,
+    "type": "畜產",
+    "yield": 168632697,
+    "yield_percen": "32.37"
+  },
+  {
+    "year": 2014,
+    "type": "漁產",
+    "yield": 104961636,
+    "yield_percen": "20.15"
+  },
+  {
+    "year": 2014,
+    "type": "林產",
+    "yield": 381613,
+    "yield_percen": "0.07"
+  },
+  {
+    "year": 2014,
+    "type": "農產",
+    "yield": 246981579,
+    "yield_percen": "47.41"
+  },
+  {
+    "year": 2013,
+    "type": "畜產",
+    "yield": 149955351,
+    "yield_percen": "31.08"
+  },
+  {
+    "year": 2013,
+    "type": "漁產",
+    "yield": 101649634,
+    "yield_percen": "21.07"
+  },
+  {
+    "year": 2013,
+    "type": "林產",
+    "yield": 431659,
+    "yield_percen": "0.09"
+  },
+  {
+    "year": 2013,
+    "type": "農產",
+    "yield": 230456822,
+    "yield_percen": "47.76"
+  }
+]

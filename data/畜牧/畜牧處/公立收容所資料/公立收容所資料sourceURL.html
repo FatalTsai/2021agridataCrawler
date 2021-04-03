@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="description" content="動物保護資訊網" />
+    <meta name="author" content="" />
+    <!--Favicon -->
+    <link rel="icon" type="image/png" href="/Areas/Frontend/Content/Frontend_Template/images/favicon.png" />
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/Areas/Frontend/Content/Frontend_Template/images/apple-touch-icon.png" />
+
+    <title>動物保護資訊網-公立收容所</title>
+
+
+    <!-- ***************************** CSS ************************************** -->
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/plugins.css?v=2.4" />
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/revolutionslider/settings.css" />
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/theme.css?v=2.4" />
+    <!-- Page Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/content/sun-01/css/sun-01.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/custom.css" />
+    <!-- 自訂css -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/all.css?20191028" />
+
+    <!-- SweetAlert2 -->
+    <link href="/Areas/Backend/Plugin/SweetAlert2/sweetalert2.min.css" rel="stylesheet" />
+    <script src="/Areas/Backend/Plugin/SweetAlert2/sweetalert2.min.js"></script>
+    <script src="/Areas/Backend/Plugin/SweetAlert2/SweetAlertBox.js"></script>
+    <script src="/Areas/Backend/Plugin/SweetAlert2/core.js"></script>
+
+    
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/jquery.min.js?v=2.3"></script>
+
+
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '195015961847823');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=195015961847823&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+<!-- LOADER -->
+<div class="page-loader bg-white">
+    <div class="v-center t-center">
+        <div class="spinner">
+            <div class="spinner__item1 bg-colored"></div>
+            <div class="spinner__item2 bg-colored"></div>
+            <div class="spinner__item3 bg-colored"></div>
+            <div class="spinner__item4 bg-colored"></div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGETOP -->
+<div id="pagetop" class="dark">
+    <a class="skip-main" onclick="EnterContent();" href="#accesskeyc" title="進入主要內容" tabindex="1">進入主要內容</a>
+    <div class="container">
+        <!-- Right, socials -->
+        <div class="right clearfix">
+            <a href="#accesskeyu" name="accesskeyu" id="accesskeyu" accesskey="u" title="上方選單區塊" tabindex="1">:::</a>
+            <a href="/Frontend/VUC/SiteMap" class="text" title="網站導覽" tabindex="1">網站導覽</a>
+            <a href="/Frontend/AdoptSearch/AdoptInfo?tab=2" class="text" title="動保申訴電話" rel="nofollow" tabindex="1">動保申訴電話</a>
+            <a href="https://www.facebook.com/animalcoa/" target="_blank" title="facebook粉絲專頁(另開視窗)" class="facebook" tabindex="1"><i class="fa fa-facebook"></i></a>
+        </div>
+    </div>
+</div>
+<!--END PAGETOP -->
+<!-- NAVIGATION -->
+<nav id="navigation" class="white-nav sticky modern hover4 radius-drop" data-offset="55">
+    <!-- Columns -->
+    <div class="columns clearfix container">
+        <!-- Logo -->
+        <div class="logo">
+            <h1>
+                <a href="/" title="動物保護資訊網:回首頁" tabindex="1">
+                    <img src="/Areas/Frontend/Content/Frontend_Template/images/logo.png" data-second-logo="~/Areas/Frontend/Content/Frontend_Template/images/logo.png" alt="動物保護資訊網-徽標">
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav clearfix uppercase">
+                <li class="dropdown-toggle" id="dt-1">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-1');" title="訊息專區" tabindex="1"><button onclick="javascript:location.href='/Frontend/News/LatestNews?tab=1'" tabindex="-1">訊息專區</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/News/LatestNews?tab=1" title="公告訊息" tabindex="1">公告訊息</a></li>
+                        <li><a href="/Frontend/News/LatestNews?tab=2"  title="新聞稿" tabindex="1">新聞稿</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-2">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-2');" title="認領養與協尋" tabindex="1"><button onclick="javascript:location.href='/Frontend/AdoptSearch/AdoptInfo?tab=1'" tabindex="-1">認領養與協尋</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/AdoptSearch/AdoptInfo?tab=1" title="領養資訊" tabindex="1">領養資訊</a></li>
+                        <li><a href="/Frontend/AdoptSearch/AdoptInfo?tab=2" title="協尋資訊" tabindex="1">協尋資訊</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-3">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-3');" title="主題網站" tabindex="1"><button tabindex="-1">主題網站</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/PublicShelter" title="公立動物收容所列表" tabindex="1">公立動物收容所列表</a></li>
+                        <li><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceMent.aspx?PageType=Adopt" target="_blank" title="全國動物收容管理系統 (另開新頁)" tabindex="1">全國動物收容管理系統</a></li>
+                        <li><a href="https://paim.coa.gov.tw/Web/BusinessList.aspx" target="_blank" title="特定寵物業管理系統 (另開新頁)" tabindex="1">特定寵物業管理系統</a></li>
+                        <li><a href="https://petfood.coa.gov.tw/web/" target="_blank" title="寵物食品申報網 (另開新頁)" tabindex="1">寵物食品申報網</a></li>
+                        <li><a href="https://www.pet.gov.tw/" target="_blank" title="寵物登記管理系統 (另開新頁)" tabindex="1">寵物登記管理系統</a></li>
+                        <li><a href="https://www.baphiq.gov.tw/view.php?catid=4507" target="_blank" title="狂犬病專區防檢局 (另開新頁)" tabindex="1">狂犬病專區(防檢局)</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-4">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-4');" title="我想了解專區" tabindex="1"><button onclick="javascript:location.href='/Frontend/Know'" tabindex="-1">我想了解專區</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/Know/EconomicAnimal" title="經濟動物" tabindex="1">經濟動物</a></li>
+                        <li><a href="/Frontend/Know/ExperimentAnimal" title="實驗動物" tabindex="1">實驗動物</a></li>
+                        <li><a href="/Frontend/Know/Laws" title="法令天地" tabindex="1">法令天地</a></li>
+                        <li><a href="/Frontend/Know/AnimalResource" title="動保資源" tabindex="1">動保資源</a></li>
+                        <li><a href="/Frontend/AdoptSearch/DogHotSpot" style="width: 203px;" title="遊蕩犬熱點執行成效管控" tabindex="1">遊蕩犬熱點執行成效管控</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://chiefsuit.coa.gov.tw/ChiefMail/jsp/doms/ac/A001.jsp" target="_blank" title="首長信箱(另開視窗)" tabindex="1">連絡我們</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Navigation Menu -->
+
+        <!-- Right Elements; Nav Button, Language Button, Search .etc -->
+        <div class="nav-elements">
+            <ul class="clearfix nav no-ls normal">
+                <!-- Search Button -->
+                <li><a href="/Frontend/VUC/SiteSearch" class="search-form-trigger" title="全站搜尋" tabindex="1"><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Columns -->
+</nav>
+<!-- END NAVIGATION -->
+
+<script>
+
+    function EnterContent() {
+            $('#accesskeyc').focus();
+    }
+
+    // 鍵盤操作 onFocus  下拉展開
+    function ActOnFocus(TabName) {
+        var $item = $('#'+TabName).find('ul.dropdown-menu');
+        $('.nav-menu ul.dropdown-menu').hide();
+        $item.show(0);
+    }
+</script>
+
+    <noscript>
+        您的瀏覽器不支援JavaScript功能，若網頁功能無法正常使用時，請開啟瀏覽器JavaScript狀態
+        <style>
+            .page-loader {
+                display: none;
+            }
+        </style>
+    </noscript>
+
+    
+
+<script>
+    geoFindMe();
+
+    //定位程式
+    function geoFindMe() {
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(success, error);
+        }
+
+        function success(position) {
+            var lon = position.coords.longitude;
+            var lat = position.coords.latitude;
+
+            //取得位置所在縣市
+            /*$.get('/Frontend/Ajax/AjaxLoadCityID', { lat: lat, lng: lng }, function (responce) {
+                if (!!responce) {
+                    console.log(responce);
+                }
+            });*/
+
+                location.search = "?searchLon=" + lon + "&searchLat=" + lat;
+        };
+
+        function error() {
+            console.log("Unable to retrieve your location");
+        }
+    }
+</script>
+
+<!-- HeaderTitle -->
+<section id="home" class="sm-py t-center fullwidth o-hidden relative z-index-1">
+    <!-- Parallax Background -->
+    <div class="bg-parallax skrollr loaded skrollable skrollable-between" data-anchor-target="#home" data-0="transform:translate3d(0, 0px, 0px);" data-900="transform:translate3d(0px, 200px, 0px);" data-background="/Areas/Frontend/Content/Frontend_Template/images/backgrounds/background_12.jpg" style="background-image: url(&quot;/Areas/Frontend/Content/Frontend_Template/images/backgrounds/background_12.jpg&quot;); transform: translate3d(0px, 0px, 0px);"></div>
+    <!-- Container -->
+    <div class="container skrollr skrollable skrollable-between" data-0="opacity:1;" data-200="opacity:0;" style="opacity: 1;">
+        <div class="t-center white">
+            <p class="gray5 bdc-links">
+                <a href="/" title="回到首頁" tabindex="1"> 首頁</a> /
+                    <a href="/Frontend/PublicShelter">公立收容所</a>
+            </p>
+            <h2 class="bold-title lh-sm h1" id="HeaderTitle">
+公立收容所            </h2>
+        </div>
+    </div>
+    <!-- End Container -->
+</section>
+
+<!-- 主要區域導盲磚 -->
+<a href="#accesskeyc" name="accesskeyc" id="accesskeyc" accesskey="c" title="主要內容區塊" tabindex="1">:::</a>
+<!-- 主要區域導盲磚 end-->
+
+<!-- BLOG -->
+<section id="blog" class="qdr-blog post-radius gray6 post-shadow lh-lg py bg-gray2">
+    <form method="get">
+
+        <!-- Container for top elements -->
+        <div class="container-md blog-utilities xxs-pb t-center">
+            <div class="">
+                <!-- Search Form -->
+                <input id="searchLon" name="searchLon" type="hidden" value="" />
+                <input id="searchLat" name="searchLat" type="hidden" value="" />
+
+                <div class="form-inline align-items-center xs-mb">
+                    <div class="form-group">
+                        <label for="searchCity" class="bold-subtitle">縣市查詢 :</label>
+<select class="classic_form big radius-lg bs-xl-hover bs-xl-focus form-control no-mb mx-md-2" data-parsley-type="ddl" id="searchCity" name="searchCity" style="width: 125px;"><option value="0">---全部---</option>
+<option value="A010">臺北市</option>
+<option value="A020">新北市</option>
+<option value="A030">基隆市</option>
+<option value="A040">高雄市</option>
+<option value="A060">臺中市</option>
+<option value="A090">桃園市</option>
+<option value="A100">新竹市</option>
+<option value="A110">新竹縣</option>
+<option value="A130">苗栗縣</option>
+<option value="A150">南投縣</option>
+<option value="A170">彰化縣</option>
+<option value="A180">雲林縣</option>
+<option value="A190">嘉義市</option>
+<option value="A200">嘉義縣</option>
+<option value="A210">臺南市</option>
+<option value="A240">屏東縣</option>
+<option value="A260">宜蘭縣</option>
+<option value="A280">花蓮縣</option>
+<option value="A300">臺東縣</option>
+<option value="A310">澎湖縣</option>
+<option value="A320">金門縣</option>
+<option value="A330">連江縣</option>
+</select>                    </div>
+                    <div class="form-group">
+                        <label for="searchWord" class="bold-subtitle">關鍵字查詢:</label>
+                        <input class="form-control classic_form big radius-lg bs-xl-hover bs-xl-focus form-control no-mb mx-md-2" id="searchWord" name="searchWord" placeholder="輸入關鍵字" type="text" value="" />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="btnSubmit" class="bg-colored click-effect white extrabold qdr-hover-6 classic_form big radius uppercase no-mb radius-lg">查詢</button>
+                    </div>
+                </div>
+                <!-- End Search Form -->
+                <!-- Utilities -->
+                <div class="col-lg-3 col-md-4 col-12 t-left t-center-mobile xxs-pt-mobile">
+                    <div class="row clearfix">
+
+                    </div>
+                </div>
+                <!-- End Utilities -->
+            </div>
+        </div>
+        <!-- End Container for top elements -->
+        <!-- Container for posts -->
+        <div class="container-md">
+            <input id="searchArea" name="searchArea" type="hidden" value="" />
+
+            <div id="gallery-filter" class="cbp-l-filters-text">
+                <div class="cbp-l-filters-text-sort">區域:</div>
+                        <a data-filter="all" class="cbp-filter-item " href="#" title="搜尋 全部收容所">
+                            全部 <div class="cbp-filter-counter">31</div>
+                        </a>
+ |                         <a data-filter="C01" class="cbp-filter-item " href="#" title="搜尋 北部收容所">
+                            北部 <div class="cbp-filter-counter">13</div>
+                        </a>
+ |                         <a data-filter="C02" class="cbp-filter-item " href="#" title="搜尋 中部收容所">
+                            中部 <div class="cbp-filter-counter">5</div>
+                        </a>
+ |                         <a data-filter="C03" class="cbp-filter-item " href="#" title="搜尋 南部收容所">
+                            南部 <div class="cbp-filter-counter">7</div>
+                        </a>
+ |                         <a data-filter="C04" class="cbp-filter-item " href="#" title="搜尋 東部收容所">
+                            東部 <div class="cbp-filter-counter">3</div>
+                        </a>
+ |                         <a data-filter="C05" class="cbp-filter-item " href="#" title="搜尋 離島收容所">
+                            離島 <div class="cbp-filter-counter">3</div>
+                        </a>
+            </div>
+            <!-- Blog Posts -->
+            <div id="posts" class="cbp">
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000001" class="cbp-item art music" title="前往 臺北市動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191209044244438915VVSCA.jpg" style="height:270px;" alt="臺北市動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">臺北市動物之家</p>
+                                <p class="extrabold">電話：02-87913254 ； ...</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000003" class="cbp-item art music" title="前往 新北市板橋區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/1912031011578946835BNC5.jpeg" style="height:270px;" alt="新北市板橋區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市板橋區公立動物之家</p>
+                                <p class="extrabold">電話：02-89662158</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000004" class="cbp-item art music" title="前往 新北市新店區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204122118870319LCQAZ.jpg" style="height:270px;" alt="新北市新店區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市新店區公立動物之家</p>
+                                <p class="extrabold">電話：02-22159462</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000005" class="cbp-item art music" title="前往 新北市中和區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204121214220459H5QBK.jpg" style="height:270px;" alt="新北市中和區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市中和區公立動物之家</p>
+                                <p class="extrabold">電話：02-86685547</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000006" class="cbp-item art music" title="前往 新北市淡水區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204121853668858V4KRW.jpg" style="height:270px;" alt="新北市淡水區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市淡水區公立動物之家</p>
+                                <p class="extrabold">電話：02-26267558</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000007" class="cbp-item art music" title="前往 新北市瑞芳區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204122149448101BJDYH.jpg" style="height:270px;" alt="新北市瑞芳區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市瑞芳區公立動物之家</p>
+                                <p class="extrabold">電話：02-24063481</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000008" class="cbp-item art music" title="前往 新北市五股區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204121302860451TB7DA.jpg" style="height:270px;" alt="新北市五股區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市五股區公立動物之家</p>
+                                <p class="extrabold">電話：02-82925265</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000009" class="cbp-item art music" title="前往 新北市八里區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/1912041207126305276V576.jpg" style="height:270px;" alt="新北市八里區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市八里區公立動物之家</p>
+                                <p class="extrabold">電話：02-26194428</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000010" class="cbp-item art music" title="前往 新北市三芝區公立動物之家">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204120749333031R7372.jpg" style="height:270px;" alt="新北市三芝區公立動物之家" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">新北市三芝區公立動物之家</p>
+                                <p class="extrabold">電話：02-26365436</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000002" class="cbp-item art music" title="前往 基隆市寵物銀行">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191209044325520835EMZKM.jpg" style="height:270px;" alt="基隆市寵物銀行" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">基隆市寵物銀行</p>
+                                <p class="extrabold">電話：02-24560148</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000026" class="cbp-item art music" title="前往 高雄市壽山動物保護教育園區">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204125803206595W1DKV.jpg" style="height:270px;" alt="高雄市壽山動物保護教育園區" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">高雄市壽山動物保護教育園...</p>
+                                <p class="extrabold">電話：07-5519059</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+                        <!-- Post -->
+                        <a href="/Frontend/PublicShelter/Detail/PS00000027" class="cbp-item art music" title="前往 高雄市燕巢動物保護關愛園區">
+                            <!-- Image -->
+
+                            <img class="cbp-img" src="/public/upload/PublicShelterImage/191204125925986965ATZSR.jpg" style="height:270px;" alt="高雄市燕巢動物保護關愛園區" />
+                            <!-- Post Texts -->
+                            <div class="xs-px xs-py xs-px-mobile bg-white bs-sm">
+                                <!-- Title -->
+                                <p class="bold-subtitle dark h4">高雄市燕巢動物保護關愛園...</p>
+                                <p class="extrabold">電話：07-6051002</p>
+                            </div>
+                        </a>
+                        <!-- End Post -->
+            </div>
+            <!-- End Blog Posts -->
+        </div>
+        <!-- End Container for posts -->
+        <div class="t-center pt">
+
+            <input class="hiddenCurrentPage" data-val="true" data-val-number="欄位 m_iPageIndex 必須是數字。" data-val-required="m_iPageIndex 欄位是必要項。" id="PagerInfo_m_iPageIndex" name="PagerInfo.m_iPageIndex" type="hidden" value="1" />
+            <input class="hiddenPageCount" data-val="true" data-val-number="欄位 m_iPageCount 必須是數字。" data-val-required="m_iPageCount 欄位是必要項。" id="PagerInfo_m_iPageCount" name="PagerInfo.m_iPageCount" type="hidden" value="12" />
+            <input class="pager-Info-Search" data-val="true" data-val-required="m_Search 欄位是必要項。" id="PagerInfo_m_Search" name="PagerInfo.m_Search" type="hidden" value="True" />
+            <script type="text/javascript">
+    $(document).ready(function () {
+        //$('#pager-Info-Search').val(true);
+        $('.pager-Info-Search').val(true);
+    });
+
+    function ChangeCurrentPage(page,e) {
+        $($(e).parents('div')[1]).find('.hiddenCurrentPage').val(page);
+
+        var form = $(e).closest('form').get(0);
+        if (form != null) {
+            $('#hiddenSearchSource').val('2');
+            $($(e).parents('div')[1]).find('.pager-Info-Search').val(false);
+            if($('#table-body').length == 1){
+                $('#table-body').empty();
+            }
+
+            form.submit();
+        }
+    }
+
+    function ChangePageSize(page) {
+        var _pageCount = $(page).siblings("select").val();
+        $($(page).parents('div')[1]).find('.hiddenPageCount').val(_pageCount);
+
+        var form = $(page).closest('form').get(0);
+        if (form != null) {
+            $('#hiddenSearchSource').val('2');
+            $(page).parent('div').parent('div').find('.pager-Info-Search').val(false);
+            if($('#table-body').length == 1){
+                $('#table-body').empty();
+            }
+
+            form.submit();
+        }
+    }
+</script>
+
+<div class="btnArea">
+    <nav aria-label="Page navigation">
+        <ul class="pagination pagination-lg">
+
+
+
+
+
+
+                <li class="active"><a href="javascript:;" class="number current stay bg-gray3 bold gray6 xxs-px c-default" title="第1頁">1</a></li>
+
+                <li><a href="javascript:;" class="number bg-transparent br-0 gray9 bold bg-gray3-hover xxs-px" title="第2頁" onclick="ChangeCurrentPage(2,this)">2</a></li>
+
+                <li><a href="javascript:;" class="number bg-transparent br-0 gray9 bold bg-gray3-hover xxs-px" title="第3頁" onclick="ChangeCurrentPage(3,this)">3</a></li>
+
+
+
+                <li><a href="javascript:;" class="page bg-transparent gray9 bold bg-gray3-hover xs-px" title="下一頁" onclick="ChangeCurrentPage(2,this)">下一頁<i class="fa fa-angle-double-right mini-ml"></i></a></li>
+
+                <li><a href="javascript:;" class="page bg-transparent gray9 bold bg-gray3-hover xs-px" title="末頁" onclick="ChangeCurrentPage(3 ,this)">末頁</a></li>
+        </ul>
+    </nav>
+
+    <br />
+    <br />
+    &nbsp;
+    <button id="changePageCountSubmit" class="btn btn-warning" style="width: 80px; display: inline;" onclick="ChangePageSize(this)">送出</button>
+    [
+        <span data-lang="資料" data-title="資料">資料</span>：31&nbsp;
+        <span data-lang="筆" data-title="筆">筆</span>，
+        <span data-lang="共" data-title="共">共</span>&nbsp;3&nbsp;
+        <span data-lang="頁，目前第" data-title="頁，目前第">頁，目前第</span>&nbsp;1&nbsp;
+        <span data-lang="頁" data-title="頁">頁</span>
+    ]
+</div>
+
+
+        </div>
+    </form>
+</section>
+<!-- END BLOG -->
+
+<script>
+    $(function () {
+        $('a.cbp-filter-item').click(function (e) {
+            e.preventDefault;
+            var filter = $(this).data('filter');
+            $('#searchArea').val(filter).closest('form').submit();
+
+            return false;
+        });
+    });
+</script>
+
+<footer id="footer" class="classic_footer">
+    <!-- Container -->
+    <div class="container footer-body">
+        <div class="row clearfix">
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <!-- Title -->
+                <p class="uppercase white extrabold h4">關於我們</p>
+                <p class="xxs-mt bold gray7 h5">動物保護資訊網</p>
+                <p class="mini-mt">本網站讓 ”尊重生命 保護動物” 理念成為生活的一部分！提供基本小常識，從自我檢測是否適合飼養寵物，如何認領養或選擇合法寵物業者、植入晶片並辦理寵物登記、到絕育或提出繁殖管理說明、教導寵物正確行為，並提供相關單位聯絡方式，幫助您了解自己、認識寵物，輕鬆展開您與寵物－愛的新生活。</p>
+                <p class="uppercase white extrabold xs-mt h5">
+                    瀏覽人數：<span class="visitor"></span>
+                </p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <!-- Title -->
+                <p class="uppercase white extrabold h5">聯絡我們</p>
+                <p class="xxs-mt bold gray7 h6"><i class="fa fa-map-marker mini-mr"></i>地址</p>
+                <p class="mini-mt">10014 臺北市中正區南海路 37 號</p>
+                <!-- Google Map -->
+                <a href="https://goo.gl/maps/JRgfxoKedb3DAj5m7" title="前往 google地圖(另開視窗)" target="_blank">
+                    Google Map
+                </a>
+                <p class="xs-mt bold gray7 h6"><i class="fa fa-phone mini-mr"></i>電話</p>
+                <p class="mini-mt">(02)2381-2991</p>
+                <p class="xs-mt bold gray7 h6"><i class="fa fa-fax mini-mr"></i>傳真</p>
+                <p class="mini-mt">(02)2331-0341</p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <p class="uppercase white extrabold xxs-mb h5">快速連結</p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/PetInsurance" class="mini-mt underline-hover gray6-hover gray7" title="前往 寵物保險">寵物保險</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/OpenDeclare" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站資料開放宣告">網站資料開放宣告</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/PrivacyDeclare" class="mini-mt underline-hover gray6-hover gray7" title="前往 隱私權及資訊安全宣告">隱私權及資訊安全宣告</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/SiteMap" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站導覽">網站導覽</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/SiteSearch" class="mini-mt underline-hover gray6-hover gray7" title="前往 全站搜尋">全站搜尋</a></p>
+                
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/APIservice" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站API串接服務">網站API串接服務</a></p>
+                <p class="xxs-mt gray7"><a href="https://www.coa.gov.tw/ws.php?id=19059" target="_blank" title="前往 重大政策(另開視窗)" class="mini-mt underline-hover gray6-hover gray7">重大政策</a></p>
+                <p class="xxs-mt gray7"><a href="https://www.coa.gov.tw/ws.php?id=3" target="_blank" title="前往 施政計畫(另開視窗)" class="mini-mt underline-hover gray6-hover gray7">施政計畫</a></p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <!-- Title -->
+                <p class="uppercase white extrabold no-pm h5">社群連結</p>
+                <p class="xxs-mt gray7">
+                    <span class="fa-stack fa-1x">
+                        <a href="https://www.facebook.com/animalcoa/" target="_blank" title="facebook粉絲專頁(另開視窗)" class="facebook">
+                            <i class="fa fa-square fa-stack-2x" style="color: #3B5998;"></i>
+                            <i class="fa fa-facebook fa-stack-1x" style="color: #fff;"></i>
+                        </a>
+                    </span>
+                </p>
+                    <a href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20191220101946" title="無障礙網站" style="display:block;">
+                        <img alt="通過AA檢測等級無障礙網頁檢測" border="0" height="auto" src="https://www.handicap-free.nat.gov.tw/ImagesUploads/e556a365-33fc-40e3-8d8f-94e2cd96288d.jpg" style="margin:20px 0;" width="150px">
+                    </a>
+            </div>
+            <!-- End Column -->  
+        </div>
+    </div>
+    <!-- End Container -->
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row clearfix calculate-height t-center-xs">
+                <div class="col-sm-6 col-xs-12 table-im t-left height-auto-mobile t-center-xs">
+                    <div class="v-middle">
+                        <img src="/Areas/Frontend/Content/Frontend_Template/content/sun-01/images/logo_02.png" alt="logo icon" class="logo">
+                    </div>
+                </div>
+                <!-- Bottom Note -->
+                <div class="col-sm-6 col-xs-12 table-im t-right height-auto-mobile t-center-xs xxs-mt-mobile">
+                    <p class="v-middle">
+                        <p class="gray6-hover h6">Term and Condition | 行政院農業委員會版權所有</p>
+                        © 2019. COA All Rights Reserved‧
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+<!--========== END FOOTER ==========-->
+<!-- Back To Top -->
+<a id="back-to-top" href="#top" title="返回頂端"><i class="fa fa-angle-up"></i></a>
+<style>
+    a.facebook{
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+</style>
+
+    
+    <input id="sessionlang" name="sessionlang" type="hidden" value="" />
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    
+
+
+
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/revolutionslider/jquery.themepunch.tools.min.js"></script>
+    <!-- PAGE OPTIONS - You can find special scripts for this version -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/content/sun-01/js/plugins.js?20191029"></script>
+    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/scripts.js?v=2.3"></script>
+    <!-- End JS Files -->
+
+    <script type="text/javascript">
+        (function ($, window, document, undefined) {
+            'use strict';
+
+            // init cubeportfolio
+            $('#images').cubeportfolio({
+                layoutMode: 'slider',
+                drag: true,
+                auto: false,
+                autoTimeout: 5000,
+                autoPauseOnHover: true,
+                showNavigation: false,
+                showPagination: false,
+                rewindNav: true,
+                scrollByPage: true,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 0,
+                    cols: 1,
+                }],
+                gapHorizontal: 0,
+                gapVertical: 0,
+                caption: '',
+                displayType: 'fadeIn',
+                displayTypeSpeed: 400,
+
+                plugins: {
+                    slider: {
+                        pagination: '#thumbnails',
+                        paginationClass: 'cbp-pagination-active',
+                    }
+                },
+            });
+
+            $('#recents').cubeportfolio({
+                layoutMode: 'slider',
+                drag: true,
+                auto: false,
+                autoTimeout: 5000,
+                autoPauseOnHover: true,
+                showNavigation: false,
+                showPagination: true,
+                rewindNav: false,
+                scrollByPage: false,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1500,
+                    cols: 5,
+                }, {
+                    width: 1100,
+                    cols: 4,
+                }, {
+                    width: 700,
+                    cols: 3,
+                }, {
+                    width: 480,
+                    cols: 2,
+                }, {
+                    width: 360,
+                    cols: 1,
+                    options: {
+                        caption: '',
+                        gapVertical: 10,
+                    }
+                }],
+                gapHorizontal: 0,
+                gapVertical: 25,
+                caption: '',
+                displayType: 'fadeIn',
+                displayTypeSpeed: 40,
+
+            });
+
+            // 流體排版
+            $('#posts').cubeportfolio({
+                filters: '#tags',
+                search: '#blog-search',
+                gapHorizontal: 50,
+                layoutMode: 'grid',
+                gapVertical: 20,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1050,
+                    cols: 4,
+                }, {
+                    width: 950,
+                    cols: 3,
+                }, {
+                    width: 850,
+                    cols: 2,
+                }, {
+                    width: 770,
+                    cols: 2,
+                }, {
+                    width: 640,
+                    cols: 2,
+                }, {
+                    width: 480,
+                    cols: 1,
+                }, {
+                    width: 320,
+                    cols: 1
+                }],
+                caption: 'none',
+                animationType: 'quicksand',
+                displayType: 'bottomToTop',
+                displayTypeSpeed: 60,
+            });
+        })(jQuery, window, document);
+    </script>
+
+    <script>
+        $(function () {
+            // 瀏覽人數
+            $.ajax({
+                type: "Post",
+                url: "/Frontend/VUC/Visitors",
+                dataType: "json",
+                success: function (response) {
+                    if (response.isSuccess === true) {
+                        $.each($('.visitor'), function (index, element) {
+                            element.innerText = response.data;
+                        })
+                    }
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64678028-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64678028-1');
+    </script>
+</body>
+</html>

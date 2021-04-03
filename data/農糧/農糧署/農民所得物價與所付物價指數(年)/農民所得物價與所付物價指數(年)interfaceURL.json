@@ -1,0 +1,34 @@
+[
+  {
+    "year": 2016,
+    "index_price_received_agricultural": "136",
+    "index_price_received_paddy": "109.55",
+    "index_price_received_animal": "105.78",
+    "price_index_product": "101.32",
+    "price_index_live": "105.1"
+  },
+  {
+    "year": 2015,
+    "index_price_received_agricultural": "120",
+    "index_price_received_paddy": "107",
+    "index_price_received_animal": "105.86",
+    "price_index_product": "101.91",
+    "price_index_live": "103.65"
+  },
+  {
+    "year": 2014,
+    "index_price_received_agricultural": "116",
+    "index_price_received_paddy": "109.48",
+    "index_price_received_animal": "109.07",
+    "price_index_product": "103.84",
+    "price_index_live": "103.97"
+  },
+  {
+    "year": 2013,
+    "index_price_received_agricultural": "115",
+    "index_price_received_paddy": "103.26",
+    "index_price_received_animal": "95.95",
+    "price_index_product": "103.49",
+    "price_index_live": "102.74"
+  }
+]

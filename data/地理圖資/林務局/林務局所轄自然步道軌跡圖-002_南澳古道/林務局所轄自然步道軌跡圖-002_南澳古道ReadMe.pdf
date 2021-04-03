@@ -1,0 +1,126 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta property ="og:type" content="website"/>
+<meta property ="og:url" content="error.aspx"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="api" type="application/x.atom+xml" title="農業開放資料服務平臺" href="https://agridata.coa.gov.tw/openapi.json" />
+    <link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" rel="stylesheet">
+    <link href="/app.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    
+    <title>常見問題 - 農業開放資料服務平台</title>
+
+</head>
+<body>
+
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container full header-wrapper">
+            <div class="logo-wrapper"><a class="logo" href="index.aspx"></a></div>
+            <div id="menu-btn">
+                <div><span></span><span></span><span></span></div>
+            </div>
+            <div class="menu-wrapper">
+                <div id="closeMenu"></div>
+                <nav>
+                    <div class="nav-link user-func">
+                        
+                        <div><a href="/login.aspx">登入</a><span></span><a href="join.aspx">註冊</a></div>
+                        
+                    </div>
+                    <div class="sub-menu">
+                        <a class="nav-link sub-menu-btn  ">
+                            <i class="fas fa-th"></i><span>關於平台</span>
+                            <i class="last fas fa-angle-down"></i></a>
+                        <div class="sub-menu-wrapper">
+                            <a href="/about.aspx">平台介紹</a>
+                            <a href="https://data.gov.tw/license" target="_blank">授權條款</a>
+                            <a href="/terms.aspx">隱私權保護</a>
+
+                        </div>
+                    </div>
+                    <a class="nav-link " href="/application.aspx">
+                        <i class="fas fa-book"></i><span>應用範例</span>
+
+                    </a>
+                    <div class="sub-menu">
+                        <a class="nav-link sub-menu-btn  ">
+                            <i class="fas fa-download"></i><span>API專區</span>
+                            <i class="last fas fa-angle-down"></i>
+                        </a>
+                        <div class="sub-menu-wrapper">
+                            <a href="/api.aspx">API專區</a>
+                            <a href="/apidocs.aspx">API文件</a>
+
+                        </div>
+                    </div>
+                    
+                    <a class="nav-link " href="/Thematic.aspx"><i class="fas fa-comments"></i><span>主題式資料</span></a>
+                    <a class="nav-link " href="/open.aspx"><i class="fas fa-comments"></i><span>資料開放</span></a>
+                    <a class="nav-link " href="/question.aspx"><i class="fas fa-comments"></i><span>常見問答</span></a>
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <div class="content-area">
+        
+    
+    <article class="container">
+      <div class="top-info">
+        <h3 class="title-h3">網頁錯誤<span>ERROR PAGE</span></h3>
+        
+      </div>
+      <hr>
+      
+      <div class="answer-box bg-light-green">系統截取錯誤資訊中...<br />請點選上方選單繼續或<a href="/"><u>回首頁</u></a></div>
+      
+      <div class="answer-notice has-text-grey">
+         歡迎利用本平臺開放資料進行各項應用服務開發，並回饋寶貴意見。<br>若有任何疑問，歡迎透過<a class="link" href="contact.aspx">聯絡我們</a>聯繫。</div>
+    </article>
+
+        <!-- Footer -->
+        <footer class="main-footer bg-dark-green ">
+            <div class="container full">
+                <div class="footer-logo">
+                    <img src="images/footer-logo.png"></div>
+                <div class="footer-info">
+                    <ul>
+                        <li>台北市中正區南海路37號</li>
+                        <li>服務時間：AM9:00~PM5:30</li>
+                        <li>服務電話：<a href="tel: 07-970-3898">(07)970-3898</a></li>
+                        <li>服務信箱：<a href="mailto:opendata@mail.coa.gov.tw">opendata@mail.coa.gov.tw</a></li>
+                    </ul>
+                    <p>※最佳瀏覽解析度為1024x768</p>
+                </div>
+                <div class="footer-declare">
+                    <nav><a href="https://data.gov.tw/license">授權條款</a><a href="terms.aspx">隱私權保護宣告</a></nav>
+                    <p>除另有註明，網站之內容皆採用 政府資料開放平臺資料使用規範</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <script type="text/javascript" src="/app.bundle.js"></script>
+
+    
+
+
+
+
+
+</body>
+</html>

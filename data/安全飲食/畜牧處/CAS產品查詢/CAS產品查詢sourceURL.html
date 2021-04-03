@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html lang="zh-TW">
+<head>
+    <title>
+        CAS優良農產品管理入口網
+    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <link type="text/css" rel="stylesheet" href="../../Content/rwd/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../Content/smoothness/jquery-ui.css" />
+    <link type="text/css" rel="stylesheet" href="../../Content/rwd/bootstrap-theme.css" />
+    <link type="text/css" rel="stylesheet" href="../../Content/rwd/login.css" />
+    <link href="../../Content/rwd/GridviewScroll.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/style.min.css" rel="stylesheet" type="text/css" />
+    <!--RWD-->
+    <script type="text/javascript" src="../../Scripts/rwd/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/rwd/menu.js"></script>
+    <script type="text/javascript" src="../../Scripts/rwd/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-ui.min.js"></script>
+
+</head>
+<body class="new-home">
+    <nav id="header_home" class="home-nav-box">
+        <div class="container">
+            <a href="/" id="header2" class="home-nav-left">
+                <div class="home-logo"><img src="../../images/rwd/logo.svg" class="align-items-center" alt="台灣優良農產品管理入口網"></div>
+                <div class="home-navbar-title">
+                    <h2>台灣優良農產品<span>管理入口網</span></h2>
+                    <h3>Taiwan premium Agricultural Products Portal Site</h3>
+                </div>
+            </a>
+            <div class="home-nav-right">
+                <div class="home-nav-btn">
+                    <a href="#" title="登入" onclick="location.href='/Home/LoginPage'" class="home-nav-login on" >
+                        <p>登入</p>
+                    </a>
+                    <a href="#" title="申請CAS標章" onclick="location.href='/BM0101/BM0101List'" class="home-nav-cas" >
+                        <p>申請CAS標章</p>
+                    </a>
+                    <a href="/" title="首頁" class="home-nav-home">
+                        <p>首頁</p>
+                    </a>
+                </div>
+                <a href="#" title="主選單" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- 手機板選單白色背景 -->
+    <div class="home-nav-bg"></div>
+    <div class="container">
+        <div class="">
+            <div class="by-component error">
+                <div class="login_box">
+                    <div class="logintit">
+                    	<img src="../images/rwd/error_box_bg.svg" alt="錯誤訊息">
+                        系統維護中
+                    </div>
+                    <div class="typbox">
+                        <div class="row">
+                            <div class="col-sm-12" style="min-height: 80px">
+                                <span>						<p>系統維護中，請稍後再試。</p>
+</span>
+                            </div>
+                            <div class="col-sm-12 login_btn">
+                                <a class="loginBt" href="/Home/LoginPage">重新登入</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script language="JavaScript">
+	//相關網站展開
+	$(function () {
+					$("#phone-icon").click(function(){
+						$("#footer").toggleClass("footeropen");
+						$("#footer").toggleClass("footerclose");
+					});
+
+					$("#phone-icon.phoneclose").click(function(){
+						$("#footer").toggleClass("footeropen");
+						$("#footer").toggleClass("footerclose");
+					});
+				});
+</script>
+<footer id="footer" class="footerclose">
+    <div class="container text-center">
+        <p>© 2009-2020 行政院農業委員會 版權所有</p>
+        <div class="footer-phone-text">
+            <h2>驗證諮詢服務</h2>
+            <p>CAS協會：02-23567417</p>
+            <p>畜產會：02-23015569</p>
+            <p>食品所：03-5223191</p>
+            <p>工研院：03-5914115</p>
+            <p>農業諮詢專線：02-4499595</p>
+        </div>
+        <p>系統使用諮詢服務專線：0800-588-889</p>
+        <div class="footer-phone">
+            <!-- 相關連結 -->
+            <div class="footer-box">
+                <p><a href="https://www.coa.gov.tw" target="_blank" style="background-image: url(../../images/links/imgLinks_coa.png);">行政院農業委員會</a></p>
+                <p><a href="http://www.cas.org.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_cas.png);">台灣優良農產品發展協會</a></p>
+                <p><a href="http://www.naif.org.tw" target="_blank" style="background-image: url(../../images/links/imgLinks_naif.png);">中央畜產會</a></p>
+                <p><a href="http://www.firdi.org.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_firdi.png);">食品工業發展研究所</a></p>
+                <p><a href="http://www.itri.org.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_itri.png);">工業技術研究院</a></p>
+                <p><a href="https://www.mohw.gov.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_doh.png);">衛生福利部</a></p>
+                <p><a href="https://rural.swcb.gov.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_swcb.png);">農村風情網</a></p>
+            </div>
+        </div>
+        <a href="#phone-icon" id="phone-icon" class="phone-icon">相關連結<span></span></a>
+    </div>
+</footer>
+
+</body>
+
+</html>

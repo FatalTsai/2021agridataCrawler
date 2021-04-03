@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='tapinfo.coa.gov.tw', port=443): Max retries exceeded with url: /work/tapinfo.php?func=require&amp;main=y (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)'),))

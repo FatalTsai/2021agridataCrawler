@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no" />
+<title>農民學院</title>
+
+<link rel="image_src" type="image/jpeg" href="https://academy.coa.gov.tw/files/banner/banner_1490865705/banner_2.jpg">
+<meta name="title" content="農民學院" />
+<meta property="og:title" content="農民學院" />
+<meta property="og:url" content="https://academy.coa.gov.tw//" /> 
+<meta property="og:image" content="https://academy.coa.gov.tw/files/banner/banner_1490865705/banner_2.jpg"/>
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="411" />
+
+<link href="css/layout.css?v=201906" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"></script>
+<script src="js/general.js?v=201906"></script>
+<script src="js/jquery.blockUI.js"></script>
+<script src="js/bootstrap.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<script>
+$(document).ready(function(){
+	
+	//訓練課程 start===========================================================================
+	$(".b01_om").each(function(){
+			var open=$(this).attr("class").split(" ")[1];
+			if( open ){
+					var open_id=$(this).attr("id");
+					open_batch_div( open_id );
+			}
+	});
+	
+	$(".b01_om").hover(function(){
+			$(this).children("img").attr("src",$(this).children("img").attr("id")+"_hover.png");
+	},function(){
+			var open=$(this).attr("class").split(" ")[1];
+			if( !open ){
+					$(this).children("img").attr("src",$(this).children("img").attr("id")+".png");
+			}
+	}).click(function(){
+			var now_open=$(this).attr("id");
+			open_batch_div( now_open );
+	});
+	
+	$(".b01select").change(function(){
+			var now_open=$(this).val();
+			open_batch_div( now_open );
+	});
+	
+	function open_batch_div( now_open ){
+			$(".b01_om").each(function(){
+					if( $(this).attr("id") != now_open ){
+							$(this).attr("class","b01_om");
+							$(this).children("img").attr("src",$(this).children("img").attr("id")+".png");
+							$("#"+$(this).attr("id")+"_batch").hide();
+					}else{
+							$(this).children("img").attr("src",$(this).children("img").attr("id")+"_hover.png");
+							$(this).attr("class","b01_om open");
+							$("#"+now_open+"_batch").show();
+							$('.b01select option[value="'+now_open+'"]').prop("selected",true);
+					}
+			});
+	}
+	//訓練課程 end=============================================================================
+	
+	//線上課程介紹 start=======================================================================
+	$(".b02menu a").each(function(){
+			var select=$(this).attr("class");
+			if( select ){
+					var select_id=$(this).attr("id");
+					open_online_div( select_id );
+			}
+	});
+
+	$(".b02menu a").click(function(){
+			var now_select=$(this).attr("id");
+			open_online_div( now_select );
+	});
+	
+	$(".b02ms").click(function(){
+			if( $(".b02ms_more").is(":hidden") ){
+					$(".b02ms_more a").each(function(){
+							if( $(this).text() != $(".b02ms").text() ){
+									$(this).show();
+							}else{
+									$(this).hide();
+							}
+					});
+					$(".b02ms_more").show();
+			}else{
+					$(".b02ms_more").hide();
+			}
+	});
+	
+	$(".b02ms_more a").click(function(){
+			var now_select=$(this).attr("id").split("_")[0];
+			open_online_div( now_select );
+			$(".b02ms_more").hide();
+	});
+	
+	function open_online_div( now_select ){
+			$(".b02menu a").each(function(){
+					if( $(this).attr("id") != now_select ){
+							$("#"+$(this).attr("id")+"_online").hide();
+							$(this).removeClass();
+					}else{
+							$("#"+now_select+"_online").show();
+							$(".b02ms").text($(this).text());
+							$(this).addClass("select");
+					}
+			});
+	}
+	//線上課程介紹 end===========================================================================
+	
+	//農業新知 start=======================================================================
+	$(".b03menu a").each(function(){
+			var choose=$(this).attr("class");
+			if( choose ){
+					var choose_id=$(this).attr("id");
+					open_news_div( choose_id );
+			}
+	});
+
+	$(".b03menu a").click(function(){
+			var now_choose=$(this).attr("id");
+			open_news_div( now_choose );
+	});
+	
+	$(".b03ms").click(function(){
+			if( $(".b03ms_more").is(":hidden") ){
+					$(".b03ms_more a").each(function(){
+							if( $(this).text() != $(".b03ms").text() ){
+									$(this).show();
+							}else{
+									$(this).hide();
+							}
+					});
+					$(".b03ms_more").show();
+			}else{
+					$(".b03ms_more").hide();
+			}
+	});
+	
+	$(".b03ms_more a").click(function(){
+			var now_choose=$(this).attr("id").split("_")[0];
+			open_news_div( now_choose );
+			$(".b03ms_more").hide();
+	});
+	
+	function open_news_div( now_choose ){
+			$(".b03menu a").each(function(){
+					if( $(this).attr("id") != now_choose ){
+							$("#"+$(this).attr("id")+"_news").hide();
+							$(this).removeClass();
+					}else{
+							$("#"+now_choose+"_news").show();
+							$(".b03ms").text($(this).text());
+							$(this).addClass("choose");
+					}
+			});
+	}
+	//農業新知 end===========================================================================
+	
+	//農村巧藝 start=======================================================================
+	$(".b05menu a").each(function(){
+			var pick=$(this).attr("class");
+			if( pick ){
+					var pick_id=$(this).attr("id");
+					open_handicraft_div( pick_id );
+			}
+	});
+
+	$(".b05menu a").click(function(){
+			var now_pick=$(this).attr("id");
+			open_handicraft_div( now_pick );
+	});
+
+	function open_handicraft_div( now_pick ){
+			$(".b05menu a").each(function(){
+					if( $(this).attr("id") != now_pick ){
+							$("#"+$(this).attr("id")+"_handicraft").hide();
+							$(this).removeClass();
+					}else{
+							$("#"+now_pick+"_handicraft").show();
+							$(this).addClass("pick");
+					}
+			});
+	}
+	//農村巧藝 end===========================================================================
+
+	//農民學院服務介紹 start===========================================================================
+	$("#top_banner_1").addClass("focus");
+	$("#top_banner_div_1").toggle();
+	
+	$("#top_banner a").click(function(){
+			var id=$(this).attr("id").split("_")[2];
+			$("#top_banner a").removeClass();
+			$(".top_banner_div").hide();
+			$("#top_banner_div_"+id).toggle();
+			$(this).addClass("focus");
+	});
+	//農民學院服務介紹 end=============================================================================
+
+	$("#bn0,.top").click(function(){
+		$("html,body").animate({
+		scrollTop:0}, 500);
+	});
+
+	if( $("#div1").length ){
+		$("#bn1").click(function(){
+			$("html,body").animate({
+			scrollTop:($("#div1").offset().top-$(".heb").height()-$(".menu").height())}, 500);
+		});
+	}
+	
+	if( $("#div2").length ){
+		$("#bn2").click(function(){
+			$("html,body").animate({
+			scrollTop:($("#div2").offset().top-$(".heb").height()-$(".menu").height())}, 500);
+		});
+	}
+	
+	if( $("#div3").length ){
+		$("#bn3").click(function(){
+			$("html,body").animate({
+			scrollTop:($("#div3").offset().top-$(".heb").height()-$(".menu").height())}, 500);
+		});
+	}
+	
+	if( $("#div4").length ){
+		$("#bn4").click(function(){
+			$("html,body").animate({
+			scrollTop:($("#div4").offset().top-$(".heb").height()-$(".menu").height())}, 500);
+		});
+	}
+	
+	if( $("#div5").length ){
+		$("#bn5").click(function(){
+			$("html,body").animate({
+			scrollTop:($("#div5").offset().top-$(".heb").height()-$(".menu").height())}, 500);
+		});
+	}
+	
+	$(window).bind('scroll resize', function(){
+		var $this = $(this);
+		var $this_Top=$this.scrollTop();
+		var less_height=$(".heb").height()+$(".menu").height()+1;
+		$(".bm a").prop("class","nt");
+			
+		var height_arr = [];
+			
+		if( $("#div1").length ){
+			height_arr.push( $("#div1").offset().top - less_height );
+		}else{
+			height_arr.push( 0 );
+		}
+			
+		if( $("#div2").length ){
+			height_arr.push( $("#div2").offset().top - less_height );
+		}else{
+			height_arr.push( 0 );
+		}
+			
+		if( $("#div3").length ){
+			height_arr.push( $("#div3").offset().top - less_height );
+		}else{
+			height_arr.push( 0 );
+		}
+			
+		if( $("#div4").length ){
+			height_arr.push( $("#div4").offset().top - less_height );
+		}else{
+			height_arr.push( 0 );
+		}
+			
+		if( $("#div5").length ){
+			height_arr.push( $("#div5").offset().top - less_height );
+		}else{
+			height_arr.push( 0 );
+		}
+			
+		if( $("#div6").length ){
+			height_arr.push( $("#div6").offset().top - less_height );
+		}else{
+			height_arr.push( 0 );
+		}
+			
+		var check = 'N';
+		$.each( height_arr , function( index , value ){
+			var if_str = ( height_arr[index+1] ) ? $this_Top >= value && $this_Top < height_arr[index+1] : $this_Top >= value ;
+			if( value ){
+				if( if_str ){
+					$("#bn"+(index+1)).prop("class","nt in");
+					check = 'Y';
+				}
+			}
+		});
+			
+		if( check == 'N' )  $("#bn0").prop("class","nt in");
+	}).scroll();
+	
+	$(window).resize(function() {
+			if( $(window).width() >= '751' ){
+					$(".b02ms_more").removeAttr("style");
+					$(".b03ms_more").removeAttr("style");
+			}
+			//console.log($(window).width());
+	});
+	
+	//肥腳開關控制
+	var status="default";
+	if( status=='default' ){
+		if( $(window).width() >= '1007' ){
+			status='open';
+		}else{
+			status='close';
+		}
+		//console.log($(window).width());
+	}
+	$(".footer_control").trigger({
+		type:"click",
+		status:status
+	});
+	
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+
+});
+</script>
+
+<style>
+.lightbox .eb input[name="pwd"] { padding-right:40px; }
+.fa-eye ,.fa-eye-slash { float:right;margin-right:10px;margin-top:-29px;position:relative;z-index:2;cursor:pointer;color:#444;font-size:18px; }
+.fa-eye { display:none; }
+header.carousel{ height:100%; }
+header.carousel .item,header.carousel .item.active,header.carousel .carousel-inner{ height:100%; }
+header.carousel .fill{ width:100%; height:100%; background-position:top center; background-size:cover; }
+@media screen and ( max-width: 1023px) and ( min-width: 768px){
+header.carousel .fill{ height:600px; background-size:170%; }	
+}
+@media screen and ( max-width: 767px) {
+header.carousel .fill{ height:0; padding-bottom:64%; background-position:center 30%; background-size:200%; }	
+}
+</style>
+
+
+    <!-- Google GATC -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58270926-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+<script>
+	/* <![CDATA[ */
+	var google_conversion_id = 836243889;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+</script>
+<script src="//www.googleadservices.com/pagead/conversion.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="header fixed"><!--手機板開啟menu取消fixed-->
+  <div class="heb">
+    <a class="logo" href="index.php"><img src="images/layout/logo.png" alt="農民學院" title="農民學院"/></a>
+    <!--mobile_menu-->
+    <a class="mobile_menu" href="javascript:void(0);" id="open">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </a>
+    <a class="mobile_menu" href="javascript:void(0);" id="close" style="display:none;">
+      <div class="line" style="transform: rotate(45deg);position: relative;top: 10px;"></div>
+      <div class="line" style="transform: rotate(-45deg);"></div>
+    </a>
+    <!--EDN_mobile_menu-->
+    <div class="h_edit">
+      <div class="right_block">
+        				<a id="login" class="member" href="javascript:void(0);" title="學員登入">學員登入<img src="images/layout/member_icon.png" alt="學員登入"/></a>
+				        <div class="keyword"><form id="site_search_form" name="site_search_form" method="post" action="site_search.php">
+				<input id="kwd" name="kwd" type="text" value="請輸入關鍵字"/><img id="search_submit" src="images/layout/search_icon.png" alt="搜尋" title="搜尋"/></form></div>
+        <a class="fb" href="list.php?id=55" target="_blank" title="農人新樂園粉絲團"><img src="images/layout/facebook_icon.png" alt="農人新樂園粉絲團"/></a>
+        <a class="rss" href="rss.php" title="RSS訂閱"><img src="images/layout/rss_icon.png" alt="RSS訂閱"/></a>
+        <div class="m2"><a href="list.php?id=716" title="網站導覽">網站導覽</a>
+			<a href="list.php?id=28" title="關於學院">關於學院</a>
+			<a href="consult.php" title="線上諮詢">線上諮詢</a>
+			<a href="list.php?id=112" title="電子報">電子報</a>
+			<a href="list.php?id=70" title="文件下載">文件下載</a>
+			<a href="list.php?id=27" title="學員專區">學員專區</a></div>
+      </div>
+      <div class="m_edit"><div class="menu_detail"><a href="list.php?id=95" title="農業新知">農業新知</a><div class="mdd"><a href="list.php?id=131" title="全部" >全部</a><a href="list.php?id=96" title="農業焦點" >農業焦點</a><a href="list.php?id=97" title="課程快報" >課程快報</a><a href="list.php?id=98" title="市集活動" >市集活動</a><a href="list.php?id=99" title="研習活動" >研習活動</a><a href="list.php?id=742" title="新農記事" >新農記事</a><a href="list.php?id=814" title="電子書庫" >電子書庫</a></div></div><div class="menu_detail"><a href="list.php?id=19" title="訓練課程">訓練課程</a><div class="mdd"><a href="list.php?id=757" title="報名教學" >報名教學</a><a href="list.php?id=22" title="農業入門" >農業入門</a><a href="list.php?id=23" title="初階訓練" >初階訓練</a><a href="list.php?id=24" title="進階訓練" >進階訓練</a><a href="list.php?id=25" title="高階訓練" >高階訓練</a><a href="list.php?id=46" title="研習活動" >研習活動</a><a href="list.php?id=135" title="線上學習" >線上學習</a></div></div><div class="menu_detail"><a href="list.php?id=516" title="農業徵才">農業徵才</a><div class="mdd"><a href="recruitment.php" title="徵才說明">徵才說明</a><a href="recruitment.php?func=apply" title="刊登申請">刊登申請</a></div></div><div class="menu_detail"><a href="list.php?id=53" title="農場見習">農場見習</a><div class="mdd"><a href="list.php?id=54" title="見習要點" >見習要點</a><a href="list.php?id=132" title="見習工作" >見習工作</a><a href="list.php?id=125" title="錄取名單" >錄取名單</a><a href="list.php?id=579" title="學生見習" >學生見習</a></div></div><div class="menu_detail"><a href="list.php?id=170" title="找通路">找通路</a><div class="mdd"><a href="list.php?id=179" title="數位通路" >數位通路</a><a href="list.php?id=181" title="農會展售中心" >農會展售中心</a><a href="list.php?id=88" title="農民市集" >農民市集</a><a href="list.php?id=689" title="量販超市" >量販超市</a><a href="list.php?id=180" title="加工與餐飲業者" >加工與餐飲業者</a></div></div><div class="menu_detail"><a href="list.php?id=171" title="找產品">找產品</a><div class="mdd"><a href="list.php?id=172" title="農產品" >農產品</a><a href="list.php?id=176" title="加工品" >加工品</a><a href="list.php?id=175" title="水產品" >水產品</a><a href="list.php?id=174" title="畜產品" >畜產品</a><a href="list.php?id=1257" title="青農電子型錄" >青農電子型錄</a></div></div><div class="menu_detail"><a href="list.php?id=36" title="好幫手">好幫手</a><div class="mdd"><a href="list.php?id=243" title="農糧類" >農糧類</a><a href="list.php?id=244" title="畜牧類" >畜牧類</a><a href="list.php?id=245" title="休閒類" >休閒類</a><a href="list.php?id=246" title="水產養殖類" >水產養殖類</a><a href="list.php?id=693" title="農業新手包" >農業新手包</a></div></div><div class="menu_detail"><a href="list.php?id=42" title="同學會">同學會</a><div class="mdd"><a href="list.php?id=55" title="農人新樂園粉絲團" target="_blank">農人新樂園粉絲團</a></div></div><div class="menu_detail"><a href="list.php?id=795" title="食農推廣">食農推廣</a><div class="mdd"><a href="list.php?id=802" title="學童體驗" >學童體驗</a><a href="list.php?id=803" title="親子體驗" >親子體驗</a><a href="list.php?id=817" title="大眾體驗" >大眾體驗</a></div></div></div>
+    </div>
+  </div>
+  <div class="menu"></div>
+  <div class="mobile_member">
+						<a id="login_mobile" class="member" href="javascript:void(0);" title="學員登入">學員登入<img src="images/layout/member_icon.png" alt="學員登入"/></a>
+						<a class="fb" href="list.php?id=55" target="_blank" title="農人新樂園粉絲團"><img src="images/layout/facebook_icon.png" alt="農人新樂園粉絲團"/></a>
+			<a class="rss" href="rss.php" title="RSS訂閱"><img src="images/layout/rss_icon.png" alt="RSS訂閱"/></a>
+	</div>
+  <div class="mobile">
+			<div class="mobile_search">
+					<div class="mobile_search_input">
+							<form id="site_search_form_mobile" name="site_search_form_mobile" method="post" action="site_search.php">
+										<input id="kwd_m" name="kwd" type="text" value="請輸入關鍵字"/>
+							</form>
+					</div>
+					<div class="mobile_search_img"><img id="search_submit_mobile" src="images/layout/search_icon.png" alt="搜尋" title="搜尋"/></div>
+					<div style="clear:both;"></div>
+			</div>
+			<div class="mobile_div_one"><div class="mobile_detail">農業新知</div><div class="mobile_mdd"><a href="list.php?id=131" title="全部">全部</a><a href="list.php?id=96" title="農業焦點">農業焦點</a><a href="list.php?id=97" title="課程快報">課程快報</a><a href="list.php?id=98" title="市集活動">市集活動</a><a href="list.php?id=99" title="研習活動">研習活動</a><a href="list.php?id=742" title="新農記事">新農記事</a><a href="list.php?id=814" title="電子書庫">電子書庫</a></div></div><div class="mobile_div_one"><div class="mobile_detail">訓練課程</div><div class="mobile_mdd"><a href="list.php?id=757" title="報名教學">報名教學</a><a href="list.php?id=22" title="農業入門">農業入門</a><a href="list.php?id=23" title="初階訓練">初階訓練</a><a href="list.php?id=24" title="進階訓練">進階訓練</a><a href="list.php?id=25" title="高階訓練">高階訓練</a><a href="list.php?id=46" title="研習活動">研習活動</a><a href="list.php?id=135" title="線上學習">線上學習</a></div></div><div class="mobile_div_one"><div class="mobile_detail">農業徵才</div><div class="mobile_mdd"><a href="recruitment.php" title="徵才說明">徵才說明</a><a href="recruitment.php?func=apply" title="刊登申請">刊登申請</a></div></div><div class="mobile_div_one"><div class="mobile_detail">農場見習</div><div class="mobile_mdd"><a href="list.php?id=54" title="見習要點">見習要點</a><a href="list.php?id=132" title="見習工作">見習工作</a><a href="list.php?id=125" title="錄取名單">錄取名單</a><a href="list.php?id=579" title="學生見習">學生見習</a></div></div><div class="mobile_div_one"><div class="mobile_detail">找通路</div><div class="mobile_mdd"><a href="list.php?id=179" title="數位通路">數位通路</a><a href="list.php?id=181" title="農會展售中心">農會展售中心</a><a href="list.php?id=88" title="農民市集">農民市集</a><a href="list.php?id=689" title="量販超市">量販超市</a><a href="list.php?id=180" title="加工與餐飲業者">加工與餐飲業者</a></div></div><div class="mobile_div_one"><div class="mobile_detail">找產品</div><div class="mobile_mdd"><a href="list.php?id=172" title="農產品">農產品</a><a href="list.php?id=176" title="加工品">加工品</a><a href="list.php?id=175" title="水產品">水產品</a><a href="list.php?id=174" title="畜產品">畜產品</a><a href="list.php?id=1257" title="青農電子型錄">青農電子型錄</a></div></div><div class="mobile_div_one"><div class="mobile_detail">好幫手</div><div class="mobile_mdd"><a href="list.php?id=243" title="農糧類">農糧類</a><a href="list.php?id=244" title="畜牧類">畜牧類</a><a href="list.php?id=245" title="休閒類">休閒類</a><a href="list.php?id=246" title="水產養殖類">水產養殖類</a><a href="list.php?id=693" title="農業新手包">農業新手包</a></div></div><div class="mobile_div_one"><div class="mobile_detail">同學會</div><div class="mobile_mdd"><a href="list.php?id=55" title="農人新樂園粉絲團">農人新樂園粉絲團</a></div></div><div class="mobile_div_one"><div class="mobile_detail">食農推廣</div><div class="mobile_mdd"><a href="list.php?id=802" title="學童體驗">學童體驗</a><a href="list.php?id=803" title="親子體驗">親子體驗</a><a href="list.php?id=817" title="大眾體驗">大眾體驗</a></div></div><div class="mobile_div_one"><div class="mobile_detail">學員專區</div><div class="mobile_mdd"><a href="list.php?id=79" title="學習紀錄" >學習紀錄</a><a href="list.php?id=80" title="報名繳費紀錄" >報名繳費紀錄</a><a href="list.php?id=81" title="生產歷程" >生產歷程</a><a href="list.php?id=82" title="通路管理" >通路管理</a><a href="list.php?id=83" title="個人資料" >個人資料</a><a href="list.php?id=84" title="上傳證明文件" >上傳證明文件</a><a href="list.php?id=70" title="文件下載" >文件下載</a><a href="list.php?id=85" title="見習報名紀錄" >見習報名紀錄</a><a href="list.php?id=86" title="見習自我評核表" >見習自我評核表</a><a href="list.php?id=87" title="訓練成效線上調查" >訓練成效線上調查</a></div></div><div id="different_menu" class="mobile_div_one"><a href="list.php?id=716" title="網站導覽"><div class="mobile_detail">網站導覽</div></a>
+			<a href="list.php?id=28" title="關於學院"><div class="mobile_detail">關於學院</div></a>
+			<a href="consult.php" title="線上諮詢"><div class="mobile_detail">線上諮詢</div></a>
+			<a href="list.php?id=112" title="電子報"><div class="mobile_detail">電子報</div></a>
+			<a href="list.php?id=70" title="文件下載"><div class="mobile_detail">文件下載</div></a></div>
+	</div>
+</div>
+<!--EDN_header-->
+
+<!--tb-->
+<div class="bm">
+  <a class="nt in" id="bn0"><span>Banner</span></a>
+  <a class="nt" id="bn1"><span>訓練課程</span></a>  <a class="nt" id="bn2"><span>線上課程介紹</span></a>
+  <a class="nt" id="bn3"><span>農業新知</span></a>
+  <a class="nt" id="bn4"><span>青農人物故事報導</span></a>
+  <a class="nt" id="bn5"><span>農村巧藝</span></a>
+</div>
+<div class="top">
+  <span>TOP</span>
+</div>
+<div class="tb">
+
+    <header id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    </ol>
+
+        <div class="carousel-inner">
+                        <div class="item active">
+                <div class="fill" style="background-image:url('files/banner/banner_1490865705/banner_2.jpg');"></div>
+            </div>
+                    </div>
+
+        <!-- Controls -->
+        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>-->
+    </header>
+    
+  <div class="ob">
+    <div class="bg">
+      <div class="tb" id="top_banner"><p></p><a href="javascript:void(0);" id="top_banner_1">訓練課程</a><a href="javascript:void(0);" id="top_banner_2">農場見習</a><a href="javascript:void(0);" id="top_banner_3">農業徵才</a><a href="javascript:void(0);" id="top_banner_4">找產品、找通路</a><a href="javascript:void(0);" id="top_banner_5">青農輔導平台</a><a href="javascript:void(0);" id="top_banner_6">創新農業平台</a><p></p></div>
+      			<div id="top_banner_div_1" class="top_banner_div">
+			<div class="tt"><p></p><div class="text">
+	農委會為全面提升農業人力素質，於民國100年設立農民學院，結合研究、教育、推廣資源，運用農委會各試驗改良場所之在地及專業優勢，建立完整的農業訓練制度，培育優質農業人才，提升農業競爭力。訂定農、漁、牧各類別農業職能基準，規劃系統性教育訓練課程，針對一般民眾、新進農民及在職專業農民分別辦理農業入門班、初階訓練班、進階訓練班及高階訓練班等農業專業訓練，並強化農場實習，以提供有意從農者及在職農民農業終身學習管道。
+	&nbsp;
+</div><p></p></div>
+			<div class="more"><a href="/list.php?id=19" target="_self" title="訓練課程">更多資訊</a></div>
+      </div>
+						<div id="top_banner_div_2" class="top_banner_div">
+			<div class="tt"><p></p><div class="text">
+	延續農民學院系統性專業訓練課程，協助有意從農者厚植農場生產與經營實務之能力，農民學院辦理農場見習媒合服務，協助農民學院初階訓練以上結業學員、農業相關科系畢業生及其他農業專業訓練結訓等已學習初步農業觀念，但無實際從農經驗的新進農民，可以藉由參與農場見習，強化其農場經營概念並實地瞭解農業工作狀況，希望透過農場見習的引導，吸引更多新進農民投入，改善農業人力結構，提升農業人力素質。
+</div><p></p></div>
+			<div class="more"><a href="/list.php?id=54" target="_self" title="農場見習">更多資訊</a></div>
+      </div>
+						<div id="top_banner_div_3" class="top_banner_div">
+			<div class="tt"><p></p><div class="text">
+	為紓解台灣農業人力短缺問題，農委會推出「農業缺工好幫手」APP，提供農民、農場主及農企業建置職缺，刊登職缺，吸引求職民眾應徵投入農事工作，需工農場刊登職缺資訊後可由APP自動進行配對，主動發送推薦工作通知給符合條件的求職者，提升職缺媒合效率；勞動部勞動力發展署就業服務站亦提供完整的農業職缺查詢及應徵服務。農民學院可協助農場主免費申請相關職缺刊登及應徵管理，期望引進年輕人力進入農村深耕，活化國內農業工作與就業機會。
+</div><p></p></div>
+			<div class="more"><a href="/recruitment.php" target="_self" title="農業徵才">更多資訊</a></div>
+      </div>
+						<div id="top_banner_div_4" class="top_banner_div">
+			<div class="tt"><p></p><div class="text">
+	農民學院為輔導農民產品拓展銷售管道，成立「找產品、找通路」服務，持續更新全台農民市集、數位與實體通路、加工與餐飲業者等通路合作模式與產品需求，讓學員瞭解市場需求，進行計畫生產。另鼓勵學員於平台建置產品，提供通路業者瞭解學員生產概況、產品樣態，增加銷售機會。同時已建置完成通過審核之產品，可套用農民學院內建之「產品型錄」樣版，自行轉出成圖檔應用於FB、廣告傳單、email等處宣傳。
+</div><p></p></div>
+			<div class="more"><a href="/list.php?id=170" target="_self" title="找產品、找通路">更多資訊</a></div>
+      </div>
+						<div id="top_banner_div_5" class="top_banner_div">
+			<div class="tt"><p></p><div class="text">
+	農民學院為提供有意願投入農業的新手更完整的從農資訊，建置「青年農民輔導平台」，彙整青農相關政策與各地區在地青農聯誼會資訊，並提供青農成功案例與「青年農民聯誼會線上申請」功能，同時連結現有青年農民創業入口網，加強青年農民在農業領域創業相關資訊。
+</div><p></p></div>
+			<div class="more"><a href="/YF/" target="_blank" title="青農輔導平台">更多資訊</a></div>
+      </div>
+						<div id="top_banner_div_6" class="top_banner_div">
+			<div class="tt"><p></p><div class="text">
+	農民學院為整合農委會體系下四健、家政、農事等推廣資訊，於105年度建置創新農業推廣平台，發布相關活動訊息，並提供數位影音專區、農村巧藝專區，作為民眾親近、瞭解新世代創新農業的管道。
+</div><p></p></div>
+			<div class="more"><a href="/IA/" target="_blank" title="創新農業平台">更多資訊</a></div>
+      </div>
+			    </div>
+  </div>
+</div>
+<!--END_tb-->
+<!--01-->
+
+<div class="b01" id="div1">
+  <div class="title">訓練課程</div>
+  <div class="editblock">
+    <div class="b01_menu">
+      			<a class="b01_om open" href="javascript:void(0);" id="B" title="農業入門">
+					<img id="images/index/b01_B" src="images/index/b01_B_hover.png" alt="農業入門"/>
+					<p>農業入門</p>
+			</a>
+      			<a class="b01_om " href="javascript:void(0);" id="C" title="初階訓練">
+					<img id="images/index/b01_C" src="images/index/b01_C.png" alt="初階訓練"/>
+					<p>初階訓練</p>
+			</a>
+      			<a class="b01_om " href="javascript:void(0);" id="D" title="進階訓練">
+					<img id="images/index/b01_D" src="images/index/b01_D.png" alt="進階訓練"/>
+					<p>進階訓練</p>
+			</a>
+      			<select class="b01select" name="grade_type_select">
+        				<option value="B">農業入門</option>
+        				<option value="C">初階訓練</option>
+        				<option value="D">進階訓練</option>
+              </select>
+    </div>
+    <div class="house_bar"><img src="images/index/house.png" alt="提供住宿" title="提供住宿"/><span>提供住宿（住宿費用另計）</span></div>
+        <div id="B_batch" class="batch_div">
+						    <div class="b01_piece " onclick="location.href='course.php?WS_id=22&grade_id=B&batch_id=4901'" onkeypress="location.href='course.php?WS_id=22&grade_id=B&batch_id=4901'">
+		      <a class="bo1enter" href="course.php?WS_id=22&grade_id=B&batch_id=4901">報名</a>
+		      <div class="b01tt">蝦類繁養殖入門班&nbsp;&nbsp;<p class="b01te">辦理單位：水產試驗所</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-05</p><span>|</span><p class="b01te">開課日期：110-05-04~05-06</p><span>|</span><p class="b01te">費用：4800元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=22&grade_id=B&batch_id=4922'" onkeypress="location.href='course.php?WS_id=22&grade_id=B&batch_id=4922'">
+		      <a class="bo1enter" href="course.php?WS_id=22&grade_id=B&batch_id=4922">報名</a>
+		      <div class="b01tt">園藝入門班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：桃園區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-05</p><span>|</span><p class="b01te">開課日期：110-04-27~04-29</p><span>|</span><p class="b01te">費用(住宿費另計)：4800元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=22&grade_id=B&batch_id=4985'" onkeypress="location.href='course.php?WS_id=22&grade_id=B&batch_id=4985'">
+		      <a class="bo1enter" href="course.php?WS_id=22&grade_id=B&batch_id=4985">報名</a>
+		      <div class="b01tt">園藝入門班&nbsp;&nbsp;<p class="b01te">辦理單位：花蓮區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-05</p><span>|</span><p class="b01te">開課日期：110-05-04~05-06</p><span>|</span><p class="b01te">費用：4800元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=22&grade_id=B&batch_id=5015'" onkeypress="location.href='course.php?WS_id=22&grade_id=B&batch_id=5015'">
+		      <a class="bo1enter" href="course.php?WS_id=22&grade_id=B&batch_id=5015">報名</a>
+		      <div class="b01tt">牧業入門班&nbsp;&nbsp;<p class="b01te">辦理單位：畜產試驗所</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-10</p><span>|</span><p class="b01te">開課日期：110-05-11~05-13</p><span>|</span><p class="b01te">費用：4800元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=22&grade_id=B&batch_id=4946'" onkeypress="location.href='course.php?WS_id=22&grade_id=B&batch_id=4946'">
+		      <a class="bo1enter" href="course.php?WS_id=22&grade_id=B&batch_id=4946">報名</a>
+		      <div class="b01tt">茶業入門班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：茶業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-05</p><span>|</span><p class="b01te">開課日期：110-05-04~05-06</p><span>|</span><p class="b01te">費用(住宿費另計)：4800元</p>
+		    </div>
+		    		    <div class="more"><a href="course.php?WS_id=22&grade_id=B">更多資訊</a></div>
+    </div>
+        <div id="C_batch" class="batch_div">
+						    <div class="b01_piece " onclick="location.href='course.php?WS_id=23&grade_id=C&batch_id=4925'" onkeypress="location.href='course.php?WS_id=23&grade_id=C&batch_id=4925'">
+		      <a class="bo1enter" href="course.php?WS_id=23&grade_id=C&batch_id=4925">報名</a>
+		      <div class="b01tt">蔬菜栽培管理研習班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：桃園區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-17~04-16</p><span>|</span><p class="b01te">開課日期：110-05-17~05-28</p><span>|</span><p class="b01te">費用(住宿費另計)：6500元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=23&grade_id=C&batch_id=4987'" onkeypress="location.href='course.php?WS_id=23&grade_id=C&batch_id=4987'">
+		      <a class="bo1enter" href="course.php?WS_id=23&grade_id=C&batch_id=4987">報名</a>
+		      <div class="b01tt">有機農業班&nbsp;&nbsp;<p class="b01te">辦理單位：花蓮區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-31~04-30</p><span>|</span><p class="b01te">開課日期：110-05-31~06-11</p><span>|</span><p class="b01te">費用：6500元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=23&grade_id=C&batch_id=4970'" onkeypress="location.href='course.php?WS_id=23&grade_id=C&batch_id=4970'">
+		      <a class="bo1enter" href="course.php?WS_id=23&grade_id=C&batch_id=4970">報名</a>
+		      <div class="b01tt">菇類栽培管理初階班(一)<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：農業試驗所</p></div>
+		      <p class="b01te">報名日期：110-03-31~04-30</p><span>|</span><p class="b01te">開課日期：110-05-31~06-11</p><span>|</span><p class="b01te">費用(住宿費另計)：6500元</p>
+		    </div>
+		    		    <div class="b01_piece new_color" onclick="location.href='course.php?WS_id=23&grade_id=C&batch_id=4956'" onkeypress="location.href='course.php?WS_id=23&grade_id=C&batch_id=4956'">
+		      <a class="bo1enter" href="course.php?WS_id=23&grade_id=C&batch_id=4956">即將報名</a>
+		      <div class="b01tt">保健植物栽培與利用初階班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：臺東區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-04-21~05-20</p><span>|</span><p class="b01te">開課日期：110-06-21~07-09</p><span>|</span><p class="b01te">費用(住宿費另計)：10000元</p>
+		    </div>
+		    		    <div class="b01_piece new_color" onclick="location.href='course.php?WS_id=23&grade_id=C&batch_id=4948'" onkeypress="location.href='course.php?WS_id=23&grade_id=C&batch_id=4948'">
+		      <a class="bo1enter" href="course.php?WS_id=23&grade_id=C&batch_id=4948">即將報名</a>
+		      <div class="b01tt">茶業初階班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：茶業改良場</p></div>
+		      <p class="b01te">報名日期：110-04-28~05-27</p><span>|</span><p class="b01te">開課日期：110-06-28~07-09</p><span>|</span><p class="b01te">費用(住宿費另計)：6500元</p>
+		    </div>
+		    		    <div class="more"><a href="course.php?WS_id=23&grade_id=C">更多資訊</a></div>
+    </div>
+        <div id="D_batch" class="batch_div">
+						    <div class="b01_piece " onclick="location.href='course.php?WS_id=24&grade_id=D&batch_id=4995'" onkeypress="location.href='course.php?WS_id=24&grade_id=D&batch_id=4995'">
+		      <a class="bo1enter" href="course.php?WS_id=24&grade_id=D&batch_id=4995">報名</a>
+		      <div class="b01tt">熱帶新興果樹栽培管理進階選修班&nbsp;&nbsp;<p class="b01te">辦理單位：高雄區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-09</p><span>|</span><p class="b01te">開課日期：110-05-10~05-12</p><span>|</span><p class="b01te">費用：2500元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=24&grade_id=D&batch_id=5014'" onkeypress="location.href='course.php?WS_id=24&grade_id=D&batch_id=5014'">
+		      <a class="bo1enter" href="course.php?WS_id=24&grade_id=D&batch_id=5014">報名</a>
+		      <div class="b01tt">乳牛人工授精進階選修班&nbsp;&nbsp;<p class="b01te">辦理單位：畜產試驗所</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-05</p><span>|</span><p class="b01te">開課日期：110-04-26~04-30</p><span>|</span><p class="b01te">費用：3100元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=24&grade_id=D&batch_id=4958'" onkeypress="location.href='course.php?WS_id=24&grade_id=D&batch_id=4958'">
+		      <a class="bo1enter" href="course.php?WS_id=24&grade_id=D&batch_id=4958">報名</a>
+		      <div class="b01tt">原民作物栽培管理進階選修班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：臺東區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-05</p><span>|</span><p class="b01te">開課日期：110-04-27~04-29</p><span>|</span><p class="b01te">費用(住宿費另計)：2500元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=24&grade_id=D&batch_id=4942'" onkeypress="location.href='course.php?WS_id=24&grade_id=D&batch_id=4942'">
+		      <a class="bo1enter" href="course.php?WS_id=24&grade_id=D&batch_id=4942">報名</a>
+		      <div class="b01tt">作物病蟲草害防治與安全用藥管理進階選修訓練班<img class="house" src="images/index/house.png" alt="提供住宿" title="提供住宿"/><p class="b01te">辦理單位：農業藥物毒物試驗所</p></div>
+		      <p class="b01te">報名日期：110-03-12~04-11</p><span>|</span><p class="b01te">開課日期：110-05-10~05-14</p><span>|</span><p class="b01te">費用(住宿費另計)：3100元</p>
+		    </div>
+		    		    <div class="b01_piece " onclick="location.href='course.php?WS_id=24&grade_id=D&batch_id=4934'" onkeypress="location.href='course.php?WS_id=24&grade_id=D&batch_id=4934'">
+		      <a class="bo1enter" href="course.php?WS_id=24&grade_id=D&batch_id=4934">報名</a>
+		      <div class="b01tt">優質水稻生產技術班&nbsp;&nbsp;<p class="b01te">辦理單位：臺南區農業改良場</p></div>
+		      <p class="b01te">報名日期：110-03-17~04-16</p><span>|</span><p class="b01te">開課日期：110-05-17~05-21</p><span>|</span><p class="b01te">費用：3100元</p>
+		    </div>
+		    		    <div class="more"><a href="course.php?WS_id=24&grade_id=D">更多資訊</a></div>
+    </div>
+      </div>
+  <img class="b01_left" src="images/index/b01_left.png" alt=""/><img class="b01_right" src="images/index/b01_right.png" alt=""/>
+</div>
+
+<!--END_01-->
+<!--02-->
+<div class="b02" id="div2">
+  <div class="title">線上課程介紹</div>
+  <a class="b02ms" href="javascript:void(0);">全部</a><div class="b02ms_more"><a href="javascript:void(0);" id="ALLO_list">全部</a><a href="javascript:void(0);" id="TS001_list">農糧類</a><a href="javascript:void(0);" id="TS002_list">畜產類</a><a href="javascript:void(0);" id="TS003_list">休閒類</a><a href="javascript:void(0);" id="TS004_list">水產養殖類</a><a href="javascript:void(0);" id="TS005_list">經營管理類</a><a href="javascript:void(0);" id="TS006_list">安全驗證</a><a href="javascript:void(0);" id="TS999_list">其他</a></div>
+  <div class="b02menu"><a class="select" href="javascript:void(0);" id="ALLO">全部</a><a class="" href="javascript:void(0);" id="TS001">農糧類</a><a class="" href="javascript:void(0);" id="TS002">畜產類</a><a class="" href="javascript:void(0);" id="TS003">休閒類</a><a class="" href="javascript:void(0);" id="TS004">水產養殖類</a><a class="" href="javascript:void(0);" id="TS005">經營管理類</a><a class="" href="javascript:void(0);" id="TS006">安全驗證</a><a class="" href="javascript:void(0);" id="TS999">其他</a></div>
+  <div class="editblock">
+        <div id="ALLO_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3052" title="農民學院園藝入門班">
+		      <div class="b02img" style="background:url(/files/training_course/2601/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農民學院園藝入門班</div>
+		        <div class="b02category"><p>&nbsp;<span>農糧類</span>&nbsp;</p></div>
+		        <div class="b02te">園藝(Horticulture)是生產水果、蔬菜、花卉等作物及利用的一種事業；
+它是農業的一支，也是環境及生命科學中重要的部門，更是日常生活中不可或缺的科技常識。
+園藝事業不但可以作企業性的經營，還可作副業性的產業和娛樂性的栽培。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3738" title="大專業農知識(初階)">
+		      <div class="b02img" style="background:url(/files/training_course/3305/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">大專業農知識(初階)</div>
+		        <div class="b02category"><p>&nbsp;<span>其他</span>&nbsp;</p></div>
+		        <div class="b02te">本課程內容包含小地主大佃農、農業產銷班組織、蔬果及花卉產業、契作硬質玉米、農產品行銷、國產有機質肥料推廣、有機農產品驗證等輔導措施以及各式政府政策與相關補助介紹。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3527" title="一起識茶趣！茶業入門篇">
+		      <div class="b02img" style="background:url(/files/training_course/3147/online_index_1.png) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">一起識茶趣！茶業入門篇</div>
+		        <div class="b02category"><p>&nbsp;<span>農糧類</span>&nbsp;</p></div>
+		        <div class="b02te">清治時期，茶葉、樟腦、蔗糖為臺灣主要輸出的三大農產品，當時更合稱為臺灣三寶，可說是風光一時。其中，茶葉不僅牽動了民間產業的發展，也影響了臺灣近百年來的文化演進，甚至還將臺灣推向國際，使臺灣享有「茶葉王國」的美譽。本門課程主要是針對想投入茶業...</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3067" title="畜產入門班">
+		      <div class="b02img" style="background:url(/files/training_course/2770/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">畜產入門班</div>
+		        <div class="b02category"><p>&nbsp;<span>畜產類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程提供畜禽產業的入門知識，包括產業概況、飼養與環境管理方法、畜禽市場與加工品，以及相關重要政策與資源。期望學員在學習完本課程後，將能具備經營畜禽產業的基本認知。
+講師：李恒夫、蕭宗法、黃政齊、林義福、程梅萍、陳文賢、吳春永、許桂森、陳...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F">更多資訊</a></div>
+    </div>
+        <div id="TS001_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2800" title="植物組織培養的原理與應用">
+		      <div class="b02img" style="background:url(images/training_course_ico/FCT_10.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">植物組織培養的原理與應用</div>
+		        <div class="b02category"><p>&nbsp;<span>農糧類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程共分六個部分，首先介紹植物組織培養之定義，為將植物的器官、組織、細胞等自植物體切離，於無菌環境下提供生長所需之光照、溫度、養分及植物生長素等，使之重新長成完整植物的技術。接著介紹組織培養技術操作的流程、培養基的成分、所需設備，以及在農...</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=4292" title="果樹及花木嫁接技術(一)－樹木生理與嫁接原理">
+		      <div class="b02img" style="background:url(images/training_course_ico/FCT_10.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">果樹及花木嫁接技術(一)－樹木生理與嫁接原理</div>
+		        <div class="b02category"><p>&nbsp;<span>農糧類</span>&nbsp;</p></div>
+		        <div class="b02te">植物的生長發育是階段性的，整個生命週期可以分成營養生長期和生殖生長期兩個階段。在諸多因素的情況下，一棵果樹至少要十年後才會開花，而且開花的前幾年也還不太會結果，等到結了果，往往又會產生異變，使果實變得難吃…於是聰明的果農就想辦法將植株的幼年...</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3513" title="農藥安全使用">
+		      <div class="b02img" style="background:url(/files/training_course/3140/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農藥安全使用</div>
+		        <div class="b02category"><p>&nbsp;<span>農糧類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程提供學員如何有效並正確地使用農藥以及使用農藥時的安全防護裝備等學習內容，希望藉由本課程的學習，教導農民安全使用農藥的正確觀念，提昇生產效率，降低生產成本，同時避免危害自身與消費者的健康，以及降低對環境之影響。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2752" title="作物栽培與研究_有機營養液肥之調配實習">
+		      <div class="b02img" style="background:url(/files/training_course/2292/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">作物栽培與研究_有機營養液肥之調配實習</div>
+		        <div class="b02category"><p>&nbsp;<span>農糧類</span>&nbsp;</p></div>
+		        <div class="b02te">作物栽培與研究有機營養液肥之調配實習</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS001">更多資訊</a></div>
+    </div>
+        <div id="TS002_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2773" title="蜂蜜的收集及製作">
+		      <div class="b02img" style="background:url(/files/training_course/2474/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">蜂蜜的收集及製作</div>
+		        <div class="b02category"><p>&nbsp;<span>畜產類</span>&nbsp;</p></div>
+		        <div class="b02te">希望學習者在學習後，能瞭解國產蜂蜜的來源及種類、以及蜂蜜採收的過程，而且能對蜂蜜的濃縮及分裝的有所瞭解。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2802" title="乳牛營養與飼養管理－飲水篇">
+		      <div class="b02img" style="background:url(images/training_course_ico/FCT_11.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">乳牛營養與飼養管理－飲水篇</div>
+		        <div class="b02category"><p>&nbsp;<span>畜產類</span>&nbsp;</p></div>
+		        <div class="b02te">以乳牛的飲水習慣、水的需要量、品質、水槽的設計等面向，探討如何用飲水管理乳牛的營養與飼育。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2777" title="山羊胚移置技術">
+		      <div class="b02img" style="background:url(/files/training_course/2484/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">山羊胚移置技術</div>
+		        <div class="b02category"><p>&nbsp;<span>畜產類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程分為三個部分：第一章說明「什麼是山羊胚移置」與「為什麼要做山羊胚移置」，第二章介紹山羊胚移置技術的重要配套技術，第三章總結客課程重點，病說明山羊胚移置技術的成效，最後，您將可以自我測試學習成果。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2792" title="肉用山羊營養需求與飼糧調配之模擬">
+		      <div class="b02img" style="background:url(images/training_course_ico/FCT_11.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">肉用山羊營養需求與飼糧調配之模擬</div>
+		        <div class="b02category"><p>&nbsp;<span>畜產類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程分為三個部分：第一章說明羊四個胃的功能，並介紹肉羊的五大營養需求，第二章以模擬方式進行飼糧調配，您將在模擬的過程中，學習到肉羊的生理狀況及飼糧如何影響其營養需求及營養成分，第三章總結課程重點，最後，您將可以自我測試學習成果。</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS002">更多資訊</a></div>
+    </div>
+        <div id="TS003_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2720" title="休閒農業簡介">
+		      <div class="b02img" style="background:url(/files/training_course/2024/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">休閒農業簡介</div>
+		        <div class="b02category"><p>&nbsp;<span>休閒類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程總共分五章，首先介紹休閒農業的意義與功能，接著說明休閒農業在台灣發展現況，同時對休閒農業區劃定與通動方式作介紹，最後對休閒農業發展的策略與作法稍加敘述，期望學習者對台灣休閒農業能有概括性的認識與瞭解。</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS003">更多資訊</a></div>
+    </div>
+        <div id="TS004_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3051" title="農民學院水產養殖入門班">
+		      <div class="b02img" style="background:url(/files/training_course/2603/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農民學院水產養殖入門班</div>
+		        <div class="b02category"><p>&nbsp;<span>水產養殖類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程內容包含水產養殖概述、台灣養殖水產品市場概要及水質管理、水產動物病害管理與防治相關水產養殖的相關入門知識。</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS004">更多資訊</a></div>
+    </div>
+        <div id="TS005_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2817" title="農業推廣原理">
+		      <div class="b02img" style="background:url(images/training_course_ico/FCT_05.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農業推廣原理</div>
+		        <div class="b02category"><p>&nbsp;<span>經營管理類</span>&nbsp;</p></div>
+		        <div class="b02te">１．能夠瞭解農業推廣名詞的內涵。 
+２．能夠陳述內外各學者對於農業推廣的意義。 
+３．學習者能夠說明農業推廣工作的類型與功能。 
+４．能夠粗略描述農業推廣的計劃議題及其內容。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2748" title="農特產品品牌定位">
+		      <div class="b02img" style="background:url(/files/training_course/2241/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農特產品品牌定位</div>
+		        <div class="b02category"><p>&nbsp;<span>經營管理類</span>&nbsp;</p></div>
+		        <div class="b02te">本課程對「品牌」與「品牌定位」概念提出解釋，讓您瞭解品牌與定位的意涵及其重要性，接下來剖析落實品牌定位的步驟方法。上述觀念解析將透過三星地區農會上將梨的品牌定位實例分享，讓您能更加明瞭建立強勢品牌定位的運作方式與必要性。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2756" title="計畫書撰寫原則A">
+		      <div class="b02img" style="background:url(/files/training_course/2303/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">計畫書撰寫原則A</div>
+		        <div class="b02category"><p>&nbsp;<span>經營管理類</span>&nbsp;</p></div>
+		        <div class="b02te">隨著時代的改變，農會農業推廣工作有待解決的問題也不盡相同。農委會為輔導農會持續發揮社會服務及推廣教育的功能，提供了各項補助及委辦計畫，依據各單位提送的計畫書，遴選計劃執行機關。本課程將協助出任農會農業推廣人員部屬規劃計畫書的內容，瞭解計畫書...</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2757" title="農產品生產成本計算與應用(下)-運算篇">
+		      <div class="b02img" style="background:url(/files/training_course/2304/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農產品生產成本計算與應用(下)-運算篇</div>
+		        <div class="b02category"><p>&nbsp;<span>經營管理類</span>&nbsp;</p></div>
+		        <div class="b02te">台 灣為小農制國家，以家庭農場居多，對家庭農場而言，生產成本的考量不單只是購入財與僱工等有金錢支付的部分，還有很多無金錢支付的部分須加以估算。本課程 內容分兩個部分，由各項生產成本的計算開始說明，進而介紹總成本與收益的計算方式。讓農業推廣人...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS005">更多資訊</a></div>
+    </div>
+        <div id="TS006_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2724" title="茶葉產銷履歷建置管理">
+		      <div class="b02img" style="background:url(/files/training_course/2041/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">茶葉產銷履歷建置管理</div>
+		        <div class="b02category"><p>&nbsp;<span>安全驗證</span>&nbsp;</p></div>
+		        <div class="b02te">希望學習者在學習後，能瞭解茶葉產銷履歷之意義、流程、產銷記錄簿填寫、履歷資料資訊化及驗證制度之操作與管理流程，而能具體實施產銷履歷制度。</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2733" title="認識農產品產銷履歷制度－從農場到餐桌">
+		      <div class="b02img" style="background:url(/files/training_course/2100/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">認識農產品產銷履歷制度－從農場到餐桌</div>
+		        <div class="b02category"><p>&nbsp;<span>安全驗證</span>&nbsp;</p></div>
+		        <div class="b02te">本課程主要介紹產銷履歷制度的涵義、產銷履歷制度國際動向，以及臺灣推動產銷履歷的現況與未來展望。希望學習者在學習完後，能在認識農產品產銷履歷制度之餘，進而體會產銷履歷制度的重要性，達到農產品產銷履歷的全面推廣效益。</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS006">更多資訊</a></div>
+    </div>
+        <div id="TS999_online" class="online_div">
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2788" title="永續發展_「台灣農業亮起來」生態農村系列_農村生態工法">
+		      <div class="b02img" style="background:url(/files/training_course/2510/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">永續發展_「台灣農業亮起來」生態農村系列_農村生態工法</div>
+		        <div class="b02category"><p>&nbsp;<span>其他</span>&nbsp;</p></div>
+		        <div class="b02te">農村社區生態工法</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2760" title="林業試驗所：蕨色林間數位課程">
+		      <div class="b02img" style="background:url(/files/training_course/2362/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">林業試驗所：蕨色林間數位課程</div>
+		        <div class="b02category"><p>&nbsp;<span>其他</span>&nbsp;</p></div>
+		        <div class="b02te">蕨類植物介紹
+(本教材已不提供講義下載)</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=2721" title="數位學習與Rapid e-learning初探">
+		      <div class="b02img" style="background:url(/files/training_course/2025/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">數位學習與Rapid e-learning初探</div>
+		        <div class="b02category"><p>&nbsp;<span>其他</span>&nbsp;</p></div>
+		        <div class="b02te">1.數位學習概論 
+2.數位教材發展策略 
+3.自製教材工具與特色 
+4.總結</div>
+		      </div>
+		    </a>
+		    		    <a class="b02one" href="course.php?WS_id=135&batch_id=3053" title="農民學院網資源應用入門班">
+		      <div class="b02img" style="background:url(/files/training_course/2600/online_index_1.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b02content">
+		        <div class="b02tt">農民學院網資源應用入門班</div>
+		        <div class="b02category"><p>&nbsp;<span>其他</span>&nbsp;</p></div>
+		        <div class="b02te">本課程內容為學習如何操作及運用農民學院網站，詳細介紹分眾與訓練課程、農場見習、訓練課程報名流程，並說明農民互動平台及學員專區等相關服務。</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="course.php?WS_id=135&grade_id=F&skill_type=TS999">更多資訊</a></div>
+    </div>
+      </div>
+</div>
+<!--END_02-->
+<!--03-->
+<div class="b03" id="div3">
+  <div class="title">農業新知</div>
+  <a class="b03ms" href="javascript:void(0);">全部</a><div class="b03ms_more"><a href="javascript:void(0);" id="ALL_list">全部</a><a href="javascript:void(0);" id="N01_list">農業焦點</a><a href="javascript:void(0);" id="N02_list">課程快報</a><a href="javascript:void(0);" id="N03_list">市集活動</a><a href="javascript:void(0);" id="N04_list">研習活動</a><a href="javascript:void(0);" id="N05_list">新農記事</a></div>
+  <div class="b03menu"><a class="choose" href="javascript:void(0);" id="ALL">全部</a><a class="" href="javascript:void(0);" id="N01">農業焦點</a><a class="" href="javascript:void(0);" id="N02">課程快報</a><a class="" href="javascript:void(0);" id="N03">市集活動</a><a class="" href="javascript:void(0);" id="N04">研習活動</a><a class="" href="javascript:void(0);" id="N05">新農記事</a></div>
+  <div class="editblock">
+        <div id="ALL_news" class="news_div">
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1617268326" title="買鳳梨挺農民網購活動4/1開賣 歡迎消費者踴躍選購">
+		      <div class="b03img" style="background:url(/files/news/news_1617268326/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">買鳳梨挺農民網購活動4/1開賣 歡迎消費者踴躍選購</div>
+		        <div class="b03time">110-04-01</div>
+		        <div class="b03te">
+	中國大陸片面宣布自3月1日起暫停臺灣鳳梨輸入，國內40家電商平臺在農委會的號召下，共同舉辦「採買國產鳳梨 相挺臺灣農民」網購活動，自4月1日起至6月30日止，只要在農委會合作的電商平臺購買生鮮與鮮凍鳳梨，就能拿到50元消費回饋金，歡迎...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616749738" title="強化農業乾旱因應措施 協助農民度過缺水難關">
+		      <div class="b03img" style="background:url(/files/news/news_1616749738/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">強化農業乾旱因應措施 協助農民度過缺水難關</div>
+		        <div class="b03time">110-03-26</div>
+		        <div class="b03te">
+	去(109)年為自1964年以來首次無颱風侵臺，降雨量僅歷史平均值2~6成，是56年來最枯旱的一年，今年春雨持續偏少，依中央氣象局最新降雨預報，未來一季降雨機率仍然正常偏少；因此，行政院農業委員會針對各項作物面臨乾旱之影響，提出因應作...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616750447" title="本年大蒜已屆盛產期種植面積合理，籲請農友分批出售增加收益">
+		      <div class="b03img" style="background:url(/files/news/news_1616750447/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">本年大蒜已屆盛產期種植面積合理，籲請農友分批出售增加收益</div>
+		        <div class="b03time">110-03-26</div>
+		        <div class="b03te">
+	行政院農業委員會農糧署表示，本（110）年國產大蒜面積5,033公頃，較去（109）年4,687增加346公頃，屬於合理範圍，依目前大蒜生育情形，預估產量約49,421公噸較去年44,947公噸，增加4,474公噸，尚低於年消費量64...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616663036" title="農用無人機入門培訓班　青農受益多">
+		      <div class="b03img" style="background:url(/files/news/news_1616663036/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">農用無人機入門培訓班　青農受益多</div>
+		        <div class="b03time">110-03-25</div>
+		        <div class="b03te">
+	行政院農業委員會花蓮區農業改良場為了推動智慧農業，提升農業經營效率及解決人力短缺問題，在花蓮區農業改良場農業推廣訓練中心辦理農用無人機入門培訓班，農友表示獲益良多。
+
+	此次課程為入門培訓班，協助提供農友對農用無人機初步概念，做為...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="theme_list.php?theme=news&WS_id=131">更多資訊</a></div>
+    </div>
+        <div id="N01_news" class="news_div">
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616749738" title="強化農業乾旱因應措施 協助農民度過缺水難關">
+		      <div class="b03img" style="background:url(/files/news/news_1616749738/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">強化農業乾旱因應措施 協助農民度過缺水難關</div>
+		        <div class="b03time">110-03-26</div>
+		        <div class="b03te">
+	去(109)年為自1964年以來首次無颱風侵臺，降雨量僅歷史平均值2~6成，是56年來最枯旱的一年，今年春雨持續偏少，依中央氣象局最新降雨預報，未來一季降雨機率仍然正常偏少；因此，行政院農業委員會針對各項作物面臨乾旱之影響，提出因應作...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616750447" title="本年大蒜已屆盛產期種植面積合理，籲請農友分批出售增加收益">
+		      <div class="b03img" style="background:url(/files/news/news_1616750447/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">本年大蒜已屆盛產期種植面積合理，籲請農友分批出售增加收益</div>
+		        <div class="b03time">110-03-26</div>
+		        <div class="b03te">
+	行政院農業委員會農糧署表示，本（110）年國產大蒜面積5,033公頃，較去（109）年4,687增加346公頃，屬於合理範圍，依目前大蒜生育情形，預估產量約49,421公噸較去年44,947公噸，增加4,474公噸，尚低於年消費量64...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616666579" title="「雲世代農業數位轉型業界參與計畫」補助　開始申請">
+		      <div class="b03img" style="background:url(images/index/default_image.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">「雲世代農業數位轉型業界參與計畫」補助　開始申請</div>
+		        <div class="b03time">110-03-25</div>
+		        <div class="b03te">
+	發文日期：中華民國110年3月19日
+
+	發文字號：農科字第1100052238號
+
+	主旨：公告本會一百一十年度「雲世代農業數位轉型業界參與計畫」補助申請。
+
+	依據：行政院農業委員會協助產業創新活動補助及輔導辦法第四條...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616399686" title=" 「109年農林漁牧業普查」於110年5月1日至6月30日舉辦，敬請支持配合。">
+		      <div class="b03img" style="background:url(/files/news/news_1616399686/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt"> 「109年農林漁牧業普查」於110年5月1日至6月30日舉辦，敬請支持配合。</div>
+		        <div class="b03time">110-03-22</div>
+		        <div class="b03te">
+	行政院主計總處於110年5月1日至6月30日舉辦「109年農林漁牧業普查」，請支持配合&mdash;農業普查來關心，農業傳承有信心。
+
+	網址：109年農林漁牧業普查專區</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="theme_list.php?theme=news&WS_id=96">更多資訊</a></div>
+    </div>
+        <div id="N02_news" class="news_div">
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616663036" title="農用無人機入門培訓班　青農受益多">
+		      <div class="b03img" style="background:url(/files/news/news_1616663036/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">農用無人機入門培訓班　青農受益多</div>
+		        <div class="b03time">110-03-25</div>
+		        <div class="b03te">
+	行政院農業委員會花蓮區農業改良場為了推動智慧農業，提升農業經營效率及解決人力短缺問題，在花蓮區農業改良場農業推廣訓練中心辦理農用無人機入門培訓班，農友表示獲益良多。
+
+	此次課程為入門培訓班，協助提供農友對農用無人機初步概念，做為...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616663487" title="110年農藥代噴技術人員訓練課程　即日起報名">
+		      <div class="b03img" style="background:url(/files/news/news_1616663487/news_1_m.png) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">110年農藥代噴技術人員訓練課程　即日起報名</div>
+		        <div class="b03time">110-03-25</div>
+		        <div class="b03te">
+	說明：
+
+	一、為使有志從事農藥代噴者取得技術人員資格，熟諳農藥相關法規、使用技術及相關知識，並具備安全施藥專業能力，達到正確安全使用農藥之目的。
+
+	二、訓練對象：分為「共同科目訓練」及「專業訓練」兩類。
+
+	(一)共同...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616579670" title="強化枇杷產業優勢 臺東場辦理早熟枇杷觀摩會">
+		      <div class="b03img" style="background:url(/files/news/news_1616579670/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">強化枇杷產業優勢 臺東場辦理早熟枇杷觀摩會</div>
+		        <div class="b03time">110-03-24</div>
+		        <div class="b03te">
+	臺東縣枇杷栽培面積有158公頃，主要分布於太麻里、卑南及鹿野等山區，雖然栽培面積不大，卻是全臺產期最早的重要產區。為發展臺東特色果樹早熟豐產之目標及強化枇杷產業優勢，行政院農業委員會臺東區農業改良場(以下簡稱臺東場)假卑南鄉廖坤郎農友...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1604646581" title="有機蔬果加工班　開發農產品多元化">
+		      <div class="b03img" style="background:url(/files/news/news_1604646581/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">有機蔬果加工班　開發農產品多元化</div>
+		        <div class="b03time">109-09-09</div>
+		        <div class="b03te">
+	行政院農業委員會花蓮區農業改良場為推廣農產品多元化途，運用加工技術開發有機二級加工產品，提升產業競爭力，於109年9月1日至9月3日假花蓮縣上騰高級工商職業學校辦理農民學院進階選修訓練-有機蔬菜及水果加工班，3天的專業課程，學員表示獲...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="theme_list.php?theme=news&WS_id=97">更多資訊</a></div>
+    </div>
+        <div id="N03_news" class="news_div">
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1617268326" title="買鳳梨挺農民網購活動4/1開賣 歡迎消費者踴躍選購">
+		      <div class="b03img" style="background:url(/files/news/news_1617268326/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">買鳳梨挺農民網購活動4/1開賣 歡迎消費者踴躍選購</div>
+		        <div class="b03time">110-04-01</div>
+		        <div class="b03te">
+	中國大陸片面宣布自3月1日起暫停臺灣鳳梨輸入，國內40家電商平臺在農委會的號召下，共同舉辦「採買國產鳳梨 相挺臺灣農民」網購活動，自4月1日起至6月30日止，只要在農委會合作的電商平臺購買生鮮與鮮凍鳳梨，就能拿到50元消費回饋金，歡迎...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616052785" title="浪漫戀愛月 享受甜蜜的味蕾 雲林良品三月線上購物節開始囉!">
+		      <div class="b03img" style="background:url(/files/news/news_1616052785/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">浪漫戀愛月 享受甜蜜的味蕾 雲林良品三月線上購物節開始囉!</div>
+		        <div class="b03time">110-03-05</div>
+		        <div class="b03te">
+	還在等什麼，在這充滿浪漫氣氛的三月份，雲林良品電商平台推出三月浪漫戀愛月，白色情人節活動抽好禮，讓戀人們一同享受這甜蜜的味蕾。
+
+	浪漫戀愛月 享受甜蜜的味蕾 雲林良品三月線上購物節開始囉!
+	雲林縣長張麗善表示，雲林縣政府推出...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1614846361" title="來碗國產紅豆湯 甜蜜溫馨在心頭">
+		      <div class="b03img" style="background:url(/files/news/news_1614846361/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">來碗國產紅豆湯 甜蜜溫馨在心頭</div>
+		        <div class="b03time">110-02-25</div>
+		        <div class="b03te">
+	國產紅豆新鮮、味美、安全優質，做成蜜紅豆、紅豆甘納豆、紅豆餅、紅豆甜點、紅豆冰棒及紅豆湯等等都是讓人垂涎的美味點心，其中最方便的直接烹煮紅豆湯食用，口感絕佳，冬天可來ㄧ碗溫暖紅豆湯，或夏天冰涼食用，皆是國人的最愛！農糧署鼓勵農友生產產...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1613629481" title="花蓮好事集友善土地 與農友交流有溫度">
+		      <div class="b03img" style="background:url(/files/news/news_1613629481/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">花蓮好事集友善土地 與農友交流有溫度</div>
+		        <div class="b03time">110-02-18</div>
+		        <div class="b03te">
+	花蓮一群熱愛土地的農友共同成立「花蓮好事集」，堅持每週末聚集面對消費者傳遞友善土地的理念，至今邁入11年。以「好人多的地方總有好事發生」為發想，有著期許與自信。
+	花蓮好事集協會理事長黃彥儒被稱作「穿著Prada的農夫」，他曾是臺北...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="theme_list.php?theme=news&WS_id=98">更多資訊</a></div>
+    </div>
+        <div id="N04_news" class="news_div">
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1616580831" title="智慧農業技術擴散媒合會 即日起歡迎報名">
+		      <div class="b03img" style="background:url(images/index/default_image.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">智慧農業技術擴散媒合會 即日起歡迎報名</div>
+		        <div class="b03time">110-03-24</div>
+		        <div class="b03te">
+	一、為鼓勵業者應用智慧農業成果促進產業發展，特辦理旨揭媒合會。藉由農業業者、學研研發團隊及技術服務業者之技術分享與互動交流，提升跨域合作機會。
+
+	二、旨揭媒合會謹訂於110年04月07日(星期三)假集思臺中文心會議中心、04月0...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="theme_list.php?theme=news&WS_id=99">更多資訊</a></div>
+    </div>
+        <div id="N05_news" class="news_div">
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1510824041" title="吳國池的夢幻綠竹筍">
+		      <div class="b03img" style="background:url(/files/news/news_1510824041/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">吳國池的夢幻綠竹筍</div>
+		        <div class="b03time">106-09-30</div>
+		        <div class="b03te">
+	淡水河畔，往觀音山的方向蜿蜒而上，距離首都臺北不過十公里的紫雲農場，每日清早天還未亮，總有一瘦小身影，拎著竹簍和鏟子穿梭於竹林間，為整天的忙碌農活展開序曲，四十年如一日。他是吳國池，新北市五股區蔬菜產銷班第九班的班長。他所種出來的綠竹...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1481193386" title="堅持不服輸 賴明岐種出高品質天后奶梨">
+		      <div class="b03img" style="background:url(/files/news/news_1481193386/news_2_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">堅持不服輸 賴明岐種出高品質天后奶梨</div>
+		        <div class="b03time">105-12-01</div>
+		        <div class="b03te">
+	今年未滿40歲的賴明岐，從事水梨種植已有17年。從剛開始的不被看好，到今日成立自有品牌「知耕鳥」，賴明岐笑說，當初也曾經想落跑，但「覺得做都做了，就不應該放棄。」就是這股不服輸的硬脾氣，讓他種出了香甜多汁的天后奶梨。
+
+	工程學系...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1481192431" title="讓雞住豪宅-張天勇與他的健康放山雞">
+		      <div class="b03img" style="background:url(/files/news/news_1481192431/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">讓雞住豪宅-張天勇與他的健康放山雞</div>
+		        <div class="b03time">105-11-01</div>
+		        <div class="b03te">
+	以雞農張天勇為首的六位好友，為了能吃到理想中的健康雞，一起創業自己飼養，他們讓雞住山林庭園豪宅，吃天然好飼料，終於養出了震撼市場的一味好雞！
+
+	印度有知名電影《三個傻瓜》，鼓勵人們要隨心所向、勇於追夢，臺南龍崎也有六個追夢傻子：...</div>
+		      </div>
+		    </a>
+		    		    <a class="b03one" href="theme.php?theme=news&id=news_1472010170" title="驗證就是負責任 陳明友的產銷棗子">
+		      <div class="b03img" style="background:url(/files/news/news_1472010170/news_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="b03content">
+		        <div class="b03tt">驗證就是負責任 陳明友的產銷棗子</div>
+		        <div class="b03time">105-10-01</div>
+		        <div class="b03te">
+	陳明友發現改用有機肥的棗子更加甜美，地力也不會受損，是農夫、棗子與土地的三贏。而加入產銷履歷多年的他，因著消費者一句：「你家的棗子是我吃過最好吃的！」讓一切辛苦都值得了！
+
+	自從民國85年接下父親的棗子園後，近20年的種植經驗，...</div>
+		      </div>
+		    </a>
+		    		    <div class="more"><a href="theme_list.php?theme=news&WS_id=742">更多資訊</a></div>
+    </div>
+      </div>
+</div>
+<!--END_03-->
+<!--04-->
+<div class="b04" id="div4">
+  <div class="title">青農人物故事報導</div>
+  <div class="editblock">
+        <a class="b04one eee" href="/YF/success.php?id=23" target="_blank" title="多看、多學、多做，找出適合自己的路－莊佩君">
+      <div class="image"><img src="/files/YF_local/23/F01_1_m.jpg" alt="多看、多學、多做，找出適合自己的路－莊佩君"/></div><div class="image_bg" style="background:url(/files/YF_local/23/F01_1_m.jpg) no-repeat center center;background-size:cover;"></div>      <div class="content">
+        <div class="b04tt">多看、多學、多做，找出適合自己的路－莊佩君</div>
+        <div class="b04te">
+	政府為鼓勵青年體驗農業、學習農業、認同農業並進而實際參與農業工作，而自2006年開始推動一系列的漂鳥計畫，莊佩君即在這樣的脈絡下，於2007年辭掉工作，回到南投鹿谷追隨父親的腳步，正式投入產茶工作中。
+
+	莊佩君是1983年出生，未滿35歲的她稱得上是個有為青年，但她卻...</div>
+        <div class="b04more">+完整報導</div>
+      </div>
+    </a>
+        <a class="b04one" href="/YF/success.php?id=100" target="_blank" title="舞動文心蘭國際舞台的全國十大神農">
+            <div class="content">
+        <div class="b04tt">舞動文心蘭國際舞台的全國十大神農</div>
+        <div class="b04te02">
+	   臺中場輔導之青農廖秉鋐 先生榮獲第31屆十大神農殊榮，他自2009年返鄉從農，致力於提升競爭力，從生產、集貨包裝、外銷，採一條龍經營模式，經營規模 3.5 公頃，為了在蘭花市場開拓一片新藍海，借鏡荷蘭建立設施數據化科學管理，以精準肥培管理改善生長，利用循環扇、補光燈調...</div>
+        <div class="b04more">+完整報導</div>
+      </div>
+    </a>
+        <a class="b04one" href="/YF/success.php?id=170" target="_blank" title="藏匿在阿里山公路的玫瑰花茶館">
+            <div class="content">
+        <div class="b04tt">藏匿在阿里山公路的玫瑰花茶館</div>
+        <div class="b04te02">
+	   身為阿里山生力農場的第二代黃昶升，於西元2005年自淡江大學國貿系畢業後選擇回鄉種茶、製茶。回鄉創業約17年，目前管理約兩甲的茶園、自創「飲山郁」茶葉品牌、經營玫瑰溫室茶館。本身是茶農、製茶師以及梅山鄉農會阿里山高山茶比賽初審評委。
+
+	   從小就看著父母親辛苦...</div>
+        <div class="b04more">+完整報導</div>
+      </div>
+    </a>
+        <div class="more"><a href="/YF/success.php" target="_blank">更多資訊</a></div>
+  </div>
+</div>
+<!--END_04-->
+<!--05-->
+<div class="b05" id="div5">
+  <div class="title">農村巧藝</div>
+  <div class="b05menu"><a class="pick" href="javascript:void(0);" id="t01">創意手作</a><a class="" href="javascript:void(0);" id="t02">自然素材</a><a class="" href="javascript:void(0);" id="t03">文化傳承</a></div>
+  <div class="editblock">
+        <div id="t01_handicraft" class="handicraft_div">
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t01&id=129" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/129/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">格子萬用包</div>
+		        <div class="tt02">台東縣成功鎮農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t01&id=90" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/90/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">面紙套</div>
+		        <div class="tt02">臺中市臺中地區農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t01&id=131" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/131/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">珍珠帶零錢包</div>
+		        <div class="tt02">台東縣成功鎮農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t01&id=38" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/38/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">面紙收納兩用盒</div>
+		        <div class="tt02">臺中市農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		        		<div class="more"><a href="IA/list.php?func=handicraft&type=t01" target="_blank">更多資訊</a></div>
+    </div>
+        <div id="t02_handicraft" class="handicraft_div">
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t02&id=22" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/22/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">稻 吊飾-民俗巧藝.美麗的寶島</div>
+		        <div class="tt02">雲林縣二崙鄉農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t02&id=109" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/109/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">車廂系列-大象手機座</div>
+		        <div class="tt02">嘉義縣農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t02&id=70" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/70/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">芭樂精靈memo座</div>
+		        <div class="tt02">高雄市農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t02&id=15" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/15/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">澎湖新仙飾—胸針</div>
+		        <div class="tt02">澎湖縣農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		        		<div class="more"><a href="IA/list.php?func=handicraft&type=t02" target="_blank">更多資訊</a></div>
+    </div>
+        <div id="t03_handicraft" class="handicraft_div">
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t03&id=116" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/116/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">飛翔蝴蝶胸花</div>
+		        <div class="tt02">彰化縣農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t03&id=113" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/113/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">小瓢蟲髮夾</div>
+		        <div class="tt02">彰化縣農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t03&id=114" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/114/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">蝴蝶髮夾</div>
+		        <div class="tt02">彰化縣農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		    		    <a class="b05one" href="/IA/view.php?func=handicraft&type=t03&id=102" target="_blank">
+		      <div class="image" style="background:url(/files/IA_handicraft/102/main_1_m.jpg) no-repeat center center;background-size:cover;"></div>
+		      <div class="tb">
+		        <div class="tt01">水果祈福御守袋</div>
+		        <div class="tt02">台中市農會</div>
+		        <div class="tt03">產品介紹</div>
+		      </div>
+		    </a>
+		        		<div class="more"><a href="IA/list.php?func=handicraft&type=t03" target="_blank">更多資訊</a></div>
+    </div>
+      </div>
+</div>
+<!--END_05-->
+<!--06-->
+<div class="b06" id="div6">
+  <div class="editblock">
+        <a class="one" href="theme.php?theme=banner&id=banner_1343204158" target="_blank" title="青年農民輔導平台">
+      <div class="image"><img src="files/banner/banner_1343204158/banner_15.jpg" alt="青年農民輔導平台"/></div>
+      <div class="text">
+        <p class="t01">青年農民輔導平台</p>
+        <p class="t02">青年農民輔導平台</p>
+      </div>
+    </a>
+        <a class="one" href="theme.php?theme=banner&id=banner_1343204412" target="_blank" title="創新農業推廣平台">
+      <div class="image"><img src="files/banner/banner_1343204412/banner_15.jpg" alt="創新農業推廣平台"/></div>
+      <div class="text">
+        <p class="t01">創新農業推廣平台</p>
+        <p class="t02">創新農業推廣平台</p>
+      </div>
+    </a>
+        <a class="one" href="theme.php?theme=banner&id=banner_1562316272" target="_blank" title="農業科技產業情報站">
+      <div class="image"><img src="files/banner/banner_1562316272/banner_1.png" alt="農業科技產業情報站"/></div>
+      <div class="text">
+        <p class="t01">農業科技產業情報站</p>
+        <p class="t02">農業科技產業情報站</p>
+      </div>
+    </a>
+      </div>
+</div>
+<!--END_06-->
+
+<!--footer-->
+<div class="footer">
+  <a class="footer_control" id="footer_control" href="javascript:void(0);">&nbsp;<span>收合</span><div>-</div>&nbsp;</a>
+  <div class="f_edit">
+    <div class="footer_content">
+			<div class="fm01"><a href="list.php?id=28" title="關於學院">關於學院</a>
+			<a href="list.php?id=112" title="電子報">電子報</a>
+			<a href="consult.php" title="線上諮詢">線上諮詢</a></div>
+	    <div class="fm02"><div class="one_m"><a href="list.php?id=95" title="農業新知">農業新知</a><a href="list.php?id=131" title="全部" >全部</a><a href="list.php?id=96" title="農業焦點" >農業焦點</a><a href="list.php?id=97" title="課程快報" >課程快報</a><a href="list.php?id=98" title="市集活動" >市集活動</a><a href="list.php?id=99" title="研習活動" >研習活動</a><a href="list.php?id=742" title="新農記事" >新農記事</a><a href="list.php?id=814" title="電子書庫" >電子書庫</a></div><div class="one_m"><a href="list.php?id=19" title="訓練課程">訓練課程</a><a href="list.php?id=757" title="報名教學" >報名教學</a><a href="list.php?id=22" title="農業入門" >農業入門</a><a href="list.php?id=23" title="初階訓練" >初階訓練</a><a href="list.php?id=24" title="進階訓練" >進階訓練</a><a href="list.php?id=25" title="高階訓練" >高階訓練</a><a href="list.php?id=46" title="研習活動" >研習活動</a><a href="list.php?id=135" title="線上學習" >線上學習</a></div><div class="one_m"><a href="list.php?id=516" title="農業徵才">農業徵才</a><a href="recruitment.php" title="徵才說明">徵才說明</a><a href="recruitment.php?func=apply" title="刊登申請">刊登申請</a></div><div class="one_m"><a href="list.php?id=53" title="農場見習">農場見習</a><a href="list.php?id=54" title="見習要點" >見習要點</a><a href="list.php?id=132" title="見習工作" >見習工作</a><a href="list.php?id=125" title="錄取名單" >錄取名單</a><a href="list.php?id=579" title="學生見習" >學生見習</a></div><div class="one_m"><a href="list.php?id=170" title="找通路">找通路</a><a href="list.php?id=179" title="數位通路" >數位通路</a><a href="list.php?id=181" title="農會展售中心" >農會展售中心</a><a href="list.php?id=88" title="農民市集" >農民市集</a><a href="list.php?id=689" title="量販超市" >量販超市</a><a href="list.php?id=180" title="加工與餐飲業者" >加工與餐飲業者</a></div><div class="one_m"><a href="list.php?id=171" title="找產品">找產品</a><a href="list.php?id=172" title="農產品" >農產品</a><a href="list.php?id=176" title="加工品" >加工品</a><a href="list.php?id=175" title="水產品" >水產品</a><a href="list.php?id=174" title="畜產品" >畜產品</a><a href="list.php?id=1257" title="青農電子型錄" >青農電子型錄</a></div><div class="one_m"><a href="list.php?id=36" title="好幫手">好幫手</a><a href="list.php?id=243" title="農糧類" >農糧類</a><a href="list.php?id=244" title="畜牧類" >畜牧類</a><a href="list.php?id=245" title="休閒類" >休閒類</a><a href="list.php?id=246" title="水產養殖類" >水產養殖類</a><a href="list.php?id=693" title="農業新手包" >農業新手包</a></div><div class="one_m"><a href="list.php?id=42" title="同學會">同學會</a><a href="list.php?id=55" title="農人新樂園粉絲團" target="_blank">農人新樂園粉絲團</a></div><div class="one_m"><a href="list.php?id=27" title="學員專區">學員專區</a><a href="list.php?id=79" title="學習紀錄" >學習紀錄</a><a href="list.php?id=80" title="報名繳費紀錄" >報名繳費紀錄</a><a href="list.php?id=81" title="生產歷程" >生產歷程</a><a href="list.php?id=82" title="通路管理" >通路管理</a><a href="list.php?id=83" title="個人資料" >個人資料</a><a href="list.php?id=84" title="上傳證明文件" >上傳證明文件</a><a href="list.php?id=70" title="文件下載" >文件下載</a><a href="list.php?id=85" title="見習報名紀錄" >見習報名紀錄</a><a href="list.php?id=86" title="見習自我評核表" >見習自我評核表</a><a href="list.php?id=87" title="訓練成效線上調查" >訓練成效線上調查</a></div><div class="one_m"><a href="list.php?id=795" title="食農推廣">食農推廣</a><a href="list.php?id=802" title="學童體驗" >學童體驗</a><a href="list.php?id=803" title="親子體驗" >親子體驗</a><a href="list.php?id=817" title="大眾體驗" >大眾體驗</a></div></div>
+		</div>
+    <div class="copyright">
+      <div class="f_logo"><a href="https://www.coa.gov.tw/" target="_blank"><img src="images/layout/logo02.png" alt="行政院農業委員會" title="行政院農業委員會"/></a><a href="index.php"><img src="images/layout/logo.png" alt="農民學院" title="農民學院"/></a></div>
+
+<div class="ft" style="margin: 20px 0;"><a href="list.php?id=1255">隱私權保護宣告</a><span>/</span><a href="list.php?id=1256">資訊安全政策</a><span>/</span><a href="list.php?id=1254">網站資料開放宣告</a></div>
+
+<div class="ft" style="margin: 20px 0;">服務時間：星期一~五 AM9:00~PM6:00<span>/</span>客服信箱：academy@imita.com.tw<span>/</span>客服電話：<a href="list.php?id=520">點此觀看</a><span>/</span>傳真：(02)3322-9036<span>/<br></span>機關地址：10014 臺北市中正區南海路 37 號</div>
+
+<div class="ft02" style="margin-bottom:10px;">Copyright © 行政院農業委員會. All rights reserved.<br>最佳瀏覽解析度1280 x768以上，支援瀏覽器IE 9.0以上、Firefox 、Google Chrome</div>
+    </div>
+  </div>
+</div>
+<!--EDN_footer-->
+
+<!--login-->
+<div id="login_div" class="lightbox">
+	<div class="close"><span>×</span></div>
+	<div class="title">學員登入</div>
+	<form id="login_form" name="login_form" action="login.php" method="post">
+		<div class="eb">
+			<p class="text"><span>帳號</span> / account number</p>
+			<input name="account" type="text" id="account" size="20" placeholder="請輸入帳號"/>
+		</div>
+		<div class="eb">
+			<p class="text"><span>密碼</span> / password</p>
+			<input name="pwd" type="password" id="pwd" size="20" maxlength="50" placeholder="請輸入密碼"/>
+			<span class="fa fa-eye" aria-hidden="true"></span><span class="fa fa-eye-slash" aria-hidden="true"></span>
+		</div>
+		<div class="eb">
+			<p class="text"><span>驗證碼</span> / Verification Code</p>
+			<div class="verification">
+				<div class="inf">
+					<img class="sec_img" src="tmp/_8tegtb5a4qa8.jpg" style="width:80px;" alt="驗證碼"/><a class="rep_sec" href="javascript:void(0);"><img src="/images/layout/rep.png" alt="更新驗證碼" title="更新驗證碼"/></a>
+				</div>
+				<input name="sec_code" type="text" id="sec_code" maxlength="6" placeholder="請輸入驗證碼"/>
+			</div>
+		</div>
+		<a id="login_submit" class="btn" href="javascript:void(0);">立即登入</a>
+	</form>
+	<div class="other">
+		<a class="ah" href="member.php?func=pwd">忘記帳號/密碼</a>
+		<a class="ah" href="member.php?func=privacy">加入學員</a>
+	</div>
+</div>
+<!--EDN_login-->
+</body>
+</html>

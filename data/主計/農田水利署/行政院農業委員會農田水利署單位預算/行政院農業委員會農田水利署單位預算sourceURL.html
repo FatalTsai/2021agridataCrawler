@@ -1,0 +1,689 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<!--<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">-->
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="description" content="農田水利署/政府資訊公開/預算及決算" />
+<meta property="og:title" content="農田水利署/政府資訊公開/預算及決算" />
+<meta property="og:description" content="農田水利署/政府資訊公開/預算及決算" />
+<meta property="og:image" content="logo.jpg" />
+
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/default2020.css?id=7">
+
+
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/default.js"></script>
+<title>農田水利署/政府資訊公開/預算及決算</title>
+
+<style>
+
+</style>
+</head>
+
+<body>
+<div id="pageWrapper">
+
+<script>
+	$(document).ready(function(){
+		$("header").css("background-image","url('upload/2382020930060950299.jpg')");
+	//	$("header").css("background-image","url('images/tempbanner.jpg')");
+	});
+</script>
+<header id='2020n'>
+	<div class='bannerover'></div>
+	<div class="top">
+		<div class="wrapper">
+			<a href="index.php"><img src="images/2020newlogo.png" id="logo" alt="logo" title="logo"></a>
+			<a href="javascript:void(0)" id="nav_icon"><i class="fa fa-bars fa-2x"></i></a>
+			<div id="topnav">
+				<a href="index.php">回首頁</a>
+				<a href="map.php">網站導覽</a>
+		<!--		<a href="en/" target="_blank" rel='noopener noreferrer' >English</a>-->
+				<a href="kid/" target="_blank" rel='noopener noreferrer' >兒童版</a>
+						<span class="font_size">
+			<span>字級</span>
+			<span data-f="small" class="btn_font btn_fontsmall">A</span>
+			<span data-f="normal" class="btn_font btn_fontnormal current">A</span>
+			<span data-f="large" class="btn_font btn_fontlarge">A</span>
+		</span>
+		<script>
+		$(document).ready(function(){
+			$("body").on("click",".btn_font",function(){
+				var size=$(this).data("f");
+				$(".btn_font").removeClass('current');
+				$(".btn_font"+size).addClass('current');
+				if(size == 'large'){
+					$("#myTable,#myContent").css({fontSize: 16});
+					$(".font12").css({fontSize: 15});
+					$(".font13").css({fontSize: 16});
+					$(".font14").css({fontSize: 17});
+					$(".font15").css({fontSize: 18});
+					$(".font16").css({fontSize: 19});
+					$(".font17").css({fontSize: 20});
+					$(".font18").css({fontSize: 21});
+				}else if(size == 'small'){
+					$(".font12").css({fontSize: 10});
+					$(".font13").css({fontSize: 11});
+					$(".font14").css({fontSize: 12});
+					$(".font15").css({fontSize: 13});
+					$(".font16").css({fontSize: 14});
+					$(".font17").css({fontSize: 15});
+					$(".font18").css({fontSize: 16});
+					$("#myTable,#myContent").css({fontSize: 12});
+				}else{
+					$("#myTable,#myContent").css({fontSize: 14});
+					$(".font12").css({fontSize: 12});
+					$(".font13").css({fontSize: 13});
+					$(".font14").css({fontSize: 14});
+					$(".font15").css({fontSize: 15});
+					$(".font16").css({fontSize: 16});
+					$(".font17").css({fontSize: 17});
+					$(".font18").css({fontSize: 18});
+				}
+
+
+
+
+
+			});
+	});
+		</script>
+			</div>
+			<form id="cse-search-box" action="search.php" target="_blank" rel='noopener noreferrer' >
+				<input name="cx" type="hidden" value="005028704855783423979:feon1fcz5b0">
+				<input name="ie" type="hidden" value="utf-8">
+				<input name="q" tabindex="1" title="Google搜尋，請輸入關鍵字" class="search" accesskey="S" type="text" placeholder="請輸入關鍵字">
+						<input type="hidden" name="job" value="token">
+						<input type="hidden" name="token" value="a836cc95b331a98e4bdb">
+				<input name="siteurl" type="hidden"><input name="ref" type="hidden"><input name="ss" type="hidden">
+			</form>
+		</div>
+	</div>
+	<nav>
+		<div class="mobile mobile_nav">
+			<a href="index.php">回首頁</a> |
+			<a href="map.php">網站導覽</a> |
+		<!--	<a href="/en/">English</a> |-->
+			<a href="/kid">兒童版</a> |
+	<!--		<a href="https://www.facebook.com/doiefollowme/" target="_blank" rel='noopener noreferrer' ><img src="/images/fb-icon.jpg" style="width: 3.5vw;"></a>-->
+			<i class="fa fa-times btn_navCloss" aria-hidden="true"></i>
+		</div>
+		<ul>
+			<li 			><a href="#about">關於本署<span class="eng">About Us</span></a>
+				<ul>
+				<li><a href="minister.php" class="font14">署長介紹</a></li>
+				<li><a href="ministertalk.php" class="font14">署長的話</a></li>
+					<li><a href="about.php" class="font14">關於農田水利</a></li>
+					<li><a href="dept.php" class="font14">農田水利署簡介</a></li>
+					<li><a href="orgs.php" class="font14">17個管理處</a>
+					</li>
+				</ul>
+			</li>
+			<li ><a>公告資訊<span class="eng">News & Announcement</span></a>
+				<ul>
+					<li><a class="font14">農業新聞</a>
+						<ul>
+							<li><a href="quicknews.php" class="font14">農委會快訊</a></li>
+							<li><a href="news.php?type=M" class="font14">農田水利署</a></li>
+							<li><a href="news.php?type=O" class="font14">17個管理處</a></li>
+						</ul>
+					</li>
+					<li><a class="font14">重大政策</a>
+						<ul>
+							<li><a href="https://www.ey.gov.tw/Page/2124Ab8A95F79A75" target="_blank" rel='noopener noreferrer'  class="font14">行政院</a></li>
+							<li><a href="https://www.coa.gov.tw/ws.php?id=19059" target="_blank" rel='noopener noreferrer'  class="font14">農委會</a></li>
+
+						</ul>
+					</li>
+					<li><a href="policy.php" class="font14">政令宣導</a></li>
+					<li><a class="font14">活動資訊</a>
+						<ul>
+							<li><a href="seminar.php" class="font14">研習研討</a></li>
+							<li><a href="activity.php" class="font14">活動花絮</a></li>
+
+						</ul>
+					</li>
+					<li><a class="font14">影音專區</a>
+						<ul>
+							<li><a href="video.php?search_type=1" class="font14">媒體報導</a></li>
+							<li><a href="video.php?search_type=2" class="font14">成果影片</a></li>
+
+						</ul>
+					</li>
+
+
+				</ul>
+			</li>
+			<li ><a>業務資訊<span class="eng">Law & Regulations</span></a>
+				<ul>
+					<li><a class="font14">法規資訊</a>
+						<ul>
+							<li><a href="expbook.php" class="font14">行政令函</a></li>
+							<li><a href="https://www.coa.gov.tw/ws.php?id=21478" target="_blank" rel='noopener noreferrer'  class="font14">農委會法規資料庫</a></li>
+							<li><a href="http://law.moj.gov.tw/" target="_blank" rel='noopener noreferrer'  class="font14">全國法規資料庫</a></li>
+							<li><a href="/labor/" target="_blank" rel='noopener noreferrer'  class="font14">農田水利管理處適用勞基法說明</a></li>
+						</ul>
+					</li>
+					<li><a href="articles.php" class="font14">研究成果</a></li>
+					<li><a href="publicwork.php" class="font14">工務行政手冊規範</a></li>
+					<li><a href="measure.php" class="font14">管理處重要措施</a></li>
+			 <!--		<li><a href="/upload/1090324農田水利署之數字看板-彙出.pdf" target="_blank" rel='noopener noreferrer'  class="font14">農田水利數字看板</a></li>-->
+					<li><a href="http://coacmp.triwra.org.tw/Index01.aspx" target="_blank" rel='noopener noreferrer'  class="font14">流域綜合治理計畫農田排水專屬網站</a></li>
+
+					<li><a href="http://coafli.triwra.org.tw/" target="_blank" rel='noopener noreferrer'  class="font14">前瞻基礎建設計畫</a></li>
+					<li><a href="https://adi.triwra.org.tw/PHComment/" target="_blank" rel='noopener noreferrer'  class="font14">農田水利法草案預告</a></li>
+					<li><a href="http://dataset.tjia.gov.tw/" target="_blank" rel='noopener noreferrer'  class="font14">公務統計報表與資料輯整合系統</a></li>
+					<li><a href="https://engplatform.aerc.org.tw/" target="_blank" rel='noopener noreferrer'  class="font14">農田水利設施工程管考系統</a></li>
+					<!--<li><a href="https://c.triwra.org.tw/" target="_blank" rel='noopener noreferrer' >人事管理系統(農田水利管理處專用)</a></li>-->
+					<li><a href="download.php" class="font14">表單下載</a></li>
+				</ul>
+			</li>
+			<li ><a>主題專區<span class="eng">Topics</span></a>
+				<ul>
+					<li><a href="words.php" class="font14">多語詞彙</a></li>
+					<li><a href="waterslang.php" class="font14">俗諺語專區</a></li>
+					<li><a href="scenery.php" class="font14">水利之美</a></li>
+					<li><a href="story.php" class="font14">水利故事館</a></li>
+					<li><a href="history.php" class="font14">農田水利史</a></li>
+					<li><a href="custom.php" class="font14">水利民俗典故</a></li>
+					<li><a href="people.php" class="font14">水利人物</a></li>
+					<li><a href="vision.php" class="font14">水利視界</a></li>
+					<li><a class="font14">水圳樂活</a>
+						<ul>
+							<li><a href="media.php?category=休閒遊憩" class="font14">休閒遊憩</a></li>
+							<li><a href="media.php?category=食在健康" class="font14">食在健康</a></li>
+							<li><a href="media.php?category=知識" class="font14">知識+</a></li>
+						</ul>
+					</li>
+					<li><a href="engineering.php" class="font14">優質工程</a></li>
+				</ul>
+			</li>
+			<li ><a>相關連結<span class="eng">Recommended Links</span></a>
+				<ul>
+					<!--<li><a href="weblinks.php?type=F">農田水利</a></li>-->
+					<li><a href="weblinks.php?type=G"  class="font14">政府機關</a></li>
+					<!--<li><a href="weblinks.php?type=N");/*NEW*/?>">農委會其他專案網站</a></li>-->
+					<li><a class="font14">國內農田水利相關網站</a>
+						<ul>
+							<li><a href="weblinks.php?type=S" class="font14">學術單位</a></li>
+							<li><a href="weblinks.php?type=C" class="font14">民間單位</a></li>
+						</ul>
+					</li>
+					<li><a href="weblinks.php?type=O" class="font14">國外農田水利相關網站</a></li>
+				</ul>
+			</li>
+			<li ><a href="#service">便民服務<span class="eng">public service</span></a>
+				<ul>
+					<li><a href="faq.php" class="font14">常見問題</a></li>
+					<li><a href="service.php" class="font14">服務窗口</a></li>
+					<li><a href="mail.php" class="font14">意見信箱</a></li>
+					<!--<li><a href="#service">就業資訊</a></li>-->
+					<li><a href="https://doie.coa.gov.tw/2016/exam/" target="_blank" rel='noopener noreferrer'  class="font14">農田水利考古題</a></li>
+					<li><a href="drainage.php"  class="font14">灌溉排水營運管理</a></li>
+				<li><a href="/upload/2020灌溉原理完整版.pdf" target="_blank" rel='noopener noreferrer'  class="font14">灌溉原理</a></li>
+	  		<li><a href="/upload/2020灌溉管理學完整版.pdf" target="_blank" rel='noopener noreferrer'  class="font14">灌溉管理學</a></li>
+	         <li><a href="/upload/2020灌溉工程學完整版.pdf" target="_blank" rel='noopener noreferrer'  class="font14">灌溉工程學</a></li>
+
+				</ul>
+			</li>
+			<li><a href="#info">政府資訊公開<span class="eng">Government Open Data</span></a>
+				<ul>
+					<li><a href="Budget.php" rel='noopener noreferrer'  class="font14">預算及決算</a></li>
+					
+					<li><a href="articles.php"  class="font14">研究成果</a></li>
+					<!--<li><a href="search.php");?>">學報與期刊</a></li>-->
+					<li><a href="measure.php" class="font14">管理處重要措施</a></li>
+				 <!--	<li><a href="/upload/1090324農田水利署之數字看板-彙出.pdf" target="_blank" rel='noopener noreferrer'  class="font14">農田水利數字看板</a></li>-->
+					<li><a href="https://doie.coa.gov.tw/upload/doc/%E7%99%BD%E7%9A%AE%E6%9B%B8_%E4%B8%8A%E7%B6%B2%E7%89%88.pdf" target="_blank" rel='noopener noreferrer'  class="font14">農田灌溉白皮書</a></li>
+					<!--<li><a href="https://doie.coa.gov.tw/2016/exam/" target="_blank" rel='noopener noreferrer' >農田水利考古題</a></li>-->
+					<li><a href="http://coacmp.triwra.org.tw/Index01.aspx" target="_blank" rel='noopener noreferrer'  class="font14">流域綜合治理計畫農田排水專屬網站</a></li>
+					<li><a href="https://adi.triwra.org.tw/PHComment/" target="_blank" rel='noopener noreferrer'  class="font14">農田水利法草案預告</a></li>
+					<li><a href="http://water.tjia.gov.tw/elecbook/elecbook.asp" target="_blank" rel='noopener noreferrer' class="font14" >選務函釋查詢系統</a></li>
+
+					<li><a href="GenderEquity.php" rel='noopener noreferrer'  class="font14">性別平等區</a></li>
+					<li><a href="reimburse.php" rel='noopener noreferrer'  class="font14">桃竹苗停灌補償專區</a></li>
+					<li><a href="http://coafli.triwra.org.tw" target="_blank" rel='noopener noreferrer' class="font14" >前瞻基礎建設計畫</a></li>
+
+					
+					</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<section id="orgs">
+	<div class="section_top">
+		<div class="wrapper">
+			<h1 class="content_title">預算及決算</h1>
+		</div>
+	</div>
+	<div class="wrapper" id="news2">
+		<link rel="stylesheet" href="css/letter.css">
+<style>
+.mysubmit {
+    width: 80px;
+    display: inline-block;
+    margin: 0 auto 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 4px;
+    box-sizing: border-box;
+    color: #FFF;
+    background: #67542c;
+    cursor: pointer;
+}
+.font_sizenew {
+    float: right;
+    margin-top: 20px;
+}
+</style>
+<script src="js/share.js"></script>
+
+		<div class="font_sizenew">
+			<a href="javascript:fb();" class="noborder"><img src="images/btn_fb.png" alt="fb" title="fb"></a>
+			<a href="javascript:mail();" class="noborder"><img src="images/btn_mail.png" alt="mail" title="mail"></a>
+			<a href="javascript:print();" class="noborder"><img src="images/btn_print.png" alt="print" title="print"></a>
+		</div>
+<script> 
+function fb(){
+	window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)));
+}
+function mail(){
+	
+	poprulemail();
+}
+function changeFont(size){
+	$(".font_size a[class^=btn_font]").removeClass('current');
+	$(".font_size a.btn_font"+size).addClass('current');
+	var fontsize = 14;
+	if(size == 'large'){
+		fontsize = 16;
+	}else if(size == 'small'){
+		fontsize = 12;
+	}
+	$("#myTable,#myContent").css({fontSize: fontsize});
+}
+		poprulemail = function(x) { //title/內容/是否可以關閉
+					var out="<div id='pop'><div class='centerwarp'>";
+		out+="	<div id='popin' class='popup'>\n";
+		out+="		<div  class='popclose popclosebg' style='' ><img src='images/popxx.png' class='popxx'></div>";
+		out+="		<div id='popinw' style='overflow-x:hidden;overflow-y:hidden;margin:3vw 0'>\n";
+		
+
+		
+		out+="	<table  width='100%'>		";	
+		out+="		<tr><td  colspan=2>轉寄本頁<br></td></tr>";
+		out+="		<tr>";
+		out+="			<td  width='30%'>收件者MAIL：</td>";
+		out+="			<td  width='70%'><input type='text' name='email' class='formfield formreqmail w400'  data-type='email'  data-err='請填寫email'  placeholder='請填寫email' style='width: 80%;'><br></td>";
+		out+="		</tr>";
+		out+="		<tr>";
+		out+="			<td>主旨：</td>";
+		out+="			<td><input type='text' name='subject' class='formfield formreqmail' data-type='text' data-val='2'  data-val2='200' data-err='請填寫主旨'  placeholder='請輸入主旨' style='width: 80%;' value='推薦一個好網站'><br></td>";
+		out+="		</tr>";
+		out+="		<tr>";
+		out+="			<td>內容：</td>";
+		out+="			<td><textarea rows='6' name='info' class='formfield formreqmail'   placeholder='請輸入內容' data-type='text' data-val='2'  data-val2='2000' data-err='請填寫請內容' style='width: 80%;'>你的好友推薦本網址給你\nhttps://www.ia.gov.tw/Budget.php</TEXTAREA><br></td>";
+		out+="		</tr>";
+		out+="		<tr>";
+		out+="			<td></td>";
+		out+="			<td align='center'><div class='mysubmit mysendmail'>寄送</div></td>";
+		out+="		</tr>";
+		out+="	</table>";				
+			
+			
+			
+			
+			
+			
+			out+="		\n\n</div>\n";		
+			out+="	</div>";
+			out+="</div></div>";
+			$("body").prepend(out);
+			$("#popin").animate({"margin-top":50},500);
+			$("#pop").stop().fadeIn(400);  
+			$("#popinwincontent").css("height",$("#popinw").height()-$("#popinwintitle").height()*2);
+			poplockme();
+	   };  
+	popclose= function() {
+	 $("#popin").stop().fadeOut(200).remove();
+	 $("#pop").delay(100).stop().fadeOut(200).remove();
+	 popfreeme();
+	} 	 
+ $("body").delegate(".popclose","click",function(e){
+	 e.preventDefault();
+	 popclose();
+ });	
+$("body").delegate(".mysendmail","click",function(e){
+		me=$(this);
+		chklist=$(".formreqmail");
+		myerr="";			
+		var chk=1;	
+		for(a=0;a<chklist.length;a++){
+			if(chklist.eq(a).data("type")=="text"){
+				if(!vtext(chklist.eq(a),chklist.eq(a).data("val"),'',chklist.eq(a).data("val2"))){
+						chk=0;
+						myerr+=chklist.eq(a).data("err")+"\n";
+				}
+			}else if(chklist.eq(a).data("type")=="phone"){		
+
+					var cellphone = /^09[0-9]{8}$/; 
+					if ( cellphone.test( chklist.eq(a).val() ) ) { 
+	
+							chklist.eq(a).removeClass("forminput");
+					} 
+					else { 
+							chklist.eq(a).addClass("forminput");
+							chk=0;
+							myerr+=chklist.eq(a).data("err")+"\n";
+					} 					
+			}else if(chklist.eq(a).data("type")=="email"){
+				if(!vemail(chklist.eq(a),'')){
+						chk=0;
+						myerr+=chklist.eq(a).data("err")+"\n";
+				}
+			}
+		}
+			if(chk){			
+				var tempvals=Array(chklist.eq(0).val(),chklist.eq(1).val(),chklist.eq(2).val());// 類別,ID
+				tempitem=ajaxarr("sendmail2",tempvals,"ajax.php");
+				tempitem.success(function(data){//
+					if(data[0]=="ERR"){
+
+					}else{
+						 alert("寄送完成");
+						 e.preventDefault();
+						 popclose();
+					}
+				});				
+				//document.location.href="epaper.php?thisid=&job=send&to="+chklist.eq(0).val(); 
+				
+			}else{
+				alert(myerr);	
+			}		
+	 }); 
+ 
+</script>			<div class="breadcrumb font14"><a href="index.php"><img src="images/icon_home.png" alt="home" title="home"> 首頁 </a>/ 政府資訊公開 /<a href="#"> 預算及決算</a></div>
+
+
+<b class="content_h3 font18">公務預決算</b>
+<table class="rwd-table  font14" id="myContent">
+<tbody><tr>
+		    <th></th>
+		  </tr>
+		  	<tr>
+				
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/110年度農田水利署單位預算案(pdf).pdf" target="_blank" rel="noopener noreferrer">110年度農田水利署單位預算案(pdf)</a></td>
+			</tr>
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/110年度農田水利署單位預算案ODS檔(rar).rar" target="_blank" rel="noopener noreferrer">110年度農田水利署單位預算案ODS檔(rar)</a></td>
+			</tr>			
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/110年度農田水利署單位預算案XML檔(rar).rar" target="_blank" rel="noopener noreferrer">110年度農田水利署單位預算案XML檔(rar)</a></td>
+			</tr>		
+
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/110年度法定預算書(含封面)(PDF).pdf" target="_blank" rel="noopener noreferrer">110年度法定預算書(PDF)</a></td>
+			</tr>		
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/公務預算會計報告(110年1月)(PDF).pdf" target="_blank" rel="noopener noreferrer">公務預算會計報告(110年1月)(PDF).pdf</a></td>
+			</tr>		
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/前瞻基礎建設計畫第3期會計月報(110年1月)(PDF).pdf" target="_blank" rel="noopener noreferrer">前瞻基礎建設計畫第3期會計月報(110年1月)(PDF)</a></td>
+			</tr>		
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/前瞻基礎建設計畫第2期會計月報(110年1月)(PDF).pdf" target="_blank" rel="noopener noreferrer">前瞻基礎建設計畫第2期會計月報(110年1月)(PDF)</a></td>
+			</tr>	
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/前瞻2-會計月報110年2月.pdf" target="_blank" rel="noopener noreferrer">前瞻2-會計月報110年2月</a></td>
+			</tr>				
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/前瞻3-會計月報110年2月.pdf" target="_blank" rel="noopener noreferrer">前瞻3-會計月報110年2月</a></td>
+			</tr>	
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/公務預算會計報告(110年2月)(PDF).pdf" target="_blank" rel="noopener noreferrer">公務預算會計報告(110年2月)(PDF).pdf</a></td>
+			</tr>					
+		</tbody>
+</table>		
+<BR>
+
+
+<b class="content_h3 font18">基金預決算</b>
+<table class="rwd-table  font14" id="myContent">
+<tbody><tr>
+		    <th></th>
+		  </tr>
+		  	<tr>
+				
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/110年度農田水利事業作業基金預算案(PDF).pdf" target="_blank" rel="noopener noreferrer">110年度農田水利事業作業基金預算案(PDF)</a></td>
+			</tr>
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/收支餘絀預計表.xml" target="_blank" rel="noopener noreferrer">收支餘絀預計表.xml</a></td>
+			</tr>			
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/現金流量預計表.xml" target="_blank" rel="noopener noreferrer">現金流量預計表.xml</a></td>
+			</tr>
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/餘絀撥補預計表.xml" target="_blank" rel="noopener noreferrer">餘絀撥補預計表.xml</a></td>
+			</tr>		
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/農田水利作業基金會計月報(110年1月)(PDF).pdf" target="_blank" rel="noopener noreferrer">農田水利作業基金會計月報(110年1月)(PDF)</a></td>
+			</tr>	
+		  	<tr>
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/11002作業基金會計月報.pdf" target="_blank" rel="noopener noreferrer">農田水利作業基金會計月報(110年2月)(PDF)</a></td>
+			</tr>						
+		</tbody>
+</table>		
+<BR>
+<b class="content_h3 font18">重要公共工程建設、施政計畫及替代方案成效分析報告</b>
+<table class="rwd-table  font14" id="myContent">
+<tbody><tr>
+		    <th></th>
+		  </tr>
+		  	<tr>
+				
+				<td data-th="標題" style="text-align: left;"><a download href="/upload/加強農田水利建設.pdf" target="_blank" rel="noopener noreferrer">加強農田水利建設(PDF)</a></td>
+			</tr>
+		
+		</tbody>
+</table>		
+						
+    </div>
+
+
+
+
+	</div>
+</section>
+
+<footer>
+	<div class='foottop'>
+		<div class='footmapbtnwrap'>
+			<div class='footmapbtn'>
+				<i class="fa fa-chevron-up" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class='footmap'>
+			<div class='wrapper'>
+				<div class='group'>
+					<div class='title' class="font18">關於本署</div>
+					<div class='linkwrap' class="font14">
+					    <a href="minister.php" class="font14">署長介紹</a>
+						<a href="ministertalk.php" class="font14">署長的話</a>
+						<a href="about.php" class="font14">關於農田水利</a>
+						<a href="dept.php" class="font14">農田水利署簡介</a>
+						<a href="orgs.php" class="font14">17個管理處</a>
+					</div>
+				</div>
+				<div class='group'>
+					<div class='title' class="font18">公告資訊</div>
+					<div class='linkwrap'>
+						<a class="font14">農業新聞</a>
+		        <a href="quicknews.php" class="font14">農委會快訊</a>
+						<a href="news.php?type=M" class="font14">農田水利署</a>
+						<a href="news.php?type=O" class="font14">17個管理處</a>
+						<a class="font14">重大政策</a>
+						<a href="https://www.ey.gov.tw/Page/2124Ab8A95F79A75" target="_blank" rel="noopener noreferrer" class="font14">行政院</a>
+						<a href="https://www.coa.gov.tw/ws.php?id=19059" target="_blank" rel="noopener noreferrer" class="font14">農委會</a>
+	          <a href="policy.php" class="font14">政令宣導</a>
+						<a class="font14">活動資訊</a>
+						<a href="seminar.php" class="font14">研習研討</a>
+						<a href="activity.php" class="font14">活動花絮</a>
+						<a class="font14">影音專區</a>
+						<a href="video.php?search_type=1" class="font14">媒體報導</a>
+						<a href="video.php?search_type=2" class="font14">成果影片</a>
+					</div>
+				</div>
+				<div class='group'>
+					<div class='title' class="font18">業務資訊</div>
+					<div class='linkwrap'>
+						<a class="font14">法規資訊</a>
+						<a href="expbook.php" class="font14">行政令函</a>
+						<a href="https://www.coa.gov.tw/ws.php?id=21478" target="_blank" rel="noopener noreferrer" class="font14">農委會法規資料庫</a>
+						<a href="http://law.moj.gov.tw/" target="_blank" rel="noopener noreferrer" class="font14">全國法規資料庫</a>
+						<a href="/labor/" target="_blank" rel="noopener noreferrer" class="font14">農田水利管理處適用勞基法說明</a>
+						<a href="articles.php" class="font14">研究成果</a>
+						<a href="publicwork.php" class="font14">工務行政手冊規範</a>
+						<a href="measure.php" class="font14">管理處重要措施</a>
+				 <!--		<a href="/upload/1090324農田水利署之數字看板-彙出.pdf" target="_blank" rel="noopener noreferrer" class="font14">農田水利數字看板</a>-->
+						<a href="http://coacmp.triwra.org.tw/Index01.aspx" target="_blank" rel="noopener noreferrer" class="font14">流域綜合治理計畫農田排水專屬網站</a>
+						<a href="http://coafli.triwra.org.tw/" target="_blank" rel="noopener noreferrer" class="font14">前瞻基礎建設計畫</a>
+						<a href="https://adi.triwra.org.tw/PHComment/" target="_blank" rel="noopener noreferrer" class="font14">農田水利法草案預告</a>
+						<a href="http://dataset.tjia.gov.tw/" target="_blank" rel="noopener noreferrer" class="font14">公務統計報表與資料輯整合系統</a>
+						<a href="https://engplatform.aerc.org.tw/" target="_blank" rel="noopener noreferrer" class="font14">農田水利設施工程管考系統</a>
+						<a href="download.php" class="font14">表單下載</a>
+					</div>
+				</div>
+				<div class='group'>
+					<div class='title' class="font18">政府資訊公開</div>
+					<div class='linkwrap'>
+					<a href="/upload/110年度農田水利署公務預算案.pdf" target="_blank" rel='noopener noreferrer'  class="font14">預算及決算</a>
+						<a href="articles.php" class="font14">研究成果</a>
+						<a href="measure.php" class="font14">管理處重要措施</a>
+						 <!--<a href="/upload/1090324農田水利署之數字看板-彙出.pdf" target="_blank" rel="noopener noreferrer" class="font14">農田水利數字看板</a>-->
+						<a href="https://doie.coa.gov.tw/upload/doc/%E7%99%BD%E7%9A%AE%E6%9B%B8_%E4%B8%8A%E7%B6%B2%E7%89%88.pdf" target="_blank" rel="noopener noreferrer" class="font14">農田灌溉白皮書</a>
+						<a href="http://coacmp.triwra.org.tw/Index01.aspx" target="_blank" rel="noopener noreferrer" class="font14">流域綜合治理計畫農田排水專屬網站</a>
+						<a href="https://adi.triwra.org.tw/PHComment/" target="_blank" rel="noopener noreferrer" class="font14">農田水利法草案預告</a>
+						<a href="http://water.tjia.gov.tw/elecbook/elecbook.asp" target="_blank" rel="noopener noreferrer" class="font14">選務函釋查詢系統</a>
+					<a href="/upload/民眾向行政機關引用CEDAW指引及案例（民眾版）.pdf" target="_blank" rel='noopener noreferrer'  class="font14">性平專區</a>
+				    <a href="reimburse.php" rel='noopener noreferrer' rel='noopener noreferrer' class="font14">桃竹苗停灌補償專區</a>
+					<a href="http://coafli.triwra.org.tw" target="_blank" rel='noopener noreferrer' class="font14" >前瞻基礎建設計畫</a>
+
+				</div>
+				</div>
+				<div class='group'>
+					<div class='title' class="font18">主題專區</div>
+					<div class='linkwrap'>
+							<a href="words.php" class="font14">多語詞彙</a>
+							<a href="waterslang.php" class="font14">俗諺語專區</a>
+							<a href="scenery.php" class="font14">水利之美</a>
+							<a href="story.php" class="font14">水利故事館</a>
+							<a href="history.php" class="font14">農田水利史</a>
+							<a href="custom.php" class="font14">水利民俗典故</a>
+							<a href="people.php" class="font14">水利人物</a>
+							<a href="vision.php" class="font14">水利視界</a>
+							<a class="font14">水圳樂活</a>
+							<a href="media.php?category=休閒遊憩" class="font14">休閒遊憩</a>
+							<a href="media.php?category=食在健康" class="font14">食在健康</a>
+							<a href="media.php?category=知識" class="font14">知識+</a>
+							<a href="engineering.php" class="font14">優質工程</a>
+					</div>
+				</div>
+				<div class='group'>
+					<div class='title' class="font18">相關連結</div>
+					<div class='linkwrap'>
+						<a href="weblinks.php?type=G" class="font14">政府機關</a>
+						<a class="font14">國內農田水利相關網站</a>
+						<a href="weblinks.php?type=S" class="font14">學術單位</a>
+						<a href="weblinks.php?type=C" class="font14">民間單位</a>
+						<a href="weblinks.php?type=O" class="font14">國外農田水利相關網站</a>
+					</div>
+				</div>
+				<div class='group'>
+					<div class='title' class="font18">便民服務</div>
+					<div class='linkwrap'>
+						<a href="faq.php" class="font14">常見問題</a>
+						<a href="service.php" class="font14">服務窗口</a>
+						<a href="mail.php" class="font14">意見信箱</a>
+						<a href="https://doie.coa.gov.tw/2016/exam/" target="_blank" rel='noopener noreferrer'  class="font14">農田水利考古題</a>
+						<a href="drainage.php" class="font14">灌溉排水營運管理</a>
+						<a href="/upload/2020灌溉原理完整版.pdf" target="_blank" rel='noopener noreferrer'  class="font14">灌溉原理</a>
+						<a href="/upload/2020灌溉管理學完整版.pdf" target="_blank" rel='noopener noreferrer'  class="font14">灌溉管理學</a>
+						<a href="/upload/2020灌溉工程學完整版.pdf" target="_blank" rel='noopener noreferrer'  class="font14">灌溉工程學</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class='footbottom'>
+		<div class='wrapper'>
+			<div class='footlink'>
+				<a href="/privacy2.php" class="font16">資訊安全政策</a>
+				<a href="/privacy.php" class="font16">隱私權及安全政策</a>
+				<a href="/announce.php" class="font16">網站資訊開放宣告</a>
+
+				<img src='images/govicon.png' id="scrollup">
+			</div>
+			<div class='footaddress font16'>
+				<div style="width: 34%;display: block;float: left;">
+				地址：231753新北市新店區北新路一段45巷5號6樓<br>
+				服務電話：02-81958115
+				</div>
+				<div>
+				<a href="/location.php" class="font16">交通方式及地圖</a>
+				</div>
+			</div>
+			<div class='footcopyright font13'>
+				Copyright© 農田水利署 版權所有 。 累積瀏覽人次:
+				5149811			</div>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" href="css/default1.css">
+<!--<span id="scrollup"></span>-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F87F6VP78S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-F87F6VP78S');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134722337-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-134722337-1');
+</script>
+<script>
+$(document).ready(function(){
+	$(".footmapbtn").click(function(){
+		if($(".footmap").hasClass("on")){
+			$(".footmap").removeClass("on");
+			$(".footmapbtn").removeClass("on");
+		}else{
+			$(".footmap").addClass("on");
+			$(".footmapbtn").addClass("on");
+		}
+	})
+});
+</script>
+
+</div><!--pageWrapper-->
+
+<script>
+//
+</script>
+</body>
+</html>

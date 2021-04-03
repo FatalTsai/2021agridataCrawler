@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	特定寵物業管理系統
+</title><meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width,user-scalable=0" /><link href="../Images/favicon-20181019050351595.ico" rel="Icon" type="image/x-icon" />
+    <!--CSS Begin-->
+    <link href="../Content/reset.css" rel="stylesheet" /><link href="../Content/bootstrap.min.css" rel="stylesheet" /><link href="../Content/bootstrap-theme.min.css" rel="stylesheet" /><link href="../Content/bootstrap-table-rwd.css" rel="stylesheet" /><link href="../Content/main.css" rel="stylesheet" /><link href="../Content/Admin/StyleSheet.css" rel="stylesheet" />
+    <!--CSS End-->
+    <!--Javascript Begin-->
+    <script src="../Scripts/jquery-3.1.0.min.js"></script>
+    <script src="../Scripts/jquery.lazyload.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/moment.js"></script>
+    <script src="../Scripts/bootstrap-datetimepicker.min.js"></script>
+    <script src="../Scripts/common.js?v1"></script>
+    <script src="../Scripts/classFormat.js"></script>
+    <script src="../Scripts/enumFormat.js"></script>
+    <script src="../Scripts/ENRF/Utilities.js"></script>
+    <script src="../Scripts/ENRF/Business.js"></script>
+    <script src="../RareWord/RareWord.js"></script>
+    <!--Javascript end-->
+    <!--GA Begin-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100574978-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-100574978-4');
+    </script>
+    <!--GA end-->
+    
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <style>
+        .GridTitle:hover .GridTitle_hover {
+            display: block;
+            font-size: 8px;
+            padding-top: 5px;
+            color: gray;
+    border-radius: 6px;
+    padding: .5em;
+    background-color: #FFF;
+    z-index: 1;
+    position: absolute; 
+    box-shadow: 0 0px 24px 2px rgba(0, 0, 0, 0), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+        .GridTitle > .GridTitle_hover {
+            display: none;
+        }
+        .material-icons  {
+    vertical-align: middle;
+    padding-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        $(function () {
+            $('input[type=text]').keypress(function (e) {
+                if (e.keyCode == 13) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+        });
+        $(window).bind('beforeunload', function (e) {
+            //離開頁面前處理
+            localStorage.clear();
+        });
+    </script>
+    <form method="post" action="./BusinessList.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="V2DEZzjaPPulyDRCxTi/OXb8eeOJ2QDWSg2uGKISipQGVFs8v5wReIQ8f9Fd+HDQzgTQHlhb8X8WOHgNv2aHRl0fxu3rVMHFA2QMDuYMvzr933eAcA76DMNw8mTQWU9yhS99uhyOymahBB/8ug2TCw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C6E16747" />
+        <!--Title Begin-->
+        <div class="wrapper">
+            <header id="header">
+                <nav id="menuNavbar" class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="../Web/BusinessList.aspx">特定寵物業管理系統</a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-ul-color" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="">合法寵物業者<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="BusinessList.aspx">合法寵物業者</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="PetHistory.aspx">商用特定寵物來源追溯</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="Login.aspx" id="LoginLink"><span class="glyphicon glyphicon-log-in padding-right"></span><span id="Login">登入</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!--Title End-->
+            <div id="mainContent">
+                
+    <script type="text/javascript">
+        param.pageSize = 20;
+        param.currentPage = 1;
+        $(document).ready(function () {
+            $('.titlesmall').html('名單');
+            BindUI();
+            BindData();
+            Sort();
+            iniRareWord('#txtBussName', 14);
+            iniRareWord('#txtSearchKeyword', 14);
+        });
+        function BindUI() {
+            //初值
+            GetCode('縣市別', 'ddlCounty', function () {
+                $("#ddlCounty").append("<option value=''>全國</option>");
+            });
+            //經營業務項目
+            GetCode('營業項目', 'ddlBi', function () {
+                $("#ddlBi").append("<option value=''>全部</option>");
+            });
+            //評鑑等級
+            GetCode('評鑑等級', 'ddlEvaluation', function () {
+                $("#ddlEvaluation").append("<option value=''>全部</option>");
+            });
+            //查詢事件
+            $('#aSearch').click(function () {
+                var beforePage = param.currentPage;
+                param.currentPage = 1;
+                SetUrlState('PG', beforePage, param.currentPage, Business);
+                BindData();
+            });
+        }
+        function BindData() {
+            var data = {
+                PBLicense: $('#txtPBLicense').val(),
+                BussName: $('#txtBussName').val(),
+                Countycode: $('#ddlCounty option:selected').val(),
+                searchKeyword: $('#txtSearchKeyword').val(),
+                BI: $('#ddlBi option:selected').val(),
+                EvaluationLevel: $("#ddlEvaluation option:selected").val(),
+                IsActive: "1",
+                IsExpired: "0",
+                pageSize: param.pageSize,
+                currentPage: param.currentPage
+            }
+            var apiUrl = '../api/BusinessList';
+            var apiParam = ToUrlParam(data);
+            var isAsync = true;
+            WebAPI.Get(apiUrl, apiParam, isAsync, function (jsons) {
+                $("#tab tbody tr").remove();
+                param.currentPageSize = 1;
+                var dal = new cs.PostResult();
+                dal.ini(jsons);
+                if (dal.Success) {
+                    var json = JSON.parse(dal.Message);
+                    param.totalSize = dal.RowCount;
+                    $('#sp_rowCount').text(dal.RowCount);
+                    $('#sp_PageCount').text(param.pageSize);
+                    var dal = new cs.BusinessList;
+                    for (var key in json) {
+                        dal.ini(json[key]);
+                        var action = "", action1 = "";
+                        action1 = (dal.EvaluationCommentShow != "Y" ? "" : "<span class='GridTitle_hover'>" + dal.EvaluationComment + "</span>");
+                        action = (dal.EvaluationDataShow != "Y" ? "-" : "<span class='GridTitle'>" + dal.EvaluationLevelName + action1 + (dal.EvaluationCommentShow == "Y" ? "<i class='material-icons'>more</i>" : "") + "</span>");
+                        $("#tab").append("<tr id=" + param.currentPageSize + ">"
+                                    + "<td data-th='所屬縣市'>" + dal.CountyName + "</td>"
+                                    + "<td data-th='特定寵物業許可證字號'><a href='javascript:DetailShow(\"" + dal.AutoID + "\")'>" + dal.PBLicense + "</a></td>"
+                                    + "<td data-th='營業場所名稱'>" + RareWord(dal.BussName) + "</td>"
+                                    + "<td data-th='經營業務項目'>" + dal.BiName + "</td>"
+                                    + "<td data-th='特定寵物種類'>" + ($.trim(dal.AnimalType).length>0 ?(dal.AnimalType.indexOf("0") > -1? "狗" : "") + (dal.AnimalType.indexOf("1") >-1 ? "貓" : ""):"") + "</td>"
+                                    + "<td data-th='評鑑等級'>" + action + "</td>"
+                                    + "<td data-th='營業狀態'>" + (dal.IsActive == 0 ? "已停業" : "營業中") + "</td>"
+                                    + "<td data-th='有效日期'>" + dateUtil.ToFormat3(dal.EffectiveDate) + "</td>"
+                                    + "</tr>");
+                        param.currentPageSize++;
+                    }
+                    BindPagination('tabPagination');
+                }
+                else {
+                    alert("取得資料失敗");
+                    console.log(dal.Message);
+                }
+            }, function () {
+                $('.LoadingImg').fadeIn('200');
+                $('#aSearch').prop('disabled', true);
+            }, function () {
+                $('.LoadingImg').fadeOut('200');
+                $('#aSearch').prop('disabled', false);
+            });
+        }
+        function DetailShow(id) {
+            var data = {
+                AutoID: id
+            }
+            var apiUrl = '../api/BusinessList';
+            var apiParam = ToUrlParam(data);
+            var isAsync = true;
+            WebAPI.Get(apiUrl, apiParam, isAsync, function (jsons) {
+                var dal = new cs.PostResult();
+                dal.ini(jsons);
+                if (dal.Success) {
+                    var json = JSON.parse(dal.Message);
+                    var dal = new cs.BusinessList;
+                    var Len = 1;
+                    NoticeShow(function () {
+                        var Content = "";
+                        Content += "<h2>合法寵物業者詳細資料</h2>";
+                        Content += "<div class='hr_yellow'></div>";
+                        for (var key in json) {
+                            dal.ini(json[key]);
+                            var strAnimal = "";
+                            if (dal.AnimalType.indexOf("0") > -1) {
+                                strAnimal = "狗";
+                            }
+                            if (dal.AnimalType.indexOf("1") > -1) {
+                                if (strAnimal.length > 0) {
+                                    strAnimal+="、"
+                                }
+                                strAnimal += "貓";
+                            }
+                            Content += "<div class='row uniform rowList'>"
+                                        + "<div class='6u 12u$(small)'>所屬縣市：" + dal.CountyName + "</div>"
+                                        + "<div class='6u 12u$(small)'>特定寵物業許可證字號：" + dal.PBLicense + "</div>"
+                                        + "<div class='6u 12u$(small)'>營業場所名稱：" + dal.BussName + "</div>"
+                                        + "<div class='6u 12u$(small)'>經營業務項目：" + dal.BiName + ($.trim(dal.AnimalType).length > 0 ? "(" + (dal.AnimalType.indexOf("0") > -1 ? "狗" : "") + (dal.AnimalType.indexOf("1") > -1 ? "貓" : "") + ")" : "") + "</div>"
+                                        + "<div class='12u 12u$(small)'>特定寵物種類：" + strAnimal + "</div>"
+                                        + "<div class='6u 12u$(small)'>營業狀態：" + (dal.IsActive == 0 ? "已停業" : "營業中") + "</div>"
+                                        + "<div class='6u 12u$(small)'>有效日期：" + dateUtil.ToFormat3(dal.EffectiveDate) + "</div>"
+                                        + "<div class='6u 12u$(small)'>評鑑等級：" + (dal.EvaluationDataShow != "Y" ? "-" : dal.EvaluationLevelName) + "</div>"
+                                        + "<div class='6u 12u$(small)'>評鑑說明：" + (dal.EvaluationCommentShow != "Y" ? "-" : dal.EvaluationComment) + "</div>"
+                                        + "<div class='6u 12u$(small)'>負責人：" + RareWord(dal.Principal) + "</div>"
+                                        + "<div class='6u 12u$(small)'>專任人員：" + RareWord(dal.Staff) + "</div>"
+                                + "<div class='6u 12u$(small)'>營業場所地址：" + RareWord(dal.CCountyName + dal.CTownName + dal.CAddress) + "</div>"
+                            Content += "</div>";
+                            Len++;
+                        }
+                        return Content;
+                    });
+                }
+                else {
+                    alert("取得資料失敗");
+                    console.log(dal.Message);
+                }
+            }, function () {
+                $('.LoadingImg').fadeIn('400');
+            }, function () {
+                $('.LoadingImg').fadeOut('400');
+            });
+        }
+    </script>
+    <div class="container">
+        <div id="main">
+            <div class="inner">
+                <header>
+                    <h1 class="text-center" id="Contenttitle">合法寵物業者 <small class="titlesmall">Edit</small></h1>
+                </header>
+                <hr />
+                <section>
+                    <div id="RWDQuery" class="aQuery">
+                        <label id="abtnQuery" onclick="javascript:aQuery();">顯示篩選</label>
+                    </div>
+                    <div class="QueryDiv">
+                        <div class="row uniform">
+                            <div class="2u 12u$(small)">
+                                縣市：
+                            <div class="select-wrapper">
+                                <select name="ddlCounty" id="ddlCounty">
+                                    <option value="">全國</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="3u 12u$(small)">
+                                特定寵物業許可證號：
+                            <div class="input-group">
+                                <input type="text" autocomplete="off" name="txtPBLicense" id="txtPBLicense" value="" placeholder="特定寵物業許可證號" />
+                            </div>
+                            </div>
+                            <div class="3u 12u$(small)">
+                                營業場所名稱：
+                            <div class="input-group">
+                                <input type="text" autocomplete="off" name="txtBussName" id="txtBussName" value="" placeholder="營業場所名稱" />
+                            </div>
+                            </div>
+                            <div class="2u 12u$(small)">
+                                經營業務項目：
+                            <div class="select-wrapper">
+                                <select name="ddlBi" id="ddlBi">
+                                </select>
+                            </div>
+                            </div>
+                            <div class="2u 12u$(small)">
+                                評鑑等級：
+                            <div class="select-wrapper">
+                                <select name="ddlEvaluation" id="ddlEvaluation">
+                                </select>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="row uniform">
+                            <div class="10u 12u$(small)">
+                                關鍵字查詢：
+                            <div class="input-group">
+                                <input type="text" autocomplete="off" name="txtSearchKeyword" id="txtSearchKeyword" value="" placeholder="可查詢欄位 - 營業場所名稱、營業場所地址、負責人、許可證字號、專任人員" />
+                            </div>
+                            </div>
+                            <div class="2u 12u$">
+                                <div class="input-group ">
+                                    <input id="aSearch" class="search button" type="button" value="查詢" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row uniform">
+                        <div class="12u$" style="overflow: auto">
+                            <table id="tab" width="100%" border="0" cellspacing="0" cellpadding="0" class="table-rwd">
+                                <thead>
+                                    <tr>
+                                        <th>所屬縣市</th>
+                                        <th>特定寵物業許可證號</th>
+                                        <th>營業場所名稱</th>
+                                        <th>經營業務項目</th>
+                                        <th>特定寵物種類</th>
+                                        <th>評鑑等級</th>
+                                        <th>營業狀態</th>
+                                        <th>有效日期</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <div class="text-center">
+                                <ul id="tabPagination" class="pagination">
+                                    <li><a href="javascript:void(0);">&laquo;</a></li>
+                                    <li><a href="javascript:void(0);">&raquo;</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <div class="LoadingImg" style="display: none;">
+                <img src="../images/loader.gif" />
+            </div>
+            
+            <div class="bg" onclick="javascript:NoticeClose();"></div>
+            <div id="Notice" class="Notice">
+                <div class="close">
+                    <a href="javascript:NoticeClose();">
+                        <label><span style="font-size: 3em;">×</span></label></a>
+                </div>
+                <div class="N_content"></div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="inner">
+                <section>
+                    <div>Copyright &copy; <a href="javascript:window.open('https://www.coa.gov.tw/')">行政院農業委員會</a> 版權所有</div>
+                    <div>執行單位: <a href="javascript:window.open('http://www.enrf.com.tw')">豐田生技資訊股份有限公司</a></div>
+                </section>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

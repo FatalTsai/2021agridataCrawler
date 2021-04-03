@@ -1,0 +1,2306 @@
+[
+  {
+    "observeDate": "2017-08",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "148.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "155"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "205"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "173"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "123.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "108.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "37.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "32.5"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "26.5"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "173.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "752"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "947"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "214.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "367.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "161"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "112"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "65.5"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "花蓮農改場",
+    "dataLose": "",
+    "rainfall": "61.5"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "花蓮農改場",
+    "dataLose": "＊",
+    "rainfall": "78"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "63"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "154.5"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "276.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "208.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "147"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "84.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "66"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "103"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "482.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "741"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "148"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "243.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "214"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "289.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "77.5"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "171.5"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "83.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "131"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "蘭陽分場",
+    "dataLose": "＊",
+    "rainfall": "116"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "386.5"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "421"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "蘭陽分場",
+    "dataLose": "",
+    "rainfall": "380.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "恆春畜試分所",
+    "dataLose": "＊",
+    "rainfall": "201"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "恆春畜試分所",
+    "dataLose": "＊",
+    "rainfall": "591"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "79.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "109.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "49"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "8"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "32"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "18.5"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "恆春畜試分所",
+    "dataLose": "＊",
+    "rainfall": "0"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "75.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "532.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "恆春畜試分所",
+    "dataLose": "＊",
+    "rainfall": "622.5"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "410.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "242.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "309"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "38"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "恆春畜試分所",
+    "dataLose": "＊",
+    "rainfall": "42.5"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "6.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "95.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "4"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "35.5"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "64"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "恆春畜試分所",
+    "dataLose": "",
+    "rainfall": "41"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "東港",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "152.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "478.5"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "344"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "106.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "6"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "1.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "0"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "62"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "79.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "1319"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "198.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "410.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "505"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "96.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "畜產試驗所",
+    "dataLose": "＊",
+    "rainfall": "249"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "96.5"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "14"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "200"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "20.5"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "0"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "130"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "畜產試驗所",
+    "dataLose": "",
+    "rainfall": "205.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "141"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "394"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "851"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "27"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "46.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "26"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "1"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "1"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "68"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "22.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "477"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "121"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "247"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "430.5"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "85"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "213.5"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "160"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "32.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "165"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "28.5"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "0.5"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "雲林分場",
+    "dataLose": "",
+    "rainfall": "25"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "雲林分場",
+    "dataLose": "＊",
+    "rainfall": "241.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "127.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "522"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "1244.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "溪頭營林區",
+    "dataLose": "＊",
+    "rainfall": "184.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "236.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "72.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "12.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "溪頭營林區",
+    "dataLose": "＊",
+    "rainfall": "1"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "溪頭營林區",
+    "dataLose": "＊",
+    "rainfall": "24.5"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "溪頭營林區",
+    "dataLose": "＊",
+    "rainfall": "102"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "83.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "689"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "238.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "溪頭營林區",
+    "dataLose": "＊",
+    "rainfall": "233.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "溪頭營林區",
+    "dataLose": "＊",
+    "rainfall": "379"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "溪頭營林區",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "41"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "816.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "72.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "92"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "32"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "9"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "2"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "11"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "62"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "11.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "216"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "72"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "210"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "23.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "179"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "155"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "台中農改場",
+    "dataLose": "＊",
+    "rainfall": "23.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "187.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "27"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "2"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "20"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "台中農改場",
+    "dataLose": "",
+    "rainfall": "199"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "77.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "354"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "775.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "93.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "75"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "38"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "8.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "4.5"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "14.5"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "68"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "24.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "166"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "133.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "122.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "352"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "83"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "135.5"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "149"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "7"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "155"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "20"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "農業試驗所",
+    "dataLose": "＊",
+    "rainfall": "0"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "6.5"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "農業試驗所",
+    "dataLose": "",
+    "rainfall": "160.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "32"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "323"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "708"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "81"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "121"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "104.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "64"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "15"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "6"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "9"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "193"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "182"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "28.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "176"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "187.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "194"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "317.5"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "40.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "252.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "69"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "2"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "苗栗農改場",
+    "dataLose": "＊",
+    "rainfall": "40.5"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "苗栗農改場",
+    "dataLose": "",
+    "rainfall": "218"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "129.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "457.5"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "570.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "263"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "316"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "171"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "93.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "20"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "35"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "131.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "83"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "805.5"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "142.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "139.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "168.5"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "五峰工作站",
+    "dataLose": "＊",
+    "rainfall": "166.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "203.5"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "442.5"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "108.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "264"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "147"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "12"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "43.5"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "五峰工作站",
+    "dataLose": "",
+    "rainfall": "330.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "4"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "15.5"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "530"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "29.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "46"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "58.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "41.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "6"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "111.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "109.5"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "8.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "262"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "83.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "桃園農改場",
+    "dataLose": "",
+    "rainfall": "291.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "91.5"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "5"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "73"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "桃園農改場",
+    "dataLose": "＊",
+    "rainfall": "112.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "223.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "250.5"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "172.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "＊",
+    "rainfall": "180"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "124.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "46.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "＊",
+    "rainfall": "12"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "＊",
+    "rainfall": "5"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "＊",
+    "rainfall": "19"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "153.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "1132"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "＊",
+    "rainfall": "1060.5"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "164.5"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "57"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "85"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "71"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "24.5"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "24.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "129.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "＊",
+    "rainfall": "41.5"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "102.5"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "62"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "台東斑鳩分場",
+    "dataLose": "",
+    "rainfall": "78.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "215"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "705"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "423.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "65.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "49"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "高雄農改場",
+    "dataLose": "＊",
+    "rainfall": "3"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "高雄農改場",
+    "dataLose": "＊",
+    "rainfall": "0"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "31.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "120.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "1309.5"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "高雄農改場",
+    "dataLose": "＊",
+    "rainfall": "467"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "高雄農改場",
+    "dataLose": "＊",
+    "rainfall": "640"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "158.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "236.5"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "97"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "3.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "74.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "40.5"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "高雄農改場",
+    "dataLose": "＊",
+    "rainfall": "1"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "高雄農改場",
+    "dataLose": "",
+    "rainfall": "111.5"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "145.5"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "505"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "372"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "81.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "109.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "13.5"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "1.5"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "0"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "義竹工作站",
+    "dataLose": "＊",
+    "rainfall": "9.5"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "35.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "33.5"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "義竹工作站",
+    "dataLose": "＊",
+    "rainfall": "10"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "89"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "14.5"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "112"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "義竹工作站",
+    "dataLose": "＊",
+    "rainfall": "37"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "2.5"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "10"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "義竹工作站",
+    "dataLose": "",
+    "rainfall": "383"
+  },
+  {
+    "observeDate": "2017-08",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "8"
+  },
+  {
+    "observeDate": "2017-07",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "236.5"
+  },
+  {
+    "observeDate": "2017-06",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "561.5"
+  },
+  {
+    "observeDate": "2017-05",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "107.5"
+  },
+  {
+    "observeDate": "2017-04",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "127.5"
+  },
+  {
+    "observeDate": "2017-03",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "204"
+  },
+  {
+    "observeDate": "2017-02",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "111"
+  },
+  {
+    "observeDate": "2017-01",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "33.5"
+  },
+  {
+    "observeDate": "2016-12",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "10.5"
+  },
+  {
+    "observeDate": "2016-11",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "147.5"
+  },
+  {
+    "observeDate": "2016-10",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "68"
+  },
+  {
+    "observeDate": "2016-09",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "320"
+  },
+  {
+    "observeDate": "2016-08",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "65.5"
+  },
+  {
+    "observeDate": "2016-07",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "23"
+  },
+  {
+    "observeDate": "2016-06",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "282"
+  },
+  {
+    "observeDate": "2016-05",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "214.5"
+  },
+  {
+    "observeDate": "2016-04",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "221"
+  },
+  {
+    "observeDate": "2016-03",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "292"
+  },
+  {
+    "observeDate": "2016-02",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "XXX"
+  },
+  {
+    "observeDate": "2016-01",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "352.5"
+  },
+  {
+    "observeDate": "2015-12",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "92.5"
+  },
+  {
+    "observeDate": "2015-11",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "28"
+  },
+  {
+    "observeDate": "2015-10",
+    "observatory": "茶業改良場",
+    "dataLose": "＊",
+    "rainfall": "105.5"
+  },
+  {
+    "observeDate": "2015-09",
+    "observatory": "茶業改良場",
+    "dataLose": "",
+    "rainfall": "300.5"
+  }
+]

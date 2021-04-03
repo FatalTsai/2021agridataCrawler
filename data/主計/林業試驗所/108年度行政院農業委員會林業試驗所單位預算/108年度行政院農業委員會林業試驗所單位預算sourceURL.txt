@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='www.tfri.gov.tw', port=443): Max retries exceeded with url: /main/download.aspx?dlfn=108-%E6%B3%95%E5%AE%9A%E9%A0%90%E7%AE%97-20190219102638.zip (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)'),))

@@ -1,0 +1,302 @@
+[
+  {
+    "year": 2016,
+    "type": "畜產-其他畜產",
+    "productionindex": "100"
+  },
+  {
+    "year": 2016,
+    "type": "畜產-豬",
+    "productionindex": "95"
+  },
+  {
+    "year": 2016,
+    "type": "漁產-養殖漁業",
+    "productionindex": "74"
+  },
+  {
+    "year": 2016,
+    "type": "漁產-沿岸及內陸漁撈業",
+    "productionindex": "69"
+  },
+  {
+    "year": 2016,
+    "type": "漁產-近海漁業",
+    "productionindex": "68"
+  },
+  {
+    "year": 2016,
+    "type": "漁產-遠洋漁業",
+    "productionindex": "88"
+  },
+  {
+    "year": 2016,
+    "type": "林產-薪炭竹材及副產品",
+    "productionindex": "29"
+  },
+  {
+    "year": 2016,
+    "type": "林產-用材",
+    "productionindex": "106"
+  },
+  {
+    "year": 2016,
+    "type": "農產-花卉",
+    "productionindex": "101"
+  },
+  {
+    "year": 2016,
+    "type": "農產-菇類",
+    "productionindex": "121"
+  },
+  {
+    "year": 2016,
+    "type": "農產-蔬菜",
+    "productionindex": "91"
+  },
+  {
+    "year": 2016,
+    "type": "農產-果實",
+    "productionindex": "79"
+  },
+  {
+    "year": 2016,
+    "type": "農產-特用作物",
+    "productionindex": "78"
+  },
+  {
+    "year": 2016,
+    "type": "農產-普通作物-雜糧",
+    "productionindex": "108"
+  },
+  {
+    "year": 2016,
+    "type": "農產-普通作物-米",
+    "productionindex": "95"
+  },
+  {
+    "year": 2015,
+    "type": "畜產-其他畜產",
+    "productionindex": "91"
+  },
+  {
+    "year": 2015,
+    "type": "畜產-豬",
+    "productionindex": "96"
+  },
+  {
+    "year": 2015,
+    "type": "漁產-養殖漁業",
+    "productionindex": "96"
+  },
+  {
+    "year": 2015,
+    "type": "漁產-沿岸及內陸漁撈業",
+    "productionindex": "97"
+  },
+  {
+    "year": 2015,
+    "type": "漁產-近海漁業",
+    "productionindex": "98"
+  },
+  {
+    "year": 2015,
+    "type": "漁產-遠洋漁業",
+    "productionindex": "80"
+  },
+  {
+    "year": 2015,
+    "type": "林產-薪炭竹材及副產品",
+    "productionindex": "97"
+  },
+  {
+    "year": 2015,
+    "type": "林產-用材",
+    "productionindex": "142"
+  },
+  {
+    "year": 2015,
+    "type": "農產-花卉",
+    "productionindex": "101"
+  },
+  {
+    "year": 2015,
+    "type": "農產-菇類",
+    "productionindex": "109"
+  },
+  {
+    "year": 2015,
+    "type": "農產-蔬菜",
+    "productionindex": "91"
+  },
+  {
+    "year": 2015,
+    "type": "農產-果實",
+    "productionindex": "91"
+  },
+  {
+    "year": 2015,
+    "type": "農產-特用作物",
+    "productionindex": "89"
+  },
+  {
+    "year": 2015,
+    "type": "農產-普通作物-雜糧",
+    "productionindex": "109"
+  },
+  {
+    "year": 2015,
+    "type": "農產-普通作物-米",
+    "productionindex": "94"
+  },
+  {
+    "year": 2014,
+    "type": "畜產-其他畜產",
+    "productionindex": "99"
+  },
+  {
+    "year": 2014,
+    "type": "畜產-豬",
+    "productionindex": "94"
+  },
+  {
+    "year": 2014,
+    "type": "漁產-養殖漁業",
+    "productionindex": "102"
+  },
+  {
+    "year": 2014,
+    "type": "漁產-沿岸及內陸漁撈業",
+    "productionindex": "109"
+  },
+  {
+    "year": 2014,
+    "type": "漁產-近海漁業",
+    "productionindex": "93"
+  },
+  {
+    "year": 2014,
+    "type": "漁產-遠洋漁業",
+    "productionindex": "101"
+  },
+  {
+    "year": 2014,
+    "type": "林產-薪炭竹材及副產品",
+    "productionindex": "56"
+  },
+  {
+    "year": 2014,
+    "type": "林產-用材",
+    "productionindex": "235"
+  },
+  {
+    "year": 2014,
+    "type": "農產-花卉",
+    "productionindex": "99"
+  },
+  {
+    "year": 2014,
+    "type": "農產-菇類",
+    "productionindex": "104"
+  },
+  {
+    "year": 2014,
+    "type": "農產-蔬菜",
+    "productionindex": "96"
+  },
+  {
+    "year": 2014,
+    "type": "農產-果實",
+    "productionindex": "96"
+  },
+  {
+    "year": 2014,
+    "type": "農產-特用作物",
+    "productionindex": "94"
+  },
+  {
+    "year": 2014,
+    "type": "農產-普通作物-雜糧",
+    "productionindex": "112"
+  },
+  {
+    "year": 2014,
+    "type": "農產-普通作物-米",
+    "productionindex": "103"
+  },
+  {
+    "year": 2013,
+    "type": "畜產-其他畜產",
+    "productionindex": "94"
+  },
+  {
+    "year": 2013,
+    "type": "畜產-豬",
+    "productionindex": "98"
+  },
+  {
+    "year": 2013,
+    "type": "漁產-養殖漁業",
+    "productionindex": "105"
+  },
+  {
+    "year": 2013,
+    "type": "漁產-沿岸及內陸漁撈業",
+    "productionindex": "104"
+  },
+  {
+    "year": 2013,
+    "type": "漁產-近海漁業",
+    "productionindex": "87"
+  },
+  {
+    "year": 2013,
+    "type": "漁產-遠洋漁業",
+    "productionindex": "101"
+  },
+  {
+    "year": 2013,
+    "type": "林產-薪炭竹材及副產品",
+    "productionindex": "93"
+  },
+  {
+    "year": 2013,
+    "type": "林產-用材",
+    "productionindex": "98"
+  },
+  {
+    "year": 2013,
+    "type": "農產-花卉",
+    "productionindex": "101"
+  },
+  {
+    "year": 2013,
+    "type": "農產-菇類",
+    "productionindex": "93"
+  },
+  {
+    "year": 2013,
+    "type": "農產-蔬菜",
+    "productionindex": "180"
+  },
+  {
+    "year": 2013,
+    "type": "農產-果實",
+    "productionindex": "98"
+  },
+  {
+    "year": 2013,
+    "type": "農產-特用作物",
+    "productionindex": "107"
+  },
+  {
+    "year": 2013,
+    "type": "農產-普通作物-雜糧",
+    "productionindex": "93"
+  },
+  {
+    "year": 2013,
+    "type": "農產-普通作物-米",
+    "productionindex": "96"
+  }
+]

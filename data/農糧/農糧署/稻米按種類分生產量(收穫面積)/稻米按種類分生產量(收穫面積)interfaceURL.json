@@ -1,0 +1,242 @@
+[
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "長糯",
+    "reward_area": 2064
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "長糯",
+    "reward_area": 5706
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "長糯",
+    "reward_area": 1863
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "長糯",
+    "reward_area": 4811
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "長糯",
+    "reward_area": 1607
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "長糯",
+    "reward_area": 6272
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "長糯",
+    "reward_area": 2030
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "長糯",
+    "reward_area": 6116
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "圓糯",
+    "reward_area": 1911
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "圓糯",
+    "reward_area": 2688
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "圓糯",
+    "reward_area": 2116
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "圓糯",
+    "reward_area": 2807
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "圓糯",
+    "reward_area": 2167
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "圓糯",
+    "reward_area": 3007
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "圓糯",
+    "reward_area": 2241
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "圓糯",
+    "reward_area": 2857
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "秈稻",
+    "reward_area": 2198
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "秈稻",
+    "reward_area": 6832
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "秈稻",
+    "reward_area": 2228
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "秈稻",
+    "reward_area": 7025
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "秈稻",
+    "reward_area": 2306
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "秈稻",
+    "reward_area": 7884
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "秈稻",
+    "reward_area": 3067
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "秈稻",
+    "reward_area": 7979
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "在來",
+    "reward_area": 618
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "在來",
+    "reward_area": 1228
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "在來",
+    "reward_area": 692
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "在來",
+    "reward_area": 1330
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "在來",
+    "reward_area": 815
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "在來",
+    "reward_area": 1489
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "在來",
+    "reward_area": 833
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "在來",
+    "reward_area": 1536
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "reward_area": 434858
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "reward_area": 412222
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "reward_area": 391728
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "reward_area": 388802
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "reward_area": 880142
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "reward_area": 887778
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "type": "蓬萊",
+    "reward_area": 908272
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "type": "蓬萊",
+    "reward_area": 896198
+  }
+]

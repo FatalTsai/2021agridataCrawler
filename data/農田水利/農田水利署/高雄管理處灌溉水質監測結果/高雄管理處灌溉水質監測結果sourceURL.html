@@ -1,0 +1,1451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-TW"><head>
+<title>檔案下載 - 行政院農業委員會農田水利署高雄管理處</title>
+<meta name="Description" Content="檔案下載 - 行政院農業委員會農田水利署高雄管理處
+Kaohsiung Management Office,Irrigation Agency,Council of Agriculture,Executive Yuan
+"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="zh-TW" />
+<meta name="viewport" content="width=device-width , initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="author"  content="小宇宙資訊有限公司,www.cosmosdesign.tw" />
+<meta name="COPYRIGHT" content="Copyright (c) by 小宇宙資訊有限公司,www.cosmosdesign.tw">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<meta name="keywords" Lang="zh-TW" content="臺灣高雄農田水利會
+行政院農業委員會農田水利署高雄管理處
+農田水利署高雄管理處" />
+<meta name="keywords" Lang="EN" content="COSMOS"/>
+
+
+<!--css檔連結區-->
+<!--基本檔案區-->
+<link href="css/cssreset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/unreset.css" rel="stylesheet" type="text/css" media="all" />
+<!-- 網站區layout -->
+<link href="css/layout.css" rel="stylesheet" type="text/css" media="all" />
+<!-- google 搜尋 -->
+<link href="css/search_layout.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<!-- js -->
+<script src="js/jquery-1.11.0.min.js"></script>
+
+<link href="style/loader.css" rel="stylesheet"  type="text/css" media="all" />
+<script src="js/jquery.nimble.loader.js" type="text/javascript"></script>
+
+<script src="js/jquery.alphanumeric.js"></script>
+<!-- 網站 js -->
+<script src="js/web_js.js"></script>
+<script src="js/main.js"></script>
+
+<!--google 雲端字型-->
+<!-- Nunito字型 -->
+<link href="https://fonts.googleapis.com/css?family=Nunito:600,700,800,900" rel="stylesheet">
+<!-- noto 思源黑體 -->
+<link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<!-- font-awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"  rel="stylesheet" type="text/css" media="all" >
+<!-- <link href="js/fontawesome-free-5.2.0-web/css/all.css" rel="stylesheet" type="text/css" media="all" /> -->
+
+
+<!-- wow.js -->
+<script src="js/wow.js"></script>
+<script>
+    var wow = new WOW(
+     {
+     boxClass: 'wow', // 要套用WOW.js縮需要的動畫class(預設是wow)
+     animateClass: 'animated', // 要"動起來"的動畫(預設是animated, 因此如果你有其他動畫library要使用也可以在這裡調整)
+     offset: 0, // 距離顯示多遠開始顯示動畫 (預設是0, 因此捲動到顯示時才出現動畫)
+     mobile: true, // 手機上是否要套用動畫 (預設是true)
+     live: true, // 非同步產生的內容是否也要套用 (預設是true, 非常適合搭配SPA)
+     callback: function(box) {
+     // 當每個要開始時, 呼叫這裡面的內容, 參數是要開始進行動畫特效的element DOM
+     },
+     scrollContainer: null // 可以設定成只套用在某個container中捲動才呈現, 不設定就是整個視窗
+     }
+    );
+    wow.init();
+</script>
+
+
+<!--輪播特效-->
+<!-- 首頁輪播 -->
+<link href="js/OwlCarousel2-2.2.1/assets/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script language="javascript">
+$(document).ready(function() {
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    autoplay: true,
+    autoplayTimeout:4000,
+    nav: false,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      // 640: {
+      //   items: 2
+      // },
+      // 1300: {
+      //   items: 3
+      // }
+    }
+  })
+})
+</script>
+
+
+
+<!--內頁左側欄位三層開合特效-->
+<!-- <link href="css/tree.css" rel="stylesheet" type="text/css" media="all" /> -->
+<script language="javascript">
+    $(function(){
+        $(".imenu > ul > li > a").click(function(){
+            var _this=$(this);
+            if(_this.next("ul").length>0){
+                if(_this.next().is(":visible")){
+                    
+                    _this.html(_this.html().replace("▼","►")).next().slideUp();
+                }else{
+                    
+                    _this.html(_this.html().replace("►","▼")).next().slideDown();
+                }
+               
+                return false;
+            }
+        });
+        
+        $(".submenu > li > a").click(function(){
+            var _this=$(this);
+            if(_this.next("ul").length>0){
+                if(_this.next().is(":visible")){
+                    
+                    _this.html(_this.html().replace("▼","►")).next().slideUp();
+                }else{
+                    
+                    _this.html(_this.html().replace("►","▼")).next().slideDown();
+                }
+                
+                return false;
+            }
+        });
+        
+       
+        // $("a").focus( function(){
+        //     $(this).blur();
+        // });
+    });
+</script>
+
+
+</head>
+
+<body>
+	<!-- 小視口全域導覽列 -->
+<!-- <nav id="nav_sml_area">
+ 	<a href="javascript:vold(0);" id="nav_small_bt" tabindex="-1">
+		<p class="first_line"></p>
+		<p class="second_line"></p>
+		<p class="third_line"></p>
+	</a>
+	<a href="index.php" class="logo_sml" title="台灣高雄農田水利會網站" tabindex="-1">
+		<img src="images/LOGO.svg" alt="水利會LOGO圖" width="46" height="39" class="logo_icon" />
+		<img src="images/LOGO_word.svg" alt="水利會LOGO字" width="300" height="79" class="logo_word" >
+	</a>
+</nav> -->
+<a href="javascript:vold(0);" id="nav_small_bt" tabindex="-1">
+	<p class="first_line"></p>
+	<p class="second_line"></p>
+	<p class="third_line"></p>
+</a>
+
+
+<!-- 小視口全域導覽列開合區 -->
+<div id="nav_small_open">
+	<br />
+	<!-- 全域導覽列連結 -->
+	<ul class="first_level_area">
+		<a class="first_level_link" href="ruleli.php" title="水利法規" tabindex="-1">
+			<i class="fas fa-balance-scale"></i>水利法規
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="javascript:vold(0)" title="便民服務" tabindex="-1">
+			<i class="far fa-comments"></i>便民服務
+		</a>
+		<ul class="second_level_area">
+			<a href="qa.php" class="second_level_link" title="常見問題集" tabindex="-1">
+				常見問題集
+			</a>
+			<a href="downloadli.php" class="second_level_link" title="檔案下載" tabindex="-1">
+				檔案下載
+			</a>
+		</ul>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="newsli.php?_nClass=4" title="法令宣導" tabindex="-1">
+			<i class="fas fa-bullhorn"></i>法令宣導
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="awardli.php" title="灌溉事業暨建設成果" tabindex="-1">
+			<i class="fas fa-award"></i>灌溉事業暨建設成果
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="javascript:vold(0)" title="搜尋網站" tabindex="-1">
+			<i class="fas fa-search"></i>搜尋網站
+		</a>
+		<ul class="second_level_area">
+			<!-- google 搜尋 -->
+			<div id="serach">
+				<script>
+				$(document).ready(function() {
+					if($(window).width()<=960){
+						$("#search_span").html("<gcse:searchbox-only></gcse:searchbox-only>");
+					}
+				});
+
+				(function() {
+					var cx = '013532486833283680610:3sr1lvtnyvs';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();
+				</script>
+				<span id="search_span"></span>
+			</div>
+		</ul>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="site_map.php" title="網站導覽" tabindex="-1">
+			　　網站導覽
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="javascript:vold(0)" title="關於我們" tabindex="-1">
+			　　關於我們
+		</a>
+		<ul class="second_level_area">
+		<a href='about.php?auID=1' class='second_level_link' title='高雄管理處簡介連結' tabindex='-1'>高雄管理處簡介</a><a href='about.php?auID=14' class='second_level_link' title='影片簡介連結' tabindex='-1'>影片簡介</a><a href='about.php?auID=2' class='second_level_link' title='管理處會沿革連結' tabindex='-1'>管理處會沿革</a><a href='about.php?auID=3' class='second_level_link' title='現任處長連結' tabindex='-1'>現任處長</a><a href='about.php?auID=4' class='second_level_link' title='組織架構連結' tabindex='-1'>組織架構</a>		</ul>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="javascript:vold(0)" title="最新訊息" tabindex="-1">
+			　　最新訊息
+		</a>
+		<ul class="second_level_area">
+		<a href='newsli.php?_nClass=5' class='second_level_link' title='最新消息連結' tabindex='-1'>最新消息</a><a href='newsli.php?_nClass=6' class='second_level_link' title='公告事項連結' tabindex='-1'>公告事項</a><a href='newsli.php?_nClass=7' class='second_level_link' title='水利會訊連結' tabindex='-1'>水利會訊</a><a href='newsli.php?_nClass=4' class='second_level_link' title='法令宣導連結' tabindex='-1'>法令宣導</a>		</ul>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="javascript:vold(0)" title="水利之美" tabindex="-1">
+			　　水利之美
+		</a>
+		<ul class="second_level_area">
+			<a href="albumli.php" class="second_level_link" title="相簿集" tabindex="-1">
+				相簿集
+			</a>
+			<a href="videoli.php" class="second_level_link" title="影片區" tabindex="-1">
+				影片區
+			</a>
+		</ul>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="publishedli.php" title="活動花絮" tabindex="-1">
+			　　活動花絮
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="workshopli.php" title="工作站" tabindex="-1">
+			　　工作站
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="links.php" title="相關連結" tabindex="-1">
+			　　相關連結
+		</a>
+		<div class="clear"></div>
+	</ul>
+
+	<ul class="first_level_area">
+		<a class="first_level_link" href="contact.php" title="聯絡我們" tabindex="-1">
+			　　聯絡我們
+		</a>
+		<div class="clear"></div>
+	</ul>	
+	
+	<ul class="first_level_area">
+		<a class="first_level_link" href="/system/" title="內部專區" tabindex="-1">
+			　　內部專區
+		</a>
+		<div class="clear"></div>
+	</ul>
+  	
+</div>
+
+
+<!-- 關閉按鈕 -->
+<a href="javascript:null();" id="nav_small_close_bt" tabindex="-1">
+  	<p class="left_line"></p>
+  	<p class="right_line"></p>
+</a>
+<div id="open_bg"></div>
+	<!-- 內頁大視口打開導覽列按鈕 -->
+<div id="nav_big_open_bt_area">
+	<div class="max_width plr_20">
+		<a href="javascript:vold(0);" id="nav_big_open_bt" tabindex="">
+			<p class="first_line"></p>
+			<p class="second_line"></p>
+			<p class="third_line"></p>
+		</a>
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- 大視口全域導覽列 -->
+<a class="skip_main" href="#acckeyC" accesskey="C" title="中央內容區塊" tabindex="1" id="skip_main">跳到主要內容區</a>
+<article  class="page_nav_big_area big_nav_page_hide">	
+	<section id="logo_ser_link">
+		<div class="max_width">
+			<!-- LOGO -->
+			<a href="index.php" class="logo_big" title="行政院農業委員會農田水利署高雄管理處" tabindex="2">
+				<img src="images/LOGO.svg" alt="行政院農業委員會農田水利署高雄管理處LOGO圖" title="行政院農業委員會農田水利署高雄管理處LOGO圖"  width="47" height="47" class="logo_icon" />
+				<img src="images/LOGO_word.svg" alt="行政院農業委員會農田水利署高雄管理處LOGO字" title="行政院農業委員會農田水利署高雄管理處LOGO字" width="290" height="70" class="logo_word" >
+			</a>
+
+			<!-- 重要功能區 -->
+			<nav class="nav_main_link">
+				<ul class="first_level_area">
+					<a class="first_level_link" href="ruleli.php" title="水利法規連結">
+						<i class="fas fa-balance-scale"></i>水利法規
+					</a>
+					<div class="clear"></div>
+				</ul>
+
+				<ul class="first_level_area">
+					<a class="first_level_link" href="javascript:vold(0)" title="便民服務連結">
+						<i class="far fa-comments"></i>便民服務
+					</a>
+					<ul class="second_level_area">
+						<a href="qa.php" class="second_level_link" title="常見問題集連結">
+							常見問題集
+						</a>
+						<a href="downloadli.php" class="second_level_link" title="檔案下載連結">
+							檔案下載
+						</a>
+					</ul>
+					<div class="clear"></div>
+				</ul>
+
+				<ul class="first_level_area">
+					<a class="first_level_link" href="newsli.php?_nClass=4" title="法令宣導連結">
+						<i class="fas fa-bullhorn"></i>法令宣導
+					</a>
+					<div class="clear"></div>
+				</ul>
+
+				<ul class="first_level_area">
+					<a class="first_level_link" href="awardli.php" title="灌溉事業暨建設成果連結">
+						<i class="fas fa-award"></i>建設成果
+					</a>
+					<div class="clear"></div>
+				</ul>
+			</nav>
+
+			<!-- google 搜尋 -->
+			<div class="search_area">
+				<a href="javascript:void(0)" class="search_icon" title="搜尋水利會網站">
+					<i class="fas fa-search"></i>
+				</a>
+				<div id="big_search_open">
+					<div id="serach_big">
+						<script>
+						  (function() {
+							var cx = '013532486833283680610:3sr1lvtnyvs';
+							var gcse = document.createElement('script');
+							gcse.type = 'text/javascript';
+							gcse.async = true;
+							gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(gcse, s);
+						  })();
+						</script>
+						<gcse:searchbox-only></gcse:searchbox-only>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</section>
+	<div class="clear"></div>
+
+	<!-- 次要連結 -->
+	<section class="nav_link">
+		<div class="max_width plr_20">
+			<!-- 第一個 -->
+			<ul class="first_level_area">
+				<a class="first_level_link" href="#acckeyU" title="右上方功能區塊" accesskey="U" id="acckeyU">
+					:::
+				</a>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="site_map.php" title="網站導覽連結">
+					　　網站導覽
+				</a>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="javascript:vold(0)" title="關於我們連結">
+					　　關於我們
+				</a>
+				<ul class="second_level_area">
+					<a href='about.php?auID=1' class='second_level_link' title='高雄管理處簡介連結'>高雄管理處簡介</a><a href='about.php?auID=14' class='second_level_link' title='影片簡介連結'>影片簡介</a><a href='about.php?auID=2' class='second_level_link' title='管理處會沿革連結'>管理處會沿革</a><a href='about.php?auID=3' class='second_level_link' title='現任處長連結'>現任處長</a><a href='about.php?auID=4' class='second_level_link' title='組織架構連結'>組織架構</a>				</ul>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="javascript:vold(0)" title="最新消息連結">
+					　　最新消息
+				</a>
+				<ul class="second_level_area">
+					<a href='newsli.php?_nClass=5' class='second_level_link' title='最新消息連結'>最新消息</a><a href='newsli.php?_nClass=6' class='second_level_link' title='公告事項連結'>公告事項</a><a href='newsli.php?_nClass=7' class='second_level_link' title='水利會訊連結'>水利會訊</a><a href='newsli.php?_nClass=4' class='second_level_link' title='法令宣導連結'>法令宣導</a>				</ul>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="javascript:vold(0)" title="水利之美連結">
+					　　水利之美
+				</a>
+				<ul class="second_level_area">
+					<a href="albumli.php" class="second_level_link" title="相簿集連結">
+						相簿集
+					</a>
+					<a href="videoli.php" class="second_level_link" title="影片區連結">
+						影片區
+					</a>
+				</ul>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="publishedli.php" title="活動花絮連結">
+					　　活動花絮
+				</a>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="workshopli.php" title="工作站連結">
+					　　工作站
+				</a>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="links.php" title="相關連結">
+					　　相關連結
+				</a>
+				<div class="clear"></div>
+			</ul>
+
+			<ul class="first_level_area">
+				<a class="first_level_link" href="contact.php" title="聯絡我們連結">
+					　　聯絡我們
+				</a>
+				<div class="clear"></div>
+			</ul>
+			
+			<ul class="first_level_area">
+				<a class="first_level_link" href="/system/" title="內部專區">
+					　　內部專區
+				</a>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</section>
+</article>
+	<!-- 內頁banner區 -->
+	<article id="page_banner">
+		<!-- 內頁banner區 -->
+		<div class="page_banner_area">
+			<div class="img_layer"></div>
+			<img src="images/page_banner_02.png" alt="檔案下載頁面形象照片" />
+		</div>
+		<!-- 內頁大標題及麵包屑區 -->
+		<div id="page_big_title_area">
+			<section class="bake_bite_area">
+				<a href="#acckeyC" accesskey="C" title="中央內容區塊" id="acckeyC">:::　</a>
+				<a href="index.php" title="管理處首頁">首頁</a>
+				<a href="downloadli.php" title="檔案下載">檔案下載</a>
+			</section>
+			<h2>檔案下載</h2>
+		</div>
+		<div class="page_animate_line"></div>
+	</article>
+
+	<!-- 頁面內容 -->
+	<div id="page_no_bg_primary">
+		<div class="max_width plr_20">
+
+			<!-- 分類搜尋 -->
+			<a href="javascript:void(0);" id="sel_search_bt">
+				<i class="fas fa-search-plus"></i>
+				<div class="com_show">
+					選擇分類
+					<div class="arrow">
+						<div class="line_01"></div>
+						<div class="line_02"></div>
+						<div class="line_03"></div>
+					</div>
+				</div>
+			</a>
+			<p id="sel_search_bt_note">點此搜尋分類</p>
+			<!-- 分類搜尋列表 -->
+			<div id="sel_open_list">
+			<a href="#download_area_9" class="download_link" id="download_bt_9">人事</a><a href="#download_area_10" class="download_link" id="download_bt_10">水質檢驗</a><a href="#download_area_4" class="download_link" id="download_bt_4">灌溉管理</a><a href="#download_area_5" class="download_link" id="download_bt_5">工務工程</a><a href="#download_area_6" class="download_link" id="download_bt_6">土地處分承租</a><a href="#download_area_7" class="download_link" id="download_bt_7">主計</a><a href="#download_area_8" class="download_link" id="download_bt_8">資訊</a><a href="#download_area_11" class="download_link" id="download_bt_11">總務</a>			</div>
+			
+			<!-- 法規列表區 -->
+			<div class="ruleli_bk">
+							<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_9" title="人事區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>人事<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=63" title="性騷擾防治Q＆A ...等相關檔案下載供參~">
+									性騷擾防治Q＆A ...等相關檔案下載供參~								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_10" title="水質檢驗區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>水質檢驗<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=140" title="108年5-6月份監視點普測資料">
+									108年5-6月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>02</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=141" title="108年5-6月份監視點精測資料">
+									108年5-6月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>03</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=142" title="108年7-8月份監視點普測資料">
+									108年7-8月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>04</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=143" title="108年7-8月份監視點精測資料">
+									108年7-8月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>05</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=144" title="108年9-10月份監視點普測資料">
+									108年9-10月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>06</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=145" title="108年9-10月份監視點精測資料">
+									108年9-10月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>07</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=148" title="108年11-12月份普測資料">
+									108年11-12月份普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>08</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=154" title="109年1-2月份監視點初驗資料">
+									109年1-2月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>09</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=155" title="109年1-2月份監視點複驗資料">
+									109年1-2月份監視點複驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>10</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=160" title="109年3-4月份監視點複驗資料">
+									109年3-4月份監視點複驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>11</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=161" title="109年3-4月份監視點初驗資料">
+									109年3-4月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>12</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=171" title="109年5-6月份監視點初驗資料">
+									109年5-6月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>13</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=172" title="109年5-6月份監視點複驗資料">
+									109年5-6月份監視點複驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>14</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=173" title="109年7-8月份監視點初驗資料">
+									109年7-8月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>15</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=174" title="109年7-8月份監視點複驗資料">
+									109年7-8月份監視點複驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>16</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=175" title="109年9-10月份監視點初驗資料">
+									109年9-10月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>17</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=176" title="109年9-10月份監視點複驗資料">
+									109年9-10月份監視點複驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>18</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=179" title="109年11-12月份監視點初驗資料">
+									109年11-12月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>19</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=123" title="108年3-4月份監視點精測資料">
+									108年3-4月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>20</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=122" title="108年3-4月份監視點普測資料">
+									108年3-4月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>21</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=121" title="108年1-2月份監視點水質精測資料">
+									108年1-2月份監視點水質精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>22</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=120" title="108年1-2月份監視點水質普測資料">
+									108年1-2月份監視點水質普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>23</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=98" title="107年9-10月份監視點普測資料">
+									107年9-10月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>24</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=97" title="107年9-10月份監視點精測資料">
+									107年9-10月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>25</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=96" title="107年11-12月份監視點普測資料">
+									107年11-12月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>26</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=64" title="107年7-8月份監視點精測資料">
+									107年7-8月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>27</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=65" title="107年7-8月份監視點普測資料">
+									107年7-8月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>28</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=87" title="107年5-6月份監視點精測資料">
+									107年5-6月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>29</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=88" title="107年5-6月份監視點普測資料">
+									107年5-6月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>30</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=89" title="107年3-4月份監視點精測資料">
+									107年3-4月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>31</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=90" title="107年3-4月份監視點普測資料">
+									107年3-4月份監視點普測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>32</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=91" title="107年1-2月份監視點精測資料">
+									107年1-2月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>33</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=92" title="107年1-2月份監視點初驗資料">
+									107年1-2月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>34</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=93" title="106年11-12月份監視點初驗資料">
+									106年11-12月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>35</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=94" title="106年9-10月份監視點精測資料">
+									106年9-10月份監視點精測資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>36</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=95" title="106年9-10月份監視點初驗資料">
+									106年9-10月份監視點初驗資料								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_4" title="灌溉管理區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>灌溉管理<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=158" title="推廣管路灌溉計畫申請書0127">
+									推廣管路灌溉計畫申請書0127								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>02</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=177" title="使用農田水利設施兼作其他使用申請與切結書等表格1091224">
+									使用農田水利設施兼作其他使用申請與切結書等表格1091224								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>03</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=186" title="轄管事業用地及農田水利設施占用短期處理原則">
+									轄管事業用地及農田水利設施占用短期處理原則								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>04</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=5" title="搭排申請書及計畫書相關文件1091202">
+									搭排申請書及計畫書相關文件1091202								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>05</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=7" title="第15屆水利小組班長遴派名冊-台糖公司">
+									第15屆水利小組班長遴派名冊-台糖公司								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>06</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=11" title="旱作灌溉抽水機補助金額及汽油引擎.柴油引擎.柱塞式.沉水式.馬達式所有型式圖片">
+									旱作灌溉抽水機補助金額及汽油引擎.柴油引擎.柱塞式.沉水式.馬達式所有型式圖片								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>07</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=12" title="管路灌溉設施蓄水槽噴漆字樣9808">
+									管路灌溉設施蓄水槽噴漆字樣9808								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>08</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=13" title="微噴系統(塑膠鋼)">
+									微噴系統(塑膠鋼)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>09</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=14" title="微噴系統(塑膠)">
+									微噴系統(塑膠)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>10</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=15" title="微噴系統(銅)">
+									微噴系統(銅)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>11</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=16" title="穿孔管又稱噴帶">
+									穿孔管又稱噴帶								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>12</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=17" title="噴灌系統">
+									噴灌系統								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>13</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=18" title="噴灌系統(塑鋼)">
+									噴灌系統(塑鋼)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>14</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=19" title="噴灌系統圓(銅)">
+									噴灌系統圓(銅)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>15</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=20" title="噴灌系統(銅)">
+									噴灌系統(銅)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>16</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=23" title="旱作灌溉計畫金融轉帳同意書">
+									旱作灌溉計畫金融轉帳同意書								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_5" title="工務工程區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>工務工程<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=162" title="投標須知範本-(1090930版工務組範本，100萬以上未達查核金額).doc">
+									投標須知範本-(1090930版工務組範本，100萬以上未達查核金額).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>02</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=165" title="行政院農業委員會農田水利署高雄管理處工程施工規範(109.09.30修正)">
+									行政院農業委員會農田水利署高雄管理處工程施工規範(109.09.30修正)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>03</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=169" title="(委託技術服務)勞務採購_廠商資格証明文件審查表(1091111版).doc">
+									(委託技術服務)勞務採購_廠商資格証明文件審查表(1091111版).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>04</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=170" title="使用同意書(109.12.15.修正).doc">
+									使用同意書(109.12.15.修正).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>05</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=178" title="公共工程技術服務契約(工務範本，1091221版).doc">
+									公共工程技術服務契約(工務範本，1091221版).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>06</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=181" title="1100112行政院農業委員會農田水利署辦理工程變更設計暨修正施工預算作業注意事項">
+									1100112行政院農業委員會農田水利署辦理工程變更設計暨修正施工預算作業注意事項								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>07</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=182" title="農田水利署辦理工程工期核算注意事項_1100112">
+									農田水利署辦理工程工期核算注意事項_1100112								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>08</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=183" title="1100112行政院農業委員會農田水利署工程驗收注意事項">
+									1100112行政院農業委員會農田水利署工程驗收注意事項								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>09</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=187" title="改善工程施工補充說明(110.03.04版，工程告示牌)">
+									改善工程施工補充說明(110.03.04版，工程告示牌)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>10</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=188" title="OOO改善工程招標文件目錄(11003版)、廠商資格證件及封套(11003版).doc">
+									OOO改善工程招標文件目錄(11003版)、廠商資格證件及封套(11003版).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>11</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=189" title="OOO改善工程採購契約(不足2000萬，樣稿)_1100308版.doc">
+									OOO改善工程採購契約(不足2000萬，樣稿)_1100308版.doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>12</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=190" title="投標須知範本-(1100315版工務組範本，100萬以上未達查核金額).doc">
+									投標須知範本-(1100315版工務組範本，100萬以上未達查核金額).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>13</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=191" title="投標須知範本-(1100315版工務組範本，未達公告100萬).doc">
+									投標須知範本-(1100315版工務組範本，未達公告100萬).doc								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_6" title="土地處分承租區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>土地處分承租<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=167" title="蓋用印信申請書(1091103更新)">
+									蓋用印信申請書(1091103更新)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>02</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=192" title="土地承購申請書">
+									土地承購申請書								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_7" title="主計區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>主計<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=57" title="支出標準及審核作業手冊106年修訂版">
+									支出標準及審核作業手冊106年修訂版								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_8" title="資訊區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>資訊<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=185" title="本署LOGO">
+									本署LOGO								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>02</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=58" title="本會造字檔-2013-04-01">
+									本會造字檔-2013-04-01								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>03</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=59" title="TeamViewer遠端搖控軟體(被控端)">
+									TeamViewer遠端搖控軟體(被控端)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>04</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=61" title="灌溉地籍卡_空白">
+									灌溉地籍卡_空白								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>05</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=62" title="灌溉地籍調查卡(EXCEL檔)">
+									灌溉地籍調查卡(EXCEL檔)								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+								<!-- 組別 -->
+				<section class="office_area">
+					<a class="office_name" id="download_area_11" title="總務區" href="javascript:void(0);">
+						<p class="en">Classify</p>
+						<h2>總務<span>區</span></h2>
+					</a>
+					<!-- 下載項目 -->
+					<div class="office_file_area">
+											<article class="file">
+							<h2>01</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=86" title="臺灣高雄農田水利會禮堂租借收費標準">
+									臺灣高雄農田水利會禮堂租借收費標準								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>02</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=74" title="承諾書">
+									承諾書								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>03</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=75" title="水利會回覆高雄市政府話務中心內容">
+									水利會回覆高雄市政府話務中心內容								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>04</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=76" title="年度臨時工薪資統計表">
+									年度臨時工薪資統計表								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>05</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=77" title="招待貴賓申請書">
+									招待貴賓申請書								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>06</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=78" title="非員工臨時所得匯入">
+									非員工臨時所得匯入								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>07</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=79" title="保養維修檢驗紀錄表">
+									保養維修檢驗紀錄表								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>08</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=80" title="員工臨時所得匯入">
+									員工臨時所得匯入								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>09</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=81" title="清潔用品請領單">
+									清潔用品請領單								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>10</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=82" title="會務委員會臨時會提案單">
+									會務委員會臨時會提案單								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>11</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=83" title="業務助理臨時人員加班簽到簿">
+									業務助理臨時人員加班簽到簿								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>12</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=84" title="蓋用印信申請書">
+									蓋用印信申請書								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+												<article class="file">
+							<h2>13</h2>
+							<h3>
+								Download file title
+								<a href="downloadin.php?ufID=85" title="請購單">
+									請購單								</a>
+							</h3>
+							<div class="clear"></div>
+						</article>
+											</div>
+					<div class="clear"></div>
+				</section>
+							</div>
+			
+			<div class="clear"></div>	
+		</div>
+	</div>
+	
+    ﻿<!-- 活動宣傳按鈕 -->
+
+<footer>
+	<div class="max_width">
+		<a href="#acckeyK" title="下方功能區塊" accesskey="K" class="acc_block_footer" id="acckeyK">:::</a>
+		<div class="info_area">
+			<article class="area">
+				<h3>INFOMATION</h3>
+				<p class="info_01">
+					地址：81359  高雄市左營區明誠二路332號<br />上班時間：週一至週五，08:00～17:30				</p>
+				<p class="info_02">
+					電話：07-5574516 <br />
+					傳真：07-5590514				</p>
+			</article>
+			<article class="area">
+				<h3>OTHER LINKS</h3>
+				<a href="info_sec.php" title="資訊安全政策">資訊安全政策</a>
+				<a href="privacy.php" title="隱私權宣告">隱私權宣告</a>
+			</article>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="other_info_area">
+		<div class="max_width">
+			<div class="copy_acc_link">
+				COPYRIGHT © 2018 IRKHS. All Rights Reserved.
+			</div>
+			<a class="acc_label" title="無障礙網站檢測等級AA標章">
+				<img src="images/acc.png" alt="無障礙網站檢測等級AA標章" title="無障礙網站檢測等級AA標章">
+			</a>
+			<div class="clear"></div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

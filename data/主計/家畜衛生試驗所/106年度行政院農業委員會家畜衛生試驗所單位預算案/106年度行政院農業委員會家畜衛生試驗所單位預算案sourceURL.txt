@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='wwwhttps', port=443): Max retries exceeded with url: //www.nvri.gov.tw/Module/DisplayPageContent.aspx?pid=GpXni3jQldI%3D (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb1f7c931d0>: Failed to establish a new connection: [Errno -2] Name or service not known',))

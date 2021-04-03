@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	農業統計資料查詢
+</title><meta http-equiv="X-Frame-Options" content="deny" /> 
+    <script type="text/javascript">
+        if (self == top)
+            document.documentElement.style.display = 'block'
+        else 
+            top.location = self.location;
+    </script>        
+    
+<link href="../../library/SDWeb.css" rel="stylesheet" type="text/css" />
+    <script src="./../library/SdWeb.js" type="text/javascript"></script>    
+    <link rel="SHORTCUT ICON" href="../../images/coa.ico" />
+
+    <script type="text/javascript">
+        var m_objLastMenu = null;
+        var m_strLastMenuImageUrl = "";
+        var m_intLastMenuTime = 0;
+        var m_objLastSubMenu = null;
+
+        function MenuOver(objMenu, strImageUrl, strSubMenu) {
+            var objSubMenu;
+
+            if (m_intLastMenuTime != 0) {
+                clearTimeout(m_intLastMenuTime);
+                MenuOutTimeout();
+            }
+
+            if (objMenu) objMenu.src = strImageUrl;
+
+            if (strSubMenu != "") {
+                objSubMenu = document.getElementById(strSubMenu);
+                objSubMenu.style.top = String(objMenu.offsetTop + 25) + "px";
+                objSubMenu.style.left = String(objMenu.offsetLeft) + "px";
+                objSubMenu.style.display = "";
+            }
+        }
+
+        function MenuOut(objMenu, strImageUrl, strSubMenu) {
+            m_objLastMenu = objMenu;
+            m_strLastMenuImageUrl = strImageUrl;
+            m_intLastMenuTime = setTimeout("MenuOutTimeout()", 500);
+
+            if (strSubMenu == "")
+                m_objLastSubMenu = null
+            else
+                m_objLastSubMenu = document.getElementById(strSubMenu);
+        }
+
+        function MenuOutTimeout() {
+            m_intLastMenuTime = 0;
+            if (m_objLastMenu) m_objLastMenu.src = m_strLastMenuImageUrl;
+            if (m_objLastSubMenu) m_objLastSubMenu.style.display = "none";
+        }
+
+        function SubMenuOver() {
+            if (m_intLastMenuTime != 0) clearTimeout(m_intLastMenuTime);
+        }
+        function SubMenuOut() {
+            m_intLastMenuTime = setTimeout("MenuOutTimeout()", 500);
+        }
+    </script>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="OfficialInformation.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="36C3D52C" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2Ubeyr6DkyCuGZp/YucSwpfHWBjErqBuuuAYxvq89ZUK317OFgAg/dYE8rU+eWJMm+y5lHwFHpNnFJ6j1pXDgHkaA8gZycnTZAeV044KSexGcWq2UDCzAyaVeUXr0gh7GsvoJvcedkmAz77ewT70BvBF5utKjvl9c78aoV4xofUkYmVFAjfcSIw7Bjr2QfdSqmNb8P10PA55KL1Ztkm/fBWcAub5632fHeAxgIOp7VxbVGMj209FLW8ckTDxuQJS7tMH5Rw3hafyPLBdt2fnQOBL3lXX3z6XbpIdwYmErnpg2kpBRnPZ4GXS5xVgIMuVPW1vrsVNWZDx3rqYhRxX94cL+biEqgwvGIE9pU0w1N6xUrc2hmBcUNfLPQ/hsWj+Ik7dcjbL3ChEeJwUoQ0hqGi0RVMgy4vDpHXzhIShtKQRMelwj9xlqE4etuZjBR1R+fOGDLR0TTnDS44S178xYL9nQb+iKm2Ha5XSV+StAo8WWmk7NLdRX4G7hBLSSQYb4KB188CnpKnNCzg88Tj8mb+kwNBEioIPTcbuGT3fKz9wYvETQyCjaf37dpMZxQd31doXqZUEe6q7YaSzC6GCrTzUTlowSbiCz8Kh7IMbiZObttNWwFzeJcWiOq9DbQYD00WRJ1cfaeaCS7vdJY6HfvbXfNX8DbD1Nk6V0bTw4N/aL0sVcgS+U3TMfJtTD80ZeNUZnVfaqQQo5VL/wxJKAA/AqQDZQBpQGelcf+0W+4JzvwV/zyzLG7FQBcEwp+nrHaDPA/C2lGICYpqyXaOrX8Q2xO4OY72Bf2OHMKr/JpG84cMRHSvQmrG1Cn+sZC2zZw0W9HNOOmIsgTgJHwS4Zl/TA9MKRGBJ3FT2nzb2h8gI/UEc8FousWN7HptRw+1q9INI28lc0A947Uw8VkMJJB1OszgVfSdosJuoMiwyG96YBJXZ9UOuW5PLJFra0XNiNdcx41/EW1rd2hvJYXxRLxMAuhKmpd+xjSikkOu0j072BkcK3HQ1LYHpYK6UlX74tKv1JQqL32HRzkY0ZAZeTZbHsefoOmde8Ayhcr5X1IoaPzrE" />
+    <div id = "dvTop">
+    <div style="background-image: url(../../images/banner_bg.gif);">
+        <img src="../../images/banner.jpg" alt="農業統計資料查詢" />
+    </div>
+    <div style="background-image: url(../../images/menu_bg.gif); white-space: nowrap;">
+        <span id="ctl00_dtlMenu"><span>
+                <a id="ctl00_dtlMenu_ctl00_lnkMenu" href="../maintenance/Announce.aspx"><img id="ctl00_dtlMenu_ctl00_imgMenu" onmouseover="MenuOver(this,'../../images/menu_announce_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_announce.gif','')" src="../../images/menu_announce.gif" alt="系統公告" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl01_lnkMenu" href="../indicator/Indicator.aspx"><img id="ctl00_dtlMenu_ctl01_imgMenu" onmouseover="MenuOver(this,'../../images/menu_indicator_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_indicator.gif','')" src="../../images/menu_indicator.gif" alt="農業指標" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl02_lnkMenu" href="../inquiry/InquireAdvance.aspx"><img id="ctl00_dtlMenu_ctl02_imgMenu" onmouseover="MenuOver(this,'../../images/menu_advance_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_advance.gif','')" src="../../images/menu_advance.gif" alt="動態查詢" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl03_lnkMenu" href="../trade/tradereport.aspx"><img id="ctl00_dtlMenu_ctl03_imgMenu" onmouseover="MenuOver(this,'../../images/menu_trade_s.gif','ctl00_repSubMenu1_ctl03_panSubMenu')" onmouseout="MenuOut(this,'../../images/menu_trade.gif','ctl00_repSubMenu1_ctl03_panSubMenu')" src="../../images/menu_trade.gif" alt="農業貿易" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl04_lnkMenu" href="../book/Book.aspx"><img id="ctl00_dtlMenu_ctl04_imgMenu" onmouseover="MenuOver(this,'../../images/menu_book_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_book.gif','')" src="../../images/menu_book.gif" alt="統計書刊" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl05_lnkMenu" href="../common/Download.aspx"><img id="ctl00_dtlMenu_ctl05_imgMenu" onmouseover="MenuOver(this,'../../images/menu_download_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_download.gif','')" src="../../images/menu_download.gif" alt="下載區" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl06_lnkMenu" href="OfficialInformation.aspx"><img id="ctl00_dtlMenu_ctl06_imgMenu" onmouseover="MenuOver(this,'../../images/menu_Official_s.gif','')" onmouseout="MenuOut(null,'../../images/menu_Official.gif','')" src="../../images/menu_Official_s.gif" alt="公務統計" border="0" /></a></span><span>
+                <a id="ctl00_dtlMenu_ctl07_lnkMenu" href="../maintenance/Question.aspx"><img id="ctl00_dtlMenu_ctl07_imgMenu" onmouseover="MenuOver(this,'../../images/menu_question_s.gif','')" onmouseout="MenuOut(this,'../../images/menu_question.gif','')" src="../../images/menu_question.gif" alt="常見問題" border="0" /></a></span></span></div>
+    
+            <div id="ctl00_repSubMenu1_ctl03_panSubMenu" onmouseover="SubMenuOver()" onmouseout="SubMenuOut()" style="position: absolute; top: 125px;
+                display: none;">
+	
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <img src="../../images/sub_menu_left.gif" alt="" /></td>
+                        
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl00_lnkSubMenu" href="../trade/TradeReport.aspx">貿易統計表</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl01_lnkSubMenu" href="../trade/TradeCcc.aspx">稅則號列(CCC)資料查詢</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl02_lnkSubMenu" href="../trade/TradeCoa.aspx">農產品別(COA)資料查詢</a>
+                                </td>
+                            
+                                <td class="SubMenu">
+                                    <img src="../../images/sub_menu_icon.gif" alt="" />
+                                    <a id="ctl00_repSubMenu1_ctl03_repSubMenu2_ctl03_lnkSubMenu" href="../library/Instruction.pdf">操作說明</a>
+                                </td>
+                            
+                        <td>
+                            <img src="../../images/sub_menu_right.gif" alt="" /></td>
+                    </tr>
+                </table>
+            
+</div>
+        
+    <br />
+    <div style="padding: 0 0 15px 15px;">
+        <img src="../../images/title_icon.gif" style="vertical-align: middle; padding-left: 10px;
+            position: relative; top: -6px;" alt="" />
+        <span id="ctl00_dtlMenuPath" class="MenuPath" style="position: relative; top: -6px;"><span>
+                公務統計
+            </span></span><br />
+        <img src="../../images/title_line.gif" alt="" /></div></div>
+    <div style="margin-left: 15px; margin-right: 10px;">
+        
+    
+<table style="width: 95%; margin-left: auto; margin-right: auto;">
+    <tr>
+        <td>
+            <fieldset class="FieldSet" style="padding-top: 8px; padding-bottom: 8px;">
+                <table>
+                    <tr>
+                        <th align="right" style="white-space: nowrap;">
+                            年度：
+                        </th>
+                        <td>
+                            <select name="ctl00$cphMain$uctlOfficialInformation1$ddlQYear" id="ctl00_cphMain_uctlOfficialInformation1_ddlQYear" onchange="document.getElementById('ctl00_cphMain_uctlOfficialInformation1_chkQNew').checked = false;">
+	<option selected="selected" value=""></option>
+	<option value="110">110年</option>
+	<option value="109">109年</option>
+	<option value="108">108年</option>
+	<option value="107">107年</option>
+	<option value="106">106年</option>
+	<option value="105">105年</option>
+	<option value="104">104年</option>
+	<option value="103">103年</option>
+	<option value="102">102年</option>
+	<option value="101">101年</option>
+	<option value="100">100年</option>
+	<option value="099">099年</option>
+	<option value="098">098年</option>
+	<option value="097">097年</option>
+	<option value="096">096年</option>
+	<option value="095">095年</option>
+	<option value="094">094年</option>
+	<option value="093">093年</option>
+	<option value="092">092年</option>
+
+</select>
+                        </td>
+                        <th align="right" style="white-space: nowrap;">
+                            &nbsp;&nbsp;表期：</hd>
+                            <td>
+                                <select name="ctl00$cphMain$uctlOfficialInformation1$ddlQPeriod" id="ctl00_cphMain_uctlOfficialInformation1_ddlQPeriod" onchange="document.getElementById('ctl00_cphMain_uctlOfficialInformation1_chkQNew').checked = false;">
+	<option selected="selected" value=""></option>
+	<option value="Y">年報</option>
+	<option value="H">半年報</option>
+	<option value="T">期報</option>
+	<option value="YT">年期報</option>
+	<option value="Q">季報</option>
+	<option value="YQ">年季報</option>
+	<option value="M">月報</option>
+	<option value="I">臨時報</option>
+
+</select>
+                            </td>
+                            <th align="right" style="white-space: nowrap;">
+                                表號：
+                            </th>
+                            <td>
+                                <input name="ctl00$cphMain$uctlOfficialInformation1$txtQReportCode" type="text" id="ctl00_cphMain_uctlOfficialInformation1_txtQReportCode" onkeypress="document.getElementById('ctl00_cphMain_uctlOfficialInformation1_chkQNew').checked = false;" /></td>
+                            <td align="right" style="white-space: nowrap;">
+                                <span><b><font color="Blue"><input id="ctl00_cphMain_uctlOfficialInformation1_chkQNew" type="checkbox" name="ctl00$cphMain$uctlOfficialInformation1$chkQNew" checked="checked" /><label for="ctl00_cphMain_uctlOfficialInformation1_chkQNew">最新公開資訊</label></font></b></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th align="right" style="white-space: nowrap;">
+                            報表名稱：
+                        </th>
+                        <td colspan="3">
+                            <input name="ctl00$cphMain$uctlOfficialInformation1$txtQReportName" type="text" size="25" id="ctl00_cphMain_uctlOfficialInformation1_txtQReportName" onkeypress="document.getElementById('ctl00_cphMain_uctlOfficialInformation1_chkQNew').checked = false;" /></td>
+                        <th style="white-space: nowrap;">
+                            &nbsp;&nbsp;&nbsp;編製機關：
+                        </th>
+                        <td colspan="2" style="white-space: nowrap;">
+                            <select name="ctl00$cphMain$uctlOfficialInformation1$ddlQOrganization" id="ctl00_cphMain_uctlOfficialInformation1_ddlQOrganization" onchange="document.getElementById('ctl00_cphMain_uctlOfficialInformation1_chkQNew').checked = false;">
+	<option selected="selected" value="0"></option>
+	<option value="8">行政院農業委員會畜牧處</option>
+	<option value="10">行政院農業委員會輔導處</option>
+	<option value="26">行政院農業委員會國際處</option>
+	<option value="27">行政院農業委員會秘書室</option>
+	<option value="29">行政院農業委員會會計室</option>
+	<option value="11">行政院農業委員會法規會</option>
+	<option value="12">行政院農業委員會統計室分析科</option>
+	<option value="32">行政院農業委員會統計室調查科</option>
+	<option value="33">行政院農業委員會漁業署</option>
+	<option value="13">行政院農業委員會動植物防疫檢疫局</option>
+	<option value="34">行政院農業委員會林務局</option>
+	<option value="23">行政院農業委員會水土保持局</option>
+	<option value="14">行政院農業委員會農業金融局</option>
+	<option value="15">行政院農業委員會農糧署</option>
+	<option value="54">行政院農業委員會農業試驗所</option>
+	<option value="55">行政院農業委員會林業試驗所</option>
+	<option value="56">行政院農業委員會水產試驗所</option>
+	<option value="57">行政院農業委員會畜產試驗所</option>
+	<option value="16">行政院農業委員會家畜衛生試驗所</option>
+	<option value="17">行政院農業委員會農業藥物毒物試驗所</option>
+	<option value="18">行政院農業委員會特有生物研究保育中心</option>
+	<option value="58">行政院農業委員會桃園區農業改良場</option>
+	<option value="59">行政院農業委員會苗栗區農業改良場</option>
+	<option value="60">行政院農業委員會台中區農業改良場</option>
+	<option value="61">行政院農業委員會台南區農業改良場</option>
+	<option value="62">行政院農業委員會高雄區農業改良場</option>
+	<option value="63">行政院農業委員會花蓮區農業改良場</option>
+	<option value="64">行政院農業委員會台東區農業改良場</option>
+	<option value="19">行政院農業委員會茶業改良場</option>
+	<option value="20">行政院農業委員會種苗改良繁殖場</option>
+	<option value="21">屏東農業生物技術園區籌備處</option>
+	<option value="9">行政院農業委員會農田水利署</option>
+
+</select>
+                            &nbsp;&nbsp;<span class="ThreeDButton ThreeDButtonBackground" onmouseover="this.className='ThreeDButton ThreeDButtonMouseOver';" onmouseout="this.className='ThreeDButton ThreeDButtonBackground';"><span><input type="submit" name="ctl00$cphMain$uctlOfficialInformation1$btnQuery" value="查　詢" id="ctl00_cphMain_uctlOfficialInformation1_btnQuery" /></span></span></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br />
+            <div>
+	<table class="GridView" cellspacing="0" cellpadding="6" rules="all" border="1" id="ctl00_cphMain_uctlOfficialInformation1_grdReport" width="100%">
+		<tr class="Header">
+			<th scope="col"><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Sort$period')">資料期</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Sort$report_code')">表號</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Sort$report_name')">表&#160;&#160;名</a></th><th scope="col">編製說明</th><th scope="col"><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Sort$period')">表期</a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Sort$organization_name')">編製機關（單位）</a></th>
+		</tr><tr class="Row">
+			<td align="center" width="8%" nowrap="nowrap">108年</td><td width="10%" nowrap="nowrap">
+                            1113-01-01
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl02$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl02_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl02$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl02_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl02$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl02_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>農耕土地面積</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl02$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl02_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會農糧署</td>
+		</tr><tr class="AlternatingRow">
+			<td align="center" width="8%" nowrap="nowrap">108年</td><td width="10%" nowrap="nowrap">
+                            1113-01-01
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl03$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl03_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl03$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl03_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl03$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl03_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>農耕土地面積</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl03$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl03_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會農糧署</td>
+		</tr><tr class="Row">
+			<td align="center" width="8%" nowrap="nowrap">108年</td><td width="10%" nowrap="nowrap">
+                            1113-04-01
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl04$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl04_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl04$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl04_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl04$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl04_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>臺灣地區水土保持處理</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl04$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl04_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會水土保持局</td>
+		</tr><tr class="AlternatingRow">
+			<td align="center" width="8%" nowrap="nowrap">108年</td><td width="10%" nowrap="nowrap">
+                            1113-05-01
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl05$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl05_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl05$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl05_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl05$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl05_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>臺灣地區治山防災整體治理工程</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl05$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl05_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會水土保持局</td>
+		</tr><tr class="Row">
+			<td align="center" width="8%" nowrap="nowrap">109年</td><td width="10%" nowrap="nowrap">
+                            1113-90-01
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl06$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl06_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl06$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl06_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl06$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl06_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>臺灣地區山坡地違規使用查報取締案件─按地區別分</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl06$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl06_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會水土保持局</td>
+		</tr><tr class="AlternatingRow">
+			<td align="center" width="8%" nowrap="nowrap">109年</td><td width="10%" nowrap="nowrap">
+                            1113-90-02
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl07$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl07_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl07$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl07_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl07$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl07_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>臺灣地區山坡地違規使用查報取締案件─按違規類別分</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl07$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl07_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會水土保持局</td>
+		</tr><tr class="Row">
+			<td align="center" width="8%" nowrap="nowrap">108年</td><td width="10%" nowrap="nowrap">
+                            1140-00-01
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl08$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl08_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl08$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl08_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl08$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl08_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>臺閩地區農作物災害損失</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl08$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl08_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會農糧署</td>
+		</tr><tr class="AlternatingRow">
+			<td align="center" width="8%" nowrap="nowrap">108年</td><td width="10%" nowrap="nowrap">
+                            1140-00-03
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl09$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl09_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl09$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl09_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl09$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl09_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>天然災害漁業損失統計─按災害別分</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl09$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl09_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會漁業署</td>
+		</tr><tr class="Row">
+			<td align="center" width="8%" nowrap="nowrap">109年</td><td width="10%" nowrap="nowrap">
+                            1140-00-04
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl10$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl10_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl10$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl10_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl10$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl10_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>臺灣地區天然災害水土保持設施損害情形</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl10$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl10_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會水土保持局</td>
+		</tr><tr class="AlternatingRow">
+			<td align="center" width="8%" nowrap="nowrap">109年</td><td width="10%" nowrap="nowrap">
+                            1140-00-05
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl11$btnReportExcel" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl11_btnReportExcel" src="../../images/icon_excel.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl11$btnReportOds" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl11_btnReportOds" src="../../images/icon_ods.gif" border="0" style="vertical-align: middle;" />
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl11$btnReportPdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl11_btnReportPdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td>天然災害農田灌溉排水設施損失</td><td align="center" width="5%">
+                            <input type="image" name="ctl00$cphMain$uctlOfficialInformation1$grdReport$ctl11$btnNoticePdf" id="ctl00_cphMain_uctlOfficialInformation1_grdReport_ctl11_btnNoticePdf" src="../../images/icon_pdf.gif" border="0" style="vertical-align: middle;" />
+                        </td><td align="center" width="5%" nowrap="nowrap">年報</td><td width="30%">行政院農業委員會農田水利署</td>
+		</tr><tr class="Pager">
+			<td colspan="6"><table border="0">
+				<tr>
+					<td><span>1</span></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$2')">2</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$3')">3</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$4')">4</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$5')">5</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$6')">6</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$7')">7</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$8')">8</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$9')">9</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$10')">10</a></td><td><a href="javascript:__doPostBack('ctl00$cphMain$uctlOfficialInformation1$grdReport','Page$11')">...</a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table>
+</div>
+        </td>
+    </tr>
+</table>
+
+
+    </div>
+    <br />
+    <div style="background-color: #5E7E3D; text-align: center; font-size: 9pt; color: #C5D3BA;
+        padding: 10px;" id = "dvDown">
+        行政院農業委員會版權所有©2011 COA All Rights Reserved‧最佳瀏覽狀態為 IE6.0 以上‧Firefox 2.0 以上‧1024*768
+        以上解析度最佳‧
+    </div>
+    </form>
+</body>
+</html>

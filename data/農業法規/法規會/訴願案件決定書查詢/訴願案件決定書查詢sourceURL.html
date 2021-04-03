@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	行政院農委會-訴願審議管理系統
+</title>
+
+    <script src="/js/jquery-3.4.0.min.js"></script>
+    <script src="/js/jquery.wordexport.js"></script>
+    <script src="/js/FileSaver.js"></script>
+    <link href="/css/StyleSheet.css" rel="stylesheet" /><link href="/css/StyleSheet2.css" rel="stylesheet" /><link href="/css/jquery-ui.css" rel="stylesheet" />
+    <script src="/js/jquery-ui.js"></script>
+    <script src="/js/jquery.blockUI.js"></script>
+    
+    <script src="/js/plugin.js" charset="UTF-8"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $("#form1").validate();
+        });
+        $(function () {
+
+            $(".date_ui").datepicker({
+                yearRange: "-100:+0",
+                dateFormat: "yy/mm/dd"
+            });
+        });
+
+        function ShowAlert(msg, url) {
+            alert(msg);
+            location.href = url;
+        }
+        function ShowAlertErry(msg) {
+            alert(msg);
+            return;
+        }
+    </script>
+    <style>
+        html {
+            border-left: 50px solid #5a672d;
+        }
+
+        .login_info {
+            position: absolute;
+            top: -140px;
+            color: #fff;
+            background-color: #544d47;
+            border: 5px solid #5a672d;
+            -webkit-box-shadow: rgba(0,0,0,0.7) 0 0 15px;
+            -moz-box-shadow: rgba(0,0,0,0.7) 0 0 15px;
+            box-shadow: rgba(0,0,0,0.7) 0 0 15px;
+            z-index: 21;
+            width: 220px;
+        }
+
+            .login_info .info {
+                margin: 8px 8px;
+            }
+
+            .login_info span[class*="pm-"] {
+                font-size: 17px;
+                border-bottom: 1px solid #fff;
+                display: inline-block;
+                width: 100%;
+                min-height: 30px;
+                line-height: 30px;
+                vertical-align: bottom;
+                cursor: default;
+            }
+
+        #Singout {
+            width: 100px;
+            padding-left: 1;
+            margin-left: 55px;
+            margin-bottom: 6px;
+            margin-right: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header class="loginHeader">
+        <h1>
+            <img src="/images/Logo6.png" height="180" /></h1>
+        <div style="float: right; padding-right: 140px;">
+            <img src="/images/LogoS.png" height="248" />
+        </div>
+    </header>
+    <form method="post" action="./LaKmQry.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="NrC0B+EXjPjqckHbxRKGxVmMi9Sr7R7YQ+M19KLG1vbqNvCR2ewWxl39SoYYSVmA2ceDufPJsPWQBa4X3c6SKOJDZMkd6GoqouKoEK3XhxydYGfOECPKuccFpxvWM09/moBOtlOmNd6VrKZ9R8Dc7m7UX3TiRx2PZD5GgjthGLAeugP6smtCVPLoE6l4JKMWffPH/0Oah++xphkw7Hye9YRNy7ecCxoSX7wpGFBRNWY1k9Abtsizvo0VWT0cwnYhjO7RaBS5TaK+1XzirxdPXQ==" />
+
+
+<script src="/ScriptResource.axd?d=xKHJeHG1PQeJ9W2S-7YdJGVmlbEL8oto746rsZ4pZGcGllmGlrVK5sQrm0LWzP0NwzunIg9McLRldaZfW6mXECTe8eUKj1OMnAH7EFiYU7nkIxgV0uBl0aO4A7S2Pl7Ih1WJ0is3R4GYjTBusSHibE6kBMWcTJfzY45cTVaMVww1&amp;t=2fe674eb" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax 用戶端架構無法載入。');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C526D02F" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="GZYoc/mt29716buiFfw4IOhZGjtk/wqszpVPUpas81hkmp0ST5x017hWHQVLttxRYJHS8yj/65MoCEXWho2qYaE0ky6taBw2UfGo0igSu9527NZu9aowSsyfznvclOKf5oBz6PCAOo0Ikvp8PWN+i7nuDTE5nAQtODlxSoEzSoQo5lWPQH7wW1J2L3UoGtM5IGpaC88dwPnFP2Ee/dvPSi+Fs/J97Ffq7cqHEetvoTEbxEzgSM/569i6ocq4n7xDh7r69299TVQFT9C7ZK+piNWGnDLnjBUR3zt8QYuvOBY=" />
+        <div class="relative">
+            <div class="leftmenu">
+                <div class="menuContainer">
+                    <div class="login_info" style="display:none;">
+                        <div class="info">
+                            <span class="pm-role">承辦人:
+                                <span id="NAME"></span>
+                            </span>
+                            <span class="pm-role">身分:
+                                <span id="AUTHORITY"></span>
+                            </span>
+                        </div>
+                        <span class="pm-role">
+                            <input type="submit" name="ctl00$Singout" value="登出" id="Singout" />
+                        </span>
+                    </div>
+                  
+                     <div class="boxTitle"><i class="sprites-menu_duck"></i>查詢工具</div>
+                    <ul>
+                        <li><a href="/Mondel/LaKm/LaKmQry.aspx"><i class="sprites-menu_01"></i>訴願案件決定書查詢</a></li>
+                    </ul>
+                   
+                </div>
+            </div>
+            <div class="container">
+                <div class="main_content">
+                    
+    
+    <script language="javascript" type="text/javascript" src="/js/My97DatePicker/WdatePicker.js"></script>
+   
+   
+   
+    <script>
+          function ClickAdd() {
+
+            var counter = document.getElementById("ContentPlaceHolder1_hidCount").value;
+
+            var newTextBoxDiv = $(document.createElement('div'))
+                    .attr("id", 'TextBoxDiv' + counter);
+
+            //newTextBoxDiv.after().html("<br/><span><select name=\"selAndOr" + counter + "\" ><option value='and'>and</option>" +
+            //"<option value='or'>or</option><option value='not'>not</option></select > <input type=\"text\" name=\"txtKey" + counter + "\"></span>");
+            newTextBoxDiv.after().html("<br/><span><select name=\"selAndOr" + counter + "\" ><option value='and'>and</option>" +
+        "<option value='or'>or</option></select > <input type=\"text\" name=\"txtKey" + counter + "\"></span>");
+            newTextBoxDiv.appendTo("#TextBoxesGroup");
+
+
+            document.getElementById("ContentPlaceHolder1_hidCount").value = parseInt(counter) + 1;
+
+        }
+    </script>
+    <div class="main_head">
+        <div>訴願案件決定書查詢</div>
+    </div>
+    <div class="main_body">
+        <div class="tpl">
+            <table class="tpl">
+                <tr class="tpl_tr" id="trA">
+                    <th class="tpl_th" style="width: 20%; color: #fff;">訴願人：
+                    </th>
+                    <td class="tpl_td">
+                        <input name="ctl00$ContentPlaceHolder1$txtstrAppealName" type="text" id="ContentPlaceHolder1_txtstrAppealName" />
+                    </td>
+                </tr>
+                <tr class="tpl_tr" id="trB">
+                    <th class="tpl_th" style="width: 20%; color: #fff;">案由：
+                    </th>
+                    <td class="tpl_td" id="tdKey">
+                        <input name="ctl00$ContentPlaceHolder1$txtAppealShop" type="text" id="ContentPlaceHolder1_txtAppealShop" />
+                    </td>
+                </tr>
+              
+                <tr class="tpl_tr" id="trE">
+                    <th class="tpl_th" style="width: 20%; color: #fff;">決定書字號：
+                    </th>
+                    <td class="tpl_td">農訴字第<input name="ctl00$ContentPlaceHolder1$txtAppealnum" type="text" id="ContentPlaceHolder1_txtAppealnum" />號
+                    </td>
+                </tr>
+                <tr class="tpl_tr" id="trF">
+                    <th class="tpl_th" style="width: 20%; color: #fff;">日期：
+                    </th>
+                    <td class="tpl_td">
+                        <input name="ctl00$ContentPlaceHolder1$txtADateBegin" type="text" autocomplete="off" id="ContentPlaceHolder1_txtADateBegin" class="date_ui" />~<input name="ctl00$ContentPlaceHolder1$txtADateEnd" type="text" autocomplete="off" id="ContentPlaceHolder1_txtADateEnd" class="date_ui" />
+                    </td>
+                </tr>
+                <tr class="tpl_tr" id="trG">
+                    <th class="tpl_th" style="width: 20%; color: #fff;">決定書內容關鍵字：
+                    </th>
+                    <td class="tpl_td">
+                        <input name="ctl00$ContentPlaceHolder1$TextBox8" type="text" id="ContentPlaceHolder1_TextBox8" /><a href="###" onclick="ClickAdd();">添加</a>
+                        
+                        
+                        <div id='TextBoxesGroup'></div>
+                    </td>
+                </tr>
+            </table>
+            <div align="center">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="查詢" id="ContentPlaceHolder1_Button1" class="tpl_button" />
+                <input type="hidden" name="ctl00$ContentPlaceHolder1$hidCount" id="ContentPlaceHolder1_hidCount" value="1" />
+            </div>
+        </div>
+        <div class="tp2">
+            <div id="ContentPlaceHolder1_UpdatePanel2">
+	
+                    <div>
+
+	</div>
+                
+</div>
+        </div>
+        
+       
+         
+    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

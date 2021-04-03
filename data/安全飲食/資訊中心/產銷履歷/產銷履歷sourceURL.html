@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-Hant" class="no-js" xmlns:hyweb="urn:gip-hyweb-com">
+<head>
+
+<meta charset="utf-8" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<meta name="viewport" content="width=device-width, initial-scale=1" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<title xmlns:msxsl="urn:schemas-microsoft-com:xslt">ç¢é·å±¥æ­·è¾²ç¢åè³è¨ç¶² - </title>
+<link rel="stylesheet" href="/xslGip/vips_rwd/vendor/fontello/css/fontello.min.css" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<link rel="stylesheet" href="/xslGip/vips_rwd/vendor/slick/slick.css" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<link rel="stylesheet" href="/xslGip/vips_rwd/vendor/slick/slick-theme.css" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<link rel="stylesheet" href="/xslGip/vips_rwd/vendor/WOW-master/css/libs/animate.css" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<link rel="stylesheet" href="/xslGip/vips_rwd/css/hyui.css" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><script src="/xslGip/vips_rwd/js/jquery-3.5.1.min.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script src="/xslGip/vips_rwd/js/fontsize.min.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script src="/xslGip/vips_rwd/vendor/jquery.easing.min.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script src="/xslGip/vips_rwd/vendor/slick/slick.min.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script src="/xslGip/vips_rwd/vendor/WOW-master/dist/wow.min.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script src="/xslGip/vips_rwd/js/hyui.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script src="/xslGip/vips_rwd/js/customize.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt"></script><script>
+		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		 ga('create', 'UA-5735753-1', 'auto');
+		 ga('send', 'pageview');
+
+		</script><script type="text/javascript" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+		//ç¡éç¤IE æè½é å©ætabéµ
+		$(function() {
+
+			$('a.goCenter').keydown(function(e) {
+				if (e.which == 13) {
+					$('#aC').focus(); /*#aC æ¯ä¸­éå®ä½é»çid*/
+				}
+			});
+		})
+
+
+		//wowload
+		var wow = new WOW(
+		{
+			boxClass:     'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset:       0,          // distance to the element when triggering the animation (default is 0)
+			mobile:       true,       // trigger animations on mobile devices (default is true)
+			live:         true        // act on asynchronously loaded content (default is true)
+		}
+		);
+		wow.init();
+		</script><script type="text/javascript" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+		//å´éæ¥è©¢
+		$(function() {
+			$('.fixedBtn').click(function(){
+				$(this).toggleClass('closed');
+				$('.searchBox').fadeToggle(200);
+			});
+		});
+
+		//taiwan map
+		$(function () {
+			$('.taiwan_map').append('<div class="mouse"></div>');
+
+			$('.taiwan_map svg path').each(function(index, el) {
+				$this = $(this);
+				var mapName = $this.attr('name');
+				$this.mousemove(function(e) {
+					$('.mouse').show();
+
+					var TEST = $('.mouse').position();
+					var TESTX = TEST.left;
+					var TESTY = TEST.top;
+					var parentOffset = $(this).parent().offset(); 
+					var relX = e.pageX - parentOffset.left;
+					var relY = e.pageY - parentOffset.top
+		// console.log('mouseX = '+TESTX +'mouseY = '+ TESTY);
+		// console.log('relX = '+relX +'relY = '+ relY);
+		$('.mouse').css({left:relX+10 ,top:relY-30});
+		//åæ¯åpathçnameå¼
+		$('.mouse').html(mapName);
+		//mouse div æ¾å¥ pathç nameå¼
+		// console.log(mapName);     
+		});
+
+				$this.mouseout(function(event) {
+					$('.mouse').hide();
+				});
+
+			});
+
+			if($(location).attr("href").indexOf("taiwanmap/print.aspx?")>0)
+			{	
+				$('head').append( $('<link rel="stylesheet" type="text/css" media="all">').attr('href', '/xslGip/vips2013/css/print.css') );	
+			}
+
+		})
+		</script></head>
+<body><a class="goCenter" href="#center" tabindex="1">æ Enter å°ä¸»å§å®¹å</a><div class="sildeSearch" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><button type="button" class="fixedBtn">å±¥æ­·æ¥è©¢</button><div class="searchBox">
+<form id="form3" name="form4" method="get" action="/rsm/tcqry.aspx" class="form_inline">
+<div class="form_grp"><label for="EnTraceCode">å±¥æ­·æ¥è©¢:</label><input name="EnTraceCode" id="mustSameAsId" type="text" placeholder="è«è¼¸å¥å±¥æ­·è¿½æº¯ç¢¼" accesskey="S"></div>
+<div class="btn_grp"><button type="submit">æ¥è©¢</button></div>
+</form>
+</div>
+</div>
+<div class="wrapper"><header class="header" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><div class="container"><a class="accesskey" href="#aU" id="aU" accesskey="U" title="ç¶²ç«æ¨é¡" tabindex="2">:::</a><nav class="navigation"><ul>
+<li><a href="/" title="åé¦é ">åé¦é </a></li>
+<li><a href="/sitemap.asp?mp=7" title="ç¶²ç«å°è¦½">ç¶²ç«å°è¦½</a></li>
+<li><a href="/mp.asp?mp=10" title="English">English</a></li>
+<li><a title="å¸¸è¦åç­" href="/lp.asp?ctNode=302&CtUnit=95&BaseDSD=7&role=C">å¸¸è¦åç­</a></li>
+<li><a title="RSS" href="/ct.asp?xItem=3642&CtNode=314&role=C">RSS</a></li>
+</ul></nav><h1><a class="logo" href="/" title="ç¢é·å±¥æ­·è¾²ç¢åè³è¨ç¶²"><img alt="ç¢é·å±¥æ­·è¾²ç¢åè³è¨ç¶²" title="ç¢é·å±¥æ­·è¾²ç¢åè³è¨ç¶²" src="/xslGip/vips_rwd/images/logo.png"></a></h1><script language="JavaScript">
+			function Checkgoogle()
+			{
+				if ((document.search_google.q.value.replace(/(^\s*)|(\s*$)/g, "") == "") || (document.search_google.q.value.replace(/(^\s*)|(\s*$)/g, "") == "è«è¼¸å¥æ¥è©¢å§å®¹")) {
+					alert("è«è¼¸å¥æ¥è©¢è©!");
+					document.search_google.q.focus();
+					return false;
+				}
+				document.search_google.send.disabled=true;
+				//return confirm('ç¢ºå®æ¥è©¢å?');
+			}
+			</script><section class="search"><noscript>
+				æ¨ççè¦½å¨ä¸æ¯æ´ JavaScript æ JavaScriptå·²åç¨
+				</noscript>
+<form class="form_inline" role="search" name="search_google" method="get" action="/sp.asp" onSubmit="return Checkgoogle();"><input type="hidden" name="xdurl" value="search/searchList.asp"><div class="form_grp"><label for="mustSameAsId">è«è¼¸å¥æ¥è©¢å§å®¹:</label><input type="text" name="q" id="q" placeholder="è«è¼¸å¥æ¥è©¢å§å®¹" title="è«è¼¸å¥æ¥è©¢å§å®¹" accesskey="S"></div>
+<div class="btn_grp"><button type="submit" class="icon-search">æ¥è©¢</button></div><a class="btn-adv" target="_blank" title="é²éæ¥è©¢" href="https://www.google.com.tw/advanced_search?hl=zh-TW&as_q=&num=100&as_sitesearch=taft.coa.gov.tw&cof=FORID%3A10&ie=UTF-8&sa=%E6%90%9C%E5%B0%8B&siteurl=www">
+					é²éæ¥è©¢
+					</a></form></section><noscript>
+				æ¨ççè¦½å¨ä¸æ¯æ´JavaScriptèªæ³ï¼JavaScriptèªæ³ä¸¦ä¸å½±é¿å§å®¹çé³è¿°ãæ¨å¯ä½¿ç¨æéµç¤ä¸çCtrléµ+ (+)éµæ¾å¤§/(-)éµç¸®å°ä¾æ¹è®å­åå¤§å°ï¼åå°ä¸ä¸é å¯ä½¿ç¨çè¦½å¨æä¾ç Alt+å·¦æ¹åéµ(â) å¿«ééµåè½ï¼åå°å¯ä½¿ç¨çè¦½å¨æä¾ç(Ctrl+P)åè½ãæ¨ççè¦½å¨ï¼ä¸æ¯æ´scriptèªæ³ï¼è¥æ¨ççè¦½å¨ç¡æ³æ¯æ´è«é»é¸æ­¤è¶é£çµ <a href="/sitemap.asp">ç¶²ç«å°è¦½</a></noscript>
+<div class="FontSize">
+<ul>
+<li><a class="hidden-xs" href="javascript:void(0)" onclick="fontSize.increase()" id="incfont">A<sup>+</sup></a></li>
+<li class="active"><a class="hidden-xs" href="javascript:void(0)" onclick="fontSize.restore()">A</a></li>
+<li><a class="hidden-xs" href="javascript:void(0)" onclick="fontSize.decrease()" id="decfont">A<sup>-</sup></a></li>
+</ul>
+</div><nav class="menu"><ul>
+<li><a href="/np.asp?ctNode=263&role=C" title="ä»éº¼æ¯ç¢é·å±¥æ­·">ä»éº¼æ¯ç¢é·å±¥æ­·</a><ul>
+<li><a href="/np.asp?ctNode=269&CtUnit=64&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·çå¹å¼">ç¢é·å±¥æ­·çå¹å¼</a></li>
+<li><a href="/np.asp?ctNode=296&CtUnit=9&BaseDSD=7&role=C" title="èªè­ç¢é·å±¥æ­·">èªè­ç¢é·å±¥æ­·</a></li>
+<li><a href="/lp.asp?ctNode=270&CtUnit=79&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·éäººä»ç´¹">ç¢é·å±¥æ­·éäººä»ç´¹</a></li>
+<li><a href="/rsm/passorgandfarmer.aspx?role=C" title="è¾²ç¢åç¶çæ¥­èå®¶æ¸åæ¶æ¸çµ±è¨">è¾²ç¢åç¶çæ¥­èå®¶æ¸åæ¶æ¸çµ±è¨</a></li>
+<li><a href="/lp.asp?ctNode=299&CtUnit=148&BaseDSD=7&role=C" title="æå®£åä¸è¼å">æå®£åä¸è¼å</a></li>
+<li><a href="/lp.asp?ctNode=328&CtUnit=164&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·æ¶äººå">ç¢é·å±¥æ­·æ¶äººå</a></li>
+</ul>
+</li>
+<li><a href="/np.asp?ctNode=284&role=C" title="ææ³è³¼è²·ç¢é·å±¥æ­·åå">ææ³è³¼è²·ç¢é·å±¥æ­·åå</a><ul>
+<li><a href="/np.asp?ctNode=287&CtUnit=127&BaseDSD=7&role=C" title="å¦ä½è¾¨è­ç¢é·å±¥æ­·åå">å¦ä½è¾¨è­ç¢é·å±¥æ­·åå</a></li>
+<li><a href="/ResumeProduct/OrgIntro.aspx?role=C" title="å±¥æ­·åååªè£¡è²·">å±¥æ­·åååªè£¡è²·</a></li>
+<li><a href="/taiwanmap/ProductKg.aspx?role=C" title="è¿æç¢ååºè²¨é">è¿æç¢ååºè²¨é</a></li>
+</ul>
+</li>
+<li><a href="/np.asp?ctNode=264&role=C" title="å¦ä½å å¥ç¢é·å±¥æ­·">å¦ä½å å¥ç¢é·å±¥æ­·</a><ul>
+<li><a href="/np.asp?ctNode=271&CtUnit=83&BaseDSD=7&role=C" title="å å¥ç¢é·å±¥æ­·">å å¥ç¢é·å±¥æ­·</a></li>
+<li><a href="/rsm/autho_list.aspx?role=C" title="ç¢é·å±¥æ­·çé©è­æ©æ§">ç¢é·å±¥æ­·çé©è­æ©æ§</a></li>
+<li><a href="/sp.asp?xdurl=askmoney/askmoney2.asp&CtNode=275&role=C" title="é©è­ç³è«è²»ç¨è©¢å¹">é©è­ç³è«è²»ç¨è©¢å¹</a></li>
+<li><a href="/lp.asp?ctNode=274&CtUnit=134&BaseDSD=7&role=C" title="é¢ç·åå°èªªæ">é¢ç·åå°èªªæ</a></li>
+<li><a href="/lp.asp?ctNode=276&CtUnit=80&BaseDSD=7&role=C" title="TGAPä¸è¼">TGAPä¸è¼</a></li>
+<li><a href="/lp.asp?ctNode=273&CtUnit=84&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·é©è­ç¸éæ³ä»¤">ç¢é·å±¥æ­·é©è­ç¸éæ³ä»¤</a></li>
+<li><a href="/lp.asp?ctNode=302&CtUnit=165&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·Q&A">ç¢é·å±¥æ­·Q&A</a></li>
+<li><a href="/np.asp?ctNode=331&CtUnit=166&BaseDSD=2&role=C" title="ç¢é·å±¥æ­·è¾²åå¯¦ä½æå">ç¢é·å±¥æ­·è¾²åå¯¦ä½æå</a></li>
+</ul>
+</li>
+<li><a href="/lp.asp?ctNode=315&CtUnit=144&BaseDSD=19&role=C" title="æ¨è¦æç">æ¨è¦æç</a><ul>
+</ul>
+</li>
+<li><a href="/Resume/resulist.aspx?Today=Today" title="å±¥æ­·æ¥è©¢">å±¥æ­·æ¥è©¢</a><ul>
+</ul>
+</li>
+</ul></nav></div></header><div id="center" class="main"><a class="accesskey" href="#aC" id="aC" accesskey="C" title="ä¸»è¦å§å®¹å">:::</a><section class="section col-12 KV-Banner KV-Banner2"><div class="container">
+<div class="col">
+<div class="stateText"><a href="/np.asp?ctNode=296&CtUnit=9&BaseDSD=7&role=C"><h2 class="wow fadeInDown" data-wow-delay="0s">ä»éº¼æ¯ç¢é·å±¥æ­·</h2></a><h3 class="wow fadeInDown" data-wow-delay="0.4s">è¾²ç¢åç¢é·å±¥æ­·å¶åº¦</h3>
+<p class="wow fadeInDown" data-wow-delay="0.6s">èºç£è¯å¥½è¾²æ¥­è¦ç¯å¯¦æ½åé©è­ï¼å±¥æ­·è¿½æº¯é«ç³»</p>
+</div>
+<div class="indexSearch2">
+<noscript>
+										æ¨ççè¦½å¨ä¸æ¯æ´ JavaScript æ JavaScriptå·²åç¨
+										</noscript>
+<form id="form2" name="form1" method="get" action="/rsm/tcqry.aspx" class="form_inline">
+<div class="form_grp"><label for="EnTraceCode">å±¥æ­·æ¥è©¢:</label><input name="EnTraceCode" id="EnTraceCode" type="text" placeholder="è«è¼¸å¥å±¥æ­·è¿½æº¯ç¢¼" accesskey="S"></div>
+<div class="btn_grp"><button type="submit">æ¥è©¢</button></div>
+</form>
+</div>
+<noscript>
+									æ¨ççè¦½å¨ä¸æ¯æ´JavaScriptèªæ³ï¼JavaScriptèªæ³ä¸¦ä¸å½±é¿å§å®¹çé³è¿°ãæ¨å¯ä½¿ç¨æéµç¤ä¸çCtrléµ+ (+)éµæ¾å¤§/(-)éµç¸®å°ä¾æ¹è®å­åå¤§å°ï¼åå°ä¸ä¸é å¯ä½¿ç¨çè¦½å¨æä¾ç Alt+å·¦æ¹åéµ(â) å¿«ééµåè½ï¼åå°å¯ä½¿ç¨çè¦½å¨æä¾ç(Ctrl+P)åè½ãæ¨ççè¦½å¨ï¼ä¸æ¯æ´scriptèªæ³ï¼è¥æ¨ççè¦½å¨ç¡æ³æ¯æ´è«é»é¸æ­¤è¶é£çµ <a href="#">ç¶²ç«å°è¦½</a></noscript>
+<div class="singleSlider">
+<div class="img-container"><a href="/ct.asp?xItem=4&CtNode=296&role=C"><img class="cover" src="public/data/881617275471.jpg" alt="çªè"></a></div>
+</div>
+</div>
+</div></section><section class="section col-3 serviceItem"><div class="container service">
+<div class="col"><a href="#Block1"></a><span>è¾¨è­ç¢é·å±¥æ­·</span></div>
+<div class="col"><a href="#Block2" target="_blank"></a><span>è³¼è²·å±¥æ­·åå</span></div>
+<div class="col"><a href="#Block3"></a><span>å å¥ç¢é·å±¥æ­·</span></div>
+<div class="col"><a href="#Block4"></a><span>æ ¸å¿å¹å¼</span></div>
+</div>
+<div class="servicePhone">
+<p>ç¢é·å±¥æ­·è«®è©¢æåå°ç·ï¼0800-201-051ï¼ è¯çµ¡é»è©±ï¼(02)2351-0182</p>
+<ul>
+<li class="fb"><a href="https://www.facebook.com/taptaiwan/" target="_blank"></a></li>
+<li class="line"><a href="https://line.me/R/ti/p/%40feh4600w" target="_blank"></a></li>
+</ul>
+</div></section><section class="section col-6 event"><div class="container">
+<div class="col">
+<div class="singleSlider">
+<div class="img-container"><a href="ct.asp?xItem=3701&ctNode=311" title="ç¢é·å±¥æ­· å®å¨å®å¿"><img class="cover" src="public/data/91179283971.jpg" alt="ç¢é·å±¥æ­· å®å¨å®å¿"></a><span class="caption">ç¢é·å±¥æ­· å®å¨å®å¿</span></div>
+</div>
+</div>
+<div class="col">
+<h2>ææ°æ¶æ¯</h2>
+<div class="list">
+<ul>
+<li><a href="ct.asp?xItem=3996&ctNode=294"><time>2021/3/24</time>110å¹´4æ19æ¥åè¾²ç³§ç½²æ±ååç½²ç¬¬äºæè­°å®¤è¾¦ç110å¹´åº¦ç¢é·å±¥æ­·æ³è¦èªªææ</a></li>
+<li><a href="ct.asp?xItem=3995&ctNode=294"><time>2021/3/22</time>110å¹´ç¢é·å±¥æ­·è¬æå­æ¯åè£å±åéé·è¡é·è¨ç«ç³è«ä½æ¥­é ç¥</a></li>
+<li><a href="ct.asp?xItem=3994&ctNode=294"><time>2021/3/22</time>110å¹´åº¦è¬èãæ°´æãéç³§åç¹ç¨ä½ç©ç¢é·å±¥æ­·è¨ç«ç³è«ä½æ¥­é ç¥</a></li>
+<li><a href="ct.asp?xItem=3993&ctNode=294"><time>2021/3/22</time>110å¹´èç¢åç¢é·å±¥æ­·ç³è«ä½æ¥­é ç¥</a></li>
+<li><a href="ct.asp?xItem=3990&ctNode=294"><time>2021/3/16</time>110å¹´åº¦æ¨åç¢é·å±¥æ­·æº¯æºé£ææååçåµæ´»åè¦ç¯</a></li>
+</ul><a href="np.asp?ctNode=294&mp=1"><button type="button" class="btn more">æ´å¤æ¶æ¯</button></a></div>
+</div>
+</div></section><section class="section col-3 coreValue" id="Block4"><h2 class="wow fadeInDown">å«å¤§æ ¸å¿å¹å¼</h2>
+<div class="container">
+<div class="col wow bounceIn" data-wow-delay="0.1s"><span>å¯è¿½æº¯</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.2s"><span>SOPç³»çµ±åçç¢</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.3s"><span>ååç°å¢</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.4s"><span>ä½ç©å¥åº·ç®¡ç</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.5s"><span>ç¬¬ä¸æ¹é©è­</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.6s"><span>åç©ç¦å©</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.7s"><span>è³è¨éæ</span></div>
+<div class="col wow bounceIn" data-wow-delay="0.8s"><span>é®®äº«å¨å°</span></div>
+</div></section><section class="section identifyBlock" id="Block1"><h2 class="wow fadeInDown">å¦ä½è¾¨è­å±¥æ­·åå</h2>
+<div class="container">
+<div class="col">
+<div class="headline"><figure><a href="#" title=""><div class="img-container"><img src="images/photo.jpg" alt="Photo Image" class="contain"></div></a></figure><p>è¾²å§ææ¨è¦çç¢é·å±¥æ­·é¶å®æ¨ç±¤ï¼æãæ¹æ­£å½¢ãèãæ©«å¼ãå©ç¨®å½¢å¼ãå¿é è¦è¼ææ¼æ¨ç±¤çå§å®¹ï¼è³å°æåæ¬ï¼ç¢é·å±¥æ­·æ¨ç« ãååãè¿½æº¯ç¢¼ãè³è¨å¬éæ¹å¼ãé©è­æ©æ§åç¨±ã
+										</p><a href="np.asp?ctNode=287&CtUnit=127&BaseDSD=7&role=C&mp=1"><button type="button" class="btn more">æ´å¤å§å®¹</button></a></div>
+</div>
+</div></section><section class="section businessSearch" id="Block2"><h2 class="wow fadeInDown">è¾²ç¢åç¶çæ¥­èæ¥è©¢</h2>
+<div class="container">
+<div class="col leftBox">
+<form action="/ResumeProduct/OrgIntro.aspx" class="form_vertical" method="get">
+<div class="form_grp"><label for="address" class="form_title">è¾²ç¢åç¶çæ¥­èï¼</label><div class="form_content"><input name="OrgName" id="OrgName" type="text"></div>
+</div>
+<div class="form_grp"><label for="selectSample" class="form_title">é©è­é ç®ï¼</label><div class="form_content form_inline">
+<div class="variable">
+<div class="container">
+<div class="col"><select id="ddl_Cat_1" name="ddl_Cat_1" class="csCat"><option value="">å¨é¨</option>
+<option value="1">è¾²ç³§</option>
+<option value="4">é­ç¢</option>
+<option value="5">ç¦½ç¢</option>
+<option value="6">çç¢</option>
+<option value="9">å å·¥</option></select></div>
+<div class="col" id="DivCrop1"><select id="ddl_CropCode1" name="ddl_CropCode1"><option value="" selected="">è«é¸æ</option></select><input type="button" class="btn-add" name="ImgAdd" id="ImgAdd" value="+"></div>
+<div class="col" id="DivSelect">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btn_grp"><button type="button" class="icon-search" onclick="javascript:CountCrop();">æ¥è©¢</button></div>
+</form><script type="text/javascript">
+										var SelectID = 1;
+										FreshCropDDL('ddl_Cat_1','','');
+										function LoadDDL( setVal ) {
+											SelectID++;
+											$.ajax
+											   ({
+												   type: "POST",
+												   url: '/ResumeProduct/OrgIntroOP.aspx',
+												   data: { "action": 'LoadDDL', "CatID": SelectID, "CropSet": setVal },
+												   success: function (response) {
+
+													   $.each(eval(response), function (key, item) {
+
+														   if (key == "0" && item.Result == "0") {
+															   $("#DivSelect").append(item.Content);
+
+															   //event 
+
+															   EventReset();
+
+														   }
+														   else if (key == "0" && item.Result == "1")
+															   alert(item.ErrorMessage);
+
+													   });
+													   $('#ddl_CropCode' + SelectID).selectize({
+														   create: false,
+													   });
+												   },
+												   error: function () {
+													   alert('ç¡æ³åå¾è³æï¼è«ç¨å¾åè©¦');
+												   }
+
+											   });
+											  
+										}
+										function EventReset() {
+         
+											$(".csCat").change(function () {
+												//alert($(this).attr("id"));
+												FreshCropDDL($(this).attr("id"), $(this).val(), '');
+											});
+											/*
+											$("#ImgAdd").unbind().click(function (e) {
+
+												LoadDDL('');
+												e.preventDefault();
+												return false;
+											});
+											*/
+											$(".csImgDel").unbind().click(function (e) {
+
+												$("#" + $(this).attr("id").replace("ImgDel", "NewCatCropDiv_")).html("").hide();
+												e.preventDefault();
+												return false;
+											});
+											$("#ddl_City_").change(function () {
+												FreshCityDDL($(this).attr("id"), $(this).val(), '');
+											});
+										}
+										function Cropdel(id)
+										{
+											$("#" + id.replace("ImgDel", "NewCatCropDiv_")).html("").hide();
+											e.preventDefault();
+											return false;
+										}
+										function addCrop()
+										{
+											LoadDDL('');
+											e.preventDefault();
+											return false;
+										}
+										function FreshCropDDL(CatID ,Cat ,CropSetVal ) {
+										 
+											var   CatIDno = CatID.replace("ddl_Cat_", "");
+									   
+											$.ajax
+											({
+												type: "POST",
+												url: '/ResumeProduct/OrgIntroOP.aspx',
+												data: { "action": 'FreshCropDDL', "CatID": CatIDno, "Cat": Cat ,"CropSet" : CropSetVal },
+												success: function (response) {
+
+													$("#DivCrop" + CatIDno).html("");
+
+													$.each(eval(response), function (key, item) {
+														
+														if (key == "0" && item.Result == "0") {
+															
+															$("#DivCrop" + CatIDno).html(item.Content); 
+														}
+														else if (key == "0" && item.Result == "1")
+														{
+															alert(item.ErrorMessage);
+														}
+
+													});
+													
+												},
+												error: function () {
+													alert('ç¡æ³åå¾è³æï¼è«ç¨å¾åè©¦');
+												}
+
+											}); 
+											
+										}
+										function CountCrop( ) {
+											var flag=true;
+											var selectcrop = $(".ddl_CropCode")
+											  .map(function () {
+												  return this.value;
+											  })
+											  .get()
+											  .join();
+
+											var selectcat = $(".csCat")
+										   .map(function () {
+											   return this.value;
+										   })
+										   .get()
+										   .join();
+
+											if(flag)
+											{
+												QS = "OrgName=" + $('#OrgName').val()+ "&CatId=" + selectcat + "&CropId=" + selectcrop;
+
+												location.href = "/ResumeProduct/OrgIntro.aspx?" + QS ;
+											}
+
+
+										}
+										$(document).ready(function () {
+											EventReset();
+										});
+									</script><div class="col-6 footerInfo">
+<div class="container">
+<div class="col"><a href="/ResumeProduct/OrgIntro.aspx"><span class="icon icon-user-outline"></span>
+													è¾²ç¢åç¶çæ¥­è<br><em>3453</em>å®¶
+												</a></div>
+<div class="col"><a href="/Resume/resulist.aspx"><span class="icon icon-doc-text-1"></span>
+													æ¬é±åºè²¨å±¥æ­· <br><em>20902</em>ç­
+												</a></div>
+</div>
+</div>
+</div>
+</div></section><section class="section col-6 shareBlock"><div class="container">
+<div class="col">
+<h2>æ¬æä¸»ææ</h2>
+<div class="headline"><span class="champion"></span><div class="One-time">
+<div class="img-container"><a href="ct.asp?xItem=3800&ctNode=313" title="å­å é"><img class="contain" src="public/data/9122615204871.jpg" alt="å­å é"></a><span class="caption">å­å é</span></div>
+</div><a href="np.asp?ctNode=313&mp=1"><button type="button" class="btn more">æ´å¤ä¸»ææ</button></a></div>
+</div>
+<div class="col">
+<h2>å½±é³åäº«</h2>
+<div class="headline">
+<div class="One-time">
+<div class="embed-container">
+<div class="embed-responsive-16by9"><div class="embed-responsive embed-responsive-16by9"><iframe width="100%" height="315" src="https://www.youtube.com/embed/2AU9EhrHdvE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></div><span class="caption">2017ç¢é·å±¥æ­·(3min)</span></div>
+</div><a href="np.asp?ctNode=312&mp=1"><button type="button" class="btn more">æ´å¤å½±é³</button></a></div>
+</div>
+</div></section><section class="section joinBlock" id="Block3"><h2 class="wow fadeInDown" data-wow-delay="0.2s">ææ³å å¥ç¢é·å±¥æ­·</h2>
+<div class="container">
+<div class="col">
+<div class="headline">
+<div class="circleIcon"></div>
+<h3>äºåæºå</h3>
+<p>ä¸è¼ä¸¦è©³è®æ³è¦ï¼ç­è§£å¶åº¦éä½åç¸éæ¬å©ãç¾©ååç½°å
+										</p>
+<ol>
+<li><a href="http://law.moj.gov.tw/LawClass/LawContent.aspx?PCODE=M0060072" target="_blank">è¾²ç¢åçç¢åé©è­ç®¡çæ³</a></li>
+<li><a href="http://law.moj.gov.tw/LawClass/LawContent.aspx?PCODE=M0020033" target="_blank">ç¢é·å±¥æ­·è¾²ç¢åé©è­ç®¡çè¾¦æ³</a></li>
+<li><a href="lp.asp?ctNode=276&CtUnit=80&BaseDSD=7&role=C" target="_blank">æ¨æç¨®æ¤ä½ç©ç TGAP å°ç£è¯å¥½è¾²æ¥­è¦ç¯</a></li>
+</ol>
+</div>
+</div>
+<div class="col">
+<div class="headline">
+<div class="circleIcon"></div>
+<h3>ç³è«çµç¹ä»£ç¢¼</h3>
+<p>è«ä¾æ¨çç¢ä¹ä½ç©é¡å¥ï¼è³ä¸åç¶²ç«ç³è«çµç¹ä»£ç¢¼
+										</p>
+<ol>
+<li><a href="https://resume.afa.gov.tw" target="_blank">è¾²ç³§ç¢åç¢é·å±¥æ­·ç»éç³»çµ±</a></li>
+<li><a href="http://ats.naif2.org.tw/" target="_blank">çç¦½ç¢åç¢é·å±¥æ­·æ´åç»éç³»çµ±</a></li>
+<li><a href="http://ap.fishtap.org.tw" target="_blank">æ°´ç¢åç¢é·å±¥æ­·ç»éç³»çµ±</a></li>
+<li><a href="http://taftprocess.coa.gov.tw/" target="_blank">å å·¥åç¢é·å±¥æ­·ç»éç³»çµ±</a></li>
+<li><a href="http://tap.forest.gov.tw/" target="_blank">æç¢åç¢é·å±¥æ­·ç»éç³»çµ±</a></li>
+</ol>
+</div>
+</div><a href="np.asp?ctNode=271&CtUnit=83&BaseDSD=7&role=C&mp=1"><button type="button" class="btn more">æ´å¤å§å®¹</button></a></div></section><section class="section cookingBlock"><div class="container title"><img src="images/cookingBlock-left.jpg" alt="*" class="wow fadeInLeft" data-wow-delay="0s"><h2><img src="images/cookingBlock.jpg" alt="è¾²ç¢åæ¨è¦æç" class="wow bounceInDown" data-wow-delay="0.6s"></h2><img src="images/cookingBlock-right.jpg" alt="*" class="wow fadeInRight" data-wow-delay="0.4s"></div>
+<div class="container">
+<div class="album">
+<ul>
+<li>
+<div class="cardBox"><a href="ct.asp?xItem=3273&ctNode=315&role=C"><div class="imgOuter"><img src="https://taft.coa.gov.tw/public/data/47817472871.jpg" alt="çç´ ä»é¦"><span>çé£è­</span></div>
+<div class="caption">
+<h3>çç´ ä»é¦</h3>
+</div></a><div class="adSlider-small">
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113503&EndDate=2021/04/04&StartDate=2021/03/21" title="æ¨è³"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113503.jpg" alt="æ¨è³"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113504&EndDate=2021/04/04&StartDate=2021/03/21" title="é¦è"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113504.jpg" alt="é¦è"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113102&EndDate=2021/04/04&StartDate=2021/03/21" title="è¡è¿è"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113102.jpg" alt="è¡è¿è"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113109&EndDate=2021/04/04&StartDate=2021/03/21" title="ç¶ ç«¹ç­"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113109.jpg" alt="ç¶ ç«¹ç­"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113501&EndDate=2021/04/04&StartDate=2021/03/21" title="æ´è"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113501.jpg" alt="æ´è"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113120&EndDate=2021/04/04&StartDate=2021/03/21" title="è"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113120.jpg" alt="è"></a></div>
+</div>
+</div>
+</li>
+<li>
+<div class="cardBox"><a href="ct.asp?xItem=3114&ctNode=315&role=C"><div class="imgOuter"><img src="https://taft.coa.gov.tw/public/data/47815312671.jpg" alt="é¬çèæ"><span>çé£è­</span></div>
+<div class="caption">
+<h3>é¬çèæ</h3>
+</div></a><div class="adSlider-small">
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113411&EndDate=2021/04/04&StartDate=2021/03/21" title="çªè"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113411.jpg" alt="çªè"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113201&EndDate=2021/04/04&StartDate=2021/03/21" title="çè"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113201.jpg" alt="çè"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113105&EndDate=2021/04/04&StartDate=2021/03/21" title="éè¥"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113105.jpg" alt="éè¥"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113104&EndDate=2021/04/04&StartDate=2021/03/21" title="æ´è¥"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113104.jpg" alt="æ´è¥"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113107&EndDate=2021/04/04&StartDate=2021/03/21" title="å¤§è"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113107.jpg" alt="å¤§è"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=6&role=C&ProductCode=631101&EndDate=2021/04/04&StartDate=2021/03/21" title="ä¸è¬èè±¬"><img class="cover" src="https://taft.coa.gov.tw//images/crop/631101.jpg" alt="ä¸è¬èè±¬"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=1&role=C&ProductCode=113120&EndDate=2021/04/04&StartDate=2021/03/21" title="è"><img class="cover" src="https://taft.coa.gov.tw//images/crop/113120.jpg" alt="è"></a></div>
+</div>
+</div>
+</li>
+<li>
+<div class="cardBox"><a href="ct.asp?xItem=3203&ctNode=315&role=C"><div class="imgOuter"><img src="https://taft.coa.gov.tw/public/data/49179242571.jpg" alt="åå©é®®é­æ"><span>çé£è­</span></div>
+<div class="caption">
+<h3>åå©é®®é­æ</h3>
+</div></a><div class="adSlider-small">
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=4&role=C&ProductCode=421101&EndDate=2021/04/04&StartDate=2021/03/21" title="å³é­é­(å°ç£é¯)"><img class="cover" src="https://taft.coa.gov.tw//images/crop/421101.jpg" alt="å³é­é­(å°ç£é¯)"></a></div>
+<div class="img-container"><a href="/Resume/resulist.aspx?classid=5&role=C&ProductCode=533101&EndDate=2021/04/04&StartDate=2021/03/21" title="éè"><img class="cover" src="https://taft.coa.gov.tw//images/crop/533101.jpg" alt="éè"></a></div>
+</div>
+</div>
+</li>
+</ul>
+</div><a href="lp.asp?ctNode=315&CtUnit=144&BaseDSD=19&role=C"><button type="button" class="btn more">æ´å¤æ¨è¦æç</button></a></div></section><section class="section AD"><div class="container">
+<div class="col adSlider">
+<div class="img-container"><a href="https://www.facebook.com/taptaiwan?fref=ts" title="Facebook"><img class="contain" src="https://taft.coa.gov.tw/public/data/391411261571.gif" alt="Facebook"></a></div>
+</div>
+</div></section></div><section class="fatfooter" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><div class="container"><button type="button" name="æ¶å" class="btn btn-fatfooter">æ¶å</button><nav><ul>
+<li><a href="/np.asp?ctNode=263&role=C" title="ä»éº¼æ¯ç¢é·å±¥æ­·">ä»éº¼æ¯ç¢é·å±¥æ­·</a><ul>
+<li><a href="/np.asp?ctNode=269&CtUnit=64&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·çå¹å¼">ç¢é·å±¥æ­·çå¹å¼</a></li>
+<li><a href="/np.asp?ctNode=296&CtUnit=9&BaseDSD=7&role=C" title="èªè­ç¢é·å±¥æ­·">èªè­ç¢é·å±¥æ­·</a></li>
+<li><a href="/lp.asp?ctNode=270&CtUnit=79&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·éäººä»ç´¹">ç¢é·å±¥æ­·éäººä»ç´¹</a></li>
+<li><a href="/rsm/passorgandfarmer.aspx?role=C" title="è¾²ç¢åç¶çæ¥­èå®¶æ¸åæ¶æ¸çµ±è¨">è¾²ç¢åç¶çæ¥­èå®¶æ¸åæ¶æ¸çµ±è¨</a></li>
+<li><a href="/lp.asp?ctNode=299&CtUnit=148&BaseDSD=7&role=C" title="æå®£åä¸è¼å">æå®£åä¸è¼å</a></li>
+<li><a href="/lp.asp?ctNode=328&CtUnit=164&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·æ¶äººå">ç¢é·å±¥æ­·æ¶äººå</a></li>
+</ul>
+</li>
+<li><a href="/np.asp?ctNode=284&role=C" title="ææ³è³¼è²·ç¢é·å±¥æ­·åå">ææ³è³¼è²·ç¢é·å±¥æ­·åå</a><ul>
+<li><a href="/np.asp?ctNode=287&CtUnit=127&BaseDSD=7&role=C" title="å¦ä½è¾¨è­ç¢é·å±¥æ­·åå">å¦ä½è¾¨è­ç¢é·å±¥æ­·åå</a></li>
+<li><a href="/ResumeProduct/OrgIntro.aspx?role=C" title="å±¥æ­·åååªè£¡è²·">å±¥æ­·åååªè£¡è²·</a></li>
+<li><a href="/taiwanmap/ProductKg.aspx?role=C" title="è¿æç¢ååºè²¨é">è¿æç¢ååºè²¨é</a></li>
+</ul>
+</li>
+<li><a href="/np.asp?ctNode=264&role=C" title="å¦ä½å å¥ç¢é·å±¥æ­·">å¦ä½å å¥ç¢é·å±¥æ­·</a><ul>
+<li><a href="/np.asp?ctNode=271&CtUnit=83&BaseDSD=7&role=C" title="å å¥ç¢é·å±¥æ­·">å å¥ç¢é·å±¥æ­·</a></li>
+<li><a href="/rsm/autho_list.aspx?role=C" title="ç¢é·å±¥æ­·çé©è­æ©æ§">ç¢é·å±¥æ­·çé©è­æ©æ§</a></li>
+<li><a href="/sp.asp?xdurl=askmoney/askmoney2.asp&CtNode=275&role=C" title="é©è­ç³è«è²»ç¨è©¢å¹">é©è­ç³è«è²»ç¨è©¢å¹</a></li>
+<li><a href="/lp.asp?ctNode=274&CtUnit=134&BaseDSD=7&role=C" title="é¢ç·åå°èªªæ">é¢ç·åå°èªªæ</a></li>
+<li><a href="/lp.asp?ctNode=276&CtUnit=80&BaseDSD=7&role=C" title="TGAPä¸è¼">TGAPä¸è¼</a></li>
+<li><a href="/lp.asp?ctNode=273&CtUnit=84&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·é©è­ç¸éæ³ä»¤">ç¢é·å±¥æ­·é©è­ç¸éæ³ä»¤</a></li>
+<li><a href="/lp.asp?ctNode=302&CtUnit=165&BaseDSD=7&role=C" title="ç¢é·å±¥æ­·Q&A">ç¢é·å±¥æ­·Q&A</a></li>
+<li><a href="/np.asp?ctNode=331&CtUnit=166&BaseDSD=2&role=C" title="ç¢é·å±¥æ­·è¾²åå¯¦ä½æå">ç¢é·å±¥æ­·è¾²åå¯¦ä½æå</a></li>
+</ul>
+</li>
+<li><a href="/lp.asp?ctNode=315&CtUnit=144&BaseDSD=19&role=C" title="æ¨è¦æç">æ¨è¦æç</a><ul>
+</ul>
+</li>
+<li><a href="/Resume/resulist.aspx?Today=Today" title="å±¥æ­·æ¥è©¢">å±¥æ­·æ¥è©¢</a><ul>
+</ul>
+</li>
+</ul></nav></div></section><footer xmlns:msxsl="urn:schemas-microsoft-com:xslt"><div class="container"><a class="accesskey" href="#aF" id="aF" accesskey="F" title="é å°¾å">:::</a><div class="footer_logo"><img class="img-responsive" alt="ç¢é·å±¥æ­·è¾²ç¢åè³è¨ç¶²" title="ç¢é·å±¥æ­·è¾²ç¢åè³è¨ç¶²" src="/xslGip/vips_rwd/images/footerlogo.png"><div class="phone">0800-201-051<br>(02)2351-0182</div>
+<p>ç¢é·å±¥æ­·è«®è©¢æåå°ç·</p>
+<div class="phone">0800-580-111</div>
+<p>è¾²ç³§é¡è«®è©¢æåå°ç·</p>
+</div>
+<div class="footer_info">
+<ul class="footer_link">
+<li><a href="/lp.asp?ctNode=308&CtUnit=151&BaseDSD=7&role=C">ç¸éé£çµ</a></li>
+<li><a href="/ct.asp?xItem=23&CtNode=279&role=C">ç¶²ç«è³æéæ¾å®£å</a></li>
+<li><a href="/ct.asp?xItem=24&CtNode=280&role=C">é±ç§æ¬åè³è¨å®å¨å®£å</a></li>
+</ul>
+<p class="Copyright">å°åï¼10014 èºåå¸ä¸­æ­£ååæµ·è·¯ 37 è  |  è¯çµ¡é»è©±ï¼(02)2381-2991<br>
+					æ¬ç¶²ç«è¨­è¨æ¯æ´IE(å»ºè­°IE10ä»¥ä¸)ãFirefoxåChrome<br>
+					æä½³çè¦½è§£æåº¦çº1024 x 768  |  è¡æ¿é¢è¾²æ¥­å§å¡æ çæ¬ææÂ©2018
+					</p><span class="update">æ´æ°æ¥æ:<em id="dEditDate"></em></span><span class="counter">ç´¯è¨çè¦½äººæ¬¡:<em id="counter"></em></span><script>
+					$.post("/taiwanmap/Visitcount.aspx","{}",function(result){$("#counter").text(result);});
+					$.post("/taiwanmap/LastUpdateDate.aspx","{}",function(result){$("#dEditDate").text(result);});
+					</script></div>
+</div></footer></div>
+</body><a href="javascript:;" class="scrollToTop" title="åé é¦">åé é¦</a></html>

@@ -1,0 +1,719 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title> - 林業試驗所生態感測展示平台</title>
+	<link rel="stylesheet" href="/forestDW/resources/css/normalize.css" />
+	<link rel="stylesheet" href="/forestDW/resources/fw/kendoui.web/styles/kendo.common.min.css" />
+	<link rel="stylesheet" href="/forestDW/resources/fw/kendoui.web/styles/kendo.default.min.css" />
+	<link rel="stylesheet" href="/forestDW/resources/fw/kendoui.web/styles/kendo.metro.min.css" />
+	
+	<link rel="stylesheet" href="/forestDW/resources/fw/bootstrap/css/bootstrap.min.css" />
+	
+	
+	<link rel="stylesheet" href="/forestDW/resources/css/webkit-scrollbar.css" />
+	<link rel="stylesheet" href="/forestDW/resources/css/style-utils.css" />
+	<link rel="stylesheet" href="/forestDW/resources/css/layout-web.css" />
+	<link rel="stylesheet" href="/forestDW/resources/css/menu-web.css" />
+	
+	<link rel="stylesheet" href="/forestDW/resources/css/op.css" />
+	<link rel="stylesheet" href="/forestDW/resources/css/txt_size.css" />
+	<link rel="stylesheet" href="/forestDW/resources/css/color_and_link.css" />
+	<link rel="icon" href="/forestDW/resources/images/favicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="/forestDW/resources/images/favicon.ico" type="image/x-icon" /> 
+
+	
+
+
+<style type='text/css'>
+.textarea {
+	rows: 8;
+	cols: 40;
+	width: 500px;
+	height: 150px
+}
+
+.text-only-area {
+	margin-left: 5em;
+}
+
+.text-only-area p {
+	margin-left: 5em;
+}
+
+.label-area {
+	width: 15em;
+}
+
+.k-grid .k-grid-header .k-header{
+    text-overflow: initial;
+    word-wrap: nowrap;
+}
+.k-grid td{
+	text-overflow: initial;
+	word-wrap: break-word;
+}
+</style>
+
+<style>
+.question-form .q-form-group{
+	margin-bottom: 10px;
+}
+.question-form .q-form-group>label{
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	float: left;
+}
+.question-form .q-form-group>div{
+	display: inline-block;
+	width: 80%;
+}
+</style>
+</head>
+<body>
+	<div class="h_webbordertop"></div>
+	<div class="h_opendatawin02">
+		<div class="h_opendatawin01">
+			<div class="h_opbttt_77 h_size16px h_sht170">
+				<a href="/forestDW/OpenData/About">
+					<div align="center"><strong>關於我們</strong></div>
+				</a>
+			</div>
+	        <div class="h_opbttt_77 h_size16px h_sht170">
+	        	<a href="/forestDW/OpenData">
+	        		<div align="center"><strong>開放資料</strong></div>
+        		</a>
+       		</div>
+            <div class="h_opbttt_77 h_size16px h_sht170">
+            	<a href="/forestDW/OpenData/Develop">
+            		<div align="center"><strong>開發說明</strong></div>
+           		</a>
+         	</div>
+			<div class="h_opbttt_77 h_size16px h_sht170">
+				<a href="/forestDW/OpenData/Guide">
+					<div align="center"><strong>使用規範</strong></div>
+				</a>
+			</div>
+			<div class="h_opbttt_77 h_size16px h_sht170">
+				<a href="/forestDW/">
+					<div align="center"><strong>回展示平台</strong></div>
+				</a>
+			</div>
+		</div>
+		<div>
+			<img src="/forestDW/resources/images/op001.jpg" width="970" height="210" />
+		</div>
+	</div>
+	<div class="h_opendatawin04">            
+		<div>
+			
+
+
+
+
+
+
+<div id="opendata">
+	<div class="h_opendata00">
+		<div class="h_size20px h_opendata02">
+			<strong>開放資料</strong>
+		</div>
+	</div>
+	<div class="h_opendata03 h_size16px h_bk_01">
+		<h3 class="text-center">蓮華池研究中心二號量水堰蛙類聲景錄音檔</h3>
+		<table class="table detail-table">
+			<tbody>
+				<tr>
+					<th style="width: 8em;">欄位說明：</th>
+					<td class="pre-wrap">錄音時間(record_time), 檔案序號(sound_id), 頻譜圖檔案路徑(spectrum_path), 聲音檔案路徑(sound_path), 錄音設備代號(record_device_id)
+</td>
+				</tr>
+				<tr>
+					<th>生態詮釋資料：</th>
+					<td>
+						<a href="http://metacat.tfri.gov.tw/tfri/metacat?action=read&qformat=tfri&sessionid=0&docid=iesn.7.3" target="_blank">http://metacat.tfri.gov.tw/tfri/metacat?action=read&qformat=tfri&sessionid=0&docid=iesn.7.3</a>
+					</td>
+				</tr>
+				<tr>
+					<th>聯絡Email：</th>
+					<td><a href="mailto:iesn@tfri.gov.tw">iesn@tfri.gov.tw</a></td>
+				</tr>
+ 				
+					<tr>
+						<th>檔案下載(JSON)：</th>
+						<td><a href="https://iesn.tfri.gov.tw/forestDW/opd/json/far.jsp?pointId=0202&d1=2016-01-01&d2=2016-01-31" target="_blank">https://iesn.tfri.gov.tw/forestDW/opd/json/far.jsp?pointId=0202&d1=2016-01-01&d2=2016-01-31</a></td>
+					</tr>
+				
+				
+					<tr>
+						<th>檔案下載(CSV)：</th>
+						<td><a href="https://iesn.tfri.gov.tw/forestDW/opd/csv/far.jsp?pointId=0202&d1=2016-01-01&d2=2016-01-31" target="_blank">https://iesn.tfri.gov.tw/forestDW/opd/csv/far.jsp?pointId=0202&d1=2016-01-01&d2=2016-01-31</a></td>
+					</tr>
+				
+				<tr>
+					<th>下載次數：</th>
+					<td>5625</td>
+				</tr>
+				<tr>
+					<th>更新頻率：</th>
+					<td>每周</td>
+				</tr>
+				<tr>
+					<th>備註：</th>
+					<td class="pre-wrap">固定式錄音設備所錄製的聲音
+</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr />
+		<div style="text-align:right;">
+			<input type="button" class="k-button" name="extend" id="extend" value="資料品質意見回饋">
+		</div>
+		<div id="sugg" class="panel panel-default hide">
+			<div class="panel-heading">意見回饋</div>
+			<div class="panel-body">
+				
+
+
+
+				<form id="form" class="form-view" action="/forestDW/OpenData/opd_frog_0202#sugg" method="POST">
+					<input id="setId" name="setId" type="hidden" value="opd_frog_0202"/>
+					<input type="hidden" id="extended" value='' />
+					<ul>
+						<li>
+							<div class="label-area">
+								<label for="score">您對這份資料滿意嗎?：</label>
+							</div>
+							<div class="input-area">
+								<label><input id="score1" name="score" required="true" type="radio" value="5"/>非常滿意</label>
+								<label><input id="score2" name="score" required="true" type="radio" value="4"/>滿意</label>
+								<label><input id="score3" name="score" required="true" type="radio" value="3"/>普通</label>
+								<label><input id="score4" name="score" required="true" type="radio" value="2"/>不滿意</label>
+								<label><input id="score5" name="score" required="true" type="radio" value="1"/>非常不滿意</label>
+							</div>
+						</li>
+						<li>
+							<div class="label-area">
+								<label for="info">您的意見：</label>
+							</div>
+							<div class="input-area">
+								<textarea id="suggestContent" name="suggestContent" placeholder="請輸入您的意見" class="k-textbox" required="true" rows="5" cols="60"></textarea>
+							</div>
+						</li>
+						<li>
+							<div class="label-area">
+								<label for="starterEmail">請填入您的Email：</label>
+							</div>
+							<div class="input-area">
+								<input id="starterEmail" name="starterEmail" placeholder="請填入您的Email" class="k-textbox k-mail-textbox" required="true" type="email" value=""/>
+								<div class="red">*您的email只會用於管理者回覆您的意見, 不作其他用途</div>
+							</div>
+						</li>
+						<li>
+							<div class="label-area">
+								<label for="captcha">驗證碼：</label>
+							</div>
+							<div class="input-area">
+								
+
+
+
+<div class="captcha-area">
+	<img alt="captcha" class="captcha" src="/forestDW/Captcha;jsessionid=839A343084C2328889E6E029679193C1" />
+	<div class="captcha-description">
+		<span class="k-icon k-i-note"></span>
+		<span class="captcha-description-text">看不清楚嗎? 點擊圖片換一張吧!</span>
+	</div>
+</div>
+
+<script>
+try {
+	setTimeout(function(){
+	(function($){
+		$(function(){
+			$('body').on('click', 'img.captcha, img#captcha', function(){
+				$(this).attr('src', "/forestDW/Captcha;jsessionid=839A343084C2328889E6E029679193C1?d="+new Date().getTime());
+			});
+		});
+	})(jQuery);
+	}, 1000);
+}
+catch(ex){}
+</script>
+								<input id="captcha" name="captcha" placeholder="請輸入[驗證碼]" class="k-textbox" required="true" type="text" value="" maxlength="4"/>
+								<p style="margin-top: 1em">
+									<button type="submit" class="k-button k-button-primary">發送</button>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		<hr />
+		<div id="query-block" class="query-list">
+			<div class="text-center">
+				<h3>資料查詢</h3>
+			</div>
+			<div>
+				<input data-bind="value: d1" placeholder="日期(起)" class="datepicker k-textbox" />
+				<span>~</span>
+				<input data-bind="value: d2" placeholder="日期(迄)" class="datepicker k-textbox" />
+
+				<button class="k-button k-button-primary" data-bind="click: query">查詢</button>
+				
+				<a data-bind="visible: dl.href.json, attr:{ href: dl.context + dl.href.json() }" target="_blank" title="JSON下載" class="oplink">
+					<img src="/forestDW/resources/images/json.png" style="height: 40px;" />
+				</a>
+				<a data-bind="visible: dl.href.csv, attr:{ href: dl.context + dl.href.csv() }" target="_blank" title="CSV下載" class="oplink">
+					<img src="/forestDW/resources/images/csv.png" style="height: 40px;" />
+				</a>
+				
+				<span data-bind="text: status"></span>
+			</div>
+			<div>
+				<div id="grid-json"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="oplink-modal" data-backdrop="static" data-keyboard="false">
+	<form action="/forestDW/OpenData/Questionnaire/Form" method="POST" class="question-form">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">問卷調查</h4>
+				</div>
+				<div class="modal-body">
+					<div class="q-form-group">
+					    <label for="purposes">目的：</label>
+					    <div>
+							<!-- ko foreach: purposes -->
+							<label>
+								<input name="purpose" type="radio" data-bind="value: codeId, checked: $parent.purpose" />
+								<span data-bind="text: codeName"></span>
+							</label>
+							<!-- /ko -->
+							<label>
+								<input name="purpose" type="radio" value="other" data-bind="checked: purpose" />
+								其他<input type="text" name="purposeOtherDescription" data-bind="value: purposeOtherDescription, visible: purpose() == 'other'" />
+							</label>
+					    </div>
+					</div>
+					<div class="q-form-group">
+					    <label for="professions">職業別：</label>
+					    <div>
+							<!-- ko foreach: professions -->
+							<label>
+								<input name="profession" type="radio" data-bind="value: codeId, checked: $parent.profession" />
+								<span data-bind="text: codeName"></span>
+							</label>
+							<!-- /ko -->
+							<label>
+								<input name="profession" type="radio" value="other" data-bind="checked: profession" />
+								其他<input type="text" name="professionOtherDescription" data-bind="value: professionOtherDescription, visible: profession() == 'other'" />
+							</label>
+					    </div>
+					</div>
+					<div class="q-form-group">
+					    <label for="ages">年齡：</label>
+					    <div>
+							<!-- ko foreach: ages -->
+							<label>
+								<input name="age" type="radio" data-bind="value: codeId, checked: $parent.age" />
+								<span data-bind="text: codeName"></span>
+							</label>
+							<!-- /ko -->
+					    </div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="k-button" data-bind="
+						click: download, 
+						enable: validateOk,
+						css: {
+							'k-button-primary': validateOk
+						}
+					">填好了~下載！</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+    
+		</div>
+		<div class="footer" style="margin-top: 10px;">
+			<div class="copyright">
+				
+
+
+行政院農業委員會林業試驗所 &copy; TFRI All Rights Reserved<br />
+地址：100051 台北市南海路53號　|　電話： (02)23039978　|　傳真： (02)23142234<br />
+服務信箱：<a href="mailto:iesn@tfri.gov.tw">iesn@tfri.gov.tw</a>　|　建議瀏覽解析度 1024 x 768
+			</div>
+			<div class="online-users">
+				線上：15 人,累積瀏覽：874191人
+			</div>
+		</div>
+	</div>
+	<div class="h_webborderbott"></div>
+	<script src="/forestDW/resources/js/jquery-1.10.2.min.js"></script>
+	<script src="/forestDW/resources/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+	<script src="/forestDW/resources/fw/kendoui.web/js/kendo.web.min.js"></script>
+	<script src="/forestDW/resources/js/knockout-3.0.0beta.js"></script>
+	<script src="/forestDW/resources/fw/kendoui.web/js/cultures/kendo.culture.zh-TW.min.js"></script>
+	<script src="/forestDW/resources/fw/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/forestDW/resources/js/jquery.ba-bbq.js"></script>
+	<script src="/forestDW/resources/js/moment.js"></script>
+	<script src="/forestDW/resources/js/jquery.plugins-listener.js"></script>
+	<script src="/forestDW/resources/js/jquery.plugins-autostart.js"></script>
+	
+
+
+	
+<script>
+(function($){
+	var vm, jsonUri = '/opd/json/far.jsp?pointId=0202&d1=2016-01-01&d2=2016-01-31', csvUri = '/opd/csv/far.jsp?pointId=0202&d1=2016-01-01&d2=2016-01-31';
+	ko.applyBindings(vm = new OpenDataViewModel(), $('#query-block')[0]);
+	function OpenDataViewModel(){
+		var self = this, now = new Date(), thisYear = now.getFullYear();
+		self.d1 = ko.observable(thisYear+'-01-01');
+		self.d2 = ko.observable(thisYear+'-12-31');
+		self.dl = {
+			base: baseUrl(jsonUri),
+			context: '/forestDW',
+			href: {}
+		};
+		self.dl.href.query = ko.computed(function(){
+			if (!jsonUri) return '';
+			var params = $.extend($.deparam.querystring(jsonUri), {
+				d1: self.d1(), d2: self.d2()
+			});
+			return self.dl.base + "?" + $.param(params);
+		});
+		self.dl.href.json = ko.computed(function(){
+			if (!jsonUri) return '';
+			var params = $.extend($.deparam.querystring(jsonUri), {
+				d1: self.d1(), d2: self.d2(), setId: $('#setId').val()
+			});
+			return self.dl.base + "?" + $.param(params);
+		});
+		self.dl.href.csv = ko.computed(function(){
+			if (!csvUri) return '';
+			var params = $.extend($.deparam.querystring(csvUri), {
+				d1: self.d1(), d2: self.d2(), setId: $('#setId').val()
+			});
+			return baseUrl(csvUri) + "?" + $.param(params);
+		});
+		self.status = ko.observable();
+		var querying = null;
+		self.query = function(){
+			self.status('查詢中, 請稍候(0)...');
+			querying = {
+				start: moment(),
+				interval: setInterval(function(){
+					self.status('查詢中, 請稍候('+moment().diff(querying.start, 'seconds')+')...');
+				}, 500)
+			};
+			ajaxCallServer(self.dl.href.query()).done(function(d){
+				if (querying && querying.interval) {
+					clearInterval(querying.interval);
+				}
+				var $grid = $('#grid-json');
+				if (d.length == 0){
+					self.status('');
+					$grid.parent().attr('style', '');
+					$grid.html($('<h3></h3>').text('查無資料!'));
+					return;
+				}
+				self.status('取得資料!');
+				
+				$grid.parent().css({
+					'min-height': '400px'
+				});
+				$grid.empty().kendoGrid({
+					scrollable: false,
+					dataSource: {
+						data: d,
+						pageSize: 10
+					},
+                    pageable: {
+                        messages: {
+                        	display: '{0} - {1} | 共{2}筆'
+                        }
+                    },
+                    columns: parseColumns(d)
+				});
+				
+				self.status('完成!');
+				scrollTo('#query-block');
+				setTimeout(function(){
+					self.status('');
+				}, 1000);
+			});
+		};
+	}
+	function parseColumns(d){
+		if ($.type(d) != 'array' || d.length == 0)
+			return [];
+		var row = d[0], result = [];
+		for (var key in row) {
+			var column = key, value = row[column];
+			if (column == 'sn') {
+				column = {field: column, width: '5em'};
+			}
+			else if (column == 'record_device_id') {
+				column = {field: column, width: '6.5em'};
+			}
+			else if (column.indexOf('id') > -1) {
+				column = {field: column, width: '6em'};
+			}
+			else if (column.search(/date|time/) != -1) {
+				column = {field: column, width: '7em'};
+			}
+			else if (column.indexOf('path') > -1 
+					|| ($.type(value) == 'string' && value.indexOf('http') == 0)) {
+				column = {field: column, width: '12em', template: (function(col){
+					return function(data){
+						var text = data[col];
+						return $('<div>').append(
+							$('<a>').prop({
+								href: text,
+								title: text,
+								target: '_blank'
+							}).text(fileNameByEnd(text))
+						).html();
+					};
+				})(column)};
+			}
+			result.push(column);
+		}
+		return result;
+	}
+	function scrollTo(selector){
+		$("html, body").animate({ scrollTop: $(selector).first().offset().top }, 600);
+	}
+	function baseUrl(url) {
+		var pos = url.indexOf("?");
+		if (pos > -1) {
+			return url.substring(0, pos);
+		}
+		return url;
+	}
+	function fileNameByEnd(url) {
+		return url.match(/[^\/_]+$/)[0];
+	}
+	function friendlyFileName(url) {
+		return url
+			.replace(/[^\/]*\//g, "")
+			.replace(/(\?.*)?/g, "")
+			.replace(/\..*/g, "");
+	}
+	function init_sugg(){
+		$('#extend').on('click', function() {
+			$('#sugg').toggleClass('hide', false);
+			$(this).hide();
+		});
+		if ($('#extended').val()) {
+			$('#extend').trigger('click');
+		}
+	}
+	function ajaxCallServer(url, data){
+		return $.ajax({
+			type: "GET",
+            url: getRealUri(url),
+            data: data,
+			cache: false
+		});
+	}
+	function getRealUri(uri){
+		return uri.lastIndexOf('\/', 0) === 0 ? '/forestDW' + uri : uri;
+	}
+	init_sugg();
+})(jQuery);
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.0/URI.js"></script>
+<script>
+(function($){
+	var cachedViewModel, $opModal = $('#oplink-modal');
+	$('a.oplink').on('click', function(){
+		var $link = $(this),
+			href = $link.attr('href'),
+			query = URI.parseQuery(href),
+			setId = query.setId;
+		if (!setId) return;
+		
+		$('#oplink-modal').modal('show');
+		initViewModel(setId, href);
+		return false;
+	});
+	function initViewModel(setId, href){
+		var vm;
+		if (cachedViewModel){
+			vm = cachedViewModel;
+			vm.reset();
+		}
+		else{
+			vm = cachedViewModel = new QuestionViewModel();
+			ko.applyBindings(vm, $opModal[0]);
+		}
+		vm.setId(setId);
+		vm.href(href);
+		vm.exit = function(){
+			$('#oplink-modal').modal('hide');
+		};
+		return vm;
+	}
+	function QuestionViewModel(){
+		var self = this;
+		self.purposes = ko.observableArray();
+		self.purpose = ko.observable();
+		self.purposeOtherDescription = ko.observable();
+		self.professions = ko.observableArray();
+		self.profession = ko.observable();
+		self.professionOtherDescription = ko.observable();
+		self.ages = ko.observableArray();
+		self.age = ko.observable();
+		self.setId = ko.observable();
+		self.href = ko.observable();
+		self.d1 = ko.observable();
+		self.d2 = ko.observable();
+		self.href.subscribe(function(href){
+			var query = URI.parseQuery(href);
+			self.d1(query.d1);
+			self.d2(query.d2);
+		});
+		self.downloadUrl = ko.computed(function(){
+			try{
+				if (self.href()){
+					return new URI(self.href()).absoluteTo(location.href).toString();
+				}
+			}
+			catch(e){}
+			return '';
+		});
+		
+		self.validateOk = ko.computed(function(){
+			if (!self.purpose()) return false;
+			if (!self.profession()) return false;
+			if (!self.age()) return false;
+			return true;
+		});
+		self.download = function(){
+			downloadfile();
+			$http('/OpenData/Questionnaire/Form', submitData())
+				.done(function(){
+					$('a.oplink').off('click');
+				});
+		};
+		
+		self.reset = function(){
+			self.purpose('');
+			self.purposeOtherDescription('');
+			self.profession('');
+			self.professionOtherDescription('');
+			self.age('');
+		};
+		initialize();
+		function downloadfile(){
+			var href = self.href(),
+				matchedExt = href.match(/json|csv/),
+				ext = 'txt',
+				query = URI.parseQuery(href),
+				d1 = query.d1,
+				d2 = query.d2;
+			if (matchedExt.length > 0){
+				ext = matchedExt[0];
+			}
+			
+			$('<a>').attr({
+				href: href,
+				download: _.template('${setId}(${from}~${to}).${ext}')({
+					setId: self.setId(),
+					from: d1,
+					to: d2,
+					ext: ext
+				})
+			})[0].click();
+			if (_.isFunction(self.exit)){
+				self.exit();
+			}
+		}
+		function submitData(){
+			return _.pick(ko.toJS(self), 
+					['purpose', 
+					 'purposeOtherDescription', 
+					 'profession', 
+					 'professionOtherDescription',
+					 'age',
+					 'setId',
+					 'downloadUrl',
+					 'd1',
+					 'd2']);
+		}
+		function initialize(){
+			initPurposes();
+			initProfessions();
+			initAges();
+		}
+		function initPurposes(){
+			return $http('/OpenData/Purposes/Json')
+			.then(function(d){
+				self.purposes(d);
+			});
+		}
+		function initProfessions(){
+			return $http('/OpenData/Professions/Json')
+			.then(function(d){
+				self.professions(d);
+			});
+		}
+		function initAges(){
+			return $http('/OpenData/Ages/Json')
+			.then(function(d){
+				self.ages(d);
+			});
+		}
+	}
+	function $http(url, data){
+		return $.ajax({
+			type: "POST",
+            url: getRealUri(url),
+            data: JSON.stringify(data),
+			cache: false,
+			contentType: "application/json; charset=utf-8",
+            dataType: 'json'
+		})
+	}
+	function getRealUri(uri){
+		return uri.lastIndexOf('\/', 0) === 0 ? '/forestDW' + uri : uri
+	}
+})(jQuery);
+</script>
+
+</body>
+</html>

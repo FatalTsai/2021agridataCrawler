@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+	<meta name="google-site-verification" content="pRNQk9grCo6gFpEoBWRhoWtrDLHi6qg5Obz2VGfj2LI" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="csrf-token" content="FQqmzjrHPS6HVmmceTGTumINUbTBjFALUYn7YB2K">
+	
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<meta property="og:site_name" content="農業虛擬博物館"/>
+
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>農業虛擬博物館</title>
+	<link href="https://video.coa.gov.tw/css/assets/style.css" rel="stylesheet" type="text/css">
+	<link href="https://video.coa.gov.tw/css/assets/extended.css" rel="stylesheet" type="text/css">
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<link href="https://video.coa.gov.tw/css/assets/jquery.mmenu.all.css" rel="stylesheet" type="text/css">         
+	<link rel="stylesheet" type="text/css" href="https://video.coa.gov.tw/js/assets/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://video.coa.gov.tw/js/assets/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="https://video.coa.gov.tw/css/assets/owl.carousel.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+
+	<!--link rel="stylesheet" type="text/css" href="https://video.coa.gov.tw/js/assets/bxslider/jquery.bxslider.css"/>
+	<link rel="stylesheet" type="text/css" href="https://video.coa.gov.tw/js/assets/owl.carousel.css"-->
+
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/jquery-migrate-1.2.1.min.js"></script>
+
+	<!--script type="text/javascript" src="https://video.coa.gov.tw/js/assets/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/owl.carousel.min.js"></script-->
+
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/jquery.mmenu.min.all.js"></script>
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/angular-1.2.18/angular.js"></script>
+	<!--script type="text/javascript" src="https://video.coa.gov.tw/js/assets/ngFront.js"></script-->
+
+
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/owl.carousel.js"></script>
+	<!--mobile silder-->
+	<script type="text/javascript" src="https://video.coa.gov.tw/js/assets/slick/slick.min.js"></script>
+	<!--mobile silder-->
+
+	<style type="text/css">
+		@media  all and (min-width:685px) {
+			#m_slide_menu {background:#f3f3f3;}
+			a[href="#m_slide_menu"]{display:none; !important;}/* hide open-button */		
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(function() {
+			$('nav#m_slide_menu').mmenu({
+				classes: 'mm-light',
+				zposition: 'front',
+			});
+		});
+	</script>
+    	</head>
+<body>
+    <div class="topLine"></div>
+<script>
+$(document).ready(function() {
+    $('.changeList').on('change', function() {
+        var goto = this.value;
+        window.location = '/member/'+ goto;
+    });
+
+    /*190220新增*/
+    var tmp_session = window.sessionStorage["session"];
+    if (!tmp_session) {
+        $('#close').show();
+    }
+});
+
+/*190220新增*/
+function turnoff(){
+    $('#close').hide();
+    window.sessionStorage["session"] = true;
+}
+$(document).ready(function() {
+    $('.resizing_select').change(function(){
+        $("#width_tmp_option").html($(this).find("option:selected").text()); 
+        $(this).width($("#width_tmp_select").width());  
+    });
+});
+</script>
+
+	<!--top-->
+    <div class="top">
+        <div class="topMiddle">
+            <div class="topmiddleL"><a href="https://video.coa.gov.tw/home"><img src="https://video.coa.gov.tw/images/logo.gif"></a></div>
+            <div class="topmiddleR">
+                <div class="topmiddleRTool">
+                	<ul>
+                        <li><a href="https://video.coa.gov.tw/liveDownload"><img src="https://video.coa.gov.tw/images/icon09.png">直播影音下載專區</a></li>
+                    	<li><a href="https://video.coa.gov.tw/rss"><img src="https://video.coa.gov.tw/images/icon03.png">RSS</a></li>
+                        <li><a href="https://video.coa.gov.tw/sitemap"><img src="https://video.coa.gov.tw/images/icon02.png">網站導覽</a></li>
+                    	<li><a href="https://video.coa.gov.tw/videos/opendata"><img src="https://video.coa.gov.tw/images/icon01.png">OPEN DATA</a></li>
+                    </ul>
+                    <div class="clean"></div>
+                </div>
+                <form method="get" action="https://video.coa.gov.tw/videos/search" id="search">
+                <div class="topmiddleRSearch">
+                	<input placeholder="search" class="searchInput" name="keyword">
+                  <button type="submit" class="searchBtn" ></button>
+                    <div class="clean"></div>
+                </div>
+                </form>
+
+                                    <div class="topmiddleNOLog">
+                        <a href="https://video.coa.gov.tw/auth"><input type="button" value="登入" class="BtnSing"> </a>
+                    </div>
+                
+            </div>
+            <div class="clean"></div>
+        </div>
+        <div class="mobile_top">
+        	<div class="mobile_top_menu"><a href="#m_slide_menu"><img src="https://video.coa.gov.tw/images/mobile_icon_menu.png"></a></div>
+            <nav id="m_slide_menu">
+                    <ul>
+                        <li><a href="https://video.coa.gov.tw/videos">農業影音</a></li>
+                        <li><a href="https://video.coa.gov.tw/foreign">Foreign Video</a></li>
+                        <li><a href="https://video.coa.gov.tw/topic">推薦主題</a></li>
+                        <li><a href="https://video.coa.gov.tw/ebooks">農業電子書</a></li>
+                        <li><a href="https://video.coa.gov.tw/about">關於虛博</a></li>
+                    </ul>
+                </nav>
+            <div class="mobile_top_logo"><a href="https://video.coa.gov.tw/home"><img src="https://video.coa.gov.tw/images/logo.gif"></a></div>
+            <!--div class="mobile_top_log"><a href="#"><img src="https://video.coa.gov.tw/images/mobile_icon_log.png"></a></div-->
+
+                        <div div class="mobile_top_log">
+                <a href="https://video.coa.gov.tw/auth"><img src="https://video.coa.gov.tw/images/mobile_icon_log.png"></a>
+            </div>
+            
+
+            <div class="clean"></div>
+        </div>
+        <!--mobile會員登入後 結束-->
+        <div class="topBottom">
+        	<ul>
+            	<li><a href="https://video.coa.gov.tw/videos">農業影音</a></li>
+                <li><a href="https://video.coa.gov.tw/foreign">Foreign Video</a></li>
+                <li><a href="https://video.coa.gov.tw/topic">推薦主題</a></li>
+                <li><a href="https://video.coa.gov.tw/ebooks">農業電子書</a></li>
+                <li><a href="https://video.coa.gov.tw/about">關於虛博</a></li> 
+                <!--<li><a href="https://video.coa.gov.tw/live">電子看板頻道</a></li> -->
+           </ul>
+        </div>
+    </div>
+    <script>
+$(document).ready(function($) {
+    $("#mainSlider_select").change(function() {
+        var id = $(this).val() + "_content";
+//        $("#" + id).show().siblings().hide();
+        $("#" + id).addClass('showDiv').removeClass('hideDiv').siblings().removeClass('showDiv').addClass('hideDiv');
+    });
+});
+
+</script>
+    <div class="clean"></div>
+    <!--main-->
+    <div class="main">
+        <div class="mainTheme">
+             <ul>
+                <li><a href="https://video.coa.gov.tw/videos/theme/52"><img src="/storage/pushcata/small52.jpg"></a></li>
+                <li><a href="https://video.coa.gov.tw/videos/theme/50"><img src="/storage/pushcata/small50.jpg"></a></li>
+                <li><a href="https://video.coa.gov.tw/videos/theme/51"><img src="/storage/pushcata/small51.jpg"></a></li>
+                <div class="clean"></div>
+            </ul>
+        </div>
+        <div class="mobile_theme">
+             <ul>
+                <li><a href="https://video.coa.gov.tw/videos/theme/52"><img src="/storage/pushcata/mb52.jpg"></a></li>
+                <li><a href="https://video.coa.gov.tw/videos/theme/50"><img src="/storage/pushcata/mb50.jpg"></a></li>
+                <li><a href="https://video.coa.gov.tw/videos/theme/51"><img src="/storage/pushcata/mb51.jpg"></a></li>
+                <div class="clean"></div>
+            </ul>
+        </div>
+        <div class="slider">
+            <div class="sliderSort">
+                <ul>
+                    <li id="showNew"><a href="#"><img id="new" src="https://video.coa.gov.tw/images/icon06-2.png"></a></li>
+                    <li id="showHot"><a href="#"><img id="hot" src="https://video.coa.gov.tw/images/icon07.png" onmouseover="this.src='https://video.coa.gov.tw/images/icon07-2.png'" onmouseout="this.src='https://video.coa.gov.tw/images/icon07.png'"></a></li>
+                                        <li id="showMon"><a href="#"><img id="mon" src="https://video.coa.gov.tw/images/icon08.png"  onmouseover="this.src='https://video.coa.gov.tw/images/icon08-2.png'" onmouseout="this.src='https://video.coa.gov.tw/images/icon08.png'"></a></li>
+                                        <div class="clean"></div>
+                </ul>
+            </div>
+            <div class="mobile_sliderSort">
+                <select id="mainSlider_select">
+                    <option value="new">最新影片</option>
+                    <option value="hot">熱門影片</option>
+                    <option value="recommend">強打主題</option>
+                </select>
+            </div>
+            <div class="sliderMain">
+                <!--silder按鈕開始-->
+                <div class="slidermainLR">
+                    <div class="slidermainL" id="prevBtn" style="z-index:999"><a style="cursor:pointer"><img src="https://video.coa.gov.tw/images/btn_l.png"></a></div>
+                    <div class="slidermainR" id="nextBtn" style="z-index:999"><a style="cursor:pointer"><img src="https://video.coa.gov.tw/images/btn_r.png"></a></div>
+                </div>
+
+                <!--silder按鈕結束-->
+                <!--silder主要內容開始-->
+<script>
+$(document).ready(function(){
+    $('#showNew').click(function() {
+            $('#new_videos').show();
+            $('#hot_videos').hide();
+            $('#monthly_videos').hide();
+            $('#new').attr('src',"https://video.coa.gov.tw/images/icon06-2.png")
+                     .mouseover(function() {$('#new').attr('src',"https://video.coa.gov.tw/images/icon06-2.png")})
+                     .mouseout(function() {$('#new').attr('src',"https://video.coa.gov.tw/images/icon06-2.png")});                        
+            $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07.png")
+                     .mouseover(function() { $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07-2.png")})
+                     .mouseout(function() { $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07.png")});
+            $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08.png")
+                     .mouseover(function() { $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08-2.png")})
+                     .mouseout(function() { $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08.png")});
+    });
+    $('#showHot').click(function() {
+            $('#new_videos').hide();
+            $('#hot_videos').show();
+            $('#monthly_videos').hide();
+            $('#new').attr('src',"https://video.coa.gov.tw/images/icon06.png")
+                     .mouseover(function() { $('#new').attr('src',"https://video.coa.gov.tw/images/icon06-2.png")})
+                     .mouseout(function() { $('#new').attr('src',"https://video.coa.gov.tw/images/icon06.png")});
+            $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07-2.png")
+                     .mouseover(function() {$('#hot').attr('src',"https://video.coa.gov.tw/images/icon07-2.png")})
+                     .mouseout(function() {$('#hot').attr('src',"https://video.coa.gov.tw/images/icon07-2.png")});            
+            $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08.png")
+                     .mouseover(function() { $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08-2.png")})
+                     .mouseout(function() { $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08.png")});
+    });
+    $('#showMon').click(function() {
+            $('#new_videos').hide();
+            $('#hot_videos').hide();
+            $('#monthly_videos').show();
+            $('#new').attr('src',"https://video.coa.gov.tw/images/icon06.png")
+                     .mouseover(function() { $('#new').attr('src',"https://video.coa.gov.tw/images/icon06-2.png")})
+                     .mouseout(function() { $('#new').attr('src',"https://video.coa.gov.tw/images/icon06.png")});
+            $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07.png")
+                     .mouseover(function() { $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07-2.png")})
+                     .mouseout(function() { $('#hot').attr('src',"https://video.coa.gov.tw/images/icon07.png")});
+            $('#mon').attr('src',"https://video.coa.gov.tw/images/icon08-2.png")
+                     .mouseover(function() {$('#mon').attr('src',"https://video.coa.gov.tw/images/icon08-2.png")})
+                     .mouseout(function() {$('#mon').attr('src',"https://video.coa.gov.tw/images/icon08-2.png")});            
+    });
+
+
+  $('.outer').slick({
+      centerMode: true,
+      slide:'div',
+      slidesToShow: 1,
+      slidesToScroll:1,
+      infinite: true,
+      focusOnSelect: true,  
+      variableWidth: true,
+      prevArrow: $('#prevBtn'),
+      nextArrow: $('#nextBtn')
+  });
+
+
+});
+</script>
+
+
+                <div class="slidermainContent" style="overflow:hidden">
+
+                    <!--一整組開始-->
+    <div class="outer" id="new_videos">
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4878"><img src="/videos/thumbnail/4878"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2021-04-03</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4878">農業氣象1100404</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4878">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4878"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4878" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">130</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4858"><img src="/videos/thumbnail/4858"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2021-03-15</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4858">淬鍊。蛻變 臺灣口蹄疫防治紀實</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4858"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4858" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>
+
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">16</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4854"><img src="/videos/thumbnail/4854"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-12</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4854">銀合歡移除復育造林宣導影片</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4854">林務局(屏東林區管理處)為解決銀合歡危害，修補因銀合歡入侵破碎化之生態環境，積極推動友善環境生態造林，以多層次、多樹種、密植混合方式，串連形成綠色網絡生態廊道。</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4854"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4854" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">18</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4853"><img src="/videos/thumbnail/4853"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-12</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4853">林業永續多元輔導方案</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4853">林務局於108年推出「林業永續多元輔導方案」，透過「夥伴」、「多元」及「友善」之核心價值，積極輔導林主與合作社，透過專業團隊及林業技師協力支援，成立林農服務單一窗口，協助整合相關申請程序，希冀能協助林主、經營團隊永續營林，並強化連結產官學研各界，共同攜手帶動林產業起飛，讓臺灣的森林資源提供多元服務價值，充分分享森林資源的惠益。</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4853"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4853" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">12</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4852"><img src="/videos/thumbnail/4852"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2021-03-12</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4852">里山動物列車紀錄</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4852">林務局與臺鐵局合作打造「里山動物列車」，於EMU800型微笑號通勤電聯車8節車體，彩繪淺山、農田生態系及生活其中的里山動物，提醒我們維繫臺灣的里山家園的重要，
+也讓民眾更加重視環境保育。讓里山動物未來也能像人們搭乘火車一樣，能在國土生態綠網營造的友善棲地與生態廊道悠遊旅行。</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4852"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4852" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">20</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4851"><img src="/videos/thumbnail/4851"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2021-03-12</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4851">422地球日綠保短片</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4851"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4851" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>
+
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">25</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4848"><img src="/videos/thumbnail/4848"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-11</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4848">沿著海岸走-體驗漁村之美</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4848">透過漫遊臺灣漁村的視角，引領民眾看見臺灣漁村優質深度旅遊的新風貌。本部影片以一位喜歡用旅行彩繪人生風景的女孩，沿著海岸行腳漫遊，感受其迷人之處，並引發「感動」的心情體驗，呈現臺灣漁村多元與美好，使民眾彷彿親身感受漁村的生命與溫度。</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4848"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4848" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">14</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4846"><img src="/videos/thumbnail/4846"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-10</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4846">農再十年 開場影片</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4846">農委會推動農村再生滿10週年的日子，自99年「農村再生條例」通過後，便以打造「活力、健康、幸福」的希望農村為願景，全心致力於推動農村發展。10年來，水保局攜手地方政府及農村社區，凝聚地方共識，以同榮、同夢、同業一起為農村再生努力，有自尊、能自主由下而上打造幸福農村。農村再生 感謝有你。</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4846"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4846" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">11</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4845"><img src="/videos/thumbnail/4845"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2021-03-10</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4845">坡地安全 守護家園</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4845">為有效制止山坡地不當利用，避免違規行為危害國土安全，水土保持局建立多元化查通報機制，對於確屬違規案件施以適當之處罰，以防止山坡地遭違法使用。</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4845"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4845" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">9</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4843"><img src="/videos/thumbnail/4843"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2021-03-09</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4843">BigGIS 巨量空間資訊系統簡介</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4843"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4843" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>
+
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">12</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4817"><img src="/videos/thumbnail/4817"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-02-18</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4817">農產品初級加工場宣導影片</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4817">想瞭解農產品初級加工場？本影片將帶您從各面向深入認識農產品初級加工場。</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4817"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4817" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">33</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4815"><img src="/videos/thumbnail/4815"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-02-18</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4815">「產銷達人十周年影片」</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4815">2020年邁入產銷履歷達人選拔十周年，150位各產業達人提供消費者溯源安全產銷履歷農產品，並透過達人故事及心路歷程讓消費者認識產銷履歷的核心精神。</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4815"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4815" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">315</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+    </div> <!---hotVideos-->
+
+
+                    <!--一整組開始-->
+    <div class="outer" id="hot_videos" style="display:none">
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4873"><img src="/videos/thumbnail/4873"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2021-03-29</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4873">農業氣象1100330</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4873">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4873"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4873" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">2327</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4865"><img src="/videos/thumbnail/4865"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2021-03-22</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4865">農業氣象1100322</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4865"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4865" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">1043</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4866"><img src="/videos/thumbnail/4866"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-22</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4866">農業氣象1100323</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4866">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4866"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4866" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">1042</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4867"><img src="/videos/thumbnail/4867"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-23</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4867">農業氣象1100324</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4867">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4867"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4867" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                             
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">869</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4868"><img src="/videos/thumbnail/4868"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2021-03-24</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4868">農業氣象1100325</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4868">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4868"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4868" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">815</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4869"><img src="/videos/thumbnail/4869"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2021-03-25</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4869">農業氣象1100326</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4869"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4869" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">767</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4872"><img src="/videos/thumbnail/4872"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-28</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4872">農業氣象1100329</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4872">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4872"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4872" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">747</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4876"><img src="/videos/thumbnail/4876"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-04-01</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4876">農業氣象1100402</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4876">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4876"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4876" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                             
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">692</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4871"><img src="/videos/thumbnail/4871"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2021-03-27</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4871">農業氣象1100328</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4871">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4871"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4871" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">684</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4870"><img src="/videos/thumbnail/4870"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2021-03-26</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4870">農業氣象1100327</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4870"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4870" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">665</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4877"><img src="/videos/thumbnail/4877"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-04-02</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4877">農業氣象1100403</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4877">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4877"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4877" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a> 
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">654</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4844"><img src="/videos/thumbnail/4844"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2021-03-09</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4844">農業氣象1100310</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4844">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4844"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4844" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                             
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">1295</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+    </div> <!---hotVideos-->
+
+
+                    <!--一整組開始-->
+ 
+    <div class="outer" id="monthly_videos" style="display:none">
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/3954"><img src="/videos/thumbnail/3954"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2019-06-17</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/3954">【糧心守護　農是為您】產銷履歷　安全永續</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/3954">108年6月15日以後吉園圃標章不再使用，升級與產銷履歷接軌！
+
+ 
+
+通過第三方驗證之產銷履歷農產品，生產過程資訊更透明、公開，消費者權益更有保障。</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/3954"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/3954" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                     
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">254</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/2636"><img src="/videos/thumbnail/2636"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2015-09-10</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/2636">食安問題-蛋(動畫版)</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/2636"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/2636" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">1842</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/2628"><img src="/videos/thumbnail/2628"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2015-07-27</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/2628">食安問題-鳳梨(動畫版)</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/2628">     本系列第一支短片，以「鳳梨」為主題，藉由農委會網站的農產品食安服務專區，彙整相關問答集結成各主題，做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能利用該專區自行提出問題。       </a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/2628"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/2628" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                            
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">2537</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4727"><img src="/videos/thumbnail/4727"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2020-12-07</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4727">【行政院】豬肉進口五大措施</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4727">政府守護大家的食品安全，宣布豬肉進口五大措施
+
+
+
+
+
+
+
+所有賣豬肉的地方，都要清楚標示產地國、而且學校裡面的營養午餐全面使用國產肉，政府嚴格把關，大家放心相挺台灣豬肉！</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4727"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4727" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                            
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">12</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2846"><img src="/videos/thumbnail/2846"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2017-01-03</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2846">小博士雞學問教室-國產雞大解密(國產與進口雞肉區隔懶人包)</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2846">  國產雞消費者疑問如下：
+1.為什麼CAS國產生鮮雞肉會比進口冷凍雞肉更美味呢？
+2.小雞快速長大，是不是施打賀爾蒙(生長激素)？
+3.CAS國產雞肉夠新鮮、安全嗎？
+影片將一一為您解答唷！讓消費者買得安心、吃得放心。
+選購時要記得認標章、選冷藏、看產地！
+  </a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/2846"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/2846" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                     
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">441</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4338"><img src="/videos/thumbnail/4338"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2020-03-26</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4338">蔬果背後的無名英雄</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4338"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4338" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">382</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4712"><img src="/videos/thumbnail/4712"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2020-11-26</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4712">餐桌上的安心蔬果怎麼來？</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4712">您知道餐桌上的安心蔬果是怎麼來的嗎？
+這是一段關於嚴選蔬果的故事～
+
+盤中的蔬菜水果，可是經過層層把關和嚴格挑選，才能來到餐桌上，
+質譜快檢把關流程更是為了讓國內各地的消費者可以吃到品質最好、
+最安心的臺灣蔬果
+
+那什麼又是質譜快速篩檢技術呢？
+讓我們繼續看下去～
+
+千萬別錯過餐桌上安心蔬果的秘密，
+大口安心地享用臺灣安全蔬果吧！
+
+#質譜快速篩檢技術作把關
+#品質安全有保障
+#安心蔬果的秘密</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4712"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4712" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                            
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">216</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/4224"><img src="/videos/thumbnail/4224"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2019-12-25</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/4224">蔬菜小子的秘密! 有機農產品標章保護您食的安全</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/4224">讓蔬菜小子來告訴你一個秘密
+
+有機農產品生長在臺灣、品質最優良
+不使用化學肥料、化學農藥及基因改造的東西
+國內生產x加工x分裝x流通
+保障消費者，也重視生態永續
+
+經通過驗證使用有機農產品標章
+並標示生產者名稱、電話、地址
+保護消費者食的安全
+
+有機農產品標章，讓您購買最心安♥</a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4224"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4224" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                            
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">134</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+                    <!--黃色開始-->
+                    <div class="slidermainCLeft">
+    
+                        <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4552"><img src="/videos/thumbnail/4552"></a></div>
+                        <div class="slidermainCLContent">
+                            <div class="slidermainCLCDate">2020-08-20</div>
+                            <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4552">田間產地到餐桌的層層把關</a></div>
+                            <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4552">農業生產過程中，只要在田間耕作前營造出適合作物生長的環境，例如適當耕犁讓土壤疏鬆使根系容易生長，合理化施肥避免失衡引起生理障礙，配合改善栽培環境的措施，營造不適合害蟲生長的環境，就可減少使用農藥，生產安全優質的蔬果。
+並且政府(農委會及衛福部)有監測把關機制，只要選購國產溯源證明的農產品，就可安心享用。
+本影片適合農業高職大專院學生、社區大學及民眾瞭解食農教育各種的農業知識。
+</a></div>
+                            <div class="slidermainCLCTool">
+                                <div class="slidermainCLCtoolL">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4552"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                    <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4552" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                     
+                                </div>
+                                <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">450</div>
+                                <div class="clean"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黃色結束-->
+                    <div class="slidermainCRight">
+                       <!--綠色開始-->
+    
+                        <div class="slidermainCR01">
+                            <div class="slidermainCR01Img"><a href="https://video.coa.gov.tw/videos/play/4159"><img src="/videos/thumbnail/4159"></a></div>
+                            <div class="slidermainCR01Content">
+                                <div class="slidermainCR01CDate">2019-11-15</div>
+                                <div class="slidermainCR01CTitle"><a href="https://video.coa.gov.tw/videos/play/4159">守護全家人的笑容 從吃的安心開始</a></div>
+                                <div class="slidermainCR01CTool">
+                                    <div class="slidermainCR01CtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/4159"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/4159" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCR01CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">104</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                            <div class="clean"></div>
+                        </div>
+                        <!--綠色結束-->
+
+                        <!--藍色開始-->
+    
+                        <div class="slidermainCR02">
+                            <!--左藍色開始-->
+
+                            <div class="slidermainCR02Left">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/2638"><img src="/videos/thumbnail/2638"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2015-09-10</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/2638">食安問題-米(動畫版)</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/2638">  本系列第四支短片，以「米」為主題，共計3題，藉由農委會網站的農產品食安服務專區，彙整問答做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能提升民眾與政府單位的互動。  </a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/2638"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/2638" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                            
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">2267</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="slidermainCR02Right">
+                                <div class="slidermainCR02Img"><a href="https://video.coa.gov.tw/videos/play/2640"><img src="/videos/thumbnail/2640"></a></div>
+                                <div class="slidermainCR02Content">
+                                    <div class="slidermainCR02CDate">2015-09-10</div>
+                                    <div class="slidermainCR02CTitle"><a href="https://video.coa.gov.tw/videos/play/2640">食安問題-雞(動畫版)</a></div>
+                                    <div class="slidermainCR02Txt"><a href="https://video.coa.gov.tw/videos/play/2640">  本系列第六支短片，以「雞」為主題，共計2題，藉由農委會網站的農產品食安服務專區，彙整問答做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能提升民眾與政府單位的互動。  </a></div>
+                                    <div class="slidermainCR02CTool">
+                                        <div class="slidermainCR02CtoolL">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/videos/play/2640"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                            <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/videos/play/2640" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                            
+                                        </div>
+                                        <div class="slidermainCR02CtoolR"> <img src="https://video.coa.gov.tw/images/icon_finger.png">2222</div>
+                                        <div class="clean"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--右藍色結束-->
+                            <div class="clean"></div>
+
+                        </div>
+                        <!--藍色結束-->
+                    </div>
+                    <!--一整組結束-->
+    </div> <!---monthlyVideos-->
+
+                </div>
+                <!--silder主要內容結束-->
+            </div>
+
+<div id="mobiles">
+            <!--mobile slider-->
+            <div id="new_content">
+                <div class="mobile_Mainslider" class="showDiv">
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4878"><img src="/videos/thumbnail/4878"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-04-03</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4878"> 農業氣象1100404</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4878">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">130</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4858"><img src="/videos/thumbnail/4858"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-15</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4858"> 淬鍊。蛻變 臺灣口蹄疫防治紀實</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4858">2020年臺灣本島、澎湖及馬祖獲OIE認定為「不施打疫苗口蹄疫非疫區」，這是23年來動物防疫工作重要里程碑，
+也是政府各部門與所有國人共同努力的成果。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">16</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4854"><img src="/videos/thumbnail/4854"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-12</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4854"> 銀合歡移除復育造林宣導影片</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4854">林務局(屏東林區管理處)為解決銀合歡危害，修補因銀合歡入侵破碎化之生態環境，積極推動友善環境生態造林，以多層次、多樹種、密植混合方式，串連形成綠色網絡生態廊道。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">18</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4853"><img src="/videos/thumbnail/4853"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-12</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4853"> 林業永續多元輔導方案</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4853">林務局於108年推出「林業永續多元輔導方案」，透過「夥伴」、「多元」及「友善」之核心價值，積極輔導林主與合作社，透過專業團隊及林業技師協力支援，成立林農服務單一窗口，協助整合相關申請程序，希冀能協助林主、經營團隊永續營林，並強化連結產官學研各界，共同攜手帶動林產業起飛，讓臺灣的森林資源提供多元服務價值，充分分享森林資源的惠益。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">12</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4852"><img src="/videos/thumbnail/4852"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-12</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4852"> 里山動物列車紀錄</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4852">林務局與臺鐵局合作打造「里山動物列車」，於EMU800型微笑號通勤電聯車8節車體，彩繪淺山、農田生態系及生活其中的里山動物，提醒我們維繫臺灣的里山家園的重要，
+也讓民眾更加重視環境保育。讓里山動物未來也能像人們搭乘火車一樣，能在國土生態綠網營造的友善棲地與生態廊道悠遊旅行。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">20</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4851"><img src="/videos/thumbnail/4851"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-12</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4851"> 422地球日綠保短片</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4851">農田是食物產地，也是生物棲地，選對農產品，不僅吃得安全、健康還能維護生物多樣性與永續環境。藉由422世界地球日的系列活動，推廣綠色保育標章，邀請大家用行動支持友善生產。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">25</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4848"><img src="/videos/thumbnail/4848"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-11</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4848"> 沿著海岸走-體驗漁村之美</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4848">透過漫遊臺灣漁村的視角，引領民眾看見臺灣漁村優質深度旅遊的新風貌。本部影片以一位喜歡用旅行彩繪人生風景的女孩，沿著海岸行腳漫遊，感受其迷人之處，並引發「感動」的心情體驗，呈現臺灣漁村多元與美好，使民眾彷彿親身感受漁村的生命與溫度。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">14</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4846"><img src="/videos/thumbnail/4846"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4846"> 農再十年 開場影片</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4846">農委會推動農村再生滿10週年的日子，自99年「農村再生條例」通過後，便以打造「活力、健康、幸福」的希望農村為願景，全心致力於推動農村發展。10年來，水保局攜手地方政府及農村社區，凝聚地方共識，以同榮、同夢、同業一起為農村再生努力，有自尊、能自主由下而上打造幸福農村。農村再生 感謝有你。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">11</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4845"><img src="/videos/thumbnail/4845"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4845"> 坡地安全 守護家園</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4845">為有效制止山坡地不當利用，避免違規行為危害國土安全，水土保持局建立多元化查通報機制，對於確屬違規案件施以適當之處罰，以防止山坡地遭違法使用。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">9</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4843"><img src="/videos/thumbnail/4843"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-09</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4843"> BigGIS 巨量空間資訊系統簡介</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4843">想知道您關注區域的情況嗎? 從水保局BigGIS就可以看到歷年航空照片、衛星影像、無人飛機空拍成果、數值高程模型、基礎圖資總量高達100TB空間圖資，來動動手指設定任意時間、空間，快速搜尋與線上即時分析功能，找到您要的資料喔!</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">12</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4817"><img src="/videos/thumbnail/4817"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-02-18</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4817"> 農產品初級加工場宣導影片</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4817">想瞭解農產品初級加工場？本影片將帶您從各面向深入認識農產品初級加工場。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">33</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4815"><img src="/videos/thumbnail/4815"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-02-18</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4815"> 「產銷達人十周年影片」</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4815">2020年邁入產銷履歷達人選拔十周年，150位各產業達人提供消費者溯源安全產銷履歷農產品，並透過達人故事及心路歷程讓消費者認識產銷履歷的核心精神。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">315</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <!--mobile slider-->
+            <!--mobile slider-->
+            <div id="hot_content" class="hideDiv">
+                <div class="mobile_Mainslider">
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4873"><img src="/videos/thumbnail/4873"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-29</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4873"> 農業氣象1100330</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4873">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">2327</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4865"><img src="/videos/thumbnail/4865"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-22</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4865"> 農業氣象1100322</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4865">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">1043</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4866"><img src="/videos/thumbnail/4866"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-22</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4866"> 農業氣象1100323</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4866">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">1042</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4867"><img src="/videos/thumbnail/4867"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-23</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4867"> 農業氣象1100324</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4867">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">869</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4868"><img src="/videos/thumbnail/4868"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-24</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4868"> 農業氣象1100325</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4868">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">815</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4869"><img src="/videos/thumbnail/4869"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-25</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4869"> 農業氣象1100326</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4869">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">767</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4872"><img src="/videos/thumbnail/4872"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-28</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4872"> 農業氣象1100329</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4872">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">747</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4876"><img src="/videos/thumbnail/4876"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-04-01</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4876"> 農業氣象1100402</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4876">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">692</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4871"><img src="/videos/thumbnail/4871"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-27</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4871"> 農業氣象1100328</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4871">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">684</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4870"><img src="/videos/thumbnail/4870"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-26</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4870"> 農業氣象1100327</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4870">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">665</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4877"><img src="/videos/thumbnail/4877"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-04-02</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4877"> 農業氣象1100403</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4877">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">654</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4844"><img src="/videos/thumbnail/4844"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2021-03-09</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4844"> 農業氣象1100310</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4844">預報農業氣象，掌握氣象、掌握農事！許多相關氣象與農業資訊提供給您最新的一手消息唷！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">1295</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+            </div>
+            <!--mobile slider-->
+
+            <!--mobile slider-->
+            <div id="recommend_content" class="hideDiv">
+                <div class="mobile_Mainslider">
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/3954"><img src="/videos/thumbnail/3954"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2019-06-17</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/3954"> 【糧心守護　農是為您】產銷履歷　安全永續</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/3954">108年6月15日以後吉園圃標章不再使用，升級與產銷履歷接軌！
+
+ 
+
+通過第三方驗證之產銷履歷農產品，生產過程資訊更透明、公開，消費者權益更有保障。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">254</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2636"><img src="/videos/thumbnail/2636"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2015-09-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2636"> 食安問題-蛋(動畫版)</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2636">  本系列第二支短片，以「蛋」為主題，共計5題，藉由農委會網站的農產品食安服務專區，彙整問答做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能提升民眾與政府單位的互動。  </a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">1842</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2628"><img src="/videos/thumbnail/2628"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2015-07-27</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2628"> 食安問題-鳳梨(動畫版)</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2628">     本系列第一支短片，以「鳳梨」為主題，藉由農委會網站的農產品食安服務專區，彙整相關問答集結成各主題，做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能利用該專區自行提出問題。       </a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">2537</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4727"><img src="/videos/thumbnail/4727"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2020-12-07</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4727"> 【行政院】豬肉進口五大措施</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4727">政府守護大家的食品安全，宣布豬肉進口五大措施
+
+
+
+
+
+
+
+所有賣豬肉的地方，都要清楚標示產地國、而且學校裡面的營養午餐全面使用國產肉，政府嚴格把關，大家放心相挺台灣豬肉！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">12</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2846"><img src="/videos/thumbnail/2846"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2017-01-03</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2846"> 小博士雞學問教室-國產雞大解密(國產與進口雞肉區隔懶人包)</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2846">  國產雞消費者疑問如下：
+1.為什麼CAS國產生鮮雞肉會比進口冷凍雞肉更美味呢？
+2.小雞快速長大，是不是施打賀爾蒙(生長激素)？
+3.CAS國產雞肉夠新鮮、安全嗎？
+影片將一一為您解答唷！讓消費者買得安心、吃得放心。
+選購時要記得認標章、選冷藏、看產地！
+  </a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">441</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4338"><img src="/videos/thumbnail/4338"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2020-03-26</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4338"> 蔬果背後的無名英雄</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4338">清晨低溫摘採，品質嚴格把關，全程低溫配送，每一把新鮮蔬菜，背後都有一群默默付出的無名英雄</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">382</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4712"><img src="/videos/thumbnail/4712"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2020-11-26</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4712"> 餐桌上的安心蔬果怎麼來？</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4712">您知道餐桌上的安心蔬果是怎麼來的嗎？
+這是一段關於嚴選蔬果的故事～
+
+盤中的蔬菜水果，可是經過層層把關和嚴格挑選，才能來到餐桌上，
+質譜快檢把關流程更是為了讓國內各地的消費者可以吃到品質最好、
+最安心的臺灣蔬果
+
+那什麼又是質譜快速篩檢技術呢？
+讓我們繼續看下去～
+
+千萬別錯過餐桌上安心蔬果的秘密，
+大口安心地享用臺灣安全蔬果吧！
+
+#質譜快速篩檢技術作把關
+#品質安全有保障
+#安心蔬果的秘密</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">216</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4224"><img src="/videos/thumbnail/4224"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2019-12-25</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4224"> 蔬菜小子的秘密! 有機農產品標章保護您食的安全</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4224">讓蔬菜小子來告訴你一個秘密
+
+有機農產品生長在臺灣、品質最優良
+不使用化學肥料、化學農藥及基因改造的東西
+國內生產x加工x分裝x流通
+保障消費者，也重視生態永續
+
+經通過驗證使用有機農產品標章
+並標示生產者名稱、電話、地址
+保護消費者食的安全
+
+有機農產品標章，讓您購買最心安♥</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">134</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4552"><img src="/videos/thumbnail/4552"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2020-08-20</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4552"> 田間產地到餐桌的層層把關</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4552">農業生產過程中，只要在田間耕作前營造出適合作物生長的環境，例如適當耕犁讓土壤疏鬆使根系容易生長，合理化施肥避免失衡引起生理障礙，配合改善栽培環境的措施，營造不適合害蟲生長的環境，就可減少使用農藥，生產安全優質的蔬果。
+並且政府(農委會及衛福部)有監測把關機制，只要選購國產溯源證明的農產品，就可安心享用。
+本影片適合農業高職大專院學生、社區大學及民眾瞭解食農教育各種的農業知識。
+</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">450</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4159"><img src="/videos/thumbnail/4159"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2019-11-15</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4159"> 守護全家人的笑容 從吃的安心開始</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4159">農委會全力推動 三章一Q
+為食的安全做把關
+讓食材從產地到餐桌都獲得保障
+
+三章一Q小知識
+為了消費者能買到安全的農產品
+農委會推動之三個優良農產品標章（三章）
+及生產責任追溯制度（1Q)
+
+三章分別是
+1. 有機農產品標章
+2. CAS臺灣優良農產品標章
+3. 產銷履歷認證標章
+第三方驗證機構驗證
+從生產、加工、分裝及流通過程都有國家把關
+標章認證涵括: 農糧(稻米、蔬菜、水果) 、水產、畜禽產(肉品、奶品、蛋)、加工品
+
+一Q 台灣農產生產溯源QR Code
+手機掃瞄標籤上的QR CODE
+從賣場一路追回生產地
+作業內容全紀錄、資訊公開零距離
+農政單位查檢把關
+
+有了三章一Q來保證農產品的品質
+大人小孩都能快速上手
+挑選到新鮮安全健康的食材
+學童們的校園食安也由三章一Q來守護
+藉由學校營養午餐選用標章認證的食材
+來認識台灣在地農產品
+吃的安心、家長也放心</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">104</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2638"><img src="/videos/thumbnail/2638"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2015-09-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2638"> 食安問題-米(動畫版)</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2638">  本系列第四支短片，以「米」為主題，共計3題，藉由農委會網站的農產品食安服務專區，彙整問答做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能提升民眾與政府單位的互動。  </a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">2267</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2640"><img src="/videos/thumbnail/2640"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2015-09-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2640"> 食安問題-雞(動畫版)</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2640">  本系列第六支短片，以「雞」為主題，共計2題，藉由農委會網站的農產品食安服務專區，彙整問答做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能提升民眾與政府單位的互動。  </a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">2222</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4585"><img src="/videos/thumbnail/4585"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2020-09-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4585"> 臺灣蔬果每一拍</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4585">大家也跟小編一樣熱愛臺灣的蔬菜水果嗎？
+喜歡吃的話，那就不能不知道，蔬菜水果其實也有是身分證的，自帶身分證的履歷蔬果，從生產、採收、包裝，一直到運送都有嚴格把關，加上優先拍賣制度的推行，不僅能夠提升農民的收入，也能讓消費者吃到安全、安心的臺灣蔬果。 
+一起來看看蔬果是怎麼旅行到我們的餐桌上的吧！</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">241</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/2637"><img src="/videos/thumbnail/2637"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2015-09-10</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/2637"> 食安問題-香菇(動畫版)</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/2637">  本系列第三支短片，以「香菇」為主題，共計1題，藉由農委會網站的農產品食安服務專區，彙整問答做為影片內容題材，以虛擬人物一問一答或二問一答的方式呈現，使民眾能透過淺顯易懂的對話中拋開迷思和獲取知識，也能提升民眾與政府單位的互動。  </a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">2360</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidermainCLeft">
+                            <div class="slidermainCLImg"><a href="https://video.coa.gov.tw/videos/play/4553"><img src="/videos/thumbnail/4553"></a></div>
+                            <div class="slidermainCLContent">
+                                <div class="slidermainCLCDate">2020-08-20</div>
+                                <div class="slidermainCLCTitle"><a href="https://video.coa.gov.tw/videos/play/4553"> 安全蔬果大闢謠</a></div>
+                                <div class="slidermainCLCTxt"><a href="https://video.coa.gov.tw/videos/play/4553">什麼是生物農藥呢? 有毒嗎? 用生物農藥種出來的蔬果安全嗎? 聽說夏天蔬果上的蟲很多，需要噴很多藥，所以夏天的蔬果不要吃太多，對嗎? 快來看看專家怎麼說。</a></div>
+                                <div class="slidermainCLCTool">
+                                    <div class="slidermainCLCtoolL">
+                                        <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://video.coa.gov.tw/home"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_fb.png"></a>
+                                        <a target="_blank" href="https://plus.google.com/share?url=https://video.coa.gov.tw/home" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://video.coa.gov.tw/images/icon_g.png"></a>                                        
+                                    </div>
+                                    <div class="slidermainCLCtoolR"><img src="https://video.coa.gov.tw/images/icon_finger.png">706</div>
+                                    <div class="clean"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <!--mobile slider-->
+</div>
+
+
+        </div>
+    </div>
+    <!--main-->
+    <!--ebook-->
+    <div class="mainEbook">
+        <div class="mainebookTop">
+            <div class="mainebookTitle"><img src="https://video.coa.gov.tw/images/ebook.png"></div>
+            <!--div class="mainebookPage">
+                <ul>
+                    <li class="select">1</li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <div class="clean"></div>
+                </ul>
+            </div-->
+            <div class="clean"></div>
+        </div>
+        <div class="mainebookList"   style="overflow:hidden">
+            <ul>
+                <div id="ebook_web_slider" >
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/58"><img src="/ebooks/thumbnail/58" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2016-01-12</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/58">中華民國農業簡介—繽紛農業 豐盛台灣</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/19"><img src="/ebooks/thumbnail/19" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/19">農田水利設施介紹2</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/46"><img src="/ebooks/thumbnail/46" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2014-08-05</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/46">2010年鳥類電子書合輯 - 基隆飛羽</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/12"><img src="/ebooks/thumbnail/12" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-10-28</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/12">耕耘臺灣大世紀農業紀實 第一冊</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/47"><img src="/ebooks/thumbnail/47" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2014-08-05</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/47">2010年鳥類電子書合輯 - 機場及周邊地區常見鳥類圖鑑</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/30"><img src="/ebooks/thumbnail/30" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/30">田園交響曲2</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/2"><img src="/ebooks/thumbnail/2" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2012-07-12</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/2">2011農委會年報</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/55"><img src="/ebooks/thumbnail/55" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2014-09-10</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/55">果園草生栽培管理</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/39"><img src="/ebooks/thumbnail/39" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/39">拜訪奧萬大的夜精靈2</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/40"><img src="/ebooks/thumbnail/40" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/40">拜訪奧萬大的夜精靈3</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/5"><img src="/ebooks/thumbnail/5" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2012-07-12</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/5">第二屆全國休閒農場童詩童畫競賽作品集</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/42"><img src="/ebooks/thumbnail/42" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/42">國家森林生態旅遊-新森活主張</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/33"><img src="/ebooks/thumbnail/33" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/33">在龜的國度</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/29"><img src="/ebooks/thumbnail/29" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/29">田園交響曲1</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/4"><img src="/ebooks/thumbnail/4" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2012-07-12</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/4">第一屆全國休閒農場童詩童畫競賽作品集</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/16"><img src="/ebooks/thumbnail/16" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-18</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/16">耕耘臺灣大世紀農業紀實 第五冊(完)</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/6"><img src="/ebooks/thumbnail/6" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2012-07-12</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/6">第三屆全國休閒農場童詩童畫競賽作品集</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/21"><img src="/ebooks/thumbnail/21" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/21">農田水利設施介紹4</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/50"><img src="/ebooks/thumbnail/50" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2014-09-10</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/50">香蕉的時光走廊</a></div>
+                    </div>
+                </li>
+                        
+                <li>
+                    <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/37"><img src="/ebooks/thumbnail/37" ></a></div>
+                    <div class="mainebooklistTxt">
+                        <div class="mainebooklistDate">2013-11-25</div>
+                        <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/37">沿著台灣去旅行2</a></div>
+                    </div>
+                </li>
+                
+
+                </div>    
+
+              
+
+                <div class="clean"></div>
+            </ul>
+        </div>
+    <!--ebook-->
+    <!--mobile ebook-->
+    <div class="mobile_Mainebook">
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/58"><img src="/ebooks/thumbnail/58" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2016-01-12</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/58">中華民國農業簡介—繽紛農業 豐盛台灣</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/19"><img src="/ebooks/thumbnail/19" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/19">農田水利設施介紹2</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/46"><img src="/ebooks/thumbnail/46" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2014-08-05</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/46">2010年鳥類電子書合輯 - 基隆飛羽</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/12"><img src="/ebooks/thumbnail/12" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-10-28</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/12">耕耘臺灣大世紀農業紀實 第一冊</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/47"><img src="/ebooks/thumbnail/47" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2014-08-05</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/47">2010年鳥類電子書合輯 - 機場及周邊地區常見鳥類圖鑑</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/30"><img src="/ebooks/thumbnail/30" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/30">田園交響曲2</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/2"><img src="/ebooks/thumbnail/2" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2012-07-12</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/2">2011農委會年報</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/55"><img src="/ebooks/thumbnail/55" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2014-09-10</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/55">果園草生栽培管理</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/39"><img src="/ebooks/thumbnail/39" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/39">拜訪奧萬大的夜精靈2</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/40"><img src="/ebooks/thumbnail/40" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/40">拜訪奧萬大的夜精靈3</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/5"><img src="/ebooks/thumbnail/5" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2012-07-12</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/5">第二屆全國休閒農場童詩童畫競賽作品集</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/42"><img src="/ebooks/thumbnail/42" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/42">國家森林生態旅遊-新森活主張</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/33"><img src="/ebooks/thumbnail/33" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/33">在龜的國度</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/29"><img src="/ebooks/thumbnail/29" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/29">田園交響曲1</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/4"><img src="/ebooks/thumbnail/4" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2012-07-12</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/4">第一屆全國休閒農場童詩童畫競賽作品集</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/16"><img src="/ebooks/thumbnail/16" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-18</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/16">耕耘臺灣大世紀農業紀實 第五冊(完)</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/6"><img src="/ebooks/thumbnail/6" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2012-07-12</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/6">第三屆全國休閒農場童詩童畫競賽作品集</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/21"><img src="/ebooks/thumbnail/21" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/21">農田水利設施介紹4</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/50"><img src="/ebooks/thumbnail/50" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2014-09-10</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/50">香蕉的時光走廊</a></div>
+            </div>
+        </div>
+                <div class="mobile_Mainebook_list">
+            <div class="mainebooklistPic shadow"><a href="https://video.coa.gov.tw/ebooks/read/37"><img src="/ebooks/thumbnail/37" ></a></div>
+            <div class="mainebooklistTxt">
+                <div class="mainebooklistDate">2013-11-25</div>
+                <div class="mainebooklistTitle"><a href="https://video.coa.gov.tw/ebooks/read/37">沿著台灣去旅行2</a></div>
+            </div>
+        </div>
+                
+    </div>
+    </div>
+    <!--mobile ebook-->
+    <!--footer-->
+    <div class="mobile_open"><a href="https://video.coa.gov.tw/videos/opendata"><img src="https://video.coa.gov.tw/images/icon01.png"> OPEN DATA</a></div>
+    <div class="mobile_map"><a href="https://video.coa.gov.tw/sitemap"><img src="https://video.coa.gov.tw/images/icon02.png"> 網站導覽</a></div>
+    <div class="mobile_rss"><a href="https://video.coa.gov.tw/rss"><img src="https://video.coa.gov.tw/images/icon03.png"> RSS</a></div>
+    <div class="mobile_live"><a href="https://video.coa.gov.tw/liveDownload"><img src="https://video.coa.gov.tw/images/icon09.png"> 直播影音下載專區</a></div>
+    <div class="mainLink">
+            <ul>
+                                <li><a href="https://www.coa.gov.tw/show_index.php" target="_blank"><img src="/storage/banner/ban12.jpg"></a></li>
+                                <li><a href="https://fae.coa.gov.tw/" target="_blank"><img src="/storage/banner/ban45.jpg"></a></li>
+                               
+                <div class="clean"></div>
+            </ul>
+        </div>
+    <div class="mobile_search">
+    <form method="post" action="https://video.coa.gov.tw/videos/search" id="search">
+        <input type="hidden" name="_token" value="FQqmzjrHPS6HVmmceTGTumINUbTBjFALUYn7YB2K">
+        <input placeholder="search" type="text" name="keyword">
+                  <button type="submit" class="searchBtn" ></button>
+        <div class="clean"></div>
+    </form>
+    </div>
+    <div class="footer">
+        <div class="footerMain">
+            <div class="footermainL"><a href="#" target="_blank"><img src="https://video.coa.gov.tw/images/logo_footer.png"></a></div>
+            <div class="footermainR"><a href="https://video.coa.gov.tw/home/privacy">隱私權政策宣示</a>｜<a href="https://video.coa.gov.tw/home/datasafe">資訊安全政策</a><br/>行政院農業委員會版權所有© 2015 COA All Rights Reserved<br>維護單位：中華電信股份有限公司　服務電話：(02)2341-0114　服務時間：週一至週五(假日除外) 上午10:00~下午18:00<br>建議使用：IE9.0 以上（IE8.0 以上版本勿選取相容性檢視模式 ）、Firefox 3.0 以上　解析度：1024*768</div>
+
+            <div class="clean"></div>
+        </div>
+    </div>
+    <!--footer-->            
+              <script type="text/javascript">
+                $(document).ready(function(){
+                  $('#ebook_web_slider').slick({
+                      slidesToShow: 5,
+                      slidesToScroll: 5, 
+                      dots: true, 
+//                      variableWidth:true,
+                  });
+
+                  $('.slick-dots button').remove();                  
+                  $('.slick-dots li:nth-child(1)').append('<div class="mainebookPageItem">1</div>');
+                  $('.slick-dots li:nth-child(2)').append('<div class="mainebookPageItem">2</div>');
+                  $('.slick-dots li:nth-child(3)').append('<div class="mainebookPageItem">3</div>');
+                  $('.slick-dots li:nth-child(4)').append('<div class="mainebookPageItem">4</div>');
+
+
+                  $('.mobile_Mainslider').slick({
+                    slidesToShow: 1,
+                    arrows: false,
+                    dots: false,
+                    centerMode: true,
+                    focusOnSelect: true
+                  });
+
+                  $('.mobile_Mainebook').slick({
+                    slidesToShow: 2,
+                    slidesToScroll: 2, 
+                    arrows: false,
+                    dots: false,
+                    centerMode: true,
+                    focusOnSelect: true           
+                  });
+
+                });
+              </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34392739-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

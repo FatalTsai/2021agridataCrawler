@@ -1,0 +1,627 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><meta charset="utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=big5" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><title>
+	登記農藥查詢
+</title>
+    <style type="text/css">    
+        .body 
+            {
+	            margin-left: 0px;
+	            margin-top: 0px;
+	            margin-right: 0px;
+	            margin-bottom: 0px;
+	        }
+    </style>
+
+    
+    <script type="text/javascript" src="Javascripts/JScript.js"></script>
+        
+    <link rel="stylesheet" type="text/css" title="Style" href="css.css" /><link rel="stylesheet" href="WalkThru/SimpleMenu.css" type="text/css" />    
+<!--[if lt IE 7]>
+    <link id="ctl00_IEMenu6CSS" rel="stylesheet" href="CSS/BrowserSpecific/IEMenu6.css" type="text/css" />
+<![endif]-->      
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" /><link href="CSS/bootstrap-theme.min.css" rel="stylesheet" /><link href="CSS/bootstrap-select.min.css" rel="stylesheet" />
+    <script src="Javascripts/jquery-1.10.2.min.js"></script>
+    <script src="Javascripts/bootstrap.min.js"></script>
+    <script src="Javascripts/bootstrap-select.min.js"></script>
+
+      <script type="text/javascript">
+          if (self != top) {
+              top.location = self.location;
+          }      
+      </script>
+
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./Insecticides_MenuItem5_3.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/web/WebResource.axd?d=Zt4IOZ1HXL25fjXP8Er6DT0HQDOnoI0FgmdqS49YHcd0xiKd_u4V-4721jAETCqWHsnTBrm7TsigU8xWsfou5P3rU3j1jOK4eD153axMj0y3s-3KwkgN2vmPo0-ZLfE_NvSQx0mbwbvJXDZRLsy27g2&amp;t=634834888000000000" type="text/javascript"></script>
+<script src="/web/WebResource.axd?d=XaEDG67VIekCHotNBwARGpJFYh884hIa2RHyYtHRDcsBovHsmtgttNReBTTctXKdNqwrtFKxGKMbJl7TQrGgM5tID6Yd9Xbtfst-gAaOmFvMZpmSXspEhgbJOnZ4OYIYX-Rr0duTpzC-9nuV0OSJTA2&amp;t=634834888000000000" type="text/javascript"></script><link href="/web/WebResource.axd?d=lvuLi8qxSOYIFJ-BGZ7dwGwMfUke4jSuN3GykH3uai4wmimavE0jKewIpa4hY1GRbTuvkpFHmSKhfzXaFGm8vkvl1QfBYR1g0r262Pw4UNBcNhS1Xjf5uS3CmxgYEP2f0&t=634834888000000000" type="text/css" rel="stylesheet"></link><link href="/web/WebResource.axd?d=W1mNDis08UQN9qS-RwGEopE5nJyFjlvV-j2_1nM6OEYS1_iUtGfuppHI27Xge0KAePZow0A1zsPG1PqwGTjuMvuLUiXSLSFXDv3AxqeDk3f8xRs60sCLWQPtr08NoKhMuKLO6QuXhQK9WxjwiEAOhFovpXdlYi89w99qTPsP3dM1&t=634834888000000000" type="text/css" rel="stylesheet"></link>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"zh-TW","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"NT$","NaNSymbol":"不是一個數字","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"負無窮大","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"正無窮大","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"上午","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402271999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027 tt hh:mm:ss","LongDatePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027","LongTimePattern":"tt hh:mm:ss","MonthDayPattern":"M\u0027月\u0027d\u0027日\u0027","PMDesignator":"下午","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"yyyy/M/d","ShortTimePattern":"tt hh:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"yyyy\u0027年\u0027M\u0027月\u0027","AbbreviatedDayNames":["週日","週一","週二","週三","週四","週五","週六"],"ShortestDayNames":["日","一","二","三","四","五","六"],"DayNames":["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],"AbbreviatedMonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"IsReadOnly":true,"NativeCalendarName":"西曆 (中文)","AbbreviatedMonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""]},"eras":[1,"西元",null,0]};//]]>
+</script>
+
+<script src="/web/ScriptResource.axd?d=guaVg4eH5Pjt-0-1iISrTDL9q364cAbT5BKXxqZ5iRmcF7gyVZu29ITFZU2tEB-Bm2Ukqyb0sQ2IcH5WcP7K73K81MA7PaXuqWuMGL7J8WZx9PW6icPWjPDf2cGvlRPDSf09UQM1oC0YGfljwaJEn7-sb2VetKeAgCfA-AfedNtwv_LSA6ry2PXFb23MNhkR0&amp;t=363be08" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax 用戶端架構無法載入。');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="17169AD9" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABK2hYP0akjqnzoGdEY3FbUIrwhM4xQ+KIGTavVwUVnrvkFJaYPsIQCv6/MTSOoeCK8Hg2tmmXNE4lo8sHsGDeL7nW+M35RxQ/C0rBY8s+3rMiH1pyNY2ke7vU7BtOhHiWnbSsnCp93yp513O2Ms50liBfCH+MNHGKmLJ6rqBt8QYc2ZFkT64oJwJ30y43TBjSn5kNtqEZIEhtWesmgR9wuQbVqUyNUCV5l6M1RjdHTdOc620oSqmT6kMB/jWL75WHlmo33uUrY6DX8SVOeTtWWwVpszGIdXxZDMBMne+OL0g/O+yvO6MKkpTAWbv5Au9fiDckfXT1LL7EGcEvKWHMqOa8+3afHDsABOfuW47VQlralWyR2FR9yhbUlUSLYAxVQKr0ikqCjFOHonwuJIrmYQCGIq3pD6reLi9eutApCDOQ==" />
+    
+      <table width="100%" cellspacing="0" cellpadding="0" border=0>
+            <tr>
+                <th  style="background:url(MasterTmpImg/top_bg.jpg);height:20px;"></th>
+                <td colspan="2" align="right" style="background:url(MasterTmpImg/top_bg.jpg);height:20px;">
+                    <a accesskey="U" href="#" title="上方導覽連結區"><font color="#E4FFAC">:::</font></a>
+                     瀏覽人次:<span id="ctl00_lblVisitCounter">2942989</span> &nbsp; &nbsp;|&nbsp;&nbsp;
+                    
+                    
+                    <a id="ctl00_HyperLink10" tabindex="1" href="MngLogin.aspx">農藥管理人員登入</a>&nbsp; &nbsp;|&nbsp;&nbsp;
+                    <a id="ctl00_HyperLink3" tabindex="1" href="siteMap.aspx">網站地圖</a>&nbsp; &nbsp;|&nbsp;&nbsp;
+                    <a href="mailto:baphiq@mail.baphiq.gov.tw" tabindex="2" title="原則上於收件後3個工作日內回覆，如信件內容屬於較為複雜需進一步查處案件，則依行政院及所屬各機關處理人民陳情案件要點規定辦理。">意見信箱</a>
+                    <span id="ctl00_lblMobile">  |  </span>
+                    <a id="ctl00_hlkMobile" tabindex="1" href="Insecticides_MenuItem1_m.aspx">行動版</a>&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr style="background-image: url(MasterTmpImg/img_04_bg.jpg);">
+                <td style="background-image: url(MasterTmpImg/img_04.jpg);" colspan="3">
+                    <img src="MasterTmpImg/img_03.jpg" alt="back1" /><img src="MasterTmpImg/img_03a.gif" alt="back2" /><img src="MasterTmpImg/img_03b.jpg" alt="back3" />
+                </td>
+            </tr>
+            <tr>
+                <td style="background-image: url(MasterTmpImg/img_06.gif);" align="left">
+                    &nbsp;
+                </td>
+                <td style="width:950px; background-image: url(MasterTmpImg/img_06.gif);" valign="top">
+                    &nbsp;&nbsp;</td>
+                <td style="background-image: url(MasterTmpImg/img_06.gif)">&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="1" valign="top"  bgcolor="#575757"  style="width:100px;" 
+                    class="down">
+                    <a href="#" accesskey="L" title="左選單區"><font color="#454448">:::</a>
+                    
+                           
+<div class="SimpleEntertainmentMenu" id="ctl00_EntertainmentMenu">
+	<div class="AspNet-Menu-Vertical">
+			<ul class="AspNet-Menu">
+				<li class="AspNet-Menu-Leaf">
+					<a href="./Insecticides_MenuItem5_5.aspx" class="AspNet-Menu-Link" title="病蟲害防治">
+						病蟲害防治</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem1.aspx" class="AspNet-Menu-Link" title="最新消息">
+						最新消息</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem2.aspx" class="AspNet-Menu-Link" title="農藥公告">
+						農藥公告</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem3.aspx" class="AspNet-Menu-Link" title="認識農藥">
+						認識農藥</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						農藥法規</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem4.aspx?code=1" class="AspNet-Menu-Link" title="法律及法規命令">
+								法律及法規命令</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem4.aspx?code=2" class="AspNet-Menu-Link" title="行政規則及解釋令">
+								行政規則及解釋令</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=4" class="AspNet-Menu-Link" title="滿15年農藥展延">
+								滿15年農藥展延</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem4.aspx?code=3" class="AspNet-Menu-Link" title="已廢止法規">
+								已廢止法規</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/QA.aspx" class="AspNet-Menu-Link" title="法規常見問答集">
+								法規常見問答集</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren  AspNet-Menu-ChildSelected">
+					<span class="AspNet-Menu-NonLink  AspNet-Menu-ChildSelected">
+						登記管理</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_1.aspx" class="AspNet-Menu-Link" title="登記統計">
+								登記統計</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_2.aspx" class="AspNet-Menu-Link" title="申請作業">
+								申請作業</a>
+						</li>
+						<li class="AspNet-Menu-Leaf  AspNet-Menu-Selected">
+							<a href="/web/Insecticides_MenuItem5_3.aspx" class="AspNet-Menu-Link  AspNet-Menu-Selected" title="登記農藥查詢">
+								登記農藥查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_4.aspx" class="AspNet-Menu-Link" title="許可證查詢">
+								許可證查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem5_5.aspx" class="AspNet-Menu-Link" title="病蟲害防治">
+								病蟲害防治</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem6.aspx" class="AspNet-Menu-Link" title="農藥標示">
+						農藥標示</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						禁 / 限用農藥</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem7_1.aspx" class="AspNet-Menu-Link" title="禁用農藥">
+								禁用農藥</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem7_2.aspx" class="AspNet-Menu-Link" title="限用農藥">
+								限用農藥</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=3" class="AspNet-Menu-Link" title="可能致癌農藥狀態">
+								可能致癌農藥狀態</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem7_3.aspx" class="AspNet-Menu-Link" title="刪除農藥">
+								刪除農藥</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						規格與檢驗</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem8_1.aspx" class="AspNet-Menu-Link" title="檢驗方法">
+								檢驗方法</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem8_2.aspx" class="AspNet-Menu-Link" title="標準規格">
+								標準規格</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						農藥統計</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=7" class="AspNet-Menu-Link" title="農藥產銷量值統計">
+								農藥產銷量值統計</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						資訊公開</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=1" class="AspNet-Menu-Link" title="違法業者資訊">
+								違法業者資訊</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=2" class="AspNet-Menu-Link" title="農藥評估資料">
+								農藥評估資料</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem16.aspx?type=6" class="AspNet-Menu-Link" title="農藥毒理及環境評估資料">
+								農藥毒理及環境評估資料</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem11.aspx" class="AspNet-Menu-Link" title="諮詢單位">
+						諮詢單位</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem12.aspx" class="AspNet-Menu-Link" title="相關網站">
+						相關網站</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem13.aspx" class="AspNet-Menu-Link" title="檔案下載">
+						檔案下載</a>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="http://ghs.baphiq.gov.tw:8080" class="AspNet-Menu-Link" onclick="window.open(this.href, '_blank', ''); return false;" onkeypress="window.open(this.href, '_blank', ''); return false;" title="毒理資料庫">
+						毒理資料庫</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						訓練課程</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/ClassSelect.aspx" class="AspNet-Menu-Link" title="訓練課程查詢">
+								訓練課程查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Class_Login.aspx" class="AspNet-Menu-Link" title="課程學員名單登錄">
+								課程學員名單登錄</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Class_RecordQuery.aspx" class="AspNet-Menu-Link" title="學習紀錄查詢">
+								學習紀錄查詢</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/ClassApply.aspx" class="AspNet-Menu-Link" title="申請辦理訓練課程">
+								申請辦理訓練課程</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/訓練課程簡報.pdf" class="AspNet-Menu-Link" title="操作說明">
+								操作說明</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/MngMenu.aspx" class="AspNet-Menu-Link" title="農藥管理人員專區">
+						農藥管理人員專區</a>
+				</li>
+				<li class="AspNet-Menu-WithChildren">
+					<span class="AspNet-Menu-NonLink">
+						免登記植物保護資材專區</span>
+					<ul>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem2_3.aspx" class="AspNet-Menu-Link" title="公告">
+								公告</a>
+						</li>
+						<li class="AspNet-Menu-Leaf">
+							<a href="/web/Insecticides_MenuItem2_3_1.aspx" class="AspNet-Menu-Link" title="登錄產品查詢">
+								登錄產品查詢</a>
+						</li>
+					</ul>
+				</li>
+				<li class="AspNet-Menu-Leaf">
+					<a href="/web/Insecticides_MenuItem15.aspx" class="AspNet-Menu-Link" title="聯絡窗口">
+						聯絡窗口</a>
+				</li>
+			</ul>
+
+	</div>
+</div> 
+                </td>
+                <td rowspan="1" valign="top" style="width:950px">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="width:15px" id="tdContent1">&nbsp; &nbsp;</td>
+                        <td>
+                            
+    <table cellspacing="0" cellpadding="0" width="97%">
+    <tr>
+        <td colspan="2">
+            <div class="cptopic">
+            <table width="100%" border="0" cellspacing="0" cellpadding="2" summary="內容資訊">
+              <tr>
+                 <td align="left" class="path"><span class="submenu">
+                 <a href="#" accesskey="c" title="內容區"><font color="#FFFFFF">:::</font></a></span>目前位置:
+                     <span id="ctl00_ContentPlaceHolder1_SiteMapPath1"><a href="#ctl00_ContentPlaceHolder1_SiteMapPath1_SkipLink"><img alt="略過巡覽連結" src="/web/WebResource.axd?d=ulaXR8Cn7ZRnUtA3oLsqJwugbLK12D1U8g3eNhv-wlXL_1JA0_-UGnqbkIrS0YXHqa362VVjxAL5I6kur10B8sEqYU7XoRqGabZqA_koeck1&amp;t=637454358340000000" width="0" height="0" border="0" /></a><span><a title="農藥資訊服務網" href="/web/"><font color="#666666">農藥資訊服務網</font></a></span><span><font color="#666666"> &gt; </font></span><span><a title="登記管理"><font color="#666666">登記管理</font></a></span><span><font color="#666666"> &gt; </font></span><span><a title="登記農藥查詢" href="/web/Insecticides_MenuItem5_3.aspx"><font color="#666666">登記農藥查詢</font></a></span><a id="ctl00_ContentPlaceHolder1_SiteMapPath1_SkipLink"></a></span>
+                     <div class="lptopic">
+                        <span id="ctl00_ContentPlaceHolder1_lblLastPath">登記農藥查詢</span>
+                     </div>
+                 </td>
+              </tr>                                  
+            </table>
+            </div>
+            <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+	
+			        <table width="100%" cellpadding="0" cellspacing="0">
+			            <tr>
+			                <td style="height:30px" nowrap="nowrap" align="right">
+			                    &nbsp;&nbsp;&nbsp;<span id="ctl00_ContentPlaceHolder1_lblTopic1">農藥分類:</span>
+			                </td>
+			                <td nowrap="nowrap">
+                                <select name="ctl00$ContentPlaceHolder1$dplCategory" id="ctl00_ContentPlaceHolder1_dplCategory" class="input">
+		<option selected="selected" value="-1">不限</option>
+		<option value="A">A - 殺蟎劑 (ACARICIDE)</option>
+		<option value="F">F - 殺菌劑 (FUNGICIDE)</option>
+		<option value="G">G - 除藻劑 (ALGECIDE)</option>
+		<option value="H">H - 除草劑 (HERBICIDE)</option>
+		<option value="I">I - 殺虫劑 (INSECTICIDE)</option>
+		<option value="M">M - 除螺劑 (MOLLUSCIDE)</option>
+		<option value="N">N - 殺線虫劑 (NEMATICIDE)</option>
+		<option value="P">P - 植物生長調節劑 (PLANT GROWTH REGULATOR)</option>
+		<option value="R">R - 殺鼠劑 (RODENTICIDE)</option>
+		<option value="X">X - 混合分類 (MIXER)</option>
+
+	</select>
+                            </td>
+                            <td nowrap="nowrap" align="right">
+                                <span id="ctl00_ContentPlaceHolder1_lblTopic2">農藥類別:</span>
+                            </td>
+			                <td style="width:50%" nowrap="nowrap">
+			                    <select name="ctl00$ContentPlaceHolder1$dplClass" id="ctl00_ContentPlaceHolder1_dplClass" class="input">
+		<option selected="selected" value="-1">不限</option>
+
+	</select>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td style="height:30px" nowrap="nowrap" align="right">
+			                    &nbsp;&nbsp;&nbsp;中文普通名稱:
+			                </td>
+		                    <td>
+		                        <input name="ctl00$ContentPlaceHolder1$txtChineseName" type="text" id="ctl00_ContentPlaceHolder1_txtChineseName" class="input" value="" />
+			                </td>
+			                <td nowrap="nowrap" align="right">
+			                    英文普通名稱:
+			                </td>
+			                <td style="width:50%" nowrap="nowrap">
+				                <input name="ctl00$ContentPlaceHolder1$txtEnglishName" type="text" id="ctl00_ContentPlaceHolder1_txtEnglishName" class="input" value="" />
+			                </td>
+		                </tr>
+		                <tr>
+		                    <td style="height:30px" nowrap="nowrap" align="right">
+		                        &nbsp;&nbsp;&nbsp;原始廠牌名稱:
+		                    </td>
+		                    <td>
+		                        <input name="ctl00$ContentPlaceHolder1$txtLogo" type="text" id="ctl00_ContentPlaceHolder1_txtLogo" class="input" value="" />
+			                </td>
+		                    <td nowrap="nowrap" align="right">
+		                        農藥代號:
+		                    </td>
+			                <td style="width:50%" nowrap="nowrap">
+				                <input name="ctl00$ContentPlaceHolder1$txtFACode2" type="text" id="ctl00_ContentPlaceHolder1_txtFACode2" class="input" value="" />
+			                </td>
+		                </tr>
+		                	                
+			            <tr>
+			                <td></td>
+			                <td></td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td style="width:50%">                                
+                            </td>
+                        </tr>
+			        </table>
+		        
+</div>
+        </td>
+    </tr>
+    <tr>
+        <td nowrap="nowrap" style="width: 50%">&nbsp;&nbsp;</td>
+        <td nowrap="nowrap" style="width: 50%">
+            <input type="image" name="ctl00$ContentPlaceHolder1$btnQuery" id="ctl00_ContentPlaceHolder1_btnQuery" title="搜尋" src="MasterTmpImg/img_21.gif" alt="Query" align="absmiddle" border="0" />
+        </td>
+    </tr>
+    <tr>
+        <td align="left" colspan="2" nowrap="nowrap">&nbsp;&nbsp;
+            
+        </td>
+    </tr>
+	</table>
+	
+	<table border=0 width=100% cellspacing="0" cellpadding="0" summary="">
+    <tr><td width="3%"></td>
+     <td>
+     
+     <table border=0 width=100% cellspacing="0" cellpadding="0" summary="">
+     <tr>
+     <td align="left" style="width:85%">
+        
+     </td>     
+     <td align="center">
+     
+     </td>     
+     </tr>
+     <tr>
+     <td colspan="2">
+   <div>
+
+</div>
+
+    
+     </td>
+     </tr>
+     </table>     
+     
+    
+         </td>
+     </tr>
+     </table>
+  <br/>
+    
+    
+    
+    
+        
+        
+
+
+
+                        </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top" rowspan="1" bgcolor="#ededed">
+                    <table align="left" border="0" cellpadding="2" cellspacing="2" 
+                        style="width:160px;height:100%;">
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink7" tabindex="4" href="https://www.baphiq.gov.tw/" target="_blank"><img src="./MasterTmpImg/banner1.gif" id="ctl00_img1" border="0" /></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink8" tabindex="9" title="植物保護手冊" href="https://otserv2.tactri.gov.tw/ppm/" target="_blank">
+                                    <img src="./MasterTmpImg/banner2.jpg" alt="植物保護手冊" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink9" title="農藥登記管理系統(業者版)" href="https://pesticide.baphiq.gov.tw/aims/login.aspx" target="_blank">
+                                    <img src="./MasterTmpImg/banner3.jpg" alt="農藥登記管理系統(業者版)" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink4" title="農藥登記管理系統(機關版)" href="https://pesticide.baphiq.gov.tw/org/login.aspx" target="_blank">
+                                    <img src="./MasterTmpImg/banner4.jpg" alt="農藥登記管理系統(機關版)" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink11" title="農藥銷售管理資訊網" href="https://pest.baphiq.gov.tw/" target="_blank">
+                                    <img src="./MasterTmpImg/banner7.gif" alt="農藥銷售管理資訊網" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink5" title="農業藥物毒物試驗所" href="https://www.tactri.gov.tw/" target="_blank">
+                                    <img src="./MasterTmpImg/banner5.gif" alt="農業藥物毒物試驗所" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink6" title="GHS全球調和制度" href="http://ghs.baphiq.gov.tw/" target="_blank">
+                                    <img src="./MasterTmpImg/banner6.gif" alt="GHS全球調和制度" border="0" />
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <a id="ctl00_HyperLink12" title="農藥田間藥效委託試驗報告查詢系統" href="https://otserv.tactri.gov.tw/pesticidetest/" target="_blank">
+                                    <img src="./MasterTmpImg/banner8.png" alt="農藥田間藥效委託試驗報告查詢系統" border="0" width="140" height="48"/>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td valign="top" style="height: 70px; background-image: url(MasterTmpImg/img_18.jpg);" align="center">
+                    <br />
+                    <!--<img src="MasterTmpImg/a+.gif" alt="A+" />--></td>
+                <td style="background-image: url(MasterTmpImg/img_18.jpg);  height: 70px;" valign="middle" class="down">
+                    行政院農業委員會動植物防疫檢疫局 版權所有 Copy right 2008<br />
+                    地址： 10070台北市中正區和平西路二段 100 號 11 樓&nbsp;電話： (02)2343-1401<br />
+                    檢舉電話： 0800-039-131 &nbsp;&nbsp; 傳真： (02)2343-1400 E-Mail ： <a href="mailto:baphiq@mail.baphiq.gov.tw" title="原則上於收件後3個工作日內回覆，如信件內容屬於較為複雜需進一步查處案件，則依行政院及所屬各機關處理人民陳情案件要點規定辦理。">
+                    baphiq@mail.baphiq.gov.tw</a>
+                     &nbsp;&nbsp;<a href="./Policy.aspx"> 隱私權及安全政策</a> | <a href="./Open.aspx">網站資料開放宣告</a>
+                </td>
+                <td valign="top" style="height: 70px; font-size:xx-small; background-image: url(MasterTmpImg/img_18.jpg);" class="down">
+                    <br />
+                    <a id="ctl00_HyperLink1" tabindex="10" href="http://www.gov.tw"><img src="MasterTmpImg/gov.gif" alt="HyperLink" border="0" /></a></td>
+            </tr>
+            <tr>
+                <td valign="top" style="height: 70px; background-image: url(MasterTmpImg/img_18.jpg);" align="center" colspan="3">
+                    <table cellspacing="5" cellpadding="5">
+                        <tr valign="top">
+                            <td>
+                                <a href="./Insecticides_MenuItem1.aspx">最新消息</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem2.aspx">農藥公告</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem3.aspx">認識農藥</a>
+                            </td>
+                            <td>
+                                農藥法規<br/>
+                                <a href="./Insecticides_MenuItem4.aspx?code=1">法律及法規命令</a><br />
+                                <a href="./Insecticides_MenuItem4.aspx?code=2">行政規則及解釋令</a><br />
+                                <a href="./Insecticides_MenuItem4.aspx?code=3">已廢止法規</a><br />
+                                <a href="./QA.aspx">法規常見問答集</a>
+                            </td>
+                            <td>
+                                登記管理<br />
+                                <a href="./Insecticides_MenuItem5_1.aspx">登記統計</a><br />
+                                <a href="./Insecticides_MenuItem5_2.aspx">申請作業</a><br />
+                                <a href="./Insecticides_MenuItem5_3.aspx">登記農藥查詢</a><br />
+                                <a href="./Insecticides_MenuItem5_4.aspx">許可證查詢</a><br />
+                                <a href="./Insecticides_MenuItem5_5.aspx">病蟲害防治</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem6.aspx">農藥標示</a>
+                            </td>
+                            <td>
+                                禁 / 限用農藥<br />
+                                <a href="./Insecticides_MenuItem7_1.aspx">禁用農藥</a><br />
+                                <a href="./Insecticides_MenuItem7_2.aspx">限用農藥</a><br />
+                                <a href="./Insecticides_MenuItem7_3.aspx">刪除農藥</a>
+                            </td>
+                            <td>
+                                規格與檢驗<br />
+                                <a href="./Insecticides_MenuItem8_1.aspx">檢驗方法</a><br />
+                                <a href="./Insecticides_MenuItem8_2.aspx">標準規格</a>
+                            </td>
+                            <td>
+                                農藥統計<br />
+                                <a href="./Insecticides_MenuItem9_1S.aspx">農藥產銷統計</a><br />
+                                <a href="./Insecticides_MenuItem9_2S.aspx">農藥進出口統計</a><br />
+                                <a href="./Insecticides_MenuItem9_4S.aspx">農藥產銷量值統計</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem11.aspx">諮詢單位</a>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td>
+                                <a href="./Insecticides_MenuItem12.aspx">相關網站</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem13.aspx">檔案下載</a>
+                            </td>
+                            <td>
+                                <a href="http://ghs.baphiq.gov.tw:8080" target="_blank">毒理資料庫</a>
+                            </td>
+                            <td>
+                                訓練課程<br />
+                                <a href="./ClassSelect.aspx">訓練課程查詢</a><br />
+                                <a href="./Class_Login.aspx">課程學員名單登錄</a><br />
+                                <a href="./Class_RecordQuery.aspx">學習紀錄查詢</a><br />
+                                <a href="./ClassApply.aspx">申請辦理訓練課程</a><br />
+                                <a href="./訓練課程簡報.pdf">操作說明</a>
+                            </td>
+                            <td>
+                                <a href="./MngMenu.aspx">農藥管理人員專區</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem15.aspx">聯絡窗口</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem2_3.aspx">免登記植物保護資材專區</a>
+                            </td>
+                            <td>
+                                <a href="./Insecticides_MenuItem16.aspx">資訊公開</a>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+         </table>
+        
+    </form>
+</body>
+</html>

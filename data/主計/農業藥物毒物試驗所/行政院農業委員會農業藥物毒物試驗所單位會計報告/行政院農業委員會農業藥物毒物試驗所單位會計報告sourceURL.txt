@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='www.tactri.gov.tw', port=443): Max retries exceeded with url: /Category/Items/%E6%9C%83%E8%A8%88%E5%A0%B1%E5%91%8A (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)'),))

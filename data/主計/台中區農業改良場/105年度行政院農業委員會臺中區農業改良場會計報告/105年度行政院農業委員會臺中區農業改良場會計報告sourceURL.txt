@@ -1,0 +1,1 @@
+HTTPConnectionPool(host='www.tdais.gov.tw', port=80): Max retries exceeded with url: /view.php?catid=10743 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb1f7ce7d30>: Failed to establish a new connection: [Errno 101] Network is unreachable',))

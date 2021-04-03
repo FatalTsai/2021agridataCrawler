@@ -1,0 +1,983 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head><title>
+	歡迎光臨-農業技術交易網
+</title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" /><meta name="viewport" content="width=device-width" /><link rel="stylesheet" href="css/bootstrap.css" /><link rel="stylesheet" href="css/icomoon-social.css" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="css/leaflet.css" />
+    <!--[if lte IE 8]>
+	<link rel="stylesheet" href="css/leaflet.ie.css" />
+    <![endif]-->
+    <link rel="stylesheet" href="css/main-green.css" />
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <style type="text/css">
+        .post-summary > p {
+            word-wrap: break-word;
+        }
+        
+        .class-info-top-data {
+            font-size: 16px;
+            font-weight:600;
+            background-color: rgb(90, 86, 86);
+            color: white;
+            display: inline-block;
+            margin: 10px;
+            padding: 5px 5px;
+            border-radius: 5px;
+            position: absolute;
+        }
+          #gotop {
+	        display: none;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;    
+            padding: 10px 15px;    
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+    <script type="text/javascript">
+        if (top != self)
+	    {
+	        top.location = self.location;
+	    }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="Index.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM5OTMwMDExOQ8WCB4JX01lZ2NvdW50Zh4JX1Jlc2NvdW50Zh4HX3JhbmRvbQIDHghfcmFuZG9tMgIEFgICAw9kFiACAQ8PFgQeCl91bmRlclJvb3QFBFRydWUeBV9vcGVuBQVGYWxzZWQWCgIBDxYCHgdWaXNpYmxlaGQCAg8WAh4EaHJlZgUwLi4vSG9tZS9UZWNoU2hvd0V2ZW50TGlzdC5hc3B4P3N0c25vPTEyJnN0dG5vPTMwZAIDDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWAmYPFQIfSG9tZS9BY3Rpb25NZWdMaXN0LmFzcHg/bXRwbm89Mw3miJDmnpwv5o6o5bujZAIBD2QWAmYPFQIfSG9tZS9BY3Rpb25NZWdMaXN0LmFzcHg/bXRwbm89NBPllYboq4fmnIMv5bGV6Ka95pyDZAICD2QWAmYPFQIhSG9tZS9BY3Rpb25NZWdMaXN0LmFzcHg/bXRwbm89MjE0DueglOioji/oqJPnt7QgZAIEDxYCHwcFJS4uL0hvbWUvRXBhcGVyTGlzdC5hc3B4P29wZW55ZWFyPTIwMjFkAgkPDxYCHgRNb2RlCyolU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5UZXh0Qm94TW9kZQJkZAIDDxYCHwgCBRYKZg9kFghmDxUBLmh0dHBzOi8vdGF0bS5jb2EuZ292LnR3L2ltYWdlcy9zbGlkZXItYmczMi5qcGdkAgEPDxYEHgRUZXh0BeABPHN0cm9uZz48c3Ryb25nPjwvc3Ryb25nPjwvc3Ryb25nPg0KPGgxIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXI7IiBkYXRhLXRlc3QtbG9jYXRvcj0iaGVhZGxpbmUiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDI0cHQ7IGNvbG9yOiAjZmZmZmZmOyI+5b2p6Imy6LGG55qu44CM57KJ5aKo44CN55m75aC0IOS4jeaYr+S6uuW3peiJsue0oDwvc3Bhbj48L2gxPg0KPHN0cm9uZz48L3N0cm9uZz4eD0NvbW1hbmRBcmd1bWVudAUDNzcyZGQCAw8PFggeBlRhcmdldAUGX2JsYW5rHwoF4AE8c3Ryb25nPjxzdHJvbmc+PC9zdHJvbmc+PC9zdHJvbmc+DQo8aDEgc3R5bGU9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q+ioiu+8muOAkOWutuigtuijveeorumHj+eUoumrlOezu+W7uue9ruOAkRgyMDIxLzMvMyDkuIrljYggMTI6MDA6MDCWAeW7uueri+WutuigtuijveeoruebuOmXnOaKgOihk+enu+i9iee1puWFt+a9m+WKm+i+suawkeaIluW7oOWVhu+8jOaJtuakjeWci+WFp+aIkOeri+WutuigtuijveeoruWgtO+8jOS7peeUn+eUouacquS+huigtuahkeeUoualreaJgOmcgOS5i+WutuigtuigtueormQCFw8WAh8HBSQuL0hvbWUvRXBhcGVyTGlzdC5hc3B4P29wZW55ZWFyPTIwMjFkAhkPFgIfCgUvaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvbkh4YmloLTlpMFU/cmVsPTBkAhsPFgIfBwUvLi9Ib21lL1RlY2hTaG93RXZlbnRMaXN0LmFzcHg/c3Rzbm89MTImc3R0bm89MzBkAh0PFgIfBwUkLi9Ib21lL0VwYXBlckxpc3QuYXNweD9vcGVueWVhcj0yMDIxZAIfDw8WAh8EBQRUcnVlZGRkOx5aGaQMmATmNUFuQDGXNYFgWgc=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWEwLinqT7DQKvk5TeBAKtk7jADwKBy/j7BALAt+uoAgLN5KWSBALJ8uj0CgLU/vWTDwLChKu6CgLChKfTAgLXhPP9DwLYhK+WCALEhJu+CwKs98XZAgKFq9S0CgLqo+BdArehxVYCt6HRegK3oc2aARcITHHaV/4pQ3TZSPTXwpNCGhuD" />
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Navigation & Logo-->
+        <script src="js/bootstrap.min.js"></script><!--head menu的toggle需要引用bootstrap-->
+
+<script language="javascript" type="text/javascript">
+
+    function MyKeyDown() {
+        if (event.keyCode == 13) 
+        {
+            __doPostBack('ucHeader$btnOK', '');
+        }
+    }
+    
+    function MyKeyDown2() {
+        if (event.keyCode == 13) 
+        {
+            __doPostBack('ucHeader$btnSearch', '');
+        }
+    }
+   
+    
+    $(document).ready(function(){
+
+
+        
+        if ("False" == "True")
+        {
+            $('#login').modal('show');
+        }
+        
+        $(".fix-path").each(function(){
+            $(this).attr("href",""+$(this).attr("href"));
+        });
+    });
+</script>
+<style>
+.dropdown2:hover .dropdown-menu {
+    display: block;
+}
+</style>
+                  
+<!--Header開始-->
+        <div class="mainmenu-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="pull-left">
+                        <a href='Index.aspx'>
+                            <img name="headerImg" src="images/mPurpose-logo.png"></a></div>
+                    <div class="menuextras">
+                        <div class="extras">
+                            <ul>
+                                <li>
+                                    <div class="dropdown choose-country">
+                                        <a class="index.aspx" data-toggle="dropdown" href="#">
+                                            <img name="headerImg" src="images/tw.png" alt="Chinese">
+                                            中文<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="menuitem"><a href="EnglishHome/index.aspx">
+                                                <img name="headerImg" src="images/gb.png" alt="English">
+                                                English</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                                
+                                <li><a data-toggle="modal" data-target="#login" style="cursor:pointer;">Login</a></li>
+                                
+                                
+                                                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--menu-->
+                <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.aspx">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">技術媒合<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="Home/TechTranList.aspx">&raquo;&nbsp;&nbsp;技轉公告</a></li>
+              <li><a href="Home/WarrPredList.aspx">&raquo;&nbsp;&nbsp;專屬授權預告</a></li>
+              <li><a href="Home/TechGoodList.aspx">&raquo;&nbsp;&nbsp;技轉商品</a></li>
+              <li><a href="Home/VideoList.aspx">&raquo;&nbsp;&nbsp;TATM 影音</a></li>
+              <li><a href="Home/TechShowEventList.aspx?stsno=12&sttno=30" id="ucHeader_techshowlink">&raquo;&nbsp;&nbsp;台灣創新技術博覽會</a></li>
+              <li><a href="Home/AgreeTechAdd.aspx?type=new">&raquo;&nbsp;&nbsp;客詢技術</a></li>
+          </ul>
+        </li>
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">研發成果<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="Home/NearTechList.aspx?type=tech">&raquo;&nbsp;&nbsp;技術</a></li>
+              <li><a href="Home/NearTechList.aspx?type=patent">&raquo;&nbsp;&nbsp;專利</a></li>
+              <li><a href="Home/NearTechList.aspx?type=label">&raquo;&nbsp;&nbsp;商標</a></li>
+              <li><a href="Home/NearTechList.aspx?type=plant">&raquo;&nbsp;&nbsp;植物品種</a></li>
+              <li><a href="Home/NearTechList.aspx?type=planthalf">&raquo;&nbsp;&nbsp;植物品系</a></li>
+          </ul>
+        </li>
+
+        <!--<li class="dropdown2">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="location.href='Home/ActionMegList.aspx';">活動訊息<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+             
+            
+                        <li><a class="fix-path" href='Home/ActionMegList.aspx?mtpno=3'>&raquo;&nbsp;&nbsp;
+                        成果/推廣</a></li>
+                
+                        <li><a class="fix-path" href='Home/ActionMegList.aspx?mtpno=4'>&raquo;&nbsp;&nbsp;
+                        商談會/展覽會</a></li>
+                
+                        <li><a class="fix-path" href='Home/ActionMegList.aspx?mtpno=214'>&raquo;&nbsp;&nbsp;
+                        研討/訓練 </a></li>
+                              
+              
+          </ul>-->
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">訊息報導<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="Home/ActionMegList.aspx">&raquo;&nbsp;&nbsp;活動訊息</a></li>
+              <li><a href="Home/EPaperNewsList.aspx">&raquo;&nbsp;&nbsp;農業新聞</a></li>
+              <li><a href="Home/EpaperList.aspx?openyear=2021" id="ucHeader_epaperlink">&raquo;&nbsp;&nbsp;歷史電子報</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="Home/ResourceList.aspx">網站資源</a>
+          <ul style="display:none" class="dropdown-menu" role="menu">
+                
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">關於TATM™<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+              <li><a href="Home/aboutTATM.aspx">&raquo;&nbsp;&nbsp;TATM™簡介</a></li>
+              <li><a href="ATMMinLetmein.aspx">&raquo;&nbsp;&nbsp;後台管理</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          
+          <input name="ucHeader$txtSearchKeyWord" type="text" id="ucHeader_txtSearchKeyWord" class="form-control" onkeydown="MyKeyDown2()" placeholder="關鍵字查詢" />            
+        </div>
+        
+        <a id="ucHeader_btnSearch" class="btn btn-info" onkeypress="btnSearch_Click" href="javascript:__doPostBack('ucHeader$btnSearch','')">查詢</a>        
+      </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- /end menu-->
+</div>
+</div>
+        
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">會員專區</h4>
+      </div>
+      <div class="modal-body">    
+      <div>
+        <div class="form-group">            
+            <input name="ucHeader$txtANT" type="text" size="10" id="ucHeader_txtANT" accesskey="n" tabindex="1" class="form-control" placeholder="帳號" />
+        </div>
+        <div class="form-group">
+            <input name="ucHeader$txtPRD" type="password" size="10" id="ucHeader_txtPRD" accesskey="p" tabindex="2" class="form-control" onkeydown="MyKeyDown()" placeholder="密碼" />            
+            
+        </div>
+        <div class="form-group">
+            <input name="ucHeader$txtCheck" type="text" size="10" id="ucHeader_txtCheck" tabindex="3" class="form-control" placeholder="驗證碼" />
+            <img id="ucHeader_imgCheck" alt="圖示：驗證碼" src="Home/ValidateCode.ashx" border="0" />
+            <a id="ucHeader_btnCheck" href="javascript:__doPostBack('ucHeader$btnCheck','')">[重新產生]</a>
+            
+        </div>
+        <div>            
+            <a href="Home/MemberEdit.aspx?type=new">加入會員</a> | <a href="Home/memberRight.aspx">權限說明</a> | <a href="Home/ForgetPRD.aspx">忘記密碼</a>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#"><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></a>
+        <a id="ucHeader_btnOK" tabindex="3" class="btn btn-info" onkeypress="btnOK_Click" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ucHeader$btnOK&quot;, &quot;&quot;, true, &quot;headerlogin&quot;, &quot;&quot;, false, true))">登入</a>        
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!--Header結束-->
+                            
+        <!-- Homepage Slider -->
+        <div class="homepage-slider">
+            <div id="sequence">
+                <ul class="sequence-canvas"> 
+                    
+                            <li class="bg4" style="background-image: url(https://tatm.coa.gov.tw/images/slider-bg32.jpg); ">
+                                <!-- Slide Title -->
+                                <h2 class="title">
+                                <a id="rptSpotLight_ctl00_lbnSpotTitle" href="javascript:__doPostBack('rptSpotLight$ctl00$lbnSpotTitle','')" style="color:White;"><strong><strong></strong></strong>
+<h1 style="text-align: center;" data-test-locator="headline"><span style="font-size: 24pt; color: #ffffff;">彩色豆皮「粉墨」登場 不是人工色素</span></h1>
+<strong></strong></a>
+                                </h2>
+                                <!-- Slide Text -->
+                                <h3 class="subtitle"><span style="font-size: 14pt;">豆皮營養價值豐富，現在更多出了色彩變化！行政院農業委員會高雄區農業改良場以國產大豆為基礎材料，成功開發豆皮新穎加工產品。藉由導入其他具有功能成分及天然色素的蔬果材料，開發出綠、黑、橙及金黃等色彩繽紛的亮麗豆皮，更增添產品的風味、色澤及營養。(Yahoo 新聞 2021-02-16)</span></h3>
+                                <img class="slide-img img-thumbnail" src="DownloadFile.aspx?type=44&mapno=772&filename=%e5%bd%a9%e8%89%b2%e8%b1%86%e7%9a%ae.png" alt="Slide 1">
+                            </li>
+                        
+                            <li class="bg4" style="background-image: url(https://tatm.coa.gov.tw/images/slider-bg12.jpg); ">
+                                <!-- Slide Title -->
+                                <h2 class="title">
+                                <a id="rptSpotLight_ctl01_lbnSpotTitle" href="javascript:__doPostBack('rptSpotLight$ctl01$lbnSpotTitle','')" style="color:White;"><span style="font-size: 24pt;"><strong>廢菇包變貓砂？藥毒所首創農業廢棄物再生貓砂</strong></span></a>
+                                </h2>
+                                <!-- Slide Text -->
+                                <h3 class="subtitle"><span style="font-size: 14pt;">農委會農業藥物毒物試驗所利用菇類栽培太空包中的栽培基質，成功研發製成「再生貓砂」。相較於傳統礦物貓砂，菇包廢棄物再生貓砂可由環境自然分解，粉塵量較一般膨潤土貓砂少10倍以上，不僅更加環保、安全，且成本降低，在價格上也具有優勢。(農業藥物毒物試驗所 2021-03-16)</span>
+<div id="gtx-trans" style="position: absolute; left: -8px; top: -19.0938px;">&nbsp;</div></h3>
+                                <img class="slide-img img-thumbnail" src="DownloadFile.aspx?type=44&mapno=771&filename=%e5%bb%a2%e8%8f%87%e5%8c%85%e8%ae%8a%e8%b2%93%e7%a0%82.png" alt="Slide 1">
+                            </li>
+                        
+                            <li class="bg4" style="background-image: url(https://tatm.coa.gov.tw/images/slider-bg16.jpg); ">
+                                <!-- Slide Title -->
+                                <h2 class="title">
+                                <a id="rptSpotLight_ctl02_lbnSpotTitle" href="javascript:__doPostBack('rptSpotLight$ctl02$lbnSpotTitle','')" style="color:White;"><h3 class="detail_titles" style="text-align: center;"><strong><span style="font-size: 24pt;">滴灌技術乎你靠、蘆筍生產省水優質免煩惱</span></strong></h3>
+<div id="gtx-trans" style="position: absolute; left: -27px; top: -19.0938px;">&nbsp;</div></a>
+                                </h2>
+                                <!-- Slide Text -->
+                                <h3 class="subtitle"><span style="font-size: 14pt;">臺南區農業改良場楊場長宏瑛說明，政府為因應乾旱缺水危機，提高水資源利用效率，推廣管路灌溉及設施補助。經輔導設施蘆筍示範場域應用養液滴灌節水技術，較傳統溝灌節省灌溉用水量達50%以上，可降低雜草孳生及保持畦溝乾燥，方便採收，更有提升產量及穩定蘆筍嫩莖脆嫩度品質之優勢。(臺南區農業改良場 2021-03-22)</span></h3>
+                                <img class="slide-img img-thumbnail" src="DownloadFile.aspx?type=44&mapno=770&filename=%e3%80%8c%e9%9d%92%e6%9d%be%e8%be%b2%e5%a0%b4%e3%80%8d%e8%a8%ad%e6%96%bd%e8%98%86%e7%ad%8d%e6%87%89%e7%94%a8%e6%bb%b4%e7%81%8c%e7%b5%a6%e6%b0%b4%e7%8f%be%e6%b3%81.png" alt="Slide 1">
+                            </li>
+                        
+                            <li class="bg4" style="background-image: url(https://tatm.coa.gov.tw/images/slider-bg6.jpg); ">
+                                <!-- Slide Title -->
+                                <h2 class="title">
+                                <a id="rptSpotLight_ctl03_lbnSpotTitle" href="javascript:__doPostBack('rptSpotLight$ctl03$lbnSpotTitle','')" style="color:White;"><p style="text-align: center;"><strong><span style="font-size: 24pt;">讓茶農種茶更簡單及提早收益　</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: 24pt;">茶改場推出種茶好幫手</span></strong></p></a>
+                                </h2>
+                                <!-- Slide Text -->
+                                <h3 class="subtitle"><span style="font-size: 14pt;">為紓緩平地植茶缺工問題及提高曳引機多用途功能，茶改場與業者合作成功開發「曳引機附掛式植茶機」，可調整種植茶苗之行株距，並選擇單行或雙行密植之種植模式<span>，與傳統人工種植相比，該植茶機種植可提高效率 6 倍左右。</span>(<span>茶業改良場 2021-03-03)</span></span></h3>
+                                <img class="slide-img img-thumbnail" src="DownloadFile.aspx?type=44&mapno=769&filename=%e6%9b%b3%e5%bc%95%e6%a9%9f%e9%99%84%e6%8e%9b%e5%bc%8f%e6%a4%8d%e8%8c%b6%e6%a9%9f%e4%bd%9c%e6%a5%ad%e6%83%85%e5%bd%a2.png" alt="Slide 1">
+                            </li>
+                        
+                            <li class="bg4" style="background-image: url(https://tatm.coa.gov.tw/images/slider-bg31.jpg); ">
+                                <!-- Slide Title -->
+                                <h2 class="title">
+                                <a id="rptSpotLight_ctl04_lbnSpotTitle" href="javascript:__doPostBack('rptSpotLight$ctl04$lbnSpotTitle','')" style="color:White;"><p style="text-align: center;"><strong><span style="font-size: 24pt;">平地櫻花新品種，都市裡的公園變身賞櫻景點</span></strong></p></a>
+                                </h2>
+                                <!-- Slide Text -->
+                                <h3 class="subtitle"><p><span style="font-size: 14pt;">平地櫻花新生力軍報到！「桃園3號&shy;春緋」及「桃園4號&shy;紅華」對都市及近郊低海拔地區風土氣候適應性強、花期穩定又容易開花，能有效解決都市裡常見櫻花樹生長勢弱、開花少及景觀效益不佳等問題，讓都市公園搖身一變為賞櫻景點。<span>(</span>桃園區農業改良場 2021-02-10)</span></p></h3>
+                                <img class="slide-img img-thumbnail" src="DownloadFile.aspx?type=44&mapno=765&filename=%e6%ab%bb%e8%8a%b1.png" alt="Slide 1">
+                            </li>
+                          
+                </ul>
+                <div class="sequence-pagination-wrapper">
+                    <ul class="sequence-pagination">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Homepage Slider -->
+        <!-- Posts List -->
+        <div class="section blog-posts-wrapper">
+            <div class="container">
+                <div class="row">
+                    <!-- Post -->
+                    <div class="col-md-12 col-sm-12" style="padding:0px" >
+                                        <div class="col-md-6 col-sm-6">
+                        <div class="blog-post">
+                            <div class="post-info">
+                                <div class="post-date">
+                                    <div class="date tech-tran-top-date"></div>
+                                </div>
+                            </div>
+                            <a class="tech-tran-top-link" href="Home/TechTranList.aspx">
+                                <img src="images/techtran1-01.jpg" class="post-image tech-tran-top-img" alt="Post Title" height="225px"></a>
+                            <div class="post-title">
+                                <h3><a href="Home/TechTranList.aspx">技轉公告</a></h3>
+                            </div>
+                            <div class="post-summary">
+                                <p>
+                                    
+                                        <div class="tech-tran-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                            <img style="height:225px;display:none" class="" 
+                                            src="images/techtran3-03.jpg" />
+                                            <span class="label label-default date-mmdd">2021/03/15</span>&nbsp;<a class="tech-tran-title" href='Home/TechTranData.aspx?attno=11922&tecno=4183'>
+                                            <span id="rptTechTran_ctl00_lblTitle">公告「養殖魚類攝食水面動態影像辨識技術...</span></a>
+                                            <br>
+                                        </div>                                  
+                                        
+                                        <div class="tech-tran-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                            <img style="height:225px;display:none" class="" 
+                                            src="images/techtran6-03.jpg" />
+                                            <span class="label label-default date-mmdd">2021/03/08</span>&nbsp;<a class="tech-tran-title" href='Home/TechTranData.aspx?attno=11923&tecno=4244'>
+                                            <span id="rptTechTran_ctl01_lblTitle">公告「日本鮸魚人工繁殖及種苗生產技術」...</span></a>
+                                            <br>
+                                        </div>                                  
+                                        
+                                        <div class="tech-tran-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                            <img style="height:225px;display:none" class="" 
+                                            src="images/techtran7-03.jpg" />
+                                            <span class="label label-default date-mmdd">2021/02/22</span>&nbsp;<a class="tech-tran-title" href='Home/TechTranData.aspx?attno=11909&tecno=1029'>
+                                            <span id="rptTechTran_ctl02_lblTitle">公告「苦瓜‘花蓮1號’植物品種權」非專...</span></a>
+                                            <br>
+                                        </div>                                  
+                                        
+                                        <div class="tech-tran-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                            <img style="height:225px;display:none" class="" 
+                                            src="images/techtran7-03.jpg" />
+                                            <span class="label label-default date-mmdd">2021/02/22</span>&nbsp;<a class="tech-tran-title" href='Home/TechTranData.aspx?attno=11910&tecno=1030'>
+                                            <span id="rptTechTran_ctl03_lblTitle">公告「苦瓜‘花蓮2號’植物品種權」非專...</span></a>
+                                            <br>
+                                        </div>                                  
+                                        
+                                        <div class="tech-tran-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                            <img style="height:225px;display:none" class="" 
+                                            src="images/techtran7-03.jpg" />
+                                            <span class="label label-default date-mmdd">2021/02/22</span>&nbsp;<a class="tech-tran-title" href='Home/TechTranData.aspx?attno=11911&tecno=1031'>
+                                            <span id="rptTechTran_ctl04_lblTitle">公告「苦瓜‘花蓮3號’植物品種權」非專...</span></a>
+                                            <br>
+                                        </div>                                  
+                                        
+                                        <div class="tech-tran-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                            <img style="height:225px;display:none" class="" 
+                                            src="images/techtran7-03.jpg" />
+                                            <span class="label label-default date-mmdd">2021/02/22</span>&nbsp;<a class="tech-tran-title" href='Home/TechTranData.aspx?attno=11912&tecno=2509'>
+                                            <span id="rptTechTran_ctl05_lblTitle">公告「苦瓜‘花蓮6號’植物品種權」非專...</span></a>
+                                            <br>
+                                        </div>                                  
+                                               
+                                </p>
+                            </div>
+                            <div class="post-more">
+                                <a href="Home/TechTranList.aspx" class="btn btn-small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6">
+                        <div class="blog-post">
+                          <div class="post-info">
+                            <div class="post-date">
+                              
+                            </div>
+                          </div>
+                          
+                           
+                           
+
+                            <div id="carousel" class="carousel slide" data-ride="carousel">
+                                <!-- Menu -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel" data-slide-to="0" class="active"></li><li data-target="#carousel" data-slide-to="1" class=""></li><li data-target="#carousel" data-slide-to="2" class=""></li>            
+                                </ol>
+                                
+                                <!-- Items -->
+                                <div class="carousel-inner">
+                                    
+                                            <div class="item active">
+                                                <div class="date class-info-top-data">桃台農3號-春豐</div>
+                                                
+                                                <a id="rptClassInfoInner_ctl00_lbnTitle2" href="javascript:__doPostBack('rptClassInfoInner$ctl00$lbnTitle2','')"><img style="height:225px" class="" src="DownloadFile.aspx?type=45&mapno=178&filename=%e6%98%a5%e8%b1%90.png" /></a>
+                                            </div>
+                                        
+                                            <div class="item ">
+                                                <div class="date class-info-top-data">雞糞加工肥料產製設備套組</div>
+                                                
+                                                <a id="rptClassInfoInner_ctl01_lbnTitle2" href="javascript:__doPostBack('rptClassInfoInner$ctl01$lbnTitle2','')"><img style="height:225px" class="" src="DownloadFile.aspx?type=45&mapno=177&filename=%e9%9b%9e%e7%b3%9e.png" /></a>
+                                            </div>
+                                        
+                                            <div class="item ">
+                                                <div class="date class-info-top-data">平腹小蜂種原及冷處理量產技術</div>
+                                                
+                                                <a id="rptClassInfoInner_ctl02_lbnTitle2" href="javascript:__doPostBack('rptClassInfoInner$ctl02$lbnTitle2','')"><img style="height:225px" class="" src="DownloadFile.aspx?type=45&mapno=176&filename=%e5%b9%b3%e5%be%a9%e5%b0%8f%e8%9c%82.png" /></a>
+                                            </div>
+                                        
+                                </div> 
+                                <a href="#carousel" class="left carousel-control" data-slide="prev" role="button">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a href="#carousel" class="right carousel-control" data-slide="next" role="button">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+
+                           
+                           
+                           
+                          <div class="post-title">
+                            <h3><a href="Home/NearTechList.aspx?type=tech">熱門研發精品</a></h3>
+                          </div>
+                          <div class="post-summary">
+                            <p>
+                                
+                                    <div style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                        <img style="height:225px;display:none" class="class-info-img" src="DownloadFile.aspx?type=45&mapno=178&filename=%e6%98%a5%e8%b1%90.png" />
+                                                                
+                                        <span class="label label-default date-mmdd">2021/3/15 上午 12:58:57</span>&nbsp;
+                                        <a id="rptClassInfo_ctl00_lbnTitle" class="class-info-data" href="javascript:__doPostBack('rptClassInfo$ctl00$lbnTitle','')">桃台農3號-春豐</a>
+                                        
+                                        </div>
+                                    
+                                    <div style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                        <img style="height:225px;display:none" class="class-info-img" src="DownloadFile.aspx?type=45&mapno=177&filename=%e9%9b%9e%e7%b3%9e.png" />
+                                                                
+                                        <span class="label label-default date-mmdd">2021/3/15 上午 12:54:07</span>&nbsp;
+                                        <a id="rptClassInfo_ctl01_lbnTitle" class="class-info-data" href="javascript:__doPostBack('rptClassInfo$ctl01$lbnTitle','')">雞糞加工肥料產製設備套組</a>
+                                        
+                                        </div>
+                                    
+                                    <div style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                        <img style="height:225px;display:none" class="class-info-img" src="DownloadFile.aspx?type=45&mapno=176&filename=%e5%b9%b3%e5%be%a9%e5%b0%8f%e8%9c%82.png" />
+                                                                
+                                        <span class="label label-default date-mmdd">2021/3/15 上午 12:36:18</span>&nbsp;
+                                        <a id="rptClassInfo_ctl02_lbnTitle" class="class-info-data" href="javascript:__doPostBack('rptClassInfo$ctl02$lbnTitle','')">平腹小蜂種原及冷處理量產技術</a>
+                                        
+                                        </div>
+                                            
+                             </p>
+                          </div>
+                          <div class="post-more"> <a href="Home/NearTechList.aspx?type=tech" class="btn btn-small">Read more</a> </div>
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <!-- End Post -->
+                    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="blog-post">
+                            <div class="post-info">
+                                <div class="post-date">
+                                    <div class="date atm-content-top-title"></div>
+                                </div>
+                            </div>
+                            <a class="atm-content-top-link" href="./User/TechTranList.aspx">
+                            
+                                    <img src="DownloadFile.aspx?type=32&mapno=89&filename=%e6%bc%81%e6%a5%ad%e7%bd%b2%e9%99%a4%e9%b1%97%e6%a9%9f%e5%85%b7493x251.jpg" class="post-image atm-content-img" style="display:none; height: 212px;" alt="Post Title">
+                                
+                                <img src="images/blog5.jpg" class="post-image atm-content-default-img" style="display:none; height: 212px;" alt="Post Title">
+                                <img src="images/blog51.jpg" class="post-image atm-content-default-img" style="display:none; height: 212px;" alt="Post Title">
+                                <img src="images/blog52.jpg" class="post-image atm-content-default-img" style="display:none; height: 212px;" alt="Post Title"></a>
+                            <div class="post-title">
+                                <h3>
+                                    <a href="Home/TechGoodList.aspx">技轉商品</a></h3>
+                            </div>
+                            
+                                <div class="post-summary" style="height: 70px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">                       
+                                    <a class="atm-content-title" href='Home/TechGoodData.aspx?tegno=4'>石斑魚除鱗機具之研發 </a>
+                                    <p>【技術名稱】石斑魚除鱗機具之研發 【研發單位】台灣大學【補助單位】漁業署【技轉廠商】盛洋冷...</p>                                                                           
+                                </div>
+                                <div class="post-more">
+                                    <a href="Home/TechGoodList.aspx" class="btn btn-small">Read more</a>
+                                </div>
+                              
+                        </div>
+                    </div>                    
+                    <div class="col-md-4 col-sm-6">
+                        <div class="blog-post">
+                            <div class="post-info">
+                                <div class="post-date">
+                                    <div class="date act-meg-top-title"></div>
+                                </div>
+                            </div>
+                            <a class="act-meg-top-link" href="Home/ActionMegList.aspx">
+                                <img style="height: 212px;" src="images/blog1.jpg" class="post-image act-meg-top-img" alt="Post Title"></a>
+                            <div class="post-title">
+                                <h3>
+                                    <a href="Home/ActionMegList.aspx">活動訊息</a></h3>
+                            </div>
+                            <div class="post-summary">
+                                <p>
+                                    
+                                    
+                                            <div class="act-meg-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                                    
+                                                    <img style="display:none; height: 212px;" src="https://tatm.coa.gov.tw/images/actionnews12.jpg" 
+                                                    class="post-image act-meg-img"  alt="Post Title">
+                                                    <span class="label label-default">04/07</span>&nbsp;
+                                                    <a class="act-meg-title" href='Home/ActionMegData.aspx?megno=4653'>
+                                                    <span id="rptActionMeg_ctl00_lblTitle">中國生產力中心辦理「智慧農業技術...</span></a>                                     
+                                            </div>
+                                        
+                                            <div class="act-meg-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                                    
+                                                    <img style="display:none; height: 212px;" src="https://tatm.coa.gov.tw/images/actionnews8.jpg" 
+                                                    class="post-image act-meg-img"  alt="Post Title">
+                                                    <span class="label label-default">04/09</span>&nbsp;
+                                                    <a class="act-meg-title" href='Home/ActionMegData.aspx?megno=4654'>
+                                                    <span id="rptActionMeg_ctl01_lblTitle">新竹縣新埔鎮辦理農業政策說明暨作...</span></a>                                     
+                                            </div>
+                                        
+                                            <div class="act-meg-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                                    
+                                                    <img style="display:none; height: 212px;" src="https://tatm.coa.gov.tw/images/actionnews3.jpg" 
+                                                    class="post-image act-meg-img"  alt="Post Title">
+                                                    <span class="label label-default">04/09</span>&nbsp;
+                                                    <a class="act-meg-title" href='Home/ActionMegData.aspx?megno=4634'>
+                                                    <span id="rptActionMeg_ctl02_lblTitle">木瓜技術諮詢講習暨產銷班座談會</span></a>                                     
+                                            </div>
+                                        
+                                </p>
+                            </div>
+                            <div class="post-more">
+                                <a href="Home/ActionMegList.aspx" class="btn btn-small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="blog-post"> 
+                          <!-- Post Info -->
+                          <div class="post-info">
+                            <div class="post-date">
+                              <div class="date fram-news-top-title"></div>
+                            </div>
+                          </div>
+                          <a class="fram-news-top-link" target="_blank" href="Home/EPaperNewsList.aspx"><img style="height: 212px;" src="images/blog6.jpg" class="post-image fram-news-top-img" alt="Post Title"></a>
+                          <div class="post-title">
+                            <h3><a href="Home/EPaperNewsList.aspx">農業相關新聞</a></h3>
+                          </div>
+                          <div class="post-summary">
+                            <p>
+                                
+                                    <div class="fram-news-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                        <img style="display:none; height: 212px;"  />
+                                        <span class="label label-default date-mmdd">2021/3/31 上午 12:00:00</span>&nbsp;
+                                        <a class="fram-news-title" target="_blank" href='Home/Link.aspx?keyno=8504'>合格蔬果被丟棄？ 農試所：「生化法」主要用於風險控管</a>
+                                    </div>                                  
+                                    
+                                    <div class="fram-news-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                        <img style="display:none; height: 212px;"  />
+                                        <span class="label label-default date-mmdd">2021/3/31 上午 12:00:00</span>&nbsp;
+                                        <a class="fram-news-title" target="_blank" href='Home/Link.aspx?keyno=8505'>今年陽光強雨水少鳳梨超甜 台南農改場公開挑選小秘訣</a>
+                                    </div>                                  
+                                    
+                                    <div class="fram-news-data" style="margin-bottom:7px; height: 20px; line-height: 20px; overflow-y: hidden; overflow-x: hidden;">
+                                        <img style="display:none; height: 212px;"  />
+                                        <span class="label label-default date-mmdd">2021/3/31 上午 12:00:00</span>&nbsp;
+                                        <a class="fram-news-title" target="_blank" href='Home/Link.aspx?keyno=8507'>草莓塑膠布之亂　農糧署推廣農膜回收機給補助</a>
+                                    </div>                                  
+                                                                     
+                              </p>
+                          </div>
+                          <!-- End Post Title & Summary -->
+                          <div class="post-more"> <a href="Home/EPaperNewsList.aspx" class="btn btn-small">Read more</a> </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Posts List -->
+        <!-- Call to Action Bar -->
+        <div class="section section-white">
+            <div class="container">
+                <div class="row">
+                    <!-- Featured News -->
+                    <div class="col-md-6 featured-news">
+                        <h2>
+                            技術快訊</h2>
+                            
+                        
+                            <div class="row tech-news-data">
+                                <div class="map-no hide" >774</div>
+                                <div class="col-xs-4">
+                                <img id="rptTechNews_ctl00_imgTechNews" class="left-pic" src="DownloadFile.aspx?type=43&amp;mapno=774&amp;filename=%e5%9c%96%e7%89%871.jpg" alt="Post Title" height="101" border="0" />
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="caption">
+                                        <a target="_blank" href='Home/EPaperNewsTempShowHistory.aspx?type=1&typecode=2&etmno=774'>TATM技術快訊：【日本鮸魚人工繁殖及種苗生產技術】</a></div>
+                                    <div class="date date-format1">
+                                        2021/3/25 上午 12:00:00
+                                    </div>
+                                    <div class="intro">水產試驗所建立日本鮸魚人工繁殖及種苗生產技術來協助解決臺灣日本鮸魚苗源缺乏問題&nbsp;</div>
+                                </div>
+                            </div>
+                        
+                            <div class="row tech-news-data">
+                                <div class="map-no hide" >772</div>
+                                <div class="col-xs-4">
+                                <img id="rptTechNews_ctl01_imgTechNews" class="left-pic" src="DownloadFile.aspx?type=43&amp;mapno=772&amp;filename=%e5%9c%96%e7%89%8712.jpg" alt="Post Title" height="101" border="0" />
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="caption">
+                                        <a target="_blank" href='Home/EPaperNewsTempShowHistory.aspx?type=1&typecode=2&etmno=772'>TATM技術快訊：【百香果漿抽取設備與技術應用】</a></div>
+                                    <div class="date date-format1">
+                                        2021/3/5 上午 12:00:00
+                                    </div>
+                                    <div class="intro">透過這台取汁神機，未來不僅助攻百香果進軍茶飲市場，提供百香果產業多元生產利用，有效增進農民收益&nbsp;</div>
+                                </div>
+                            </div>
+                        
+                            <div class="row tech-news-data">
+                                <div class="map-no hide" >771</div>
+                                <div class="col-xs-4">
+                                <img id="rptTechNews_ctl02_imgTechNews" class="left-pic" src="DownloadFile.aspx?type=43&amp;mapno=771&amp;filename=%e5%9c%96%e7%89%8722.jpg" alt="Post Title" height="101" border="0" />
+                                </div>
+                                <div class="col-xs-8">
+                                    <div class="caption">
+                                        <a target="_blank" href='Home/EPaperNewsTempShowHistory.aspx?type=1&typecode=2&etmno=771'>TATM技術快訊：【家蠶製種量產體系建置】</a></div>
+                                    <div class="date date-format1">
+                                        2021/3/3 上午 12:00:00
+                                    </div>
+                                    <div class="intro">建立家蠶製種相關技術移轉給具潛力農民或廠商，扶植國內成立家蠶製種場，以生產未來蠶桑產業所需之家蠶蠶種&nbsp;</div>
+                                </div>
+                            </div>
+                        
+                       <div class="post-more"> <a href="./Home/EpaperList.aspx?openyear=2021" id="epaperlink2" class="btn btn-small">Read more</a> </div>
+                    </div>
+                    <!-- End Featured News -->
+                    <div class="col-md-6">
+                        <div class="video-wrapper">
+                            <iframe src='https://www.youtube.com/embed/nHxbih-9i0U?rel=0' width="500" height="281"
+                                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <div>                        
+                            <a href="Home/DomainList.aspx?type=being"><span class="label label-default">生物技術</span></a>
+                            <a href="Home/DomainList.aspx?type=health"><span class="label label-default">美容保健</span></a>
+                            <a href="Home/DomainList.aspx?type=agri"><span class="label label-default">安全農業</span></a>
+                            <a href="Home/DomainList.aspx?type=grow"><span class="label label-default">栽培量產</span></a>
+                            <a href="Home/DomainList.aspx?type=appl"><span class="label label-default">設備資材</span></a>
+                            <a href="Home/DomainList.aspx?type=plant"><span class="label label-default">品種</span></a>
+                            <a href="Home/DomainList.aspx?type=food"><span class="label label-default">食品加工</span></a>
+                            <a href="Home/DomainList.aspx?type=besides"><span class="label label-default">其他</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Call to Action Bar -->
+        <br>
+        <!-- Our Clients -->
+        <div class="section">
+            <div class="container">
+                <div class="clients-logo-wrapper text-center row">
+                    <div class="col-sm-4">
+                        <a href="./Home/WarrPredList.aspx?type=history">
+                            <img src="images/banner1.jpg" class="img-thumbnail warrpred-info-img"></a></div>
+                    <div class="col-sm-4">
+                        <a href="./Home/TechShowEventList.aspx?stsno=12&sttno=30" id="techshowlink">
+                            <img src="images/banner2.jpg" class="img-thumbnail techshow-info-img"></a></div>
+                    <div class="col-sm-4">
+                        <a href="./Home/EpaperList.aspx?openyear=2021" id="epaperlink">
+                            <img src="images/banner3.jpg" class="img-thumbnail epaper-info-img"></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Clients -->
+        <!-- Footer -->
+        
+<!--Foot開始-->
+<div class="footer">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-footer col-md-2 col-xs-6">
+                <h3>
+                    無障礙</h3>
+                <ul class="no-list-style" style="text-align:center">
+                    <li><img src="images/a.jpg" width="88" height="31" alt="通過A+優先等級無障礙網頁檢測"/></li>
+                </ul>
+            </div>
+            <div class="col-footer col-md-4 col-xs-6">
+                <h3>
+                    導覽</h3>
+                <ul class="no-list-style ">
+                    <li><a href="EnglishHome/index.aspx">English</a></li>
+                    <li><a href="Home/aboutMap.aspx">網站導覽</a></li>
+                    <li><a href="Home/AgreeAdd.aspx?type=new">意見箱 </a></li>
+                    <li><a href="Home/Privacy.aspx">隱私權聲明</a></li>
+                </ul>
+            </div>
+            <div class="col-footer col-md-4 col-xs-6">
+                <h3>
+                    聯絡資訊</h3>
+                <p class="no-list-style">
+                    <b>地址:</b> 新竹市香山區大湖路51巷1號<br />
+                    <b>電話:</b> 03-5185076<br />
+                    <b>電子郵件:</b> <a href="mailto:tatm@mail.atri.org.tw">tatm@mail.atri.org.tw</a>
+                </p>
+            </div>
+            <div class="col-footer col-md-2 col-xs-6">
+                <h3>
+                    QR Code</h3>
+                <ul class="footer-stay-connected no-list-style">
+                    <li>
+                        <img src="images/QR-CH.jpg" class="img-responsive" alt="Responsive image"/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-copyright">Taiwan Agriculture TechnoMart (TATM) 行政院農業委員會  © 版權所有2015.  All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Foot結束-->
+        <div id="gotop"><img src="images/pagetop.png" width="40" height="40" alt="gotop"></div>    
+        <!-- Javascripts -->
+
+        <script>window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>')</script>
+
+        <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+
+        <script src="js/jquery.fitvids.js"></script>
+
+        <script src="js/jquery.sequence-min.js"></script>
+
+        <script src="js/jquery.bxslider.js"></script>
+
+        <script src="js/main-menu.js"></script>
+
+        <script src="js/template.js"></script>
+        <script>
+        
+            if(typeof String.prototype.trim !== 'function') {
+              String.prototype.trim = function() {
+                return this.replace(/^\s+|\s+$/g, ''); 
+              }
+            }        
+        
+            $(document).ready(function(){
+                $(".date-mmdd").each(function(){
+                    var date = $(this).text().split(" ")[0];
+                    date = date.split("/");
+                    if( date[0].length > date[2].length  ){
+                        $(this).text( ((date[1].length == 1) ? "0" + date[1] + "/" : date[1] + "/")  + ((date[2].length == 1) ? "0" + date[2] : date[2]));
+                    } else {
+                        $(this).text( ((date[0].length == 1) ? "0" + date[0] + "/" : date[0] + "/")  + ((date[1].length == 1) ? "0" + date[1] : date[1]));
+                    }
+                });          
+                 
+                //技轉公告 隨機選3個
+                GetRandom3($(".tech-tran-data"));
+                var $techTranData = $(".tech-tran-data:visible");
+                if( $techTranData.size() > 0){
+                    var i = parseInt(Math.random()*100%$techTranData.size(),10);
+                    var topImgSrc = $techTranData.eq(i).find("img").attr("src"); 
+                    if( topImgSrc != undefined && topImgSrc.indexOf("mapno=&") == -1 ){
+                        $(".tech-tran-top-img").attr("src", topImgSrc ).css({ width:"541px",height:"225px" });
+                    }
+                    $(".tech-tran-top-link").attr("href",  $techTranData.eq(i).find(".tech-tran-title").attr("href") );
+                    $(".tech-tran-top-date").text(  $techTranData.eq(i).find(".tech-tran-title").text() );
+                }
+                
+                
+                //活動消息 隨機選3個
+                GetRandom3($(".act-meg-data")); 
+                var i = parseInt(Math.random()*100%$(".act-meg-data").size(),10);
+                if($(".act-meg-data").size() > 0){
+                    var topImgSrc = $(".act-meg-data").eq(i).find("img").attr("src"); 
+                    if( topImgSrc != undefined && topImgSrc.indexOf("mapno=&") == -1 ){
+                        $(".act-meg-top-img").attr("src", topImgSrc ).css({ width:"346px",height:"212px" });
+                    }
+                    $(".act-meg-top-title").text( $(".act-meg-title").eq(i).text() );
+                    $(".act-meg-top-link").attr("href", $(".act-meg-title").eq(i).attr("href") );                
+                }
+ 
+                
+                //農業相關新聞 隨機選3個
+                GetRandom3($(".fram-news-data"));
+                var i = parseInt(Math.random()*100%$(".fram-news-data").size(),10);
+                if($(".fram-news-data").size() > 0){
+                    var topImgSrc = $(".fram-news-data").eq(i).find("img").attr("src"); 
+                    if( topImgSrc != undefined && topImgSrc.indexOf("mapno=&") == -1 ){
+                        $(".fram-news-top-img").attr("src", topImgSrc );
+                    }
+                    $(".fram-news-top-title").text( $(".fram-news-title").eq(i).text() );   
+                    $(".fram-news-top-link").attr("href", $(".fram-news-title").eq(i).attr("href") );              
+                } 
+                
+                //熱門研發精品 隨機取圖片
+                var i = parseInt(Math.random()*100%3,10);
+                $(".class-info-top-img").attr("src",$(".class-info-img").eq(i).attr("src")).css({ width:"541px",height:"225px" });
+
+                //$(".class-info-top-link").attr("href",$(".class-info-data").eq(i).attr("href"));
+                
+                //技轉商品 隨機取圖片
+                if( $(".atm-content-img").size() != 0 ){
+                    var i = parseInt(Math.random()*100%$(".atm-content-img").size(),10);
+                    $(".atm-content-img").eq(i).show().css({ width:"346px",height:"212px" });
+                } else if( $(".atm-content-default-img").size() > 0) {
+                    var i = parseInt(Math.random()*100%$(".atm-content-default-img").size(),10);
+                    $(".atm-content-default-img").eq(i).show();
+                }
+                
+                //技轉商品左上title
+                $(".atm-content-top-title").text($(".atm-content-title").text());
+                $(".atm-content-top-link").attr("href",$(".atm-content-title").attr("href"));
+                
+                
+                //post-info 沒內容就隱藏
+                $(".post-info").each(function(){
+                    if( $(this).text().trim().length == 0 ) {
+                        $(this).hide();
+                    }
+                });
+                
+                //技術快訊 重複的資料隱藏
+                var preMapNo = "";
+                $(".tech-news-data").each(function(i){
+                    if(i != 0){
+                        if( $(this).find(".map-no").text() == preMapNo) {
+                            $(this).hide();
+                        }
+                    }
+                    preMapNo = $(this).find(".map-no").text();
+                });
+                //技術快訊 圖片
+                $(".tech-news-data:visible").each(function(i){
+                    //$(this).find(".left-pic").attr("src","images/news"+(i+1)+".jpg");
+                });
+                
+                //農業相關新聞 隨機取圖片
+                var farmnews = getRandom(1,4);
+                if (farmnews == 1) {
+                    $(this).find(".fram-news-top-img").attr("src","images/blog6.jpg");
+                }
+                else if (farmnews == 2) {
+                    $(this).find(".fram-news-top-img").attr("src","images/blog6-01.jpg");
+                }
+                else if (farmnews == 3) {
+                    $(this).find(".fram-news-top-img").attr("src","images/blog6-02.jpg");
+                }
+                else if (farmnews == 4) {
+                    $(this).find(".fram-news-top-img").attr("src","images/blog6-03.jpg");
+                }
+                
+                //專屬授權預告、農業技術交易展、TATM電子報 隨機取圖片
+                var carousel = getRandom(1,4);
+                if (carousel == 1) {
+                    $(this).find(".warrpred-info-img").attr("src","images/banner1.jpg");
+                    $(this).find(".techshow-info-img").attr("src","images/banner2.jpg");
+                    $(this).find(".epaper-info-img").attr("src","images/banner3.jpg");
+                }
+                else if (carousel == 2) {
+                    $(this).find(".warrpred-info-img").attr("src","images/banner4.jpg");
+                    $(this).find(".techshow-info-img").attr("src","images/banner5.jpg");
+                    $(this).find(".epaper-info-img").attr("src","images/banner6.jpg");
+                }
+                else if (carousel == 3) {
+                    $(this).find(".warrpred-info-img").attr("src","images/banner7.jpg");
+                    $(this).find(".techshow-info-img").attr("src","images/banner8.jpg");
+                    $(this).find(".epaper-info-img").attr("src","images/banner9.jpg");
+                 }
+                 else if (carousel == 4) {
+                    $(this).find(".warrpred-info-img").attr("src","images/banner10.jpg");
+                    $(this).find(".techshow-info-img").attr("src","images/banner11.jpg");
+                    $(this).find(".epaper-info-img").attr("src","images/banner12.jpg");
+                 }
+                
+                //日期轉換
+                $(".date-format1").each(function(){
+                    
+                    $(this).text( TimeFormat1($(this).text().trim().split(" ")[0]) );
+                });
+            });
+            
+            
+            function GetRandom3(items){
+                var count=3;
+                var size = items.size();
+                if( size >= 4 ) {
+                    items.hide();
+                }
+                while(count > 0 && size >= 4){
+                     var i = parseInt(Math.random()*100%size,10);
+                    if( !items.eq(i).is(":visible") ){
+                        items.eq(i).show();
+                        count--;
+                    }
+                }            
+            }
+            
+            function TimeFormat1(date){
+                var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+                d = new Date(date);
+                return d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear() ;
+            }
+            
+             function GetRandom4(){
+                var j = parseInt(Math.random()*100%2,10);
+                return j; 
+            }
+            
+            function getRandom(min,max){
+                return Math.floor(Math.random()*(max-min+1))+min;
+            };
+        </script>
+        <script type="text/javascript">
+        $(function(){
+            $("#gotop").click(function(){
+                jQuery("html,body").animate({
+                    scrollTop:0
+                },1000);
+            });
+            $(window).scroll(function() {
+                if ( $(this).scrollTop() > 300){
+                    $('#gotop').fadeIn("fast");
+                } else {
+                    $('#gotop').stop().fadeOut("fast");
+                }
+            });
+        });
+        </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "year": 2016,
+    "population": 23540,
+    "labor_force_thousands": 11727,
+    "employment_thousands": 11267,
+    "agriculture_thousands": 557,
+    "industrial_population_percent": "35.88",
+    "service_population_percent": "59.17",
+    "agricultural_production_index": "89.99",
+    "industrial_production_index": 106,
+    "GDP_NT_dollar": 17685971,
+    "GDP_US_dollar": 547402,
+    "indices_wholesale_prices": "84.8",
+    "index_rural_consumerprices": "105.1"
+  },
+  {
+    "year": 2015,
+    "population": 23492,
+    "labor_force_thousands": 11638,
+    "employment_thousands": 11198,
+    "agriculture_thousands": 555,
+    "industrial_population_percent": "36.03",
+    "service_population_percent": "59.02",
+    "agricultural_production_index": "94.89",
+    "industrial_production_index": 104,
+    "GDP_NT_dollar": 17317917,
+    "GDP_US_dollar": 542711,
+    "indices_wholesale_prices": "87.41",
+    "index_rural_consumerprices": "103.65"
+  },
+  {
+    "year": 2014,
+    "population": 23434,
+    "labor_force_thousands": 11535,
+    "employment_thousands": 11079,
+    "agriculture_thousands": 548,
+    "industrial_population_percent": "36.14",
+    "service_population_percent": "58.91",
+    "agricultural_production_index": "98.39",
+    "industrial_production_index": 106,
+    "GDP_NT_dollar": 16582405,
+    "GDP_US_dollar": 546013,
+    "indices_wholesale_prices": "95.89",
+    "index_rural_consumerprices": "103.97"
+  },
+  {
+    "year": 2013,
+    "population": 23374,
+    "labor_force_thousands": 11445,
+    "employment_thousands": 10967,
+    "agriculture_thousands": 544,
+    "industrial_population_percent": "36.16",
+    "service_population_percent": "58.89",
+    "agricultural_production_index": "97.13",
+    "industrial_production_index": 100,
+    "GDP_NT_dollar": 15646211,
+    "GDP_US_dollar": 525570,
+    "indices_wholesale_prices": "96.44",
+    "index_rural_consumerprices": "102.74"
+  }
+]

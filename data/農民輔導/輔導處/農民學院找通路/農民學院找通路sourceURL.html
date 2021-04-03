@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw"><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>農民學院</title>
+<!-- InstanceEndEditable -->
+
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<!-- 小圖示 -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<style>
+.lightbox .eb input[name="pwd"] { padding-right:40px; }
+.fa-eye ,.fa-eye-slash { float:right;margin-right:10px;margin-top:-29px;position:relative;z-index:2;cursor:pointer;color:#444;font-size:18px; }
+.fa-eye { display:none; }
+</style>
+
+<script src="js/jquery.js"></script>
+<script src="js/general.js"></script>
+<script src="js/jquery.blockUI.js"></script>
+<script>
+$(document).ready(function(){
+	//肥腳開關控制
+	var status="default";
+	if( status=='default' ){
+		if( $(window).width() >= '1007' ){
+			status='open';
+		}else{
+			status='close';
+		}
+		//console.log($(window).width());
+	}
+	$(".footer_control").trigger({
+		type:"click",
+		status:status
+	});
+});
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<link href="css/training.css" rel="stylesheet" type="text/css" />
+<link href="css/signup.css" rel="stylesheet" type="text/css" />
+<script>
+$(document).ready(function() {
+	$('.find_btn').click(function(){
+		var is_login='N';
+		if(is_login=='N'){
+			alert('請先登入');
+			location.href = 'member.php?func=login';
+		}else{
+			form_name = eval("document.form_"+$(this).attr("id"));
+			form_name.submit();
+		}
+		return false;
+	});
+});
+</script>
+<!-- InstanceEndEditable -->
+
+
+    <!-- Google GATC -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58270926-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+
+<!--header-->
+<div class="header fixed"><!--手機板開啟menu取消fixed-->
+  <div class="heb">
+    <a class="logo" href="index.php"><img src="images/layout/logo.png" alt="農民學院" title="農民學院"/></a>
+    <!--mobile_menu-->
+    <a class="mobile_menu" href="javascript:void(0);" id="open">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </a>
+    <a class="mobile_menu" href="javascript:void(0);" id="close" style="display:none;">
+      <div class="line" style="transform: rotate(45deg);position: relative;top: 10px;"></div>
+      <div class="line" style="transform: rotate(-45deg);"></div>
+    </a>
+    <!--EDN_mobile_menu-->
+    <div class="h_edit">
+      <div class="right_block">
+        				<a id="login" class="member" href="javascript:void(0);" title="學員登入">學員登入<img src="images/layout/member_icon.png" alt="學員登入"/></a>
+				        <div class="keyword"><form id="site_search_form" name="site_search_form" method="post" action="site_search.php">
+				<input id="kwd" name="kwd" type="text" value="請輸入關鍵字"/><img id="search_submit" src="images/layout/search_icon.png" alt="搜尋" title="搜尋"/></form></div>
+        <a class="fb" href="list.php?id=55" target="_blank" title="農人新樂園粉絲團"><img src="images/layout/facebook_icon.png" alt="農人新樂園粉絲團"/></a>
+        <a class="rss" href="rss.php" title="RSS訂閱"><img src="images/layout/rss_icon.png" alt="RSS訂閱"/></a>
+        <div class="m2"><a href="list.php?id=716" title="網站導覽">網站導覽</a>
+			<a href="list.php?id=28" title="關於學院">關於學院</a>
+			<a href="consult.php" title="線上諮詢">線上諮詢</a>
+			<a href="list.php?id=112" title="電子報">電子報</a>
+			<a href="list.php?id=70" title="文件下載">文件下載</a>
+			<a href="list.php?id=27" title="學員專區">學員專區</a></div>
+      </div>
+      <div class="m_edit"><div class="menu_detail"><a href="list.php?id=95" title="農業新知">農業新知</a><div class="mdd"><a href="list.php?id=131" title="全部" >全部</a><a href="list.php?id=96" title="農業焦點" >農業焦點</a><a href="list.php?id=97" title="課程快報" >課程快報</a><a href="list.php?id=98" title="市集活動" >市集活動</a><a href="list.php?id=99" title="研習活動" >研習活動</a><a href="list.php?id=742" title="新農記事" >新農記事</a><a href="list.php?id=814" title="電子書庫" >電子書庫</a></div></div><div class="menu_detail"><a href="list.php?id=19" title="訓練課程">訓練課程</a><div class="mdd"><a href="list.php?id=757" title="報名教學" >報名教學</a><a href="list.php?id=22" title="農業入門" >農業入門</a><a href="list.php?id=23" title="初階訓練" >初階訓練</a><a href="list.php?id=24" title="進階訓練" >進階訓練</a><a href="list.php?id=25" title="高階訓練" >高階訓練</a><a href="list.php?id=46" title="研習活動" >研習活動</a><a href="list.php?id=135" title="線上學習" >線上學習</a></div></div><div class="menu_detail"><a href="list.php?id=516" title="農業徵才">農業徵才</a><div class="mdd"><a href="recruitment.php" title="徵才說明">徵才說明</a><a href="recruitment.php?func=apply" title="刊登申請">刊登申請</a></div></div><div class="menu_detail"><a href="list.php?id=53" title="農場見習">農場見習</a><div class="mdd"><a href="list.php?id=54" title="見習要點" >見習要點</a><a href="list.php?id=132" title="見習工作" >見習工作</a><a href="list.php?id=125" title="錄取名單" >錄取名單</a><a href="list.php?id=579" title="學生見習" >學生見習</a></div></div><div class="menu_detail"><a href="list.php?id=170" title="找通路">找通路</a><div class="mdd"><a href="list.php?id=179" title="數位通路" >數位通路</a><a href="list.php?id=181" title="農會展售中心" >農會展售中心</a><a href="list.php?id=88" title="農民市集" >農民市集</a><a href="list.php?id=689" title="量販超市" >量販超市</a><a href="list.php?id=180" title="加工與餐飲業者" >加工與餐飲業者</a></div></div><div class="menu_detail"><a href="list.php?id=171" title="找產品">找產品</a><div class="mdd"><a href="list.php?id=172" title="農產品" >農產品</a><a href="list.php?id=176" title="加工品" >加工品</a><a href="list.php?id=175" title="水產品" >水產品</a><a href="list.php?id=174" title="畜產品" >畜產品</a><a href="list.php?id=1257" title="青農電子型錄" >青農電子型錄</a></div></div><div class="menu_detail"><a href="list.php?id=36" title="好幫手">好幫手</a><div class="mdd"><a href="list.php?id=243" title="農糧類" >農糧類</a><a href="list.php?id=244" title="畜牧類" >畜牧類</a><a href="list.php?id=245" title="休閒類" >休閒類</a><a href="list.php?id=246" title="水產養殖類" >水產養殖類</a><a href="list.php?id=693" title="農業新手包" >農業新手包</a></div></div><div class="menu_detail"><a href="list.php?id=42" title="同學會">同學會</a><div class="mdd"><a href="list.php?id=55" title="農人新樂園粉絲團" target="_blank">農人新樂園粉絲團</a></div></div><div class="menu_detail"><a href="list.php?id=795" title="食農推廣">食農推廣</a><div class="mdd"><a href="list.php?id=802" title="學童體驗" >學童體驗</a><a href="list.php?id=803" title="親子體驗" >親子體驗</a><a href="list.php?id=817" title="大眾體驗" >大眾體驗</a></div></div></div>
+    </div>
+  </div>
+  <div class="menu"></div>
+  <div class="mobile_member">
+						<a id="login_mobile" class="member" href="javascript:void(0);" title="學員登入">學員登入<img src="images/layout/member_icon.png" alt="學員登入"/></a>
+						<a class="fb" href="list.php?id=55" target="_blank" title="農人新樂園粉絲團"><img src="images/layout/facebook_icon.png" alt="農人新樂園粉絲團"/></a>
+			<a class="rss" href="rss.php" title="RSS訂閱"><img src="images/layout/rss_icon.png" alt="RSS訂閱"/></a>
+	</div>
+  <div class="mobile">
+			<div class="mobile_search">
+					<div class="mobile_search_input">
+							<form id="site_search_form_mobile" name="site_search_form_mobile" method="post" action="site_search.php">
+										<input id="kwd_m" name="kwd" type="text" value="請輸入關鍵字"/>
+							</form>
+					</div>
+					<div class="mobile_search_img"><img id="search_submit_mobile" src="images/layout/search_icon.png" alt="搜尋" title="搜尋"/></div>
+					<div style="clear:both;"></div>
+			</div>
+			<div class="mobile_div_one"><div class="mobile_detail">農業新知</div><div class="mobile_mdd"><a href="list.php?id=131" title="全部">全部</a><a href="list.php?id=96" title="農業焦點">農業焦點</a><a href="list.php?id=97" title="課程快報">課程快報</a><a href="list.php?id=98" title="市集活動">市集活動</a><a href="list.php?id=99" title="研習活動">研習活動</a><a href="list.php?id=742" title="新農記事">新農記事</a><a href="list.php?id=814" title="電子書庫">電子書庫</a></div></div><div class="mobile_div_one"><div class="mobile_detail">訓練課程</div><div class="mobile_mdd"><a href="list.php?id=757" title="報名教學">報名教學</a><a href="list.php?id=22" title="農業入門">農業入門</a><a href="list.php?id=23" title="初階訓練">初階訓練</a><a href="list.php?id=24" title="進階訓練">進階訓練</a><a href="list.php?id=25" title="高階訓練">高階訓練</a><a href="list.php?id=46" title="研習活動">研習活動</a><a href="list.php?id=135" title="線上學習">線上學習</a></div></div><div class="mobile_div_one"><div class="mobile_detail">農業徵才</div><div class="mobile_mdd"><a href="recruitment.php" title="徵才說明">徵才說明</a><a href="recruitment.php?func=apply" title="刊登申請">刊登申請</a></div></div><div class="mobile_div_one"><div class="mobile_detail">農場見習</div><div class="mobile_mdd"><a href="list.php?id=54" title="見習要點">見習要點</a><a href="list.php?id=132" title="見習工作">見習工作</a><a href="list.php?id=125" title="錄取名單">錄取名單</a><a href="list.php?id=579" title="學生見習">學生見習</a></div></div><div class="mobile_div_one"><div class="mobile_detail">找通路</div><div class="mobile_mdd"><a href="list.php?id=179" title="數位通路">數位通路</a><a href="list.php?id=181" title="農會展售中心">農會展售中心</a><a href="list.php?id=88" title="農民市集">農民市集</a><a href="list.php?id=689" title="量販超市">量販超市</a><a href="list.php?id=180" title="加工與餐飲業者">加工與餐飲業者</a></div></div><div class="mobile_div_one"><div class="mobile_detail">找產品</div><div class="mobile_mdd"><a href="list.php?id=172" title="農產品">農產品</a><a href="list.php?id=176" title="加工品">加工品</a><a href="list.php?id=175" title="水產品">水產品</a><a href="list.php?id=174" title="畜產品">畜產品</a><a href="list.php?id=1257" title="青農電子型錄">青農電子型錄</a></div></div><div class="mobile_div_one"><div class="mobile_detail">好幫手</div><div class="mobile_mdd"><a href="list.php?id=243" title="農糧類">農糧類</a><a href="list.php?id=244" title="畜牧類">畜牧類</a><a href="list.php?id=245" title="休閒類">休閒類</a><a href="list.php?id=246" title="水產養殖類">水產養殖類</a><a href="list.php?id=693" title="農業新手包">農業新手包</a></div></div><div class="mobile_div_one"><div class="mobile_detail">同學會</div><div class="mobile_mdd"><a href="list.php?id=55" title="農人新樂園粉絲團">農人新樂園粉絲團</a></div></div><div class="mobile_div_one"><div class="mobile_detail">食農推廣</div><div class="mobile_mdd"><a href="list.php?id=802" title="學童體驗">學童體驗</a><a href="list.php?id=803" title="親子體驗">親子體驗</a><a href="list.php?id=817" title="大眾體驗">大眾體驗</a></div></div><div class="mobile_div_one"><div class="mobile_detail">學員專區</div><div class="mobile_mdd"><a href="list.php?id=79" title="學習紀錄" >學習紀錄</a><a href="list.php?id=80" title="報名繳費紀錄" >報名繳費紀錄</a><a href="list.php?id=81" title="生產歷程" >生產歷程</a><a href="list.php?id=82" title="通路管理" >通路管理</a><a href="list.php?id=83" title="個人資料" >個人資料</a><a href="list.php?id=84" title="上傳證明文件" >上傳證明文件</a><a href="list.php?id=70" title="文件下載" >文件下載</a><a href="list.php?id=85" title="見習報名紀錄" >見習報名紀錄</a><a href="list.php?id=86" title="見習自我評核表" >見習自我評核表</a><a href="list.php?id=87" title="訓練成效線上調查" >訓練成效線上調查</a></div></div><div id="different_menu" class="mobile_div_one"><a href="list.php?id=716" title="網站導覽"><div class="mobile_detail">網站導覽</div></a>
+			<a href="list.php?id=28" title="關於學院"><div class="mobile_detail">關於學院</div></a>
+			<a href="consult.php" title="線上諮詢"><div class="mobile_detail">線上諮詢</div></a>
+			<a href="list.php?id=112" title="電子報"><div class="mobile_detail">電子報</div></a>
+			<a href="list.php?id=70" title="文件下載"><div class="mobile_detail">文件下載</div></a></div>
+	</div>
+</div>
+<!--EDN_header-->
+
+<!--banner-->
+<div class="photo"><a href="javascript:void(0);" title="訓練、學習，是成功的必經過程" target="_self"><img src="files/banner/banner_1490865878/banner_2.jpg" alt="訓練、學習，是成功的必經過程"/></a></div>
+<!--EDN_banner-->
+
+<!--print-->
+<div class="print_logo"><a class="logo" href="index.php"><img src="images/layout/logo.png" alt="農民學院" title="農民學院"/></a></div>
+<div class="print_information">
+  <div class="data">
+      <div class="text" style="width:100%;"><a href="index.php">首頁</a><span>></span><a href="channel.php?sub_theme=D">找通路</a></div>
+      <div class="btn">
+          <a id="close_btn" class="button" href="javascript:void(0);"><img src="images/training/information_printer.png" alt="取消列印"/>取消列印</a>
+          <a id="print_btn" class="button" href="javascript:void(0);"><img src="images/training/information_printer.png" alt="列印本頁"/>列印本頁</a>
+      </div>
+      <div style="clear:both;"></div>
+  </div>
+</div>
+<!--EDN_print-->
+
+<!--information-->
+<div class="information">
+  <div class="data">
+      <div role="navigation" class="text"><a href="index.php">首頁</a><span>></span><a href="channel.php?sub_theme=D">找通路</a></div>
+      <div class="btn">
+          <a id="friendly_print" class="button" href="/channel.php?sub_theme=D&print=Y" title="友善列印" target="_blank"><img src="images/training/information_printer.png" alt="友善列印"/>友善列印</a>                </div>
+      <div style="clear:both;"></div>
+  </div>
+</div>
+<!--EDN_information-->
+
+<div class="eb">
+  <!--left-->
+  <div class="left"><!--打開menu將left換成leftopen,另將right關閉-->
+            
+    <div class="rb">
+      <a class="mbbtitle" href="list.php?id=19">訓練課程</a>
+      <div class="mbb"><a id="CategoryB" class="mbbmenu" href="javascript:void(0);"><img src="images/index/b01_B_hover.png" alt="農業入門"/>農業入門</a><div class="mbbmenu02" id="mbbmenu02_CategoryB"><a class="color03" href="course.php?WS_id=22&grade_id=B">全部</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS001">農糧類</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS002">畜產類</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS003">休閒類</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS004">水產養殖類</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS005">經營管理類</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS006">安全驗證</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS007">數位課程</a><a class="color03" href="course.php?WS_id=22&grade_id=B&skill_type=TS999">其他</a></div></div><div class="mbb"><a id="CategoryC" class="mbbmenu" href="javascript:void(0);"><img src="images/index/b01_C_hover.png" alt="初階訓練"/>初階訓練</a><div class="mbbmenu02" id="mbbmenu02_CategoryC"><a class="color03" href="course.php?WS_id=23&grade_id=C">全部</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS001">農糧類</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS002">畜產類</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS003">休閒類</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS004">水產養殖類</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS005">經營管理類</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS006">安全驗證</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS007">數位課程</a><a class="color03" href="course.php?WS_id=23&grade_id=C&skill_type=TS999">其他</a></div></div><div class="mbb"><a id="CategoryD" class="mbbmenu" href="javascript:void(0);"><img src="images/index/b01_D_hover.png" alt="進階訓練"/>進階訓練</a><div class="mbbmenu02" id="mbbmenu02_CategoryD"><a class="color03" href="course.php?WS_id=24&grade_id=D">全部</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS001">農糧類</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS002">畜產類</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS003">休閒類</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS004">水產養殖類</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS005">經營管理類</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS006">安全驗證</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS007">數位課程</a><a class="color03" href="course.php?WS_id=24&grade_id=D&skill_type=TS999">其他</a></div></div><div class="mbb"><a id="CategoryE" class="mbbmenu" href="javascript:void(0);"><img src="images/index/b01_E_hover.png" alt="高階訓練"/>高階訓練</a><div class="mbbmenu02" id="mbbmenu02_CategoryE"><a class="color03" href="course.php?WS_id=25&grade_id=E">全部</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS001">農糧類</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS002">畜產類</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS003">休閒類</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS004">水產養殖類</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS005">經營管理類</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS006">安全驗證</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS007">數位課程</a><a class="color03" href="course.php?WS_id=25&grade_id=E&skill_type=TS999">其他</a></div></div><div class="mbb"><a id="CategoryI" class="mbbmenu" href="javascript:void(0);"><img src="images/index/b01_I_hover.png" alt="研習活動"/>研習活動</a><div class="mbbmenu02" id="mbbmenu02_CategoryI"><a class="color03" href="course.php?WS_id=46&grade_id=I">全部</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS001">農糧類</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS002">畜產類</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS003">休閒類</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS004">水產養殖類</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS005">經營管理類</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS006">安全驗證</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS007">數位課程</a><a class="color03" href="course.php?WS_id=46&grade_id=I&skill_type=TS999">其他</a></div></div>
+    </div>
+    <a class="mbb02" href="list.php?id=757"><img src="images/layout/right_icon01.png" alt="報名操作教學"/>報名操作教學</a>
+    <a class="mbb02" href="list.php?id=135"><img src="images/layout/right_icon02.png" alt="線上學習"/>線上學習</a>
+    <a class="mbbclose" href="#">關閉選單</a>
+  </div>
+  <!--EDN_left-->
+  
+  <!-- InstanceBeginEditable name="content" -->
+  <!--content-->
+  <div class="right">
+    <div class="title">找通路<span>Search For Channel</span></div>
+    <div class="bookmark"><a class="btns hold" href="channel.php?sub_theme=D" >數位通路</a><a class="btns " href="channel.php?sub_theme=F" >農會展售中心</a><a class="btns " href="channel.php?sub_theme=K" >量販超市</a><a class="btns " href="channel.php?sub_theme=M" >農民市集</a><a class="btns " href="channel.php?sub_theme=P" >加工與餐飲業者</a></div>    
+    <!--搜尋-->
+    <form id="form1" name="form1" method="post">
+    <div class="search_term">
+        <div class="selectbox">
+        	<div class="stable">
+                <div class="stitles01">安全等級：</div>
+                <div class="space"><select name="search[verify_marker]" onchange="document.form1.submit();"><option value="">請選擇</option><option value="TAP" >TAP產銷履歷農產品</option><option value="CAS" >CAS優良農產品</option><option value="organic" >台灣有機農產品</option><option value="preorganic" >有機認證轉型期</option><option value="NOpesticide" >農藥檢驗符合國家安全標準容許範圍內</option><option value="bee" >國產蜂</option><option value="milk" >國產鮮乳</option></select></div>
+            </div>
+        </div>
+    	<div class="selectbox">
+        	<div class="stable">
+                                <div class="stitles01">產品需求：</div>
+                <div class="space">
+                	<select name="search[crop_type]" onchange="document.form1.submit();"><option value="">請選擇</option><option value="100" >無特定作物</option><option value="101" >木瓜</option><option value="102" >荔枝</option><option value="103" >鳳梨</option><option value="104" >菇類</option><option value="105" >水稻</option><option value="106" >蘭花</option><option value="107" >葉菜類</option><option value="108" >草苺</option><option value="109" >綠竹</option><option value="110" >蜂</option><option value="111" >葡萄</option><option value="112" >柑桔</option><option value="113" >芒果</option><option value="115" >番石榴</option><option value="116" >蓮霧</option><option value="117" >棗</option><option value="118" >檸檬</option><option value="119" >果菜類</option><option value="120" >文旦</option><option value="121" >保健及香草植物</option><option value="122" >茶葉</option><option value="123" >花卉</option><option value="201" >豬</option><option value="202" >牛</option><option value="203" >羊</option><option value="204" >馬</option><option value="205" >鹿</option><option value="206" >兔</option><option value="207" >雞</option><option value="208" >鴕鳥</option><option value="209" >鴨</option><option value="210" >鵝</option><option value="301" >蝦</option><option value="302" >魚</option><option value="151" >玉米</option><option value="152" >甘藷</option><option value="153" >落花生</option><option value="154" >高粱</option><option value="155" >紅豆</option><option value="156" >大豆</option><option value="157" >其他雜糧</option><option value="147" >甘蔗</option><option value="148" >菸草</option><option value="149" >胡麻</option><option value="150" >其他特用作物</option><option value="145" >根菜類</option><option value="146" >莖菜類</option><option value="125" >香蕉</option><option value="126" >柳橙</option><option value="127" >葡萄柚</option><option value="128" >其他雜柑類</option><option value="129" >龍眼</option><option value="130" >檳榔</option><option value="131" >枇杷</option><option value="132" >李</option><option value="133" >桃</option><option value="134" >柿</option><option value="135" >梅</option><option value="136" >橄欖</option><option value="137" >楊桃</option><option value="138" >梨</option><option value="139" >蘋果</option><option value="141" >番荔枝(釋迦)</option><option value="142" >百香果</option><option value="143" >可可椰子</option><option value="144" >其他青果類</option><option value="303" >貝類</option></select>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <div class="search"><img src="images/training/search_icon.png" alt="關鍵字"/><p>關鍵字：</p><div class="searchbtn"><input name="search[kw]" type="text" id="search[kw]" value="" size="15" maxlength="15" /><a href="javascript:void(0);" onclick="document.form1.submit();">查詢</a></div></div>
+    </form>
+    <!--END_搜尋-->
+    <div class="table">
+      <!--head-->
+      <div class="tb01 mobnone">
+        <div class="tbb">
+          <div class="tbb19 tbball">通路名稱</div>
+          <div class="spacing"></div>
+          <div class="tbb20 tbball">產品需求</div>
+          <div class="spacing"></div>
+          <div class="tbb21 tbball">安全等級</div>
+          <div class="spacing"></div>
+          <div class="tbb22 tbball">合作模式</div>
+          <div class="spacing"></div>
+          <div class="tbb23 tbball"></div>
+        </div>
+      </div>
+      <!--END_head-->
+      
+      <!--one-->
+                          <div class="tb02">
+            <div class="tbb" onclick="window.open('https://lihi1.com/uRFUi')" onkeypress="window.open('https://lihi1.com/uRFUi')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">iDealEZ 買賣旺跨境銷售平台</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">台灣各地特色伴手禮 / 農特產禮盒 (適合跨國運送商品)</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">請詳見網站說明</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1575979433">我要申請</a></div>
+              <form id="form_market_unit_1575979433" name="form_market_unit_1575979433" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1575979433" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('https://www.twfenghe.com/')" onkeypress="window.open('https://www.twfenghe.com/')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">豐禾健康蔬果股份有限公司</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">無特定作物新鮮蔬菜及水果</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">買斷</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1460081052">我要申請</a></div>
+              <form id="form_market_unit_1460081052" name="form_market_unit_1460081052" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1460081052" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('https://www.dch.com.hk/?lang=tc')" onkeypress="window.open('https://www.dch.com.hk/?lang=tc')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">大昌行集團</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">木瓜,荔枝,鳳梨,草苺,葡萄,柑桔,芒果,番石榴,蓮霧,棗,檸檬,文旦,其他特用作物,香蕉,柳橙,葡萄柚,其他雜柑類,龍眼,枇杷,李,柿,梅,橄欖,楊桃,梨,蘋果,番荔枝(釋迦),百香果,可可椰子,其他青果類生鮮品,加工品,快銷品</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">買斷</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1440748566">我要申請</a></div>
+              <form id="form_market_unit_1440748566" name="form_market_unit_1440748566" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1440748566" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('http://www.pengching.com')" onkeypress="window.open('http://www.pengching.com')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">原礦家</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">有機蔬果,有機茶葉</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="safetxt">原礦家有機農法</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">依照產品不同會有不同合作方式</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1427785809">我要申請</a></div>
+              <form id="form_market_unit_1427785809" name="form_market_unit_1427785809" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1427785809" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" >
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">艾川禾有限公司</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">果菜類,其他青果類</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text"></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1406191738">我要申請</a></div>
+              <form id="form_market_unit_1406191738" name="form_market_unit_1406191738" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1406191738" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('http://okogreen.com.tw/')" onkeypress="window.open('http://okogreen.com.tw/')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">生態綠</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">無特定作物加工品,原物料</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">經銷、零售</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1406189044">我要申請</a></div>
+              <form id="form_market_unit_1406189044" name="form_market_unit_1406189044" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1406189044" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('https://www.newsmarket.com.tw/')" onkeypress="window.open('https://www.newsmarket.com.tw/')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">上下游文化工廠</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">無特定作物加工品</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="simgs"><img src="images/bee.png" style="height:40px;" title="國產蜂" alt="國產蜂"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">買斷</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1406186159">我要申請</a></div>
+              <form id="form_market_unit_1406186159" name="form_market_unit_1406186159" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1406186159" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('https://www.buynearby.com.tw/buynearby/index.php')" onkeypress="window.open('https://www.buynearby.com.tw/buynearby/index.php')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">鄰鄉良食</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">無特定作物生鮮品,加工品</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">買斷</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1406186134">我要申請</a></div>
+              <form id="form_market_unit_1406186134" name="form_market_unit_1406186134" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1406186134" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('http://www.ego888.com.tw/')" onkeypress="window.open('http://www.ego888.com.tw/')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">台糖健康易購網</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">無特定作物水產品.豆類製品.新鮮蔬果</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">買斷、寄賣、上架</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1406185681">我要申請</a></div>
+              <form id="form_market_unit_1406185681" name="form_market_unit_1406185681" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1406185681" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                    <div class="tb02">
+            <div class="tbb" onclick="window.open('http://www.hug.com.tw/hug/index.aspx')" onkeypress="window.open('http://www.hug.com.tw/hug/index.aspx')">
+              <div class="tbb19 tbball">
+                <span>通路名稱：</span>
+                <div class="d_text">Hug網路超市</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb20 tbball">
+                <span>產品需求：</span>
+                <div class="d_text">無特定作物食品.農產品</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb21 tbball">
+                <span>安全等級：</span>
+                <div class="d_text"><div class="simgs"><img src="images/TAP.png" style="height:40px;" title="TAP產銷履歷農產品" alt="TAP產銷履歷農產品"></div><div class="simgs"><img src="images/CAS.png" style="height:40px;" title="CAS優良農產品" alt="CAS優良農產品"></div><div class="simgs"><img src="images/organic.png" style="height:40px;" title="台灣有機農產品" alt="台灣有機農產品"></div><div class="simgs"><img src="images/preorganic.png" style="height:40px;" title="有機認證轉型期" alt="有機認證轉型期"></div><div class="simgs"><img src="images/bee.png" style="height:40px;" title="國產蜂" alt="國產蜂"></div><div class="safetxt">農藥檢驗符合國家安全標準容許範圍內</div><div class="safetxt">無毒、無農藥農產品為主</div></div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb22 tbball">
+                <span>合作模式：</span>
+                <div class="d_text">買斷、寄賣</div>
+              </div>
+              <div class="spacing"></div>
+              <div class="tbb23 tbball"><a class="spbtn find_btn" href="javascript:void(0);" id="market_unit_1406185635">我要申請</a></div>
+              <form id="form_market_unit_1406185635" name="form_market_unit_1406185635" method="post" action="channel_register.php">
+                    <input type="hidden" name="channel_id" value="market_unit_1406185635" />
+                    <input type="hidden" name="step" value="1" />
+              </form>
+            </div>
+          </div>
+                      <!--EDN_one-->
+    </div>
+    <div class="pageblcok"> <a class="page focus" href="javascript:void(0);">1</a> 
+ <a href="/channel.php?sub_theme=D&page=2" class="page">2</a> 
+ <a href="/channel.php?sub_theme=D&page=3" class="page">3</a> 
+ <a href="/channel.php?sub_theme=D&page=4" class="page">4</a> 
+ <a href="/channel.php?sub_theme=D&page=2" class="button">下一頁</a> <div class="pagetext">共34筆資料，第1<em>/</em>4頁，每頁顯示10筆</div></div>
+  </div>
+  <!--EDN_content-->
+  <!-- InstanceEndEditable -->
+</div>  
+<!-- InstanceBeginEditable name="bottom_data" -->
+<!--bottom_data-->
+<div></div>
+<!--EDN_bottom_data-->
+<!-- InstanceEndEditable -->
+
+<!--bottom_data-->
+<div class="btmblcok">
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1320811733" title="田邊好幫手" target="_blank"><img src="files/banner/banner_1320811733/banner_2.jpg" alt="田邊好幫手"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1434511454" title="臺灣農產品安全追溯資訊網" target="_blank"><img src="files/banner/banner_1434511454/banner_1.png" alt="臺灣農產品安全追溯資訊網"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1452669327" title="青年創業及圓夢網" target="_blank"><img src="files/banner/banner_1452669327/banner_1.jpg" alt="青年創業及圓夢網"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1332759366" title="農產品交易行情站" target="_blank"><img src="files/banner/banner_1332759366/banner_1.gif" alt="農產品交易行情站"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1474610109" title="AGTECH農業科技專案計畫服務網" target="_blank"><img src="files/banner/banner_1474610109/banner_1.png" alt="AGTECH農業科技專案計畫服務網"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1554105464" title="畜產行情資訊網" target="_blank"><img src="files/banner/banner_1554105464/banner_1.jpg" alt="畜產行情資訊網"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1562315218" title="農業科技產業情報站" target="_blank"><img src="files/banner/banner_1562315218/banner_1.png" alt="農業科技產業情報站"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1579247792" title="117-1" target="_blank"><img src="files/banner/banner_1579247792/banner_1.jpg" alt="117-1"/></a>
+    	<a class="linkimage" href="theme.php?theme=banner&id=banner_1598342832" title="金融監督管理委員會全球資訊網" target="_blank"><img src="files/banner/banner_1598342832/banner_1.jpg" alt="金融監督管理委員會全球資訊網"/></a>
+  </div>
+<!--EDN_bottom_data-->
+
+<!--footer-->
+<div class="footer">
+  <a class="footer_control" id="footer_control" href="javascript:void(0);">&nbsp;<span>收合</span><div>-</div>&nbsp;</a>
+  <div class="f_edit">
+    <div class="footer_content">
+			<div class="fm01"><a href="list.php?id=28" title="關於學院">關於學院</a>
+			<a href="list.php?id=112" title="電子報">電子報</a>
+			<a href="consult.php" title="線上諮詢">線上諮詢</a></div>
+	    <div class="fm02"><div class="one_m"><a href="list.php?id=95" title="農業新知">農業新知</a><a href="list.php?id=131" title="全部" >全部</a><a href="list.php?id=96" title="農業焦點" >農業焦點</a><a href="list.php?id=97" title="課程快報" >課程快報</a><a href="list.php?id=98" title="市集活動" >市集活動</a><a href="list.php?id=99" title="研習活動" >研習活動</a><a href="list.php?id=742" title="新農記事" >新農記事</a><a href="list.php?id=814" title="電子書庫" >電子書庫</a></div><div class="one_m"><a href="list.php?id=19" title="訓練課程">訓練課程</a><a href="list.php?id=757" title="報名教學" >報名教學</a><a href="list.php?id=22" title="農業入門" >農業入門</a><a href="list.php?id=23" title="初階訓練" >初階訓練</a><a href="list.php?id=24" title="進階訓練" >進階訓練</a><a href="list.php?id=25" title="高階訓練" >高階訓練</a><a href="list.php?id=46" title="研習活動" >研習活動</a><a href="list.php?id=135" title="線上學習" >線上學習</a></div><div class="one_m"><a href="list.php?id=516" title="農業徵才">農業徵才</a><a href="recruitment.php" title="徵才說明">徵才說明</a><a href="recruitment.php?func=apply" title="刊登申請">刊登申請</a></div><div class="one_m"><a href="list.php?id=53" title="農場見習">農場見習</a><a href="list.php?id=54" title="見習要點" >見習要點</a><a href="list.php?id=132" title="見習工作" >見習工作</a><a href="list.php?id=125" title="錄取名單" >錄取名單</a><a href="list.php?id=579" title="學生見習" >學生見習</a></div><div class="one_m"><a href="list.php?id=170" title="找通路">找通路</a><a href="list.php?id=179" title="數位通路" >數位通路</a><a href="list.php?id=181" title="農會展售中心" >農會展售中心</a><a href="list.php?id=88" title="農民市集" >農民市集</a><a href="list.php?id=689" title="量販超市" >量販超市</a><a href="list.php?id=180" title="加工與餐飲業者" >加工與餐飲業者</a></div><div class="one_m"><a href="list.php?id=171" title="找產品">找產品</a><a href="list.php?id=172" title="農產品" >農產品</a><a href="list.php?id=176" title="加工品" >加工品</a><a href="list.php?id=175" title="水產品" >水產品</a><a href="list.php?id=174" title="畜產品" >畜產品</a><a href="list.php?id=1257" title="青農電子型錄" >青農電子型錄</a></div><div class="one_m"><a href="list.php?id=36" title="好幫手">好幫手</a><a href="list.php?id=243" title="農糧類" >農糧類</a><a href="list.php?id=244" title="畜牧類" >畜牧類</a><a href="list.php?id=245" title="休閒類" >休閒類</a><a href="list.php?id=246" title="水產養殖類" >水產養殖類</a><a href="list.php?id=693" title="農業新手包" >農業新手包</a></div><div class="one_m"><a href="list.php?id=42" title="同學會">同學會</a><a href="list.php?id=55" title="農人新樂園粉絲團" target="_blank">農人新樂園粉絲團</a></div><div class="one_m"><a href="list.php?id=27" title="學員專區">學員專區</a><a href="list.php?id=79" title="學習紀錄" >學習紀錄</a><a href="list.php?id=80" title="報名繳費紀錄" >報名繳費紀錄</a><a href="list.php?id=81" title="生產歷程" >生產歷程</a><a href="list.php?id=82" title="通路管理" >通路管理</a><a href="list.php?id=83" title="個人資料" >個人資料</a><a href="list.php?id=84" title="上傳證明文件" >上傳證明文件</a><a href="list.php?id=70" title="文件下載" >文件下載</a><a href="list.php?id=85" title="見習報名紀錄" >見習報名紀錄</a><a href="list.php?id=86" title="見習自我評核表" >見習自我評核表</a><a href="list.php?id=87" title="訓練成效線上調查" >訓練成效線上調查</a></div><div class="one_m"><a href="list.php?id=795" title="食農推廣">食農推廣</a><a href="list.php?id=802" title="學童體驗" >學童體驗</a><a href="list.php?id=803" title="親子體驗" >親子體驗</a><a href="list.php?id=817" title="大眾體驗" >大眾體驗</a></div></div>
+		</div>
+    <div class="copyright">
+      <div class="f_logo"><a href="https://www.coa.gov.tw/" target="_blank"><img src="images/layout/logo02.png" alt="行政院農業委員會" title="行政院農業委員會"/></a><a href="index.php"><img src="images/layout/logo.png" alt="農民學院" title="農民學院"/></a></div>
+
+<div class="ft" style="margin: 20px 0;"><a href="list.php?id=1255">隱私權保護宣告</a><span>/</span><a href="list.php?id=1256">資訊安全政策</a><span>/</span><a href="list.php?id=1254">網站資料開放宣告</a></div>
+
+<div class="ft" style="margin: 20px 0;">服務時間：星期一~五 AM9:00~PM6:00<span>/</span>客服信箱：academy@imita.com.tw<span>/</span>客服電話：<a href="list.php?id=520">點此觀看</a><span>/</span>傳真：(02)3322-9036<span>/<br></span>機關地址：10014 臺北市中正區南海路 37 號</div>
+
+<div class="ft02" style="margin-bottom:10px;">Copyright © 行政院農業委員會. All rights reserved.<br>最佳瀏覽解析度1280 x768以上，支援瀏覽器IE 9.0以上、Firefox 、Google Chrome</div>
+    </div>
+  </div>
+</div>
+<!--EDN_footer-->
+
+<div id="window_top">
+  <span>TOP</span>
+</div>
+
+<!--login-->
+<div id="login_div" class="lightbox">
+	<div class="close"><span>×</span></div> 
+	<div class="title" style="text-align:center;">學員登入</div>
+	<form id="login_form" name="login_form" action="login.php" method="post">
+		<div class="eb">
+			<p class="text"><span>帳號</span> / account number</p>
+			<input name="account" type="text" id="account" size="20" placeholder="請輸入帳號"/>
+		</div>
+		<div class="eb">
+			<p class="text"><span>密碼</span> / password</p>
+			<input name="pwd" type="password" id="pwd" size="20" maxlength="50" placeholder="請輸入密碼"/>
+			<span class="fa fa-eye" aria-hidden="true"></span><span class="fa fa-eye-slash" aria-hidden="true"></span>
+		</div>
+		<div class="eb">
+			<p class="text"><span>驗證碼</span> / Verification Code</p>
+			<div class="verification">
+				<div class="inf">
+					<img class="sec_img" src="tmp/_6ecb23a6fhz6.jpg" style="width:80px;" alt="驗證碼"/><a class="rep_sec" href="javascript:void(0);"><img src="/images/layout/rep.png" alt="更新驗證碼" title="更新驗證碼"/></a>
+				</div>
+				<input name="sec_code" type="text" id="sec_code" maxlength="6" placeholder="請輸入驗證碼"/>
+			</div>
+		</div>
+		<a id="login_submit" class="btn" href="javascript:void(0);">立即登入</a>
+	</form>
+	<div class="other">
+		<a class="ah" href="member.php?func=pwd">忘記帳號/密碼</a>
+		<a class="ah" href="member.php?func=privacy">加入學員</a>
+	</div>
+</div>
+<!--EDN_login-->
+
+<input type="hidden" id="check_print" value="" />
+
+<div id="survey_section" style="display:none;"></div>
+
+</body>
+<!-- InstanceEnd --></html>

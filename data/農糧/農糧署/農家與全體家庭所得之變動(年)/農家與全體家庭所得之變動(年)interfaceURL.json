@@ -1,0 +1,26 @@
+[
+  {
+    "year": 2016,
+    "farmer_family_income_agricultural": 234067,
+    "farmer_family_income_other": 839075,
+    "all_family_income": 1253389
+  },
+  {
+    "year": 2015,
+    "farmer_family_income_agricultural": 229860,
+    "farmer_family_income_other": 795838,
+    "all_family_income": 1224600
+  },
+  {
+    "year": 2014,
+    "farmer_family_income_agricultural": 224859,
+    "farmer_family_income_other": 798389,
+    "all_family_income": 1213703
+  },
+  {
+    "year": 2013,
+    "farmer_family_income_agricultural": 213800,
+    "farmer_family_income_other": 771542,
+    "all_family_income": 1195566
+  }
+]

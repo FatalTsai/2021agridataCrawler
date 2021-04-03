@@ -1,0 +1,3017 @@
+[
+  {
+    "year": 103,
+    "type": "其他產品",
+    "category": "蜂蜜",
+    "category_name": "蜂蜜",
+    "status": "進口",
+    "num": 4740036,
+    "pic": 203197
+  },
+  {
+    "year": 102,
+    "type": "其他產品",
+    "category": "蜂蜜",
+    "category_name": "蜂蜜",
+    "status": "進口",
+    "num": 3196518,
+    "pic": 115425
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "百合",
+    "category_name": "鮮百合",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "百合",
+    "category_name": "鮮百合",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "文心蘭",
+    "category_name": "鮮文心蘭",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "文心蘭",
+    "category_name": "鮮文心蘭",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "洋桔梗",
+    "category_name": "洋桔梗",
+    "status": "進口",
+    "num": 406728,
+    "pic": 76291
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "洋桔梗",
+    "category_name": "洋桔梗",
+    "status": "進口",
+    "num": 526398,
+    "pic": 93667
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "康乃馨",
+    "category_name": "康乃馨",
+    "status": "進口",
+    "num": 127284,
+    "pic": 12144
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "康乃馨",
+    "category_name": "康乃馨",
+    "status": "進口",
+    "num": 118558,
+    "pic": 10254
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "唐菖蒲",
+    "category_name": "唐菖蒲",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "唐菖蒲",
+    "category_name": "唐菖蒲",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "玫瑰",
+    "category_name": "鮮玫瑰",
+    "status": "進口",
+    "num": 9544,
+    "pic": 895
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "玫瑰",
+    "category_name": "鮮玫瑰",
+    "status": "進口",
+    "num": 13034,
+    "pic": 1056
+  },
+  {
+    "year": 103,
+    "type": "花卉類",
+    "category": "菊花",
+    "category_name": "鮮菊花",
+    "status": "進口",
+    "num": 181360,
+    "pic": 3194
+  },
+  {
+    "year": 102,
+    "type": "花卉類",
+    "category": "菊花",
+    "category_name": "鮮菊花",
+    "status": "進口",
+    "num": 166986,
+    "pic": 3104
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柿子",
+    "category_name": "柿子(乾)",
+    "status": "進口",
+    "num": 778401,
+    "pic": 35243
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柿子",
+    "category_name": "柿子(乾)",
+    "status": "進口",
+    "num": 788064,
+    "pic": 31125
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柿子",
+    "category_name": "柿子(鮮)",
+    "status": "進口",
+    "num": 0,
+    "pic": 249
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柿子",
+    "category_name": "柿子(鮮)",
+    "status": "進口",
+    "num": 29137,
+    "pic": 2903
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "檳榔",
+    "category_name": "檳榔(鮮或乾)",
+    "status": "進口",
+    "num": 24009,
+    "pic": 2183
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "檳榔",
+    "category_name": "檳榔(鮮或乾)",
+    "status": "進口",
+    "num": 11745,
+    "pic": 1003
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "李子",
+    "category_name": "李子",
+    "status": "進口",
+    "num": 3540025,
+    "pic": 212731
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "李子",
+    "category_name": "李子",
+    "status": "進口",
+    "num": 5537076,
+    "pic": 250030
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "龍眼罐頭",
+    "status": "進口",
+    "num": 19524,
+    "pic": 543
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "龍眼罐頭",
+    "status": "進口",
+    "num": 14441,
+    "pic": 350
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "龍眼(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "龍眼(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "桂圓肉",
+    "status": "進口",
+    "num": 339277,
+    "pic": 20594
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "桂圓肉",
+    "status": "進口",
+    "num": 331525,
+    "pic": 19043
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "鮮桂圓",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "龍眼",
+    "category_name": "鮮桂圓",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝罐頭",
+    "status": "進口",
+    "num": 23294,
+    "pic": 510
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝罐頭",
+    "status": "進口",
+    "num": 39562,
+    "pic": 1293
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 2426,
+    "pic": 544
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 5220,
+    "pic": 1176
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝(冷凍)",
+    "status": "進口",
+    "num": 476460,
+    "pic": 3128
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝(冷凍)",
+    "status": "進口",
+    "num": 841685,
+    "pic": 15107
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝(鮮或乾)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "荔枝",
+    "category_name": "荔枝(鮮或乾)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "梅",
+    "category_name": "梅乾",
+    "status": "進口",
+    "num": 1089547,
+    "pic": 94689
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "梅",
+    "category_name": "梅乾",
+    "status": "進口",
+    "num": 1098341,
+    "pic": 77338
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "西瓜",
+    "category_name": "種植用西瓜種子",
+    "status": "進口",
+    "num": 20523,
+    "pic": 44485
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "西瓜",
+    "category_name": "種植用西瓜種子",
+    "status": "進口",
+    "num": 34372,
+    "pic": 62002
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "西瓜",
+    "category_name": "鮮西瓜",
+    "status": "進口",
+    "num": 1477296,
+    "pic": 16017
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "西瓜",
+    "category_name": "鮮西瓜",
+    "status": "進口",
+    "num": 540606,
+    "pic": 5649
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "番石榴",
+    "category_name": "番石榴(鮮或乾)",
+    "status": "進口",
+    "num": 1696,
+    "pic": 49
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "番石榴",
+    "category_name": "番石榴(鮮或乾)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果汁",
+    "status": "進口",
+    "num": 31209,
+    "pic": 1203
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果汁",
+    "status": "進口",
+    "num": 164437,
+    "pic": 5608
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果罐頭",
+    "status": "進口",
+    "num": 826880,
+    "pic": 31948
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果罐頭",
+    "status": "進口",
+    "num": 737188,
+    "pic": 28109
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 549126,
+    "pic": 55824
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 502827,
+    "pic": 55761
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果(冷凍)",
+    "status": "進口",
+    "num": 140380,
+    "pic": 7148
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果(冷凍)",
+    "status": "進口",
+    "num": 370873,
+    "pic": 9655
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果(鮮或乾)",
+    "status": "進口",
+    "num": 854,
+    "pic": 386
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "芒果",
+    "category_name": "芒果(鮮或乾)",
+    "status": "進口",
+    "num": 490,
+    "pic": 59
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "蓮霧",
+    "category_name": "蓮霧",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "蓮霧",
+    "category_name": "蓮霧",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "梨",
+    "category_name": "梨(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 66048,
+    "pic": 4469
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "梨",
+    "category_name": "梨(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 158684,
+    "pic": 7872
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "梨",
+    "category_name": "鮮梨",
+    "status": "進口",
+    "num": 10027646,
+    "pic": 581977
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "梨",
+    "category_name": "鮮梨",
+    "status": "進口",
+    "num": 10740414,
+    "pic": 593771
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "楊桃",
+    "category_name": "楊桃(鮮)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "楊桃",
+    "category_name": "楊桃(鮮)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "桃子",
+    "category_name": "桃子(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 2133382,
+    "pic": 89616
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "桃子",
+    "category_name": "桃子(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 2150594,
+    "pic": 82086
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "桃子",
+    "category_name": "桃子",
+    "status": "進口",
+    "num": 12981993,
+    "pic": 1112844
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "桃子",
+    "category_name": "桃子",
+    "status": "進口",
+    "num": 21553486,
+    "pic": 1439699
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "木瓜",
+    "category_name": "木瓜(鮮)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "木瓜",
+    "category_name": "木瓜(鮮)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "蘋果(冷凍)",
+    "status": "進口",
+    "num": 89064,
+    "pic": 2563
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "蘋果(冷凍)",
+    "status": "進口",
+    "num": 37558,
+    "pic": 1305
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "蘋果汁",
+    "status": "進口",
+    "num": 5737577,
+    "pic": 248356
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "蘋果汁",
+    "status": "進口",
+    "num": 4787406,
+    "pic": 212786
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "蘋果乾",
+    "status": "進口",
+    "num": 15769,
+    "pic": 3209
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "蘋果乾",
+    "status": "進口",
+    "num": 27249,
+    "pic": 4362
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "鮮蘋果",
+    "status": "進口",
+    "num": 157877959,
+    "pic": 7432973
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "蘋果",
+    "category_name": "鮮蘋果",
+    "status": "進口",
+    "num": 144126721,
+    "pic": 6038428
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "葡萄",
+    "category_name": "葡萄汁",
+    "status": "進口",
+    "num": 5806044,
+    "pic": 400003
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "葡萄",
+    "category_name": "葡萄汁",
+    "status": "進口",
+    "num": 5369886,
+    "pic": 426276
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "葡萄",
+    "category_name": "葡萄(乾)",
+    "status": "進口",
+    "num": 6850423,
+    "pic": 526811
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "葡萄",
+    "category_name": "葡萄(乾)",
+    "status": "進口",
+    "num": 7360143,
+    "pic": 574921
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "葡萄",
+    "category_name": "葡萄(鮮)",
+    "status": "進口",
+    "num": 24081705,
+    "pic": 1757187
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "葡萄",
+    "category_name": "葡萄(鮮)",
+    "status": "進口",
+    "num": 20999162,
+    "pic": 1468904
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "葡萄柚",
+    "category_name": "葡萄柚汁",
+    "status": "進口",
+    "num": 801904,
+    "pic": 54978
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "葡萄柚",
+    "category_name": "葡萄柚汁",
+    "status": "進口",
+    "num": 564713,
+    "pic": 4366
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "葡萄柚",
+    "category_name": "葡萄柚(鮮或乾)",
+    "status": "進口",
+    "num": 4544859,
+    "pic": 96690
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "葡萄柚",
+    "category_name": "葡萄柚(鮮或乾)",
+    "status": "進口",
+    "num": 6087857,
+    "pic": 125932
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "檸檬",
+    "category_name": "檸檬及雷姆(鮮或乾)",
+    "status": "進口",
+    "num": 466845,
+    "pic": 25534
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "檸檬",
+    "category_name": "檸檬及雷姆(鮮或乾)",
+    "status": "進口",
+    "num": 476575,
+    "pic": 15970
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘汁",
+    "status": "進口",
+    "num": 5933515,
+    "pic": 336279
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘汁",
+    "status": "進口",
+    "num": 5223999,
+    "pic": 319243
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘類(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 4514874,
+    "pic": 175690
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘類(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 3814109,
+    "pic": 146764
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘類(經煮熟之果醬果凍)",
+    "status": "進口",
+    "num": 170600,
+    "pic": 21553
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘類(經煮熟之果醬果凍)",
+    "status": "進口",
+    "num": 169844,
+    "pic": 18321
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘類(鮮或乾)",
+    "status": "進口",
+    "num": 1691448,
+    "pic": 95651
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "柑橘類(鮮或乾)",
+    "status": "進口",
+    "num": 1509646,
+    "pic": 80004
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "鮮椪柑",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "柑橘",
+    "category_name": "鮮椪柑",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨汁",
+    "status": "進口",
+    "num": 874511,
+    "pic": 33068
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨汁",
+    "status": "進口",
+    "num": 1029161,
+    "pic": 39079
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨罐頭",
+    "status": "進口",
+    "num": 5078562,
+    "pic": 135946
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨罐頭",
+    "status": "進口",
+    "num": 5720208,
+    "pic": 148349
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 373056,
+    "pic": 10925
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 597212,
+    "pic": 16608
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨(鮮或乾)",
+    "status": "進口",
+    "num": 2661937,
+    "pic": 53197
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "?梨",
+    "category_name": "鳳梨(鮮或乾)",
+    "status": "進口",
+    "num": 2977656,
+    "pic": 53266
+  },
+  {
+    "year": 103,
+    "type": "果品類",
+    "category": "香蕉",
+    "category_name": "香蕉(鮮或乾)",
+    "status": "進口",
+    "num": 20545,
+    "pic": 311
+  },
+  {
+    "year": 102,
+    "type": "果品類",
+    "category": "香蕉",
+    "category_name": "香蕉(鮮或乾)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "馬黛茶類",
+    "status": "進口",
+    "num": 37,
+    "pic": 8372
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "馬黛茶類",
+    "status": "進口",
+    "num": 19,
+    "pic": 6882
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "普洱茶",
+    "status": "進口",
+    "num": 3426,
+    "pic": 202489
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "普洱茶",
+    "status": "進口",
+    "num": 3673,
+    "pic": 209827
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "紅茶",
+    "status": "進口",
+    "num": 13932,
+    "pic": 730549
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "紅茶",
+    "status": "進口",
+    "num": 13006,
+    "pic": 620562
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "部分發酵茶",
+    "status": "進口",
+    "num": 4156,
+    "pic": 371826
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "部分發酵茶",
+    "status": "進口",
+    "num": 3469,
+    "pic": 347488
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "綠茶",
+    "status": "進口",
+    "num": 10860,
+    "pic": 549841
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "茶葉",
+    "category_name": "綠茶",
+    "status": "進口",
+    "num": 10040,
+    "pic": 468229
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "山藥",
+    "category_name": "山藥(冷凍)",
+    "status": "進口",
+    "num": 47,
+    "pic": 563
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "山藥",
+    "category_name": "山藥(冷凍)",
+    "status": "進口",
+    "num": 68,
+    "pic": 662
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "山藥",
+    "category_name": "山藥(鮮或乾)",
+    "status": "進口",
+    "num": 3614,
+    "pic": 337610
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "山藥",
+    "category_name": "山藥(鮮或乾)",
+    "status": "進口",
+    "num": 3788,
+    "pic": 353233
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯粉、細粒及細粉",
+    "status": "進口",
+    "num": 80,
+    "pic": 706
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯粉、細粒及細粉",
+    "status": "進口",
+    "num": 120,
+    "pic": 1081
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯澱粉",
+    "status": "進口",
+    "num": 337315,
+    "pic": 4421092
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯澱粉",
+    "status": "進口",
+    "num": 329877,
+    "pic": 4500991
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯澱粉製品",
+    "status": "進口",
+    "num": 502,
+    "pic": 8565
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯澱粉製品",
+    "status": "進口",
+    "num": 639,
+    "pic": 13577
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯(鮮或乾)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "樹薯",
+    "category_name": "樹薯(鮮或乾)",
+    "status": "進口",
+    "num": 356,
+    "pic": 2375
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "菸葉",
+    "category_name": "吸菸葉",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "菸葉",
+    "category_name": "吸菸葉",
+    "status": "進口",
+    "num": 3095,
+    "pic": 790485
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "菸葉",
+    "category_name": "菸葉或其代用品所製之菸",
+    "status": "進口",
+    "num": 14709,
+    "pic": 15613042
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "菸葉",
+    "category_name": "菸葉或其代用品所製之菸",
+    "status": "進口",
+    "num": 15224,
+    "pic": 15570777
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "菸葉",
+    "category_name": "原料菸葉(菸葉下腳)",
+    "status": "進口",
+    "num": 13605,
+    "pic": 2268989
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "菸葉",
+    "category_name": "原料菸葉(菸葉下腳)",
+    "status": "進口",
+    "num": 12406,
+    "pic": 1631330
+  },
+  {
+    "year": 103,
+    "type": "特用作物",
+    "category": "蔗糖",
+    "category_name": "蔗糖",
+    "status": "進口",
+    "num": 327217,
+    "pic": 2947754
+  },
+  {
+    "year": 102,
+    "type": "特用作物",
+    "category": "蔗糖",
+    "category_name": "蔗糖",
+    "status": "進口",
+    "num": 600716,
+    "pic": 7512730
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 117,
+    "pic": 9830
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生(其他方式調製或保藏)",
+    "status": "進口",
+    "num": 88,
+    "pic": 7918
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生醬",
+    "status": "進口",
+    "num": 3045,
+    "pic": 136627
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生醬",
+    "status": "進口",
+    "num": 3162,
+    "pic": 134257
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生(已烘培)",
+    "status": "進口",
+    "num": 3,
+    "pic": 542
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生(已烘培)",
+    "status": "進口",
+    "num": 1,
+    "pic": 241
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生(未烘培)",
+    "status": "進口",
+    "num": 3464,
+    "pic": 108778
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "落花生",
+    "category_name": "花生(未烘培)",
+    "status": "進口",
+    "num": 4266,
+    "pic": 143730
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "甘藷",
+    "category_name": "甘藷(冷凍)",
+    "status": "進口",
+    "num": 713,
+    "pic": 17924
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "甘藷",
+    "category_name": "甘藷(冷凍)",
+    "status": "進口",
+    "num": 480,
+    "pic": 11806
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "甘藷",
+    "category_name": "甘藷(鮮或乾)",
+    "status": "進口",
+    "num": 200,
+    "pic": 14477
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "甘藷",
+    "category_name": "甘藷(鮮或乾)",
+    "status": "進口",
+    "num": 119,
+    "pic": 7178
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "甜玉米罐頭",
+    "status": "進口",
+    "num": 24249,
+    "pic": 854513
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "甜玉米罐頭",
+    "status": "進口",
+    "num": 23758,
+    "pic": 850633
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "乾甜玉米及其種子",
+    "status": "進口",
+    "num": 77,
+    "pic": 28789
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "乾甜玉米及其種子",
+    "status": "進口",
+    "num": 123,
+    "pic": 48367
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "甜玉米(鮮或冷凍)",
+    "status": "進口",
+    "num": 1329,
+    "pic": 34320
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "甜玉米(鮮或冷凍)",
+    "status": "進口",
+    "num": 2403,
+    "pic": 44967
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉米澱粉",
+    "status": "進口",
+    "num": 21617,
+    "pic": 406702
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉米澱粉",
+    "status": "進口",
+    "num": 20649,
+    "pic": 433211
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉米粉",
+    "status": "進口",
+    "num": 2802,
+    "pic": 89891
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉米粉",
+    "status": "進口",
+    "num": 2523,
+    "pic": 83011
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉米(粗碾去殼及其細粒)",
+    "status": "進口",
+    "num": 1563,
+    "pic": 24578
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉米(粗碾去殼及其細粒)",
+    "status": "進口",
+    "num": 1407,
+    "pic": 23522
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉蜀黍及其種子",
+    "status": "進口",
+    "num": 175461,
+    "pic": 1391603
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "玉蜀黍及其種子",
+    "status": "進口",
+    "num": 102064,
+    "pic": 1051715
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "飼料用玉米",
+    "status": "進口",
+    "num": 4001221,
+    "pic": 29631526
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "玉米",
+    "category_name": "飼料用玉米",
+    "status": "進口",
+    "num": 3960881,
+    "pic": 34152497
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "紅豆",
+    "category_name": "紅豆粉",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "紅豆",
+    "category_name": "紅豆粉",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "紅豆",
+    "category_name": "乾紅豆",
+    "status": "進口",
+    "num": 2009,
+    "pic": 76148
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "紅豆",
+    "category_name": "乾紅豆",
+    "status": "進口",
+    "num": 2847,
+    "pic": 78326
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "綠豆",
+    "category_name": "乾綠豆",
+    "status": "進口",
+    "num": 19185,
+    "pic": 552037
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "綠豆",
+    "category_name": "乾綠豆",
+    "status": "進口",
+    "num": 24217,
+    "pic": 552931
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "大豆",
+    "category_name": "大(黃)豆(磨粉及其細粒)",
+    "status": "進口",
+    "num": 3803,
+    "pic": 97505
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "大豆",
+    "category_name": "大(黃)豆(磨粉及其細粒)",
+    "status": "進口",
+    "num": 1905,
+    "pic": 81148
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "大豆",
+    "category_name": "大(黃)豆",
+    "status": "進口",
+    "num": 2374019,
+    "pic": 40832884
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "大豆",
+    "category_name": "大(黃)豆",
+    "status": "進口",
+    "num": 2140103,
+    "pic": 38171306
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "高梁",
+    "category_name": "高梁",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "高梁",
+    "category_name": "高梁",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "其他穀粉",
+    "status": "進口",
+    "num": 157,
+    "pic": 6677
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "其他穀粉",
+    "status": "進口",
+    "num": 58,
+    "pic": 4052
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "其他穀物團粒",
+    "status": "進口",
+    "num": 1,
+    "pic": 36
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "其他穀物團粒",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "其他穀物",
+    "status": "進口",
+    "num": 0,
+    "pic": 591
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "其他穀物",
+    "status": "進口",
+    "num": 6618,
+    "pic": 58660
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "燕麥",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "燕麥",
+    "status": "進口",
+    "num": 34,
+    "pic": 468
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "大麥",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "其他穀物",
+    "category_name": "大麥",
+    "status": "進口",
+    "num": 47350,
+    "pic": 442471
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥(澱)粉",
+    "status": "進口",
+    "num": 22292,
+    "pic": 440417
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥(澱)粉",
+    "status": "進口",
+    "num": 18392,
+    "pic": 369735
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥(滾壓細片或加工)",
+    "status": "進口",
+    "num": 27,
+    "pic": 866
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥(滾壓細片或加工)",
+    "status": "進口",
+    "num": 20,
+    "pic": 486
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥(細粒及團粒)",
+    "status": "進口",
+    "num": 163,
+    "pic": 2552
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥(細粒及團粒)",
+    "status": "進口",
+    "num": 144,
+    "pic": 2715
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥",
+    "status": "進口",
+    "num": 1288885,
+    "pic": 13836240
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "小麥",
+    "category_name": "小麥",
+    "status": "進口",
+    "num": 1316956,
+    "pic": 14584635
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "稻米",
+    "category_name": "稻米粉 ",
+    "status": "進口",
+    "num": 4096,
+    "pic": 70695
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "稻米",
+    "category_name": "稻米粉 ",
+    "status": "進口",
+    "num": 2897,
+    "pic": 46293
+  },
+  {
+    "year": 103,
+    "type": "稻米及雜糧作物",
+    "category": "稻米",
+    "category_name": "稻米",
+    "status": "進口",
+    "num": 108747,
+    "pic": 2200708
+  },
+  {
+    "year": 102,
+    "type": "稻米及雜糧作物",
+    "category": "稻米",
+    "category_name": "稻米",
+    "status": "進口",
+    "num": 117865,
+    "pic": 2304296
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "毛豆",
+    "category_name": "毛豆(冷凍)",
+    "status": "進口",
+    "num": 126020,
+    "pic": 2531
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "毛豆",
+    "category_name": "毛豆(冷凍)",
+    "status": "進口",
+    "num": 50100,
+    "pic": 1080
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "毛豆",
+    "category_name": "毛豆(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "毛豆",
+    "category_name": "毛豆(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "菜豆種子",
+    "status": "進口",
+    "num": 11211,
+    "pic": 2121
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "菜豆種子",
+    "status": "進口",
+    "num": 24282,
+    "pic": 5886
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "乾菜(豇)豆 ",
+    "status": "進口",
+    "num": 3053205,
+    "pic": 69394
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "乾菜(豇)豆 ",
+    "status": "進口",
+    "num": 3102697,
+    "pic": 49066
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "菜(豇)豆(冷凍)",
+    "status": "進口",
+    "num": 1557500,
+    "pic": 28344
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "菜(豇)豆(冷凍)",
+    "status": "進口",
+    "num": 1858000,
+    "pic": 32364
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "菜(豇)豆(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "菜豆",
+    "category_name": "菜(豇)豆(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 420108,
+    "pic": 17213
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 389518,
+    "pic": 19348
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆種子",
+    "status": "進口",
+    "num": 1561402,
+    "pic": 32850
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆種子",
+    "status": "進口",
+    "num": 612499,
+    "pic": 20695
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "乾豌豆",
+    "status": "進口",
+    "num": 16756670,
+    "pic": 263907
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "乾豌豆",
+    "status": "進口",
+    "num": 19450170,
+    "pic": 316137
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆(冷凍)",
+    "status": "進口",
+    "num": 2046732,
+    "pic": 61648
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆(冷凍)",
+    "status": "進口",
+    "num": 2276847,
+    "pic": 55026
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆(生鮮或冷藏)",
+    "status": "進口",
+    "num": 2188784,
+    "pic": 80095
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "豌豆",
+    "category_name": "豌豆(生鮮或冷藏)",
+    "status": "進口",
+    "num": 2563779,
+    "pic": 79621
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "番椒",
+    "category_name": "甜椒種子",
+    "status": "進口",
+    "num": 902,
+    "pic": 15216
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "番椒",
+    "category_name": "甜椒種子",
+    "status": "進口",
+    "num": 699,
+    "pic": 10104
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "番椒",
+    "category_name": "甜椒及辣椒(生鮮或冷藏)",
+    "status": "進口",
+    "num": 96,
+    "pic": 3721
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "番椒",
+    "category_name": "甜椒及辣椒(生鮮或冷藏)",
+    "status": "進口",
+    "num": 236,
+    "pic": 4141
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄種子",
+    "status": "進口",
+    "num": 3369,
+    "pic": 56247
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄種子",
+    "status": "進口",
+    "num": 2121,
+    "pic": 48567
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄罐頭",
+    "status": "進口",
+    "num": 4540401,
+    "pic": 128120
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄罐頭",
+    "status": "進口",
+    "num": 3775124,
+    "pic": 98936
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄醬",
+    "status": "進口",
+    "num": 4533367,
+    "pic": 172347
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄醬",
+    "status": "進口",
+    "num": 4136439,
+    "pic": 150134
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄汁",
+    "status": "進口",
+    "num": 336886,
+    "pic": 9570
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄汁",
+    "status": "進口",
+    "num": 296810,
+    "pic": 8350
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 6123747,
+    "pic": 195486
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 8146975,
+    "pic": 220221
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄(生鮮或冷藏)",
+    "status": "進口",
+    "num": 42036,
+    "pic": 8399
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蕃茄",
+    "category_name": "蕃茄(生鮮或冷藏)",
+    "status": "進口",
+    "num": 26518,
+    "pic": 5741
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜罐頭",
+    "status": "進口",
+    "num": 119380,
+    "pic": 5774
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜罐頭",
+    "status": "進口",
+    "num": 96254,
+    "pic": 4363
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜(醋或醋酸之調製或保藏)",
+    "status": "進口",
+    "num": 888283,
+    "pic": 27752
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜(醋或醋酸之調製或保藏)",
+    "status": "進口",
+    "num": 892749,
+    "pic": 37564
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜(暫時保藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜(暫時保藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 6446,
+    "pic": 1811
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡瓜",
+    "category_name": "胡瓜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 236,
+    "pic": 36
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "茄子",
+    "category_name": "茄子種子",
+    "status": "進口",
+    "num": 1108,
+    "pic": 2441
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "茄子",
+    "category_name": "茄子種子",
+    "status": "進口",
+    "num": 1435,
+    "pic": 2528
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "茄子",
+    "category_name": "茄子(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "茄子",
+    "category_name": "茄子(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "花椰菜",
+    "category_name": "花椰(青花)菜(冷凍)",
+    "status": "進口",
+    "num": 3129608,
+    "pic": 60786
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "花椰菜",
+    "category_name": "花椰(青花)菜(冷凍)",
+    "status": "進口",
+    "num": 4144252,
+    "pic": 72691
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "花椰菜",
+    "category_name": "花椰(青花)菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 13877730,
+    "pic": 301669
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "花椰菜",
+    "category_name": "花椰(青花)菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 14005874,
+    "pic": 301167
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "芹菜",
+    "category_name": "芹菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 6748807,
+    "pic": 79922
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "芹菜",
+    "category_name": "芹菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 6902966,
+    "pic": 77281
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "白菜",
+    "category_name": "白菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 20614102,
+    "pic": 225443
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "白菜",
+    "category_name": "白菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 14248825,
+    "pic": 140915
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "甘藍",
+    "category_name": "球莖甘藍及可供食用蕓苔屬蔬菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 24451324,
+    "pic": 168887
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "甘藍",
+    "category_name": "球莖甘藍及可供食用蕓苔屬蔬菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 36096437,
+    "pic": 233130
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "甘藍",
+    "category_name": "孢子甘藍(生鮮或冷藏)",
+    "status": "進口",
+    "num": 9540,
+    "pic": 1948
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "甘藍",
+    "category_name": "孢子甘藍(生鮮或冷藏)",
+    "status": "進口",
+    "num": 390,
+    "pic": 53
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍罐頭",
+    "status": "進口",
+    "num": 224773,
+    "pic": 3457
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍罐頭",
+    "status": "進口",
+    "num": 102461,
+    "pic": 1540
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 5819132,
+    "pic": 61616
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 6834082,
+    "pic": 68084
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(冷凍)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(冷凍)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(暫時保藏)",
+    "status": "進口",
+    "num": 5,
+    "pic": 1
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(暫時保藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "竹筍",
+    "category_name": "竹筍(生鮮或冷藏)",
+    "status": "進口",
+    "num": 0,
+    "pic": 0
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍種子",
+    "status": "進口",
+    "num": 580,
+    "pic": 528
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍種子",
+    "status": "進口",
+    "num": 363,
+    "pic": 311
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍(冷凍)",
+    "status": "進口",
+    "num": 4042,
+    "pic": 153
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍(冷凍)",
+    "status": "進口",
+    "num": 17,
+    "pic": 8
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍罐頭",
+    "status": "進口",
+    "num": 11775,
+    "pic": 359
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍罐頭",
+    "status": "進口",
+    "num": 21990,
+    "pic": 715
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 790,
+    "pic": 115
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 2219,
+    "pic": 315
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍(生鮮或冷藏)",
+    "status": "進口",
+    "num": 3582206,
+    "pic": 251539
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蘆筍",
+    "category_name": "蘆筍(生鮮或冷藏)",
+    "status": "進口",
+    "num": 2347516,
+    "pic": 164625
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "薑",
+    "category_name": "薑",
+    "status": "進口",
+    "num": 803544,
+    "pic": 24612
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "薑",
+    "category_name": "薑",
+    "status": "進口",
+    "num": 954461,
+    "pic": 18745
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蒜頭",
+    "category_name": "蒜球(醋或醋酸調製或保藏)",
+    "status": "進口",
+    "num": 1287,
+    "pic": 149
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蒜頭",
+    "category_name": "蒜球(醋或醋酸調製或保藏)",
+    "status": "進口",
+    "num": 1294,
+    "pic": 105
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蒜頭",
+    "category_name": "蒜球(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 1461656,
+    "pic": 29720
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蒜頭",
+    "category_name": "蒜球(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 1189740,
+    "pic": 11092
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蒜頭",
+    "category_name": "乾蒜球",
+    "status": "進口",
+    "num": 84735,
+    "pic": 6028
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蒜頭",
+    "category_name": "乾蒜球",
+    "status": "進口",
+    "num": 65057,
+    "pic": 4727
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蒜",
+    "category_name": "大蒜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 5822145,
+    "pic": 167943
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蒜",
+    "category_name": "大蒜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 4637802,
+    "pic": 143526
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蔥",
+    "category_name": "乾分蔥",
+    "status": "進口",
+    "num": 1010713,
+    "pic": 18676
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蔥",
+    "category_name": "韭蔥及其他蔥屬蔬菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 8522,
+    "pic": 1742
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蔥",
+    "category_name": "分蔥(生鮮或冷藏)",
+    "status": "進口",
+    "num": 56980,
+    "pic": 729
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蔥",
+    "category_name": "乾分蔥",
+    "status": "進口",
+    "num": 743522,
+    "pic": 11583
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蔥",
+    "category_name": "韭蔥及其他蔥屬蔬菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 11629,
+    "pic": 1544
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蔥",
+    "category_name": "分蔥(生鮮或冷藏)",
+    "status": "進口",
+    "num": 157841,
+    "pic": 1516
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "洋菇(暫時保藏)",
+    "status": "進口",
+    "num": 516510,
+    "pic": 27757
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "乾洋菇",
+    "status": "進口",
+    "num": 11314,
+    "pic": 1225
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "洋菇(冷凍)",
+    "status": "進口",
+    "num": 2928,
+    "pic": 1450
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "洋菇(生鮮或冷藏)",
+    "status": "進口",
+    "num": 131012,
+    "pic": 10309
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "洋菇(暫時保藏)",
+    "status": "進口",
+    "num": 664644,
+    "pic": 27279
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "乾洋菇",
+    "status": "進口",
+    "num": 3824,
+    "pic": 482
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "洋菇(冷凍)",
+    "status": "進口",
+    "num": 2812,
+    "pic": 1539
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋菇",
+    "category_name": "洋菇(生鮮或冷藏)",
+    "status": "進口",
+    "num": 39827,
+    "pic": 3079
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "洋蔥種子",
+    "status": "進口",
+    "num": 4781,
+    "pic": 22139
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "洋蔥(醋或醋酸調製或保藏)",
+    "status": "進口",
+    "num": 12989,
+    "pic": 1095
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "乾洋蔥",
+    "status": "進口",
+    "num": 488474,
+    "pic": 26629
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "洋蔥(生鮮或冷藏)",
+    "status": "進口",
+    "num": 48426720,
+    "pic": 516390
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "洋蔥種子",
+    "status": "進口",
+    "num": 5921,
+    "pic": 22883
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "洋蔥(醋或醋酸調製或保藏)",
+    "status": "進口",
+    "num": 14761,
+    "pic": 1296
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "乾洋蔥",
+    "status": "進口",
+    "num": 320126,
+    "pic": 20185
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "洋蔥",
+    "category_name": "洋蔥(生鮮或冷藏)",
+    "status": "進口",
+    "num": 6215891,
+    "pic": 622744
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(細片磨粉及其細粒)",
+    "status": "進口",
+    "num": 1739066,
+    "pic": 82530
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 52689068,
+    "pic": 2137089
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯澱粉",
+    "status": "進口",
+    "num": 25082000,
+    "pic": 667774
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(冷凍)",
+    "status": "進口",
+    "num": 1596204,
+    "pic": 51168
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(生鮮或冷藏)",
+    "status": "進口",
+    "num": 14514051,
+    "pic": 180022
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(細片磨粉及其細粒)",
+    "status": "進口",
+    "num": 2062205,
+    "pic": 99694
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(酸漬除外之調製或保藏)",
+    "status": "進口",
+    "num": 52975338,
+    "pic": 2128080
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯澱粉",
+    "status": "進口",
+    "num": 39706000,
+    "pic": 894068
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(冷凍)",
+    "status": "進口",
+    "num": 2320297,
+    "pic": 65422
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "馬鈴薯",
+    "category_name": "馬鈴薯(生鮮或冷藏)",
+    "status": "進口",
+    "num": 20985713,
+    "pic": 250182
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "胡蘿蔔",
+    "category_name": "胡蘿蔔(冷凍)",
+    "status": "進口",
+    "num": 446844,
+    "pic": 12699
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡蘿蔔",
+    "category_name": "胡蘿蔔(冷凍)",
+    "status": "進口",
+    "num": 280156,
+    "pic": 8400
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "胡蘿蔔",
+    "category_name": "胡蘿蔔及蕪菁(生鮮或冷藏)",
+    "status": "進口",
+    "num": 853938,
+    "pic": 22162
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡蘿蔔",
+    "category_name": "蘿蔔、婆羅門參及類似食用根菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 1692688,
+    "pic": 31205
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "胡蘿蔔",
+    "category_name": "胡蘿蔔及蕪菁(生鮮或冷藏)",
+    "status": "出口",
+    "num": 8435733,
+    "pic": 91281
+  },
+  {
+    "year": 103,
+    "type": "蔬菜類",
+    "category": "蘿蔔",
+    "category_name": "蘿蔔、婆羅門參及類似食用根菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 24501427,
+    "pic": 195781
+  },
+  {
+    "year": 102,
+    "type": "蔬菜類",
+    "category": "蘿蔔",
+    "category_name": "蘿蔔、婆羅門參及類似食用根菜(生鮮或冷藏)",
+    "status": "進口",
+    "num": 25905469,
+    "pic": 208575
+  }
+]

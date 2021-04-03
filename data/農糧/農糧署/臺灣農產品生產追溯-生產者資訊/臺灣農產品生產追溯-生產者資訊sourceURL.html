@@ -1,0 +1,1921 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hant">
+<head>
+	<!-- 不可被 iframe 嵌入 -->
+	<script>
+		if (window != window.top) {
+			window.top.location.href = window.location.href;
+		}
+	</script>
+	<!-- 強制使用最新版 IE(不可使用相容性檢視) -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	
+	<meta name="keywords" content="臺灣農產品,農產品,生產追溯,農產品QR-code" />
+	<meta name="description" content="「臺灣農產品生產追溯系統」鼓勵農產品生產者及經營業者，主動揭露生產資訊並進行全面品質自主管理，來提升消費者對所購買之農產品的信賴感。結合現今最流行的QR-Code條碼，讓消費者可直接以手持裝置上的APP完成產品外包裝上的條碼掃描步驟，即時獲得農產品生產者及產品資訊，以強化農民負起產品安全自主責任。" />
+	<title>臺灣農產品生產追溯系統</title>
+	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+	<link rel="icon" href="/favicon.png" type="image/png">
+	
+	<link rel="stylesheet" href="/Content/css/jquery-ui.min.css?v=201911041" type="text/css" />
+	<link rel="stylesheet" href="/Content/css/jquery-ui.structure.min.css?v=201911041" type="text/css" />
+	<link rel="stylesheet" href="/Content/css/jquery-ui.theme.min.css?v=201911041" type="text/css" />
+	<!-- 主視覺 css -->
+	<link rel="stylesheet" href="/Content/css/style.css?v=202001091" type="text/css" />
+	<!-- 燈箱 css -->
+	<link rel="stylesheet" href="/Content/css/jquery.fancybox.min.css?v=201911041" type="text/css" />
+	<!-- LCGrid css -->
+	<link rel="stylesheet" href="/Browser/Scripts/LC_Grid/jquery_LC_Grid.css?v=201911041" />
+
+	<!-- js 載入 -->
+	<script src="/Content/scripts/jquery.min.js?v=201911041"></script>
+	<script src="/Content/scripts/jquery-ui.min.js?v=201911041"></script>
+	<script src="/Content/scripts/bootstrap.bundle.js?v=201911041"></script>
+	<script src="/Content/scripts/ui/jquery.form.min.js?v=201911041"></script>
+	<script src="/Content/scripts/sweetalert2.8.min.js?v=201911041"></script>
+	<!-- 燈箱 js -->
+	<script src="/Content/scripts/jquery.fancybox.min.js?v=201911041"></script>
+	<!-- LCGrid js -->
+	<script src="/Browser/Scripts/LC_Grid/jquery_LC_Grid.js?v=201911181"></script>
+	<script src="/Browser/Scripts/kit/function_LCGrid.js?v=201911181"></script>
+	<!-- 各分頁引用js -->
+	<script src="/Browser/Scripts/moment.min.js?v=201911041"></script>
+	<script src="/Browser/Scripts/daterangepicker.js?v=201912021"></script>
+	<script src="/Browser/Scripts/main.js?v=201912021"></script>
+
+	
+	<script>
+		var PageScope = {
+			VisibleMsg: ''
+		};
+	</script>
+	<script src="/Content/scripts/modernizr.min.js"></script>
+	<script src="/Content/scripts/ui/jquery.form.min.js"></script>
+	<script src="/Content/scripts/owl.carousel.min.js"></script>
+
+	<script src="/Browser/Scripts/cb_index.min.js?v=201911291" ></script>
+
+	<script async src="https://cse.google.com/cse.js?cx=004046965215120231332:qj4mpr4ikw0"></script>
+</head>
+<body>
+	
+<header class="Site-header">
+	<!-- Set navitem to active -->
+	<nav class="navbar navbar-expand-lg d-md-none navbar-mobile p-0">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<a class="nav-link nav-link-01" href="/ProducerSearch">查詢生產者</a>
+			<a class="nav-link nav-link-02" href="/ProducerSearch/BatchIndex">查詢生產批次</a>
+				<a class="nav-link nav-link-03" href="/Inspection">查詢檢驗資訊</a>
+			<a class="nav-link nav-link-04" href="/Page">生產追溯介紹</a>
+			<a class="nav-link nav-link-05" href="/FAQ">常見問題說明</a>
+			<a class="nav-link nav-link-06" href="/DisableData">停用案件公告</a>
+			<a class="nav-link nav-link-07" href="/ProducerArea">生產者專區</a>
+			<a class="nav-link nav-link-08" href="/Matchmaking">供貨專區</a>
+			<a class="nav-link nav-link-09" href="/News/PublicNews">最新消息</a>
+		</div>
+	</nav>
+
+	<div class="navbar navbar-expand-md nav-area">
+		<a class="navbar-brand my-0 mr-md-auto" href="/">
+			<img src="/Browser/images/logo.png" class="nav-logo" alt="臺灣農產品生產追溯系統" />
+		</a>
+		<nav class="my-2 my-md-0 mr-md-2 d-none d-md-block">
+			<a class="p-2" href="/Page/Map">網站導覽</a>
+		</nav>
+		<div class="google-ces-container mr-0 mr-md-3 d-none d-md-block">
+			<div class="gcse-search"></div>
+		</div>
+		<div class="login-btn-group">
+			
+	<a data-options='{"clickSlide" : false,"touch" : false}' data-fancybox="login-modal" data-src="#login-modal "
+	   href="javascript:;" class="btn btn-dark">
+		<i class="fas fa-user-circle"></i> 登入
+	</a>
+	<!-- 登入燈箱 -->
+	<div id="login-modal">
+		<div class="row">
+			<div class="col-md-6 login-bg">
+			</div>
+			<div class="col-md-6 main-color-07-bg">
+				<!-- 帳密登入 -->
+
+				<form id="LoginForm" method="post" action="/Home/Login" style="">
+					<input name="__RequestVerificationToken" type="hidden" value="j9NeT8MdiWz8yPIoQ7M_zP0jxexROw-DXpapEmZ5uUSh6JUCbnkm8hA2EJa2sQptFqiG3sXywka6r2pssSWvQ_vkZ8cvHRIG9C1L8-_Ufoo1" />
+					
+					<input type="hidden" name="TopOrgCode" value="AFA" />
+
+					<div class="row p-3 mr-1">
+						<div class="col-md-12 mt-2 mb-3">
+							<h4>帳號登入</h4>
+						</div>
+						<div class="col-md-12 mb-3">
+							<div class="input-group main-color-07-bg">
+								<div class="input-group-prepend main-color-07-bg">
+									<span class="input-group-text main-color-07-bg" id="inputGroupPrepend01">
+										<i class="fas fa-user mx-2"></i>帳號
+									</span>
+								</div>
+								<input type="text" id="LoginAccount" name="Account" class="form-control form-control-lg" aria-describedby="inputGroupPrepend01">
+							</div>
+						</div>
+						<div class="col-md-12 mb-3">
+							<div class="input-group main-color-07-bg">
+								<div class="input-group-prepend main-color-07-bg">
+									<span class="input-group-text main-color-07-bg" id="inputGroupPrepend02">
+										<i class="fas fa-key mx-2"></i>密碼
+									</span>
+								</div>
+								<input type="password" id="LoginPassword" name="Password" class="form-control form-control-lg" aria-describedby="inputGroupPrepend02">
+							</div>
+						</div>
+						<div class="col-md-6 mb-3 captcha-input">
+							<input type="text" name="ValidCode" class="form-control form-control-lg" id="LoginValidCode" placeholder="驗證碼" autocomplete="off" />
+						</div>
+						<div class="col-md-6 mb-3">
+							<img src="/Home/OutputImg" id="LoginVerifyImg" alt="驗證碼" />
+							<img src="/Browser/images/icon_reload.png" alt="重新整理" style="cursor: pointer;" onclick="loginReloadVerify();">
+						</div>
+						<div class="col-md-12 mb-1">
+							<button type="button" class="btn liner-btn" onclick="login();">送出</button>
+						</div>
+						<div class="col-md-12 mb-5 text-center other">
+							<a href="/Home/Forget" class="underline">忘記密碼</a> | <a href="/Apply/BeforeApply" class="underline">申請成為生產者</a>
+						</div>
+						<div class="col-md-12 text-center main-color-01-dark natural-person-login">
+							<a href="javascript:void(0);" onclick="$('#LoginForm,#PKILoginForm').toggle(); pkiLoginTool.init();">使用自然人憑證登入<i class="ml-1 fas fa-angle-right"></i></a>
+						</div>
+					</div>
+				</form>
+
+				<!-- 自然人憑證登入 -->
+				<form id="PKILoginForm" method="post" action="/Home/PKILogin" style="display:none;">
+					<input name="__RequestVerificationToken" type="hidden" value="D5bNmx0iHWJ3WRBBNLvqsx5S9W9OW0_aWXLlNYCSvOYC0XfRHNE8-5yVFDDetD4ZbfdPWwFVNkTg8b0G-fJ6r_re_eUbEYh0FAKI6iTuIbE1" />
+					<input type="hidden" id="pkiLoginStep" name="pkiLoginStep" value="" />
+					<input type="hidden" id="challengeCode" name="challengeCode" value="" />
+					<input type="hidden" id="b64SignedData" name="b64SignedData" value="" />
+					<input type="hidden" id="accountID" name="accountID" value="" />
+					<input type="hidden" id="tbs" value="" />
+					<input type="hidden" id="returnCode" value="" />
+
+					<div class="row p-3 mr-1">
+						<div class="col-md-12 mt-2 mb-3">
+							<h4>自然人憑證登入</h4>
+						</div>
+						<div class="col-md-12 mb-3">
+							<div class="input-group main-color-07-bg">
+								<div class="input-group-prepend main-color-07-bg">
+									<span class="input-group-text main-color-07-bg" id="inputGroupPrepend04">
+										<i class="fas fa-id-card mx-2"></i>卡片
+									</span>
+								</div>
+								<select id="slotDescription" class="form-control form-control-lg" aria-describedby="inputGroupPrepend04"></select>
+							</div>
+						</div>
+						<div class="col-md-12 mb-3">
+							<div class="input-group main-color-07-bg">
+								<div class="input-group-prepend main-color-07-bg">
+									<span class="input-group-text main-color-07-bg" id="inputGroupPrepend05">
+										<i class="fas fa-key mx-2"></i>PIN
+									</span>
+								</div>
+								<input type="password" id="pin" class="form-control form-control-lg" maxlength="8" autocomplete="off"
+									   aria-describedby="inputGroupPrepend05">
+							</div>
+						</div>
+						<div class="col-md-6 mb-3 captcha-input">
+							<input type="text" class="form-control form-control-lg" id="pkiVerifyCode" name="pkiVerifyCode" placeholder="驗證碼" maxlength="4" autocomplete="off" />
+						</div>
+						<div class="col-md-6 mb-3">
+							<img src="/Home/OutputImg03" id="PKILoginVerifyImg" alt="驗證碼" />
+							<img src="/Browser/images/icon_reload.png" alt="重新整理" style="cursor: pointer;" onclick="pkiLoginReloadVerify();">
+						</div>
+						<div class="col-md-12 mb-1">
+							<button type="button" class="btn liner-btn" onclick="pkiLoginTool.login();">送出</button>
+						</div>
+						<div class="col-md-12 mb-5 text-center other">
+							<a href="javascript:void(0)" onclick="pkiLoginTool.loadSlot();" class="underline">重載卡片</a> | <a href="https://moica.nat.gov.tw/rac_plugin.html" target="_blank" class="underline">跨平台網頁元件下載</a>
+						</div>
+						<div class="col-md-12 text-center main-color-01-dark natural-person-login">
+							<a href="javascript:void(0);" onclick="$('#LoginForm,#PKILoginForm').toggle();"><i class="ml-1 fas fa-angle-left"></i> 使用帳號登入</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- 登入燈箱 -->
+<script src="/Browser/Scripts/cb_header.login.min.js?v=201911221" ></script>
+		</div>
+	</div>
+	<!-- 常駐問題反映按鈕 -->
+		<a href="/Report/Report" class="problem-reply-btn shadow">
+			<i class="fas fa-exclamation"></i>
+			<div>問題反映</div>
+		</a>
+	<!-- 功能列 -->
+	<div class="container d-none d-md-block">
+		<div class="nav-scroller py-1 mb-2 nav-main">
+			<nav class="nav d-flex justify-content-between">
+				<a class="nav-link nav-link-01" href="/ProducerSearch">查詢生產者</a>
+				<a class="nav-link nav-link-02" href="/ProducerSearch/BatchIndex">查詢生產批次</a>
+					<a class="nav-link nav-link-03" href="/Inspection">查詢檢驗資訊</a>
+				<a class="nav-link nav-link-04" href="/Page">生產追溯介紹</a>
+				<a class="nav-link nav-link-05" href="/FAQ">常見問題說明</a>
+				<a class="nav-link nav-link-06" href="/DisableData">停用案件公告</a>
+				<a class="nav-link nav-link-07" href="/ProducerArea">生產者專區</a>
+				<a class="nav-link nav-link-08" href="/Matchmaking">供貨專區</a>
+				<a class="nav-link nav-link-09" href="/News/PublicNews">最新消息</a>
+			</nav>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function () {
+			$('.nav-link').removeClass("active");
+			$.each($('.nav-link'), function (index, item) {
+				if (location.pathname.indexOf($(item).attr("href")) != -1) {
+					$(item)
+						.addClass("active")
+						.siblings().removeClass("active").end()
+						.get(0).scrollIntoView(false);
+				}
+			})
+			if (location.pathname.indexOf("blog") != -1) {
+				$('a.nav-link[href="/ProducerSearch"]')
+					.addClass("active")
+					.siblings().removeClass("active").end()
+					.get(0).scrollIntoView(false);
+			}
+		});
+	</script>
+</header>
+
+	<!-- 主內容Start -->
+	<main role="main" class="Site-content flex-shrink-0">
+		
+<!-- 主內容Start -->
+<!--橫幅區塊-->
+<section>
+	<div id="homeBannerCaptions" class="carousel slide carousel-fade home-banner-slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#homeBannerCaptions" data-slide-to="0" class="active"></li>
+			<li data-target="#homeBannerCaptions" data-slide-to="1"></li>
+			<li data-target="#homeBannerCaptions" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<!-- 2020-10 新Banner，尚未請承辦確認，故先隱藏 -->
+			<!--
+			<div class="carousel-item active" style="cursor: pointer;">
+				<div class="d-block w-100 banner-img-block" style="background-image:url('/Content/images/photo/photo-5.jpg');">
+				</div>
+				<div class="carousel-caption d-none d-block">
+					<div><span>第32屆全國十大神農及模範農民</span></div>
+					<div><span>擦亮台灣鳳梨金招牌</span></div>
+				</div>
+			</div>
+			-->
+			<div class="carousel-item active">
+				<div class="d-block w-100 banner-img-block" style="background-image:url('/Content/images/photo/photo-2.jpg');">
+				</div>
+				<div class="carousel-caption d-none d-block">
+					<div><span>農產品溯源</span></div>
+					<div><span>食在安心</span></div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="d-block w-100 banner-img-block" style="background-image:url('/Content/images/photo/photo-3.jpg');">
+				</div>
+				<div class="carousel-caption d-none d-block">
+					<div><span>農產品溯源</span></div>
+					<div><span>食在安心</span></div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="d-block w-100 banner-img-block" style="background-image:url('/Content/images/photo/photo-4.jpg');">
+				</div>
+				<div class="carousel-caption d-none d-block">
+					<div><span>農產品溯源</span></div>
+					<div><span>食在安心</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--./橫幅區塊-->
+<!--查詢區塊-->
+<section class="container pb-3 trace-code-search-area">
+	<div class="row">
+
+		<div class="tab">
+			<i class="fas fa-search mr-2"></i>追溯編號查詢
+		</div>
+		<div class="col-md-12 search-bar">
+			<div>
+				<form action="/ProducerSearch" method="post" id="searchForm" class="row m-0 p-0">
+					<input name="__RequestVerificationToken" type="hidden" value="S29cVZeTqKml81jiaE-2UjpqOktgexozfybzewhdxCLk41OsiRnNsj0DZQKRtO2wPjPzvdXJSQK1ECEstuift6QJAASD7QE8zLob1R-N0R81" />
+					<div class="col-md-9 pr-md-0">
+						<input name="ByTraceCode" class="form-control form-control-lg" type="text" placeholder="請填寫追溯編號或農友姓名" />
+					</div>
+					<div class="col-md-3 ">
+						<button class="btn btn-dark btn-lg w-100" type="submit">查詢</button>
+						<input name="FromIndex" type="hidden" value="1" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!--./查詢區塊-->
+<!--供貨專區區塊-->
+<section class="container home-container">
+	<div class="row mb-2">
+		<div class="col-md-12">
+			
+				<div class="home-marquee mb-3 marquee">
+		<div class="py-3 mx-3 ">
+				<a href="/News/PublicNewsDetail/114">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">110/03/26</b>110年3月26日中午12:30至12:45將進行系統更新，新增逾時15分鐘系統自行停用功能。
+				</a>
+				<a href="/News/PublicNewsDetail/98">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">109/04/07</b>109/04/08 20:00-22:00 農糧署機房網路架構調整作業公告
+				</a>
+				<a href="/News/PublicNewsDetail/95">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">108/12/28</b>臺灣農產品生產追溯系統-新版網站將於109年01月02日正式上線
+				</a>
+				<a href="/ProducerArea/NewsDetail/79">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">107/05/07</b>「供查資訊查詢」專區提供免費行銷農產品之管道，請多加利用
+				</a>
+				<a href="/ProducerArea/NewsDetail/65">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">105/09/02</b>申請通過後，資料異動說明。
+				</a>
+				<a href="/ProducerArea/NewsDetail/60">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">105/06/18</b>農產品未經驗證，不能使用產銷履歷、生產履歷等用詞，以免受罰
+				</a>
+				<a href="/News/PublicNewsDetail/59">
+					<i class="fas fa-bullhorn"></i> <b class="ml-2">105/06/02</b>本網站APP「查核人員登入」功能目前僅提供業務查核使用
+				</a>
+		</div>
+	</div>
+
+		</div>
+	</div>
+	<div class="row mb-4">
+		<div class="col-md-8">
+			<div class="supply-area mt-2">
+				<h2 class="main-color-01-dark mb-0 font-weight-bold">買新鮮(供貨專區)</h2>
+				<div class="d-flex justify-content-start">
+					<div class="separate-dot-right-line my-4"></div>
+				</div>
+				<h4 class="mb-3">透過政府把關，清楚了解所購買的農產品生產來源，讓您安心消費，請多支持國產農產品。</h4>
+			</div>
+			<img class="dot-bg1" src="/Content/images/photo/dot.png" alt="dot" />
+		</div>
+		<div class="col-md-4">
+			<div class="trace-bar-code-area rounded px-4 py-3">
+				<i class="fas fa-id-card"></i><br />
+				已申請通過生產追溯條碼總數：52,865
+			</div>
+			<a href="/Matchmaking">
+				<div class="more-products-btn rounded py-2 mt-3 shadow">
+					看更多商品<i class="fas fa-shopping-bag ml-2"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+<!--./供貨專區區塊--><!-- 農產品滑動選單區塊 -->
+<section class="mb-5">
+	<div class="product-slide-area">
+		<div class="container text-center mb-3">
+			<!-- 桌面版 -->
+			<div class="row mx-auto my-auto pc">
+				<div class="col-md-1 pr-0">
+					<a id="product-slide-prev" data-slide="prev"> <i class="fas fa-chevron-left"></i></a>
+				</div>
+				<div class="col-md-10 px-0">
+					<section class="product-slide px-3 pb-0" style="padding-top:28px">
+						<div class="owl-carousel">
+
+								<div class="item">
+									<a href="/Matchmaking/View/173" class="slide-item-block">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.441543?fileName=67D7D319-E5EB-491E-9875-53D70F3031D9.png');">
+											<div class="content">
+												<div class="title">臺東關山夢田米（友善農法耕種） </div>
+												<div class="intro">稉稻(白米或黑米)</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="item">
+									<a href="/Matchmaking/View/171" class="slide-item-block">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.434718?fileName=%E4%B8%8A%E7%AD%89%E7%B6%A0%E8%8C%B6003.jpg');">
+											<div class="content">
+												<div class="title">上等三薰茉莉綠茶 </div>
+												<div class="intro">茶製品-茶</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="item">
+									<a href="/Matchmaking/View/165" class="slide-item-block">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.424998?fileName=%E5%95%86%E7%94%A8_01322.png');">
+											<div class="content">
+												<div class="title">ITQI米其林評鑑二星三峽碧螺春綠茶 </div>
+												<div class="intro">茶製品-茶</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="item">
+									<a href="/Matchmaking/View/146" class="slide-item-block">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.407809?fileName=100.jpg');">
+											<div class="content">
+												<div class="title">後壁殷家米-台南16號，新鮮限量販售中。烘乾~碾米~包裝，全部小農一貫化作業，品質保證 </div>
+												<div class="intro">稉稻(白米或黑米)、稉稻(糙米)</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="item">
+									<a href="/Matchmaking/View/48" class="slide-item-block">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.254669?fileName=%E6%8E%A1%E6%9E%9C-1.jpg');">
+											<div class="content">
+												<div class="title">紅寶石棗園所生產的紅棗值得信賴，秉持良心與誠心，全程無毒草生栽種讓您吃得安心。 </div>
+												<div class="intro">棗、紅棗、綜合蔬果乾</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-md-1 pl-0">
+					<a id="product-slide-next" data-slide="next"> <i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+			<!-- ./桌面版 -->
+			<!-- 手機版 -->
+			<div class="row rwd">
+				<div class="col-2 px-0">
+					<a href="#product-slide-rwd" role="button" data-slide="prev"> <i class="fas fa-chevron-left"></i></a>
+				</div>
+				<div class="col-8 py-3 bg-shadow">
+					<div id="product-slide-rwd" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+
+								<div class="carousel-item active">
+									<a href="/Matchmaking/View/173" class="d-inline-block w-100">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.441543?fileName=67D7D319-E5EB-491E-9875-53D70F3031D9.png');">
+											<div class="content">
+												<div class="title">臺東關山夢田米（友善農法耕種）</div>
+												<div class="intro">稉稻(白米或黑米)</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="carousel-item ">
+									<a href="/Matchmaking/View/171" class="d-inline-block w-100">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.434718?fileName=%E4%B8%8A%E7%AD%89%E7%B6%A0%E8%8C%B6003.jpg');">
+											<div class="content">
+												<div class="title">上等三薰茉莉綠茶</div>
+												<div class="intro">茶製品-茶</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="carousel-item ">
+									<a href="/Matchmaking/View/165" class="d-inline-block w-100">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.424998?fileName=%E5%95%86%E7%94%A8_01322.png');">
+											<div class="content">
+												<div class="title">ITQI米其林評鑑二星三峽碧螺春綠茶</div>
+												<div class="intro">茶製品-茶</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="carousel-item ">
+									<a href="/Matchmaking/View/146" class="d-inline-block w-100">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.407809?fileName=100.jpg');">
+											<div class="content">
+												<div class="title">後壁殷家米-台南16號，新鮮限量販售中。烘乾~碾米~包裝，全部小農一貫化作業，品質保證</div>
+												<div class="intro">稉稻(白米或黑米)、稉稻(糙米)</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="carousel-item ">
+									<a href="/Matchmaking/View/48" class="d-inline-block w-100">
+
+										<div class="slide-img-container" style="background-image: url('/ViewMatchmakingImgs.254669?fileName=%E6%8E%A1%E6%9E%9C-1.jpg');">
+											<div class="content">
+												<div class="title">紅寶石棗園所生產的紅棗值得信賴，秉持良心與誠心，全程無毒草生栽種讓您吃得安心。</div>
+												<div class="intro">棗、紅棗、綜合蔬果乾</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 px-0">
+					<a href="#product-slide-rwd" role="button" data-slide="next"> <i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+			<!-- ./手機版 -->
+		</div>
+	</div>
+</section>
+<!-- 農產品滑動選單區塊 -->
+<!-- 種安心生產者區塊 -->
+<section class="container home-container mb-3">
+	<div class="row pt-4">
+	</div>
+	<div class="row">
+		<div class="col-md-4 text-center mb-3">
+			<img src="/Content/images/photo/farmer.png" class="img-fluid home-icon" alt="農民">
+		</div>
+		<div class="col-md-8">
+			<div class="supply-area producer-area">
+				<h2 class="main-color-01-dark mb-0 font-weight-bold">種安心 (生產者專區) </h2>
+				<div class="d-flex justify-content-end">
+					<div class="separate-dot-left-line my-4"></div>
+				</div>
+				<div>
+					<h4 class="mb-3">
+						無須驗證費用、申請程序簡便，透過生產資訊揭露，增加消費者對農產品安全之信任，歡迎您加入生產追溯系統！
+					</h4>
+					<button class="goto-producer-area-btn btn shadow" onclick="window.location.href = '/ProducerArea';">
+						進入生產者專區 <i class="fas fa-angle-right ml-1"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ./種安心生產者區塊-->
+<!-- 熱門農友資訊區塊 -->
+<section class="w-100 mb-5 liner-wall light">
+	<div class="hot-farmer-info-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3 class="main-color-01-dark mt-4 text-white">熱門農友資訊</h3>
+				</div>
+			</div>
+		</div>
+		<!-- 桌面版 -->
+		<div class="row mt-2 mb-5 d-block producer-product pc">
+			<ul class="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist">
+
+					<li class="nav-item col">
+						<a class="active" id="pills-product-tab-1" data-toggle="pill" href="#pills-1" role="tab"
+						   aria-controls="pills-1" aria-selected="true">糧食作物</a>
+					</li>
+					<li class="nav-item col">
+						<a class="" id="pills-product-tab-2" data-toggle="pill" href="#pills-2" role="tab"
+						   aria-controls="pills-2" aria-selected="true">蔬菜</a>
+					</li>
+					<li class="nav-item col">
+						<a class="" id="pills-product-tab-3" data-toggle="pill" href="#pills-3" role="tab"
+						   aria-controls="pills-3" aria-selected="true">果品</a>
+					</li>
+					<li class="nav-item col">
+						<a class="" id="pills-product-tab-4" data-toggle="pill" href="#pills-4" role="tab"
+						   aria-controls="pills-4" aria-selected="true">雜糧與特作</a>
+					</li>
+					<li class="nav-item col">
+						<a class="" id="pills-product-tab-5" data-toggle="pill" href="#pills-5" role="tab"
+						   aria-controls="pills-5" aria-selected="true">農產加工品</a>
+					</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+
+					<div class="tab-pane fade active show" id="pills-1" role="tabpanel" aria-labelledby="pills-product-tab-1">
+						<div class="row">
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0906000007">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.442047/%E8%8A%B1%E8%97%A5.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													灣裡湖農場股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													食用玉米(含玉米筍)、稉稻(白米或黑米)、稉稻(糙米)、稉稻(胚芽米)、塌棵菜、嫩莖萵苣、結球白菜、芥藍、芹菜、菠菜、豬母菜、韭菜、包心芥菜、羽衣甘藍、番茄、節瓜、茄子、黃秋葵、燈籠果、花椰菜、青花菜、球莖甘藍、胡蘿蔔、菊芋、蔥、蘆筍、韭蔥、甜菜根、珠蔥、食用百合、小黃瓜(花胡瓜)、絲瓜、南瓜、菜豆、豌豆、敏豆(粉豆)、翼豆、檸檬、砂糖橘、番石榴(芭樂)、百香果、紅龍果、香蕉、嘉寶果(樹葡萄)、芭蕉、桃、梅、蘋婆、酪梨、無花果(美蓉果)、油甘、大甲藺、洛神花、黃梔子、台灣藜(紅藜)、通天草、香莢蘭豆莢(鮮)、愛玉子、梅製品-糖漬梅、稻米製品-即食米食製品、食用花卉-杭菊、食用花卉-乾燥花卉、食用花卉-飲品、玉米製品-蒸煮、玉米製品-即食、油茶製品-苦茶油、洛神葵製品-洛神葵乾、洛神葵製品-醬
+												</div>
+												<div class="content text-dark">
+
+													位於苗栗苑裡的灣裡湖農場有個灣裡湖，是農場裡的一片水生天地，也是農產品牌《灣裡幸湖農莊》的命名核心！ 2018年起，我們與生機盎然的農場土地、動植物、昆蟲們共處，接力播種栽培蔬果作物，我們自主土壤檢驗、灌溉水重金屬檢驗，自然農法耕作、全程不使用化學農藥，以生物資材防治病蟲害。<br/>【種在地，食當季】灣裡幸湖農莊當季甜軟殼玉米農作中~
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0901002025">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.435969/IMAG4285.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李垚興
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													稉稻(白米或黑米)、稉稻(糙米)、落花生、食用玉米(含玉米筍)、食用花卉-乾燥花卉、食用花卉-飲品
+												</div>
+												<div class="content text-dark">
+
+													我是銅鑼鄉杭菊產銷班班員，本園位於銅鑼鄉，目前生產高品質杭菊為主。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1001000332">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.410834/a35f401be64b4ca8803abd686b3e0148.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蔡掌
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													聖女小番茄、軟秈稻(白米)、軟秈稻(糙米)、百香果、大豆(黃豆、黑豆等)、蕎麥、小黃瓜(花胡瓜)、豌豆、敏豆(粉豆)、萊豆(皇帝豆)、食用玉米(含玉米筍)、軟秈稻(胚芽米)、南瓜
+												</div>
+												<div class="content text-dark">
+
+													我，從小生長在農村，對農村有深厚的感情，從學校畢業後即受聘台北縣林口國中擔任珠算教師，礙於離鄉背景，退役後即進入金融體系服務，兼任二林工商珠算教師，曾擔任分行，存、放款、總務人事、會計、特勤拓展、徵、授信等業務經辦、襄理，總行營運科長、董事會稽核等，並曾擔任籌備高雄、虎尾新分行、彰化地區區域中心及擔任高雄分行副理、虎尾、秀水分行經理、彰化地區區域中心經理等工作及彰化縣政府社區總體營造人才庫→組織輔導人才。<br/><br/>服務期間曾於85、86、87、91等年度外匯業務競賽、88年度放款業務、93年度推動銀行內部教育訓練及終身學習護照等接受表揚敘獎。<br/><br/>民國95年自金融業退休，回歸田園生崖，由『做中學、學中覺、覺中悟』，才知農業也是一門很深的學問，必須不斷進修，充實自己，才能培養出精緻的農業，體會收成的樂趣。<br/><br/>從農期間，亦多次報名參加種苗改良繁殖場，台中農業改良場，農業試驗所等舉辦之農業栽培管理的訓練課程，獲益匪淺。受訓期間，曾有食療的聽聞，得知未來的糧食，非僅止於填飽肚子而已，甚至可以有治療的功能，使我感到無比的興趣。在網路上搜尋，發現由嘉義農業試驗分所，陳隆澤博士的研究團隊已於多年前成功完成台農秈22號香米。屬中粒型品種，其米粒外觀晶瑩剔透、米飯具有優雅之清香味。直鏈澱粉含量低，食用品質優良，口感佳。穀粒較台農秈20號略大，脫粒性適中，並具有較高之完整米粒及稻穀農重量，抗稻熱病、縞葉枯病、褐飛蝨及斑飛蝨，對白葉枯病及二化螟蟲之容忍性較台中秈十號為強，稻穀耐儲藏性佳，其香味及食用品質，在室溫下，儲存四個月後，仍維持良好。(紅色文字系轉載前農委會農業試驗所主任秘書蔡武雄文)向其索取種子，進行試種。初期試種植二分餘，以不噴施藥劑，改用生物製劑的栽培管理方式，希望能產出安全優質的好米能與親朋好友分享。結果發現消費者非常喜愛，大獲好評。故將命名為『秈好養生米』，進行自產自銷。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1501001567">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.443824/thumbnail.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													黃彩環
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													稉稻(白米或黑米)
+												</div>
+												<div class="content text-dark">
+
+													民國104年開始，夢田阿媽(阿火嬸)延續阿火伯60年的水稻種植經驗接手夢田。為了身心健康並維持夢田永續耕作的理想，夢田阿媽改變慣行農法，以友善土地的耕作方式培育夢田米，雖然米的收穫量較以前減少5至6成，但永續耕作夢田，傳承阿火伯務實耕作的夢想得以實現，讓夢田阿媽覺得很幸福。期望跟所有追求健康和友善環境的好朋友們分享夢田米的幸福滋味。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+					<div class="tab-pane fade " id="pills-2" role="tabpanel" aria-labelledby="pills-product-tab-2">
+						<div class="row">
+								<div class="col-md-3 mb-4">
+									<a href="/blog/2001000307">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.422547/%E6%93%B7%E5%8F%96.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李有得
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茄子、蔥、小黃瓜(花胡瓜)、苦瓜、絲瓜、木瓜、百香果、草莓、辣椒、酪梨
+												</div>
+												<div class="content text-dark">
+
+													專業蔬果產銷業務
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1301000492">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.193560/IMAG0918_BURST002_COVER.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													馬楊鴦
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													蕹菜、油菜、紅鳳菜、芹菜、茼蒿、莧菜、萵苣、青江菜、小白菜、香瓜(美濃瓜)
+												</div>
+												<div class="content text-dark">
+
+													本人為新港鄉蔬菜產銷班第33班班員,生產健康安全高品質 蔬菜。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1301000848">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.94730/62%E7%8F%AD%E9%A6%AC%E5%98%89%E9%B4%BB.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													馬嘉鴻
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													莧菜、蕹菜、山茼蒿(昭和菜)
+												</div>
+												<div class="content text-dark">
+
+													本人為新港鄉蔬菜產銷班第62班班員,生產健康安全高品質 蔬菜。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1001000887">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.320623/DSC_1070.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蒲碧祥
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													香瓜(美濃瓜)、洋香瓜(哈蜜瓜)、西瓜、胡瓜、番茄、南瓜、百香果、黃晶果、蓮霧、人心果
+												</div>
+												<div class="content text-dark">
+
+													1.永靖蔬菜產銷班第19班班員<br/>2.生產健康安全農產品
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+					<div class="tab-pane fade " id="pills-3" role="tabpanel" aria-labelledby="pills-product-tab-3">
+						<div class="row">
+								<div class="col-md-3 mb-4">
+									<a href="/blog/2001000307">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.422547/%E6%93%B7%E5%8F%96.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李有得
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茄子、蔥、小黃瓜(花胡瓜)、苦瓜、絲瓜、木瓜、百香果、草莓、辣椒、酪梨
+												</div>
+												<div class="content text-dark">
+
+													專業蔬果產銷業務
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0601003525">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.355839/P_20190803_094442_mh1564810280028.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													吳英傑
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													紅龍果、酪梨
+												</div>
+												<div class="content text-dark">
+
+													因為退休較早，且熱愛有機產業，所以規劃退休生活-擁有自己的農場。<br/>園區第一區為紅龍果區。第二區為酪梨區 。<br/>第三區為果樹區有蕃石榴，蜜棗，檸檬，芒果等。<br/>目前正值紅龍果產期，連日豪雨，更能深深體會栽種的辛苦。能把健康食品分享給大家，再辛苦也是值得。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1101002547">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.196240/IMG_0929.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													陳鳳春
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													紅龍果
+												</div>
+												<div class="content text-dark">
+
+													耕耘者：陳鳳春，產品名稱：紅肉紅龍果，農產地位於南投縣名間鄉，種植紅肉品種火龍果。<br/><br/>原是家庭主婦，但因小孩的家庭開支散葉，小孩越來越多，因為水果的品質把關想更加了解，進而了解並從事火龍果田園管理工作，接著理想在農業這條路走出自己的品牌，雖然農業資歷尚淺，但還好有農友的不吝指教，對土地對作物有著相當濃厚的情感的我，對於農耕甚有基礎底子，再困難都一定能找安全的對付方法克服問題。<br/>成長的過程也體會農業年齡逐漸高齡形成斷層，讓我決心踏入農業並秉持友善耕耘農法，為農業這塊領域注入新血。<br/>合作社配合農業小地主大佃農政策拓展生產面積，未來更希望能夠吸引更多志趣相投的年輕人，帶動臺灣農產業鏈成為出口國家。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1001000887">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.320623/DSC_1070.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蒲碧祥
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													香瓜(美濃瓜)、洋香瓜(哈蜜瓜)、西瓜、胡瓜、番茄、南瓜、百香果、黃晶果、蓮霧、人心果
+												</div>
+												<div class="content text-dark">
+
+													1.永靖蔬菜產銷班第19班班員<br/>2.生產健康安全農產品
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+					<div class="tab-pane fade " id="pills-4" role="tabpanel" aria-labelledby="pills-product-tab-4">
+						<div class="row">
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0906000007">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.442047/%E8%8A%B1%E8%97%A5.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													灣裡湖農場股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													食用玉米(含玉米筍)、稉稻(白米或黑米)、稉稻(糙米)、稉稻(胚芽米)、塌棵菜、嫩莖萵苣、結球白菜、芥藍、芹菜、菠菜、豬母菜、韭菜、包心芥菜、羽衣甘藍、番茄、節瓜、茄子、黃秋葵、燈籠果、花椰菜、青花菜、球莖甘藍、胡蘿蔔、菊芋、蔥、蘆筍、韭蔥、甜菜根、珠蔥、食用百合、小黃瓜(花胡瓜)、絲瓜、南瓜、菜豆、豌豆、敏豆(粉豆)、翼豆、檸檬、砂糖橘、番石榴(芭樂)、百香果、紅龍果、香蕉、嘉寶果(樹葡萄)、芭蕉、桃、梅、蘋婆、酪梨、無花果(美蓉果)、油甘、大甲藺、洛神花、黃梔子、台灣藜(紅藜)、通天草、香莢蘭豆莢(鮮)、愛玉子、梅製品-糖漬梅、稻米製品-即食米食製品、食用花卉-杭菊、食用花卉-乾燥花卉、食用花卉-飲品、玉米製品-蒸煮、玉米製品-即食、油茶製品-苦茶油、洛神葵製品-洛神葵乾、洛神葵製品-醬
+												</div>
+												<div class="content text-dark">
+
+													位於苗栗苑裡的灣裡湖農場有個灣裡湖，是農場裡的一片水生天地，也是農產品牌《灣裡幸湖農莊》的命名核心！ 2018年起，我們與生機盎然的農場土地、動植物、昆蟲們共處，接力播種栽培蔬果作物，我們自主土壤檢驗、灌溉水重金屬檢驗，自然農法耕作、全程不使用化學農藥，以生物資材防治病蟲害。<br/>【種在地，食當季】灣裡幸湖農莊當季甜軟殼玉米農作中~
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0901002025">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.435969/IMAG4285.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李垚興
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													稉稻(白米或黑米)、稉稻(糙米)、落花生、食用玉米(含玉米筍)、食用花卉-乾燥花卉、食用花卉-飲品
+												</div>
+												<div class="content text-dark">
+
+													我是銅鑼鄉杭菊產銷班班員，本園位於銅鑼鄉，目前生產高品質杭菊為主。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1001000332">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.410834/a35f401be64b4ca8803abd686b3e0148.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蔡掌
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													聖女小番茄、軟秈稻(白米)、軟秈稻(糙米)、百香果、大豆(黃豆、黑豆等)、蕎麥、小黃瓜(花胡瓜)、豌豆、敏豆(粉豆)、萊豆(皇帝豆)、食用玉米(含玉米筍)、軟秈稻(胚芽米)、南瓜
+												</div>
+												<div class="content text-dark">
+
+													我，從小生長在農村，對農村有深厚的感情，從學校畢業後即受聘台北縣林口國中擔任珠算教師，礙於離鄉背景，退役後即進入金融體系服務，兼任二林工商珠算教師，曾擔任分行，存、放款、總務人事、會計、特勤拓展、徵、授信等業務經辦、襄理，總行營運科長、董事會稽核等，並曾擔任籌備高雄、虎尾新分行、彰化地區區域中心及擔任高雄分行副理、虎尾、秀水分行經理、彰化地區區域中心經理等工作及彰化縣政府社區總體營造人才庫→組織輔導人才。<br/><br/>服務期間曾於85、86、87、91等年度外匯業務競賽、88年度放款業務、93年度推動銀行內部教育訓練及終身學習護照等接受表揚敘獎。<br/><br/>民國95年自金融業退休，回歸田園生崖，由『做中學、學中覺、覺中悟』，才知農業也是一門很深的學問，必須不斷進修，充實自己，才能培養出精緻的農業，體會收成的樂趣。<br/><br/>從農期間，亦多次報名參加種苗改良繁殖場，台中農業改良場，農業試驗所等舉辦之農業栽培管理的訓練課程，獲益匪淺。受訓期間，曾有食療的聽聞，得知未來的糧食，非僅止於填飽肚子而已，甚至可以有治療的功能，使我感到無比的興趣。在網路上搜尋，發現由嘉義農業試驗分所，陳隆澤博士的研究團隊已於多年前成功完成台農秈22號香米。屬中粒型品種，其米粒外觀晶瑩剔透、米飯具有優雅之清香味。直鏈澱粉含量低，食用品質優良，口感佳。穀粒較台農秈20號略大，脫粒性適中，並具有較高之完整米粒及稻穀農重量，抗稻熱病、縞葉枯病、褐飛蝨及斑飛蝨，對白葉枯病及二化螟蟲之容忍性較台中秈十號為強，稻穀耐儲藏性佳，其香味及食用品質，在室溫下，儲存四個月後，仍維持良好。(紅色文字系轉載前農委會農業試驗所主任秘書蔡武雄文)向其索取種子，進行試種。初期試種植二分餘，以不噴施藥劑，改用生物製劑的栽培管理方式，希望能產出安全優質的好米能與親朋好友分享。結果發現消費者非常喜愛，大獲好評。故將命名為『秈好養生米』，進行自產自銷。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1401001418">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.343522/11800.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													顏金珠
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													薑黃、肉桂、南薑、蘆薈、薄荷、香茅
+												</div>
+												<div class="content text-dark">
+
+													自有土地種植薑黃、高梁薑、橫式肉桂、檸檬、酪梨、<br/>金柑、蘆薈、薄荷、艾草、香茅等農作物。依自然農法讓農作物自然生長。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+					<div class="tab-pane fade " id="pills-5" role="tabpanel" aria-labelledby="pills-product-tab-5">
+						<div class="row">
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1203000009">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.436735/2116.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													保證責任雲林縣四湖果菜生產合作社
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													玉米製品-冷凍玉米
+												</div>
+												<div class="content text-dark">
+
+													甜玉米:<br/>    本合作社場推動冷凍玉米粒加工，年產量4500公噸的黃金玉米粒，年產量價值高，玉米原料與農民契作，玉米成熟後農民自田間採收後交由合作社加工，玉米以輸高機進料後以殺青機加熱後，走輸高機後，經過震動機後，玉米剝葉後以人工玉米脫粒機脫粒後走輸高機後，洗滌、殺菁、降溫、冷卻後，走IQF急速冷凍隨即以急速冷凍-18℃鎖住鮮味後成品包裝後進冷凍庫儲存，兼顧營養與美味的優質國產品。<br/><br/>以本社農產品所有作物皆接受嚴格把關，皆委託食品研究所檢驗甜玉米300多種農藥及非基改甜玉米全部通過檢驗證明非基改甜玉米，自田間採收隨後即刻加工以冷凍-18℃鎖住鮮味，兼顧營養與美味的優質國產品也受到許多客戶的肯定與推廣。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0401001808">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.433894/DSC00095.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													張建財
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茶製品-茶
+												</div>
+												<div class="content text-dark">
+
+													生產者  : 茶農張建財<br/>產    地 : 南投縣仁愛鄉.竹山鎮.名間鄉.<br/>                  雲林縣林內鄉<br/>栽培作物 :茶樹<br/>品    種   :台茶12號.青心烏龍.台茶13號.四季春.<br/>面    積   :約3公頃<br/>產    量   :約3公噸
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/1106000007">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.89702/%E9%9A%86%E6%B3%B0logo.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													隆泰茶業股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茶製品-茶
+												</div>
+												<div class="content text-dark">
+
+													隆泰茶業股份有限公司於2001年所創辦成立。1970年代茶葉市場一片欣欣向榮，董事長劉明照先生開始經營茶葉批發業務，於1979年設立隆泰茶業有限公司，並於2001年變更為股份有限公司，迄今已有37年歷史。<br/><br/>於2014年引發之食安問題，台灣茶飲市場面對很大之危機，為此隆泰公司為避免此風波嚴重影響公司和消費者之信心，公司和農民達成共識，以契作方式做茶園管理，讓產品能達到一直線的產銷供應鏈，為消費者嚴格把關茶葉安全問題，且更有效率達成產品之溯源管理。<br/><br/>隆泰公司本著『品質至上、服務第一、共存共榮』的經營理念，以品質為目標，以服務為根本，共同經營並塑造品質優良茶葉產品，服務第一的優質企業。建立臺灣茶葉食品安全供銷鍊，重塑消費者對於在地食材的信心。
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-3 mb-4">
+									<a href="/blog/0906000007">
+										<div class="card custom-card border-0 bg-white">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.442047/%E8%8A%B1%E8%97%A5.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													灣裡湖農場股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													食用玉米(含玉米筍)、稉稻(白米或黑米)、稉稻(糙米)、稉稻(胚芽米)、塌棵菜、嫩莖萵苣、結球白菜、芥藍、芹菜、菠菜、豬母菜、韭菜、包心芥菜、羽衣甘藍、番茄、節瓜、茄子、黃秋葵、燈籠果、花椰菜、青花菜、球莖甘藍、胡蘿蔔、菊芋、蔥、蘆筍、韭蔥、甜菜根、珠蔥、食用百合、小黃瓜(花胡瓜)、絲瓜、南瓜、菜豆、豌豆、敏豆(粉豆)、翼豆、檸檬、砂糖橘、番石榴(芭樂)、百香果、紅龍果、香蕉、嘉寶果(樹葡萄)、芭蕉、桃、梅、蘋婆、酪梨、無花果(美蓉果)、油甘、大甲藺、洛神花、黃梔子、台灣藜(紅藜)、通天草、香莢蘭豆莢(鮮)、愛玉子、梅製品-糖漬梅、稻米製品-即食米食製品、食用花卉-杭菊、食用花卉-乾燥花卉、食用花卉-飲品、玉米製品-蒸煮、玉米製品-即食、油茶製品-苦茶油、洛神葵製品-洛神葵乾、洛神葵製品-醬
+												</div>
+												<div class="content text-dark">
+
+													位於苗栗苑裡的灣裡湖農場有個灣裡湖，是農場裡的一片水生天地，也是農產品牌《灣裡幸湖農莊》的命名核心！ 2018年起，我們與生機盎然的農場土地、動植物、昆蟲們共處，接力播種栽培蔬果作物，我們自主土壤檢驗、灌溉水重金屬檢驗，自然農法耕作、全程不使用化學農藥，以生物資材防治病蟲害。<br/>【種在地，食當季】灣裡幸湖農莊當季甜軟殼玉米農作中~
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+					</div>
+				<br />
+				<div class="readmore-btn">
+					<button class="btn liner-btn px-5" onclick="window.location.href = '/ProducerSearch';">觀看更多資訊</button>
+				</div>
+			</div>
+		</div>
+		<!-- ./桌面版 -->
+		<!-- 手機版 -->
+		<div class="row rwd">
+			<div class="col-2 text-right">
+				<a href="#hot-farmer-slide-rwd" role="button" data-slide="prev">
+					<i class="fas fa-chevron-left"></i>
+				</a>
+			</div>
+			<div class="col-8 py-3">
+				<div id="hot-farmer-slide-rwd" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+
+								<div class="carousel-item active show">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0906000007" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.442047/%E8%8A%B1%E8%97%A5.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													灣裡湖農場股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													食用玉米(含玉米筍)、稉稻(白米或黑米)、稉稻(糙米)、稉稻(胚芽米)、塌棵菜、嫩莖萵苣、結球白菜、芥藍、芹菜、菠菜、豬母菜、韭菜、包心芥菜、羽衣甘藍、番茄、節瓜、茄子、黃秋葵、燈籠果、花椰菜、青花菜、球莖甘藍、胡蘿蔔、菊芋、蔥、蘆筍、韭蔥、甜菜根、珠蔥、食用百合、小黃瓜(花胡瓜)、絲瓜、南瓜、菜豆、豌豆、敏豆(粉豆)、翼豆、檸檬、砂糖橘、番石榴(芭樂)、百香果、紅龍果、香蕉、嘉寶果(樹葡萄)、芭蕉、桃、梅、蘋婆、酪梨、無花果(美蓉果)、油甘、大甲藺、洛神花、黃梔子、台灣藜(紅藜)、通天草、香莢蘭豆莢(鮮)、愛玉子、梅製品-糖漬梅、稻米製品-即食米食製品、食用花卉-杭菊、食用花卉-乾燥花卉、食用花卉-飲品、玉米製品-蒸煮、玉米製品-即食、油茶製品-苦茶油、洛神葵製品-洛神葵乾、洛神葵製品-醬
+												</div>
+												<div class="content text-dark">
+
+													位於苗栗苑裡的灣裡湖農場有個灣裡湖，是農場裡的一片水生天地，也是農產品牌《灣裡幸湖農莊》的命名核心！ 2018年起，我們與生機盎然的農場土地、動植物、昆蟲們共處，接力播種栽培蔬果作物，我們自主土壤檢驗、灌溉水重金屬檢驗，自然農法耕作、全程不使用化學農藥，以生物資材防治病蟲害。<br/>【種在地，食當季】灣裡幸湖農莊當季甜軟殼玉米農作中~
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0901002025" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.435969/IMAG4285.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李垚興
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													稉稻(白米或黑米)、稉稻(糙米)、落花生、食用玉米(含玉米筍)、食用花卉-乾燥花卉、食用花卉-飲品
+												</div>
+												<div class="content text-dark">
+
+													我是銅鑼鄉杭菊產銷班班員，本園位於銅鑼鄉，目前生產高品質杭菊為主。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1001000332" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.410834/a35f401be64b4ca8803abd686b3e0148.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蔡掌
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													聖女小番茄、軟秈稻(白米)、軟秈稻(糙米)、百香果、大豆(黃豆、黑豆等)、蕎麥、小黃瓜(花胡瓜)、豌豆、敏豆(粉豆)、萊豆(皇帝豆)、食用玉米(含玉米筍)、軟秈稻(胚芽米)、南瓜
+												</div>
+												<div class="content text-dark">
+
+													我，從小生長在農村，對農村有深厚的感情，從學校畢業後即受聘台北縣林口國中擔任珠算教師，礙於離鄉背景，退役後即進入金融體系服務，兼任二林工商珠算教師，曾擔任分行，存、放款、總務人事、會計、特勤拓展、徵、授信等業務經辦、襄理，總行營運科長、董事會稽核等，並曾擔任籌備高雄、虎尾新分行、彰化地區區域中心及擔任高雄分行副理、虎尾、秀水分行經理、彰化地區區域中心經理等工作及彰化縣政府社區總體營造人才庫→組織輔導人才。<br/><br/>服務期間曾於85、86、87、91等年度外匯業務競賽、88年度放款業務、93年度推動銀行內部教育訓練及終身學習護照等接受表揚敘獎。<br/><br/>民國95年自金融業退休，回歸田園生崖，由『做中學、學中覺、覺中悟』，才知農業也是一門很深的學問，必須不斷進修，充實自己，才能培養出精緻的農業，體會收成的樂趣。<br/><br/>從農期間，亦多次報名參加種苗改良繁殖場，台中農業改良場，農業試驗所等舉辦之農業栽培管理的訓練課程，獲益匪淺。受訓期間，曾有食療的聽聞，得知未來的糧食，非僅止於填飽肚子而已，甚至可以有治療的功能，使我感到無比的興趣。在網路上搜尋，發現由嘉義農業試驗分所，陳隆澤博士的研究團隊已於多年前成功完成台農秈22號香米。屬中粒型品種，其米粒外觀晶瑩剔透、米飯具有優雅之清香味。直鏈澱粉含量低，食用品質優良，口感佳。穀粒較台農秈20號略大，脫粒性適中，並具有較高之完整米粒及稻穀農重量，抗稻熱病、縞葉枯病、褐飛蝨及斑飛蝨，對白葉枯病及二化螟蟲之容忍性較台中秈十號為強，稻穀耐儲藏性佳，其香味及食用品質，在室溫下，儲存四個月後，仍維持良好。(紅色文字系轉載前農委會農業試驗所主任秘書蔡武雄文)向其索取種子，進行試種。初期試種植二分餘，以不噴施藥劑，改用生物製劑的栽培管理方式，希望能產出安全優質的好米能與親朋好友分享。結果發現消費者非常喜愛，大獲好評。故將命名為『秈好養生米』，進行自產自銷。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1501001567" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.443824/thumbnail.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													黃彩環
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													稉稻(白米或黑米)
+												</div>
+												<div class="content text-dark">
+
+													民國104年開始，夢田阿媽(阿火嬸)延續阿火伯60年的水稻種植經驗接手夢田。為了身心健康並維持夢田永續耕作的理想，夢田阿媽改變慣行農法，以友善土地的耕作方式培育夢田米，雖然米的收穫量較以前減少5至6成，但永續耕作夢田，傳承阿火伯務實耕作的夢想得以實現，讓夢田阿媽覺得很幸福。期望跟所有追求健康和友善環境的好朋友們分享夢田米的幸福滋味。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/2001000307" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.422547/%E6%93%B7%E5%8F%96.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李有得
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茄子、蔥、小黃瓜(花胡瓜)、苦瓜、絲瓜、木瓜、百香果、草莓、辣椒、酪梨
+												</div>
+												<div class="content text-dark">
+
+													專業蔬果產銷業務
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1301000492" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.193560/IMAG0918_BURST002_COVER.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													馬楊鴦
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													蕹菜、油菜、紅鳳菜、芹菜、茼蒿、莧菜、萵苣、青江菜、小白菜、香瓜(美濃瓜)
+												</div>
+												<div class="content text-dark">
+
+													本人為新港鄉蔬菜產銷班第33班班員,生產健康安全高品質 蔬菜。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1301000848" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.94730/62%E7%8F%AD%E9%A6%AC%E5%98%89%E9%B4%BB.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													馬嘉鴻
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													莧菜、蕹菜、山茼蒿(昭和菜)
+												</div>
+												<div class="content text-dark">
+
+													本人為新港鄉蔬菜產銷班第62班班員,生產健康安全高品質 蔬菜。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1001000887" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.320623/DSC_1070.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蒲碧祥
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													香瓜(美濃瓜)、洋香瓜(哈蜜瓜)、西瓜、胡瓜、番茄、南瓜、百香果、黃晶果、蓮霧、人心果
+												</div>
+												<div class="content text-dark">
+
+													1.永靖蔬菜產銷班第19班班員<br/>2.生產健康安全農產品
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/2001000307" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.422547/%E6%93%B7%E5%8F%96.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李有得
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茄子、蔥、小黃瓜(花胡瓜)、苦瓜、絲瓜、木瓜、百香果、草莓、辣椒、酪梨
+												</div>
+												<div class="content text-dark">
+
+													專業蔬果產銷業務
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0601003525" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.355839/P_20190803_094442_mh1564810280028.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													吳英傑
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													紅龍果、酪梨
+												</div>
+												<div class="content text-dark">
+
+													因為退休較早，且熱愛有機產業，所以規劃退休生活-擁有自己的農場。<br/>園區第一區為紅龍果區。第二區為酪梨區 。<br/>第三區為果樹區有蕃石榴，蜜棗，檸檬，芒果等。<br/>目前正值紅龍果產期，連日豪雨，更能深深體會栽種的辛苦。能把健康食品分享給大家，再辛苦也是值得。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1101002547" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.196240/IMG_0929.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													陳鳳春
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													紅龍果
+												</div>
+												<div class="content text-dark">
+
+													耕耘者：陳鳳春，產品名稱：紅肉紅龍果，農產地位於南投縣名間鄉，種植紅肉品種火龍果。<br/><br/>原是家庭主婦，但因小孩的家庭開支散葉，小孩越來越多，因為水果的品質把關想更加了解，進而了解並從事火龍果田園管理工作，接著理想在農業這條路走出自己的品牌，雖然農業資歷尚淺，但還好有農友的不吝指教，對土地對作物有著相當濃厚的情感的我，對於農耕甚有基礎底子，再困難都一定能找安全的對付方法克服問題。<br/>成長的過程也體會農業年齡逐漸高齡形成斷層，讓我決心踏入農業並秉持友善耕耘農法，為農業這塊領域注入新血。<br/>合作社配合農業小地主大佃農政策拓展生產面積，未來更希望能夠吸引更多志趣相投的年輕人，帶動臺灣農產業鏈成為出口國家。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1001000887" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.320623/DSC_1070.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蒲碧祥
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													香瓜(美濃瓜)、洋香瓜(哈蜜瓜)、西瓜、胡瓜、番茄、南瓜、百香果、黃晶果、蓮霧、人心果
+												</div>
+												<div class="content text-dark">
+
+													1.永靖蔬菜產銷班第19班班員<br/>2.生產健康安全農產品
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0906000007" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.442047/%E8%8A%B1%E8%97%A5.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													灣裡湖農場股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													食用玉米(含玉米筍)、稉稻(白米或黑米)、稉稻(糙米)、稉稻(胚芽米)、塌棵菜、嫩莖萵苣、結球白菜、芥藍、芹菜、菠菜、豬母菜、韭菜、包心芥菜、羽衣甘藍、番茄、節瓜、茄子、黃秋葵、燈籠果、花椰菜、青花菜、球莖甘藍、胡蘿蔔、菊芋、蔥、蘆筍、韭蔥、甜菜根、珠蔥、食用百合、小黃瓜(花胡瓜)、絲瓜、南瓜、菜豆、豌豆、敏豆(粉豆)、翼豆、檸檬、砂糖橘、番石榴(芭樂)、百香果、紅龍果、香蕉、嘉寶果(樹葡萄)、芭蕉、桃、梅、蘋婆、酪梨、無花果(美蓉果)、油甘、大甲藺、洛神花、黃梔子、台灣藜(紅藜)、通天草、香莢蘭豆莢(鮮)、愛玉子、梅製品-糖漬梅、稻米製品-即食米食製品、食用花卉-杭菊、食用花卉-乾燥花卉、食用花卉-飲品、玉米製品-蒸煮、玉米製品-即食、油茶製品-苦茶油、洛神葵製品-洛神葵乾、洛神葵製品-醬
+												</div>
+												<div class="content text-dark">
+
+													位於苗栗苑裡的灣裡湖農場有個灣裡湖，是農場裡的一片水生天地，也是農產品牌《灣裡幸湖農莊》的命名核心！ 2018年起，我們與生機盎然的農場土地、動植物、昆蟲們共處，接力播種栽培蔬果作物，我們自主土壤檢驗、灌溉水重金屬檢驗，自然農法耕作、全程不使用化學農藥，以生物資材防治病蟲害。<br/>【種在地，食當季】灣裡幸湖農莊當季甜軟殼玉米農作中~
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0901002025" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.435969/IMAG4285.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													李垚興
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													稉稻(白米或黑米)、稉稻(糙米)、落花生、食用玉米(含玉米筍)、食用花卉-乾燥花卉、食用花卉-飲品
+												</div>
+												<div class="content text-dark">
+
+													我是銅鑼鄉杭菊產銷班班員，本園位於銅鑼鄉，目前生產高品質杭菊為主。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1001000332" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.410834/a35f401be64b4ca8803abd686b3e0148.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													蔡掌
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													聖女小番茄、軟秈稻(白米)、軟秈稻(糙米)、百香果、大豆(黃豆、黑豆等)、蕎麥、小黃瓜(花胡瓜)、豌豆、敏豆(粉豆)、萊豆(皇帝豆)、食用玉米(含玉米筍)、軟秈稻(胚芽米)、南瓜
+												</div>
+												<div class="content text-dark">
+
+													我，從小生長在農村，對農村有深厚的感情，從學校畢業後即受聘台北縣林口國中擔任珠算教師，礙於離鄉背景，退役後即進入金融體系服務，兼任二林工商珠算教師，曾擔任分行，存、放款、總務人事、會計、特勤拓展、徵、授信等業務經辦、襄理，總行營運科長、董事會稽核等，並曾擔任籌備高雄、虎尾新分行、彰化地區區域中心及擔任高雄分行副理、虎尾、秀水分行經理、彰化地區區域中心經理等工作及彰化縣政府社區總體營造人才庫→組織輔導人才。<br/><br/>服務期間曾於85、86、87、91等年度外匯業務競賽、88年度放款業務、93年度推動銀行內部教育訓練及終身學習護照等接受表揚敘獎。<br/><br/>民國95年自金融業退休，回歸田園生崖，由『做中學、學中覺、覺中悟』，才知農業也是一門很深的學問，必須不斷進修，充實自己，才能培養出精緻的農業，體會收成的樂趣。<br/><br/>從農期間，亦多次報名參加種苗改良繁殖場，台中農業改良場，農業試驗所等舉辦之農業栽培管理的訓練課程，獲益匪淺。受訓期間，曾有食療的聽聞，得知未來的糧食，非僅止於填飽肚子而已，甚至可以有治療的功能，使我感到無比的興趣。在網路上搜尋，發現由嘉義農業試驗分所，陳隆澤博士的研究團隊已於多年前成功完成台農秈22號香米。屬中粒型品種，其米粒外觀晶瑩剔透、米飯具有優雅之清香味。直鏈澱粉含量低，食用品質優良，口感佳。穀粒較台農秈20號略大，脫粒性適中，並具有較高之完整米粒及稻穀農重量，抗稻熱病、縞葉枯病、褐飛蝨及斑飛蝨，對白葉枯病及二化螟蟲之容忍性較台中秈十號為強，稻穀耐儲藏性佳，其香味及食用品質，在室溫下，儲存四個月後，仍維持良好。(紅色文字系轉載前農委會農業試驗所主任秘書蔡武雄文)向其索取種子，進行試種。初期試種植二分餘，以不噴施藥劑，改用生物製劑的栽培管理方式，希望能產出安全優質的好米能與親朋好友分享。結果發現消費者非常喜愛，大獲好評。故將命名為『秈好養生米』，進行自產自銷。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1401001418" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.343522/11800.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													顏金珠
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													薑黃、肉桂、南薑、蘆薈、薄荷、香茅
+												</div>
+												<div class="content text-dark">
+
+													自有土地種植薑黃、高梁薑、橫式肉桂、檸檬、酪梨、<br/>金柑、蘆薈、薄荷、艾草、香茅等農作物。依自然農法讓農作物自然生長。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1203000009" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.436735/2116.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													保證責任雲林縣四湖果菜生產合作社
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													玉米製品-冷凍玉米
+												</div>
+												<div class="content text-dark">
+
+													甜玉米:<br/>    本合作社場推動冷凍玉米粒加工，年產量4500公噸的黃金玉米粒，年產量價值高，玉米原料與農民契作，玉米成熟後農民自田間採收後交由合作社加工，玉米以輸高機進料後以殺青機加熱後，走輸高機後，經過震動機後，玉米剝葉後以人工玉米脫粒機脫粒後走輸高機後，洗滌、殺菁、降溫、冷卻後，走IQF急速冷凍隨即以急速冷凍-18℃鎖住鮮味後成品包裝後進冷凍庫儲存，兼顧營養與美味的優質國產品。<br/><br/>以本社農產品所有作物皆接受嚴格把關，皆委託食品研究所檢驗甜玉米300多種農藥及非基改甜玉米全部通過檢驗證明非基改甜玉米，自田間採收隨後即刻加工以冷凍-18℃鎖住鮮味，兼顧營養與美味的優質國產品也受到許多客戶的肯定與推廣。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0401001808" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.433894/DSC00095.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													張建財
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茶製品-茶
+												</div>
+												<div class="content text-dark">
+
+													生產者  : 茶農張建財<br/>產    地 : 南投縣仁愛鄉.竹山鎮.名間鄉.<br/>                  雲林縣林內鄉<br/>栽培作物 :茶樹<br/>品    種   :台茶12號.青心烏龍.台茶13號.四季春.<br/>面    積   :約3公頃<br/>產    量   :約3公噸
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/1106000007" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.89702/%E9%9A%86%E6%B3%B0logo.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													隆泰茶業股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													茶製品-茶
+												</div>
+												<div class="content text-dark">
+
+													隆泰茶業股份有限公司於2001年所創辦成立。1970年代茶葉市場一片欣欣向榮，董事長劉明照先生開始經營茶葉批發業務，於1979年設立隆泰茶業有限公司，並於2001年變更為股份有限公司，迄今已有37年歷史。<br/><br/>於2014年引發之食安問題，台灣茶飲市場面對很大之危機，為此隆泰公司為避免此風波嚴重影響公司和消費者之信心，公司和農民達成共識，以契作方式做茶園管理，讓產品能達到一直線的產銷供應鏈，為消費者嚴格把關茶葉安全問題，且更有效率達成產品之溯源管理。<br/><br/>隆泰公司本著『品質至上、服務第一、共存共榮』的經營理念，以品質為目標，以服務為根本，共同經營並塑造品質優良茶葉產品，服務第一的優質企業。建立臺灣茶葉食品安全供銷鍊，重塑消費者對於在地食材的信心。
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="carousel-item ">
+									<div class="d-inline-block w-100">
+										<a href="/blog/0906000007" class="card custom-card border-0">
+											<div class="d-block w-100 card-img-block"
+												 style="background-image:url('/ViewQRCodeTraceManageSelfImg.442047/%E8%8A%B1%E8%97%A5.jpg');">
+											</div>
+											<div class="card-body">
+												<div class="main-03">
+													灣裡湖農場股份有限公司
+												</div>
+												<div class="main-color-01-dark multi-tag">
+													食用玉米(含玉米筍)、稉稻(白米或黑米)、稉稻(糙米)、稉稻(胚芽米)、塌棵菜、嫩莖萵苣、結球白菜、芥藍、芹菜、菠菜、豬母菜、韭菜、包心芥菜、羽衣甘藍、番茄、節瓜、茄子、黃秋葵、燈籠果、花椰菜、青花菜、球莖甘藍、胡蘿蔔、菊芋、蔥、蘆筍、韭蔥、甜菜根、珠蔥、食用百合、小黃瓜(花胡瓜)、絲瓜、南瓜、菜豆、豌豆、敏豆(粉豆)、翼豆、檸檬、砂糖橘、番石榴(芭樂)、百香果、紅龍果、香蕉、嘉寶果(樹葡萄)、芭蕉、桃、梅、蘋婆、酪梨、無花果(美蓉果)、油甘、大甲藺、洛神花、黃梔子、台灣藜(紅藜)、通天草、香莢蘭豆莢(鮮)、愛玉子、梅製品-糖漬梅、稻米製品-即食米食製品、食用花卉-杭菊、食用花卉-乾燥花卉、食用花卉-飲品、玉米製品-蒸煮、玉米製品-即食、油茶製品-苦茶油、洛神葵製品-洛神葵乾、洛神葵製品-醬
+												</div>
+												<div class="content text-dark">
+
+													位於苗栗苑裡的灣裡湖農場有個灣裡湖，是農場裡的一片水生天地，也是農產品牌《灣裡幸湖農莊》的命名核心！ 2018年起，我們與生機盎然的農場土地、動植物、昆蟲們共處，接力播種栽培蔬果作物，我們自主土壤檢驗、灌溉水重金屬檢驗，自然農法耕作、全程不使用化學農藥，以生物資材防治病蟲害。<br/>【種在地，食當季】灣裡幸湖農莊當季甜軟殼玉米農作中~
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+					</div>
+				</div>
+				<div class="readmore-btn">
+					<button class="btn liner-btn px-5" onclick="window.location.href = '/ProducerSearch';">觀看更多資訊</button>
+				</div>
+			</div>
+			<div class="col-2 text-left">
+				<a href="#hot-farmer-slide-rwd" role="button" data-slide="next"> <i class="fas fa-chevron-right"></i></a>
+			</div>
+		</div>
+		<!-- ./手機版 -->
+	</div>
+</section>
+<!-- 熱門農友資訊區塊 -->
+<!-- 最新文章區塊 -->
+
+<section class="container home-container my-5">
+	<div class="row mb-5 newest-article-area">
+		<div class="col-lg-2 col-md-3 left-block px-0">
+			<div class="inner news-title text-light">
+				<div>最新<span class="d-md-block">文章</span></div>
+			</div>
+		</div>
+		<div class="col-lg-10 col-md-9 right-block px-0">
+			<div class="container">
+						<div class="row inner" style="display:flex">
+							<div class="col-md-8">
+								<div class="main-03">
+									<span>110/04/03</span>
+									<span>呂麗芳</span>
+								</div>
+								<div>
+									<a href="/blog/0601003839?logID=36419">
+										<h4>祥仔玉荷包</h4>
+									</a>
+								</div>
+								<div class="content">
+									自民國96年栽種起
+								</div>
+							</div>
+							<div class="col-md-3 pl-3 pl-md-0">
+
+								<div class="circle-img" style="background-image: url(/ViewCultivationLogImg.452154?fileName=%E8%8D%94%E6%9E%9D%E5%B0%81%E9%9D%A2%E5%9C%96.jpg);">
+								</div>
+							</div>
+							<div class="col-md-1 pl-3 pl-md-0 align-self-center">
+								<div class="arrow-group">
+									<div class="arrow-up-btn disabled">
+										<i class="fas fa-angle-up fa-2x"></i>
+									</div>
+									<div class="arrow-down-btn ">
+										<i class="fas fa-angle-down fa-2x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row inner" style="display:none">
+							<div class="col-md-8">
+								<div class="main-03">
+									<span>110/04/03</span>
+									<span>陳鳳春</span>
+								</div>
+								<div>
+									<a href="/blog/1101002547?logID=36418">
+										<h4>栽培日紀</h4>
+									</a>
+								</div>
+								<div class="content">
+									用亞磷酸十氫氧化鉀葉噴強化植株抗體
+								</div>
+							</div>
+							<div class="col-md-3 pl-3 pl-md-0">
+
+								<div class="circle-img" style="background-image: url(/Browser/images/img_default.jpg);">
+								</div>
+							</div>
+							<div class="col-md-1 pl-3 pl-md-0 align-self-center">
+								<div class="arrow-group">
+									<div class="arrow-up-btn ">
+										<i class="fas fa-angle-up fa-2x"></i>
+									</div>
+									<div class="arrow-down-btn ">
+										<i class="fas fa-angle-down fa-2x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row inner" style="display:none">
+							<div class="col-md-8">
+								<div class="main-03">
+									<span>110/04/03</span>
+									<span>陳鳳春</span>
+								</div>
+								<div>
+									<a href="/blog/1101002547?logID=36417">
+										<h4>栽培日記</h4>
+									</a>
+								</div>
+								<div class="content">
+									用生物調控劑葉噴加強抗菌能力
+								</div>
+							</div>
+							<div class="col-md-3 pl-3 pl-md-0">
+
+								<div class="circle-img" style="background-image: url(/Browser/images/img_default.jpg);">
+								</div>
+							</div>
+							<div class="col-md-1 pl-3 pl-md-0 align-self-center">
+								<div class="arrow-group">
+									<div class="arrow-up-btn ">
+										<i class="fas fa-angle-up fa-2x"></i>
+									</div>
+									<div class="arrow-down-btn ">
+										<i class="fas fa-angle-down fa-2x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row inner" style="display:none">
+							<div class="col-md-8">
+								<div class="main-03">
+									<span>110/04/03</span>
+									<span>施漢忠</span>
+								</div>
+								<div>
+									<a href="/blog/1101005049?logID=36416">
+										<h4>挖土機做田埂</h4>
+									</a>
+								</div>
+								<div class="content">
+									&nbsp;
+
+110年1月10號至110年1月12號
+
+挖土機做田埂
+								</div>
+							</div>
+							<div class="col-md-3 pl-3 pl-md-0">
+
+								<div class="circle-img" style="background-image: url(/ViewCultivationLogImg.452150?fileName=IMG_20210119_083317.jpg);">
+								</div>
+							</div>
+							<div class="col-md-1 pl-3 pl-md-0 align-self-center">
+								<div class="arrow-group">
+									<div class="arrow-up-btn ">
+										<i class="fas fa-angle-up fa-2x"></i>
+									</div>
+									<div class="arrow-down-btn ">
+										<i class="fas fa-angle-down fa-2x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row inner" style="display:none">
+							<div class="col-md-8">
+								<div class="main-03">
+									<span>110/04/03</span>
+									<span>施漢忠</span>
+								</div>
+								<div>
+									<a href="/blog/1101005049?logID=36415">
+										<h4>寒流</h4>
+									</a>
+								</div>
+								<div class="content">
+									100年1月3號寒流來襲40夜間照明 6點到凌晨6點 100年2月1
+								</div>
+							</div>
+							<div class="col-md-3 pl-3 pl-md-0">
+
+								<div class="circle-img" style="background-image: url(/ViewCultivationLogImg.452147?fileName=IMG_20210131_182541.jpg);">
+								</div>
+							</div>
+							<div class="col-md-1 pl-3 pl-md-0 align-self-center">
+								<div class="arrow-group">
+									<div class="arrow-up-btn ">
+										<i class="fas fa-angle-up fa-2x"></i>
+									</div>
+									<div class="arrow-down-btn disabled">
+										<i class="fas fa-angle-down fa-2x"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+			</div>
+		</div>
+		<a href="/ProducerSearch/HotNewsList">
+			<div class="readmore-btn">
+				閱讀更多 <i class="fas fa-play-circle"></i>
+			</div>
+		</a>
+	</div>
+	<img src="/Content/images/photo/dot.png" class="dot-bg2" alt="dot" />
+</section>
+<script>
+	$(document).ready(function () {
+		var isChanging = false;
+		$('.newest-article-area').on("click", ".arrow-up-btn:not(.disabled)", function () {
+
+			var prevRow = $(this).parents(".row.inner").prev();
+			$(".row.inner").hide();
+			prevRow.show();
+		});
+
+		$('.newest-article-area').on("click", ".arrow-down-btn:not(.disabled)", function () {
+			var nextRow = $(this).parents(".row.inner").next();
+			$(".row.inner").hide();
+			nextRow.show();
+		})
+	});
+</script>
+<!-- ./最新文章區塊 -->
+<!-- 彈出式系統公告 -->
+
+<div class="pop-announcement" data-signature="5A114A112A111A109A106A-1225815358">
+		<!-- 公告 -->
+		<div class="mb-3 pop-announcement-container">
+			<div class="row">
+				<div class="col-2">
+					<div class="d-block talk-icon">
+						<i class="fas fa-bullhorn"></i>
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="p-2">
+						<div class="font-weight-bold mb-1">系統公告</div>
+						<div style="line-height: 1.5;">
+							110年3月26日中午12:30至12:45將進行系統更新，新增逾時15分鐘系統自行停用功能。
+						</div>
+						<div class="text-right pr-2 readmore-btn">
+							<a href="/News/PublicNews">閱讀更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button onclick="$(this).parent().fadeOut('slow', function() {})" class="btn close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+		<!-- ./公告 -->
+		<!-- 公告 -->
+		<div class="mb-3 pop-announcement-container">
+			<div class="row">
+				<div class="col-2">
+					<div class="d-block talk-icon">
+						<i class="fas fa-bullhorn"></i>
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="p-2">
+						<div class="font-weight-bold mb-1">系統公告</div>
+						<div style="line-height: 1.5;">
+							110年3月16日(星期二)17:30-18:00因主機重新設定，須暫停服務，請見諒。
+						</div>
+						<div class="text-right pr-2 readmore-btn">
+							<a href="/News/PublicNews">閱讀更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button onclick="$(this).parent().fadeOut('slow', function() {})" class="btn close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+		<!-- ./公告 -->
+		<!-- 公告 -->
+		<div class="mb-3 pop-announcement-container">
+			<div class="row">
+				<div class="col-2">
+					<div class="d-block talk-icon">
+						<i class="fas fa-bullhorn"></i>
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="p-2">
+						<div class="font-weight-bold mb-1">系統公告</div>
+						<div style="line-height: 1.5;">
+							2月4日(四)系統更新，預計12:00-13:00停機1小時，不便之處請見諒。
+						</div>
+						<div class="text-right pr-2 readmore-btn">
+							<a href="/News/PublicNews">閱讀更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button onclick="$(this).parent().fadeOut('slow', function() {})" class="btn close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+		<!-- ./公告 -->
+		<!-- 公告 -->
+		<div class="mb-3 pop-announcement-container">
+			<div class="row">
+				<div class="col-2">
+					<div class="d-block talk-icon">
+						<i class="fas fa-bullhorn"></i>
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="p-2">
+						<div class="font-weight-bold mb-1">系統公告</div>
+						<div style="line-height: 1.5;">
+							1/28系統主機進行擴充作業，當日預定於15:00~20:00停機，不便之處請見諒。
+						</div>
+						<div class="text-right pr-2 readmore-btn">
+							<a href="/News/PublicNews">閱讀更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button onclick="$(this).parent().fadeOut('slow', function() {})" class="btn close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+		<!-- ./公告 -->
+		<!-- 公告 -->
+		<div class="mb-3 pop-announcement-container">
+			<div class="row">
+				<div class="col-2">
+					<div class="d-block talk-icon">
+						<i class="fas fa-bullhorn"></i>
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="p-2">
+						<div class="font-weight-bold mb-1">系統公告</div>
+						<div style="line-height: 1.5;">
+							系統完成弱點修補，預計10月22日下午6時重新開機，不便之處，請見諒。
+						</div>
+						<div class="text-right pr-2 readmore-btn">
+							<a href="/News/PublicNews">閱讀更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button onclick="$(this).parent().fadeOut('slow', function() {})" class="btn close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+		<!-- ./公告 -->
+</div>
+<script>
+	$(document).ready(function () {
+		// 設定 Cookie
+		function setCookie(name, value) {
+			var Days = 30;
+			var exp = new Date();
+			exp.setTime(exp.getTime() + (Days * 24 * 60 * 60 * 1000));
+			document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+		}
+
+		// 讀取 Cookie
+		function getCookie(name) {
+			var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+			if (arr != null) return unescape(arr[2]); return null;
+		}
+
+		// 彈出式系統公告顯示
+		var $pop = $(".pop-announcement"),
+			signature = $pop.attr('data-signature'),
+			cookieName = 'pqrhomenewssig',
+			cookie = getCookie(cookieName);
+		if (!cookie || (cookie != signature)) {
+			setCookie(cookieName, signature);
+			$pop.fadeIn("slow");
+		}
+	});
+</script>
+<!-- ./彈出式系統公告 -->
+	</main>
+	<!-- 主內容End -->
+	<div class="separate-line"></div>
+<footer class="footer pt-4 pb-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 pt-2">
+				<a href="/">
+					<img src="/Browser/images/logo.png" alt="臺灣農產品生產追溯系統">
+				</a>
+				<a href="/Page/Privacy">隱私保護及安全政策</a>
+				<a href="/Page/OpenDeclaration">政府網站資料開放宣告</a>
+				<div class="pt-2"><i class="far fa-eye"></i> 瀏覽人次：8679</div>
+			</div>
+			<div class="col-md-3 pt-2">
+				<h6><a href="/Page/Links">相關連結</a></h6>
+					<a href="https://www.coa.gov.tw/" target="_blank">行政院農業委員會</a>
+	<a href="https://iap.afa.gov.tw/" target="_blank">智慧農糧資訊整合服務平台單一簽入網站(農糧署)</a>
+	<a href="https://www.afa.gov.tw/" target="_blank">農糧署首頁</a>
+	<a href="https://erb.afa.gov.tw/" target="_blank">農糧署東區分署</a>
+	<a href="https://srb.afa.gov.tw/" target="_blank">農糧署南區分署</a>
+	<a href="https://crb.afa.gov.tw" target="_blank">農糧署中區分署</a>
+	<a href="https://nrb.afa.gov.tw/" target="_blank">農糧署北區分署</a>
+
+			</div>
+			<div class="col-md-3 pt-2">
+				<h6>聯絡資訊</h6>
+				<div><span>申請程序諮詢(CAS 協會)：</span>02-235-67417 轉驗證組</div>
+				<!--<div class="pt-2"><span>農業客服諮詢專線：</span>02-449-9595</div>-->
+				<div class="pt-2"><span>操作系統諮詢(周一至周五8:00~12:00、13:30~17:30)：</span>07-970-3898 轉 2</div>
+			</div>
+			<div class="col-md-3 pt-2">
+				<div class="auditor-area">
+					<h5 class="font-weight-bold">進入審核人員專區</h5>
+					<div>( 審核人員專用 )</div>
+					<button class="btn" type="button" onclick="window.location.href='/AuditorArea';">進入</button>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<p class="text-center m-auto">
+				本網站建議使用
+				<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a>
+				瀏覽器，最佳瀏覽解析度為1024x768以上<br>
+				Copyright © 行政院農業委員會農糧署，版權所有
+			</p>
+		</div>
+	</div>
+</footer>
+
+	<div id="ScriptContent">
+		
+	</div>
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-65622624-5', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+</body>
+</html>

@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	牛肉追溯資訊網
+</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/module/bootstrap-3.3.2/css/bootstrap.min.css" /><link rel="stylesheet" href="assets/module/bootstrap-3.3.2/css/bootstrap-theme.min.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+    <!-- mega menu-->
+    <link rel="stylesheet" href="assets/css/megamenu.css" />
+    <!-- slick 輪播-->
+    <link rel="stylesheet" href="assets/module/slick/slick.css" /><link rel="stylesheet" href="assets/module/slick/slick-theme.css" />
+    <!-- slick 輪播自訂CSS -->
+    <link rel="stylesheet" href="css/slick-slide.css" />
+    <!-- fullcalendar 自適應行事曆 -->
+    <link rel="stylesheet" href="assets/module/fullcalendar-2.3.1/fullcalendar.css" /><link rel="stylesheet" href="assets/module/fullcalendar-2.3.1/fullcalendar.print.css" media="print" />
+    <!--fontello icon font -->
+    <link rel="stylesheet" href="assets/module/fontello/css/fontello.css" />
+    <!-- 自訂CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.offcanvas.css" /><link rel="stylesheet" href="css/customize.css" />
+    <script src="../js/commUtil.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.8.23.custom.min.js"></script>
+</head>
+<body>
+<noscript>
+<style type="text/css">
+    .noscriptExplanation {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        width: 1000px;
+        z-index: 9999999;
+        color: #000;
+        margin: 0 0 0 -500px;
+        background-color: #FFF;
+        padding: 5px 10px;
+        border-radius: 5px;
+        opacity: .90;
+    }
+</style>
+<p class="noscriptExplanation">您的瀏覽器似乎不支援JavaScript語法，但沒關係，這裡的JavaScript語法並不會影響到內容的陳述，如需要回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能，列印可使用瀏覽器提供的(Ctrl+P)功能。</p>
+</noscript>
+
+    <section id="Header">
+        <div class="accesskey"><a href="#" title="版頭：網站標題" accesskey="U">:::</a></div>
+        <nav class="navbar navbar-default megamenu" role="navigation">
+            <div class="navbar-header">
+                <div class="Logo visible-xs"><a href="#" title="">
+                    <img src="images/logo.png" alt="國產牛肉追溯資訊網"></a></div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#offcanvas-right">
+                    <span class="sr-only">Toggle navigation</span><i class="icon-down-open"></i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navAll" id="offcanvas-right" role="navigation">
+                <div class="container">
+                    <div class="pull-sm-right pull-md-right pull-lg-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="http://beeftraceability.naif2.org.tw/Trace/">國產牛肉追溯查詢</a></li>
+                            <li class="active"><a href="http://beeftraceability.naif2.org.tw/Trace/ListMap.aspx">國產牛肉專賣店查詢</a></li>
+                            <!--<li><a href="http://www.coa.gov.tw/show_index.php">回農委會</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="Logo hidden-xs"><a href="#" title="">
+                    <img src="images/logo.png" alt="國產牛肉追溯資訊網"></a></div>
+            </div>
+        </nav>
+    </section>
+
+    <form name="mapform" method="post" action="Default.aspx" id="mapform">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMzODczNDM5NWRkyuxXQHhn4H0uzoZzKMuNmWNWEds=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E78CDF83" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgLaxqbrDwL5hvDhDgoQFdpl+mMMD+KH9uu1s8lsH3Qq" />
+        <input type="hidden" name="searchflag" id="searchflag" />
+        <section id="Content">
+            <div class="friendly">
+                <div class="container">
+                    <div class="accesskey"><a href="#" title="中欄，主要內容區" accesskey="C">:::</a></div>
+                    <ol class="breadcrumb">
+                        <li class="before">現在位置:</li>
+                        <li><a href="#">國產牛肉專賣店查詢</a></li>
+                    </ol>
+                    <div class="function">
+                        <ul>
+                            <li><a href="javascript:history.back();" class="back">回上一頁</a><noscript>( alt + ← Back)</noscript>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="lp">
+                <div class="container">
+                    <h2><span>國產牛肉追溯查詢</span></h2>
+                    <div class="searchCalendar">
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <form class="form-horizontal">
+                                    <fieldset>
+                                        <div class="form-group">
+											<div class="search">
+												<input name="" type="text" class="form-control" maxlength="11" id="tb_Number" value="輸入牛隻耳標號碼" size="90" />												
+											</div>
+                                            <!--class="form-group"-->
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div class="col-lg-2 btnS">
+                                <div class="form-group">
+									<input name="" id="imgSearch" type="button" value="查詢"  alt="查詢"align="absmiddle" class="btn btn-primary" />
+                                    <input type="button" name="button2" value="清除條件" class="btn btn-default" onclick="javascript: clearinput();" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cp">
+                       
+                        <div id="Nodata" style="display: none" align="center">
+                        查無此資料!</div>
+        <table class="layout" id="tb_TraceBeefMix" summary="layout table" style="display: none">
+            <tr>
+                <td class="center">
+                    <div class="main">
+                        <div class="accesskey">
+                            <a href="#" title="中央內容區塊" accesskey="C">:::</a></div>
+                        <!--Zone Part-1 Start-->
+                        <div id="zone.content11">
+                            <div class="lpTb" id="Div_Mix">
+                            </div>
+                        </div>
+                        <!--Zone Part-1 End-->
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table class="rowTb" border="0" id="tb_TraceBeef" summary="layout table" style="display: none">
+            <tr>
+                <td class="center">
+                    <div class="cp">
+                        <div class="accesskey">
+                            <a href="#" title="中央內容區塊" accesskey="C">:::</a></div>
+                        <!--Zone Part-1 Start-->
+                        <div id="zone.content11">
+                            <div class="cp">
+                                <table class="rowTb" border="0">
+                                    <tr>
+                                        <th>
+                                            溯源號碼：
+                                        </th>
+                                        <td>
+                                            <div id="Div_BeefNumber">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            屠宰日期：
+                                        </th>
+                                        <td>
+                                            <div id="Div_ButcherDate">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            畜牧場名稱：
+                                        </th>
+                                        <td>
+                                            <div id="Div_FarmOrgName">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            場址：
+                                        </th>
+                                        <td>
+                                            <div id="Div_FarmOrgAddress">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            負責人：
+                                        </th>
+                                        <td>
+                                            <div id="Div_FarmOrgManager">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            畜牧場登記證號：
+                                        </th>
+                                        <td>
+                                            <div id="Div_FarmOrgUninumber">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            屠宰場：
+                                        </th>
+                                        <td>
+                                            <div id="Div_ButcherOrgName">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            場址：
+                                        </th>
+                                        <td>
+                                            <div id="Div_ButcherOrgAddress">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            負責人：
+                                        </th>
+                                        <td>
+                                            <div id="Div_ButcherOrgManager">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            屠宰場登記證：
+                                        </th>
+                                        <td>
+                                            <div id="Div_ButcherOrgUninumber">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!--Zone Part-1 End-->
+                    </div>
+                </td>
+            </tr>
+        </table>
+                    </div>
+                    <div class="quickLink">
+                        <ul>
+                            <li><a href="#top" class="gotop" title="回頁首">回頁首</a></li>
+                            <li><a href="javascript:history.back();" class="back" title="回上一頁">回上一頁</a><noscript>當script無法執行時可按"alt + &larr;"鍵替代</noscript>
+                            </li>
+                        </ul>
+                        <!--class="quickLink"-->
+                    </div>
+                    <!--class="container"-->
+					 
+                </div>
+                <!--class="lp"-->
+            </div>
+        </section>
+		
+    </form>
+	
+        
+    <div class="FooterAll">
+        <div class="container">
+            <div id="footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="Footer_info">
+                            <!--<div class="Address">10014 臺北市中正區南海路 37 號</div>
+                            <div class="Phone">電話：(02)2381-2991．傳真：(02)2331-0341．服務時間： AM8:30~PM5:30</div>
+                            <div class="Resolution">行政院農業委員會  版權所有©2012，最佳瀏覽解析度為1024x768以上</div>-->
+							<div class="Resolution">最佳瀏覽解析度為1024x768以上</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+ //#region 頁面載入完成，搞一些預設的東西
+        $().ready(function (e) {
+
+            $('#tb_TraceBeefMix').hide();
+            $('#tb_TraceBeef').hide();
+
+            $("#tb_Number").val('');
+            Search();
+
+            //找牛
+            $("#imgSearch").click(function () { Search(); });
+
+            $("#tb_Number").keydown(function () {
+                if (event.keyCode == 13) Search();
+            });
+
+            $("#tb_Number").focus(function () {
+                if ($(this).val() == "輸入溯源號碼") $(this).val('');
+            });
+            $("#tb_Number").focusout(function () {
+                if ($(this).val() == "") $(this).val('輸入溯源號碼');
+            });
+
+
+        });
+        //#endregion
+
+        function Search() {
+            if (trim($("#tb_Number").val()) != '' && trim($("#tb_Number").val()) != '輸入溯源號碼') {
+
+                if ($("#tb_Number").val().length == 11)
+                    FindMix(trim($("#tb_Number").val()));
+                else
+                    FillData(trim($("#tb_Number").val()));
+
+
+            }
+
+        }
+
+        function clearinput() {
+            document.mapform.tb_Number.value = "";
+        }
+
+        function FindMix(Number) {
+
+            $.ajax
+            ({
+                type: "POST",
+                url: "Default_OP.aspx",
+                data: { "action": "GetMixData",
+                    "Number": Number
+
+                },
+                success: function (response) {
+                    //alert(response);
+                    $.each(eval(response), function (key, item) {
+
+                        if (item.RetCode == "1") {
+                            $("#Div_Mix").html(item.Content);
+                            $('#tb_TraceBeef').hide();
+                            $('#tb_TraceBeefMix').show();
+                            $('#Nodata').hide();
+
+                        } else {
+                            $('#tb_TraceBeef').hide();
+                            $('#tb_TraceBeefMix').hide();
+                            $('#Nodata').show();
+
+                        }
+                    });
+                },
+                error: function () {
+                    alert('無法取得資料，請稍後再試');
+                }
+
+            });
+            //ajax 
+
+        }
+
+
+
+        function FillData(Number) {
+
+            $.ajax
+            ({
+                type: "POST",
+                url: "Default_OP.aspx",
+                data: { "action": "GetData",
+                    "Number": Number
+
+                },
+                success: function (response) {
+                    //alert(response);
+                    $.each(eval(response), function (key, item) {
+
+                        if (item.RetCode == "1") {
+                            $("#Div_ButcherOrgName").html(item.ButcherOrgName);
+                            $("#Div_FarmOrgName").html(item.FarmOrgName);
+                            $("#Div_BeefNumber").html(item.Number);
+                            $("#Div_ButcherDate").html(item.ButcherDate);
+
+                            $("#Div_ButcherOrgUninumber").html(item.ButcherOrgUninumber);
+                            $("#Div_FarmOrgUninumber").html(item.FarmOrgUninumber);
+                            $("#Div_ButcherOrgAddress").html(item.ButcherOrgAddress);
+                            $("#Div_FarmOrgAddress").html(item.FarmOrgAddress);
+                            $("#Div_FarmOrgManager").html(item.FarmOrgManager);
+                            $("#Div_ButcherOrgManager").html(item.ButcherOrgManager);
+
+                            $('#tb_TraceBeefMix').hide();
+                            $('#tb_TraceBeef').show();
+                            $('#Nodata').hide();
+
+                        } else {
+                            $('#tb_TraceBeefMix').hide();
+                            $('#tb_TraceBeef').hide();
+                            $('#Nodata').show();
+                            // $('#Nodata').html(item.Content);
+                        }
+                    });
+                },
+                error: function () {
+                    alert('無法取得資料，請稍後再試');
+                }
+
+            });
+            //ajax 
+
+        }
+         
+</script>
+    <a href="#" class="scrollup"></a>
+    <script src="assets/js/jquery-1.11.2.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/module/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.lazyload.min.js"></script>
+    <script src="js/BS3JS.min.js"></script>
+    <!-- slick  -->
+    <script src="assets/module/slick/slick.js"></script>
+    <!-- Sidebar選單 -->
+    <script src="assets/js/bootstrap.offcanvas.js"></script>
+    <!-- fullcalendar -->
+    <script src="assets/module/fullcalendar-2.3.1/lib/moment.min.js"></script>
+    <script src="assets/module/fullcalendar-2.3.1/fullcalendar.min.js"></script>
+    <!-- jq-easing -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <!-- 全部自訂檔 -->
+    <script src="js/customize_scripts.js"></script>
+</body>
+</html>

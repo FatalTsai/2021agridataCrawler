@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1">
+    <!--IE11會有異常之調整-->
+    <meta http-equiv="X-UA-Compatible" content="IE=8" /><title>
+	
+    進口針葉原木  波動價差
+
+</title><link id="ctl00_link03" rel="stylesheet" type="text/css" href="/css/table.css" /><link id="ctl00_m_JqueryUIThemeLink" href="../css/jquery-ui/jquery-ui.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/js/util.js?20170226"></script>
+    <script type="text/javascript" src='/js/datepicker/WdatePicker.js'></script>
+    <script type="text/javascript" src="/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/jquery.blockUI.js"></script>
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //民國年
+            $(".Wdate").attr('title', '日期格式為：' + getToday('yyy/MM/dd'));
+            $(".Wdate").on("click", function () {
+                WdatePicker({ dateFmt: 'yyy/MM/dd', realDateFmt: 'yyyy/MM/dd' });
+            });
+            //西元年
+            $(".Fdate").attr('title', '日期格式為：' + getToday('yyyy/MM/dd'));
+            $(".Fdate").on("click", function () {
+                WdatePicker({ dateFmt: 'yyyy/MM/dd', realDateFmt: 'yyyy/MM/dd' });
+            });
+        });
+    </script>
+    <script type="text/javascript" src="/js/print.js"></script>
+</head>
+<body style="margin: 0px">
+    <form name="aspnetForm" method="post" action="Q_ChangeImportConiferous.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTMyMTM5NTExNg9kFgJmD2QWBAIBD2QWBgIDDxYCHgRocmVmBQ4vY3NzL3RhYmxlLmNzc2QCBQ8VBRgvanMvanF1ZXJ5LTEuMTAuMi5taW4uanMLL2pzL3V0aWwuanMdL2pzL2RhdGVwaWNrZXIvV2RhdGVQaWNrZXIuanMQL2pzL2pxdWVyeS11aS5qcxUvanMvanF1ZXJ5LmJsb2NrVUkuanNkAgcPFQEML2pzL3ByaW50LmpzZAIDD2QWBAIDDxQrAA0PFgYeC09yaWVudGF0aW9uCyolU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5PcmllbnRhdGlvbgAeDkRpc2FwcGVhckFmdGVyAtAPHgZUYXJnZXQFBV9zZWxmZBYGHglGb3JlQ29sb3IKpAEeEUhvcml6b250YWxQYWRkaW5nGwAAAAAAABhAAQAAAB4EXyFTQgKEgAhkFgYeCUJhY2tDb2xvcgpkHwQKex8GAgwWBh8FGwAAAAAAABhAAQAAAB8HChsfBgKIgAgWCB8ECiMfBwpnHwUbAAAAAAAACEABAAAAHwYCjIAIZBYGHwcKZB8ECnsfBgIMFggeC0JvcmRlclN0eWxlCyolU3lzdGVtLldlYi5VSS5XZWJDb250cm9scy5Cb3JkZXJTdHlsZQQeC0JvcmRlcldpZHRoGwAAAAAAAPA/AgAAAB4LQm9yZGVyQ29sb3IKTx8GAnBkZGQUKwAFBQ8wOjAsMDoxLDA6MiwwOjMUKwACFgQeBFRleHQFDOiqv+afpeavlOi8gx4KU2VsZWN0YWJsZWgUKwAIBRswOjAsMDoxLDA6MiwwOjMsMDo0LDA6NSwwOjYUKwACFgQfCwUS55yB55Si6Yed6JGJ5Y6f5pyoHgtOYXZpZ2F0ZVVybAUqfi9Db21wYXJlL1FfQ29tcGFyZVByb3ZpbmNlQ29uaWZlcm91cy5hc3B4ZBQrAAIWBB8LBRLnnIHnlKLpl4rokYnljp/mnKgfDQUrfi9Db21wYXJlL1FfQ29tcGFyZVByb3ZpbmNlQnJvYWRsZWF2ZWQuYXNweGQUKwACFgQfCwUM55yB55Si6KO95ZOBHw0FJ34vQ29tcGFyZS9RX0NvbXBhcmVQcm92aW5jZVByb2R1Y3QuYXNweGQUKwACFgQfCwUP55yB55Si5Ymv55Si5ZOB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" />
+
+
+<script src="/WebResource.axd?d=FJqGLCNkZNpdL7D7B2M1jjPYq2Ah4Ne3SA05iG1f6YEMRc17kP7S9-sJdhAD5jvqlMjlni7aM4V2n-0xPdFYCAAbxY7fQG2ou5O1RRyJb0M1&amp;t=635217244340000000" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"zh-TW","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"NT$","NaNSymbol":"不是一個數字","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"負無窮大","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"正無窮大","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"上午","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402271999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027 tt hh:mm:ss","LongDatePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027","LongTimePattern":"tt hh:mm:ss","MonthDayPattern":"M\u0027月\u0027d\u0027日\u0027","PMDesignator":"下午","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"yyyy/M/d","ShortTimePattern":"tt hh:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"yyyy\u0027年\u0027M\u0027月\u0027","AbbreviatedDayNames":["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],"ShortestDayNames":["日","一","二","三","四","五","六"],"DayNames":["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],"AbbreviatedMonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"IsReadOnly":true,"NativeCalendarName":"西曆 (中文)","AbbreviatedMonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""]},"eras":[1,"西元",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=JxBLEVyyYFj7uRGMPeJjJn9M0_nufAyzwsTqKq9alMwN61N4YXOWetMXlNEjyQgLoX9wHG6L3hihjgAJIzvJ7sTLid4i5jUA4ve2tCrpHaAdHCPtNjivsdUZGq7ebnB7GJmNf1_XHO7bX7OdOZ5PQj-ZaN2Aj96Z8qO9wMB-v9b6xTYj4qt-xJ-NOI-rLBa50&amp;t=6119e399" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+    
+    
+    <table width="100%" height="120" border="0" cellpadding="0" cellspacing="0" class="MPage_TopBg">
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+            <td class="MPage_TopImg" align="right">
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+    <center>
+        <table width="920" height="30" border="0" cellpadding="0" cellspacing="0" class="MPage_TopNaviBlock">
+            
+            <tr valign="bottom">
+                <td width="900" class="MPage_TopNaviBg">
+                    <span style="line-height: 25px; color: #fff; text-decoration: none; text-align: left">
+                        <a href="#ctl00_Menu1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=cP-T0ZaHWqwzKzjEV0YD0U97kroP_i9H1qPcyuBYlw4_EeixPPq4BMdN8MKVElG3WjjE7fefrnot8OiFSLQMUVNqxW1_jlhM0c1sU5vuGXM1&amp;t=635217244340000000" width="0" height="0" border="0" /></a><table id="ctl00_Menu1" class="MPage_TopNavi" cellpadding="0" cellspacing="0" border="0" bgcolor="Transparent" height="30">
+	<tr>
+		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n0"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td><a href="#"><font color="White">調查比較</font></a></td><td width="0"><img src="/WebResource.axd?d=bGYFz7SP3MlY06Ig1IebiPc_Z6-iKuLyA1myzsIieGRMtaZFnpA2XqKW3o4EUmbY9k6YdlW4V34kb1rFH0CQ_Pdjrhmoc7sdlGz4NptogvM1&amp;t=635217244340000000" alt="Expand 調查比較" valign="middle" /></td>
+			</tr>
+		</table></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n1"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td><a href="#"><font color="White">波動價差</font></a></td><td width="0"><img src="/WebResource.axd?d=bGYFz7SP3MlY06Ig1IebiPc_Z6-iKuLyA1myzsIieGRMtaZFnpA2XqKW3o4EUmbY9k6YdlW4V34kb1rFH0CQ_Pdjrhmoc7sdlGz4NptogvM1&amp;t=635217244340000000" alt="Expand 波動價差" valign="middle" /></td>
+			</tr>
+		</table></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n2"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td><a href="#"><font color="White">綜合報表</font></a></td><td width="0"><img src="/WebResource.axd?d=bGYFz7SP3MlY06Ig1IebiPc_Z6-iKuLyA1myzsIieGRMtaZFnpA2XqKW3o4EUmbY9k6YdlW4V34kb1rFH0CQ_Pdjrhmoc7sdlGz4NptogvM1&amp;t=635217244340000000" alt="Expand 綜合報表" valign="middle" /></td>
+			</tr>
+		</table></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n3"><table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td><a href="../Login.aspx" target="_self"><font color="White">會員登入</font></a></td>
+			</tr>
+		</table></td>
+	</tr>
+</table><div id="ctl00_Menu1n0Items" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n4">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareProvinceConiferous.aspx" target="_self"><font color="Black">省產針葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n5">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareProvinceBroadleaved.aspx" target="_self"><font color="Black">省產闊葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n6">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareProvinceProduct.aspx" target="_self"><font color="Black">省產製品</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n7">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareProvinceViceProduct.aspx" target="_self"><font color="Black">省產副產品</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n8">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareImportConiferous.aspx" target="_self"><font color="Black">進口針葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n9">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareImportBroadleaved.aspx" target="_self"><font color="Black">進口闊葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n10">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Compare/Q_CompareImportProduct.aspx" target="_self"><font color="Black">進口製品</font></a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table><div id="ctl00_Menu1n0ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" align="center" style="display:none;">
+		<img src="/WebResource.axd?d=8gkRiZdEjXGFH007iamNoGFARoE89cibraqDny6RYZpWiL4JfX7Do9fwW7jrgzgQPJvA12s1T7W2SqP0P1pFxx-TWC_S6EOkEmJyQ7xjHbY1&amp;t=635217244340000000" alt="Scroll up" />
+	</div><div id="ctl00_Menu1n0ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" align="center" style="display:none;">
+		<img src="/WebResource.axd?d=0FZjIPWrbWNarV-hXPT12FOnu56acsFCqRmWfGKg4ShaEQFCdn3ACcr4RVXxvIF7IauCtareCYpHus2gld7yJkmOEYDUv5bv75C-uDMmqfQ1&amp;t=635217244340000000" alt="Scroll down" />
+	</div>
+</div><div id="ctl00_Menu1n1Items" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n11">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeProvinceConiferous.aspx" target="_self"><font color="Black">省產針葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n12">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeProvinceBroadleaved.aspx" target="_self"><font color="Black">省產闊葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n13">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeProvinceProduct.aspx" target="_self"><font color="Black">省產製品</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n14">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeProvinceViceProduct.aspx" target="_self"><font color="Black">省產副產品</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n15">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeImportConiferous.aspx" target="_self"><font color="Black">進口針葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n16">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeImportBroadleaved.aspx" target="_self"><font color="Black">進口闊葉原木</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n17">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="Q_ChangeImportProduct.aspx" target="_self"><font color="Black">進口製品</font></a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table><div id="ctl00_Menu1n1ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" align="center" style="display:none;">
+		<img src="/WebResource.axd?d=8gkRiZdEjXGFH007iamNoGFARoE89cibraqDny6RYZpWiL4JfX7Do9fwW7jrgzgQPJvA12s1T7W2SqP0P1pFxx-TWC_S6EOkEmJyQ7xjHbY1&amp;t=635217244340000000" alt="Scroll up" />
+	</div><div id="ctl00_Menu1n1ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" align="center" style="display:none;">
+		<img src="/WebResource.axd?d=0FZjIPWrbWNarV-hXPT12FOnu56acsFCqRmWfGKg4ShaEQFCdn3ACcr4RVXxvIF7IauCtareCYpHus2gld7yJkmOEYDUv5bv75C-uDMmqfQ1&amp;t=635217244340000000" alt="Scroll down" />
+	</div>
+</div><div id="ctl00_Menu1n2Items" style="display:none;">
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n18">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Summary/Q_SummaryWood.aspx" target="_self"><font color="Black">木材摘要表</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n19">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Summary/Q_SummaryWoodPrice.aspx" target="_self"><font color="Black">台灣地區林產物價報告表</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n20">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Summary/Q_SummaryMonthWoodPrice.aspx" target="_self"><font color="Black">木材市價月份別報表查詢</font></a></td>
+				</tr>
+			</table></td>
+		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_Menu1n21">
+			<td><table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="LightYellow">
+				<tr>
+					<td width="100%"><a href="../Summary/Q_SummarySingleWoodPrice.aspx" target="_self"><font color="Black">木材市價單一樹種報表查詢</font></a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table><div id="ctl00_Menu1n2ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" align="center" style="display:none;">
+		<img src="/WebResource.axd?d=8gkRiZdEjXGFH007iamNoGFARoE89cibraqDny6RYZpWiL4JfX7Do9fwW7jrgzgQPJvA12s1T7W2SqP0P1pFxx-TWC_S6EOkEmJyQ7xjHbY1&amp;t=635217244340000000" alt="Scroll up" />
+	</div><div id="ctl00_Menu1n2ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" align="center" style="display:none;">
+		<img src="/WebResource.axd?d=0FZjIPWrbWNarV-hXPT12FOnu56acsFCqRmWfGKg4ShaEQFCdn3ACcr4RVXxvIF7IauCtareCYpHus2gld7yJkmOEYDUv5bv75C-uDMmqfQ1&amp;t=635217244340000000" alt="Scroll down" />
+	</div>
+</div><a id="ctl00_Menu1_SkipLink"></a>
+                    </span>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td align="center" style="text-align: center; padding: 0.4em 0.4em 0.4em 0.4em; width: 920px">
+                    
+    <span id="ctl00_Main_labMsg"></span>
+    <div class="TitleDiv">
+          進口針葉原木  波動價差
+    </div>
+    
+<table class="WPQRYTABLE">
+    <tr>
+        <th>
+            調查時間
+        </th>
+        <td>
+            <select name="ctl00$Main$CompareQueryUi1$q1_ddl_years" id="ctl00_Main_CompareQueryUi1_q1_ddl_years">
+	<option value="79">79</option>
+	<option value="80">80</option>
+	<option value="81">81</option>
+	<option value="82">82</option>
+	<option value="83">83</option>
+	<option value="84">84</option>
+	<option value="85">85</option>
+	<option value="86">86</option>
+	<option value="87">87</option>
+	<option value="88">88</option>
+	<option value="89">89</option>
+	<option value="90">90</option>
+	<option value="91">91</option>
+	<option value="92">92</option>
+	<option value="93">93</option>
+	<option value="94">94</option>
+	<option value="95">95</option>
+	<option value="96">96</option>
+	<option value="97">97</option>
+	<option value="98">98</option>
+	<option value="99">99</option>
+	<option value="100">100</option>
+	<option value="101">101</option>
+	<option value="102">102</option>
+	<option value="103">103</option>
+	<option value="104">104</option>
+	<option value="105">105</option>
+	<option value="106">106</option>
+	<option value="107">107</option>
+	<option value="108">108</option>
+	<option value="109">109</option>
+	<option selected="selected" value="110">110</option>
+
+</select>
+            年
+            <select name="ctl00$Main$CompareQueryUi1$q1_ddl_months" id="ctl00_Main_CompareQueryUi1_q1_ddl_months">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option selected="selected" value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+
+</select>
+            月
+        </td>
+        
+            <th>
+                下載檔案格式
+            </th>
+            <td>
+                <select name="ctl00$Main$CompareQueryUi1$m_DownloadFileTypeDropDownList$m_DownloadFileType" id="ctl00_Main_CompareQueryUi1_m_DownloadFileTypeDropDownList_m_DownloadFileType">
+	<option value=".xls">xls檔</option>
+	<option value=".ods">ods檔</option>
+
+</select>
+
+            </td>
+        
+    </tr>
+</table>
+
+
+     <div class="QryDiv">
+        <input type="submit" name="ctl00$Main$q2_btn_Query" value="查詢" id="ctl00_Main_q2_btn_Query" />
+        <input type="submit" name="ctl00$Main$q2_btn_Excel" value="匯出" id="ctl00_Main_q2_btn_Excel" />
+    </div>
+    <div style="text-align: left">
+        <div>
+
+</div>
+    </div>
+
+
+
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+<script>
+function ajaxStart() { $.blockUI({ message: "程式執行中，請稍候..." })}
+function ajaxStop() {$.unblockUI();}
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_Menu1_Data = new Object();
+ctl00_Menu1_Data.disappearAfter = 2000;
+ctl00_Menu1_Data.horizontalOffset = 0;
+ctl00_Menu1_Data.verticalOffset = 0;
+ctl00_Menu1_Data.hoverClass = '';
+ctl00_Menu1_Data.iframeUrl = '/WebResource.axd?d=awYV3uFDFAZAujrTv2dCvJFfp41KdT-C0zA3v6lEafRbyNFdFn7LKnoorfhwRHg0t5mpuU1uooFcdXgyNQ2M6mUcpwGCMLr-YoBubryhDrc1&t=635217244340000000';
+//]]>
+</script>
+</form>
+</body>
+</html>

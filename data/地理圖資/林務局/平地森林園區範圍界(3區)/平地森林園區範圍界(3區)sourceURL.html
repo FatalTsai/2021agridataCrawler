@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N4ZX4CR');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Microsoft clarity -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "557cpt1ht3");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://recreation.forest.gov.tw/Forest/Query" />
+    
+
+    <title>景點查詢 - 台灣山林悠遊網</title>
+    <link rel="shortcut icon" type="image/jpg" href="/image/logo_icon.png" />
+    <link href="/Front/bundles/css/common?v=dm08lhtMtvqxVBvDxwK_lt353CYIoJY6KYBhNrDLXHc1" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        var web_menu = undefined;
+        var web_music_path = "/mp3/music_cut.mp3";
+        var web_order_email = "/Service/OrderEMail";
+        var web_loc_marker = "/image/icon/add/my_location.png";
+    </script>
+    
+    <link href="/Front/bundles/css/Forest/Query?v=Tl1F9DYyZAWBy_bcBZcUHfF-APx-SeqyMSjvE8i10pk1" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        var qry_url = "/Forest/QueryForest";
+        var icon_url = "/image/icon/map/default.png";
+        var icon2_url = "/image/icon/map/select.png";
+        var url_place = "/Index/QueryPlace";
+
+        var default_value = {
+            area: "",
+            type: "",
+            word: ""
+        };
+    </script>
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4ZX4CR"
+                height="0" width="0" title="google tag manager"
+                style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <noscript>
+        <link href="/css/layout/noscript.css" rel="stylesheet" />
+        <div id="noscript-fixed">
+            <i class="far fa-frown"></i>
+            很抱歉，但台灣山林悠遊網需要 JavaScript 才能正確運作，請開啟後繼續。
+        </div>
+    </noscript>
+
+    <div class="transparent_masker">
+        <span>
+            遮罩
+        </span>
+    </div>
+
+    <div class="main_body">
+        
+<div class="top_menu caption">
+    <div class="rwd banner">
+        <a class="title" href="/" title="山林悠遊網">
+            <img src="/image/icon/web-logo/30uu-logotype-primary.svg" alt="山林悠遊網"/>
+        </a>
+        <div class="btn open">
+            <img src="/image/icon/extra/nav.svg" alt="選單展開按鈕"/>
+        </div>
+        <div class="btn close">
+            <img src="/image/icon/interfaces/close.svg"  alt="關閉選單"/>
+        </div>
+    </div>
+    <div class="container">
+        <div class="line-1">
+            
+                <div class="margin_block">
+                    <div class="main_block">
+                        <div class="role">
+                            <a class="" href="/" title="我是遊客" tabindex="1">
+                                <div>
+                                    我是遊客
+                                </div>
+                            </a>
+                            <a href="/Volunteer/Login" tabindex="2" title="志工登入">
+                                <div>
+                                    我是志工
+                                </div>
+                            </a>
+                        </div>
+                        <div class="items">
+                            <div class="accesskey">
+                                <a tabindex="3" href="#root-menu" id="root-menu" accesskey="U" title="移至主選單">:::</a>
+                            </div>
+                            <a  tabindex="4" class="item lang" href="javascript: if (web_menu) web_menu.open('lang');" title="Language">
+                                <div class="icon">
+                                    <img class="svg" src="/image/icon/interfaces/earth@svg.svg" alt="語言切換圖示" />
+                                </div>
+                                <div class="text">Language</div>
+                            </a>
+                            <a tabindex="10" class="item search" href="/Search" title="全站檢索">
+                                <div class="icon">
+                                    <img class="svg" src="/image/icon/interfaces/search@svg.svg" alt="全站檢索圖示" />
+                                </div>
+                                <div class="text">全站檢索</div>
+                            </a>
+                            <a tabindex="11" class="item" href="/Sitemap" title="網站導覽">
+                                <div class="icon">
+                                    <img class="svg" src="/image/icon/development/window@svg.svg" alt="網站導覽圖示" />
+                                </div>
+                                <div class="text">網站導覽</div>
+                            </a>
+                            <a tabindex="12" class="item music" href="javascript: if (web_menu) web_menu.open('music');" title="背景音樂">
+                                <div class="icon">
+                                    <img class="svg" src="/image/icon/media/volume-mid@svg.svg" alt="背景音樂圖示" />
+                                </div>
+                                <div class="text">背景音樂</div>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            
+            <div class="sub_block">
+                <div class="line lang">
+                    <a tabindex="5" class="link" href="/" title="中文版">
+                        中文
+                    </a>
+                    <a tabindex="6" class="link" href="https://recreation.forest.gov.tw/lang/EN/Index" title="English">
+                        English
+                    </a>
+                    <a tabindex="7" class="link" href="https://recreation.forest.gov.tw/lang/JP/Index" title="日本語">
+                        日本語
+                    </a>
+                    <a tabindex="8" class="link" href="https://recreation.forest.gov.tw/lang/KR/Index" title="한국어">
+                        한국어
+                    </a>
+                    <a tabindex="9" class="close" href="javascript: if (web_menu) web_menu.close();" title="關閉選單">
+                        <img src="/image/icon/interfaces/close.svg" alt="關閉選單" />
+                    </a>
+                </div>
+                <div class="line music">
+                    <div class="content" id="web_music">
+                        本局出版之「離家出走 — 一起去森林之大地野宴有聲 CD」(作者：范欽慧)
+                        <a tabindex="13" class="web_music_play" href="javascript:play_web_music();" title="音樂播放">音樂播放</a>
+                    </div>
+                    <a tabindex="14" class="close" href="javascript: if (web_menu) web_menu.close();" title="關閉音樂">
+                        <img src="/image/icon/interfaces/close.svg" alt="關閉選單" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="line-2">
+            <div class="margin_block">
+                
+                <ul class="left">
+                    <li class="logo">
+                        <a tabindex="15" href="/" title="回首頁">
+                            <h1>
+                                <img src="/image/icon/web-logo/30uu-logotype-white.svg" alt="山林悠遊網" />
+                            </h1>
+                        </a>
+                    </li>
+                    <li class="link_box">
+                        <a tabindex="16" title="景點查詢" href="/Forest/Query">
+                            景點查詢
+                        </a>
+                    </li>
+                    <li class="link_box">
+                        <a tabindex="17" title="山海圳" href="/Topic/MSTW">
+                            山海圳
+                        </a>
+                    </li>
+                    <li class="link_box">
+                        <a tabindex="18" title="自然教育" href="javascript:void(0);">
+                            自然教育
+                        </a>
+                        <div class="link_hover_container">
+                            <div class="top">
+                                <div class="tag">請選擇上課地點</div>
+                                <a tabindex="27" href="javascript:void(0);" class="close_div"><img src="/image/map-copy.svg" alt="地點" /></a>
+                            </div>
+                            <div class="inside_container">
+                                <div class="left_box">
+                                    <a tabindex="19" class="text_box" href="/Education?place=DYS" title="東眼山">
+                                        <span class="dot"></span><span>東眼山</span>
+                                        <div class="oval oval_one"></div>
+                                    </a>
+                                    <a tabindex="20" class="text_box" href="/Education?place=LD" title="羅東">
+                                        <span class="dot"></span><span>羅東</span>
+                                        <div class="oval oval_two"></div>
+                                    </a>
+                                    <a tabindex="21" class="text_box" href="/Education?place=AWD" title="奧萬大">
+                                        <span class="dot"></span><span>奧萬大</span>
+                                        <div class="oval oval_three"></div>
+                                    </a>
+                                    <a tabindex="22" class="text_box" href="/Education?place=BSS" title="八仙山">
+                                        <span class="dot"></span><span>八仙山</span>
+                                        <div class="oval oval_four"></div>
+                                    </a>
+                                    <a tabindex="23" class="text_box" href="/Education?place=CK" title="觸口">
+                                        <span class="dot"></span><span>觸口</span>
+                                        <div class="oval oval_five"></div>
+                                    </a>
+                                    <a tabindex="24" class="text_box" href="/Education?place=SL" title="雙流">
+                                        <span class="dot"></span><span>雙流</span>
+                                        <div class="oval oval_six"></div>
+                                    </a>
+                                    <a tabindex="25" class="text_box" href="/Education?place=CN" title="池南">
+                                        <span class="dot"></span><span>池南</span>
+                                        <div class="oval oval_seven"></div>
+                                    </a>
+                                    <a tabindex="26" class="text_box" href="/Education?place=JB" title="知本">
+                                        <span class="dot"></span><span>知本</span>
+                                        <div class="oval oval_eight"></div>
+                                    </a>
+                                </div>
+                                <div class="right_box">
+                                    <figure>
+                                        <img src="/image/tw.svg" alt="臺灣地圖" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="link_box">
+                        <a tabindex="28" title="熱門活動" href="/Event">
+                            熱門活動
+                        </a>
+                    </li>
+                    <li class="link_box">
+                        <a tabindex="29" title="主題推薦" href="/Topic">
+                            主題推薦
+                        </a>
+                    </li>
+                    <li class="link_box">
+                        <a tabindex="30" class="item lang" href="javascript: if (web_menu) web_menu.open('apply');" title="線上申請">
+                            線上申請
+                        </a>
+                    </li>
+                    <li class="link_box">
+                        <a title="訊息公告" href="/News">
+                            訊息公告
+                        </a>
+                    </li>
+                </ul>
+                    <div class="logon">
+                        <div class="circle">
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/interfaces/user@svg.svg" alt="登入" />
+                            </div>
+                        </div>
+                            <a class="name" title="登入" href="/Member/Login">
+                                尚未登入
+                            </a>
+                    </div>
+                
+            </div>
+            <div class="sub_block">
+                <div class="line apply">
+                    <a tabindex="31" class="link" href="/Apply/Guide" title="解說導覽申請">
+                        解說導覽
+                    </a>
+                    <a tabindex="32" class="link" href="/Apply/Campsite" title="山屋及營地">
+                        山屋營地
+                    </a>
+                    <a tabindex="33" class="link" href="/Apply/TPSR" title="園區訂房">
+                        園區訂房
+                    </a>
+                    <a tabindex="34" class="link" href="/Apply/Volunteer" title="志工招募">
+                        志工招募
+                    </a>
+                    <a tabindex="35" class="close" href="javascript: if (web_menu) web_menu.close();" title="關閉選單">
+                        <img src="/image/icon/interfaces/close.svg"  alt="關閉選單" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="top_menu_rwd rwd_block">
+        <div class="banner">
+            <a class="logo" href="/" title="回首頁">
+                <img src="/image/icon/web-logo/30uu-logotype-primary.svg" alt="山林悠遊網" />
+            </a>
+            <div class="close">
+                <img class="svg" src="/image/icon/interfaces/close.svg"  alt="關閉選單"/>
+            </div>
+        </div>
+        <div class="scroll_block">
+            <div class="user">
+                <div class="item">
+                    <div class="text">
+                        我是遊客
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="text" href="/Volunteer/Login" title="我是志工">
+                        我是志工
+                    </a>
+                </div>
+            </div>
+            <div class="login">
+                <div class="icon">
+                    <div class="circle">
+                        <img class="svg" src="/image/icon/interfaces/user@svg.svg" alt="登入" />
+                    </div>
+                </div>
+                <div class="text">
+                        <div class="main">
+                            尚未登入
+                        </div>
+                        <div>
+                            請登入享用更多功能
+                        </div>
+                </div>
+                <div class="icon">
+                    <a href="/Member/Signout" title="登出">
+                        <img src="/image/icon/extra/login.svg" alt="登出" />
+                    </a>
+                </div>
+            </div>
+            <div class="list_block">
+                <a class="item" title="景點查詢" href="/Forest/Query">
+                    景點查詢
+                </a>
+                <a class="item" title="山海圳" href="/Topic/MSTW">
+                    山海圳
+                </a>
+                <a class="item" title="自然教育" href="/Education">
+                    自然教育
+                </a>
+                <a class="item" title="熱門活動" href="/Event">
+                    熱門活動
+                </a>
+                <a class="item" title="主題推薦" href="/Topic">
+                    主題推薦
+                </a>
+                <a href="javascript:void(0);" class="item main close" data-target="top_menu_apply" title="線上申請">
+                    線上申請
+                </a>
+                <div class="sub" id="top_menu_apply">
+                    <a class="item" title="解說導覽申請" href="/Apply/Guide">
+                        解說導覽申請
+                    </a>
+                    <a class="item" title="山屋及營地" href="/Apply/Campsite">
+                        山屋及營地
+                    </a>
+                    <a class="item" title="園區訂房" href="/Apply/TPSR">
+                        園區訂房
+                    </a>
+                    <a class="item" title="志工招募" href="/Apply/Volunteer">
+                        志工招募
+                    </a>
+                </div>
+                <a class="item" title="訊息公告" href="/News">
+                    訊息公告
+                </a>
+            </div>
+            <div class="btn_block">
+                <div class="music">
+                    <div class="icon">
+                        <img class="svg" src="/image/icon/media/volume-mid@svg.svg" alt="背景音樂圖示" />
+                    </div>
+                    <div class="text">
+                        <div>
+                            背景音樂
+                        </div>
+                        <div>
+                            本局出版之「離家出走 — 一起去森林之大地野宴有聲 CD」(作者：范欽慧)
+                        </div>
+                    </div>
+                    <a class="web_music_play" href="javascript:play_web_music();" title="音樂播放">音樂播放</a>
+                </div>
+                <div class="btn lang">
+                    <div class="icon">
+                        <img class="svg" src="/image/icon/interfaces/earth@svg.svg" alt="語言切換圖示" />
+                    </div>
+                    Language
+                </div>
+                <div>
+                    <a href="/Sitemap" title="網站導覽">
+                        <div class="icon">
+                            <img class="svg" src="/image/icon/development/window@svg.svg"  alt="網站導覽圖示" />
+                        </div>
+                        網站導覽
+                    </a>
+                </div>
+                <div>
+                    <a href="/Search" title="全站檢索">
+                        <div class="icon">
+                            <img class="svg" src="/image/icon/interfaces/search@svg.svg" alt="全站檢索圖示" />
+                        </div>
+                        全站檢索
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top_menu_lang rwd_block">
+        <div class="banner">
+            <div class="text">
+                <div class="icon">
+                    <img class="svg" src="/image/icon/interfaces/earth@svg.svg" alt="語言切換圖示" />
+                </div>
+                Language
+            </div>
+            <div class="close">
+                <img class="svg" src="/image/icon/interfaces/close.svg"  alt="關閉選單"/>
+            </div>
+        </div>
+        <div class="list_block">
+            <a class="item" href="/" title="中文版">
+                中文
+            </a>
+            <a class="item" href="https://recreation.forest.gov.tw/lang/EN/Index" title="English">
+                English
+            </a>
+            <a class="item" href="https://recreation.forest.gov.tw/lang/JP/Index" title="日本語">
+                日本語
+            </a>
+            <a class="item" href="https://recreation.forest.gov.tw/lang/KR/Index" title="한국어">
+                한국어
+            </a>
+        </div>
+    </div>
+</div>
+
+
+     
+        
+
+
+
+<div class="banner_img">
+    <div class="content">
+        <div class="title">
+            景點查詢
+        </div>
+        <div class="main">
+        </div>
+    </div>
+    <div class="img_block">
+        <img src="/Files/banner/Query.jpg" alt="景點查詢" />
+    </div>
+</div>
+
+<div class="map_path">
+    <div class="margin_block">
+        <div class="home">
+            <a href="/" title="回首頁">
+                <img class="svg" src="/image/icon/interfaces/home@svg.svg" alt="回首頁" />
+            </a>
+        </div>
+        <div class="path_block">
+            <a href="/" title="台灣山林悠遊網">
+                台灣山林悠遊網
+            </a>
+            <div class="icon">
+                <img class="svg" src="/image/icon/arrow/chevron-right@svg.svg" alt="分隔" />
+            </div>
+            <a class="path" href="/Forest/Query" title="熱門活動">
+                景點查詢
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="query_banner">
+    <form id="query_form">
+        <div class="rwd_list">
+            <div class="banner">
+                <div class="icon">
+
+                </div>
+                篩選
+                <div class="close">
+                    <img class="svg" src="/image/icon/interfaces/close.svg" alt="關閉" />
+                </div>
+            </div>
+            <div class="input">
+
+            </div>
+            <div class="keyword_block" id="keyword_block">
+                <div class="count">
+                </div>
+                <div class="item_block">
+                </div>
+                <div class="keyword">
+                </div>
+            </div>
+            <div class="filter_block">
+
+            </div>
+            <div class="info_block">
+                <div class="clean">
+                    清空條件
+                </div>
+                <div class="info">
+                    <div class="text">
+                        送出查詢
+                    </div>
+                    <div class="count">
+                        <span id="result_count2">0</span> 個山林景點
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="query_main">
+        <div class="margin_block">
+            <div class="block1">
+                <div class="back_block block">
+                    <a href="/" title="返回">
+                        <img class="svg" src="/image/icon/arrow/arrow-left@svg.svg" alt="返回" />
+                    </a>
+                </div>
+
+                <div class="result_block block" onclick="javascript:location.href='/Forest/Query'">
+                    <div class="icon">
+                        <img src="/image/icon/outdoor/binoculars@svg.svg" alt="" />
+                    </div>
+                    <div class="text_block">
+                        <div class="title">
+                            景點查詢
+                        </div>
+                        <div class="count">
+                            找到 <span id="result_count">0</span> 個山林景點
+                        </div>
+                    </div>
+                </div>
+
+                <a class="open_block" href="javascript: void(0);" title="篩選">
+                    <div class="circle">
+                        <img class="svg" src="/image/icon/extra/filter.svg" alt="篩選" />
+                    </div>
+                    <div class="filter">搜尋</div>
+                </a>
+
+                <div class="query_item block" data-query="region">
+                    <a href="javascript: void(0);" class="btn">
+                        <div class="type">
+                            北中南東
+                        </div>
+                        <div class="open_block">
+                            <div class="count">
+                                0
+                            </div>
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/arrow/chevron-down@svg.svg" alt="展開" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="sub_block">
+                        <div class="margin_block">
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="N" />
+                                    北
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                   <input type="checkbox" value="C" />
+                                    中
+                                </label>
+</a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="S" />
+                                    南
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="E" />
+                                    東
+                                </label>
+                            </a>
+                        </div>
+                        <div class="btn_block">
+                            <a href="javascript: void(0);" class="clean" title="清空">
+                                清空
+                            </a>
+                            <button class="web-btn ok">
+                                確定
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="query_item block" data-query="typ">
+                    <a href="javascript: void(0);" class="btn">
+                        <div class="type">
+                            景點類型
+                        </div>
+                        <div class="open_block">
+                            <div class="count">
+                                0
+                            </div>
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/arrow/chevron-down@svg.svg" alt="展開" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="sub_block">
+                        <div class="margin_block">
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="0" />
+                                    國家森林遊樂區
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="1" />
+                                    自然步道
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="2" />
+                                    平地森林遊樂區
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="10" />
+                                    林業文化園區
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="11" />
+                                    林業鐵路
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="3" />
+                                    自然教育中心
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="12" />
+                                    生態教育館
+                                </label>
+                            </a>
+                        </div>
+                        <div class="btn_block">
+                            <a href="javascrit: void(0);" class="clean" title="清空">
+                                清空
+                            </a>
+                            <button class="web-btn ok">
+                                確定
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input_block block">
+                    <div class="input">
+                        <label for="text_keyword"></label>
+                        <input type="text" placeholder="關鍵字" id="text_keyword" autocomplete="off" />
+                        <a class="icon" href="javascript:option_trigger();close_rwd_query();" title="關鍵字查詢">
+                            <img class="svg" src="/image/icon/interfaces/search@svg.svg" alt="關鍵字查詢" />
+                        </a>
+                    </div>
+                    <div class="sub_item keyword">
+                        <div class="content_block nice-scroll2">
+                            <div class="place">
+                                <div class="item_block">
+                                </div>
+                            </div>
+                            <div class="type">
+                                <div class="title">
+                                    熱門關鍵字
+                                </div>
+                                <div class="item_block">
+                                    <a class="item" href="javascript: void(0);" title="瀑布">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #瀑布
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E7%80%91%E5%B8%83.jpg" alt="瀑布" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="森林浴">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #森林浴
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E6%A3%AE%E6%9E%97%E6%B5%B4.jpg" alt="森林浴" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="吊橋">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #吊橋
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E5%90%8A%E6%A9%8B.jpg" alt="吊橋" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="賞花">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #賞花
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E8%B3%9E%E8%8A%B1.jpg" alt="賞花" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="賞鳥">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #賞鳥
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E8%B3%9E%E9%B3%A5.jpg" alt="賞鳥" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="日出">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #日出
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E6%97%A5%E5%87%BA.jpg" alt="日出" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="巨木">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #巨木
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E7%A5%9E%E6%9C%A8.jpg" alt="巨木" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="紅葉">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #紅葉
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E8%B3%9E%E6%A5%93.jpg" alt="紅葉" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="螢火蟲">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #螢火蟲
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E8%9E%A2%E7%81%AB%E8%9F%B2.jpg" alt="螢火蟲" />
+                                        </div>
+                                    </a>
+                                    <a class="item" href="javascript: void(0);" title="雲海">
+                                        <div class="img_block">
+                                            <div class="mask">
+                                                #雲海
+                                            </div>
+                                            <img src="/image/demo/%E9%A6%96%E9%A0%81/7.%E6%97%85%E9%81%8A%E7%86%B1%E6%90%9C/%E9%9B%B2%E6%B5%B7.jpg" alt="雲海" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block2">
+                <a class="map_block block" id="open_map" href="javascript: void(0);" title="顯示地圖">
+                    <div class="text">
+                        顯示地圖
+                    </div>
+                    <div class="toggle_block">
+                        <div class="circle">
+                        </div>
+                    </div>
+                </a>
+
+                <div class="open_block block">
+                    <a href="javascript: void(0);" id="more_query" title="展開">
+                        <div class="close">
+                            展開
+                        </div>
+                        <div class="open">
+                            收合
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="query_banner sub_query">
+    <div class="margin_block">
+        <div class="content_block">
+            <div class="block1">
+                <div class="query_item block" data-query="height">
+                    <a href="javascript: void(0);" class="btn">
+                        <div class="type">
+                            海拔高度
+                        </div>
+                        <div class="open_block">
+                            <div class="count">
+                            </div>
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/arrow/chevron-down@svg.svg" alt="展開" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="sub_block">
+                        <div class="margin_block">
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="1" />
+                                    800m以下
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="2" />
+                                    800-1500m
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="3" />
+                                    1500-2500m
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="4" />
+                                    2500m以上
+                                </label>
+                            </a>
+                        </div>
+                        <div class="btn_block">
+                            <a href="javascrit: void(0);" class="clean" title="清空">
+                                清空
+                            </a>
+                            <button class="web-btn ok">
+                                確定
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="query_item block" data-query="open">
+                    <a href="javascript: void(0);" class="btn">
+                        <div class="type">
+                            開放狀況
+                        </div>
+                        <div class="open_block">
+                            <div class="count">
+                            </div>
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/arrow/chevron-down@svg.svg" alt="展開" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="sub_block">
+                        <div class="margin_block">
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="open" />
+                                    開放中
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="close" />
+                                    關閉中
+                                </label>
+                            </a>
+                        </div>
+                        <div class="btn_block">
+                            <a href="javascrit: void(0);" class="clean" title="清空">
+                                清空
+                            </a>
+                            <button class="web-btn ok">
+                                確定
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="query_item block" data-query="traffic">
+                    <a href="javascript: void(0);" class="btn">
+                        <div class="type">
+                            交通方式
+                        </div>
+                        <div class="open_block">
+                            <div class="count">
+                                3
+                            </div>
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/arrow/chevron-down@svg.svg" alt="展開" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="sub_block">
+                        <div class="margin_block">
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="0" />
+                                    只能自行開車
+                                </label>
+                            </a>
+                            <a href="javascript: void(0);" class="item">
+                                <label>
+                                    <input type="checkbox" value="1" />
+                                    可搭大眾運輸
+                                </label>
+                            </a>
+                        </div>
+                        <div class="btn_block">
+                            <a href="javascrit: void(0);" class="clean" title="清空">
+                                清空
+                            </a>
+                            <button class="web-btn ok">
+                                確定
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="query_item block query_item_3" id="trail_filter">
+                    <a href="javascript: void(0);" class="btn">
+                        <div class="type">
+                            自然步道進階篩選
+                        </div>
+                        <div class="open_block">
+                            <div class="count">
+                                3
+                            </div>
+                            <div class="icon">
+                                <img class="svg" src="/image/icon/arrow/chevron-down@svg.svg" alt="展開" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="sub_block trail_block">
+                        <div class="margin_block">
+                            <table>
+                                <tr>
+                                    <th>步道狀況</th>
+                                    <td>
+                                        <div class="item_block" data-query="TR_status">
+                                            <a class="item" href="javascript: void(0);" title="全線開放" data-value="0">全線開放</a>
+                                            <a class="item" href="javascript: void(0);" title="部分開放" data-value="2">部分開放</a>
+                                            <a class="item" href="javascript: void(0);" title="暫停開放" data-value="1">暫停開放</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>步道難度</th>
+                                    <td>
+                                        <div class="star_block" data-query="TR_hard">
+                                            <div class="star_block">
+                                                <a class="star item" href="javascript: void(0);" data-value="1" title="步道難度1">
+                                                    <i class="far fa-star"><span>star</span></i>
+                                                    <i class="fas fa-star"><span>star</span></i>
+                                                </a>
+                                                <a class="star item" href="javascript: void(0);" data-value="2" title="步道難度2">
+                                                    <i class="far fa-star"><span>star</span></i>
+                                                    <i class="fas fa-star"><span>star</span></i>
+                                                </a>
+                                                <a class="star item" href="javascript: void(0);" data-value="3" title="步道難度3">
+                                                    <i class="far fa-star"><span>star</span></i>
+                                                    <i class="fas fa-star"><span>star</span></i>
+                                                </a>
+                                                <a class="star item" href="javascript: void(0);" data-value="4" title="步道難度4">
+                                                    <i class="far fa-star"><span>star</span></i>
+                                                    <i class="fas fa-star"><span>star</span></i>
+                                                </a>
+                                                <a class="star item" href="javascript: void(0);" data-value="5" title="步道難度5">
+                                                    <i class="far fa-star"><span>star</span></i>
+                                                    <i class="fas fa-star"><span>star</span></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>步道長度</th>
+                                    <td>
+                                        <div class="item_block" data-query="TR_length">
+                                            <a class="item" href="javascript: void(0);" title="2 km內" data-value="0">2 km內</a>
+                                            <a class="item" href="javascript: void(0);" title="2-5 km" data-value="1">2-5 km</a>
+                                            <a class="item" href="javascript: void(0);" title="5-10 km" data-value="2">5-10 km</a>
+                                            <a class="item" href="javascript: void(0);" title="10 km 以上" data-value="3">10 km 以上</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>所需時間</th>
+                                    <td>
+                                        <div class="item_block" data-query="TR_time">
+                                            <a class="item" href="javascript: void(0);" title="半天" data-value="1">半天</a>
+                                            <a class="item" href="javascript: void(0);" title="一天" data-value="2">一天</a>
+                                            <a class="item" href="javascript: void(0);" title="⼀天以上" data-value="3">⼀天以上</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="btn_block">
+                            <a href="javascrit: void(0);" class="clean" title="清空">
+                                清空
+                            </a>
+                            <button class="web-btn ok">
+                                確定
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="result_block" id="result_block">
+    <div class="margin_block">
+        <div class="accesskey">
+            <a href="#root-content" class="root-content" accesskey="C" title="中央內容區塊">:::</a>
+        </div>
+        <div class="img_block block_minHeight" id="img_block">
+        </div>
+        <div class="page_block" style="display: none;">
+            <a class="previous" href="javascript: void(0);" title="上一頁">
+                <img class="svg" src="/image/icon/arrow/arrow-left@svg.svg" alt="上一頁" />
+            </a>
+            <div class="page">
+            </div>
+            <a class="next" href="javascript: void(0);" title="下一頁">
+                <img class="svg" src="/image/icon/arrow/arrow-right.svg" alt="下一頁" />
+            </a>
+        </div>
+    </div>
+
+    <div class="map_block">
+        <div class="sticky_block">
+            <div class="map" id="map">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="no_data_block">
+    <div class="margin_block">
+        <div class="content_block">
+            <div class="img">
+                <img src="/image/icon/no_data.svg" alt="沒有符合的山林景點" />
+            </div>
+            <div class="main">
+                沒有符合的山林景點
+            </div>
+            <div class="sub">
+                您可以試著刪減一些篩選條件，或是<a href="javascript:clear_all();" title="查看所有">查看所有</a>山林景點。
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="item_templete" style="display: none;">
+    <a class="item" title="{name}" href="{url}">
+        <div class="web_aera_block">
+            <div class="img_block">
+                <div class="open_block {open}">
+                    {open_text}
+                </div>
+                <img src="{photo}" alt="" class="lazy" data-original="{photo}" />
+            </div>
+            <div class="info_block">
+                <div class="tag_block">
+                    <div class="tag">
+                        {tag}
+                    </div>
+                </div>
+                <div class="main">
+                    {name}
+                </div>
+                <div class="sub">
+                    <div class="item">
+                        <div class="icon">
+                            <img class="svg" src="/image/icon/interfaces/pin@svg.svg" alt="地點" />
+                        </div>
+                        {city}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div id="map_templete" style="display: none;">
+    <div class="item">
+        <a class="web_aera_block"  title="{name}" href="{url}">
+            <div class="img_block">
+                <img src="{photo}" alt="{name}" class="lazy" data-original="{photo}" />
+            </div>
+            <div class="info_block">
+                <div class="tag_block">
+                    <div class="tag">
+                        {tag}
+                    </div>
+                </div>
+                <div class="main">
+                    {name}
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div id="templete_query_place_item" style="display: none;">
+    <a class="item" href="{url}" title="{name}">
+        <div class="icon">
+            <img class="svg" src="/image/icon/interfaces/pin@svg.svg" alt="地點" />
+        </div>
+        <div class="name">{name}</div>
+        <div class="region">{region}</div>
+    </a>
+</div>
+
+<div id="templete_keyword_filter_item" style="display: none;">
+    <a class="item" href="{url}" title="{name}">
+        <div class="icon">
+            <img class="svg" src="/image/icon/interfaces/pin@svg.svg" alt="地點" />
+        </div>
+        <div class="place">
+            <div class="main">
+                {name}
+            </div>
+            <div class="sub">
+                {region}
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="map_open_icon">
+    <img src="/image/icon/add/map@svg.svg" alt="地點" />
+</div>
+
+<div class="rwd_map">
+    <div class="banner">
+        <div class="icon">
+            <img src="/image/icon/add/map@svg.svg" alt="地點" />
+        </div>
+        地圖查看
+        <div class="close">
+            <img class="svg" src="/image/icon/interfaces/close.svg" alt="關閉" />
+        </div>
+    </div>
+    <div class="map_block">
+    </div>
+</div>
+
+
+    </div>
+
+    <div class="accesskey">
+        <a href="#root-footer" id="root-footer" accesskey="B" title="移至頁尾">:::</a>
+    </div>
+
+    
+
+<div class="web_footer">
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    <div class="content_block">
+        <div class="margin_block">
+            <div class="logo">
+                <img src="/image/icon/web-logo/30uu-logotype-primary.svg" alt="山林悠遊網" />
+            </div>
+            <div class="main_block">
+                <div class="link_block">
+                    <div class="item">
+                        <div class="title">
+                            景點查詢
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/Forest/Query?typ=0" title="國家森林遊樂區">
+                                國家森林遊樂區
+                            </a>
+                            <a class="link" href="/Forest/Query?typ=2" title="平地森林園區">
+                                平地森林園區
+                            </a>
+                            <a class="link" href="/Forest/Query?typ=1" title="自然步道">
+                                自然步道
+                            </a>
+                            <a class="link" href="/Forest/Query?typ=11" title="林業鐵路">
+                                林業鐵路
+                            </a>
+                            <a class="link" href="/Forest/Query?typ=10" title="林業文化">
+                                林業文化園區
+                            </a>
+                            <a class="link" href="/Forest/Query?typ=3" title="自然教育中心">
+                                自然教育中心
+                            </a>
+                            <a class="link" href="/Forest/Query?typ=12" title="生態教育館">
+                                生態教育館
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            自然教育
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/Education" title="教育課程">
+                                教育課程
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            熱門活動
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/Event" title="活動內容">
+                                活動內容
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            主題推薦
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/Topic/FOO" title="無障礙旅遊">
+                                無障礙旅遊
+                            </a>
+                            <a class="link" href="/Topic/Orienteering" title="定向運動">
+                                定向運動
+                            </a>
+                            <a class="link" href="/Topic/LNT" title="無痕山林">
+                                無痕山林
+                            </a>
+                            <a class="link" href="/Topic/Learn" title="學森林">
+                                學森林
+                            </a>
+                            <a class="link" href="/Topic/MSTW" title="山海圳">
+                                山海圳
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            線上申請
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/Apply/Guide" title="解說導覽">
+                                解說導覽
+                            </a>
+                            <a class="link" href="/Apply/Campsite" title="山屋營地">
+                                山屋營地
+                            </a>
+                            <a class="link" href="/Apply/TPSR" title="園區訂房">
+                                園區訂房
+                            </a>
+                            <a class="link" href="/Apply/Volunteer" title="志工申請">
+                                志工招募
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            訊息公告
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/News?type=news" title="最新消息">
+                                最新消息
+                            </a>
+                            <a class="link" href="/News?type=rest" title="開休園公告">
+                                開休園公告
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item download">
+                        <div class="title">
+                            檔案下載
+                        </div>
+                        <div class="sub">
+                            <a class="link" href="/Service/Epaper" title="電子報">
+                                電子報
+                            </a>
+                            <a class="link" href="/Service/Data" title="山岳百科">
+                                山岳百科
+                            </a>
+                            <a class="link" href="https://recreation.forest.gov.tw/lang/transportation/bus.html" target="_blank" title="大眾運輸(另開新視窗)">
+                                大眾運輸
+                            </a>
+                            <a class="link" href="/Service/Bilingual" title="雙語詞彙">
+                                雙語詞彙
+                            </a>
+                            <a class="link" href="/Service/OpenData" title="開放資料">
+                                開放資料
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item ref_link">
+                        <div class="title">
+                            相關連結
+                        </div>
+                        <div class="sub">
+                                <div class="ref_link_block">
+                                    <figure>
+                                        <img class="svg" src="/image/icon/interfaces/plus@svg.svg" alt="展開" />
+                                    </figure>
+                                    <a class="link close" href="javascript:void(0);" title="林務局網站">
+                                        林務局網站
+                                    </a>
+                                </div>
+                                <div class="sub_link">
+                                        <a href="https://www.forest.gov.tw/" target="_blank" title="行政院農委會林務局">
+                                            行政院農委會林務局
+                                        </a>
+                                        <a href="https://media.forest.gov.tw/" target="_blank" title="林務局影音資訊平台">
+                                            林務局影音資訊平台
+                                        </a>
+                                        <a href="http://luodong.forest.gov.tw/" target="_blank" title="羅東林區管理處">
+                                            羅東林區管理處
+                                        </a>
+                                        <a href="https://hsinchu.forest.gov.tw/" target="_blank" title="新竹林區管理處">
+                                            新竹林區管理處
+                                        </a>
+                                        <a href="http://dongshih.forest.gov.tw/" target="_blank" title="東勢林區管理處">
+                                            東勢林區管理處
+                                        </a>
+                                        <a href="https://nantou.forest.gov.tw/" target="_blank" title="南投林區管理處">
+                                            南投林區管理處
+                                        </a>
+                                        <a href="http://chiayi.forest.gov.tw/" target="_blank" title="嘉義林區管理處">
+                                            嘉義林區管理處
+                                        </a>
+                                        <a href="http://pingtung.forest.gov.tw/" target="_blank" title="屏東林區管理處">
+                                            屏東林區管理處
+                                        </a>
+                                        <a href="http://taitung.forest.gov.tw/" target="_blank" title="臺東林區管理處">
+                                            臺東林區管理處
+                                        </a>
+                                        <a href="http://hualien.forest.gov.tw/" target="_blank" title="花蓮林區管理處">
+                                            花蓮林區管理處
+                                        </a>
+                                        <a href="https://afrch.forest.gov.tw/" target="_blank" title="阿里山林業鐵路及文化資產管理處">
+                                            阿里山林業鐵路及文化資產管理處
+                                        </a>
+                                </div>
+                                <div class="ref_link_block">
+                                    <figure>
+                                        <img class="svg" src="/image/icon/interfaces/plus@svg.svg" alt="展開" />
+                                    </figure>
+                                    <a class="link close" href="javascript:void(0);" title="政府網站">
+                                        政府網站
+                                    </a>
+                                </div>
+                                <div class="sub_link">
+                                        <a href="http://www.gov.tw/" target="_blank" title="我的E政府">
+                                            我的E政府
+                                        </a>
+                                        <a href="https://www.coa.gov.tw/" target="_blank" title="行政院農業委員會">
+                                            行政院農業委員會
+                                        </a>
+                                        <a href="http://np.cpami.gov.tw/" target="_blank" title="臺灣國家公園">
+                                            臺灣國家公園
+                                        </a>
+                                        <a href="http://www.apc.gov.tw/portal/" target="_blank" title="行政院原住民族委員會全球資訊網">
+                                            行政院原住民族委員會全球資訊網
+                                        </a>
+                                        <a href="https://www.tbroc.gov.tw/" target="_blank" title="交通部觀光局">
+                                            交通部觀光局
+                                        </a>
+                                        <a href="https://i30.taiwan.net.tw/" target="_blank" title="觀光局脊樑山脈旅遊年專網">
+                                            觀光局脊樑山脈旅遊年專網
+                                        </a>
+                                </div>
+                                <div class="ref_link_block">
+                                    <figure>
+                                        <img class="svg" src="/image/icon/interfaces/plus@svg.svg" alt="展開" />
+                                    </figure>
+                                    <a class="link close" href="javascript:void(0);" title="非政府網站">
+                                        非政府網站
+                                    </a>
+                                </div>
+                                <div class="sub_link">
+                                        <a href="http://www.ecotour.org.tw/" target="_blank" title="台灣生態旅遊網">
+                                            台灣生態旅遊網
+                                        </a>
+                                        <a href="http://www.keepon.com.tw/" target="_blank" title="登山補給站">
+                                            登山補給站
+                                        </a>
+                                        <a href="http://www.tonyhuang39.com/" target="_blank" title="Tony的自然人文旅記">
+                                            Tony的自然人文旅記
+                                        </a>
+                                        <a href="http://tw.hiking.biji.co/" target="_blank" title="健行筆記">
+                                            健行筆記
+                                        </a>
+                                        <a href="https://www.facebook.com/auba11/" target="_blank" title="魯凱神話藝術村">
+                                            魯凱神話藝術村
+                                        </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_block">
+                    <div class="social">
+                        <a class="item" href="https://www.facebook.com/twforest" title="林務局-森活情報站 (另開新視窗)" target="_blank">
+                            <img src="/image/icon/social/facebook@svg.svg" alt="facebook" />
+                        </a>
+                        <a class="item" href="https://www.instagram.com/forestrybureau/" title="林務局 (另開新視窗)" target="_blank">
+                            <img src="/image/icon/social/ig@svg.svg" alt="instagram" />
+                        </a>
+                        <a class="item" href="https://www.youtube.com/channel/UCOvjqsgwf8RFMmyj7QIQhSg" title="行政院農業委員會林務局 (另開新視窗)" target="_blank">
+                            <img src="/image/icon/social/youtube@svg.svg" alt="youtube" />
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div>
+                            (02)2351-5441
+                        </div>
+                        <div>
+                            10050 臺北市中正區杭州南路一段2號
+                        </div>
+                        <div>
+                            <a href="mailto:tfr@forest.gov.tw" title="電子信箱">tfr@forest.gov.tw</a>
+                        </div>
+                        <div>
+
+                            瀏覽人次：6,121,659
+                        </div>
+                    </div>
+                    <div class="e_paper">
+                        <label class="input" for="footer_email">
+                            <input type="text" placeholder="電子信箱" id="footer_email" />
+                        </label>
+                        <a class="btn" id="footer_email_btn" href="javascript:void(0);" title="訂閱電子報">
+                            訂閱
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dark_block">
+        <div class="content_block">
+            <div class="margin_block">
+                <div class="copyright">
+                    <div>
+                        Copyright © 2018 Forest Bureau
+                    </div>
+                    <div>
+                        行政院農業委員會林務局 版權所有
+                    </div>
+                </div>
+                <div class="link_block">
+                    <a class="item" href="https://www.forest.gov.tw/security" title="資訊安全政策">
+                        資訊安全政策
+                    </a>
+                    <a class="item" href="https://www.forest.gov.tw/privacy" title="隱私權保護政策 ">
+                        隱私權保護政策
+                    </a>
+                    <a class="item" href="https://www.forest.gov.tw/opendata" title="政府網站資料開放宣告">
+                        政府網站資料開放宣告
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+    <script src="/Front/bundles/js/common?v=Ldf-9WJ0pwAUOMjyFFzDOdSiGu3B98H_6_IayyRIB3M1"></script>
+
+    
+    <script src="/Content/leaflet.1.3.1/leaflet.js"></script>
+    <script src="/Front/bundles/js/Forest/Query?v=jAWOFTXrxzNWSWdqyqX4MkN3v-QYXYdaO24XY-x5al01"></script>
+
+
+
+
+    
+    <audio id="web_music_player" loop="loop" autoplay="autoplay">
+        <source id="web_music_player_source" />
+    </audio>
+
+    <a class="web_move_top" href="javascript:void(0);" title="回到上方">
+        <img class="svg" src="/image/icon/add/back_to_top@svg.svg" title="回到上方" alt="回到上方" />
+    </a>
+
+    
+
+
+    <!-- Google Analytics -->
+    <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-125671401-2', 'auto');
+            ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+</body>
+</html>

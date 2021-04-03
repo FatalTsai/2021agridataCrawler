@@ -1,0 +1,66 @@
+[
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "result_yield": 336704,
+    "plan_yield": 434858,
+    "result_yield_avg": 3208,
+    "plan_yield_avg": 4401
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "result_yield": 409470,
+    "plan_yield": 412222,
+    "result_yield_avg": 3890,
+    "plan_yield_avg": 4172
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "result_yield": 495663,
+    "plan_yield": 391728,
+    "result_yield_avg": 4745,
+    "plan_yield_avg": 4032
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "result_yield": 442596,
+    "plan_yield": 388802,
+    "result_yield_avg": 4125,
+    "plan_yield_avg": 3720
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "result_yield": 927424,
+    "plan_yield": 880142,
+    "result_yield_avg": 5492,
+    "plan_yield_avg": 5460
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "result_yield": 850892,
+    "plan_yield": 887778,
+    "result_yield_avg": 5804,
+    "plan_yield_avg": 5507
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "result_yield": 903729,
+    "plan_yield": 908272,
+    "result_yield_avg": 5424,
+    "plan_yield_avg": 5577
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "result_yield": 832860,
+    "plan_yield": 896198,
+    "result_yield_avg": 5114,
+    "plan_yield_avg": 5482
+  }
+]

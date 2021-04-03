@@ -1,0 +1,4666 @@
+[
+  {
+    "member_name": "李孟佳",
+    "crop": "麻竹筍筍乾",
+    "verify_marker": "NOpesticide",
+    "yield": 50,
+    "season": "07,08,09,10",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "吳永勝",
+    "crop": "有機木瓜",
+    "verify_marker": "organic",
+    "yield": 420,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "林興傑",
+    "crop": "南澳第一粒米",
+    "verify_marker": "organic",
+    "yield": 4000,
+    "season": "07",
+    "shipments_min": 14
+  },
+  {
+    "member_name": "陳明瞭",
+    "crop": "文蛤",
+    "verify_marker": "TAP",
+    "yield": 90000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "李室蒝",
+    "crop": "玉女番茄",
+    "verify_marker": "GAP",
+    "yield": 12000,
+    "season": "01,02,03,04,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "詹勝烽",
+    "crop": "小白菜",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "劉又菱",
+    "crop": "小白菜",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "曾仁宗",
+    "crop": "文山包種茶",
+    "verify_marker": "TAP",
+    "yield": 700,
+    "season": "02,03,04,05,06,11,12,13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃宏意",
+    "crop": "台梗九號良質米",
+    "verify_marker": "TAP",
+    "yield": 800,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "李晨均",
+    "crop": "玉女小番茄",
+    "verify_marker": "TAP",
+    "yield": 900,
+    "season": "05,06,07,08,09,10,11",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "林立偉",
+    "crop": "玉露蜜香紅茶",
+    "verify_marker": "TAP,preorganic",
+    "yield": 133,
+    "season": "13",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "吳成富",
+    "crop": "有機蔬菜",
+    "verify_marker": "organic",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "莊泰琳",
+    "crop": "哈蜜瓜",
+    "verify_marker": "GAP",
+    "yield": 1000,
+    "season": "05,06,07,08",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "陳家千",
+    "crop": "稻米",
+    "verify_marker": "NOpesticide,NOpesticide",
+    "yield": 1500,
+    "season": "05,06,07,08,09,10,11",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "陳福得",
+    "crop": "紅棗乾",
+    "verify_marker": "organic",
+    "yield": 1500,
+    "season": "07,08,09",
+    "shipments_min": 1500
+  },
+  {
+    "member_name": "莊泰琳",
+    "crop": "美濃瓜",
+    "verify_marker": "GAP,TAP",
+    "yield": 1000,
+    "season": "04,05,06,07,08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "陳建龍",
+    "crop": "香瓜",
+    "verify_marker": "preorganic",
+    "yield": 0,
+    "season": "05,06,07",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "馮聖方",
+    "crop": "台梗14號米",
+    "verify_marker": "preorganic",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "許宏賓",
+    "crop": "桑椹加工品",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "04,05",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "鍾文祥",
+    "crop": "新興梨",
+    "verify_marker": "GAP",
+    "yield": 5000,
+    "season": "07,08",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "吳宏斌",
+    "crop": "次郎柿",
+    "verify_marker": "NOpesticide",
+    "yield": 2250,
+    "season": "09,10,11,12",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "馬文權",
+    "crop": "短期葉菜",
+    "verify_marker": "organic",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "陳靜瑩",
+    "crop": "黑珍珠蓮霧",
+    "verify_marker": "GAP",
+    "yield": 0,
+    "season": "01,02,03,04,12",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "吳貴盛",
+    "crop": "小松菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "吳貴盛",
+    "crop": "青江菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "吳貴盛",
+    "crop": "荷葉白菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "吳貴盛",
+    "crop": "菠菜",
+    "verify_marker": "organic",
+    "yield": 5000,
+    "season": "02,04,10,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "吳貴盛",
+    "crop": "萵苣",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "03,04,05,06,07,08,09,10,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "董昱劭",
+    "crop": "芒果",
+    "verify_marker": "preorganic",
+    "yield": 1250,
+    "season": "04,05,06,07",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "莊泰琳",
+    "crop": "櫻桃小番茄",
+    "verify_marker": "GAP",
+    "yield": 1400,
+    "season": "01,02,03,04,05,11,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "林益生",
+    "crop": "茭白筍",
+    "verify_marker": "preorganic,NOpesticide",
+    "yield": 8000,
+    "season": "04,05,09,10",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "陳淑慧",
+    "crop": "紅棗",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "07,08,09",
+    "shipments_min": 1500
+  },
+  {
+    "member_name": "陳淑慧",
+    "crop": "芋頭",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "11,12",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "陳淑慧",
+    "crop": "芭樂",
+    "verify_marker": "organic,preorganic",
+    "yield": 30,
+    "season": "01,02,07,08,09",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳帥之",
+    "crop": "黃金米",
+    "verify_marker": "preorganic",
+    "yield": 90,
+    "season": "08",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "張文祥",
+    "crop": "帝王芭樂",
+    "verify_marker": "GAP",
+    "yield": 2000,
+    "season": "01,02,03,10,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "李聲達",
+    "crop": "柑桔",
+    "verify_marker": "NOpesticide",
+    "yield": 15000,
+    "season": "01,02,03,04,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "涂政男",
+    "crop": "蘆筍",
+    "verify_marker": "organic",
+    "yield": 0,
+    "season": "01,02,03,04,05",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "劉煌基",
+    "crop": "秀珍菇",
+    "verify_marker": "TAP",
+    "yield": 1500,
+    "season": "01,02,03,04,05,08,09,10,11,12",
+    "shipments_min": 36
+  },
+  {
+    "member_name": "吳信國",
+    "crop": "鳳梨",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "07,08,13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "吳信國",
+    "crop": "香蕉(新北蕉)",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許瀚文",
+    "crop": "枸杞葉",
+    "verify_marker": "preorganic",
+    "yield": 120,
+    "season": "01,02,03,04,05,06,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "莫凡",
+    "crop": "高山烏龍茶",
+    "verify_marker": "TAP",
+    "yield": 60,
+    "season": "04,09,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃啟昌",
+    "crop": "文旦",
+    "verify_marker": "NOpesticide,GAP",
+    "yield": 5000,
+    "season": "07",
+    "shipments_min": 5000
+  },
+  {
+    "member_name": "林憲堂",
+    "crop": "有機轉型期木瓜.",
+    "verify_marker": "preorganic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "茆嘉朋",
+    "crop": "杉林溪高山茶",
+    "verify_marker": "TAP",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "沈福財",
+    "crop": "咖啡",
+    "verify_marker": "preorganic",
+    "yield": 110,
+    "season": "07,08,09,10,11,12",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "呂宏文",
+    "crop": "洛神果醬",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "11,12,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃漢忠",
+    "crop": "達仁放山雞",
+    "verify_marker": "NOpesticide,preorganic",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 3000
+  },
+  {
+    "member_name": "張志強",
+    "crop": "柚強麻豆文旦",
+    "verify_marker": "GAP,TAP",
+    "yield": 50000,
+    "season": "07,08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "王瑞延",
+    "crop": "雪蜜棗",
+    "verify_marker": "GAP",
+    "yield": 21000,
+    "season": "01,02,03,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "盧建和",
+    "crop": "果菜",
+    "verify_marker": "organic",
+    "yield": 1500,
+    "season": "01,02,03,04,05,06,07,08,09,10,11,12,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳景泉",
+    "crop": "紅豆",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "01,10,11,12,13",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "陳訓翔",
+    "crop": "頂級紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 60,
+    "season": "05,09,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃柏霖",
+    "crop": "葡萄",
+    "verify_marker": "TAP",
+    "yield": 3000,
+    "season": "06,12",
+    "shipments_min": 7
+  },
+  {
+    "member_name": "王添興",
+    "crop": "玉女番茄",
+    "verify_marker": "GAP",
+    "yield": 1670,
+    "season": "01,02,03,04,05,06,07,11,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "楊協翰",
+    "crop": "甘藷",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "楊協翰",
+    "crop": "白蘿蔔",
+    "verify_marker": "organic",
+    "yield": 1500,
+    "season": "01,02,03,12",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "楊協翰",
+    "crop": "胡蘿蔔",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "01,02,03,04,12",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "蘇志成",
+    "crop": "青心烏龍茶",
+    "verify_marker": "TAP",
+    "yield": 333,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蘇志成",
+    "crop": "金萱茶",
+    "verify_marker": "TAP",
+    "yield": 350,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃國倉",
+    "crop": "青心烏龍",
+    "verify_marker": "NOpesticide,TAP",
+    "yield": 1000,
+    "season": "05,08,10,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "鄭睿謙",
+    "crop": "芒果",
+    "verify_marker": "TAP",
+    "yield": 12000,
+    "season": "04,05,06",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "王一花",
+    "crop": "高麗菜",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 200
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "凍頂烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 60,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "張傑雄",
+    "crop": "有機蜜棗",
+    "verify_marker": "organic",
+    "yield": 8000,
+    "season": "01,02,03,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "蘇怡如",
+    "crop": "芋頭",
+    "verify_marker": "GAP",
+    "yield": 3600,
+    "season": "01,07,08,09,10,11,12",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "邱語玲",
+    "crop": "小黃瓜",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "03,04,05,06,07,08,09",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "許慈良",
+    "crop": "葡萄",
+    "verify_marker": "GAP",
+    "yield": 4000,
+    "season": "01,05,06,07,11,12",
+    "shipments_min": 60
+  },
+  {
+    "member_name": "邱語玲",
+    "crop": "空心菜",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "05,06,07,08,09",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳建龍",
+    "crop": "草莓",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳建龍",
+    "crop": "玉女蕃茄",
+    "verify_marker": "preorganic",
+    "yield": 150,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "蘇志成",
+    "crop": "翠玉茶",
+    "verify_marker": "TAP",
+    "yield": 350,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蘇志成",
+    "crop": "鐵觀音",
+    "verify_marker": "TAP",
+    "yield": 350,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "王添興",
+    "crop": "牛蕃茄",
+    "verify_marker": "GAP",
+    "yield": 8400,
+    "season": "01,02,03,04,05,06,07,11,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "王瑞延",
+    "crop": "玉女番茄",
+    "verify_marker": "GAP",
+    "yield": 4000,
+    "season": "01,02,03,04,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "吳宏斌",
+    "crop": "富有柿",
+    "verify_marker": "NOpesticide",
+    "yield": 7500,
+    "season": "09,10,11,12",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "吳宏斌",
+    "crop": "桂竹筍",
+    "verify_marker": "preorganic",
+    "yield": 10000,
+    "season": "04,05,06",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "林立偉",
+    "crop": "玉蘭蜜香綠茶",
+    "verify_marker": "TAP,preorganic,organic",
+    "yield": 133,
+    "season": "13",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "林立偉",
+    "crop": "大同玉蘭茶-半球型包種茶",
+    "verify_marker": "TAP,preorganic",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "林士評",
+    "crop": "阿里山珠露茶-烏龍",
+    "verify_marker": "TAP",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳蒼鄢",
+    "crop": "小黃瓜",
+    "verify_marker": "TAP,GAP",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "陳洺浚",
+    "crop": "原味烏龍茶",
+    "verify_marker": "organic",
+    "yield": 133,
+    "season": "03,04,05",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "陳洺浚",
+    "crop": "小葉紅茶",
+    "verify_marker": "organic",
+    "yield": 0,
+    "season": "06,07,08,09",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "陳洺浚",
+    "crop": "冷泡茶",
+    "verify_marker": "organic",
+    "yield": 0,
+    "season": "13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "鄧秉鈞",
+    "crop": "黃甜玉米",
+    "verify_marker": "GAP",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "鄧秉鈞",
+    "crop": "小松",
+    "verify_marker": "preorganic",
+    "yield": 60,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "鄧秉鈞",
+    "crop": "短期葉菜",
+    "verify_marker": "preorganic",
+    "yield": 160,
+    "season": "13",
+    "shipments_min": 60
+  },
+  {
+    "member_name": "許瀚文",
+    "crop": "枸杞嫩梢",
+    "verify_marker": "preorganic",
+    "yield": 40,
+    "season": "01,02,03,04,05,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "鄭啟瑞",
+    "crop": "有機番石榴",
+    "verify_marker": "organic",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "鄭啟瑞",
+    "crop": "有機枇杷",
+    "verify_marker": "preorganic",
+    "yield": 3000,
+    "season": "03,04",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "康眉香",
+    "crop": "蜂蜜-龍眼蜜",
+    "verify_marker": "bee",
+    "yield": 850,
+    "season": "05,06,07",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "康眉香",
+    "crop": "蜂蜜-頭等獎評鑑蜂蜜",
+    "verify_marker": "bee",
+    "yield": 0,
+    "season": "05,06,07",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "康眉香",
+    "crop": "蜂蜜-季軍蜂蜜",
+    "verify_marker": "bee",
+    "yield": 0,
+    "season": "05,06,07",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "鄭聰祥",
+    "crop": "小黃瓜",
+    "verify_marker": "organic",
+    "yield": 2160,
+    "season": "03,04,05,06,07,08,09,10,11,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "沈朝揚",
+    "crop": "苦瓜",
+    "verify_marker": "organic",
+    "yield": 200,
+    "season": "06",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳信國",
+    "crop": "南薑",
+    "verify_marker": "organic",
+    "yield": 10,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許哲榮",
+    "crop": "木瓜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "曾暐迪",
+    "crop": "小黃瓜",
+    "verify_marker": "organic",
+    "yield": 150000,
+    "season": "13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "羅彩禔",
+    "crop": "玉女番茄",
+    "verify_marker": "organic",
+    "yield": 60,
+    "season": "01,02,03,04,05,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "羅彩禔",
+    "crop": "短期葉菜類",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "01,02,03,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳訓翔",
+    "crop": "龍眼炭焙烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 30,
+    "season": "05,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳良愷",
+    "crop": "雪梨",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "08",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳良愷",
+    "crop": "新世紀梨",
+    "verify_marker": "GAP",
+    "yield": 300,
+    "season": "08",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳良愷",
+    "crop": "次郎甜柿",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "11,12",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "方福在",
+    "crop": "水稻",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "07",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "陳訓翔",
+    "crop": "龍鳳峽清香烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "05,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "吳家慶",
+    "crop": "有機草莓",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "01,02,03,04",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "王一花",
+    "crop": "白蘿蔔",
+    "verify_marker": "preorganic",
+    "yield": 650,
+    "season": "01,02,05,06,07,08,09,10,11,12",
+    "shipments_min": 60
+  },
+  {
+    "member_name": "陳文龍",
+    "crop": "澄玉紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "苜蓿芽",
+    "verify_marker": "organic",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "青花椰菜芽",
+    "verify_marker": "organic",
+    "yield": 25000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "黑豆芽",
+    "verify_marker": "organic",
+    "yield": 50000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "紫高麗菜芽",
+    "verify_marker": "organic",
+    "yield": 25000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "葫蘆巴豆芽",
+    "verify_marker": "organic",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "蘿蔔嬰(紫莖)",
+    "verify_marker": "organic",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "綜合芽菜",
+    "verify_marker": "organic",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "劉金枝",
+    "crop": "紅扁豆芽",
+    "verify_marker": "organic",
+    "yield": 50000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "廖正忠",
+    "crop": "紅龍果",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "06,07,08,09",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "廖正忠",
+    "crop": "檸檬",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳帥之",
+    "crop": "水果玉米",
+    "verify_marker": "preorganic",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "張智傑",
+    "crop": "陽光米",
+    "verify_marker": "organic",
+    "yield": 21000,
+    "season": "07,12",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "陳鳳琴",
+    "crop": "有機靈芝子實體",
+    "verify_marker": "organic",
+    "yield": 250,
+    "season": "06",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳鳳琴",
+    "crop": "有機靈芝子實體切片",
+    "verify_marker": "organic",
+    "yield": 250,
+    "season": "06",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳鳳琴",
+    "crop": "有機生鮮猴頭菇",
+    "verify_marker": "TAP,organic",
+    "yield": 300,
+    "season": "01,02,03,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蕭志欣",
+    "crop": "有機小番茄",
+    "verify_marker": "organic",
+    "yield": 1200,
+    "season": "01,02,03,04,05,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "湯永光",
+    "crop": "芥藍花菜(青花筍)",
+    "verify_marker": "NOpesticide",
+    "yield": 300,
+    "season": "01,02,03,10,11,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "賴中仁",
+    "crop": "日曬有機冬菇",
+    "verify_marker": "organic",
+    "yield": 250,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "賴中仁",
+    "crop": "鮮香菇",
+    "verify_marker": "NOpesticide",
+    "yield": 900,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林慶祥",
+    "crop": "火龍果",
+    "verify_marker": "organic",
+    "yield": 3500,
+    "season": "06,07,08,09,10",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張志強",
+    "crop": "乳香柚",
+    "verify_marker": "TAP",
+    "yield": 50000,
+    "season": "07,08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "張志強",
+    "crop": "柚強老欉文旦",
+    "verify_marker": "TAP",
+    "yield": 50000,
+    "season": "07,08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "尤憲德",
+    "crop": "洋蔥",
+    "verify_marker": "organic",
+    "yield": 30000,
+    "season": "02,03",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "何鎮龍",
+    "crop": "小黃瓜",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "06,07,08,09",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "林兆楷",
+    "crop": "芋頭",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林兆楷",
+    "crop": "秋葵",
+    "verify_marker": "organic",
+    "yield": 10,
+    "season": "07,08,09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "莫凡",
+    "crop": "高山小葉鐵觀音",
+    "verify_marker": "TAP",
+    "yield": 30,
+    "season": "04,09,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔡淑慧",
+    "crop": "城仔內手工黑糖(薑味)",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "吳永勝",
+    "crop": "素來有機番茄",
+    "verify_marker": "organic",
+    "yield": 60,
+    "season": "01,02,03,04,12",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "何鎮龍",
+    "crop": "小番茄",
+    "verify_marker": "NOpesticide",
+    "yield": 30,
+    "season": "01,02,03,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "張山豐",
+    "crop": "次郎甜柿",
+    "verify_marker": "organic",
+    "yield": 4000,
+    "season": "08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張山豐",
+    "crop": "紅心芭樂",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "02,03,09,10",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "練明義",
+    "crop": "刀跟早生柿",
+    "verify_marker": "preorganic",
+    "yield": 4500,
+    "season": "07,08",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "練明義",
+    "crop": "花御所柿",
+    "verify_marker": "preorganic",
+    "yield": 4500,
+    "season": "08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "詹雅婷",
+    "crop": "短期葉菜類",
+    "verify_marker": "organic",
+    "yield": 2500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "練明義",
+    "crop": "富有柿",
+    "verify_marker": "preorganic",
+    "yield": 4500,
+    "season": "08,09,10",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "王啟雄",
+    "crop": "山藥",
+    "verify_marker": "TAP",
+    "yield": 8000,
+    "season": "01,02,03,10,11,12",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "張志強",
+    "crop": "大白柚",
+    "verify_marker": "TAP",
+    "yield": 6000,
+    "season": "10,11",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "張山豐",
+    "crop": "小番茄",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "05,06,07,08,09,10,11,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "蔡麗秀",
+    "crop": "第三年有機轉型文旦柚和大白柚",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "08,09,10,11",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "賴麗霞",
+    "crop": "有機蜜香紅茶",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "賴麗霞",
+    "crop": "高山紅烏龍",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "賴麗霞",
+    "crop": "金牌烏龍茶",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "李佳憲",
+    "crop": "帝王芭樂",
+    "verify_marker": "TAP",
+    "yield": 2000,
+    "season": "01,02,03,04,08,09,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳啟豐",
+    "crop": "短期葉菜",
+    "verify_marker": "organic",
+    "yield": 4000,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃進文",
+    "crop": "大鵬灣黑珍珠蓮霧",
+    "verify_marker": "TAP",
+    "yield": 40000,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "許勝傑",
+    "crop": "青心烏龍茶",
+    "verify_marker": "TAP,NOpesticide",
+    "yield": 300,
+    "season": "04,07,09,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許勝傑",
+    "crop": "小葉蜜香紅茶",
+    "verify_marker": "NOpesticide,TAP",
+    "yield": 300,
+    "season": "05,06",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許勝傑",
+    "crop": "炭焙烏龍茶",
+    "verify_marker": "TAP,NOpesticide",
+    "yield": 300,
+    "season": "04,07,09,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "謝元在",
+    "crop": "有機黑烏龍茶",
+    "verify_marker": "organic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "謝元在",
+    "crop": "有機佳葉龍茶",
+    "verify_marker": "organic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "歐輝雄",
+    "crop": "短期葉菜類",
+    "verify_marker": "preorganic",
+    "yield": 2000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "歐輝雄",
+    "crop": "牛奶白菜",
+    "verify_marker": "preorganic",
+    "yield": 120,
+    "season": "01,02,03,04,05,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "歐輝雄",
+    "crop": "苦瓜",
+    "verify_marker": "preorganic",
+    "yield": 36,
+    "season": "04,05,06,07,08,09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳文龍",
+    "crop": "金萱茶",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "高水來",
+    "crop": "鹿角葉菜",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "高水來",
+    "crop": "結球萵苣",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "高水來",
+    "crop": "奶油白菜",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "陳淑慧",
+    "crop": "洛神",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "01,10,11,12",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "羅彩禔",
+    "crop": "紫蘆筍",
+    "verify_marker": "organic",
+    "yield": 36,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "謝鵬程",
+    "crop": "江山米",
+    "verify_marker": "TAP",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "劉啟明",
+    "crop": "龍眼蜂蜜",
+    "verify_marker": "bee",
+    "yield": 100,
+    "season": "03,04",
+    "shipments_min": 9
+  },
+  {
+    "member_name": "林士評",
+    "crop": "阿里山珠露茶-金萱",
+    "verify_marker": "TAP",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "林士評",
+    "crop": "阿里山御匠紅茶",
+    "verify_marker": "TAP",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "杉林溪茶",
+    "verify_marker": "NOpesticide",
+    "yield": 180,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "日月潭紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 60,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "阿里山紅烏龍",
+    "verify_marker": "NOpesticide",
+    "yield": 180,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "阿里山茶",
+    "verify_marker": "NOpesticide",
+    "yield": 180,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "獅頭山茶(阿母ㄟ茶)",
+    "verify_marker": "NOpesticide",
+    "yield": 180,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "黃崇敬",
+    "crop": "蜜香貴妃茶",
+    "verify_marker": "NOpesticide",
+    "yield": 180,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "呂宏文",
+    "crop": "洛神花乾",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "11,12,13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "王凱平",
+    "crop": "玉女小番茄",
+    "verify_marker": "NOpesticide,TAP",
+    "yield": 1800,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "練明義",
+    "crop": "不知火橘",
+    "verify_marker": "preorganic",
+    "yield": 100,
+    "season": "01,02,03,04,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳福得",
+    "crop": "紅棗薑汁",
+    "verify_marker": "preorganic",
+    "yield": 0,
+    "season": "07,08,09,13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "林承偉",
+    "crop": "有機手採蜜香紅茶",
+    "verify_marker": "organic",
+    "yield": 20,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林承偉",
+    "crop": "有機手採綠茶",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "顏啟仁",
+    "crop": "金目鱸魚",
+    "verify_marker": "TAP",
+    "yield": 500000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "顏啟仁",
+    "crop": "金目鱸魚排",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "顏啟仁",
+    "crop": "產銷履歷-白蝦",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "顏啟仁",
+    "crop": "產銷履歷-白蝦仁",
+    "verify_marker": "TAP",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "林永勝",
+    "crop": "蜂蜜",
+    "verify_marker": "bee",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "鄭啟瑞",
+    "crop": "香蕉",
+    "verify_marker": "preorganic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "曾昭景",
+    "crop": "茂谷柑",
+    "verify_marker": "NOpesticide",
+    "yield": 50000,
+    "season": "01,02,03,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "蕭旭暘",
+    "crop": "黑豆",
+    "verify_marker": "preorganic",
+    "yield": 2300,
+    "season": "13",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "蕭旭暘",
+    "crop": "黄豆",
+    "verify_marker": "preorganic",
+    "yield": 2200,
+    "season": "13",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "魏盛璿",
+    "crop": "有機南瓜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "01,02,05,06,07,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "陳蒼鄢",
+    "crop": "鮮食小番茄",
+    "verify_marker": "TAP,GAP",
+    "yield": 10000,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "劉涵文",
+    "crop": "阿里山金萱茶",
+    "verify_marker": "TAP",
+    "yield": 25000,
+    "season": "13",
+    "shipments_min": 2000
+  },
+  {
+    "member_name": "劉涵文",
+    "crop": "阿里山烏龍茶",
+    "verify_marker": "TAP",
+    "yield": 25000,
+    "season": "13",
+    "shipments_min": 2000
+  },
+  {
+    "member_name": "劉涵文",
+    "crop": "阿里山頂級高山茶 [結緣禮盒]",
+    "verify_marker": "TAP",
+    "yield": 25000,
+    "season": "13",
+    "shipments_min": 2000
+  },
+  {
+    "member_name": "蕭妃秀",
+    "crop": "平地水蜜桃",
+    "verify_marker": "preorganic",
+    "yield": 600,
+    "season": "04,05",
+    "shipments_min": 400
+  },
+  {
+    "member_name": "王富洲",
+    "crop": "玉女小番茄",
+    "verify_marker": "TAP",
+    "yield": 3000,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳文億",
+    "crop": "網室木瓜",
+    "verify_marker": "TAP",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "羅文祥",
+    "crop": "短期葉菜",
+    "verify_marker": "organic",
+    "yield": 18,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "王一花",
+    "crop": "南瓜",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "廖正忠",
+    "crop": "樹葡萄",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "03,04,05,06,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃怡瑄",
+    "crop": "赤柯山無硫金針",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "08",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃怡瑄",
+    "crop": "無毒小油菊",
+    "verify_marker": "NOpesticide",
+    "yield": 60,
+    "season": "12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林兆楷",
+    "crop": "綠莧",
+    "verify_marker": "organic",
+    "yield": 18,
+    "season": "04,05,06,07,08,09",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林兆楷",
+    "crop": "菊苣",
+    "verify_marker": "organic",
+    "yield": 48,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "吳文岳",
+    "crop": "短期葉菜",
+    "verify_marker": "organic",
+    "yield": 2400,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "鄧文雄",
+    "crop": "豐水梨",
+    "verify_marker": "TAP",
+    "yield": 6000,
+    "season": "07,08,09",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "鄧文雄",
+    "crop": "新興梨",
+    "verify_marker": "TAP",
+    "yield": 20000,
+    "season": "08,09,10",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "蕭志欣",
+    "crop": "小黃瓜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "02,03,04,05,06,07,13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "徐妍花",
+    "crop": "伙蔥",
+    "verify_marker": "organic",
+    "yield": 23,
+    "season": "05,06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "徐妍花",
+    "crop": "紅茄",
+    "verify_marker": "organic",
+    "yield": 60,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "徐妍花",
+    "crop": "小苦瓜",
+    "verify_marker": "organic",
+    "yield": 20,
+    "season": "05,06,07,08,09",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "高水來",
+    "crop": "短期葉菜",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "丁茂琳",
+    "crop": "空心菜",
+    "verify_marker": "TAP",
+    "yield": 2000,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "曾吉生",
+    "crop": "有機山苦瓜茶包",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "尤憲德",
+    "crop": "小番茄",
+    "verify_marker": "organic",
+    "yield": 150,
+    "season": "01,02,03,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "尤憲德",
+    "crop": "蒜頭",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "03,04,05,06,07,08,09",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "張谷榕",
+    "crop": "黑金鑽花生",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "06,07,08,10,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "張谷榕",
+    "crop": "黑金鑽花生糖",
+    "verify_marker": "NOpesticide",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "盧建和",
+    "crop": "短期葉菜",
+    "verify_marker": "organic",
+    "yield": 7000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔡宗南",
+    "crop": "南山茶園台灣冷泡隨手包(3g*21包)",
+    "verify_marker": "TAP",
+    "yield": 30,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "蕭志欣",
+    "crop": "蜜香瓜",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "06,07,08",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "蕭志欣",
+    "crop": "網紋洋香瓜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "06,07,08,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔡宗南",
+    "crop": "(癸巳、冬至)雪藏冷杉冬片",
+    "verify_marker": "TAP",
+    "yield": 252,
+    "season": "01,12",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "蔡宗南",
+    "crop": "台灣黃金桂花烏龍茶(馥香150g",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "01,10,11,12",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "邱群雄",
+    "crop": "秈糙",
+    "verify_marker": "organic",
+    "yield": 660,
+    "season": "01,02,05,06",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "邱群雄",
+    "crop": "白米",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "01,02,05,06",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "羅彩禔",
+    "crop": "黃金果",
+    "verify_marker": "organic",
+    "yield": 48,
+    "season": "04,05,06,07,08",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "郭明源",
+    "crop": "源鄉日曬地瓜米/免浸泡糙米",
+    "verify_marker": "preorganic",
+    "yield": 250,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "洪銘聰",
+    "crop": "17號金鑽鳳梨",
+    "verify_marker": "TAP",
+    "yield": 100000,
+    "season": "03,04,05,06,08,09",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳俊傑",
+    "crop": "阿米斯有機白米",
+    "verify_marker": "preorganic",
+    "yield": 480,
+    "season": "13",
+    "shipments_min": 24
+  },
+  {
+    "member_name": "蔡梅馨",
+    "crop": "女兒紅玉十八",
+    "verify_marker": "preorganic",
+    "yield": 10,
+    "season": "05,07,09,11",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "游振葦",
+    "crop": "興瑞文旦",
+    "verify_marker": "organic",
+    "yield": 10000,
+    "season": "09",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "林李金定",
+    "crop": "綠竹筍",
+    "verify_marker": "GAP",
+    "yield": 1500,
+    "season": "01,02,03,04,05,06,07,08,09,10,11,12,13",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "魏盛璿",
+    "crop": "有機冬瓜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "04,05,06,07,08,09,10,11,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "魏盛璿",
+    "crop": "有機蘿蔔",
+    "verify_marker": "organic",
+    "yield": 10000,
+    "season": "01,02,03,04,05,11,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "蘇育裕",
+    "crop": "包種茶",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "04,05,10,12",
+    "shipments_min": 2500
+  },
+  {
+    "member_name": "蘇垠天",
+    "crop": "臺梗九號米",
+    "verify_marker": "preorganic",
+    "yield": 1800,
+    "season": "08,09,10,11",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "黃奕瑄",
+    "crop": "台灣集韻烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林憲堂",
+    "crop": "有機轉型期辣椒",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳淑慧",
+    "crop": "黃梅果汁",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "陳淑慧",
+    "crop": "洛神果汁",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "陳喜美",
+    "crop": "白露文旦",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "08,09,10",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "陳喜美",
+    "crop": "秋分紅柚",
+    "verify_marker": "TAP",
+    "yield": 10000,
+    "season": "08,09,10",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳鴻瀚",
+    "crop": "芒果",
+    "verify_marker": "TAP",
+    "yield": 6000,
+    "season": "07,08",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "林竑叡",
+    "crop": "玉女小蕃茄",
+    "verify_marker": "GAP",
+    "yield": 100,
+    "season": "01,02,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "曾貴楓",
+    "crop": "生鮮鴨蛋",
+    "verify_marker": "NOpesticide",
+    "yield": 22500,
+    "season": "13",
+    "shipments_min": 25
+  },
+  {
+    "member_name": "曾貴楓",
+    "crop": "鹹鴨蛋",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 25
+  },
+  {
+    "member_name": "邱順南",
+    "crop": "有機蘆筍",
+    "verify_marker": "organic",
+    "yield": 100000,
+    "season": "04,05,06,07,08,09,10",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "林昱伸",
+    "crop": "高接梨",
+    "verify_marker": "TAP",
+    "yield": 32000,
+    "season": "07,08,09,10",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "翁慶佑",
+    "crop": "金門百花花蜜/花粉",
+    "verify_marker": "NOpesticide",
+    "yield": 300,
+    "season": "03,04,05,06,07,08,09,10",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "溫禮華",
+    "crop": "有機甘藷",
+    "verify_marker": "preorganic",
+    "yield": 2000,
+    "season": "01,02,03,04,05,06,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "溫禮華",
+    "crop": "有機白米/糙米/紫米",
+    "verify_marker": "preorganic",
+    "yield": 5000,
+    "season": "01,02,03,04,05,06,07,08,09,10,11,12,13",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "溫禮華",
+    "crop": "有機胡蘿蔔",
+    "verify_marker": "preorganic",
+    "yield": 2000,
+    "season": "01,02,03,04,05,06,07,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "溫禮華",
+    "crop": "有機馬鈴薯",
+    "verify_marker": "preorganic",
+    "yield": 800,
+    "season": "01,02,03,04,05,06,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "高翔澐",
+    "crop": "高山烏龍茶",
+    "verify_marker": "TAP",
+    "yield": 200,
+    "season": "05,07,09,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔡宗南",
+    "crop": "黃金桂花",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "01,02,09,10,11,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "劉開倫",
+    "crop": "貴妃蛋(紅殼)",
+    "verify_marker": "TAP,NOpesticide",
+    "yield": 1200000,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "陳金漢",
+    "crop": "薑母將軍風味酒",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "郭永青",
+    "crop": "(紅、白)文旦、白柚",
+    "verify_marker": "GAP",
+    "yield": 18000,
+    "season": "08,09,10",
+    "shipments_min": 1200
+  },
+  {
+    "member_name": "蔡宗南",
+    "crop": "(壬辰.冬至)雪藏蜜冬片",
+    "verify_marker": "TAP",
+    "yield": 360,
+    "season": "01",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "廖振村",
+    "crop": "他里霧人間稻",
+    "verify_marker": "NOpesticide",
+    "yield": 21000,
+    "season": "07,12",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "張家興",
+    "crop": "拉拉山高山烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "03,04,07,08,11,12",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "賴德道",
+    "crop": "米",
+    "verify_marker": "preorganic",
+    "yield": 1200,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "江文棋",
+    "crop": "有機轉型期乾香菇",
+    "verify_marker": "preorganic",
+    "yield": 30,
+    "season": "01,02,03,04,05",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳信國",
+    "crop": "四季檸檬",
+    "verify_marker": "organic",
+    "yield": 50,
+    "season": "06,07,08,09,10",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "高國安",
+    "crop": "三星蔥",
+    "verify_marker": "preorganic",
+    "yield": 550,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "游士弘",
+    "crop": "元素蝦(無毒養殖)",
+    "verify_marker": "NOpesticide",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "簡俊源",
+    "crop": "巴塱高冷茶",
+    "verify_marker": "TAP",
+    "yield": 2000,
+    "season": "05,09,11",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "簡俊源",
+    "crop": "蜜香烏龍紅茶",
+    "verify_marker": "TAP",
+    "yield": 1000,
+    "season": "07",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-益全香米",
+    "verify_marker": "TAP",
+    "yield": 12500,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-珍珠米",
+    "verify_marker": "TAP",
+    "yield": 833,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-越光米",
+    "verify_marker": "TAP",
+    "yield": 8333,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-有機米",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-壽司米",
+    "verify_marker": "TAP",
+    "yield": 20833,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-胚芽米",
+    "verify_marker": "TAP",
+    "yield": 6666,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-糙米",
+    "verify_marker": "TAP",
+    "yield": 6666,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-九號白米",
+    "verify_marker": "TAP",
+    "yield": 8333,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-茉莉香米",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-四號芋香米",
+    "verify_marker": "TAP",
+    "yield": 10000,
+    "season": "05,06,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "潘承翰",
+    "crop": "御皇米-花蓮21號",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "06,07,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "許玉靜",
+    "crop": "七股香哈密瓜",
+    "verify_marker": "GAP",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 6000
+  },
+  {
+    "member_name": "陳祐瑋",
+    "crop": "蕹菜",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "蕭旦倫",
+    "crop": "神秘果",
+    "verify_marker": "preorganic",
+    "yield": 200,
+    "season": "02,03,04,05,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "林盈嬌",
+    "crop": "阿里山高山烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "05",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "邱鳳蘭",
+    "crop": "礁溪鄉金棗",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "01,02,03,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "張智傑",
+    "crop": "「梵」有機米台稉9號",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張智傑",
+    "crop": "「梵」有機糙米台稉9號",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張智傑",
+    "crop": "「梵」有機米秈10號",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張智傑",
+    "crop": "「梵」有機糙米秈10號",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "魏盛璿",
+    "crop": "有機蘿蔔乾",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "李錦智",
+    "crop": "有機轉型期小油菊",
+    "verify_marker": "preorganic",
+    "yield": 20,
+    "season": "12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "李錦智",
+    "crop": "赤柯山無硫金針",
+    "verify_marker": "TAP",
+    "yield": 200,
+    "season": "07,08,09",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "魏宇亭",
+    "crop": "人蔘山藥",
+    "verify_marker": "preorganic",
+    "yield": 2000,
+    "season": "01,02,03,04,05,06,07,11,12",
+    "shipments_min": 9
+  },
+  {
+    "member_name": "馮淑惠",
+    "crop": "大村巨峰葡萄",
+    "verify_marker": "TAP",
+    "yield": 10000,
+    "season": "01,05,06,07,11,12",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "莊文宗",
+    "crop": "天仙果(羊奶埔)",
+    "verify_marker": "preorganic",
+    "yield": 800,
+    "season": "13",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "黃祈堯",
+    "crop": "洋蔥",
+    "verify_marker": "NOpesticide",
+    "yield": 10000,
+    "season": "01,11,12",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "蘇垠天",
+    "crop": "玉女小蕃茄",
+    "verify_marker": "preorganic",
+    "yield": 30,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張芸綺",
+    "crop": "高山烏龍茶",
+    "verify_marker": "TAP",
+    "yield": 100,
+    "season": "05,08,10",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "顏明賢",
+    "crop": "顏選好米",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "張傑雄",
+    "crop": "友善耕作蜜棗",
+    "verify_marker": "NOpesticide",
+    "yield": 2000,
+    "season": "01,02,03,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "連晏瑩",
+    "crop": "自然農法栽培(高山型烏龍茶)",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "陳福盛",
+    "crop": "小番茄",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "莊勝智",
+    "crop": "黃秋葵",
+    "verify_marker": "NOpesticide",
+    "yield": 300,
+    "season": "04,05,06,07,08,09",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "莊勝智",
+    "crop": "秋葵養生飲品",
+    "verify_marker": "NOpesticide",
+    "yield": 1,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "曾士雄",
+    "crop": "旗山有機香蕉(轉型期)",
+    "verify_marker": "preorganic",
+    "yield": 1250,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "沈佳陵",
+    "crop": "木瓜",
+    "verify_marker": "TAP",
+    "yield": 6000,
+    "season": "13",
+    "shipments_min": 3000
+  },
+  {
+    "member_name": "楊雅惠",
+    "crop": "溫室玉女小番茄",
+    "verify_marker": "GAP",
+    "yield": 7200,
+    "season": "01,02,03,04,05,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機南瓜",
+    "verify_marker": "CAS",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機酪梨",
+    "verify_marker": "CAS",
+    "yield": 300,
+    "season": "09,10",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機芋頭",
+    "verify_marker": "CAS",
+    "yield": 250,
+    "season": "10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機龍眼",
+    "verify_marker": "CAS",
+    "yield": 80,
+    "season": "09",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機地瓜",
+    "verify_marker": "CAS",
+    "yield": 50,
+    "season": "03",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃勝裕",
+    "crop": "生鮮雞肉(童仔雞)",
+    "verify_marker": "TAP",
+    "yield": 60000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機菜豆",
+    "verify_marker": "CAS",
+    "yield": 30,
+    "season": "04,05,06,07",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳景祝",
+    "crop": "原礦家農法鵬景茗茶有機綠茶",
+    "verify_marker": "TAP,organic",
+    "yield": 14000,
+    "season": "13",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "陳景祝",
+    "crop": "原礦家農法鵬景茗茶有機紅茶",
+    "verify_marker": "organic,TAP",
+    "yield": 14000,
+    "season": "13",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "陳景祝",
+    "crop": "原礦家農法鵬景茗茶有機烏龍茶",
+    "verify_marker": "organic,TAP",
+    "yield": 14000,
+    "season": "13",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機巴蔘菜",
+    "verify_marker": "CAS",
+    "yield": 30,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許漢威",
+    "crop": "青心烏龍",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "04,06,08,10",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃振瑞",
+    "crop": "甘藍菜",
+    "verify_marker": "GAP",
+    "yield": 4500,
+    "season": "11,12",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "徐肇宏",
+    "crop": "高麗菜",
+    "verify_marker": "preorganic",
+    "yield": 840,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機白玉蘿蔔",
+    "verify_marker": "organic",
+    "yield": 250,
+    "season": "10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機法國菠菜",
+    "verify_marker": "organic",
+    "yield": 200,
+    "season": "01,02,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "連于萱",
+    "crop": "有機絲瓜",
+    "verify_marker": "organic",
+    "yield": 80,
+    "season": "06,07,08,09,10",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "曾士雄",
+    "crop": "旗山有機香蕉花(轉型期)",
+    "verify_marker": "preorganic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳福盛",
+    "crop": "美濃瓜",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "07,08",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "林家淳",
+    "crop": "春仔芒果",
+    "verify_marker": "GAP",
+    "yield": 5000,
+    "season": "05,06",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "陳奕融",
+    "crop": "益品湘青心烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "04,05,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "吳盈臻",
+    "crop": "牛番茄",
+    "verify_marker": "TAP",
+    "yield": 354832,
+    "season": "13",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "吳志成",
+    "crop": "月眉好米",
+    "verify_marker": "NOpesticide",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "台茶18號-紅玉紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "台茶18號-紅玉紅茶禮盒",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "台茶8號-阿薩姆紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "台茶8號-阿薩姆紅茶禮盒",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "原生種山茶",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "原生種山茶禮盒",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "台茶18號-紅玉紅茶袋茶禮盒",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳泰儒",
+    "crop": "台茶18號-阿薩姆紅茶袋茶禮盒",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "羅宏敏",
+    "crop": "乾香菇",
+    "verify_marker": "TAP",
+    "yield": 1000,
+    "season": "01,02,03,04,05,06,07,08,09",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "吳志成",
+    "crop": "月眉好米(伴手禮)",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "吳淑慧",
+    "crop": "美濃瓜",
+    "verify_marker": "preorganic",
+    "yield": 3600,
+    "season": "07,08",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "王珮羽",
+    "crop": "有機四季豆(敏豆)",
+    "verify_marker": "organic",
+    "yield": 20,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "黃文政",
+    "crop": "無硫金針",
+    "verify_marker": "NOpesticide",
+    "yield": 300,
+    "season": "07,08,09",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃文政",
+    "crop": "蜜香紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 60,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳福盛",
+    "crop": "小西瓜",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "07,08",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "林智樑",
+    "crop": "紅龍果",
+    "verify_marker": "TAP,preorganic",
+    "yield": 2000,
+    "season": "05,06,07,08,09,10,11",
+    "shipments_min": 300
+  },
+  {
+    "member_name": "林智樑",
+    "crop": "木瓜",
+    "verify_marker": "preorganic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "羅治銘",
+    "crop": "美濃瓜",
+    "verify_marker": "preorganic",
+    "yield": 350,
+    "season": "07,08,09",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "羅治銘",
+    "crop": "洋香瓜",
+    "verify_marker": "preorganic",
+    "yield": 250,
+    "season": "07,08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "羅治銘",
+    "crop": "西瓜",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "06,07,08,09",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "根瑋廷",
+    "crop": "有機轉型期老根茶",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "黃閔陵",
+    "crop": "乾香菇",
+    "verify_marker": "TAP",
+    "yield": 10000,
+    "season": "01,02,03,04,05,06,07,08,09,11,12",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "李秉承",
+    "crop": "檸檬",
+    "verify_marker": "TAP",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "吳淑慧",
+    "crop": "溫室玉女小番茄",
+    "verify_marker": "CAS",
+    "yield": 6000,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "許誠賢",
+    "crop": "阿里山高山烏龍茶",
+    "verify_marker": "NOpesticide,TAP",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許誠賢",
+    "crop": "阿里山紅茶",
+    "verify_marker": "TAP,NOpesticide",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "王珮羽",
+    "crop": "黑羽土雞",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機綠豆芽",
+    "verify_marker": "organic",
+    "yield": 7000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "許淑雅",
+    "crop": "許苑米",
+    "verify_marker": "NOpesticide",
+    "yield": 2000,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "許志忠",
+    "crop": "水蜜桃芒果",
+    "verify_marker": "NOpesticide",
+    "yield": 20000,
+    "season": "05,06,07,08",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "黃文政",
+    "crop": "乾燥洛神花（黑洛神）",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃文政",
+    "crop": "小油菊",
+    "verify_marker": "NOpesticide",
+    "yield": 30,
+    "season": "01,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃文政",
+    "crop": "秋薑黃粉",
+    "verify_marker": "NOpesticide",
+    "yield": 50,
+    "season": "01,02",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "廖國行",
+    "crop": "有機法國百合(朝鮮薊) 鮮品",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "03,04,05,06",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "廖國行",
+    "crop": "有機法國百合(朝鮮薊) 養身茶飲",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "廖國行",
+    "crop": "法國百合(朝鮮薊)養生酵素醋[素食]",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "廖國行",
+    "crop": "法國百合(朝鮮薊)蔬果草本發酵液",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "廖國行",
+    "crop": "法國百合(朝鮮薊)麵[素食]",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "蕭哲和",
+    "crop": "地瓜",
+    "verify_marker": "NOpesticide",
+    "yield": 500,
+    "season": "03,04,05",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "鄭勝議",
+    "crop": "空心菜",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "04,05,06,07,08,09,10",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機栗子南瓜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機南投紅茶",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機烏龍茶",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機鳳梨",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機山藥",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "01,02,03,04,05,10,11,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機老薑",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "01,02,03,04,05,10,11,12",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "有機木瓜",
+    "verify_marker": "organic",
+    "yield": 300,
+    "season": "01,02,07,08,09,10,11,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "徐韋婷",
+    "crop": "有機新鮮黑木耳",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "13",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "徐韋婷",
+    "crop": "新鮮有機猴頭菇",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,02,03,10,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "許宏泰",
+    "crop": "木瓜",
+    "verify_marker": "NOpesticide",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "古梵劭",
+    "crop": "正宗牛奶水果玉米",
+    "verify_marker": "NOpesticide",
+    "yield": 200000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "陳景宏",
+    "crop": "芋頭",
+    "verify_marker": "NOpesticide",
+    "yield": 100000,
+    "season": "01,02,03,08,09,10,11,12",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "陳景宏",
+    "crop": "冷凍芋塊",
+    "verify_marker": "NOpesticide",
+    "yield": 10000,
+    "season": "13",
+    "shipments_min": 30
+  },
+  {
+    "member_name": "楊富隆",
+    "crop": "珍珠芭樂",
+    "verify_marker": "TAP",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "楊富隆",
+    "crop": "酪梨",
+    "verify_marker": "TAP",
+    "yield": 200,
+    "season": "07,08,09,10,11,12",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "王信欽",
+    "crop": "文旦柚",
+    "verify_marker": "GAP,TAP",
+    "yield": 7200,
+    "season": "09,10",
+    "shipments_min": 3600
+  },
+  {
+    "member_name": "林昆溥",
+    "crop": "火龍果",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "04,05,06,07,08,09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "邱國華",
+    "crop": "高麗菜",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "06,07,08,09,10,11",
+    "shipments_min": 600
+  },
+  {
+    "member_name": "楊淑婉",
+    "crop": "生鮮鴨蛋",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 300
+  },
+  {
+    "member_name": "邱俊維",
+    "crop": "有機轉型期白米",
+    "verify_marker": "preorganic",
+    "yield": 10000,
+    "season": "07",
+    "shipments_min": 10000
+  },
+  {
+    "member_name": "邱俊維",
+    "crop": "有機轉型期糙米",
+    "verify_marker": "preorganic",
+    "yield": 10000,
+    "season": "07",
+    "shipments_min": 10000
+  },
+  {
+    "member_name": "葉信宏",
+    "crop": "樂仙米",
+    "verify_marker": "NOpesticide",
+    "yield": 80,
+    "season": "07,11",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "林椿淞",
+    "crop": "蜂蜜",
+    "verify_marker": "NOpesticide,bee",
+    "yield": 2100,
+    "season": "04,05",
+    "shipments_min": 300
+  },
+  {
+    "member_name": "鍾隆增",
+    "crop": "環酵米",
+    "verify_marker": "preorganic",
+    "yield": 800,
+    "season": "03,04,05,06,08,09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔣人同",
+    "crop": "手採頂級紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 90,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔣人同",
+    "crop": "機採實惠紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 120,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "王毓華",
+    "crop": "短期葉菜",
+    "verify_marker": "preorganic",
+    "yield": 400,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "蔡惠心",
+    "crop": "翡翠睡蓮花茶",
+    "verify_marker": "preorganic",
+    "yield": 30,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔣人同",
+    "crop": "清新烏龍",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蔣人同",
+    "crop": "方便紅茶茶包",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "李聲達",
+    "crop": "鼎鐸農園老欉桶柑",
+    "verify_marker": "NOpesticide",
+    "yield": 18000,
+    "season": "01,02,03,04",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "青江菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "小白菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "黑葉白菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "荷葉白菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "小松菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "葉蘿蔔",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "空心菜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "07,08,09",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "紅莧菜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "07,08,09",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "綠莧菜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "07,08,09",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "蘿蔓萵苣",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "A菜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,04,05,06,07,08,09,10,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "娃娃菜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "青松菜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "翁惠珍",
+    "crop": "火龍果",
+    "verify_marker": "GAP",
+    "yield": 100,
+    "season": "06,07,08,09,10,11",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "范綱朋",
+    "crop": "高麗菜",
+    "verify_marker": "preorganic",
+    "yield": 100,
+    "season": "03,04",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "羅仁光",
+    "crop": "脫殼紅藜",
+    "verify_marker": "NOpesticide",
+    "yield": 200,
+    "season": "01,02,03,04,11,12,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機黃豆芽",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機黑豆芽",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機苜蓿芽",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機青花苗",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機紫高麗苗",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機碗豆苗",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "余敏仲",
+    "crop": "有機蘿蔔嬰",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "郭玉樺",
+    "crop": "五輪車履歷芒果-愛文",
+    "verify_marker": "TAP",
+    "yield": 20000,
+    "season": "05,06,07,08,09",
+    "shipments_min": 7
+  },
+  {
+    "member_name": "詹鈞皓",
+    "crop": "無子檸檬",
+    "verify_marker": "preorganic",
+    "yield": 120,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "郭正治",
+    "crop": "五輪車履歷芒果",
+    "verify_marker": "TAP",
+    "yield": 20000,
+    "season": "06,07,08,09,10",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "郭玉樺",
+    "crop": "五輪車履歷芒果-玉文",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "05,06,07",
+    "shipments_min": 7
+  },
+  {
+    "member_name": "郭玉樺",
+    "crop": "五輪車履歷芒果-凱特",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "08,09,10",
+    "shipments_min": 8
+  },
+  {
+    "member_name": "郭玉樺",
+    "crop": "五輪車履歷芒果-蘋果文",
+    "verify_marker": "TAP",
+    "yield": 2000,
+    "season": "06,07,08",
+    "shipments_min": 8
+  },
+  {
+    "member_name": "溫廷舜",
+    "crop": "有機栗子南瓜",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "03,04,05",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "溫廷舜",
+    "crop": "有機小黑栗子南瓜",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "03,04,05",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "溫廷舜",
+    "crop": "有機東昇南瓜",
+    "verify_marker": "organic",
+    "yield": 1500,
+    "season": "03,04,05",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "溫廷舜",
+    "crop": "有機阿成木瓜型南瓜",
+    "verify_marker": "organic",
+    "yield": 3000,
+    "season": "03,04,05,10,11",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "郭文雄",
+    "crop": "甜菜心",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "鄭勝議",
+    "crop": "地瓜葉",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "04,05,06,07,08,09,10,11",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "蔡禮闈",
+    "crop": "泰源幽谷米",
+    "verify_marker": "NOpesticide",
+    "yield": 18000,
+    "season": "06,07,11",
+    "shipments_min": 1000
+  },
+  {
+    "member_name": "李冠毅",
+    "crop": "杉林溪烏龍茶",
+    "verify_marker": "preorganic",
+    "yield": 3000,
+    "season": "04,05,13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "李冠毅",
+    "crop": "有機轉型期烏龍茶 / 紅茶",
+    "verify_marker": "preorganic",
+    "yield": 30,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張源沛",
+    "crop": "香蕉",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "吳鴻銘",
+    "crop": "鮑魚",
+    "verify_marker": "TAP",
+    "yield": 2000,
+    "season": "01,02,03,04,05,10,11,12",
+    "shipments_min": 600
+  },
+  {
+    "member_name": "黃俊維",
+    "crop": "無籽檸檬",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 25
+  },
+  {
+    "member_name": "曹梅花",
+    "crop": "有機紅糯米",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "08,12,13",
+    "shipments_min": 23
+  },
+  {
+    "member_name": "曹梅花",
+    "crop": "有機黃豆",
+    "verify_marker": "organic",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 23
+  },
+  {
+    "member_name": "杜寶珍",
+    "crop": "台灣原生山茶/紅茶/布農公主紅",
+    "verify_marker": "preorganic",
+    "yield": 10,
+    "season": "01,02,03,04,05,06,11,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "曹梅花",
+    "crop": "有機甜玉米",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "曹梅花",
+    "crop": "有機黑豆",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 23
+  },
+  {
+    "member_name": "劉軒宇",
+    "crop": "龍眼蜂蜜",
+    "verify_marker": "bee",
+    "yield": 800,
+    "season": "03,04,13",
+    "shipments_min": 9
+  },
+  {
+    "member_name": "劉軒宇",
+    "crop": "百花蜂蜜",
+    "verify_marker": "bee",
+    "yield": 1000,
+    "season": "04,05,06,07,08,09,10,11,13",
+    "shipments_min": 9
+  },
+  {
+    "member_name": "黃俊維",
+    "crop": "珍珠芭樂",
+    "verify_marker": "NOpesticide",
+    "yield": 500,
+    "season": "01,02,03,04,05,06,07,08,09,10,11,12,13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "曾吉生",
+    "crop": "有機薑黃粉 (紅)",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "曾吉生",
+    "crop": "有機刺五加茶包",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "曾吉生",
+    "crop": "有機山苦瓜片",
+    "verify_marker": "organic",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "曾吉生",
+    "crop": "有機乾燥丹參",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "統百食品",
+    "crop": "有機活力米香捲",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "劉珍修",
+    "crop": "有機火龍果",
+    "verify_marker": "organic",
+    "yield": 400,
+    "season": "07,08,09,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "周昭陽",
+    "crop": "洋菇",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "曾吉生",
+    "crop": "有機薑黃片(紅)",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "楊忠憬",
+    "crop": "有機黑木耳",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃智宏",
+    "crop": "白背黑木耳",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,02,03,04,05,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "曾銪寪",
+    "crop": "梅子醋即飲 隨身醋",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "03,04,13",
+    "shipments_min": 24
+  },
+  {
+    "member_name": "統百食品",
+    "crop": "有機星星餅/有機純米小泡芙",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳文志",
+    "crop": "虱目魚",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "08,09,10,11,12",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "陳文志",
+    "crop": "土種吳郭魚",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "01,02,03,09,10,11,12",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "蕭成龍",
+    "crop": "玉女小番茄",
+    "verify_marker": "TAP",
+    "yield": 6000,
+    "season": "01,02,03,11,12",
+    "shipments_min": 200
+  },
+  {
+    "member_name": "朱祐勳",
+    "crop": "文旦柚",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "08,09",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "林宗賢",
+    "crop": "金萱茶",
+    "verify_marker": "NOpesticide",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳素玲",
+    "crop": "樹葡萄冰淇淋",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "康華行",
+    "crop": "康姥姥_好藝好茶",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "03,04,10,11",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "劉珍修",
+    "crop": "有機百香果",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "張楊芩",
+    "crop": "秋葵",
+    "verify_marker": "preorganic",
+    "yield": 20,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "鄭宇超",
+    "crop": "有機玫瑰花茶",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "于一平",
+    "crop": "冠軍冰烤黃肉地瓜",
+    "verify_marker": "NOpesticide,organic",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "于一平",
+    "crop": "紫心芋地瓜養生飲",
+    "verify_marker": "NOpesticide",
+    "yield": 2000,
+    "season": "13",
+    "shipments_min": 4
+  },
+  {
+    "member_name": "羅文博",
+    "crop": "冷凍加工截切青花菜",
+    "verify_marker": "TAP",
+    "yield": 100000,
+    "season": "02,03",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳佳儀",
+    "crop": "阿公的茶園-紅玉紅茶",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "林文源",
+    "crop": "滿白柚",
+    "verify_marker": "NOpesticide",
+    "yield": 7000,
+    "season": "10",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "羅弘林",
+    "crop": "蜜蘋果",
+    "verify_marker": "NOpesticide",
+    "yield": 20000,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "曾莉菁",
+    "crop": "曾老爹大西瓜",
+    "verify_marker": "TAP",
+    "yield": 300000,
+    "season": "05,06",
+    "shipments_min": 200000
+  },
+  {
+    "member_name": "張凱傑",
+    "crop": "火龍果",
+    "verify_marker": "NOpesticide",
+    "yield": 1200,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳家瑋",
+    "crop": "頂級水蜜無籽芭樂",
+    "verify_marker": "NOpesticide",
+    "yield": 600,
+    "season": "01,02,03,04,05,06,10,11,12,13",
+    "shipments_min": 50
+  },
+  {
+    "member_name": "張勝峰",
+    "crop": "茭白筍",
+    "verify_marker": "preorganic",
+    "yield": 1500,
+    "season": "13",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "杜明泉",
+    "crop": "愛玉子",
+    "verify_marker": "NOpesticide",
+    "yield": 300,
+    "season": "01,02,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張嘉文",
+    "crop": "盛香米",
+    "verify_marker": "TAP",
+    "yield": 300,
+    "season": "06,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "張嘉文",
+    "crop": "盛饌米",
+    "verify_marker": "TAP",
+    "yield": 300,
+    "season": "06,12",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "黃啟軒",
+    "crop": "產銷履歷-水蓮",
+    "verify_marker": "TAP",
+    "yield": 54000,
+    "season": "13",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "林家如",
+    "crop": "空心菜",
+    "verify_marker": "TAP",
+    "yield": 4000,
+    "season": "01,02,03,04,05,06,07,08,09,10,11,12,13",
+    "shipments_min": 3600
+  },
+  {
+    "member_name": "林奕慧",
+    "crop": "茶葉",
+    "verify_marker": "TAP",
+    "yield": 0,
+    "season": "04,05,06,10,11",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "翁崑晃",
+    "crop": "玉米筍",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "翁崑晃",
+    "crop": "甜玉米",
+    "verify_marker": "organic",
+    "yield": 160,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "翁崑晃",
+    "crop": "糯玉米",
+    "verify_marker": "organic",
+    "yield": 320,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "翁崑晃",
+    "crop": "香米",
+    "verify_marker": "preorganic",
+    "yield": 180,
+    "season": "13",
+    "shipments_min": 9
+  },
+  {
+    "member_name": "莊詠傑",
+    "crop": "有機黑木耳",
+    "verify_marker": "TAP,organic",
+    "yield": 100000,
+    "season": "13",
+    "shipments_min": 1500
+  },
+  {
+    "member_name": "林祺順",
+    "crop": "阿里山清香金萱茶",
+    "verify_marker": "NOpesticide",
+    "yield": 350,
+    "season": "02,03,04,05,06,07,08,09,10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "柯明賢",
+    "crop": "白蝦",
+    "verify_marker": "TAP",
+    "yield": 0,
+    "season": "13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "吳育任",
+    "crop": "臍橙",
+    "verify_marker": "NOpesticide",
+    "yield": 12000,
+    "season": "10,11",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "謝佳妤",
+    "crop": "茶葉",
+    "verify_marker": "preorganic",
+    "yield": 10,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "鄭玉豐",
+    "crop": "完株洋菇",
+    "verify_marker": "NOpesticide",
+    "yield": 2500,
+    "season": "13",
+    "shipments_min": 2500
+  },
+  {
+    "member_name": "葉芷妘",
+    "crop": "丹參",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "01,02,10,11,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "楊子賢",
+    "crop": "酪梨",
+    "verify_marker": "preorganic",
+    "yield": 4000,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "陳攸羽",
+    "crop": "芭樂",
+    "verify_marker": "TAP",
+    "yield": 1500,
+    "season": "04,06,07,08,09,10,11,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "李俊儀",
+    "crop": "大目釋迦",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "07,08,09,10",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "李俊儀",
+    "crop": "鳳梨釋迦",
+    "verify_marker": "organic",
+    "yield": 2000,
+    "season": "01,02,03,04,12",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "李誌強",
+    "crop": "香菇",
+    "verify_marker": "TAP",
+    "yield": 500,
+    "season": "01,02,03,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "黃書冠",
+    "crop": "南瓜",
+    "verify_marker": "TAP",
+    "yield": 400,
+    "season": "13",
+    "shipments_min": 200
+  },
+  {
+    "member_name": "劉珍修",
+    "crop": "有機草莓",
+    "verify_marker": "organic",
+    "yield": 500,
+    "season": "01,02,03,04,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "劉懿緯",
+    "crop": "洋香瓜",
+    "verify_marker": "NOpesticide,TAP",
+    "yield": 800,
+    "season": "13",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "黃啟軒",
+    "crop": "有機認證-水蓮",
+    "verify_marker": "preorganic",
+    "yield": 504000,
+    "season": "13",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "張育晟",
+    "crop": "有機轉型期草果茶禮盒",
+    "verify_marker": "preorganic,NOpesticide",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "趙英豪",
+    "crop": "有機作物-葉菜類",
+    "verify_marker": "preorganic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 7
+  },
+  {
+    "member_name": "陳薇安",
+    "crop": "生鮮杏鮑菇",
+    "verify_marker": "organic,TAP",
+    "yield": 110000,
+    "season": "13",
+    "shipments_min": 270
+  },
+  {
+    "member_name": "洪翊修",
+    "crop": "田庄好蛋Omega3-8入裝",
+    "verify_marker": "TAP",
+    "yield": 9000,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "周子晴",
+    "crop": "雙色火龍果、紅龍果",
+    "verify_marker": "NOpesticide",
+    "yield": 6000,
+    "season": "06,07,08,09,10,11",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "楊詠仁",
+    "crop": "綠蘆筍",
+    "verify_marker": "NOpesticide,TAP",
+    "yield": 500,
+    "season": "02,03,04,05,06,08,09,10,11",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "林逸群",
+    "crop": "蜂蜜檸檬醬",
+    "verify_marker": "NOpesticide",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 15
+  },
+  {
+    "member_name": "陳聖明",
+    "crop": "蜜棗",
+    "verify_marker": "TAP",
+    "yield": 29000,
+    "season": "01,02,03,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "郭忠傑",
+    "crop": "無籽檸檬",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "黃建迪",
+    "crop": "產銷履歷生鮮羊肉",
+    "verify_marker": "TAP",
+    "yield": 12000,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "傅裕懋",
+    "crop": "高接梨",
+    "verify_marker": "NOpesticide",
+    "yield": 50000,
+    "season": "06,07,08",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "葉芳",
+    "crop": "去刺金目鱸魚清肉排",
+    "verify_marker": "NOpesticide",
+    "yield": 8000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "葉芳",
+    "crop": "魚你守護鱸魚精禮盒",
+    "verify_marker": "NOpesticide",
+    "yield": 3000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "楊朝欽",
+    "crop": "酪梨",
+    "verify_marker": "preorganic",
+    "yield": 2000,
+    "season": "06,07,08,09,10",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "張育晟",
+    "crop": "有機轉型期芭樂",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "01,02,03,04,05,06,07,08,12",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "張育晟",
+    "crop": "有機轉型期白鶴靈芝茶",
+    "verify_marker": "preorganic",
+    "yield": 200,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張育晟",
+    "crop": "有機轉型期明日葉茶",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "張育晟",
+    "crop": "有機轉型期芭樂果茶",
+    "verify_marker": "preorganic",
+    "yield": 500,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "高振明",
+    "crop": "玉女小番茄",
+    "verify_marker": "NOpesticide",
+    "yield": 1000,
+    "season": "01,02,03,04,05,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "王瀅惠",
+    "crop": "咖啡",
+    "verify_marker": "TAP",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "施宗憲",
+    "crop": "火龍果",
+    "verify_marker": "NOpesticide",
+    "yield": 375,
+    "season": "01,06,07,08,09,10,11,12",
+    "shipments_min": 300
+  },
+  {
+    "member_name": "伍崇閔",
+    "crop": "御之丘農場-甜柿",
+    "verify_marker": "TAP,NOpesticide",
+    "yield": 60000,
+    "season": "10,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "洪福隆",
+    "crop": "玉女小番茄",
+    "verify_marker": "TAP",
+    "yield": 2000,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "劉昌源",
+    "crop": "香米",
+    "verify_marker": "preorganic",
+    "yield": 1000,
+    "season": "13",
+    "shipments_min": 18
+  },
+  {
+    "member_name": "黃翊婷",
+    "crop": "有機蔬菜",
+    "verify_marker": "preorganic",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "陳柔吟",
+    "crop": "藍寶石草蝦",
+    "verify_marker": "TAP",
+    "yield": 1000,
+    "season": "02,06,11",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "楊采靜",
+    "crop": "蓮霧",
+    "verify_marker": "TAP",
+    "yield": 3000,
+    "season": "01,02,03,04,05,06,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "廖剛富",
+    "crop": "有機轉型期檸檬香茅",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "蘇德威",
+    "crop": "龍虎石斑魚",
+    "verify_marker": "TAP",
+    "yield": 1200,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "劉怡芃",
+    "crop": "有機青蔥",
+    "verify_marker": "preorganic",
+    "yield": 800,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "陳譯民",
+    "crop": "青心烏龍",
+    "verify_marker": "TAP",
+    "yield": 200,
+    "season": "04,05,06,07,08,09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "謝茗遠",
+    "crop": "蜜香紅茶",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "謝茗遠",
+    "crop": "烏龍茶",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "邱宏仁",
+    "crop": "茶",
+    "verify_marker": "TAP",
+    "yield": 10,
+    "season": "03,06,09,11",
+    "shipments_min": 2
+  },
+  {
+    "member_name": "黃國良",
+    "crop": "虱目魚",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃國良",
+    "crop": "龍膽石斑",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃國良",
+    "crop": "白蝦",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃國良",
+    "crop": "黃金鯧",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "黃國良",
+    "crop": "鱸魚",
+    "verify_marker": "TAP",
+    "yield": 150,
+    "season": "13",
+    "shipments_min": 100
+  },
+  {
+    "member_name": "李俊叡",
+    "crop": "新東洋白蝦",
+    "verify_marker": "TAP",
+    "yield": 6000,
+    "season": "13",
+    "shipments_min": 600
+  },
+  {
+    "member_name": "林東詳",
+    "crop": "秋葵脆條",
+    "verify_marker": "preorganic",
+    "yield": 40000,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "王長添",
+    "crop": "荔枝蜂蜜",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "03",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "王長添",
+    "crop": "野花蜂蜜",
+    "verify_marker": "NOpesticide",
+    "yield": 100,
+    "season": "06",
+    "shipments_min": 3
+  },
+  {
+    "member_name": "廖剛富",
+    "crop": "乾燥有機轉型期檸檬馬鞭",
+    "verify_marker": "preorganic",
+    "yield": 300,
+    "season": "13",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "廖剛富",
+    "crop": "乾燥有機轉型期洛神花",
+    "verify_marker": "preorganic",
+    "yield": 900,
+    "season": "09,10,11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "劉庭琇",
+    "crop": "水稻",
+    "verify_marker": "TAP",
+    "yield": 154439,
+    "season": "01,06,11",
+    "shipments_min": 77219
+  },
+  {
+    "member_name": "許文嘉",
+    "crop": "草莓",
+    "verify_marker": "NOpesticide",
+    "yield": 5000,
+    "season": "01,02,03,04,11,12",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "彭彥豪",
+    "crop": "玉女小番茄",
+    "verify_marker": "preorganic",
+    "yield": 2000,
+    "season": "01,02,03,04,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "吳佩儒",
+    "crop": "產銷履歷‧空心菜",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳佩儒",
+    "crop": "產銷履歷‧青杏菜",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳佩儒",
+    "crop": "產銷履歷‧白杏菜",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳佩儒",
+    "crop": "安心溯源‧地瓜葉",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳佩儒",
+    "crop": "安心溯源‧茴香",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "13",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "吳佩儒",
+    "crop": "安心溯源‧菠菜",
+    "verify_marker": "TAP",
+    "yield": 30000,
+    "season": "01,02,03,12",
+    "shipments_min": 10
+  },
+  {
+    "member_name": "陳祥介",
+    "crop": "檸檬乾",
+    "verify_marker": "organic",
+    "yield": 100,
+    "season": "13",
+    "shipments_min": 0
+  },
+  {
+    "member_name": "李富正",
+    "crop": "白蝦",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 500
+  },
+  {
+    "member_name": "郭明哲",
+    "crop": "木虌果",
+    "verify_marker": "TAP",
+    "yield": 5000,
+    "season": "06,07,08,09,10,11,12",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "樊永忠",
+    "crop": "洛神花",
+    "verify_marker": "organic",
+    "yield": 1000,
+    "season": "11",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "樊永忠",
+    "crop": "樹豆",
+    "verify_marker": "organic",
+    "yield": 300,
+    "season": "03",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "樊永忠",
+    "crop": "小米",
+    "verify_marker": "organic",
+    "yield": 250,
+    "season": "02",
+    "shipments_min": 20
+  },
+  {
+    "member_name": "施秀美",
+    "crop": "牛樟精粹粒-力甘寶",
+    "verify_marker": "NOpesticide",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "施秀美",
+    "crop": "牛樟精粹粒 舒眠康",
+    "verify_marker": "NOpesticide",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "施秀美",
+    "crop": "牛樟精粹粒 活利清",
+    "verify_marker": "NOpesticide",
+    "yield": 50,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "王勻君",
+    "crop": "無毒溫室木瓜",
+    "verify_marker": "NOpesticide",
+    "yield": 5000,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "林育群",
+    "crop": "木瓜（網室栽培）",
+    "verify_marker": "TAP",
+    "yield": 720,
+    "season": "13",
+    "shipments_min": 12
+  },
+  {
+    "member_name": "高志韋",
+    "crop": "有機轉型期｜宇相雨來菇、情人的眼淚",
+    "verify_marker": "preorganic",
+    "yield": 800,
+    "season": "13",
+    "shipments_min": 6
+  },
+  {
+    "member_name": "林宗賢",
+    "crop": "高山烏龍茶",
+    "verify_marker": "NOpesticide",
+    "yield": 180,
+    "season": "11",
+    "shipments_min": 1
+  },
+  {
+    "member_name": "馬自清",
+    "crop": "有機地瓜葉",
+    "verify_marker": "preorganic,NOpesticide",
+    "yield": 30,
+    "season": "13",
+    "shipments_min": 5
+  },
+  {
+    "member_name": "馬自清",
+    "crop": "活力菜",
+    "verify_marker": "preorganic",
+    "yield": 10,
+    "season": "13",
+    "shipments_min": 2
+  }
+]

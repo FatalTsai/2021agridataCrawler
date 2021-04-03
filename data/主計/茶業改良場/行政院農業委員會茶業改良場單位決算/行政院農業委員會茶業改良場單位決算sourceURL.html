@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><!-- InstanceBegin template="/Templates/layout_tres.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>預算及決算(茶業改良場)</title>
+<!-- InstanceEndEditable -->
+
+<link href="css/layout.css?v=20190920" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/division1.js"></script>
+<script type="text/javascript" src="scripts/style_menu_two.js"></script>
+
+<script>
+$(window).scroll(function(evt){
+	if ($(window).scrollTop()>0){
+		$(".header").removeClass("header-top");
+		$(".menubox").removeClass("hidecon");
+		$(".under_guidebox ").addClass("hidecon"); 
+	}
+	else{
+		$(".header").addClass("header-top");
+		$(".menubox").addClass("hidecon");
+		$(".under_guidebox ").removeClass("hidecon");
+	}
+});
+</script>
+
+<!-- InstanceBeginEditable name="head" -->
+<link href="css/view.css?css=20190920" rel="stylesheet" type="text/css" />
+<link href="css/WG_article.css?css=20190920" rel="stylesheet" type="text/css" />
+
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<a href="#C" class="sr-only sr-only-focusable" title="跳到主要內容區塊" tabindex="1">跳到主要內容區塊</a>
+<a name="tops" class="webtop" title="網頁置頂">網頁置頂</a>
+
+<!--header-->
+<div class="header header-top">
+
+	<div class="mar">
+    
+
+
+
+
+        <!--左側選單-->
+    	<div class="leftbox">
+        	<a href="index.php" class="logos" tabindex="2"><h1><img src="images/layout/tea_logo2.png" alt="行政院農業委員會茶業改良場" border="0" /></h1></a>
+            <!--mobile btn-->
+            <div class="menubtn">
+            	<span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!--mobile btn_end-->
+        </div>
+        <!--左側選單_end-->
+        <!--右側選單-->
+        <div class="rightbox">
+        	<!--mobile btn-->
+            <div class="tool_btn"></div>
+            <!--mobile btn_end-->
+        	<div class="tool_box">
+                <!--1列-->
+                <div class="tool_bottom" ><a href="#U" id="U" accesskey="U" class="guide" title="右上方功能區" tabindex="3">:::</a>
+                <a href="index.php" target="" class="grids" title="連結至回首頁" tabindex="4">回首頁</a><a href="sitemap.php" target="" class="grids" title="連結至網站導覽" tabindex="5">網站導覽</a><a href="theme_list.php?theme=bilingual_glossary" target="" class="grids" title="連結至雙語詞彙" tabindex="6">雙語詞彙</a><a href="en/index.php" target="_blank" class="grids" title="連結至English-將另開新視窗" tabindex="7">English</a><a href="rss.php" target="" class="grids" title="連結至RSS" tabindex="8">RSS</a>
+                	<div class="searchbox">
+                    	<a href="#" class="btns" title="搜尋" tabindex="9"><img src="images/layout/icon_search.png" alt="搜尋"></a>
+                        <div class="search_du">
+                        	<div class="s_table">
+                                <div class="s_tds-a">
+                                    <form action="search_wg_tran.php" method="post" name="top_search" id="top_search">
+                                    <div class="s_search">
+                                        <div class="inputs">
+                                        <label for="keyword_q">
+                                        <input type="text" name="keyword_q" id="keyword_q" onfocus="javascript: if(this.value=='(請輸入關鍵字)') this.value='';" onblur="javascript: if(this.value=='') this.value='(請輸入關鍵字)';" value="(請輸入關鍵字)" autocomplete="off" title="請輸入關鍵字" tabindex="10">
+                                        </label>
+                                        </div>
+                                        <div class="sends">
+                                        <button type="submit" tabindex="11">搜尋</button>
+                                        <input type="hidden" name="id" id="id" value="3509">
+                                        <input type="hidden" name="page" value="1">
+                                        </div>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="s_tds-b">
+                                    <div class="s_txt">
+                                    熱門：  
+                                    <a href="search_wg_tran.php?keyword_q=%E5%8F%B0%E8%8C%B622%E8%99%9F&keyword_type=Y" title="關鍵字 台茶22號" tabindex="12">台茶22號</a>
+                                     
+                                    <a href="search_wg_tran.php?keyword_q=%E6%B2%96%E8%8C%B6%E5%B8%AB&keyword_type=Y" title="關鍵字 沖茶師" tabindex="12">沖茶師</a>
+                                     
+                                    <a href="search_wg_tran.php?keyword_q=%E8%8C%B6&keyword_type=Y" title="關鍵字 茶" tabindex="12">茶</a>
+                                     
+                                    <a href="search_wg_tran.php?keyword_q=%E9%A4%8A%E7%94%9F&keyword_type=Y" title="關鍵字 養生" tabindex="12">養生</a>
+                                     
+                                    <a href="search_wg_tran.php?keyword_q=%E8%8C%B6%E8%91%89&keyword_type=Y" title="關鍵字 茶葉" tabindex="12">茶葉</a>
+                                                                                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+
+
+                    <!--社群-->
+                    <a href="https://www.youtube.com/user/tresvideo" target="_blank" class="links"  title="連結至Youtube-將另開新視窗" tabindex="13"><img src="images/layout/youtube_icon.png" alt="連結至Youtube-將另開新視窗" border="0" /></a></a><a href="https://www.flickr.com/photos/flickrtres" target="_blank" class="links"  title="連結至Flickr-將另開新視窗" tabindex="14"><img src="images/layout/flickr_icon.png" alt="連結至Flickr-將另開新視窗" border="0" /></a></a><a href="https://www.facebook.com/%E8%8C%B6%E6%A5%AD%E6%94%B9%E8%89%AF%E5%A0%B4-226470410881345/" target="_blank" class="links"  title="連結至facebook-將另開新視窗" tabindex="15"><img src="images/layout/fb_icon.png" alt="連結至facebook-將另開新視窗" border="0" /></a></a>
+                    
+                </div>
+            </div>
+        </div>
+        <!--右側選單_end-->
+		<div class="menubox con hidecon">
+                <!--1列-->
+            	<div class="list">
+                  <div class="grids">
+                   
+                   </div>
+                	<!--1階-->
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1381" target="_self" class="g_list" title="關於本場">關於本場</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=3595" class="g_rids" title="首長介紹" target="_self">首長介紹</a>
+                                                	<a href="/ws.php?id=1633" class="g_rids" title="組織" target="_self">組織</a>
+                                                	<a href="/ws.php?id=1634" class="g_rids" title="歷任場長簡介" target="_self">歷任場長簡介</a>
+                                                	<a href="/ws.php?id=1640" class="g_rids" title="單位資訊" target="_self">單位資訊</a>
+                                                	<a href="/theme_list.php?theme=traffic_information" class="g_rids" title="交通資訊" target="_self">交通資訊</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=2" target="_self" class="g_list" title="便民服務">便民服務</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=16" class="g_rids" title="下載專區" target="_self">下載專區</a>
+                                                	<a href="/theme_list.php?theme=question_type" class="g_rids" title="常見問答集" target="_self">常見問答集</a>
+                                                	<a href="/ws.php?id=3551" class="g_rids" title="茶業改良場檔案申調作業須知" target="_self">茶業改良場檔案申調作業須知</a>
+                                                	<a href="/ws.php?id=1465" class="g_rids" title="民眾信件處理說明" target="_self">民眾信件處理說明</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=3598" class="g_rids" title="茶業相關網站連結" target="_self">茶業相關網站連結</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=2822" target="_self" class="g_list" title="數位教材及出版品">數位教材及出版品</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/theme_list.php?theme=video" class="g_rids" title="數位學習" target="_self">數位學習</a>
+                                                	<a href="/ws.php?id=1569" class="g_rids" title="茶業專訊" target="_self">茶業專訊</a>
+                                                	<a href="/ws.php?id=1582" class="g_rids" title="茶情雙月刊" target="_self">茶情雙月刊</a>
+                                                	<a href="/ws.php?id=2116" class="g_rids" title="臺灣茶業研究彙報" target="_self">臺灣茶業研究彙報</a>
+                                                	<a href="/ws.php?id=3073" class="g_rids" title="專刊" target="_self">專刊</a>
+                                                	<a href="/ws.php?id=1924" class="g_rids" title="單頁" target="_self">單頁</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1382" target="_self" class="g_list" title="茶樹栽培技術">茶樹栽培技術</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1392" class="g_rids" title="栽培管理" target="_self">栽培管理</a>
+                                                	<a href="/ws.php?id=1394" class="g_rids" title="茶園土壤肥料" target="_self">茶園土壤肥料</a>
+                                                	<a href="/ws.php?id=1391" class="g_rids" title="茶樹遺傳育種" target="_self">茶樹遺傳育種</a>
+                                                	<a href="/ws.php?id=1395" class="g_rids" title="茶園水土保持" target="_self">茶園水土保持</a>
+                                                	<a href="/ws.php?id=1396" class="g_rids" title="茶園氣象環境" target="_self">茶園氣象環境</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1383" target="_self" class="g_list" title="製茶加工技術">製茶加工技術</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=3829" class="g_rids" title="臺灣特色茶分類及加工" target="_self">臺灣特色茶分類及加工</a>
+                                                	<a href="/ws.php?id=3826" class="g_rids" title="製茶工廠衛生安全規範" target="_self">製茶工廠衛生安全規範</a>
+                                                	<a href="/ws.php?id=3727" class="g_rids" title="臺灣特色茶風味輪" target="_self">臺灣特色茶風味輪</a>
+                                                	<a href="/ws.php?id=3768" class="g_rids" title="臺灣茶分類分級系統TAGs" target="_self">臺灣茶分類分級系統TAGs</a>
+                                                	<a href="/ws.php?id=3655" class="g_rids" title="茶多元利用" target="_self">茶多元利用</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1384" target="_self" class="g_list" title="茶葉機械">茶葉機械</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1406" class="g_rids" title="茶園作業機械介紹" target="_self">茶園作業機械介紹</a>
+                                                	<a href="/ws.php?id=1407" class="g_rids" title="製茶機械介紹" target="_self">製茶機械介紹</a>
+                                                	<a href="/ws.php?id=1408" class="g_rids" title="茶園灌概" target="_self">茶園灌概</a>
+                                                	<a href="/ws.php?id=1409" class="g_rids" title="茶園機械保養及修護" target="_self">茶園機械保養及修護</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1509" target="_self" class="g_list" title="推廣訓練">推廣訓練</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1510" class="g_rids" title="農業教育訓練" target="_self">農業教育訓練</a>
+                                                	<a href="/ws.php?id=1511" class="g_rids" title="茶葉驗證制度" target="_self">茶葉驗證制度</a>
+                                                	<a href="/ws.php?id=1512" class="g_rids" title="推廣與輔導" target="_self">推廣與輔導</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1476" target="_self" class="g_list" title="特用作物">特用作物</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1477" class="g_rids" title="杭菊" target="_self">杭菊</a>
+                                                	<a href="/ws.php?id=1479" class="g_rids" title="咖啡" target="_self">咖啡</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=1824" class="g_rids" title="油茶-將另開新視窗" target="_blank">油茶</a>
+                                                	<a href="/ws.php?id=1480" class="g_rids" title="香花植物" target="_self">香花植物</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1495" target="_self" class="g_list" title="茶葉知識庫">茶葉知識庫</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1496" class="g_rids" title="臺灣特色茶" target="_self">臺灣特色茶</a>
+                                                	<a href="/ws.php?id=1678" class="g_rids" title="茶葉感官品評" target="_self">茶葉感官品評</a>
+                                                	<a href="/ws.php?id=3830" class="g_rids" title="茶葉之包裝貯藏" target="_self">茶葉之包裝貯藏</a>
+                                                	<a href="/ws.php?id=3831" class="g_rids" title="水質及水溫對茶湯品質之影響" target="_self">水質及水溫對茶湯品質之影響</a>
+                                                	<a href="/ws.php?id=3832" class="g_rids" title="臺茶18號在不同製程中對品質的影響" target="_self">臺茶18號在不同製程中對品質的影響</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1498" target="_self" class="g_list" title="研究成果">研究成果</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1499" class="g_rids" title="技術移轉" target="_self">技術移轉</a>
+                                                	<a href="/ws.php?id=1500" class="g_rids" title="育成品種" target="_self">育成品種</a>
+                                                	<a href="/ws.php?id=1501" class="g_rids" title="產學合作" target="_self">產學合作</a>
+                                                	<a href="/ws.php?id=2599" class="g_rids" title="智慧財產權─專利" target="_self">智慧財產權─專利</a>
+                                                	<a href="/ws.php?id=1503" class="g_rids" title="智慧財產權─品種權" target="_self">智慧財產權─品種權</a>
+                                                	<a href="/ws.php?id=1504" class="g_rids" title="其他研究成果" target="_self">其他研究成果</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1527" target="_self" class="g_list" title="植物保護">植物保護</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1541" class="g_rids" title="茶樹病蟲害簡介" target="_self">茶樹病蟲害簡介</a>
+                                                	<a href="/ws.php?id=1542" class="g_rids" title="茶樹病蟲害防治" target="_self">茶樹病蟲害防治</a>
+                                                	<a href="/ws.php?id=1530" class="g_rids" title="杭菊病蟲害簡介" target="_self">杭菊病蟲害簡介</a>
+                                                	<a href="/ws.php?id=1531" class="g_rids" title="杭菊病蟲害防治" target="_self">杭菊病蟲害防治</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1513" target="_self" class="g_list" title="同仁專區">同仁專區</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/redirect_link.php?theme=web_structure&id=1515" class="g_rids" title="Web mail-將另開新視窗" target="_blank">Web mail</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=1766" class="g_rids" title="辦公室自動化系統" target="_self">辦公室自動化系統</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=3561" class="g_rids" title="農業計畫管理系統-將另開新視窗" target="_blank">農業計畫管理系統</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=3562" class="g_rids" title="國際農業數位知識交流平台-將另開新視窗" target="_blank">國際農業數位知識交流平台</a>
+                                                </div>
+                                            </div>
+                    
+
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+
+    <!--banner-->
+    <div class="banner">
+    
+    	<div class="imgbox"><img src="images/index/banner.jpg" border="0" alt=""></div>
+    </div>
+    <!--下方選單-->
+    
+    <div class="under_guidebox">
+            	<!--導盲磚-->
+            	
+                <!--導盲磚_end-->
+            	<div class="menubox">
+                <!--1列-->
+            	<div class="list">
+                	<!--1階-->
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1381" target="_self" class="g_list" title="關於本場" tabindex="17">關於本場</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=3595" class="g_rids" title="首長介紹" target="_self" tabindex="17">首長介紹</a>
+                                                	<a href="/ws.php?id=1633" class="g_rids" title="組織" target="_self" tabindex="17">組織</a>
+                                                	<a href="/ws.php?id=1634" class="g_rids" title="歷任場長簡介" target="_self" tabindex="17">歷任場長簡介</a>
+                                                	<a href="/ws.php?id=1640" class="g_rids" title="單位資訊" target="_self" tabindex="17">單位資訊</a>
+                                                	<a href="/theme_list.php?theme=traffic_information" class="g_rids" title="交通資訊" target="_self" tabindex="17">交通資訊</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=2" target="_self" class="g_list" title="便民服務" tabindex="17">便民服務</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=16" class="g_rids" title="下載專區" target="_self" tabindex="17">下載專區</a>
+                                                	<a href="/theme_list.php?theme=question_type" class="g_rids" title="常見問答集" target="_self" tabindex="17">常見問答集</a>
+                                                	<a href="/ws.php?id=3551" class="g_rids" title="茶業改良場檔案申調作業須知" target="_self" tabindex="17">茶業改良場檔案申調作業須知</a>
+                                                	<a href="/ws.php?id=1465" class="g_rids" title="民眾信件處理說明" target="_self" tabindex="17">民眾信件處理說明</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=3598" class="g_rids" title="茶業相關網站連結" target="_self" tabindex="17">茶業相關網站連結</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=2822" target="_self" class="g_list" title="數位教材及出版品" tabindex="17">數位教材及出版品</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/theme_list.php?theme=video" class="g_rids" title="數位學習" target="_self" tabindex="17">數位學習</a>
+                                                	<a href="/ws.php?id=1569" class="g_rids" title="茶業專訊" target="_self" tabindex="17">茶業專訊</a>
+                                                	<a href="/ws.php?id=1582" class="g_rids" title="茶情雙月刊" target="_self" tabindex="17">茶情雙月刊</a>
+                                                	<a href="/ws.php?id=2116" class="g_rids" title="臺灣茶業研究彙報" target="_self" tabindex="17">臺灣茶業研究彙報</a>
+                                                	<a href="/ws.php?id=3073" class="g_rids" title="專刊" target="_self" tabindex="17">專刊</a>
+                                                	<a href="/ws.php?id=1924" class="g_rids" title="單頁" target="_self" tabindex="17">單頁</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1382" target="_self" class="g_list" title="茶樹栽培技術" tabindex="17">茶樹栽培技術</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1392" class="g_rids" title="栽培管理" target="_self" tabindex="17">栽培管理</a>
+                                                	<a href="/ws.php?id=1394" class="g_rids" title="茶園土壤肥料" target="_self" tabindex="17">茶園土壤肥料</a>
+                                                	<a href="/ws.php?id=1391" class="g_rids" title="茶樹遺傳育種" target="_self" tabindex="17">茶樹遺傳育種</a>
+                                                	<a href="/ws.php?id=1395" class="g_rids" title="茶園水土保持" target="_self" tabindex="17">茶園水土保持</a>
+                                                	<a href="/ws.php?id=1396" class="g_rids" title="茶園氣象環境" target="_self" tabindex="17">茶園氣象環境</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1383" target="_self" class="g_list" title="製茶加工技術" tabindex="17">製茶加工技術</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=3829" class="g_rids" title="臺灣特色茶分類及加工" target="_self" tabindex="17">臺灣特色茶分類及加工</a>
+                                                	<a href="/ws.php?id=3826" class="g_rids" title="製茶工廠衛生安全規範" target="_self" tabindex="17">製茶工廠衛生安全規範</a>
+                                                	<a href="/ws.php?id=3727" class="g_rids" title="臺灣特色茶風味輪" target="_self" tabindex="17">臺灣特色茶風味輪</a>
+                                                	<a href="/ws.php?id=3768" class="g_rids" title="臺灣茶分類分級系統TAGs" target="_self" tabindex="17">臺灣茶分類分級系統TAGs</a>
+                                                	<a href="/ws.php?id=3655" class="g_rids" title="茶多元利用" target="_self" tabindex="17">茶多元利用</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1384" target="_self" class="g_list" title="茶葉機械" tabindex="17">茶葉機械</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1406" class="g_rids" title="茶園作業機械介紹" target="_self" tabindex="17">茶園作業機械介紹</a>
+                                                	<a href="/ws.php?id=1407" class="g_rids" title="製茶機械介紹" target="_self" tabindex="17">製茶機械介紹</a>
+                                                	<a href="/ws.php?id=1408" class="g_rids" title="茶園灌概" target="_self" tabindex="17">茶園灌概</a>
+                                                	<a href="/ws.php?id=1409" class="g_rids" title="茶園機械保養及修護" target="_self" tabindex="17">茶園機械保養及修護</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1509" target="_self" class="g_list" title="推廣訓練" tabindex="17">推廣訓練</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1510" class="g_rids" title="農業教育訓練" target="_self" tabindex="17">農業教育訓練</a>
+                                                	<a href="/ws.php?id=1511" class="g_rids" title="茶葉驗證制度" target="_self" tabindex="17">茶葉驗證制度</a>
+                                                	<a href="/ws.php?id=1512" class="g_rids" title="推廣與輔導" target="_self" tabindex="17">推廣與輔導</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1476" target="_self" class="g_list" title="特用作物" tabindex="17">特用作物</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1477" class="g_rids" title="杭菊" target="_self" tabindex="17">杭菊</a>
+                                                	<a href="/ws.php?id=1479" class="g_rids" title="咖啡" target="_self" tabindex="17">咖啡</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=1824" class="g_rids" title="油茶-將另開新視窗" target="_blank" tabindex="17">油茶</a>
+                                                	<a href="/ws.php?id=1480" class="g_rids" title="香花植物" target="_self" tabindex="17">香花植物</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1495" target="_self" class="g_list" title="茶葉知識庫" tabindex="17">茶葉知識庫</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1496" class="g_rids" title="臺灣特色茶" target="_self" tabindex="17">臺灣特色茶</a>
+                                                	<a href="/ws.php?id=1678" class="g_rids" title="茶葉感官品評" target="_self" tabindex="17">茶葉感官品評</a>
+                                                	<a href="/ws.php?id=3830" class="g_rids" title="茶葉之包裝貯藏" target="_self" tabindex="17">茶葉之包裝貯藏</a>
+                                                	<a href="/ws.php?id=3831" class="g_rids" title="水質及水溫對茶湯品質之影響" target="_self" tabindex="17">水質及水溫對茶湯品質之影響</a>
+                                                	<a href="/ws.php?id=3832" class="g_rids" title="臺茶18號在不同製程中對品質的影響" target="_self" tabindex="17">臺茶18號在不同製程中對品質的影響</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1498" target="_self" class="g_list" title="研究成果" tabindex="17">研究成果</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1499" class="g_rids" title="技術移轉" target="_self" tabindex="17">技術移轉</a>
+                                                	<a href="/ws.php?id=1500" class="g_rids" title="育成品種" target="_self" tabindex="17">育成品種</a>
+                                                	<a href="/ws.php?id=1501" class="g_rids" title="產學合作" target="_self" tabindex="17">產學合作</a>
+                                                	<a href="/ws.php?id=2599" class="g_rids" title="智慧財產權─專利" target="_self" tabindex="17">智慧財產權─專利</a>
+                                                	<a href="/ws.php?id=1503" class="g_rids" title="智慧財產權─品種權" target="_self" tabindex="17">智慧財產權─品種權</a>
+                                                	<a href="/ws.php?id=1504" class="g_rids" title="其他研究成果" target="_self" tabindex="17">其他研究成果</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1527" target="_self" class="g_list" title="植物保護" tabindex="17">植物保護</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/ws.php?id=1541" class="g_rids" title="茶樹病蟲害簡介" target="_self" tabindex="17">茶樹病蟲害簡介</a>
+                                                	<a href="/ws.php?id=1542" class="g_rids" title="茶樹病蟲害防治" target="_self" tabindex="17">茶樹病蟲害防治</a>
+                                                	<a href="/ws.php?id=1530" class="g_rids" title="杭菊病蟲害簡介" target="_self" tabindex="17">杭菊病蟲害簡介</a>
+                                                	<a href="/ws.php?id=1531" class="g_rids" title="杭菊病蟲害防治" target="_self" tabindex="17">杭菊病蟲害防治</a>
+                                                </div>
+                                            </div>
+                                    	<div class="grids">
+                    	<a href="/ws.php?id=1513" target="_self" class="g_list" title="同仁專區" tabindex="17">同仁專區</a>
+                                                <!--2階-->
+                        <div class="g_dus">
+                                                	<a href="/redirect_link.php?theme=web_structure&id=1515" class="g_rids" title="Web mail-將另開新視窗" target="_blank" tabindex="17">Web mail</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=1766" class="g_rids" title="辦公室自動化系統" target="_self" tabindex="17">辦公室自動化系統</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=3561" class="g_rids" title="農業計畫管理系統-將另開新視窗" target="_blank" tabindex="17">農業計畫管理系統</a>
+                                                	<a href="/redirect_link.php?theme=web_structure&id=3562" class="g_rids" title="國際農業數位知識交流平台-將另開新視窗" target="_blank" tabindex="17">國際農業數位知識交流平台</a>
+                                                </div>
+                                            </div>
+                                    </div>
+            </div>
+            
+            
+            
+    </div>
+   
+<!--內容-->
+<div class="content">
+<noscript>您的瀏覽器不支援JavaScript功能,若網頁功能無法正常使用時,請開啟瀏覽器JavaScript狀態</noscript>
+	<!--Center-->
+	
+    <!--麵包屑-->
+        <div class="maintitle">
+    	<a href="#C" id="C" class="guide" accesskey="C" title="中間內容區">:::</a>
+  		<div class="tds-title">
+        	<h2 class="title">預算及決算</h2>
+        </div>
+        <div class="tds-nav"><a href="/index.php" class="web_path" title="首頁" alt="首頁">首頁</a> > <a href="/ws.php?id=3508" class="web_path" title="政府資訊公開" alt="政府資訊公開">政府資訊公開</a> > 預算及決算</div>
+    </div>
+        <!--viewbg Start-->
+    <div class="viewbg">
+
+      <div class="view_btn02">
+            <div class="print_btn">
+            <img src="images/page/printer.png" alt="">
+            <a href="https://www.tres.gov.tw/ws.php?id=3509&print=Y" target="_blank" title="友善列印 將另開新視窗">友善列印</a>
+            </div>
+        </div>
+
+
+
+        <!-- InstanceBeginEditable name="EditRegion2" -->
+		
+
+    	<div class="view_one">
+    	                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3822" class="headline" target="_self" title="茶業改良場109年度單位決算">茶業改良場109年度單位決算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3780" class="headline" target="_self" title="茶業改良場110年度單位預算">茶業改良場110年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3726" class="headline" target="_self" title="茶業改良場110年度單位預算案">茶業改良場110年度單位預算案</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3699" class="headline" target="_self" title="茶業改良場108年度單位決算">茶業改良場108年度單位決算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3698" class="headline" target="_self" title="茶業改良場109年度單位預算">茶業改良場109年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3645" class="headline" target="_self" title="茶業改良場109年度單位預算案">茶業改良場109年度單位預算案</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3575" class="headline" target="_self" title="茶業改良場107年度單位決算">茶業改良場107年度單位決算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3574" class="headline" target="_self" title="茶業改良場108年度單位預算">茶業改良場108年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3403" class="headline" target="_self" title="茶業改良場108年度單位預算案">茶業改良場108年度單位預算案</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3268" class="headline" target="_self" title="茶業改良場107年度單位預算">茶業改良場107年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3104" class="headline" target="_self" title="茶業改良場107年度單位預算案">茶業改良場107年度單位預算案</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=3240" class="headline" target="_self" title="茶業改良場106年度單位決算">茶業改良場106年度單位決算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2849" class="headline" target="_self" title="茶業改良場106年度單位預算">茶業改良場106年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2626" class="headline" target="_self" title=" 茶業改良場106年度單位預算案"> 茶業改良場106年度單位預算案</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2847" class="headline" target="_self" title="茶業改良場105年度單位決算">茶業改良場105年度單位決算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2286" class="headline" target="_self" title="茶業改良場105年度單位預算">茶業改良場105年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2220" class="headline" target="_self" title="茶業改良場105年度單位預算案">茶業改良場105年度單位預算案</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2301" class="headline" target="_self" title="茶業改良場104年度單位決算">茶業改良場104年度單位決算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=2013" class="headline" target="_self" title="茶業改良場104年度單位預算">茶業改良場104年度單位預算</a></div>
+                
+
+            </div>
+                	<div class="trs">
+                
+                
+                            	<div class="tds"><a href="/ws.php?id=1893" class="headline" target="_self" title="茶業改良場104年度單位預算案">茶業改良場104年度單位預算案</a></div>
+                
+
+            </div>
+                
+        </div>
+
+
+		
+        <!--頁碼-->
+        <div class="pageblcok">
+         <span class="page_bar">共35筆資料，第1<em> / </em>2頁，每頁顯示20筆， <span class="now_page">1</span> 
+ <a href="/ws.php?id=3509&page=2" class="page_num" title="第2頁">2</a> 
+ <a href="/ws.php?id=3509&page=2" class="change_page" title="下一頁">下一頁</a> </span> 
+        </div>
+
+
+		
+		
+		<!-- InstanceEndEditable -->    
+
+        <!--回上一頁-->
+        <div class="detail_back">
+        	<a href="/back_page.php" title="回上一頁">回上一頁</a>
+        </div>
+
+    </div>
+   <!--viewbg End-->
+    
+	<!--footer-->
+    
+    
+
+
+    <div class="footer">
+    	<div class="footer_top">
+           
+                  
+          
+            <!--展開/收合-->
+            <div class="collapse">
+				
+            	<a href="javascript: return false;" class="co_btn" title="關閉">關閉</a>
+				
+            </div>
+            <!--展開/收合_end-->
+            
+            
+            
+            <!--展開/收合區塊-->
+            <div class="ctab">
+            <a href="#Z" class="guide" id="AZ" title="下方功能區塊" accesskey="Z" name="Z">:::</a>
+            	<div class="f_table">
+
+                                
+                                
+                                <div class="f_tds">
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1382" title="茶樹栽培技術" alt="茶樹栽培技術" target="_self">茶樹栽培技術</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=1392" title="栽培管理" alt="栽培管理" target="_self">栽培管理</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1394" title="茶園土壤肥料" alt="茶園土壤肥料" target="_self">茶園土壤肥料</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1391" title="茶樹遺傳育種" alt="茶樹遺傳育種" target="_self">茶樹遺傳育種</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1395" title="茶園水土保持" alt="茶園水土保持" target="_self">茶園水土保持</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1396" title="茶園氣象環境" alt="茶園氣象環境" target="_self">茶園氣象環境</a></div>
+                                                                        
+                                            </div>
+                                
+                
+                   
+                
+                                
+                                
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1381" title="關於本場" alt="關於本場" target="_self">關於本場</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=3595" title="首長介紹" alt="首長介紹" target="_self">首長介紹</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1633" title="組織" alt="組織" target="_self">組織</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1634" title="歷任場長簡介" alt="歷任場長簡介" target="_self">歷任場長簡介</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1640" title="單位資訊" alt="單位資訊" target="_self">單位資訊</a></div>
+                                                <div class="txts"><a href="/theme_list.php?theme=traffic_information" title="交通資訊" alt="交通資訊" target="_self">交通資訊</a></div>
+                                                                        
+                                            </div>
+                                </div>
+                                
+                
+                   
+                
+                                
+                                
+                                <div class="f_tds">
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1383" title="製茶加工技術" alt="製茶加工技術" target="_self">製茶加工技術</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=3829" title="臺灣特色茶分類及加工" alt="臺灣特色茶分類及加工" target="_self">臺灣特色茶分類及加工</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3826" title="製茶工廠衛生安全規範" alt="製茶工廠衛生安全規範" target="_self">製茶工廠衛生安全規範</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3727" title="臺灣特色茶風味輪" alt="臺灣特色茶風味輪" target="_self">臺灣特色茶風味輪</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3768" title="臺灣茶分類分級系統TAGs" alt="臺灣茶分類分級系統TAGs" target="_self">臺灣茶分類分級系統TAGs</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3655" title="茶多元利用" alt="茶多元利用" target="_self">茶多元利用</a></div>
+                                                                        
+                                            </div>
+                                
+                
+                   
+                
+                                
+                                
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=2" title="便民服務" alt="便民服務" target="_self">便民服務</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=16" title="下載專區" alt="下載專區" target="_self">下載專區</a></div>
+                                                <div class="txts"><a href="/theme_list.php?theme=question_type" title="常見問答集" alt="常見問答集" target="_self">常見問答集</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3551" title="茶業改良場檔案申調作業須知" alt="茶業改良場檔案申調作業須知" target="_self">茶業改良場檔案申調作業須知</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1465" title="民眾信件處理說明" alt="民眾信件處理說明" target="_self">民眾信件處理說明</a></div>
+                                                <div class="txts"><a href="/redirect_link.php?theme=web_structure&id=3598" title="茶業相關網站連結" alt="茶業相關網站連結" target="_self">茶業相關網站連結</a></div>
+                                                                        
+                                            </div>
+                                </div>
+                                
+                
+                   
+                
+                                
+                                
+                                <div class="f_tds">
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1384" title="茶葉機械" alt="茶葉機械" target="_self">茶葉機械</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=1406" title="茶園作業機械介紹" alt="茶園作業機械介紹" target="_self">茶園作業機械介紹</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1407" title="製茶機械介紹" alt="製茶機械介紹" target="_self">製茶機械介紹</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1408" title="茶園灌概" alt="茶園灌概" target="_self">茶園灌概</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1409" title="茶園機械保養及修護" alt="茶園機械保養及修護" target="_self">茶園機械保養及修護</a></div>
+                                                                        
+                                            </div>
+                                
+                
+                   
+                
+                                
+                                
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1509" title="推廣訓練" alt="推廣訓練" target="_self">推廣訓練</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=1510" title="農業教育訓練" alt="農業教育訓練" target="_self">農業教育訓練</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1511" title="茶葉驗證制度" alt="茶葉驗證制度" target="_self">茶葉驗證制度</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1512" title="推廣與輔導" alt="推廣與輔導" target="_self">推廣與輔導</a></div>
+                                                                        
+                                            </div>
+                                </div>
+                                
+                
+                   
+                
+                                
+                                
+                                <div class="f_tds">
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1476" title="特用作物" alt="特用作物" target="_self">特用作物</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=1477" title="杭菊" alt="杭菊" target="_self">杭菊</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1479" title="咖啡" alt="咖啡" target="_self">咖啡</a></div>
+                                                <div class="txts"><a href="/redirect_link.php?theme=web_structure&id=1824" title="油茶-將另開新視窗" alt="油茶-將另開新視窗" target="_blank">油茶</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1480" title="香花植物" alt="香花植物" target="_self">香花植物</a></div>
+                                                                        
+                                            </div>
+                                
+                
+                   
+                
+                                
+                                
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1495" title="茶葉知識庫" alt="茶葉知識庫" target="_self">茶葉知識庫</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=1496" title="臺灣特色茶" alt="臺灣特色茶" target="_self">臺灣特色茶</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1678" title="茶葉感官品評" alt="茶葉感官品評" target="_self">茶葉感官品評</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3830" title="茶葉之包裝貯藏" alt="茶葉之包裝貯藏" target="_self">茶葉之包裝貯藏</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3831" title="水質及水溫對茶湯品質之影響" alt="水質及水溫對茶湯品質之影響" target="_self">水質及水溫對茶湯品質之影響</a></div>
+                                                <div class="txts"><a href="/ws.php?id=3832" title="臺茶18號在不同製程中對品質的影響" alt="臺茶18號在不同製程中對品質的影響" target="_self">臺茶18號在不同製程中對品質的影響</a></div>
+                                                                        
+                                            </div>
+                                </div>
+                                
+                
+                   
+                
+                                
+                                
+                                <div class="f_tds">
+                                	<div class="grids">
+                    
+                    	<div class="titles"><a href="/ws.php?id=1527" title="植物保護" alt="植物保護" target="_self">植物保護</a></div>
+                     
+                                                                        <div class="txts"><a href="/ws.php?id=1541" title="茶樹病蟲害簡介" alt="茶樹病蟲害簡介" target="_self">茶樹病蟲害簡介</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1542" title="茶樹病蟲害防治" alt="茶樹病蟲害防治" target="_self">茶樹病蟲害防治</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1530" title="杭菊病蟲害簡介" alt="杭菊病蟲害簡介" target="_self">杭菊病蟲害簡介</a></div>
+                                                <div class="txts"><a href="/ws.php?id=1531" title="杭菊病蟲害防治" alt="杭菊病蟲害防治" target="_self">杭菊病蟲害防治</a></div>
+                                                                        
+                                            </div>
+                                </div>
+                                
+                
+                   
+                
+                
+
+
+                </div>
+            </div>
+            <!--展開/收合區塊_end--> 
+        </div>
+        
+        <div class="footer_bottom">
+        <div class="datagrids wh-a">
+		<div class="fieldtitle">桃園本場</div>
+		<div class="fielddata">地址：326011 桃園市楊梅區埔心中興路324號<br>電話：+886-3-4822059(代表號) | 傳真：+886-3-4824716</div>
+		<div class="fieldtitle">魚池分場</div>
+		<div class="fielddata">地址：555009 南投縣魚池鄉水社村中山路270巷13號<br>電話：+886-49-2855106 | 傳真：+886-49-2855445</div>
+	</div>
+	<div class="datagrids wh-b">
+		<div class="fieldtitle">文山分場</div>
+		<div class="fielddata">地址：231040 新北市石碇區格頭里北宜路五段12號<br>電話：+886-2-2665-1801 | 傳真：+886-2-26651893</div>
+		<div class="fieldtitle">臺東分場</div>
+		<div class="fielddata">地址：955001 臺東縣鹿野鄉龍田村北二路66號<br>電話：+886-89-551446 | 傳真：+886-89-551054</div>
+	</div>
+	<div class="datagrids wh-c">
+		<div class="fieldtitle">凍頂工作站</div>
+	  <div class="fielddata">地址：558004 南投縣鹿谷鄉仁愛路255號<br>電話：+886-49-2753960 | 傳真：+886-49-2755493</div>
+	  <div class="visit_count">到訪人次：3804812</div>
+	</div>
+	<div class="datagrids wh-d">
+		<a href="ws.php?id=1032" class="links" title="隱私權保護宣告">隱私權保護宣告</a><br>
+		<a href="ws.php?id=1033" class="links" title="資訊安全政策宣告">資訊安全政策宣告</a><br>
+		<a href="ws.php?id=1034" class="links" title="政府網站資料開放宣告">政府網站資料開放宣告</a><br>
+		<a href="theme_list.php?theme=traffic_information" class="links" title="本場位置圖">本場位置圖</a>
+	</div>
+	<div class="fblock">最佳瀏覽解析度1920 x1080以上，支援瀏覽器IE 9.0以上、Firefox 、Google Chrome<br>
+	<div class="finline">茶業改良場 © 版權所有2018 teais All Rights Reserved</div> <span class="nonemob">|</span> 
+	<div class="finline">Copyright ©本網站發表之所有文章、圖文係版權所有，係為學術研究成果，非經本場同意不得將全部或部分內容，轉載於任何形式媒體；不得引用於產品及食品之標示、宣傳及廣告。若不當引用，應自負法律責任。</div>
+	</div>
+<div class="datagrids wh-e">
+                    
+                    <a href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20190903172146" title="無障礙網站" target="_blank">
+    <img src="images/layout/accessy_2aa.png" border="0" width="88" height="31" alt="通過AA檢測等級無障礙網頁檢測" />
+    </a>
+                </div>
+</div>
+<script async
+src="https://www.googletagmanager.com/gtag/js?id=UA-132983729-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132983729-1');
+</script>
+        </div>
+    <!--end-->
+    
+     
+        
+    <!--footer/end-->
+</div>
+
+<!--top-->
+<a href="#tops" class="topbtn" title="回到網頁最頂端">Top</a>
+  
+</body>
+
+<!-- InstanceEnd --></html>

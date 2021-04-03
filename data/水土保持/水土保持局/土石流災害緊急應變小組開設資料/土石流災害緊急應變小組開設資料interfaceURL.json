@@ -1,0 +1,1192 @@
+[
+  {
+    "DisasterID": "109H",
+    "DisasterYear": "109",
+    "DisasterType": "颱風",
+    "OpenTime": "20201105",
+    "CloseTime": "20201107"
+  },
+  {
+    "DisasterID": "109G",
+    "DisasterYear": "109",
+    "DisasterType": "豪雨",
+    "OpenTime": "20201016",
+    "CloseTime": "20201019"
+  },
+  {
+    "DisasterID": "109F",
+    "DisasterYear": "109",
+    "DisasterType": "颱風",
+    "OpenTime": "20200822",
+    "CloseTime": "20200822"
+  },
+  {
+    "DisasterID": "109E",
+    "DisasterYear": "109",
+    "DisasterType": "颱風",
+    "OpenTime": "20200810",
+    "CloseTime": "20200811"
+  },
+  {
+    "DisasterID": "109D",
+    "DisasterYear": "109",
+    "DisasterType": "颱風",
+    "OpenTime": "20200802",
+    "CloseTime": "20200803"
+  },
+  {
+    "DisasterID": "109C",
+    "DisasterYear": "109",
+    "DisasterType": "豪雨",
+    "OpenTime": "20200528",
+    "CloseTime": "20200528"
+  },
+  {
+    "DisasterID": "109B",
+    "DisasterYear": "109",
+    "DisasterType": "豪雨",
+    "OpenTime": "20200521",
+    "CloseTime": "20200523"
+  },
+  {
+    "DisasterID": "109A",
+    "DisasterYear": "109",
+    "DisasterType": "颱風",
+    "OpenTime": "20200516",
+    "CloseTime": "20200517"
+  },
+  {
+    "DisasterID": "108L",
+    "DisasterYear": "108",
+    "DisasterType": "颱風",
+    "OpenTime": "20190929",
+    "CloseTime": "20191001"
+  },
+  {
+    "DisasterID": "108K",
+    "DisasterYear": "108",
+    "DisasterType": "颱風",
+    "OpenTime": "20190823",
+    "CloseTime": "20190825"
+  },
+  {
+    "DisasterID": "108J",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190815",
+    "CloseTime": "20190818"
+  },
+  {
+    "DisasterID": "108I",
+    "DisasterYear": "108",
+    "DisasterType": "颱風",
+    "OpenTime": "20190807",
+    "CloseTime": "20190813"
+  },
+  {
+    "DisasterID": "108H",
+    "DisasterYear": "108",
+    "DisasterType": "颱風",
+    "OpenTime": "20190717",
+    "CloseTime": "20190720"
+  },
+  {
+    "DisasterID": "108G",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190611",
+    "CloseTime": "20190614"
+  },
+  {
+    "DisasterID": "108F",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190518",
+    "CloseTime": "20190521"
+  },
+  {
+    "DisasterID": "108E",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190517",
+    "CloseTime": "20190517"
+  },
+  {
+    "DisasterID": "108D",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190510",
+    "CloseTime": "20190510"
+  },
+  {
+    "DisasterID": "108C",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190427",
+    "CloseTime": "20190428"
+  },
+  {
+    "DisasterID": "108B",
+    "DisasterYear": "108",
+    "DisasterType": "",
+    "OpenTime": "20190418",
+    "CloseTime": "20190418"
+  },
+  {
+    "DisasterID": "108A",
+    "DisasterYear": "108",
+    "DisasterType": "豪雨",
+    "OpenTime": "20190101",
+    "CloseTime": "20190104"
+  },
+  {
+    "DisasterID": "107I",
+    "DisasterYear": "107",
+    "DisasterType": "豪雨",
+    "OpenTime": "20181110",
+    "CloseTime": "20181110"
+  },
+  {
+    "DisasterID": "107H",
+    "DisasterYear": "107",
+    "DisasterType": "颱風",
+    "OpenTime": "20180914",
+    "CloseTime": "20180916"
+  },
+  {
+    "DisasterID": "107G",
+    "DisasterYear": "107",
+    "DisasterType": "豪雨",
+    "OpenTime": "20180909",
+    "CloseTime": "20180911"
+  },
+  {
+    "DisasterID": "107F",
+    "DisasterYear": "107",
+    "DisasterType": "豪雨",
+    "OpenTime": "20180823",
+    "CloseTime": "20180830"
+  },
+  {
+    "DisasterID": "107E",
+    "DisasterYear": "107",
+    "DisasterType": "颱風",
+    "OpenTime": "20180709",
+    "CloseTime": "20180711"
+  },
+  {
+    "DisasterID": "107D",
+    "DisasterYear": "107",
+    "DisasterType": "豪雨",
+    "OpenTime": "20180702",
+    "CloseTime": "20180704"
+  },
+  {
+    "DisasterID": "107C",
+    "DisasterYear": "107",
+    "DisasterType": "豪雨",
+    "OpenTime": "20180619",
+    "CloseTime": "20180621"
+  },
+  {
+    "DisasterID": "107B",
+    "DisasterYear": "107",
+    "DisasterType": "豪雨",
+    "OpenTime": "20180613",
+    "CloseTime": "20180615"
+  },
+  {
+    "DisasterID": "107A",
+    "DisasterYear": "107",
+    "DisasterType": "",
+    "OpenTime": "20180207",
+    "CloseTime": "20180209"
+  },
+  {
+    "DisasterID": "106H",
+    "DisasterYear": "106",
+    "DisasterType": "豪雨",
+    "OpenTime": "20171012",
+    "CloseTime": "20171016"
+  },
+  {
+    "DisasterID": "106G",
+    "DisasterYear": "106",
+    "DisasterType": "颱風",
+    "OpenTime": "20170912",
+    "CloseTime": "20170914"
+  },
+  {
+    "DisasterID": "106F",
+    "DisasterYear": "106",
+    "DisasterType": "颱風",
+    "OpenTime": "20170906",
+    "CloseTime": "20170907"
+  },
+  {
+    "DisasterID": "106E",
+    "DisasterYear": "106",
+    "DisasterType": "颱風",
+    "OpenTime": "20170821",
+    "CloseTime": "20170823"
+  },
+  {
+    "DisasterID": "106D",
+    "DisasterYear": "106",
+    "DisasterType": "豪雨",
+    "OpenTime": "20170801",
+    "CloseTime": "20170802"
+  },
+  {
+    "DisasterID": "106C",
+    "DisasterYear": "106",
+    "DisasterType": "颱風",
+    "OpenTime": "20170728",
+    "CloseTime": "20170731"
+  },
+  {
+    "DisasterID": "106B",
+    "DisasterYear": "106",
+    "DisasterType": "豪雨",
+    "OpenTime": "20170613",
+    "CloseTime": "20170619"
+  },
+  {
+    "DisasterID": "106A",
+    "DisasterYear": "106",
+    "DisasterType": "豪雨",
+    "OpenTime": "20170602",
+    "CloseTime": "20170605"
+  },
+  {
+    "DisasterID": "105J",
+    "DisasterYear": "105",
+    "DisasterType": "豪雨",
+    "OpenTime": "20161012",
+    "CloseTime": "20161013"
+  },
+  {
+    "DisasterID": "105I",
+    "DisasterYear": "105",
+    "DisasterType": "颱風",
+    "OpenTime": "20161005",
+    "CloseTime": "20161011"
+  },
+  {
+    "DisasterID": "105H",
+    "DisasterYear": "105",
+    "DisasterType": "颱風",
+    "OpenTime": "20160926",
+    "CloseTime": "20160929"
+  },
+  {
+    "DisasterID": "105G",
+    "DisasterYear": "105",
+    "DisasterType": "颱風",
+    "OpenTime": "20160916",
+    "CloseTime": "20160920"
+  },
+  {
+    "DisasterID": "105F",
+    "DisasterYear": "105",
+    "DisasterType": "颱風",
+    "OpenTime": "20160913",
+    "CloseTime": "20160915"
+  },
+  {
+    "DisasterID": "105E",
+    "DisasterYear": "105",
+    "DisasterType": "豪雨",
+    "OpenTime": "20160710",
+    "CloseTime": "20160712"
+  },
+  {
+    "DisasterID": "105D",
+    "DisasterYear": "105",
+    "DisasterType": "颱風",
+    "OpenTime": "20160706",
+    "CloseTime": "20160709"
+  },
+  {
+    "DisasterID": "105C",
+    "DisasterYear": "105",
+    "DisasterType": "豪雨",
+    "OpenTime": "20160630",
+    "CloseTime": "20160630"
+  },
+  {
+    "DisasterID": "105B",
+    "DisasterYear": "105",
+    "DisasterType": "豪雨",
+    "OpenTime": "20160611",
+    "CloseTime": "20160614"
+  },
+  {
+    "DisasterID": "105A",
+    "DisasterYear": "105",
+    "DisasterType": "",
+    "OpenTime": "20160206",
+    "CloseTime": "20160214"
+  },
+  {
+    "DisasterID": "104F",
+    "DisasterYear": "104",
+    "DisasterType": "颱風",
+    "OpenTime": "20150927",
+    "CloseTime": "20150929"
+  },
+  {
+    "DisasterID": "104E",
+    "DisasterYear": "104",
+    "DisasterType": "颱風",
+    "OpenTime": "20150820",
+    "CloseTime": "20150823"
+  },
+  {
+    "DisasterID": "104D",
+    "DisasterYear": "104",
+    "DisasterType": "颱風",
+    "OpenTime": "20150806",
+    "CloseTime": "20150811"
+  },
+  {
+    "DisasterID": "104C",
+    "DisasterYear": "104",
+    "DisasterType": "颱風",
+    "OpenTime": "20150706",
+    "CloseTime": "20150711"
+  },
+  {
+    "DisasterID": "104B",
+    "DisasterYear": "104",
+    "DisasterType": "豪雨",
+    "OpenTime": "20150523",
+    "CloseTime": "20150527"
+  },
+  {
+    "DisasterID": "104A",
+    "DisasterYear": "104",
+    "DisasterType": "颱風",
+    "OpenTime": "20150510",
+    "CloseTime": "20150511"
+  },
+  {
+    "DisasterID": "103E",
+    "DisasterYear": "103",
+    "DisasterType": "颱風",
+    "OpenTime": "20140919",
+    "CloseTime": "20140922"
+  },
+  {
+    "DisasterID": "103D",
+    "DisasterYear": "103",
+    "DisasterType": "颱風",
+    "OpenTime": "20140721",
+    "CloseTime": "20140724"
+  },
+  {
+    "DisasterID": "103C",
+    "DisasterYear": "103",
+    "DisasterType": "颱風",
+    "OpenTime": "20140614",
+    "CloseTime": "20140615"
+  },
+  {
+    "DisasterID": "103B",
+    "DisasterYear": "103",
+    "DisasterType": "豪雨",
+    "OpenTime": "20140606",
+    "CloseTime": "20140607"
+  },
+  {
+    "DisasterID": "103A",
+    "DisasterYear": "103",
+    "DisasterType": "豪雨",
+    "OpenTime": "20140520",
+    "CloseTime": "20140522"
+  },
+  {
+    "DisasterID": "102I",
+    "DisasterYear": "102",
+    "DisasterType": "颱風",
+    "OpenTime": "20131004",
+    "CloseTime": "20131007"
+  },
+  {
+    "DisasterID": "102H",
+    "DisasterYear": "102",
+    "DisasterType": "颱風",
+    "OpenTime": "20130919",
+    "CloseTime": "20130922"
+  },
+  {
+    "DisasterID": "102G",
+    "DisasterYear": "102",
+    "DisasterType": "颱風",
+    "OpenTime": "20130827",
+    "CloseTime": "20130901"
+  },
+  {
+    "DisasterID": "102F",
+    "DisasterYear": "102",
+    "DisasterType": "颱風",
+    "OpenTime": "20130820",
+    "CloseTime": "20130822"
+  },
+  {
+    "DisasterID": "102E",
+    "DisasterYear": "102",
+    "DisasterType": "颱風",
+    "OpenTime": "20130717",
+    "CloseTime": "20130718"
+  },
+  {
+    "DisasterID": "102D",
+    "DisasterYear": "102",
+    "DisasterType": "颱風",
+    "OpenTime": "20130711",
+    "CloseTime": "20130713"
+  },
+  {
+    "DisasterID": "102C",
+    "DisasterYear": "102",
+    "DisasterType": "豪雨",
+    "OpenTime": "20130602",
+    "CloseTime": "20130602"
+  },
+  {
+    "DisasterID": "102B",
+    "DisasterYear": "102",
+    "DisasterType": "豪雨",
+    "OpenTime": "20130517",
+    "CloseTime": "20130522"
+  },
+  {
+    "DisasterID": "102A",
+    "DisasterYear": "102",
+    "DisasterType": "豪雨",
+    "OpenTime": "20130405",
+    "CloseTime": "20130406"
+  },
+  {
+    "DisasterID": "101M",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120927",
+    "CloseTime": "20120928"
+  },
+  {
+    "DisasterID": "101L",
+    "DisasterYear": "101",
+    "DisasterType": "豪雨",
+    "OpenTime": "20120915",
+    "CloseTime": "20120915"
+  },
+  {
+    "DisasterID": "101K",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120826",
+    "CloseTime": "20120828"
+  },
+  {
+    "DisasterID": "101J",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120821",
+    "CloseTime": "20120825"
+  },
+  {
+    "DisasterID": "101I",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120814",
+    "CloseTime": "20120815"
+  },
+  {
+    "DisasterID": "101H",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120806",
+    "CloseTime": "20120807"
+  },
+  {
+    "DisasterID": "101G",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120730",
+    "CloseTime": "20120803"
+  },
+  {
+    "DisasterID": "101F",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120628",
+    "CloseTime": "20120629"
+  },
+  {
+    "DisasterID": "101E",
+    "DisasterYear": "101",
+    "DisasterType": "颱風",
+    "OpenTime": "20120618",
+    "CloseTime": "20120621"
+  },
+  {
+    "DisasterID": "101D",
+    "DisasterYear": "101",
+    "DisasterType": "豪雨",
+    "OpenTime": "20120610",
+    "CloseTime": "20120616"
+  },
+  {
+    "DisasterID": "101C",
+    "DisasterYear": "101",
+    "DisasterType": "豪雨",
+    "OpenTime": "20120520",
+    "CloseTime": "20120520"
+  },
+  {
+    "DisasterID": "101B",
+    "DisasterYear": "101",
+    "DisasterType": "豪雨",
+    "OpenTime": "20120512",
+    "CloseTime": "20120513"
+  },
+  {
+    "DisasterID": "101A",
+    "DisasterYear": "101",
+    "DisasterType": "豪雨",
+    "OpenTime": "20120504",
+    "CloseTime": "20120504"
+  },
+  {
+    "DisasterID": "100H",
+    "DisasterYear": "100",
+    "DisasterType": "豪雨",
+    "OpenTime": "20111117",
+    "CloseTime": "20111118"
+  },
+  {
+    "DisasterID": "100G",
+    "DisasterYear": "100",
+    "DisasterType": "豪雨",
+    "OpenTime": "20111002",
+    "CloseTime": "20111004"
+  },
+  {
+    "DisasterID": "100F",
+    "DisasterYear": "100",
+    "DisasterType": "颱風",
+    "OpenTime": "20110827",
+    "CloseTime": "20110831"
+  },
+  {
+    "DisasterID": "100E",
+    "DisasterYear": "100",
+    "DisasterType": "颱風",
+    "OpenTime": "20110804",
+    "CloseTime": "20110806"
+  },
+  {
+    "DisasterID": "100D",
+    "DisasterYear": "100",
+    "DisasterType": "豪雨",
+    "OpenTime": "20110719",
+    "CloseTime": "20110720"
+  },
+  {
+    "DisasterID": "100C",
+    "DisasterYear": "100",
+    "DisasterType": "颱風",
+    "OpenTime": "20110624",
+    "CloseTime": "20110625"
+  },
+  {
+    "DisasterID": "100B",
+    "DisasterYear": "100",
+    "DisasterType": "颱風",
+    "OpenTime": "20110527",
+    "CloseTime": "20110528"
+  },
+  {
+    "DisasterID": "100A",
+    "DisasterYear": "100",
+    "DisasterType": "颱風",
+    "OpenTime": "20110509",
+    "CloseTime": "20110510"
+  },
+  {
+    "DisasterID": "099J",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20101017",
+    "CloseTime": "20101024"
+  },
+  {
+    "DisasterID": "099I",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20101016",
+    "CloseTime": "20101017"
+  },
+  {
+    "DisasterID": "099H",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20100924",
+    "CloseTime": "20100924"
+  },
+  {
+    "DisasterID": "099G",
+    "DisasterYear": "099",
+    "DisasterType": "颱風",
+    "OpenTime": "20100917",
+    "CloseTime": "20100921"
+  },
+  {
+    "DisasterID": "099F",
+    "DisasterYear": "099",
+    "DisasterType": "颱風",
+    "OpenTime": "20100908",
+    "CloseTime": "20100910"
+  },
+  {
+    "DisasterID": "099E",
+    "DisasterYear": "099",
+    "DisasterType": "颱風",
+    "OpenTime": "20100830",
+    "CloseTime": "20100902"
+  },
+  {
+    "DisasterID": "099D",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20100727",
+    "CloseTime": "20100729"
+  },
+  {
+    "DisasterID": "099C",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20100529",
+    "CloseTime": "20100531"
+  },
+  {
+    "DisasterID": "099B",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20100523",
+    "CloseTime": "20100524"
+  },
+  {
+    "DisasterID": "099A",
+    "DisasterYear": "099",
+    "DisasterType": "豪雨",
+    "OpenTime": "20100304",
+    "CloseTime": "20100305"
+  },
+  {
+    "DisasterID": "098E",
+    "DisasterYear": "098",
+    "DisasterType": "豪雨",
+    "OpenTime": "20091011",
+    "CloseTime": "20091014"
+  },
+  {
+    "DisasterID": "098D",
+    "DisasterYear": "098",
+    "DisasterType": "颱風",
+    "OpenTime": "20091003",
+    "CloseTime": "20091007"
+  },
+  {
+    "DisasterID": "098C",
+    "DisasterYear": "098",
+    "DisasterType": "颱風",
+    "OpenTime": "20090805",
+    "CloseTime": "20090831"
+  },
+  {
+    "DisasterID": "098B",
+    "DisasterYear": "098",
+    "DisasterType": "颱風",
+    "OpenTime": "20090716",
+    "CloseTime": "20090718"
+  },
+  {
+    "DisasterID": "098A",
+    "DisasterYear": "098",
+    "DisasterType": "颱風",
+    "OpenTime": "20090619",
+    "CloseTime": "20090622"
+  },
+  {
+    "DisasterID": "097F",
+    "DisasterYear": "097",
+    "DisasterType": "颱風",
+    "OpenTime": "20080926",
+    "CloseTime": "20080930"
+  },
+  {
+    "DisasterID": "097E",
+    "DisasterYear": "097",
+    "DisasterType": "颱風",
+    "OpenTime": "20080921",
+    "CloseTime": "20080923"
+  },
+  {
+    "DisasterID": "097D",
+    "DisasterYear": "097",
+    "DisasterType": "颱風",
+    "OpenTime": "20080911",
+    "CloseTime": "20080919"
+  },
+  {
+    "DisasterID": "097C",
+    "DisasterYear": "097",
+    "DisasterType": "颱風",
+    "OpenTime": "20080819",
+    "CloseTime": "20080821"
+  },
+  {
+    "DisasterID": "097B",
+    "DisasterYear": "097",
+    "DisasterType": "颱風",
+    "OpenTime": "20080726",
+    "CloseTime": "20080731"
+  },
+  {
+    "DisasterID": "097A",
+    "DisasterYear": "097",
+    "DisasterType": "颱風",
+    "OpenTime": "20080716",
+    "CloseTime": "20080723"
+  },
+  {
+    "DisasterID": "096G",
+    "DisasterYear": "096",
+    "DisasterType": "颱風",
+    "OpenTime": "20071126",
+    "CloseTime": "20071127"
+  },
+  {
+    "DisasterID": "096F",
+    "DisasterYear": "096",
+    "DisasterType": "颱風",
+    "OpenTime": "20071004",
+    "CloseTime": "20071008"
+  },
+  {
+    "DisasterID": "096E",
+    "DisasterYear": "096",
+    "DisasterType": "颱風",
+    "OpenTime": "20070917",
+    "CloseTime": "20070919"
+  },
+  {
+    "DisasterID": "096D",
+    "DisasterYear": "096",
+    "DisasterType": "颱風",
+    "OpenTime": "20070816",
+    "CloseTime": "20070821"
+  },
+  {
+    "DisasterID": "096C",
+    "DisasterYear": "096",
+    "DisasterType": "豪雨",
+    "OpenTime": "20070813",
+    "CloseTime": "20070815"
+  },
+  {
+    "DisasterID": "096B",
+    "DisasterYear": "096",
+    "DisasterType": "颱風",
+    "OpenTime": "20070806",
+    "CloseTime": "20070810"
+  },
+  {
+    "DisasterID": "096A",
+    "DisasterYear": "096",
+    "DisasterType": "豪雨",
+    "OpenTime": "20070607",
+    "CloseTime": "20070611"
+  },
+  {
+    "DisasterID": "095J",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060914",
+    "CloseTime": "20060916"
+  },
+  {
+    "DisasterID": "095I",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060809",
+    "CloseTime": "20060810"
+  },
+  {
+    "DisasterID": "095H",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060807",
+    "CloseTime": "20060809"
+  },
+  {
+    "DisasterID": "095G",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060723",
+    "CloseTime": "20060725"
+  },
+  {
+    "DisasterID": "095F",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060712",
+    "CloseTime": "20060716"
+  },
+  {
+    "DisasterID": "095E",
+    "DisasterYear": "095",
+    "DisasterType": "豪雨",
+    "OpenTime": "20060709",
+    "CloseTime": "20060710"
+  },
+  {
+    "DisasterID": "095D",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060708",
+    "CloseTime": "20060709"
+  },
+  {
+    "DisasterID": "095C",
+    "DisasterYear": "095",
+    "DisasterType": "豪雨",
+    "OpenTime": "20060609",
+    "CloseTime": "20060615"
+  },
+  {
+    "DisasterID": "095B",
+    "DisasterYear": "095",
+    "DisasterType": "颱風",
+    "OpenTime": "20060516",
+    "CloseTime": "20060518"
+  },
+  {
+    "DisasterID": "095A",
+    "DisasterYear": "095",
+    "DisasterType": "豪雨",
+    "OpenTime": "20060410",
+    "CloseTime": "20060411"
+  },
+  {
+    "DisasterID": "094M",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050930",
+    "CloseTime": "20051003"
+  },
+  {
+    "DisasterID": "094L",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050921",
+    "CloseTime": "20050923"
+  },
+  {
+    "DisasterID": "094K",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050909",
+    "CloseTime": "20050911"
+  },
+  {
+    "DisasterID": "094J",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050830",
+    "CloseTime": "20050902"
+  },
+  {
+    "DisasterID": "094I",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050811",
+    "CloseTime": "20050813"
+  },
+  {
+    "DisasterID": "094H",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050803",
+    "CloseTime": "20050807"
+  },
+  {
+    "DisasterID": "094G",
+    "DisasterYear": "094",
+    "DisasterType": "颱風",
+    "OpenTime": "20050716",
+    "CloseTime": "20050722"
+  },
+  {
+    "DisasterID": "094F",
+    "DisasterYear": "094",
+    "DisasterType": "豪雨",
+    "OpenTime": "20050628",
+    "CloseTime": "20050628"
+  },
+  {
+    "DisasterID": "094E",
+    "DisasterYear": "094",
+    "DisasterType": "豪雨",
+    "OpenTime": "20050612",
+    "CloseTime": "20050618"
+  },
+  {
+    "DisasterID": "094D",
+    "DisasterYear": "094",
+    "DisasterType": "豪雨",
+    "OpenTime": "20050602",
+    "CloseTime": "20050604"
+  },
+  {
+    "DisasterID": "094C",
+    "DisasterYear": "094",
+    "DisasterType": "豪雨",
+    "OpenTime": "20050523",
+    "CloseTime": "20050525"
+  },
+  {
+    "DisasterID": "094B",
+    "DisasterYear": "094",
+    "DisasterType": "豪雨",
+    "OpenTime": "20050518",
+    "CloseTime": "20050520"
+  },
+  {
+    "DisasterID": "094A",
+    "DisasterYear": "094",
+    "DisasterType": "豪雨",
+    "OpenTime": "20050512",
+    "CloseTime": "20050516"
+  },
+  {
+    "DisasterID": "093H",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20041203",
+    "CloseTime": "20041206"
+  },
+  {
+    "DisasterID": "093G",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20041024",
+    "CloseTime": "20041027"
+  },
+  {
+    "DisasterID": "093F",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20040910",
+    "CloseTime": "20040920"
+  },
+  {
+    "DisasterID": "093E",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20040823",
+    "CloseTime": "20040909"
+  },
+  {
+    "DisasterID": "093D",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20040811",
+    "CloseTime": "20040812"
+  },
+  {
+    "DisasterID": "093C",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20040714",
+    "CloseTime": "20040808"
+  },
+  {
+    "DisasterID": "093B",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20040629",
+    "CloseTime": "20040714"
+  },
+  {
+    "DisasterID": "093A",
+    "DisasterYear": "093",
+    "DisasterType": "颱風",
+    "OpenTime": "20040608",
+    "CloseTime": "20040609"
+  },
+  {
+    "DisasterID": "092I",
+    "DisasterYear": "092",
+    "DisasterType": "颱風",
+    "OpenTime": "20031102",
+    "CloseTime": "20031103"
+  },
+  {
+    "DisasterID": "092H",
+    "DisasterYear": "092",
+    "DisasterType": "豪雨",
+    "OpenTime": "20031004",
+    "CloseTime": "20031005"
+  },
+  {
+    "DisasterID": "092G",
+    "DisasterYear": "092",
+    "DisasterType": "颱風",
+    "OpenTime": "20030831",
+    "CloseTime": "20030902"
+  },
+  {
+    "DisasterID": "092F",
+    "DisasterYear": "092",
+    "DisasterType": "颱風",
+    "OpenTime": "20030819",
+    "CloseTime": "20030820"
+  },
+  {
+    "DisasterID": "092E",
+    "DisasterYear": "092",
+    "DisasterType": "颱風",
+    "OpenTime": "20030802",
+    "CloseTime": "20030804"
+  },
+  {
+    "DisasterID": "092D",
+    "DisasterYear": "092",
+    "DisasterType": "豪雨",
+    "OpenTime": "20030612",
+    "CloseTime": "20030613"
+  },
+  {
+    "DisasterID": "092C",
+    "DisasterYear": "092",
+    "DisasterType": "豪雨",
+    "OpenTime": "20030606",
+    "CloseTime": "20030610"
+  },
+  {
+    "DisasterID": "092B",
+    "DisasterYear": "092",
+    "DisasterType": "颱風",
+    "OpenTime": "20030602",
+    "CloseTime": "20030603"
+  },
+  {
+    "DisasterID": "092A",
+    "DisasterYear": "092",
+    "DisasterType": "颱風",
+    "OpenTime": "20030421",
+    "CloseTime": "20030424"
+  },
+  {
+    "DisasterID": "091J",
+    "DisasterYear": "091",
+    "DisasterType": "颱風",
+    "OpenTime": "20020904",
+    "CloseTime": "20020908"
+  },
+  {
+    "DisasterID": "091I",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020807",
+    "CloseTime": "20020807"
+  },
+  {
+    "DisasterID": "091H",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020717",
+    "CloseTime": "20020719"
+  },
+  {
+    "DisasterID": "091G",
+    "DisasterYear": "091",
+    "DisasterType": "颱風",
+    "OpenTime": "20020709",
+    "CloseTime": "20020711"
+  },
+  {
+    "DisasterID": "091F",
+    "DisasterYear": "091",
+    "DisasterType": "颱風",
+    "OpenTime": "20020703",
+    "CloseTime": "20020704"
+  },
+  {
+    "DisasterID": "091E",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020611",
+    "CloseTime": "20020614"
+  },
+  {
+    "DisasterID": "091D",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020606",
+    "CloseTime": "20020606"
+  },
+  {
+    "DisasterID": "091C",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020531",
+    "CloseTime": "20020601"
+  },
+  {
+    "DisasterID": "091B",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020530",
+    "CloseTime": "20020530"
+  },
+  {
+    "DisasterID": "091A",
+    "DisasterYear": "091",
+    "DisasterType": "豪雨",
+    "OpenTime": "20020517",
+    "CloseTime": "20020518"
+  },
+  {
+    "DisasterID": "090D",
+    "DisasterYear": "090",
+    "DisasterType": "颱風",
+    "OpenTime": "20010730",
+    "CloseTime": "20010730"
+  },
+  {
+    "DisasterID": "090C",
+    "DisasterYear": "090",
+    "DisasterType": "颱風",
+    "OpenTime": "20010922",
+    "CloseTime": "20010922"
+  },
+  {
+    "DisasterID": "090B",
+    "DisasterYear": "090",
+    "DisasterType": "颱風",
+    "OpenTime": "20011016",
+    "CloseTime": "20011016"
+  },
+  {
+    "DisasterID": "090A",
+    "DisasterYear": "090",
+    "DisasterType": "颱風",
+    "OpenTime": "20010927",
+    "CloseTime": "20010930"
+  }
+]

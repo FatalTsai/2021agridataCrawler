@@ -1,0 +1,547 @@
+
+<!doctype html>
+<html lang="zh-TW">
+
+<head id="ctl00_Head1"><title>
+	CAS優良農產品管理入口網
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="cache-control" content="no-cache" /><meta http-equiv="Expires" content="-1" /><link type="text/css" rel="stylesheet" href="../Content/rwd/bootstrap.min.css" media="screen" /><link rel="stylesheet" type="text/css" href="../Content/smoothness/jquery-ui.css" /><link type="text/css" rel="stylesheet" href="../Content/rwd/bootstrap-theme.css" /><link href="../Content/rwd/GridviewScroll.css" rel="stylesheet" type="text/css" /><link href="../Content/style.min.css" rel="stylesheet" type="text/css" />
+    <!--RWD-->
+    <script type="text/javascript" src="../../Scripts/rwd/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/rwd/menu.js"></script>
+    <script type="text/javascript" src="../../Scripts/rwd/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-ui.min.js"></script>
+    <!-- 日曆 -->
+<link rel="stylesheet" type="text/css" href="../Content/jscalender/css/jscal2.css" />
+<script type="text/javascript" src="../../Scripts/jscalender/js/jscal2.js"></script>
+<script type="text/javascript" src="../../Scripts/jscalender/js/lang/cn.js"></script>
+    
+    <script language="JavaScript">
+        //往上的按鈕        
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 150) {
+            $("#scrollToTop").fadeIn("5000");
+        } else {
+            $("#scrollToTop").fadeOut("5000");
+        }
+    });
+     //Click event to scroll to top    
+    $(function(){
+                $('#scrollToTop').click(function () {
+                    $('html, body').animate({ scrollTop: 0 }, 500);
+                    return false;
+                });
+            });
+
+    <!--
+    //Cross-Frame Scripting修正   
+    if (top != window) {
+        top.location = window.location
+    }
+    // -->
+
+    function updatePType() {
+        $.ajax({
+            url: '/AP0017/GenerateMaterialKindList',
+            type: 'POST',
+            dataType: "json",
+            data: { category: $("#Query_Material_NO").val() },
+            beforeSend: function() { $("#Query_PType_NO").attr('disabled', true); },
+            complete: function() { $("#Query_PType_NO").attr('disabled', false); },
+            error: function(xhr, status, e) { alert(xhr.status) },
+            success: function(data, textStatus) {
+                $("#Query_PType_NO").empty();
+                $(data).each(function() {
+                    $("#Query_PType_NO").append("<option value='" + this.Value + "'>" + this.Text + "</option>");
+                });
+            }
+        });
+    }
+
+        function AP0051UpdatePType() {
+            $.ajax({
+                url: '/AP0051/GenerateMaterialKindList',
+                type: 'POST',
+                dataType: "json",
+                data: { category: $("#Material_NO_q").val() },
+                beforeSend: function () { $("#PType_NO_q").attr('disabled', true); },
+                complete: function () { $("#PType_NO_q").attr('disabled', false); },
+                error: function (xhr, status, e) { alert(xhr.status) },
+                success: function (data, textStatus) {
+                    $("#PType_NO_q").empty();
+                    $(data).each(function () {
+                        $("#PType_NO_q").append("<option value='" + this.Value + "'>" + this.Text + "</option>");
+                    });
+                }
+            });
+        }
+
+        function clickAP0051() {
+            var alertMsg = "";
+            var supplyS = $("#supplySDate51").val();
+            var supplyE = $("#supplyEDate51").val();
+            if (supplyS != "" && supplyE != "") {
+                if (new Date(supplyS) > new Date(supplyE)) {
+                    alertMsg += "生產日期迄日不得早於起日!\n";
+                }
+            }
+
+            var expireS = $("#expireSDate51").val();
+            var expireE = $("#expireEDate51").val();
+            if (expireS != "" && expireE != "") {
+                if (new Date(expireS) > new Date(expireE)) {
+                    alertMsg += "有效日期迄日不得早於起日!\n";
+                }
+            }
+
+            if (alertMsg != "") {
+                alert(alertMsg);
+            } else {
+                $("#status").val("first");
+                $("#AP0051").submit();
+            }
+            
+        }
+    
+    </script>
+</head>
+
+<body class="new-home">
+    <nav id="header_home" class="home-nav-box">
+        <div class="container">
+            <a href="/" id="header2" class="home-nav-left">
+                <div class="home-logo"><img src="../../images/rwd/logo.svg" class="align-items-center" alt="台灣優良農產品管理入口網"></div>
+                <div class="home-navbar-title">
+                    <h2>台灣優良農產品<span>管理入口網</span></h2>
+                    <h3>Taiwan premium Agricultural Products Portal Site</h3>
+                </div>
+            </a>
+            <div class="home-nav-right">
+                <div class="home-nav-btn">
+                    <a href="#" title="登入" onclick="location.href='/Home/LoginPage'" class="home-nav-login" >
+                        <p>登入</p>
+                    </a>
+                    <a href="#" title="申請CAS標章" onclick="location.href='/BM0101/BM0101List'" class="home-nav-cas" >
+                        <p>申請CAS標章</p>
+                    </a>
+                    <a href="/" title="首頁" class="home-nav-home">
+                        <p>首頁</p>
+                    </a>
+                </div>
+                <a href="#" title="主選單" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- 手機板選單白色背景 -->
+    <div class="home-nav-bg"></div>
+    <div class="container">
+        
+<script>
+  $(function() {
+    $("#navbar-cas, #navbar-consumer, #navbar-operator").dialog({
+        autoOpen: false,
+        modal: true,
+        draggable: false, 
+        dialogClass: "modal-alert",
+        beforeclose: function(){$.unblockUI();  //關閉區塊遮罩
+							   }
+    });
+    $( "#cas" ).click(function() {
+       $( "#navbar-cas" ).dialog( "open" );
+    });
+    $( "#consumer ,#consumer-menu" ).click(function() {
+       $( "#navbar-consumer" ).dialog( "open" );
+    });
+    $( "#operator ,#operator-menu" ).click(function() {
+       $( "#navbar-operator" ).dialog( "open" );
+    });
+  });   
+</script>
+
+    <div id="navbar-consumer" title="" style="display: none;"><!-- 消費者專區彈出視窗 -->
+        <div class="home-widget">
+            <div class="col-md-3 col-sm-3 home-widget-icon ">
+                <div class="content-cas-search"><img src="../../images/rwd/content-consumer.svg" alt="消費者專區">
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 home-widget-box">
+                <div class="home-widget-link">                	
+                    <a href="http://www.cas.org.tw/最新消息" target="_blank">最新消息</a>
+                    <a href="http://www.cas.org.tw/cas的特色" target="_blank">CAS的特色</a>
+                    <a href="http://www.cas.org.tw/cas的含義" target="_blank">CAS的含義</a>
+                    <a href="http://www.cas.org.tw/cas家族" target="_blank">CAS家族</a>
+                    <a href="http://www.cas.org.tw/食安知識專區" target="_blank">食安知識</a>
+                    <a href="http://www.cas.org.tw/cas消費者留言q-a" target="_blank">CAS消費者留言Q&A</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="navbar-operator" title="" style="display: none;"><!-- CAS業者專區彈出視窗 -->
+        <div class="home-widget">
+            <div class="col-md-3 col-sm-3 home-widget-icon ">
+                <div class="content-cas-search">
+                    <img src="../../images/rwd/content-operator.svg" alt="CAS業者專區">
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 home-widget-box">
+                
+                <div class="home-widget-link">
+                    <a href="/Home/ViewCategory?type=01">如何申請台灣優農產品標章(CAS標章)</a>
+                    <a href="/Home/ViewCategory?type=02">CAS規範</a>
+                    <a href="/Home/ViewCategory?type=03">CAS產品驗證基準</a>
+                    <a href="/Home/ViewCategory?type=04">CAS生產廠(場)追蹤查驗結果</a>
+                    <a href="/Home/ViewCategory?type=06">CAS產品檢驗結果</a>
+                    <a href="/Home/ViewCategory?type=05">驗證法規公告</a>                    
+                    <a href="/BM0294/BM0051Index">CAS驗證產品場家數</a>
+                    <a href="/BM0061/BM0061Index">CAS最新通過與終止</a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="navbar-cas" title="" style="display: none;"><!-- CAS產品查詢彈出視窗 -->    
+        <div class="home-widget">
+            <div class="col-md-3 col-sm-3 home-widget-icon ">
+                <div class="content-cas-search">
+                    <img src="../../images/rwd/content-cas-search.svg" alt="CAS產品查詢">
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-9 home-widget-box">
+                <div class="tabs">
+                    <ul class="tab-list">
+                        <li class="active"><a href="#tab-1" class="tab-control">CAS產品查詢</a></li>
+                        <li><a href="#tab-2" class="tab-control">CAS產品生產追溯查詢</a></li>                        
+                      </ul>
+                      <div class="tab-panel active" id="tab-1">                            
+                       <form action="/AP0017/AP0017Index" method="post">
+                            <div id="main4">
+                                <div class="fm">
+                                    <table class="edit">
+                                        <tr>
+                                            <td class="field">產品類別：</td>
+                                            <td class="value">
+                                                <select id="Query_Material_NO" name="Query_Material_NO" onchange="updatePType();"><option value="">全部</option>
+<option value="01">肉品</option>
+<option value="02">冷凍食品</option>
+<option value="03">果蔬汁</option>
+<option value="04">食米</option>
+<option value="05">醃漬蔬果</option>
+<option value="06">即食餐食</option>
+<option value="07">冷藏調理食品</option>
+<option value="08">菇蕈產品</option>
+<option value="09">釀造食品</option>
+<option value="10">點心食品</option>
+<option value="11">蛋品</option>
+<option value="12">生鮮截切蔬果</option>
+<option value="13">水產品</option>
+<option value="14">羽絨</option>
+<option value="15">乳品</option>
+<option value="16">林產品</option>
+</select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="field">產品種類：</td>
+                                            <td class="value">
+                                                <select id="Query_PType_NO" name="Query_PType_NO"><option value="">全部</option>
+</select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="field">廠商名稱：</td>
+                                            <td class="value">
+                                                <input id="Query_Company_Name" name="Query_Company_Name" type="text" value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="field">產品名稱：</td>
+                                            <td class="value">
+                                                <input id="Query_Product_NO" name="Query_Product_NO" type="text" value="" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="field">標章編號：</td>
+                                            <td class="value">
+                                                <input id="Query_Emblem_ID" name="Query_Emblem_ID" type="text" value="" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="btn-box">
+                                <input type="submit" value="查詢" class="btn btn-success" />
+                                <input type="button" name="cancel" value="返回" class="btn btn-line" onclick="$('#navbar-cas').dialog('close');" />
+                            </div>
+                        </form>
+                      </div>
+                      <div class="tab-panel" id="tab-2">
+                             <form action="/AP0051/AP0051Index" id="AP0051" method="post">           
+                        <div id="main4">
+                                <div class="fm">
+                                    <div class="helper_info">
+                                        <img src="../../images/icon_info.gif" width="20" height="20"><span>超過有效日期半年以上的生產追溯資料，不提供查詢。</span>
+                                    </div>
+                                    <table class="edit">
+                                        <tbody>
+                                            <tr>
+                                                <td class="field">廠商名稱：</td>
+                                                <td class="value">
+                                                    <input id="Company_Name_q" name="Company_Name_q" size="15" type="text" value="" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field">產品類別：</td>
+                                                <td class="value">
+                                                    <select id="Material_NO_q" name="Material_NO_q" onchange="AP0051UpdatePType();"><option value="">全部</option>
+<option value="01">肉品</option>
+<option value="02">冷凍食品</option>
+<option value="03">果蔬汁</option>
+<option value="04">食米</option>
+<option value="05">醃漬蔬果</option>
+<option value="06">即食餐食</option>
+<option value="07">冷藏調理食品</option>
+<option value="08">菇蕈產品</option>
+<option value="09">釀造食品</option>
+<option value="10">點心食品</option>
+<option value="11">蛋品</option>
+<option value="12">生鮮截切蔬果</option>
+<option value="13">水產品</option>
+<option value="14">羽絨</option>
+<option value="15">乳品</option>
+<option value="16">林產品</option>
+</select>
+                                                </td>
+                                            </tr>
+                                                <tr>
+                                                <td class="field">產品種類：</td>
+                                                <td class="value">
+                                                    <select id="PType_NO_q" name="PType_NO_q"><option value="">全部</option>
+</select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field">CAS標章編號：</td>
+                                                <td class="value">
+                                                     <input id="casCode" name="casCode" size="15" type="text" value="" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field">產品名稱：</td>
+                                                <td class="value">
+                                                    <input id="Product_NO_q" name="Product_NO_q" size="15" type="text" value="" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field">生產日期：</td>
+                                                <td class="value form-inline data">
+                                                    <input id="supplySDate" name="supplySDate" readOnly="readonly" size="7" type="text" value="" /><input type = 'button' id='supplySDate_B'  class='dateButton'/><script type='text/javascript'>Calendar.setup({trigger    : 'supplySDate_B',inputField : 'supplySDate',dateFormat : '%Y/%m/%d',onSelect   : function() { this.hide() }});</script>
+                                                    ~
+                                                    <input id="supplyEDate" name="supplyEDate" readOnly="readonly" size="7" type="text" value="" /><input type = 'button' id='supplyEDate_B'  class='dateButton'/><script type='text/javascript'>Calendar.setup({trigger    : 'supplyEDate_B',inputField : 'supplyEDate',dateFormat : '%Y/%m/%d',onSelect   : function() { this.hide() }});</script>
+                                                                                                     
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="field">有效日期：</td>
+                                                <td class="value form-inline data">
+                                                     <input id="expireSDate" name="expireSDate" readOnly="readonly" size="7" type="text" value="" /><input type = 'button' id='expireSDate_B'  class='dateButton'/><script type='text/javascript'>Calendar.setup({trigger    : 'expireSDate_B',inputField : 'expireSDate',dateFormat : '%Y/%m/%d',onSelect   : function() { this.hide() }});</script>
+                                                     ~
+                                                    <input id="expireEDate" name="expireEDate" readOnly="readonly" size="7" type="text" value="" /><input type = 'button' id='expireEDate_B'  class='dateButton'/><script type='text/javascript'>Calendar.setup({trigger    : 'expireEDate_B',inputField : 'expireEDate',dateFormat : '%Y/%m/%d',onSelect   : function() { this.hide() }});</script>                                                
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="btn-box">
+                                
+                                <input type="button" value="查詢" class="btn btn-success" onclick="clickAP0051();"/>
+                                <input type="button" name="cancel" value="返回" class="btn btn-line" onclick="$('#navbar-cas').dialog('close');" />
+                                 <input type="hidden" id="status" name="status" />
+                            </div>
+                           </form>
+                      </div>                    
+                </div>
+            </div>
+        </div>    
+    </div>
+    <script type="text/javascript">
+          /*類似迴圈效果*/
+    $('.tab-list').each(function(){
+      var tab = $(this).find('li.active');
+      var link = tab.find('a');
+      var panel = $(link.attr('href'));
+      /*#tab-1（又是href的屬性值，又是jQ的id選取方法）*/
+
+      $(this).on('click','.tab-control',function(e){
+        e.preventDefault();
+        var link2=$(this);
+        var id = this.hash;/*#tab-1、#tab-2...*/
+        /*id一定存在，所以是true*/
+        /*不是正在顯示的，被按下去的a，沒有active這個class，所以!false就是true*/
+        if(id && !link2.is('.active')){
+          panel.removeClass('active');/*div#tab-1拿掉*/
+          tab.removeClass('active');/*li拿掉*/
+          
+          panel=$(id).addClass('active');/*被按下去的那一個div#tab-?*/
+          tab=link2.parent().addClass('active');/*被按下去的那一個a的爸爸li*/
+        }
+      })
+    });
+  </script>
+
+
+
+    
+        
+        
+    <script type="text/javascript" src="../../Scripts/ddaccordion.js"></script>
+    <script type="text/javascript" src="../../Scripts/ddaccordion_init.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../Content/menu.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../Content/ext-all.css" />
+    <script type="text/javascript" src="../../Scripts/ext-base.js"></script>
+    <script type="text/javascript" src="../../Scripts/ext-all.js"></script>        
+    <script type="text/javascript" src="../../Scripts/ext-lang-zh_TW.js"></script>
+    <script type="text/javascript" src="../../Scripts/livevalidation_standalone.compressed.js"></script>   
+    <script type="text/javascript" src="../../Scripts/showdeadcenterdiv.js"></script>
+    <script src="../../Scripts/jquery.blockUI.js" type="text/javascript"></script>  
+
+    <!-- 傳遞 ajaxForm 使用  -->
+    <script src="../../Scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="../../Scripts/templete.js" type="text/javascript"></script>
+
+    <!-- 分頁 -->
+    <script type="text/javascript" src="../../Scripts/PagationUtil.js"></script>    
+    <script type="text/javascript" src="../../Scripts/jquery.filedsToJson.js" ></script>
+
+<script type="text/javascript">
+    //$(function () {
+    //    pagation.RenderDefault(cellFuncs, "tbid", pagation.pageInfo);
+    //    //BM0061Query();
+    //    query();
+    //});
+    var cellFuncs = [           
+            function (result) {
+                return '<div width="100%" align="left"><a href=\'../../../BM0061/BM0061Detail?Marst_NO=' + result.Marst_NO + '&Marst_State=' + result.Marst_State + '&Marst_AppType_NO=' + result.Marst_AppType_NO + '&Marst_Flow_Status=' + result.Marst_Flow_Status + '&Marst_Verification_ID=' + result.Marst_Verification_ID + '&Marst_Type=' + result.Marst_Type + '\'>' + result.Marst_Title + '</a></div>';
+            },
+            function (result) {
+                return '<div width="100%" align="center">' + result.Form_Marst_Date + '</div>';
+            }
+    ];
+
+    //function BM0061Query() {
+       
+    //   pagation.query();               
+    //}
+
+    //輸出錯誤訊息
+    function erralert(errstr) {
+        //debugger;
+        var err_array = errstr.split(";");
+        var str = "";
+        for (loop = 0; loop < err_array.length; loop++) {
+            //document.writeln(friend_array[loop] + " is myfriend.<br>");
+            str = str + err_array[loop] + "\n";
+        }
+
+        alert(str);
+    }
+
+</script>
+
+    <script type="text/javascript">
+        $(function () {
+            //pagation.RenderDefault(cellFuncs, "tbid", pagation.pageInfo);
+            //BM0061Query();
+            pagation.query();
+        });
+ </script>
+<div id="main">
+    <div id="side3">
+        <div id="main2">
+            <form action="/BM0061/BM0061Query?enctype=multipart%2Fform-data" method="post">
+            <div id="status">[BM0061]CAS最新通過與終止</div>
+            
+                <div class="fm">
+                    <!-- 內容 -->
+                    
+                    <div class="pager">
+                        本次查詢共<span id='totalCounts'>0</span>筆,<input type="button" value=" " title="上一頁" name="preBt" id="preBt" class="btnP" />每頁顯示<select name='PageSize' id='PageSize' ><option value="10"  selected="selected" >10</option><option value="50" >50</option><option value="100" >100</option><option value="500" >500</option></select>筆/第<select name='CurrentPage' id='CurrentPage' ><option value="1"  selected="selected" >1</option></select>頁<input type="button" value=" " title="下一頁" name="nextBt" id="nextBt" class="btnN"/><script>var pagation = new Pagation({"status":null,"PageSize":10,"CurrentPage":1,"Pages":1,"TotalCount":0,"PageList":[10,50,100,500],"QueryList":[],"DefaultSort":"","CurrentSort":"","SortType":"asc"},'/BM0061/BM0061Query',cellFuncs,'tbid','PageSize','CurrentPage','totalCounts','','');$(function() {$('#preBt').click(function(){pagation.prePage();});$('#nextBt').click(function(){pagation.nextPage();});$('#PageSize').change(function(){pagation.pageSize();});$('#CurrentPage').change(function(){pagation.jumpPage();});});</script>
+                    </div>
+                    <div class="gv_tab_sc">
+                        <table class="list">
+                            <tr class="head">
+                                <td id="Marst_Title">新增報備、通過或終止</td>
+                                <td id="Marst_Date">發文日期</td>
+                            </tr>
+                            <tbody id="tbid"></tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="clear"></div>
+                    <div class="btn-box">
+                        <!-- 按鈕 -->
+                      <a onclick="window.history.back();" class="btn btn-line">回上頁</a>
+                    </div>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+</div>
+        <script type="text/javascript">
+        
+    </script>
+   
+
+    </div>
+    
+<script language="JavaScript">
+	//相關網站展開
+	$(function () {
+					$("#phone-icon").click(function(){
+						$("#footer").toggleClass("footeropen");
+						$("#footer").toggleClass("footerclose");
+					});
+
+					$("#phone-icon.phoneclose").click(function(){
+						$("#footer").toggleClass("footeropen");
+						$("#footer").toggleClass("footerclose");
+					});
+				});
+</script>
+<footer id="footer" class="footerclose">
+    <div class="container text-center">
+        <p>© 2009-2020 行政院農業委員會 版權所有</p>
+        <div class="footer-phone-text">
+            <h2>驗證諮詢服務</h2>
+            <p>CAS協會：02-23567417</p>
+            <p>畜產會：02-23015569</p>
+            <p>食品所：03-5223191</p>
+            <p>工研院：03-5914115</p>
+            <p>農業諮詢專線：02-4499595</p>
+        </div>
+        <p>系統使用諮詢服務專線：0800-588-889</p>
+        <div class="footer-phone">
+            <!-- 相關連結 -->
+            <div class="footer-box">
+                <p><a href="https://www.coa.gov.tw" target="_blank" style="background-image: url(../../images/links/imgLinks_coa.png);">行政院農業委員會</a></p>
+                <p><a href="http://www.cas.org.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_cas.png);">台灣優良農產品發展協會</a></p>
+                <p><a href="http://www.naif.org.tw" target="_blank" style="background-image: url(../../images/links/imgLinks_naif.png);">中央畜產會</a></p>
+                <p><a href="http://www.firdi.org.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_firdi.png);">食品工業發展研究所</a></p>
+                <p><a href="http://www.itri.org.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_itri.png);">工業技術研究院</a></p>
+                <p><a href="https://www.mohw.gov.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_doh.png);">衛生福利部</a></p>
+                <p><a href="https://rural.swcb.gov.tw/" target="_blank" style="background-image: url(../../images/links/imgLinks_swcb.png);">農村風情網</a></p>
+            </div>
+        </div>
+        <a href="#phone-icon" id="phone-icon" class="phone-icon">相關連結<span></span></a>
+    </div>
+</footer>
+
+    <a href="#" ID="scrollToTop" class="scrollToTop" style="display: none;"><span></span></a>
+</body>
+
+</html>

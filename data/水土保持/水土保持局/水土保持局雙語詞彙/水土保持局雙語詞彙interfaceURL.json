@@ -1,0 +1,6782 @@
+[
+  {
+    "中文": "磨蝕",
+    "English": "abrasion"
+  },
+  {
+    "中文": "豐度",
+    "English": "abundance"
+  },
+  {
+    "中文": "災害防救基本計畫",
+    "English": "Basic Plan of Disaster Prevention and Response"
+  },
+  {
+    "中文": "加速沖蝕",
+    "English": "accelerated erosion"
+  },
+  {
+    "中文": "可接受風險",
+    "English": "acceptable risk"
+  },
+  {
+    "中文": "農路",
+    "English": "access road"
+  },
+  {
+    "中文": "活動斷層",
+    "English": "active fault"
+  },
+  {
+    "中文": "航空照片",
+    "English": "aerial photos"
+  },
+  {
+    "中文": "堆積作用",
+    "English": "aggradation"
+  },
+  {
+    "中文": "沖積扇",
+    "English": "alluvial fan"
+  },
+  {
+    "中文": "沖積(層)",
+    "English": "alluvium"
+  },
+  {
+    "中文": "交替水深",
+    "English": "alternate depth"
+  },
+  {
+    "中文": "可靠性分析",
+    "English": "analysis of reliability"
+  },
+  {
+    "中文": "內摩擦角",
+    "English": "angle of internal friction"
+  },
+  {
+    "中文": "安息角",
+    "English": "angle of repose"
+  },
+  {
+    "中文": "交角不整合",
+    "English": "angular unconformity"
+  },
+  {
+    "中文": "前期降雨",
+    "English": "antecedent rainfall"
+  },
+  {
+    "中文": "背斜",
+    "English": "anticline"
+  },
+  {
+    "中文": "沙浪、逆沙丘",
+    "English": "antidune"
+  },
+  {
+    "中文": "護坦、水墊",
+    "English": "apron"
+  },
+  {
+    "中文": "水際生物",
+    "English": "aquatic growth"
+  },
+  {
+    "中文": "不含水層",
+    "English": "aquiclude"
+  },
+  {
+    "中文": "含水層",
+    "English": "aquifer"
+  },
+  {
+    "中文": "絕水層",
+    "English": "aquifuge"
+  },
+  {
+    "中文": "拱壩",
+    "English": "arch dam"
+  },
+  {
+    "中文": "護甲床",
+    "English": "armored bed"
+  },
+  {
+    "中文": "人工渠道",
+    "English": "artificial channel"
+  },
+  {
+    "中文": "植物群叢",
+    "English": "association"
+  },
+  {
+    "中文": "迴水",
+    "English": "back water"
+  },
+  {
+    "中文": "砥墩",
+    "English": "baffle"
+  },
+  {
+    "中文": "基準面",
+    "English": "base level"
+  },
+  {
+    "中文": "基流分離",
+    "English": "base-flow separation"
+  },
+  {
+    "中文": "基盤",
+    "English": "basement"
+  },
+  {
+    "中文": "流域",
+    "English": "basin"
+  },
+  {
+    "中文": "河床載",
+    "English": "bed load"
+  },
+  {
+    "中文": "基岩",
+    "English": "bed rock"
+  },
+  {
+    "中文": "平台階段",
+    "English": "bench terrace"
+  },
+  {
+    "中文": "效益分析",
+    "English": "benefit analysis"
+  },
+  {
+    "中文": "伯努利方程式",
+    "English": "Bernonilli equation"
+  },
+  {
+    "中文": "生物多樣性",
+    "English": "biodiversity"
+  },
+  {
+    "中文": "賓漢流體",
+    "English": "Bingham fliud"
+  },
+  {
+    "中文": "生物需氧量",
+    "English": "BOD"
+  },
+  {
+    "中文": "塊石",
+    "English": "boulder"
+  },
+  {
+    "中文": "邊界層",
+    "English": "boundary layer"
+  },
+  {
+    "中文": "辮狀河",
+    "English": "braided stream"
+  },
+  {
+    "中文": "橋墩",
+    "English": "bridge pier"
+  },
+  {
+    "中文": "寬壟階段",
+    "English": "broad-based terraces"
+  },
+  {
+    "中文": "寬頂堰",
+    "English": "broad-crested weir"
+  },
+  {
+    "中文": "樹枝壩",
+    "English": "brush dam"
+  },
+  {
+    "中文": "緩衝帶",
+    "English": "buffer strip"
+  },
+  {
+    "中文": "緩衝區",
+    "English": "buffer zone"
+  },
+  {
+    "中文": "容重",
+    "English": "bulk density"
+  },
+  {
+    "中文": "運河",
+    "English": "canal"
+  },
+  {
+    "中文": "承受能力",
+    "English": "capacity"
+  },
+  {
+    "中文": "集水區",
+    "English": "catchment"
+  },
+  {
+    "中文": "集水井",
+    "English": "catchment well"
+  },
+  {
+    "中文": "孔蝕",
+    "English": "cavitation"
+  },
+  {
+    "中文": "膠結的",
+    "English": "cemented"
+  },
+  {
+    "中文": "中央災害應變中心",
+    "English": "Central Disaster Emergency Operation Center (CDEOC)"
+  },
+  {
+    "中文": "防砂壩",
+    "English": "check dam"
+  },
+  {
+    "中文": "蔡斯公式",
+    "English": "Chezy formula"
+  },
+  {
+    "中文": "陡槽、急灘",
+    "English": "chute"
+  },
+  {
+    "中文": "圓比值",
+    "English": "circularity ratio"
+  },
+  {
+    "中文": "粘土",
+    "English": "clay"
+  },
+  {
+    "中文": "劈理",
+    "English": "cleavage"
+  },
+  {
+    "中文": "礫石",
+    "English": "cobble"
+  },
+  {
+    "中文": "蓄水係數",
+    "English": "coefficient of storage"
+  },
+  {
+    "中文": "黏性沉滓",
+    "English": "cohesive sediment"
+  },
+  {
+    "中文": "崩積物",
+    "English": "colluvium"
+  },
+  {
+    "中文": "柱狀節理",
+    "English": "columnar jointing"
+  },
+  {
+    "中文": "梳子壩",
+    "English": "comb dam"
+  },
+  {
+    "中文": "社區",
+    "English": "community"
+  },
+  {
+    "中文": "複式斷面",
+    "English": "compound section"
+  },
+  {
+    "中文": "凹曲線水流",
+    "English": "concave curvilinear flow"
+  },
+  {
+    "中文": "濃度分佈方程式",
+    "English": "concentration-distribution equation"
+  },
+  {
+    "中文": "混凝土型框填石植生護岸",
+    "English": "concrete frame stone infill and vegetated revetment"
+  },
+  {
+    "中文": "漿砌卵石護岸",
+    "English": "concrete mortar rockery revetment"
+  },
+  {
+    "中文": "混凝土格框護岸",
+    "English": "concrete rib revetment"
+  },
+  {
+    "中文": "預鑄混凝土版壩",
+    "English": "concrete slab dam"
+  },
+  {
+    "中文": "拘限含水層",
+    "English": "confined aquifer"
+  },
+  {
+    "中文": "礫岩",
+    "English": "conglomerate"
+  },
+  {
+    "中文": "共軛水深",
+    "English": "conjugate depth"
+  },
+  {
+    "中文": "連結度",
+    "English": "connectivity"
+  },
+  {
+    "中文": "後果分析",
+    "English": "consequence analysis"
+  },
+  {
+    "中文": "總蒸發量；耗水量",
+    "English": "consumptive use"
+  },
+  {
+    "中文": "接觸載",
+    "English": "contact load"
+  },
+  {
+    "中文": "容器苗穴植",
+    "English": "container nursery-grown cave vegetation"
+  },
+  {
+    "中文": "污染物移除",
+    "English": "contaminant removal"
+  },
+  {
+    "中文": "污染物之沉降與移除",
+    "English": "contaminant sinks and removal"
+  },
+  {
+    "中文": "等高耕作",
+    "English": "contour planting (farming)"
+  },
+  {
+    "中文": "束縮三角形堰",
+    "English": "contracted triangular weir"
+  },
+  {
+    "中文": "束縮矩形堰",
+    "English": "contracted-rectangular weir"
+  },
+  {
+    "中文": "收縮係數",
+    "English": "contraction coefficient"
+  },
+  {
+    "中文": "輸水容量",
+    "English": "conveyance"
+  },
+  {
+    "中文": "座標系統",
+    "English": "coordinate system"
+  },
+  {
+    "中文": "廊道",
+    "English": "corridor"
+  },
+  {
+    "中文": "廊道間隔之有效性",
+    "English": "corridor gap effectiveness"
+  },
+  {
+    "中文": "廊道類型",
+    "English": "corridor type"
+  },
+  {
+    "中文": "覆蓋",
+    "English": "cover"
+  },
+  {
+    "中文": "覆蓋作物",
+    "English": "cover crops"
+  },
+  {
+    "中文": "小溪",
+    "English": "creek"
+  },
+  {
+    "中文": "潛移；蠕動",
+    "English": "creep"
+  },
+  {
+    "中文": "危機",
+    "English": "crisis"
+  },
+  {
+    "中文": "臨界水深",
+    "English": "critical depth"
+  },
+  {
+    "中文": "臨界流",
+    "English": "critical flow"
+  },
+  {
+    "中文": "臨界坡度",
+    "English": "critical slope"
+  },
+  {
+    "中文": "過水路面",
+    "English": "cross road surface drainage"
+  },
+  {
+    "中文": "地殼",
+    "English": "crust"
+  },
+  {
+    "中文": "單面山",
+    "English": "cuesta"
+  },
+  {
+    "中文": "暗渠、涵管",
+    "English": "culvert"
+  },
+  {
+    "中文": "流速儀",
+    "English": "current meter"
+  },
+  {
+    "中文": "截流",
+    "English": "cut off"
+  },
+  {
+    "中文": "截水牆",
+    "English": "cutoff wall"
+  },
+  {
+    "中文": "達西定律",
+    "English": "Darcy’s law"
+  },
+  {
+    "中文": "達西-維斯巴哈糙率因子",
+    "English": "Darcy-Weisbach roughness factor"
+  },
+  {
+    "中文": "壩址",
+    "English": "dam site"
+  },
+  {
+    "中文": "資料接收中心",
+    "English": "data acquisition center"
+  },
+  {
+    "中文": "土石流",
+    "English": "debris flow"
+  },
+  {
+    "中文": "分解作用",
+    "English": "decomposition"
+  },
+  {
+    "中文": "沖刷作用",
+    "English": "degradation"
+  },
+  {
+    "中文": "自然度指標",
+    "English": "degree of naturalness"
+  },
+  {
+    "中文": "三角洲",
+    "English": "delta"
+  },
+  {
+    "中文": "樹枝狀水系",
+    "English": "dendritic drainage"
+  },
+  {
+    "中文": "異重流",
+    "English": "density current"
+  },
+  {
+    "中文": "dfd指數",
+    "English": "density-frequency-dominance index"
+  },
+  {
+    "中文": "消力檻",
+    "English": "dentated sill"
+  },
+  {
+    "中文": "淤積,沉積作用",
+    "English": "deposition"
+  },
+  {
+    "中文": "窪蓄",
+    "English": "depression storage"
+  },
+  {
+    "中文": "設計風險",
+    "English": "design risk"
+  },
+  {
+    "中文": "特定水土保持區",
+    "English": "Designated Soil and Water Conservation Area"
+  },
+  {
+    "中文": "設計暴雨",
+    "English": "design storm"
+  },
+  {
+    "中文": "分散作用",
+    "English": "detachment"
+  },
+  {
+    "中文": "滯洪池",
+    "English": "detention pond"
+  },
+  {
+    "中文": "河道橫斷面之測設",
+    "English": "determent of channel area"
+  },
+  {
+    "中文": "比降面積法測流量",
+    "English": "determination of flow by slope-area method"
+  },
+  {
+    "中文": "逕流係數之決定",
+    "English": "determination of runoff coefficient"
+  },
+  {
+    "中文": "成岩作用",
+    "English": "diagenesis"
+  },
+  {
+    "中文": "斜波",
+    "English": "diagonal wave"
+  },
+  {
+    "中文": "地殼變動",
+    "English": "diastrophism"
+  },
+  {
+    "中文": "擴散作用",
+    "English": "diffusion"
+  },
+  {
+    "中文": "數值高程模型",
+    "English": "digital elevation model, DEM"
+  },
+  {
+    "中文": "數值表面模型",
+    "English": "digital surface model, DSM"
+  },
+  {
+    "中文": "數值地形模型",
+    "English": "digital terrain model, DTM"
+  },
+  {
+    "中文": "岩脈",
+    "English": "dike"
+  },
+  {
+    "中文": "因次分析",
+    "English": "dimensional analysis"
+  },
+  {
+    "中文": "無因次累積曲線",
+    "English": "dimensionless mass curve"
+  },
+  {
+    "中文": "無因次單位歷線",
+    "English": "dimensionless unit hydrograph"
+  },
+  {
+    "中文": "傾角",
+    "English": "dip"
+  },
+  {
+    "中文": "直接危害",
+    "English": "direct damage"
+  },
+  {
+    "中文": "直播",
+    "English": "direct seeding"
+  },
+  {
+    "中文": "災害",
+    "English": "disaster"
+  },
+  {
+    "中文": "災害保險",
+    "English": "disaster insurance"
+  },
+  {
+    "中文": "坡地災害",
+    "English": "disaster on slopeland"
+  },
+  {
+    "中文": "災害認知",
+    "English": "disaster perception"
+  },
+  {
+    "中文": "災害潛勢",
+    "English": "disaster potentials"
+  },
+  {
+    "中文": "災害防救",
+    "English": "disaster prevention and response"
+  },
+  {
+    "中文": "災害防救法",
+    "English": "Disaster Prevention and Response Act"
+  },
+  {
+    "中文": "防災組織",
+    "English": "disaster prevention and response organization"
+  },
+  {
+    "中文": "防災演練",
+    "English": "disaster prevention drill"
+  },
+  {
+    "中文": "耐災社區",
+    "English": "disaster resilience community"
+  },
+  {
+    "中文": "防災社區",
+    "English": "disaster resistant community"
+  },
+  {
+    "中文": "堰口測流量法",
+    "English": "discharge measurement by weirs"
+  },
+  {
+    "中文": "病蟲害防治",
+    "English": "disease prevention"
+  },
+  {
+    "中文": "崩解作用",
+    "English": "disintegration"
+  },
+  {
+    "中文": "溶解作用",
+    "English": "dissolution"
+  },
+  {
+    "中文": "分佈歷線",
+    "English": "distributed hydrograph"
+  },
+  {
+    "中文": "干擾廊道",
+    "English": "disturbance corridors"
+  },
+  {
+    "中文": "可耐干擾的物種",
+    "English": "disturbance-tolerant species"
+  },
+  {
+    "中文": "截水溝",
+    "English": "diversion ditch"
+  },
+  {
+    "中文": "優勢度",
+    "English": "dominance"
+  },
+  {
+    "中文": "下游",
+    "English": "downstream"
+  },
+  {
+    "中文": "曳引力係數",
+    "English": "drag coefficient"
+  },
+  {
+    "中文": "拖曳力",
+    "English": "drag force"
+  },
+  {
+    "中文": "排水溝",
+    "English": "drainage ditch"
+  },
+  {
+    "中文": "洩降",
+    "English": "drawdown"
+  },
+  {
+    "中文": "跌水",
+    "English": "drops structure"
+  },
+  {
+    "中文": "乾砌塊石",
+    "English": "dry masonry"
+  },
+  {
+    "中文": "沙壟、沙浪",
+    "English": "dune"
+  },
+  {
+    "中文": "沙塵暴",
+    "English": "dust storm"
+  },
+  {
+    "中文": "動力性相似",
+    "English": "dynamic similarity"
+  },
+  {
+    "中文": "動力波",
+    "English": "dynamic wave"
+  },
+  {
+    "中文": "動力粘滯性",
+    "English": "dynamitic viscosity"
+  },
+  {
+    "中文": "土壩",
+    "English": "earth dam"
+  },
+  {
+    "中文": "生態評價（估）",
+    "English": "ecological assessment"
+  },
+  {
+    "中文": "生態關鍵區",
+    "English": "ecologically criticial area , eca"
+  },
+  {
+    "中文": "生態系發展",
+    "English": "ecosystem development"
+  },
+  {
+    "中文": "生態過渡帶",
+    "English": "ecotone"
+  },
+  {
+    "中文": "生態區",
+    "English": "ecotope"
+  },
+  {
+    "中文": "生態型",
+    "English": "ecotype"
+  },
+  {
+    "中文": "渦流",
+    "English": "eddy"
+  },
+  {
+    "中文": "邊界效應",
+    "English": "edge effect"
+  },
+  {
+    "中文": "遲滯效應",
+    "English": "effect of hysteresis"
+  },
+  {
+    "中文": "有效粒徑",
+    "English": "effective diameter"
+  },
+  {
+    "中文": "有效降雨",
+    "English": "effective rainfall"
+  },
+  {
+    "中文": "有效壩頂寬",
+    "English": "effective top width of dam"
+  },
+  {
+    "中文": "愛因斯坦河床載推估公式",
+    "English": "Einstein’s bed-load equation"
+  },
+  {
+    "中文": "勢能頭",
+    "English": "elevation head"
+  },
+  {
+    "中文": "延展性",
+    "English": "elongation"
+  },
+  {
+    "中文": "細長比",
+    "English": "elongation ratio"
+  },
+  {
+    "中文": "護岸",
+    "English": "embankment"
+  },
+  {
+    "中文": "護岸",
+    "English": "embankment"
+  },
+  {
+    "中文": "緊急事務",
+    "English": "emergency"
+  },
+  {
+    "中文": "緊急應變小組",
+    "English": "emergency action teams"
+  },
+  {
+    "中文": "疏散避難規劃",
+    "English": "emergency evacuation planning"
+  },
+  {
+    "中文": "疏散避難路線",
+    "English": "emergency evacuation route"
+  },
+  {
+    "中文": "疏散避難處所",
+    "English": "emergency evacuation shelter"
+  },
+  {
+    "中文": "災害應變中心",
+    "English": "emergency operation center"
+  },
+  {
+    "中文": "挺水植物",
+    "English": "emergent plant"
+  },
+  {
+    "中文": "尾檻",
+    "English": "end sill"
+  },
+  {
+    "中文": "內營力作用",
+    "English": "endogenous process"
+  },
+  {
+    "中文": "能量係數",
+    "English": "energy coefficient"
+  },
+  {
+    "中文": "山坡地保育利用條例施行細則",
+    "English": "Enforcement Rules of Slopeland Conservation and Utilization Act"
+  },
+  {
+    "中文": "水土保持法施行細則",
+    "English": "Enforcement Rules of Soil and Water Conservation Act"
+  },
+  {
+    "中文": "水土保持工程方法",
+    "English": "engineering practices for soil and water conservation"
+  },
+  {
+    "中文": "包絡線",
+    "English": "envelope curve"
+  },
+  {
+    "中文": "環境特色",
+    "English": "environmental characteristics"
+  },
+  {
+    "中文": "環境資源廊道",
+    "English": "environmental corridor"
+  },
+  {
+    "中文": "環境梯度",
+    "English": "environmental gradient"
+  },
+  {
+    "中文": "環境敏感區",
+    "English": "environmental sensitive area"
+  },
+  {
+    "中文": "環境應力",
+    "English": "environmental stress"
+  },
+  {
+    "中文": "環境敏感路段",
+    "English": "environmentally sensitive area , ESA"
+  },
+  {
+    "中文": "杜伯義公式",
+    "English": "equation of Du-Boys"
+  },
+  {
+    "中文": "等值粒徑",
+    "English": "equivalent diameter"
+  },
+  {
+    "中文": "等價糙度",
+    "English": "equivalent roughness"
+  },
+  {
+    "中文": "侵蝕",
+    "English": "erosion"
+  },
+  {
+    "中文": "歐拉方程式",
+    "English": "Euler’s equation"
+  },
+  {
+    "中文": "疏散路線",
+    "English": "evacuation route"
+  },
+  {
+    "中文": "事件損失",
+    "English": "event loss"
+  },
+  {
+    "中文": "事件模擬",
+    "English": "event simulation"
+  },
+  {
+    "中文": "超剩體積量",
+    "English": "excess volume rate"
+  },
+  {
+    "中文": "外營力作用",
+    "English": "exogenous process"
+  },
+  {
+    "中文": "外來物種",
+    "English": "exotic species"
+  },
+  {
+    "中文": "期望損失",
+    "English": "expected loss"
+  },
+  {
+    "中文": "指數生長期",
+    "English": "exponential phase"
+  },
+  {
+    "中文": "暴露",
+    "English": "exposure"
+  },
+  {
+    "中文": "極端值分佈",
+    "English": "extreme-value distribution"
+  },
+  {
+    "中文": "落石",
+    "English": "fall rock"
+  },
+  {
+    "中文": "沉降速度",
+    "English": "fall velocity"
+  },
+  {
+    "中文": "農路系統",
+    "English": "farm road system"
+  },
+  {
+    "中文": "作業道",
+    "English": "farm path"
+  },
+  {
+    "中文": "農塘",
+    "English": "farm pond"
+  },
+  {
+    "中文": "籬樁壩",
+    "English": "fence dam"
+  },
+  {
+    "中文": "施肥",
+    "English": "fertilizer application"
+  },
+  {
+    "中文": "鬚根",
+    "English": "fibrous roots"
+  },
+  {
+    "中文": "田間含水量",
+    "English": "field capacity"
+  },
+  {
+    "中文": "現場資料",
+    "English": "field data"
+  },
+  {
+    "中文": "過濾作用",
+    "English": "filtering"
+  },
+  {
+    "中文": "指狀沖蝕",
+    "English": "finger erosion"
+  },
+  {
+    "中文": "魚道",
+    "English": "fishway"
+  },
+  {
+    "中文": "五圍砌",
+    "English": "five-circle pitching"
+  },
+  {
+    "中文": "絮聚現象",
+    "English": "flocculation"
+  },
+  {
+    "中文": "洪水沖蝕",
+    "English": "flood erosion"
+  },
+  {
+    "中文": "洪水平原",
+    "English": "flood plain"
+  },
+  {
+    "中文": "洪水演算",
+    "English": "flood routing"
+  },
+  {
+    "中文": "洪氾區",
+    "English": "flood zone"
+  },
+  {
+    "中文": "洪泛區",
+    "English": "flood zone"
+  },
+  {
+    "中文": "植物種類地理學",
+    "English": "floristics"
+  },
+  {
+    "中文": "流量累積曲線",
+    "English": "flow mass curve"
+  },
+  {
+    "中文": "分流裝置",
+    "English": "flow splitter"
+  },
+  {
+    "中文": "流量延時曲線",
+    "English": "flow-duration curve"
+  },
+  {
+    "中文": "葉狀的",
+    "English": "foliated"
+  },
+  {
+    "中文": "步道",
+    "English": "footpath"
+  },
+  {
+    "中文": "強迫渦流",
+    "English": "forced-vortex"
+  },
+  {
+    "中文": "形狀阻力",
+    "English": "form resistant"
+  },
+  {
+    "中文": "破碎性",
+    "English": "fragmentation"
+  },
+  {
+    "中文": "破碎性及形式",
+    "English": "fragmentation and pattern"
+  },
+  {
+    "中文": "自由跌流",
+    "English": "free drop"
+  },
+  {
+    "中文": "跌水",
+    "English": "free fall"
+  },
+  {
+    "中文": "自由水流",
+    "English": "free outflow"
+  },
+  {
+    "中文": "自由渦流",
+    "English": "free-vortex"
+  },
+  {
+    "中文": "頻率",
+    "English": "frequency"
+  },
+  {
+    "中文": "水文設計頻率水準",
+    "English": "frequency level of hydrologic design"
+  },
+  {
+    "中文": "福祿數",
+    "English": "Froude number"
+  },
+  {
+    "中文": "地理資訊系統",
+    "English": "geographic information systems, GIS"
+  },
+  {
+    "中文": "地質事件",
+    "English": "geologic event"
+  },
+  {
+    "中文": "地質災害",
+    "English": "geologic hazard"
+  },
+  {
+    "中文": "地質作用",
+    "English": "geologic process"
+  },
+  {
+    "中文": "幾何修正",
+    "English": "geometric correction"
+  },
+  {
+    "中文": "幾何型態相似",
+    "English": "geometric similarity"
+  },
+  {
+    "中文": "地聲檢知器",
+    "English": "geophone"
+  },
+  {
+    "中文": "緩變速流",
+    "English": "gradually varied flow"
+  },
+  {
+    "中文": "圖解法",
+    "English": "graphical method"
+  },
+  {
+    "中文": "草帶法",
+    "English": "grass barriers"
+  },
+  {
+    "中文": "山邊溝植草",
+    "English": "grass planting in hillside ditches"
+  },
+  {
+    "中文": "草溝",
+    "English": "grassed waterways"
+  },
+  {
+    "中文": "卵石",
+    "English": "gravel"
+  },
+  {
+    "中文": "重力壩",
+    "English": "gravity dam"
+  },
+  {
+    "中文": "重力流",
+    "English": "gravity flow"
+  },
+  {
+    "中文": "綠帶",
+    "English": "green belt"
+  },
+  {
+    "中文": "綠肥",
+    "English": "green manure"
+  },
+  {
+    "中文": "溫室效應",
+    "English": "greenhouse effect"
+  },
+  {
+    "中文": "綠廊",
+    "English": "greenway"
+  },
+  {
+    "中文": "網格大小",
+    "English": "grid size"
+  },
+  {
+    "中文": "格子壩",
+    "English": "grid-type dam"
+  },
+  {
+    "中文": "固床工",
+    "English": "ground sill"
+  },
+  {
+    "中文": "地層下陷",
+    "English": "ground subsidence"
+  },
+  {
+    "中文": "地下水流出",
+    "English": "ground-water discharge"
+  },
+  {
+    "中文": "地下水流動",
+    "English": "ground-water flowing"
+  },
+  {
+    "中文": "地下水文學",
+    "English": "ground-water hydrology"
+  },
+  {
+    "中文": "地下逕流",
+    "English": "ground-water runoff"
+  },
+  {
+    "中文": "沖蝕溝",
+    "English": "gully"
+  },
+  {
+    "中文": "蝕溝控制",
+    "English": "gully control"
+  },
+  {
+    "中文": "溝狀沖蝕",
+    "English": "gully erosion"
+  },
+  {
+    "中文": "蝕溝處理",
+    "English": "gully treatment"
+  },
+  {
+    "中文": "棲地散佈",
+    "English": "habitat interspersion"
+  },
+  {
+    "中文": "棲地改變",
+    "English": "habitat modification"
+  },
+  {
+    "中文": "棲地價值",
+    "English": "habitat value"
+  },
+  {
+    "中文": "危害分析",
+    "English": "hazard analysis"
+  },
+  {
+    "中文": "危害",
+    "English": "hazard"
+  },
+  {
+    "中文": "危害確認",
+    "English": "hazard identification"
+  },
+  {
+    "中文": "災害地圖",
+    "English": "hazard map"
+  },
+  {
+    "中文": "危險度",
+    "English": "hazardous degree"
+  },
+  {
+    "中文": "災害性土壤",
+    "English": "hazardous soil"
+  },
+  {
+    "中文": "水頭損失",
+    "English": "head lose"
+  },
+  {
+    "中文": "向源侵蝕",
+    "English": "headward erosion"
+  },
+  {
+    "中文": "草本植物",
+    "English": "herbaceous plants"
+  },
+  {
+    "中文": "山邊溝",
+    "English": "hillside ditch"
+  },
+  {
+    "中文": "橫向排水孔",
+    "English": "horizontal boring hole"
+  },
+  {
+    "中文": "流域形狀係數",
+    "English": "Horton’s form factor"
+  },
+  {
+    "中文": "水化作用",
+    "English": "hydration"
+  },
+  {
+    "中文": "水力傳導度",
+    "English": "hydraulic conductivity"
+  },
+  {
+    "中文": "水力深度",
+    "English": "hydraulic depth"
+  },
+  {
+    "中文": "水力幾何",
+    "English": "hydraulic geometry"
+  },
+  {
+    "中文": "水躍",
+    "English": "hydraulic jump"
+  },
+  {
+    "中文": "水力半徑",
+    "English": "hydraulic radius"
+  },
+  {
+    "中文": "水力演算",
+    "English": "hydraulic routing"
+  },
+  {
+    "中文": "水力動力學",
+    "English": "hydrodynamics"
+  },
+  {
+    "中文": "水文模式",
+    "English": "hydrologic model"
+  },
+  {
+    "中文": "水文歷程",
+    "English": "hydrologic process"
+  },
+  {
+    "中文": "水文模擬",
+    "English": "hydrologic simulation"
+  },
+  {
+    "中文": "水文系統",
+    "English": "hydrologic system"
+  },
+  {
+    "中文": "水文學",
+    "English": "hydrology"
+  },
+  {
+    "中文": "水文循環",
+    "English": "hydrology cycle"
+  },
+  {
+    "中文": "水相圖",
+    "English": "hydrophase diagram"
+  },
+  {
+    "中文": "靜水壓力分布",
+    "English": "hydrostatic pressure distribution"
+  },
+  {
+    "中文": "遲滯現象",
+    "English": "hysteresis"
+  },
+  {
+    "中文": "澱積層",
+    "English": "illuvial horizon"
+  },
+  {
+    "中文": "影像",
+    "English": "image"
+  },
+  {
+    "中文": "未成熟土壤層",
+    "English": "immature soil"
+  },
+  {
+    "中文": "打擊力",
+    "English": "impact force"
+  },
+  {
+    "中文": "重要值指數",
+    "English": "importance value index , IVI"
+  },
+  {
+    "中文": "風險指標",
+    "English": "index value of risk"
+  },
+  {
+    "中文": "間接危害",
+    "English": "indirect damage"
+  },
+  {
+    "中文": "慣性力",
+    "English": "inertia force"
+  },
+  {
+    "中文": "入滲 (比/率/係數/指數)",
+    "English": "infiltration(ratio/rate/index/coefficient)"
+  },
+  {
+    "中文": "入流歷線",
+    "English": "inflow hydrograph"
+  },
+  {
+    "中文": "始點水深",
+    "English": "initial depth"
+  },
+  {
+    "中文": "瞬時單位歷線",
+    "English": "instantaneous unit hydrograph"
+  },
+  {
+    "中文": "截留",
+    "English": "interception"
+  },
+  {
+    "中文": "判釋",
+    "English": "interpretation"
+  },
+  {
+    "中文": "外來植物",
+    "English": "introduced plant"
+  },
+  {
+    "中文": "灌溉",
+    "English": "irrigation"
+  },
+  {
+    "中文": "非旋性流",
+    "English": "irrotational flow"
+  },
+  {
+    "中文": "島弧",
+    "English": "island arc"
+  },
+  {
+    "中文": "等壓線",
+    "English": "isobars"
+  },
+  {
+    "中文": "等雨量線法",
+    "English": "isohyetal method"
+  },
+  {
+    "中文": "節理",
+    "English": "joint"
+  },
+  {
+    "中文": "運動波",
+    "English": "kinematic wave"
+  },
+  {
+    "中文": "運動性相似",
+    "English": "kinematics similarity"
+  },
+  {
+    "中文": "運動粘滯性",
+    "English": "kinematics viscosity"
+  },
+  {
+    "中文": "降雨動能",
+    "English": "kinetic energy of rainfall"
+  },
+  {
+    "中文": "層流",
+    "English": "laminar flow"
+  },
+  {
+    "中文": "土地利用",
+    "English": "land utilization"
+  },
+  {
+    "中文": "景觀動態",
+    "English": "landscape dynamics"
+  },
+  {
+    "中文": "景觀生態學",
+    "English": "landscape ecology"
+  },
+  {
+    "中文": "景觀嵌合體",
+    "English": "landscape mosaic"
+  },
+  {
+    "中文": "景觀結構",
+    "English": "landscape structure"
+  },
+  {
+    "中文": "崩塌",
+    "English": "landslide"
+  },
+  {
+    "中文": "崩塌潛感圖",
+    "English": "landslide susceptibility map"
+  },
+  {
+    "中文": "側流量",
+    "English": "lateral flow"
+  },
+  {
+    "中文": "側滑",
+    "English": "lateral spread"
+  },
+  {
+    "中文": "草皮鋪植",
+    "English": "lawn vegetation"
+  },
+  {
+    "中文": "淋洗層",
+    "English": "leached horizon"
+  },
+  {
+    "中文": "葉面積指數(LAI)",
+    "English": "leaf area index"
+  },
+  {
+    "中文": "堤防",
+    "English": "leeve"
+  },
+  {
+    "中文": "上舉力",
+    "English": "lift force"
+  },
+  {
+    "中文": "線狀廊道",
+    "English": "line corridor"
+  },
+  {
+    "中文": "園內道",
+    "English": "link roads"
+  },
+  {
+    "中文": "土壤液化",
+    "English": "Liquefaction of soil"
+  },
+  {
+    "中文": "對數常態分佈",
+    "English": "logarithmic normal distribution"
+  },
+  {
+    "中文": "災損評估",
+    "English": "loss assessment"
+  },
+  {
+    "中文": "L型側溝",
+    "English": "L-shaped roadside ditch"
+  },
+  {
+    "中文": "曼寧公式",
+    "English": "Manning’s formula"
+  },
+  {
+    "中文": "沼澤",
+    "English": "marsh"
+  },
+  {
+    "中文": "砌石工法",
+    "English": "masonry work"
+  },
+  {
+    "中文": "砌石壩",
+    "English": "masonry dam"
+  },
+  {
+    "中文": "累積曲線",
+    "English": "mass curve"
+  },
+  {
+    "中文": "塊體運動",
+    "English": "mass movement"
+  },
+  {
+    "中文": "成熟土壤",
+    "English": "mature soil"
+  },
+  {
+    "中文": "最大物種雜異度、生物多樣性",
+    "English": "maximum diversity"
+  },
+  {
+    "中文": "最大降雨深度-面積延時曲線",
+    "English": "maximum rainfall depth-area-duration curve；DAD curve"
+  },
+  {
+    "中文": "平均粒徑",
+    "English": "mean diameter"
+  },
+  {
+    "中文": "河流泥砂之測驗分析",
+    "English": "measurement and analysis of sediment loads"
+  },
+  {
+    "中文": "中值粒徑",
+    "English": "median diameter"
+  },
+  {
+    "中文": "中值高程",
+    "English": "median elevation"
+  },
+  {
+    "中文": "平均坡度",
+    "English": "median slope"
+  },
+  {
+    "中文": "混同岩",
+    "English": "melange"
+  },
+  {
+    "中文": "變動族群",
+    "English": "metapopulation"
+  },
+  {
+    "中文": "動態穩定性",
+    "English": "metastability"
+  },
+  {
+    "中文": "微棲地",
+    "English": "microhabitats"
+  },
+  {
+    "中文": "最低限生命區域概念",
+    "English": "minimum viable area , MVA"
+  },
+  {
+    "中文": "礦區、土石採取區",
+    "English": "mining terrain"
+  },
+  {
+    "中文": "減災",
+    "English": "mitigation"
+  },
+  {
+    "中文": "防災策略",
+    "English": "mitigation strategies"
+  },
+  {
+    "中文": "活動邊界渠道",
+    "English": "mobile boundary channel"
+  },
+  {
+    "中文": "動量係數",
+    "English": "momentum coefficient"
+  },
+  {
+    "中文": "觀測站",
+    "English": "monitoring station"
+  },
+  {
+    "中文": "嵌合體",
+    "English": "mosaic"
+  },
+  {
+    "中文": "山地農牧局",
+    "English": "Mountain Agricultural Resources Development Bureau"
+  },
+  {
+    "中文": "泥岩",
+    "English": "mudstone"
+  },
+  {
+    "中文": "敷蓋",
+    "English": "mulching"
+  },
+  {
+    "中文": "多棲地物種",
+    "English": "multihabitat species"
+  },
+  {
+    "中文": "多行的樹籬廊道",
+    "English": "multiple-row strips"
+  },
+  {
+    "中文": "中央災害防救會報",
+    "English": "National Disaster Prevention and Response Council"
+  },
+  {
+    "中文": "本地植物",
+    "English": "native plant"
+  },
+  {
+    "中文": "天然渠道",
+    "English": "natural channels"
+  },
+  {
+    "中文": "天然災害",
+    "English": "natural hazard"
+  },
+  {
+    "中文": "自然河溪流相",
+    "English": "natural streamflow pattern"
+  },
+  {
+    "中文": "運渠",
+    "English": "navigation channel"
+  },
+  {
+    "中文": "近紅外光區",
+    "English": "near infrared"
+  },
+  {
+    "中文": "水域邊界",
+    "English": "near shore"
+  },
+  {
+    "中文": "負湧浪",
+    "English": "negative surge"
+  },
+  {
+    "中文": "鋼索壩",
+    "English": "net dam"
+  },
+  {
+    "中文": "富麗農村",
+    "English": "new rural village"
+  },
+  {
+    "中文": "牛頓雷普森法",
+    "English": "Newton-Raphson method"
+  },
+  {
+    "中文": "非平衡方程式",
+    "English": "nonequilibrium equation"
+  },
+  {
+    "中文": "不定型渠道",
+    "English": "nonprismatic channel"
+  },
+  {
+    "中文": "正常沖蝕",
+    "English": "normal erosion"
+  },
+  {
+    "中文": "正常落差慮定曲線",
+    "English": "normal-fall rating curve"
+  },
+  {
+    "中文": "傾角水躍",
+    "English": "oblique jump"
+  },
+  {
+    "中文": "水位觀測",
+    "English": "observation of stage"
+  },
+  {
+    "中文": "明渠",
+    "English": "open channel"
+  },
+  {
+    "中文": "開口式壩",
+    "English": "open-type dam"
+  },
+  {
+    "中文": "災害防救業務計畫",
+    "English": "Operation Plan of Disaster Prevention and Response"
+  },
+  {
+    "中文": "有機層",
+    "English": "organic horizion"
+  },
+  {
+    "中文": "振擺水躍",
+    "English": "oscillating jump"
+  },
+  {
+    "中文": "振動波",
+    "English": "oscillatory waves"
+  },
+  {
+    "中文": "出流歷線",
+    "English": "outflow hydrograph"
+  },
+  {
+    "中文": "超抽",
+    "English": "overdraft"
+  },
+  {
+    "中文": "漫地流",
+    "English": "overland flow"
+  },
+  {
+    "中文": "套疊",
+    "English": "overlay"
+  },
+  {
+    "中文": "巴歇爾量水槽",
+    "English": "Parshall flume"
+  },
+  {
+    "中文": "母質層",
+    "English": "parent material horizon"
+  },
+  {
+    "中文": "徑線",
+    "English": "path line"
+  },
+  {
+    "中文": "滲漏",
+    "English": "percolation"
+  },
+  {
+    "中文": "最大生長速率期",
+    "English": "phase of maximum growth rate"
+  },
+  {
+    "中文": "光週期現象",
+    "English": "photoperiodism"
+  },
+  {
+    "中文": "光合加磷作用",
+    "English": "photophosphorylation"
+  },
+  {
+    "中文": "物理風化",
+    "English": "physical weathering"
+  },
+  {
+    "中文": "光分解作用",
+    "English": "phytolysis of water"
+  },
+  {
+    "中文": "橋墩",
+    "English": "pier"
+  },
+  {
+    "中文": "管壓含水層",
+    "English": "piezometric aquifer"
+  },
+  {
+    "中文": "先驅植物",
+    "English": "pioneer plants"
+  },
+  {
+    "中文": "管流",
+    "English": "pipe flow"
+  },
+  {
+    "中文": "災害防救計畫",
+    "English": "plan of disaster management"
+  },
+  {
+    "中文": "木格壩",
+    "English": "plank dam"
+  },
+  {
+    "中文": "植生演替",
+    "English": "plant succession"
+  },
+  {
+    "中文": "台壁植草",
+    "English": "planting grass on risers"
+  },
+  {
+    "中文": "平台",
+    "English": "platform"
+  },
+  {
+    "中文": "污染",
+    "English": "pollution"
+  },
+  {
+    "中文": "潭",
+    "English": "pool"
+  },
+  {
+    "中文": "孔隙介質",
+    "English": "porous medium"
+  },
+  {
+    "中文": "正湧浪",
+    "English": "positive surge"
+  },
+  {
+    "中文": "勢能蒸發量",
+    "English": "potential evapotranspiration"
+  },
+  {
+    "中文": "土石流潛勢溪流",
+    "English": "potential debris flow torrent"
+  },
+  {
+    "中文": "潛在損失",
+    "English": "potential loss"
+  },
+  {
+    "中文": "可降水量",
+    "English": "precipitable water"
+  },
+  {
+    "中文": "降水損失",
+    "English": "precipitation loss"
+  },
+  {
+    "中文": "整備",
+    "English": "preparedness"
+  },
+  {
+    "中文": "受壓含水層",
+    "English": "pressure aquifer"
+  },
+  {
+    "中文": "壓力流",
+    "English": "pressure flow"
+  },
+  {
+    "中文": "氣壓梯度",
+    "English": "pressure gradient"
+  },
+  {
+    "中文": "壓力頭",
+    "English": "pressure head"
+  },
+  {
+    "中文": "壓力式水位計",
+    "English": "pressure sensor"
+  },
+  {
+    "中文": "初生演替",
+    "English": "primary succession"
+  },
+  {
+    "中文": "定型渠道",
+    "English": "prismatic channel"
+  },
+  {
+    "中文": "機率分析",
+    "English": "probability analysis"
+  },
+  {
+    "中文": "發生機率",
+    "English": "probability of occurrence"
+  },
+  {
+    "中文": "可能最大降水",
+    "English": "probable maximum precipitation"
+  },
+  {
+    "中文": "可能最大暴雨",
+    "English": "probable maximum storm"
+  },
+  {
+    "中文": "淵、滯水",
+    "English": "profound"
+  },
+  {
+    "中文": "投影",
+    "English": "projection"
+  },
+  {
+    "中文": "防救災宣導",
+    "English": "propaganda of disaster prevention and response"
+  },
+  {
+    "中文": "保護帶",
+    "English": "protected zone"
+  },
+  {
+    "中文": "溪床保護工",
+    "English": "protection works for streambed"
+  },
+  {
+    "中文": "抽水設施",
+    "English": "pumping facilities"
+  },
+  {
+    "中文": "電波流速儀",
+    "English": "radio water current meter"
+  },
+  {
+    "中文": "幅射修正",
+    "English": "radiometric correction"
+  },
+  {
+    "中文": "雨滴",
+    "English": "raindrops"
+  },
+  {
+    "中文": "雨量計",
+    "English": "rain gauge"
+  },
+  {
+    "中文": "降雨",
+    "English": "rainfall"
+  },
+  {
+    "中文": "降雨深度",
+    "English": "rainfall depth"
+  },
+  {
+    "中文": "降雨延時",
+    "English": "rainfall duration"
+  },
+  {
+    "中文": "降雨沖蝕指數",
+    "English": "rainfall erosion index"
+  },
+  {
+    "中文": "降雨頻率",
+    "English": "rainfall frequency"
+  },
+  {
+    "中文": "降雨強度",
+    "English": "rainfall intensity"
+  },
+  {
+    "中文": "人工降雨器",
+    "English": "rainfall simulator"
+  },
+  {
+    "中文": "急變速流",
+    "English": "rapidly varied flow"
+  },
+  {
+    "中文": "網格式資料",
+    "English": "raster data"
+  },
+  {
+    "中文": "率定曲線",
+    "English": "rating curve"
+  },
+  {
+    "中文": "合理公式",
+    "English": "rational formula"
+  },
+  {
+    "中文": "退水常數",
+    "English": "recession constant"
+  },
+  {
+    "中文": "復原重建",
+    "English": "recovery"
+  },
+  {
+    "中文": "矩形渠道",
+    "English": "rectangular channel"
+  },
+  {
+    "中文": "重現期距",
+    "English": "recurrence interval"
+  },
+  {
+    "中文": "還原階段",
+    "English": "reductive phase"
+  },
+  {
+    "中文": "反射",
+    "English": "reflection"
+  },
+  {
+    "中文": "再生階段",
+    "English": "regenerative phase"
+  },
+  {
+    "中文": "區域分析",
+    "English": "regional analysis"
+  },
+  {
+    "中文": "地區災害防救計畫",
+    "English": "Regional Plan of Disaster Prevention and Response"
+  },
+  {
+    "中文": "迴歸與相關分析",
+    "English": "regression and correlation analysis"
+  },
+  {
+    "中文": "流量-面積迴歸公式",
+    "English": "regression formula of discharge-area"
+  },
+  {
+    "中文": "整流工程",
+    "English": "regulation works on torrent"
+  },
+  {
+    "中文": "相對生長速率",
+    "English": "relative growth rate , RGR"
+  },
+  {
+    "中文": "殘留廊道",
+    "English": "remnant corridor"
+  },
+  {
+    "中文": "遙感探測",
+    "English": "remote sensing"
+  },
+  {
+    "中文": "水庫壽命",
+    "English": "reservoir project life"
+  },
+  {
+    "中文": "水庫演算",
+    "English": "reservoir routing"
+  },
+  {
+    "中文": "殘留土",
+    "English": "residual soil"
+  },
+  {
+    "中文": "復原力",
+    "English": "resilience"
+  },
+  {
+    "中文": "解析度",
+    "English": "resolution"
+  },
+  {
+    "中文": "應變",
+    "English": "response"
+  },
+  {
+    "中文": "擋土牆",
+    "English": "return period"
+  },
+  {
+    "中文": "植生復育",
+    "English": "revegetation"
+  },
+  {
+    "中文": "護岸",
+    "English": "revetment"
+  },
+  {
+    "中文": "雷諾數",
+    "English": "Reynolds number"
+  },
+  {
+    "中文": "根莖",
+    "English": "rhizome"
+  },
+  {
+    "中文": "物種豐度",
+    "English": "richness"
+  },
+  {
+    "中文": "急瀨",
+    "English": "riffles"
+  },
+  {
+    "中文": "剛性或固定邊界渠道",
+    "English": "rigid boundary channel"
+  },
+  {
+    "中文": "小溝",
+    "English": "rill"
+  },
+  {
+    "中文": "紋溝沖蝕",
+    "English": "rill erosion"
+  },
+  {
+    "中文": "園內道",
+    "English": "ringed road"
+  },
+  {
+    "中文": "拋石護岸",
+    "English": "ripap revetment"
+  },
+  {
+    "中文": "河岸森林緩衝帶",
+    "English": "riparian forest buffer strip"
+  },
+  {
+    "中文": "沙紋",
+    "English": "ripple"
+  },
+  {
+    "中文": "風險",
+    "English": "risk"
+  },
+  {
+    "中文": "風險承擔",
+    "English": "risk acceptance, risk taking"
+  },
+  {
+    "中文": "風險分析",
+    "English": "risk analysis"
+  },
+  {
+    "中文": "風險評估",
+    "English": "risk assessment"
+  },
+  {
+    "中文": "風險規避",
+    "English": "risk avoidance, risk aversion"
+  },
+  {
+    "中文": "風險溝通",
+    "English": "risk communication"
+  },
+  {
+    "中文": "風險評量",
+    "English": "risk evaluation"
+  },
+  {
+    "中文": "風險確認",
+    "English": "risk identification"
+  },
+  {
+    "中文": "風險管理",
+    "English": "risk management"
+  },
+  {
+    "中文": "風險地圖",
+    "English": "risk map"
+  },
+  {
+    "中文": "風險認知",
+    "English": "risk perception"
+  },
+  {
+    "中文": "風險策略",
+    "English": "risk policy"
+  },
+  {
+    "中文": "風險降低",
+    "English": "risk reduction, risk mitigation"
+  },
+  {
+    "中文": "風險轉移",
+    "English": "risk transfer, risk shifting"
+  },
+  {
+    "中文": "風險處理",
+    "English": "risk treatment"
+  },
+  {
+    "中文": "河川",
+    "English": "river"
+  },
+  {
+    "中文": "河川嵌合體",
+    "English": "river mosaic"
+  },
+  {
+    "中文": "整流工程",
+    "English": "river regulation"
+  },
+  {
+    "中文": "道路生態學",
+    "English": "road ecology"
+  },
+  {
+    "中文": "路面排水",
+    "English": "road surface drainage"
+  },
+  {
+    "中文": "簡易石階",
+    "English": "rock-and-earth"
+  },
+  {
+    "中文": "砌石護岸",
+    "English": "rockery revetment"
+  },
+  {
+    "中文": "堆石壩",
+    "English": "rock fill dam"
+  },
+  {
+    "中文": "三面石階",
+    "English": "rock-on-rock"
+  },
+  {
+    "中文": "蛇籠護岸",
+    "English": "roll gabion revetment"
+  },
+  {
+    "中文": "根系吸收",
+    "English": "root absorption"
+  },
+  {
+    "中文": "根面積比",
+    "English": "root area ratio , RAR"
+  },
+  {
+    "中文": "根系補強",
+    "English": "root reinforcement"
+  },
+  {
+    "中文": "根力",
+    "English": "root strength"
+  },
+  {
+    "中文": "根域",
+    "English": "root zone"
+  },
+  {
+    "中文": "旋性流",
+    "English": "rotational flow"
+  },
+  {
+    "中文": "糙率",
+    "English": "roughness"
+  },
+  {
+    "中文": "逕流",
+    "English": "runoff"
+  },
+  {
+    "中文": "逕流係數",
+    "English": "runoff coefficient"
+  },
+  {
+    "中文": "逕流歷程",
+    "English": "runoff process"
+  },
+  {
+    "中文": "農村",
+    "English": "rural village"
+  },
+  {
+    "中文": "防砂壩",
+    "English": "sabo dam"
+  },
+  {
+    "中文": "安全出水量",
+    "English": "safe yield"
+  },
+  {
+    "中文": "跳躍載",
+    "English": "saltation load"
+  },
+  {
+    "中文": "聖迪馬斯量水槽",
+    "English": "San Dimas flume"
+  },
+  {
+    "中文": "砂",
+    "English": "sand"
+  },
+  {
+    "中文": "定砂",
+    "English": "sand fixation"
+  },
+  {
+    "中文": "砂波",
+    "English": "sand wave"
+  },
+  {
+    "中文": "衛星影像",
+    "English": "satellite images"
+  },
+  {
+    "中文": "境況模擬",
+    "English": "scenario simulation"
+  },
+  {
+    "中文": "斷面狹縮",
+    "English": "section contraction"
+  },
+  {
+    "中文": "斷面擴大",
+    "English": "section expansion"
+  },
+  {
+    "中文": "沉滓",
+    "English": "sediment"
+  },
+  {
+    "中文": "河川含砂濃度",
+    "English": "sediment concentration"
+  },
+  {
+    "中文": "防砂工程",
+    "English": "sediment control"
+  },
+  {
+    "中文": "泥砂遞移率",
+    "English": "sediment delivery ratio"
+  },
+  {
+    "中文": "含砂量測定",
+    "English": "sediment measurement"
+  },
+  {
+    "中文": "泥沙取樣器",
+    "English": "sediment sampler"
+  },
+  {
+    "中文": "泥沙生產量",
+    "English": "sediment yield"
+  },
+  {
+    "中文": "播種率",
+    "English": "seeding"
+  },
+  {
+    "中文": "半重力式壩",
+    "English": "semi-gravity dam"
+  },
+  {
+    "中文": "感應器",
+    "English": "sensor"
+  },
+  {
+    "中文": "持續水深",
+    "English": "sequent depth"
+  },
+  {
+    "中文": "連續壩",
+    "English": "sequential dam"
+  },
+  {
+    "中文": "沉砂池",
+    "English": "settling basin"
+  },
+  {
+    "中文": "較耐陰的植物",
+    "English": "shade-tolerant plants"
+  },
+  {
+    "中文": "銳緣堰",
+    "English": "sharp edged weir"
+  },
+  {
+    "中文": "銳緣量水堰",
+    "English": "sharp-crested weir"
+  },
+  {
+    "中文": "剪應力",
+    "English": "shear stress"
+  },
+  {
+    "中文": "薄層侵蝕",
+    "English": "sheet erosion"
+  },
+  {
+    "中文": "薄層水流",
+    "English": "sheet flow"
+  },
+  {
+    "中文": "避難處所",
+    "English": "shelter"
+  },
+  {
+    "中文": "s歷線",
+    "English": "S-hydrograph"
+  },
+  {
+    "中文": "斜檻",
+    "English": "sill"
+  },
+  {
+    "中文": "蜿曲度",
+    "English": "sinuosity"
+  },
+  {
+    "中文": "境況模擬",
+    "English": "situation simulation"
+  },
+  {
+    "中文": "粒徑分佈",
+    "English": "size distribution"
+  },
+  {
+    "中文": "閘門",
+    "English": "slice gate"
+  },
+  {
+    "中文": "滑動",
+    "English": "slide"
+  },
+  {
+    "中文": "切口壩、梳子壩",
+    "English": "slit dam"
+  },
+  {
+    "中文": "山坡地",
+    "English": "slopeland"
+  },
+  {
+    "中文": "坡地保育",
+    "English": "slopeland conservation"
+  },
+  {
+    "中文": "山坡地保育利用條例",
+    "English": "Slopeland Conservation and Utilization Act"
+  },
+  {
+    "中文": "坡地綠美化",
+    "English": "slopeland vegetation"
+  },
+  {
+    "中文": "邊坡穩定",
+    "English": "slope stabilization"
+  },
+  {
+    "中文": "淤泥",
+    "English": "sluge"
+  },
+  {
+    "中文": "砥墩",
+    "English": "sluice blocks"
+  },
+  {
+    "中文": "下開式閘門",
+    "English": "sluice gate"
+  },
+  {
+    "中文": "水土保持法",
+    "English": "Soil and Water Conservation Act"
+  },
+  {
+    "中文": "林地水土保持",
+    "English": "soil and water conservation for forest"
+  },
+  {
+    "中文": "水土保持戶外教室",
+    "English": "soil and water conservation outdoor classroom"
+  },
+  {
+    "中文": "水土保持計畫",
+    "English": "Soil and Water Conservation Plan"
+  },
+  {
+    "中文": "水土保持方法",
+    "English": "soil and water conservation practices"
+  },
+  {
+    "中文": "土壤袋植生",
+    "English": "soil bag vegetation"
+  },
+  {
+    "中文": "土壤沖蝕",
+    "English": "soil erosion"
+  },
+  {
+    "中文": "土壤化育層",
+    "English": "soil horizon"
+  },
+  {
+    "中文": "土壤層次",
+    "English": "soil layer"
+  },
+  {
+    "中文": "土壤流失量估算",
+    "English": "soil loss estimation"
+  },
+  {
+    "中文": "土壤物質",
+    "English": "soil material"
+  },
+  {
+    "中文": "土壤基質",
+    "English": "soil matrix"
+  },
+  {
+    "中文": "土壤粒徑分布",
+    "English": "soil particle-size distribution"
+  },
+  {
+    "中文": "土壤有機物質",
+    "English": "soil organic"
+  },
+  {
+    "中文": "土壤剖面發育",
+    "English": "soil profile development"
+  },
+  {
+    "中文": "土壤質地",
+    "English": "soil texture"
+  },
+  {
+    "中文": "分選",
+    "English": "sorting"
+  },
+  {
+    "中文": "變積流或空間變量流",
+    "English": "spatially-varied flow"
+  },
+  {
+    "中文": "種豐富度",
+    "English": "spcies richness , R"
+  },
+  {
+    "中文": "種歧異度指數",
+    "English": "species diversity index"
+  },
+  {
+    "中文": "比力",
+    "English": "specific force"
+  },
+  {
+    "中文": "比貯率；比保水量",
+    "English": "specific retention"
+  },
+  {
+    "中文": "比流率；比出水量",
+    "English": "specific yield"
+  },
+  {
+    "中文": "光譜增揚",
+    "English": "spectral emhancement"
+  },
+  {
+    "中文": "光譜影像系統",
+    "English": "spectral imaging system"
+  },
+  {
+    "中文": "溢洪道",
+    "English": "spillway"
+  },
+  {
+    "中文": "飛濺沖蝕",
+    "English": "splash erosion"
+  },
+  {
+    "中文": "噴植",
+    "English": "spray seeding"
+  },
+  {
+    "中文": "丁壩",
+    "English": "spur dike"
+  },
+  {
+    "中文": "蜂巢圍束網格堆疊護岸",
+    "English": "stacked cellurar confinement (geo-cell) revetment"
+  },
+  {
+    "中文": "木樁捲包護岸",
+    "English": "stake and infill roll revetment"
+  },
+  {
+    "中文": "潛在利害關係人",
+    "English": "stakeholder"
+  },
+  {
+    "中文": "駐波水槽",
+    "English": "standing wave flume"
+  },
+  {
+    "中文": "雨量資料之統計分析",
+    "English": "statistical analysis of precipitation data"
+  },
+  {
+    "中文": "恆定流",
+    "English": "steady flow"
+  },
+  {
+    "中文": "穩定水躍",
+    "English": "steady jump"
+  },
+  {
+    "中文": "樹幹流",
+    "English": "stem flow"
+  },
+  {
+    "中文": "腳踏石",
+    "English": "steping-stone (step stone)"
+  },
+  {
+    "中文": "靜水池",
+    "English": "stilling basin"
+  },
+  {
+    "中文": "史托克定律",
+    "English": "Stoke’s law"
+  },
+  {
+    "中文": "石牆法",
+    "English": "stone walls"
+  },
+  {
+    "中文": "蓄儲體積量",
+    "English": "storage volume"
+  },
+  {
+    "中文": "暴雨模式",
+    "English": "storm model"
+  },
+  {
+    "中文": "煙線",
+    "English": "streak line"
+  },
+  {
+    "中文": "溪流",
+    "English": "stream"
+  },
+  {
+    "中文": "渠道型態",
+    "English": "stream channel morphology"
+  },
+  {
+    "中文": "流線",
+    "English": "stream line"
+  },
+  {
+    "中文": "河溪級序",
+    "English": "stream order"
+  },
+  {
+    "中文": "流線管",
+    "English": "stream tube"
+  },
+  {
+    "中文": "河川槽渠侵蝕",
+    "English": "stream-channel erosion"
+  },
+  {
+    "中文": "走向",
+    "English": "strike"
+  },
+  {
+    "中文": "帶狀廊道",
+    "English": "strip corridor"
+  },
+  {
+    "中文": "強烈水躍",
+    "English": "strong jump"
+  },
+  {
+    "中文": "結構相似性與植物相似性",
+    "English": "structural versus floristic similarity"
+  },
+  {
+    "中文": "亞臨界流",
+    "English": "subcritical flow"
+  },
+  {
+    "中文": "隱沒作用",
+    "English": "subduction"
+  },
+  {
+    "中文": "潛壩",
+    "English": "submerged dam"
+  },
+  {
+    "中文": "浸沒水流",
+    "English": "submerged or drowned outflow"
+  },
+  {
+    "中文": "下陷",
+    "English": "subsidence"
+  },
+  {
+    "中文": "地表下逕流",
+    "English": "subsurface runoff"
+  },
+  {
+    "中文": "突降",
+    "English": "sudden drop"
+  },
+  {
+    "中文": "超臨界流",
+    "English": "supercritical flow"
+  },
+  {
+    "中文": "超音波水位計",
+    "English": "supersonic water level sensor"
+  },
+  {
+    "中文": "滾動",
+    "English": "surface creeping"
+  },
+  {
+    "中文": "表面阻力",
+    "English": "surface resistant"
+  },
+  {
+    "中文": "地表逕流",
+    "English": "surface runoff"
+  },
+  {
+    "中文": "表面波",
+    "English": "surface wave"
+  },
+  {
+    "中文": "湧浪",
+    "English": "surge (wave)"
+  },
+  {
+    "中文": "潛勢區域",
+    "English": "susceptible area"
+  },
+  {
+    "中文": "懸浮載",
+    "English": "suspended load"
+  },
+  {
+    "中文": "飛揚、懸浮",
+    "English": "suspension"
+  },
+  {
+    "中文": "永續發展",
+    "English": "sustainable development"
+  },
+  {
+    "中文": "沼澤林",
+    "English": "swamp"
+  },
+  {
+    "中文": "合成單位歷線",
+    "English": "synthetic unit hydrograph"
+  },
+  {
+    "中文": "尾水",
+    "English": "tailwater"
+  },
+  {
+    "中文": "水桶模式",
+    "English": "tank model"
+  },
+  {
+    "中文": "水土保持技術規範",
+    "English": "Technical Regulations for Soil and Water Conservation"
+  },
+  {
+    "中文": "岩石質地",
+    "English": "texture of rock"
+  },
+  {
+    "中文": "最佳水力斷面",
+    "English": "the best hydraulic section"
+  },
+  {
+    "中文": "水流深度",
+    "English": "the depth of flow"
+  },
+  {
+    "中文": "安定水力斷面",
+    "English": "the stable hydraulic section"
+  },
+  {
+    "中文": "泰斯方程式",
+    "English": "Theis equation"
+  },
+  {
+    "中文": "模型相似理論",
+    "English": "theory model similarity"
+  },
+  {
+    "中文": "流速分佈理論",
+    "English": "theory of velocity-distribution"
+  },
+  {
+    "中文": "徐昇多邊形法",
+    "English": "Thiesson polygons method"
+  },
+  {
+    "中文": "木料壩",
+    "English": "timber dam"
+  },
+  {
+    "中文": "集流時間",
+    "English": "time of concentration"
+  },
+  {
+    "中文": "平衡時間",
+    "English": "time of equilibrium"
+  },
+  {
+    "中文": "時間-面積曲線",
+    "English": "time-area curves"
+  },
+  {
+    "中文": "時間-洩降曲線",
+    "English": "time-drawdown curve"
+  },
+  {
+    "中文": "頂寬",
+    "English": "top width"
+  },
+  {
+    "中文": "位相;地誌學",
+    "English": "topology"
+  },
+  {
+    "中文": "傾翻",
+    "English": "topple"
+  },
+  {
+    "中文": "野溪",
+    "English": "torrent"
+  },
+  {
+    "中文": "總水頭",
+    "English": "total energy head"
+  },
+  {
+    "中文": "總水頭能量線",
+    "English": "total head line"
+  },
+  {
+    "中文": "曳引力",
+    "English": "tractive force"
+  },
+  {
+    "中文": "防救災訓練",
+    "English": "training of disaster prevention and response"
+  },
+  {
+    "中文": "順導牆",
+    "English": "training wall"
+  },
+  {
+    "中文": "轉型斷層",
+    "English": "transform fault"
+  },
+  {
+    "中文": "過渡水深",
+    "English": "transitional depth"
+  },
+  {
+    "中文": "漸變流",
+    "English": "transitional flow"
+  },
+  {
+    "中文": "搬運作用",
+    "English": "transportation"
+  },
+  {
+    "中文": "囚砂效率",
+    "English": "trap efficiency"
+  },
+  {
+    "中文": "梯形渠道",
+    "English": "trapezoidal channel"
+  },
+  {
+    "中文": "攔污柵",
+    "English": "trash rack"
+  },
+  {
+    "中文": "不規則三角網",
+    "English": "triangulated irregular network"
+  },
+  {
+    "中文": "紊流擴散方程式",
+    "English": "turbulent diffusion equation"
+  },
+  {
+    "中文": "紊流",
+    "English": "turbulent flow"
+  },
+  {
+    "中文": "二相流",
+    "English": "two-phase flow"
+  },
+  {
+    "中文": "颱風",
+    "English": "typhoon"
+  },
+  {
+    "中文": "不可接受風險",
+    "English": "unacceptable risk"
+  },
+  {
+    "中文": "不確定性",
+    "English": "uncertainty"
+  },
+  {
+    "中文": "地下排水工程",
+    "English": "underground water drainage works"
+  },
+  {
+    "中文": "暗渠",
+    "English": "underdrain"
+  },
+  {
+    "中文": "波狀水躍",
+    "English": "undulant jump"
+  },
+  {
+    "中文": "均勻分布",
+    "English": "uniform distribution"
+  },
+  {
+    "中文": "等速流",
+    "English": "uniform flow"
+  },
+  {
+    "中文": "單位歷線",
+    "English": "unit hydrograph"
+  },
+  {
+    "中文": "單位河川功率",
+    "English": "unit stream power"
+  },
+  {
+    "中文": "通用土壤流失公式",
+    "English": "Universal Soil Loss Equation"
+  },
+  {
+    "中文": "國際橫麥卡托",
+    "English": "universal transerve mercator"
+  },
+  {
+    "中文": "非恆定流",
+    "English": "unsteady flow"
+  },
+  {
+    "中文": "非監督式分類",
+    "English": "unsupervised classification"
+  },
+  {
+    "中文": "上游",
+    "English": "upstream"
+  },
+  {
+    "中文": "蒸發",
+    "English": "vaporization or evaporation"
+  },
+  {
+    "中文": "向量式資料",
+    "English": "vector data"
+  },
+  {
+    "中文": "緩衝綠帶",
+    "English": "vegetation buffer strip"
+  },
+  {
+    "中文": "植生過濾帶",
+    "English": "vegetated filter strip"
+  },
+  {
+    "中文": "植生帶鋪植",
+    "English": "vegetation belt placement"
+  },
+  {
+    "中文": "植生廊道",
+    "English": "vegetation corridors"
+  },
+  {
+    "中文": "水土保持植生方法",
+    "English": "vegetative practices for soil and water conservation"
+  },
+  {
+    "中文": "植物結構",
+    "English": "vegetation structure"
+  },
+  {
+    "中文": "植生演替",
+    "English": "vegetation succession"
+  },
+  {
+    "中文": "流速",
+    "English": "velocity"
+  },
+  {
+    "中文": "流速分布",
+    "English": "velocity distribution"
+  },
+  {
+    "中文": "速度頭",
+    "English": "velocity head"
+  },
+  {
+    "中文": "節點",
+    "English": "vertex"
+  },
+  {
+    "中文": "粘滯性",
+    "English": "viscosity"
+  },
+  {
+    "中文": "粘滯力",
+    "English": "viscous force"
+  },
+  {
+    "中文": "視覺化處理",
+    "English": "visualization"
+  },
+  {
+    "中文": "易致災性",
+    "English": "vulnerability"
+  },
+  {
+    "中文": "沖洗載",
+    "English": "wash load"
+  },
+  {
+    "中文": "荒廢地",
+    "English": "wastelands"
+  },
+  {
+    "中文": "通水斷面積",
+    "English": "water area"
+  },
+  {
+    "中文": "輸配水設施",
+    "English": "water conveyance facilities"
+  },
+  {
+    "中文": "分段截流",
+    "English": "water diversion"
+  },
+  {
+    "中文": "水位",
+    "English": "water level"
+  },
+  {
+    "中文": "失水",
+    "English": "water loss"
+  },
+  {
+    "中文": "水路",
+    "English": "water routing"
+  },
+  {
+    "中文": "水源設施",
+    "English": "water source facilities"
+  },
+  {
+    "中文": "排水口",
+    "English": "water spout"
+  },
+  {
+    "中文": "蓄水設施",
+    "English": "water storage facility (tank)"
+  },
+  {
+    "中文": "水面剖面線",
+    "English": "water surface profile"
+  },
+  {
+    "中文": "輸配水設施",
+    "English": "water transportation pipe"
+  },
+  {
+    "中文": "抽水設施",
+    "English": "water withdraw facility"
+  },
+  {
+    "中文": "集水區",
+    "English": "watershed"
+  },
+  {
+    "中文": "治山防災",
+    "English": "watershed management and erosion control"
+  },
+  {
+    "中文": "集水區演算",
+    "English": "watershed routing"
+  },
+  {
+    "中文": "編柵護岸",
+    "English": "wattle revetment"
+  },
+  {
+    "中文": "編柵",
+    "English": "wattling"
+  },
+  {
+    "中文": "水波",
+    "English": "wave"
+  },
+  {
+    "中文": "弱水躍",
+    "English": "weak jump"
+  },
+  {
+    "中文": "風化",
+    "English": "weathering"
+  },
+  {
+    "中文": "濕地生態學",
+    "English": "wetland ecology"
+  },
+  {
+    "中文": "濕地生態系",
+    "English": "wetland ecosystems"
+  },
+  {
+    "中文": "濕地類型",
+    "English": "wetlands typology"
+  },
+  {
+    "中文": "濕周",
+    "English": "wetted perimeter"
+  },
+  {
+    "中文": "凋萎點",
+    "English": "wilting point"
+  },
+  {
+    "中文": "防風林",
+    "English": "windbreaks"
+  },
+  {
+    "中文": "翼牆",
+    "English": "wing wall"
+  },
+  {
+    "中文": "箱籠壩",
+    "English": "wire box dam"
+  },
+  {
+    "中文": "鉛絲網壩",
+    "English": "wire mesh dam"
+  },
+  {
+    "中文": "蛇籠壩",
+    "English": "wire sausage dam"
+  },
+  {
+    "中文": "鋼索檢知器",
+    "English": "wire sensor"
+  },
+  {
+    "中文": "木格籠壩",
+    "English": "wood grid dam"
+  },
+  {
+    "中文": "木排樁護岸",
+    "English": "wooden pile revetment"
+  },
+  {
+    "中文": "林帶",
+    "English": "woodland corridors"
+  },
+  {
+    "中文": "作業道",
+    "English": "working road"
+  },
+  {
+    "中文": "一年生植物",
+    "English": "annual plants, therophyte"
+  },
+  {
+    "中文": "丁壩",
+    "English": "spur dike"
+  },
+  {
+    "中文": "植生廊道",
+    "English": "vegetation corridors"
+  },
+  {
+    "中文": "二次災害",
+    "English": "secondary disaster"
+  },
+  {
+    "中文": "人工繁殖",
+    "English": "artificial reproduction"
+  },
+  {
+    "中文": "人造雨",
+    "English": "artificial rainfall"
+  },
+  {
+    "中文": "入滲係數",
+    "English": "infiltration coefficient"
+  },
+  {
+    "中文": "入滲指數",
+    "English": "infiltration index"
+  },
+  {
+    "中文": "入滲計",
+    "English": "infiltrometer"
+  },
+  {
+    "中文": "入滲容量",
+    "English": "infiltration capacity"
+  },
+  {
+    "中文": "入滲容量曲線",
+    "English": "infiltration capacity curve"
+  },
+  {
+    "中文": "入滲率",
+    "English": "infiltration rate"
+  },
+  {
+    "中文": "三明治式擋土牆",
+    "English": "sandwich type retaining wall"
+  },
+  {
+    "中文": "三軸透水試驗",
+    "English": "triaxial permeability test"
+  },
+  {
+    "中文": "土石流",
+    "English": "debris flow"
+  },
+  {
+    "中文": "土石流災害防救業務計畫",
+    "English": "debris flow disaster prevention and response operation plan"
+  },
+  {
+    "中文": "土石流災害預報與警報",
+    "English": "forecasting and warning of debris flow disasters"
+  },
+  {
+    "中文": "土石流防災教育訓練",
+    "English": "debris flow disaster prevention education and training"
+  },
+  {
+    "中文": "土石流防災疏散避難規劃",
+    "English": "debris flow disaster prevention and evacuation program"
+  },
+  {
+    "中文": "土石流防災疏散避難演練",
+    "English": "debris flow evacuation drills"
+  },
+  {
+    "中文": "土石流潛勢溪流",
+    "English": "potential debris flow torrent"
+  },
+  {
+    "中文": "土石流警戒區發布機制",
+    "English": "releasing debris flow disaster alert information"
+  },
+  {
+    "中文": "土石流警戒基準值",
+    "English": "rainfall threshold value for debris flow warning"
+  },
+  {
+    "中文": "土石流觀測站",
+    "English": "debris flow observation station"
+  },
+  {
+    "中文": "土地使用規劃",
+    "English": "land use planning"
+  },
+  {
+    "中文": "土地使用管理",
+    "English": "land use management"
+  },
+  {
+    "中文": "土粒密度",
+    "English": "soil particle density"
+  },
+  {
+    "中文": "土袋防砂壩",
+    "English": "soil bag check dam"
+  },
+  {
+    "中文": "土壤",
+    "English": "soil"
+  },
+  {
+    "中文": "土壤力學",
+    "English": "soil mechanics"
+  },
+  {
+    "中文": "土壤三相",
+    "English": "three phases of soil"
+  },
+  {
+    "中文": "土壤之潛在種子",
+    "English": "buried seed in soil"
+  },
+  {
+    "中文": "土壤分類",
+    "English": "soil classification"
+  },
+  {
+    "中文": "土壤化育層",
+    "English": "soil horizon, soil genetic horizon"
+  },
+  {
+    "中文": "土壤化學",
+    "English": "soil chemistry"
+  },
+  {
+    "中文": "土壤反應",
+    "English": "soil reaction"
+  },
+  {
+    "中文": "土壤孔隙比",
+    "English": "soil void ratio"
+  },
+  {
+    "中文": "土壤孔隙率",
+    "English": "soil porosity"
+  },
+  {
+    "中文": "土壤毛細勢能",
+    "English": "capillary potential"
+  },
+  {
+    "中文": "土壤水",
+    "English": "soil water, soil moisture"
+  },
+  {
+    "中文": "土壤水分特性曲線",
+    "English": "soil moisture characteristic curve"
+  },
+  {
+    "中文": "土壤可容許流失量",
+    "English": "soil loss tolerance"
+  },
+  {
+    "中文": "土壤可蝕性因子",
+    "English": "soil erodibility factor"
+  },
+  {
+    "中文": "土壤生產力",
+    "English": "soil productivity"
+  },
+  {
+    "中文": "土壤生態學",
+    "English": "soil ecology"
+  },
+  {
+    "中文": "土壤有效水份",
+    "English": "available soil moisture"
+  },
+  {
+    "中文": "土壤改良劑",
+    "English": "soil amendment"
+  },
+  {
+    "中文": "土壤沖蝕",
+    "English": "soil erosion"
+  },
+  {
+    "中文": "土壤物理學",
+    "English": "soil physics"
+  },
+  {
+    "中文": "土壤的化學性",
+    "English": "chemical properties of soil"
+  },
+  {
+    "中文": "土壤的物理性",
+    "English": "physical properties of soil"
+  },
+  {
+    "中文": "土壤空氣",
+    "English": "soil air"
+  },
+  {
+    "中文": "土壤肥力",
+    "English": "soil fertility"
+  },
+  {
+    "中文": "土壤表面結殼",
+    "English": "crust of soil surface"
+  },
+  {
+    "中文": "土壤流失",
+    "English": "soil loss"
+  },
+  {
+    "中文": "土壤相對密度",
+    "English": "relative density of soil"
+  },
+  {
+    "中文": "土壤風化作用",
+    "English": "soil weathering"
+  },
+  {
+    "中文": "土壤剖面發育",
+    "English": "soil profile development"
+  },
+  {
+    "中文": "土壤圈",
+    "English": "pedosphere"
+  },
+  {
+    "中文": "土壤基質",
+    "English": "soil matrix"
+  },
+  {
+    "中文": "土壤密度",
+    "English": "soil density"
+  },
+  {
+    "中文": "土壤液化",
+    "English": "liquefaction"
+  },
+  {
+    "中文": "土壤液性限度",
+    "English": "liquid limit of soil"
+  },
+  {
+    "中文": "土壤深度",
+    "English": "soil depth"
+  },
+  {
+    "中文": "土壤粒徑分佈",
+    "English": "soil particle-size distribution"
+  },
+  {
+    "中文": "土壤袋",
+    "English": "soil bag"
+  },
+  {
+    "中文": "土壤硬度",
+    "English": "soil hardness"
+  },
+  {
+    "中文": "土壤硬度計",
+    "English": "soil hardness tester"
+  },
+  {
+    "中文": "土壤結持度",
+    "English": "soil consistency"
+  },
+  {
+    "中文": "土壤塑性限度",
+    "English": "plastic limit of soil"
+  },
+  {
+    "中文": "土壤微生物學",
+    "English": "soil microbiology"
+  },
+  {
+    "中文": "土壤溶液",
+    "English": "soil solution"
+  },
+  {
+    "中文": "土壤飽和含水量",
+    "English": "saturated water content of soil"
+  },
+  {
+    "中文": "土壤飽和度",
+    "English": "degree of saturation"
+  },
+  {
+    "中文": "土壤圖",
+    "English": "soil map"
+  },
+  {
+    "中文": "土壤管理",
+    "English": "soil management"
+  },
+  {
+    "中文": "土壤酸度 / pH 值",
+    "English": "soil acidity"
+  },
+  {
+    "中文": "土壤層次",
+    "English": "soil layer"
+  },
+  {
+    "中文": "土壤調查",
+    "English": "soil survey"
+  },
+  {
+    "中文": "土壤質地",
+    "English": "soil texture"
+  },
+  {
+    "中文": "土壤機械分析",
+    "English": "soil mechanical analysis"
+  },
+  {
+    "中文": "大陸島",
+    "English": "continental islands"
+  },
+  {
+    "中文": "山坡地",
+    "English": "slopeland"
+  },
+  {
+    "中文": "山坡地保育利用條例",
+    "English": "Slopeland Conservation and Utilization Act"
+  },
+  {
+    "中文": "山坡地保育利用條例施行 細則",
+    "English": "Enforcement Rules of Slopeland Conservation and Utilization Act"
+  },
+  {
+    "中文": "山坡地保育區",
+    "English": "slopeland conservation area"
+  },
+  {
+    "中文": "山邊溝",
+    "English": "hillside ditch"
+  },
+  {
+    "中文": "不定根",
+    "English": "adventitious root"
+  },
+  {
+    "中文": "不稔性",
+    "English": "sterility"
+  },
+  {
+    "中文": "不織布植生帶",
+    "English": "non-woven vegetation belt"
+  },
+  {
+    "中文": "中央災害防救會報",
+    "English": "Central Disaster Prevention and Response Council"
+  },
+  {
+    "中文": "中央災害應變中心",
+    "English": "Central Disaster Emergency Operation Center"
+  },
+  {
+    "中文": "中性演替",
+    "English": "mesarch succession"
+  },
+  {
+    "中文": "中間流",
+    "English": "interflow"
+  },
+  {
+    "中文": "中層噴植法",
+    "English": "medium layer hydroseeding"
+  },
+  {
+    "中文": "互利共生性",
+    "English": "mutualism"
+  },
+  {
+    "中文": "互相抑制競爭",
+    "English": "mutual inhibition competition"
+  },
+  {
+    "中文": "分株",
+    "English": "division"
+  },
+  {
+    "中文": "切枝壓條",
+    "English": "brush layer"
+  },
+  {
+    "中文": "化學需氧量",
+    "English": "chemical oxygen demand"
+  },
+  {
+    "中文": "天水 / 大氣水",
+    "English": "meteoric water"
+  },
+  {
+    "中文": "太陽光譜",
+    "English": "solar spectrum"
+  },
+  {
+    "中文": "支柱根",
+    "English": "stilt root, prop root"
+  },
+  {
+    "中文": "木本植物",
+    "English": "arboreous plants"
+  },
+  {
+    "中文": "比水容量",
+    "English": "specific water capacity"
+  },
+  {
+    "中文": "比流量",
+    "English": "specific discharge"
+  },
+  {
+    "中文": "毛細管水",
+    "English": "capillary water"
+  },
+  {
+    "中文": "水力傳導度",
+    "English": "hydraulic conductivity"
+  },
+  {
+    "中文": "水土保持",
+    "English": "soil and water conservation"
+  },
+  {
+    "中文": "水土保持工程方法",
+    "English": "engineering practices for soil and water conservation"
+  },
+  {
+    "中文": "水土保持之處理與維護",
+    "English": "treatment and maintenance of soil and water conservation"
+  },
+  {
+    "中文": "水土保持方法",
+    "English": "soil and water conservation practices"
+  },
+  {
+    "中文": "水土保持技術規範",
+    "English": "Technical Regulations for Soil and Water Conservation"
+  },
+  {
+    "中文": "水土保持法",
+    "English": "Soil and Water Conservation Act"
+  },
+  {
+    "中文": "水土保持法施行細則",
+    "English": "Enforcement Rules of Soil and Water Conservation Act"
+  },
+  {
+    "中文": "水土保持計畫",
+    "English": "soil and water conservation plan"
+  },
+  {
+    "中文": "水土保持植生方法",
+    "English": "vegetative practices for soil and water conservation"
+  },
+  {
+    "中文": "水土保持農藝方法",
+    "English": "agronomic practices for soil and water conservation"
+  },
+  {
+    "中文": "水文循環",
+    "English": "hydrologic cycle"
+  },
+  {
+    "中文": "水文學",
+    "English": "hydrology"
+  },
+  {
+    "中文": "水文歷線圖",
+    "English": "hydrographs"
+  },
+  {
+    "中文": "水生植物",
+    "English": "hydrophyte, aquatic plant"
+  },
+  {
+    "中文": "水位觀測井",
+    "English": "observation well"
+  },
+  {
+    "中文": "水岸保護帶",
+    "English": "riverside protective strip"
+  },
+  {
+    "中文": "水庫保護帶",
+    "English": "reservoir protective strip"
+  },
+  {
+    "中文": "水庫集水區",
+    "English": "reservoir watershed"
+  },
+  {
+    "中文": "水庫蓄水範圍",
+    "English": "reservoir storage range"
+  },
+  {
+    "中文": "水源涵養",
+    "English": "water conservation"
+  },
+  {
+    "中文": "水蝕",
+    "English": "water erosion"
+  },
+  {
+    "中文": "水質",
+    "English": "water quality"
+  },
+  {
+    "中文": "水壓計",
+    "English": "piezometer"
+  },
+  {
+    "中文": "主根 / 一次根",
+    "English": "primary root"
+  },
+  {
+    "中文": "主動式感應器",
+    "English": "active sensor"
+  },
+  {
+    "中文": "出生率",
+    "English": "natality"
+  },
+  {
+    "中文": "出現率",
+    "English": "presence"
+  },
+  {
+    "中文": "加速沖蝕",
+    "English": "accelerated erosion"
+  },
+  {
+    "中文": "半地中植物",
+    "English": "hemicryptophytes"
+  },
+  {
+    "中文": "半重力式擋土牆",
+    "English": "semi-gravity type retaining wall"
+  },
+  {
+    "中文": "台壁植草",
+    "English": "planting grass on risers"
+  },
+  {
+    "中文": "外來種",
+    "English": "exotic species"
+  },
+  {
+    "中文": "市郊景觀",
+    "English": "suburban landscapes"
+  },
+  {
+    "中文": "平台梯段",
+    "English": "bench terrace"
+  },
+  {
+    "中文": "平均形狀指數",
+    "English": "mean shape index"
+  },
+  {
+    "中文": "平均塊區大小",
+    "English": "mean patch size"
+  },
+  {
+    "中文": "平面破壞",
+    "English": "planar failure"
+  },
+  {
+    "中文": "打樁編柵",
+    "English": "staking and wattling"
+  },
+  {
+    "中文": "正常沖蝕",
+    "English": "normal erosion"
+  },
+  {
+    "中文": "母質層",
+    "English": "parent material horizon"
+  },
+  {
+    "中文": "永久凋萎點",
+    "English": "permanent wilting point"
+  },
+  {
+    "中文": "生物歧異度",
+    "English": "biodiversity"
+  },
+  {
+    "中文": "生物物理脆弱性",
+    "English": "biophysical vulnerability"
+  },
+  {
+    "中文": "生物相",
+    "English": "biomes"
+  },
+  {
+    "中文": "生物圈",
+    "English": "biosphere"
+  },
+  {
+    "中文": "生物量",
+    "English": "biomass"
+  },
+  {
+    "中文": "生物需氧量",
+    "English": "biological oxygen demand"
+  },
+  {
+    "中文": "生物學",
+    "English": "biology"
+  },
+  {
+    "中文": "生物整合指數",
+    "English": "index of biological integrity"
+  },
+  {
+    "中文": "生長型",
+    "English": "growth form"
+  },
+  {
+    "中文": "生長素",
+    "English": "auxin"
+  },
+  {
+    "中文": "生活型",
+    "English": "life form"
+  },
+  {
+    "中文": "生活型譜",
+    "English": "life-form spectrum"
+  },
+  {
+    "中文": "生理生態學",
+    "English": "physio-ecology"
+  },
+  {
+    "中文": "生產力",
+    "English": "productivity"
+  },
+  {
+    "中文": "生產者",
+    "English": "producers"
+  },
+  {
+    "中文": "生產量",
+    "English": "production"
+  },
+  {
+    "中文": "生態序列",
+    "English": "ecocline"
+  },
+  {
+    "中文": "生態系",
+    "English": "ecosystem, ecological system"
+  },
+  {
+    "中文": "生態型",
+    "English": "ecotype"
+  },
+  {
+    "中文": "生態恢復",
+    "English": "ecological restoration"
+  },
+  {
+    "中文": "生態指標",
+    "English": "ecological indicators"
+  },
+  {
+    "中文": "生態效率",
+    "English": "ecological efficiency"
+  },
+  {
+    "中文": "生態被覆工法",
+    "English": "bioengineering"
+  },
+  {
+    "中文": "生態過渡帶",
+    "English": "ecotone"
+  },
+  {
+    "中文": "生態演替",
+    "English": "ecological succession"
+  },
+  {
+    "中文": "生態綠化",
+    "English": "ecological greening"
+  },
+  {
+    "中文": "生態學",
+    "English": "ecology"
+  },
+  {
+    "中文": "生態優勢度",
+    "English": "ecological dominance"
+  },
+  {
+    "中文": "生態職位",
+    "English": "ecological niche"
+  },
+  {
+    "中文": "田間容水量",
+    "English": "field capacity"
+  },
+  {
+    "中文": "石牆法",
+    "English": "stone walls"
+  },
+  {
+    "中文": "穴植管",
+    "English": "hole tube"
+  },
+  {
+    "中文": "夯實作用",
+    "English": "compaction"
+  },
+  {
+    "中文": "伏生藤類",
+    "English": "prostrate vine"
+  },
+  {
+    "中文": "光合作用",
+    "English": "photosynthesis"
+  },
+  {
+    "中文": "光期作用",
+    "English": "photoperiodism"
+  },
+  {
+    "中文": "光補償點",
+    "English": "light compensation point"
+  },
+  {
+    "中文": "先驅植物",
+    "English": "pioneer plants"
+  },
+  {
+    "中文": "全球性氣候變遷",
+    "English": "global climate change"
+  },
+  {
+    "中文": "共生植物",
+    "English": "symbiont"
+  },
+  {
+    "中文": "共優勢種",
+    "English": "co-dominant"
+  },
+  {
+    "中文": "危害",
+    "English": "hazard"
+  },
+  {
+    "中文": "危害分析",
+    "English": "hazard analysis"
+  },
+  {
+    "中文": "向源侵蝕",
+    "English": "headward erosion"
+  },
+  {
+    "中文": "合理化公式",
+    "English": "rational formula"
+  },
+  {
+    "中文": "地下水",
+    "English": "groundwater"
+  },
+  {
+    "中文": "地下水人工補注",
+    "English": "artificial recharge of groundwater"
+  },
+  {
+    "中文": "地下水位",
+    "English": "groundwater table"
+  },
+  {
+    "中文": "地下水流",
+    "English": "groundwater flow"
+  },
+  {
+    "中文": "地下水循環",
+    "English": "groundwater cycle"
+  },
+  {
+    "中文": "地下排水工程",
+    "English": "underground water drainage works"
+  },
+  {
+    "中文": "地下截水牆",
+    "English": "underground cutoff wall"
+  },
+  {
+    "中文": "地中植物",
+    "English": "cryptophyte"
+  },
+  {
+    "中文": "地表伸縮計 / 地滑計",
+    "English": "surface extensometer"
+  },
+  {
+    "中文": "地表排水工程",
+    "English": "surface water drainage works"
+  },
+  {
+    "中文": "地表植物",
+    "English": "chamaephyte"
+  },
+  {
+    "中文": "地表貯留",
+    "English": "surface retention"
+  },
+  {
+    "中文": "地表滯流",
+    "English": "surface detention"
+  },
+  {
+    "中文": "地區災害防救計畫",
+    "English": "Local Disaster Prevention and Response Plan"
+  },
+  {
+    "中文": "地理資訊系統",
+    "English": "geographic information systems"
+  },
+  {
+    "中文": "地被植物",
+    "English": "ground cover plants"
+  },
+  {
+    "中文": "地滑",
+    "English": "complex landslide"
+  },
+  {
+    "中文": "地際直徑",
+    "English": "basal diameter"
+  },
+  {
+    "中文": "地層下陷",
+    "English": "ground subsidence"
+  },
+  {
+    "中文": "地層滑動",
+    "English": "sliding"
+  },
+  {
+    "中文": "地質作用",
+    "English": "geologic process"
+  },
+  {
+    "中文": "地質災害",
+    "English": "geologic hazard"
+  },
+  {
+    "中文": "地質事件",
+    "English": "geologic event"
+  },
+  {
+    "中文": "地聲檢知器",
+    "English": "geophone"
+  },
+  {
+    "中文": "多年生植物",
+    "English": "perennial plant"
+  },
+  {
+    "中文": "成木植栽",
+    "English": "planting of adult tree"
+  },
+  {
+    "中文": "成本效益分析",
+    "English": "cost-benefit analysis"
+  },
+  {
+    "中文": "成熟土壤",
+    "English": "mature soil"
+  },
+  {
+    "中文": "有效水分",
+    "English": "available water"
+  },
+  {
+    "中文": "有效雨量",
+    "English": "effective rainfall"
+  },
+  {
+    "中文": "有效養分",
+    "English": "available nutrient"
+  },
+  {
+    "中文": "有機肥料",
+    "English": "organic fertilizer"
+  },
+  {
+    "中文": "次生林",
+    "English": "secondary growth forest"
+  },
+  {
+    "中文": "次地表逕流",
+    "English": "subsurface flow"
+  },
+  {
+    "中文": "次級消費者",
+    "English": "macroconsumers"
+  },
+  {
+    "中文": "次階代謝物質",
+    "English": "secondary metabolic substances"
+  },
+  {
+    "中文": "汙染",
+    "English": "pollution"
+  },
+  {
+    "中文": "自由地下水",
+    "English": "unconfined groundwater"
+  },
+  {
+    "中文": "自然沖蝕",
+    "English": "natural erosion"
+  },
+  {
+    "中文": "自然景觀",
+    "English": "natural landscape"
+  },
+  {
+    "中文": "交角不整合",
+    "English": "angular unconformity"
+  },
+  {
+    "中文": "自發演替",
+    "English": "autogenic succession"
+  },
+  {
+    "中文": "自營種",
+    "English": "autotrophic species"
+  },
+  {
+    "中文": "行政院災害防救委員會",
+    "English": "National Disasters Prevention and Protection Committee"
+  },
+  {
+    "中文": "行動式土石流觀測站",
+    "English": "mobile debris flow monitoring station"
+  },
+  {
+    "中文": "住宅重建",
+    "English": "housing reconstruction"
+  },
+  {
+    "中文": "作物係數",
+    "English": "crop coefficient"
+  },
+  {
+    "中文": "作業道",
+    "English": "working road"
+  },
+  {
+    "中文": "低地草原",
+    "English": "lowland grassland"
+  },
+  {
+    "中文": "判釋",
+    "English": "interpretation"
+  },
+  {
+    "中文": "利害關係人",
+    "English": "stakeholder"
+  },
+  {
+    "中文": "吸著水",
+    "English": "hygroscopic water"
+  },
+  {
+    "中文": "坑溝",
+    "English": "gully"
+  },
+  {
+    "中文": "坑溝沖蝕",
+    "English": "gully erosion"
+  },
+  {
+    "中文": "均勻度指數",
+    "English": "evenness index"
+  },
+  {
+    "中文": "形狀指數",
+    "English": "shape index"
+  },
+  {
+    "中文": "形相",
+    "English": "physiognomy"
+  },
+  {
+    "中文": "抗災盲點",
+    "English": "vulnerabilities to disasters"
+  },
+  {
+    "中文": "扶（倚）壁式擋土牆",
+    "English": "buttress (counterfort) type retaining wall"
+  },
+  {
+    "中文": "旱生植物",
+    "English": "xerophyte"
+  },
+  {
+    "中文": "沙地海岸植生群落",
+    "English": "sandy coastal vegetation"
+  },
+  {
+    "中文": "沉砂池",
+    "English": "stilling pond, sedimentation pond, settling basin"
+  },
+  {
+    "中文": "災害",
+    "English": "disaster"
+  },
+  {
+    "中文": "災害回復力",
+    "English": "disaster resilience"
+  },
+  {
+    "中文": "災害防救",
+    "English": "disaster prevention and response"
+  },
+  {
+    "中文": "災害防救主管機關",
+    "English": "Disaster Prevention and Response Duty Ministry"
+  },
+  {
+    "中文": "災害防救法",
+    "English": "Disaster Prevention and Protection Act, Disaster Prevention and Response Act"
+  },
+  {
+    "中文": "災害防救基本計畫",
+    "English": "Disaster Prevention and Response Basic Plan"
+  },
+  {
+    "中文": "災害防救演練",
+    "English": "disaster prevention and rescue maneuver, disaster prevention and response drills"
+  },
+  {
+    "中文": "災害承受力分析",
+    "English": "capability assessment"
+  },
+  {
+    "中文": "災害保險",
+    "English": "disaster insurance"
+  },
+  {
+    "中文": "災害發生週期",
+    "English": "recurrence cycle of disasters"
+  },
+  {
+    "中文": "災害資訊",
+    "English": "disaster information"
+  },
+  {
+    "中文": "災害預防",
+    "English": "disaster prevention"
+  },
+  {
+    "中文": "災害管理",
+    "English": "disaster management"
+  },
+  {
+    "中文": "災害潛勢",
+    "English": "disaster potentials"
+  },
+  {
+    "中文": "災害潛勢地區",
+    "English": "hazardous area"
+  },
+  {
+    "中文": "災害複雜性",
+    "English": "disaster complexity"
+  },
+  {
+    "中文": "災區",
+    "English": "impact area"
+  },
+  {
+    "中文": "災損評估",
+    "English": "disaster assessment"
+  },
+  {
+    "中文": "育林學",
+    "English": "silviculture"
+  },
+  {
+    "中文": "走向(岩層)",
+    "English": "strike"
+  },
+  {
+    "中文": "走莖",
+    "English": "stolon"
+  },
+  {
+    "中文": "走莖繁殖",
+    "English": "reproduction by stolon"
+  },
+  {
+    "中文": "防火林帶",
+    "English": "fire-protection greenbelt"
+  },
+  {
+    "中文": "防火綠帶",
+    "English": "green belt for fire prevention"
+  },
+  {
+    "中文": "防汛期 / 汛期",
+    "English": "flood control season"
+  },
+  {
+    "中文": "防災地圖",
+    "English": "disaster prevention map"
+  },
+  {
+    "中文": "防災社區",
+    "English": "community-based disaster management"
+  },
+  {
+    "中文": "防災組織",
+    "English": "disaster prevention and response organization"
+  },
+  {
+    "中文": "防災策略",
+    "English": "mitigation strategies"
+  },
+  {
+    "中文": "防災綠帶",
+    "English": "green belt for disaster prevention,green belt for disaster mitigation"
+  },
+  {
+    "中文": "防砂工程",
+    "English": "sediment measures"
+  },
+  {
+    "中文": "防砂壩",
+    "English": "sabo dam, check dam"
+  },
+  {
+    "中文": "防風林",
+    "English": "windbreak"
+  },
+  {
+    "中文": "防風植物",
+    "English": "wind protection plants"
+  },
+  {
+    "中文": "防風綠帶",
+    "English": "green belt for wind protection"
+  },
+  {
+    "中文": "防潮林",
+    "English": "protection forest against storm tide and salty wind"
+  },
+  {
+    "中文": "依賴性從屬種植物",
+    "English": "dependent subordinate plants"
+  },
+  {
+    "中文": "使用分區",
+    "English": "zoning"
+  },
+  {
+    "中文": "呼吸根",
+    "English": "respiratory root"
+  },
+  {
+    "中文": "周邊植生",
+    "English": "contiguous vegetation"
+  },
+  {
+    "中文": "固床工",
+    "English": "ground sill"
+  },
+  {
+    "中文": "固定框",
+    "English": "frame work"
+  },
+  {
+    "中文": "固氮作用",
+    "English": "nitrogen fixation"
+  },
+  {
+    "中文": "坡地災害",
+    "English": "slopeland disaster"
+  },
+  {
+    "中文": "坡地防風",
+    "English": "windbreak for slopeland"
+  },
+  {
+    "中文": "坡地保育",
+    "English": "slopeland conservation"
+  },
+  {
+    "中文": "坡面綠化工",
+    "English": "slopland greening work"
+  },
+  {
+    "中文": "坡面穩定工程",
+    "English": "construction for slope stabilization"
+  },
+  {
+    "中文": "坡趾排水",
+    "English": "toe drain"
+  },
+  {
+    "中文": "季風雨林",
+    "English": "monson rain forest"
+  },
+  {
+    "中文": "定砂灌溉",
+    "English": "irrigation for sand stabilization"
+  },
+  {
+    "中文": "岩心採樣率",
+    "English": "core recovery"
+  },
+  {
+    "中文": "岩石品質指標",
+    "English": "rock quality designation"
+  },
+  {
+    "中文": "岩面噴植法",
+    "English": "hydroseeding on rocky slope"
+  },
+  {
+    "中文": "承受度",
+    "English": "capacity"
+  },
+  {
+    "中文": "拋石",
+    "English": "riprap"
+  },
+  {
+    "中文": "抽水試驗",
+    "English": "pumping test"
+  },
+  {
+    "中文": "易致災性",
+    "English": "vulnerability"
+  },
+  {
+    "中文": "易淹水地區水患治理計畫",
+    "English": "Flood-prone Area Management Plan"
+  },
+  {
+    "中文": "果園山邊溝",
+    "English": "hillside ditch within orchard"
+  },
+  {
+    "中文": "枝下高",
+    "English": "living clear length, height to the first main branch"
+  },
+  {
+    "中文": "枝梢埋置工",
+    "English": "shoot buring works"
+  },
+  {
+    "中文": "枝條束埋置工",
+    "English": "fascine bunch buring work"
+  },
+  {
+    "中文": "枝條覆毯工",
+    "English": "brush mattresses fascine covering works"
+  },
+  {
+    "中文": "林分構造",
+    "English": "stand structure"
+  },
+  {
+    "中文": "林地水土保持",
+    "English": "soil and water conservation for forest"
+  },
+  {
+    "中文": "林澤",
+    "English": "swamp"
+  },
+  {
+    "中文": "板樁式擋土牆",
+    "English": "sheet-pile type retaining wall"
+  },
+  {
+    "中文": "歧異度指數",
+    "English": "diversity index"
+  },
+  {
+    "中文": "泥砂生產量",
+    "English": "sediment yield"
+  },
+  {
+    "中文": "泥流型土石流",
+    "English": "mud flow"
+  },
+  {
+    "中文": "泥炭土",
+    "English": "peat, peat soil"
+  },
+  {
+    "中文": "泥炭苔",
+    "English": "peat moss"
+  },
+  {
+    "中文": "河岸緩衝帶",
+    "English": "riparian buffer strip"
+  },
+  {
+    "中文": "河流廊道",
+    "English": "stream corridors"
+  },
+  {
+    "中文": "河海交會處 / 河口",
+    "English": "estuary"
+  },
+  {
+    "中文": "沿線調查法",
+    "English": "line survey"
+  },
+  {
+    "中文": "治山防災工程",
+    "English": "erosion and sediment control engineering"
+  },
+  {
+    "中文": "物理風化",
+    "English": "physical weathering"
+  },
+  {
+    "中文": "直接危害",
+    "English": "direct damage"
+  },
+  {
+    "中文": "直接逕流",
+    "English": "direct runoff"
+  },
+  {
+    "中文": "直線橫截樣區",
+    "English": "line transect plot"
+  },
+  {
+    "中文": "社區參與",
+    "English": "community participation"
+  },
+  {
+    "中文": "空載光達",
+    "English": "light detection and ranging"
+  },
+  {
+    "中文": "肥束網帶",
+    "English": "manure-involved sheet"
+  },
+  {
+    "中文": "肥效",
+    "English": "fertilizer efficiency"
+  },
+  {
+    "中文": "肥料木草",
+    "English": "soil improving trees and grasses"
+  },
+  {
+    "中文": "初級生產力",
+    "English": "primary productivity"
+  },
+  {
+    "中文": "初級消費者",
+    "English": "microconsumers"
+  },
+  {
+    "中文": "表土",
+    "English": "surface soil"
+  },
+  {
+    "中文": "長方形或帶狀橫截樣區",
+    "English": "rectangular or line transect plots"
+  },
+  {
+    "中文": "長效性肥料",
+    "English": "long-term effective fertilizer"
+  },
+  {
+    "中文": "阿太堡界限",
+    "English": "Atterberg limits"
+  },
+  {
+    "中文": "附生植物",
+    "English": "epiphyte"
+  },
+  {
+    "中文": "雨量計",
+    "English": "rain gauge"
+  },
+  {
+    "中文": "雨滴",
+    "English": "raindrops"
+  },
+  {
+    "中文": "雨滴終端速度",
+    "English": "terminal velocity of raindrop"
+  },
+  {
+    "中文": "雨濺",
+    "English": "rain splash, raindrop splash"
+  },
+  {
+    "中文": "保水性",
+    "English": "water retentivity"
+  },
+  {
+    "中文": "保水劑",
+    "English": "water retention agent"
+  },
+  {
+    "中文": "保全對象",
+    "English": "protected objects"
+  },
+  {
+    "中文": "保育區",
+    "English": "conservation area, conservation zone"
+  },
+  {
+    "中文": "保護帶",
+    "English": "protective zone, protective belt"
+  },
+  {
+    "中文": "前期降雨",
+    "English": "antecedent rainfall"
+  },
+  {
+    "中文": "匍匐莖",
+    "English": "rhyzome"
+  },
+  {
+    "中文": "匍匐藤類",
+    "English": "creeping vine"
+  },
+  {
+    "中文": "厚層噴植法",
+    "English": "thick layer hydroseeding"
+  },
+  {
+    "中文": "客土",
+    "English": "carring soil"
+  },
+  {
+    "中文": "客土植生",
+    "English": "carring soil (works) for revegetation"
+  },
+  {
+    "中文": "恆存度",
+    "English": "constancy"
+  },
+  {
+    "中文": "挖方工程",
+    "English": "excavation works"
+  },
+  {
+    "中文": "指狀沖蝕",
+    "English": "rill erosion"
+  },
+  {
+    "中文": "拱壩",
+    "English": "arch dam"
+  },
+  {
+    "中文": "既存植物",
+    "English": "existing vegetation"
+  },
+  {
+    "中文": "枯枝落葉層",
+    "English": "litter"
+  },
+  {
+    "中文": "柏油乳劑",
+    "English": "emulsified asphalt"
+  },
+  {
+    "中文": "柳枝工",
+    "English": "willow-wicked revetment, wicker works"
+  },
+  {
+    "中文": "洪泛平原/洪泛地區",
+    "English": "floodplain"
+  },
+  {
+    "中文": "洪峰流量",
+    "English": "peak flow"
+  },
+  {
+    "中文": "流束密度",
+    "English": "flux density"
+  },
+  {
+    "中文": "洗出作用",
+    "English": "eluviation"
+  },
+  {
+    "中文": "活動斷層",
+    "English": "active fault"
+  },
+  {
+    "中文": "砂礫灘海岸植生群落",
+    "English": "rock-sandy coastal vegetation"
+  },
+  {
+    "中文": "砌石工",
+    "English": "stone masonry"
+  },
+  {
+    "中文": "穿越線調查法",
+    "English": "line transect survey"
+  },
+  {
+    "中文": "紅樹林",
+    "English": "mangrove"
+  },
+  {
+    "中文": "耐火性植物",
+    "English": "fire resistance plants"
+  },
+  {
+    "中文": "耐性定律",
+    "English": "Shelford’s law of tolerance"
+  },
+  {
+    "中文": "耐陰性植物",
+    "English": "shade tolerant plant, sciophytes"
+  },
+  {
+    "中文": "耐煙性植物",
+    "English": "smoke resistance plant"
+  },
+  {
+    "中文": "耐鹽性植物",
+    "English": "salinity tolerance plants"
+  },
+  {
+    "中文": "背斜層 / 向斜層",
+    "English": "anticline / syncline"
+  },
+  {
+    "中文": "苗木穴植",
+    "English": "hole planting"
+  },
+  {
+    "中文": "負載能力",
+    "English": "carrying capacity"
+  },
+  {
+    "中文": "重力水",
+    "English": "gravity water"
+  },
+  {
+    "中文": "重力式防砂壩",
+    "English": "gravity dam"
+  },
+  {
+    "中文": "重力式擋土牆",
+    "English": "gravity type retaining wall"
+  },
+  {
+    "中文": "重要值指數",
+    "English": "important value index"
+  },
+  {
+    "中文": "降雨沖蝕指數",
+    "English": "rainfall erosivity index"
+  },
+  {
+    "中文": "降雨延時",
+    "English": "rainfall duration"
+  },
+  {
+    "中文": "降雨動能",
+    "English": "kinetic energy of rainfall"
+  },
+  {
+    "中文": "降雨強度",
+    "English": "rainfall intensity"
+  },
+  {
+    "中文": "降雨量",
+    "English": "rainfall amount"
+  },
+  {
+    "中文": "降雨頻率",
+    "English": "rainfall frequency"
+  },
+  {
+    "中文": "風化層 / 風化帶",
+    "English": "weathered stratum / weathered zone"
+  },
+  {
+    "中文": "風蝕",
+    "English": "wind erosion"
+  },
+  {
+    "中文": "風險",
+    "English": "risk"
+  },
+  {
+    "中文": "風險地圖 / 災害地圖",
+    "English": "risk map / hazard map"
+  },
+  {
+    "中文": "風險指標",
+    "English": "index value of risk"
+  },
+  {
+    "中文": "風險控制",
+    "English": "risk control"
+  },
+  {
+    "中文": "風險接受",
+    "English": "risk acceptance"
+  },
+  {
+    "中文": "風險處理",
+    "English": "risk treatment"
+  },
+  {
+    "中文": "風險規避",
+    "English": "risk avoidance, risk aversion"
+  },
+  {
+    "中文": "風險評估",
+    "English": "risk assessment"
+  },
+  {
+    "中文": "風險管理",
+    "English": "risk management"
+  },
+  {
+    "中文": "風險轉移",
+    "English": "risk transfer, risk shifting"
+  },
+  {
+    "中文": "飛濺沖蝕",
+    "English": "splash erosion"
+  },
+  {
+    "中文": "食物網",
+    "English": "food web"
+  },
+  {
+    "中文": "食物鏈",
+    "English": "food chain"
+  },
+  {
+    "中文": "食物鏈濃化現象 生物體擴增作用",
+    "English": "food chain concentration biological magnification"
+  },
+  {
+    "中文": "個體生態學",
+    "English": "autecology"
+  },
+  {
+    "中文": "凋萎點",
+    "English": "wilting point"
+  },
+  {
+    "中文": "原生災害",
+    "English": "primary disaster"
+  },
+  {
+    "中文": "原生植物",
+    "English": "native plants"
+  },
+  {
+    "中文": "原生種 / 本地種",
+    "English": "native species / indigenous species"
+  },
+  {
+    "中文": "夏綠林",
+    "English": "summer-green forest"
+  },
+  {
+    "中文": "座標系統",
+    "English": "coordinate system"
+  },
+  {
+    "中文": "捕食性",
+    "English": "predation"
+  },
+  {
+    "中文": "挺空植物或地上植物",
+    "English": "phanerophyte"
+  },
+  {
+    "中文": "根系指數",
+    "English": "root system index"
+  },
+  {
+    "中文": "根系強度",
+    "English": "root strength"
+  },
+  {
+    "中文": "根系補強",
+    "English": "root reinforcement"
+  },
+  {
+    "中文": "根系類型",
+    "English": "root system type"
+  },
+  {
+    "中文": "根域",
+    "English": "root distribution range"
+  },
+  {
+    "中文": "根球",
+    "English": "root ball"
+  },
+  {
+    "中文": "梳子式防砂壩",
+    "English": "comb-type dam"
+  },
+  {
+    "中文": "栽植",
+    "English": "planting"
+  },
+  {
+    "中文": "格子式防砂壩",
+    "English": "grid-type dam"
+  },
+  {
+    "中文": "格籠擋土牆",
+    "English": "crib retaining wall"
+  },
+  {
+    "中文": "海岸防風林",
+    "English": "coastal windbreaks"
+  },
+  {
+    "中文": "海岸林",
+    "English": "coastal forests"
+  },
+  {
+    "中文": "海洋島",
+    "English": "oceanic islands"
+  },
+  {
+    "中文": "特定水土保持區",
+    "English": "designated soil and water conservation area"
+  },
+  {
+    "中文": "紋溝沖蝕",
+    "English": "rill erosion"
+  },
+  {
+    "中文": "胸高直徑",
+    "English": "diameter at breast height"
+  },
+  {
+    "中文": "能量",
+    "English": "energy"
+  },
+  {
+    "中文": "能量使用效率",
+    "English": "energy efficiency"
+  },
+  {
+    "中文": "航空噴植",
+    "English": "aerial hydroseeding"
+  },
+  {
+    "中文": "草本植物",
+    "English": "herbaceous plants"
+  },
+  {
+    "中文": "草皮",
+    "English": "sod"
+  },
+  {
+    "中文": "草皮草種",
+    "English": "turf grasses"
+  },
+  {
+    "中文": "草皮植生毯",
+    "English": "grass mat"
+  },
+  {
+    "中文": "草皮鋪植",
+    "English": "turf pavement"
+  },
+  {
+    "中文": "草地",
+    "English": "lawn"
+  },
+  {
+    "中文": "草地管理",
+    "English": "grassland management"
+  },
+  {
+    "中文": "草食者",
+    "English": "herbivores"
+  },
+  {
+    "中文": "草原",
+    "English": "grassland"
+  },
+  {
+    "中文": "草帶法",
+    "English": "grass barriers"
+  },
+  {
+    "中文": "草莖鋪植",
+    "English": "grass stem pavement"
+  },
+  {
+    "中文": "草溝",
+    "English": "grassed waterways"
+  },
+  {
+    "中文": "草澤",
+    "English": "marsh"
+  },
+  {
+    "中文": "迴水率",
+    "English": "water return"
+  },
+  {
+    "中文": "追肥",
+    "English": "additional manure, after manuring"
+  },
+  {
+    "中文": "追播",
+    "English": "reseeding"
+  },
+  {
+    "中文": "針葉樹林",
+    "English": "coniferous forest"
+  },
+  {
+    "中文": "除臭作用",
+    "English": "deodoration"
+  },
+  {
+    "中文": "高山草原",
+    "English": "alpine grassland"
+  },
+  {
+    "中文": "高山植群帶",
+    "English": "alpine vegetation"
+  },
+  {
+    "中文": "乾式噴植工法",
+    "English": "dry type hydroseeding"
+  },
+  {
+    "中文": "乾旱度",
+    "English": "aridity"
+  },
+  {
+    "中文": "乾性演替",
+    "English": "xerarch succession"
+  },
+  {
+    "中文": "側滑",
+    "English": "lateral spread"
+  },
+  {
+    "中文": "國家災害防救科技中心",
+    "English": "National Science and Technology Center for Disaster Reduction"
+  },
+  {
+    "中文": "國際橫麥卡托",
+    "English": "universal transerve mercator"
+  },
+  {
+    "中文": "堆肥",
+    "English": "compost"
+  },
+  {
+    "中文": "基因庫",
+    "English": "gene pool"
+  },
+  {
+    "中文": "基岩",
+    "English": "base rock"
+  },
+  {
+    "中文": "基流",
+    "English": "base flow"
+  },
+  {
+    "中文": "基準面",
+    "English": "base level"
+  },
+  {
+    "中文": "基盤",
+    "English": "basement"
+  },
+  {
+    "中文": "基質",
+    "English": "matrix"
+  },
+  {
+    "中文": "密度",
+    "English": "density"
+  },
+  {
+    "中文": "密植",
+    "English": "close planting"
+  },
+  {
+    "中文": "崩移",
+    "English": "slump, slumping"
+  },
+  {
+    "中文": "崩塌",
+    "English": "landslide"
+  },
+  {
+    "中文": "常態化差異植生指標",
+    "English": "normalized difference vegetation index"
+  },
+  {
+    "中文": "常綠樹",
+    "English": "evergreen trees"
+  },
+  {
+    "中文": "常綠闊葉林",
+    "English": "evergreen broad-leaved forests"
+  },
+  {
+    "中文": "帶狀廊道",
+    "English": "strip corridors"
+  },
+  {
+    "中文": "排水廊道",
+    "English": "drainage tunnel"
+  },
+  {
+    "中文": "排水溝",
+    "English": "drainage ditch"
+  },
+  {
+    "中文": "族群生長曲線",
+    "English": "population growth curve"
+  },
+  {
+    "中文": "族群生長型",
+    "English": "growth form of population"
+  },
+  {
+    "中文": "族群生長率",
+    "English": "population growth rate"
+  },
+  {
+    "中文": "族群生態學",
+    "English": "population ecology"
+  },
+  {
+    "中文": "梢工沉床",
+    "English": "fascines mattresses"
+  },
+  {
+    "中文": "液肥 / 液體肥料",
+    "English": "liquid fertilizer, fluid fertilizer"
+  },
+  {
+    "中文": "淺根性樹種",
+    "English": "shallow rooted tree"
+  },
+  {
+    "中文": "淋洗層",
+    "English": "leached horizon, eluvia horizon"
+  },
+  {
+    "中文": "淋溶作用",
+    "English": "leaching"
+  },
+  {
+    "中文": "混交林 / 混淆林",
+    "English": "mixed forest, mixed stand"
+  },
+  {
+    "中文": "混植",
+    "English": "mixed planting, companion planting"
+  },
+  {
+    "中文": "涵管",
+    "English": "culvert"
+  },
+  {
+    "中文": "深根性樹種",
+    "English": "deep rooted tree"
+  },
+  {
+    "中文": "異形消波塊",
+    "English": "precast concrete armor unit"
+  },
+  {
+    "中文": "異發演替",
+    "English": "allogenic succession"
+  },
+  {
+    "中文": "異營種",
+    "English": "heterotrophic species"
+  },
+  {
+    "中文": "疏伐",
+    "English": "selection cutting"
+  },
+  {
+    "中文": "疏林",
+    "English": "savanna"
+  },
+  {
+    "中文": "疏散避難路線",
+    "English": "evacuation route"
+  },
+  {
+    "中文": "移民定律",
+    "English": "Founder’s principle"
+  },
+  {
+    "中文": "粗樹枝或枝條",
+    "English": "fascine"
+  },
+  {
+    "中文": "細胞分裂激素",
+    "English": "cytokinins"
+  },
+  {
+    "中文": "組織風險圖像",
+    "English": "risk profile"
+  },
+  {
+    "中文": "通用土壤流失公式",
+    "English": "universal soil loss equation"
+  },
+  {
+    "中文": "通氣性",
+    "English": "air permeability"
+  },
+  {
+    "中文": "速生樹種",
+    "English": "quick growing trees"
+  },
+  {
+    "中文": "速效性肥料",
+    "English": "quick acting fertilizer"
+  },
+  {
+    "中文": "逕流",
+    "English": "runoff"
+  },
+  {
+    "中文": "逕流分離",
+    "English": "separation of runoff"
+  },
+  {
+    "中文": "逕流成分",
+    "English": "components of runoff"
+  },
+  {
+    "中文": "逕流係數",
+    "English": "runoff coefficient"
+  },
+  {
+    "中文": "逕流率",
+    "English": "runoff rate"
+  },
+  {
+    "中文": "逕流循環",
+    "English": "runoff cycle"
+  },
+  {
+    "中文": "逕流歷線",
+    "English": "runoff hydrograph"
+  },
+  {
+    "中文": "造林",
+    "English": "afforestation"
+  },
+  {
+    "中文": "透水量係數",
+    "English": "coefficient of transmissibility"
+  },
+  {
+    "中文": "都市林",
+    "English": "municipal forest"
+  },
+  {
+    "中文": "野溪",
+    "English": "torrent"
+  },
+  {
+    "中文": "雪崩",
+    "English": "avalanche"
+  },
+  {
+    "中文": "魚道",
+    "English": "fish way"
+  },
+  {
+    "中文": "粘滯度",
+    "English": "viscosity"
+  },
+  {
+    "中文": "最大生長速率",
+    "English": "maximum growth rate"
+  },
+  {
+    "中文": "最大容水量",
+    "English": "maximum water capacity"
+  },
+  {
+    "中文": "最小樣區面積",
+    "English": "minimum plot area"
+  },
+  {
+    "中文": "最低限定律",
+    "English": "Leibig’s law of the minimum"
+  },
+  {
+    "中文": "喜水植物",
+    "English": "phreatophyte"
+  },
+  {
+    "中文": "單面山",
+    "English": "cuesta"
+  },
+  {
+    "中文": "單質肥料",
+    "English": "straight fertilizer"
+  },
+  {
+    "中文": "喬木",
+    "English": "trees"
+  },
+  {
+    "中文": "堤防",
+    "English": "levee"
+  },
+  {
+    "中文": "堤防或護岸之基腳保護工",
+    "English": "protection works for the toe of levee or bank revetment"
+  },
+  {
+    "中文": "寒原",
+    "English": "tundra"
+  },
+  {
+    "中文": "廊道",
+    "English": "corridor"
+  },
+  {
+    "中文": "復原重建",
+    "English": "recovery"
+  },
+  {
+    "中文": "復舊",
+    "English": "reclamation"
+  },
+  {
+    "中文": "插草定砂",
+    "English": "sand stabilization by grass cutting"
+  },
+  {
+    "中文": "插條",
+    "English": "shoot cutting"
+  },
+  {
+    "中文": "插條苗",
+    "English": "cultivated cutting"
+  },
+  {
+    "中文": "揮發作用",
+    "English": "volatilization"
+  },
+  {
+    "中文": "景觀",
+    "English": "landscape"
+  },
+  {
+    "中文": "景觀尺度",
+    "English": "landscape scale"
+  },
+  {
+    "中文": "景觀生態學",
+    "English": "landscape ecology"
+  },
+  {
+    "中文": "景觀格局",
+    "English": "landscape pattern"
+  },
+  {
+    "中文": "景觀結構",
+    "English": "landscape structure"
+  },
+  {
+    "中文": "森林限界",
+    "English": "forest limit"
+  },
+  {
+    "中文": "森林學",
+    "English": "forestry"
+  },
+  {
+    "中文": "棲地",
+    "English": "habitat"
+  },
+  {
+    "中文": "棲地特徵指數",
+    "English": "index of habitat character"
+  },
+  {
+    "中文": "棲息島嶼",
+    "English": "habitat islands"
+  },
+  {
+    "中文": "植生",
+    "English": "vegetation"
+  },
+  {
+    "中文": "植生工程",
+    "English": "vegetation engineering"
+  },
+  {
+    "中文": "植生介質",
+    "English": "vegetation medium"
+  },
+  {
+    "中文": "植生生態學",
+    "English": "vegetation ecology"
+  },
+  {
+    "中文": "植生格網",
+    "English": "vegetated geogrid"
+  },
+  {
+    "中文": "植生基材",
+    "English": "vegetation"
+  },
+  {
+    "中文": "植生帶",
+    "English": "vegetation sheet"
+  },
+  {
+    "中文": "植生毯",
+    "English": "vegetation mat"
+  },
+  {
+    "中文": "植生結構",
+    "English": "vegetation structure"
+  },
+  {
+    "中文": "植生群落",
+    "English": "plant association"
+  },
+  {
+    "中文": "植生過濾帶",
+    "English": "vegetated filter strips"
+  },
+  {
+    "中文": "植生圖",
+    "English": "vegetation map"
+  },
+  {
+    "中文": "植生演替",
+    "English": "plant succession"
+  },
+  {
+    "中文": "植生綠化",
+    "English": "revegetation"
+  },
+  {
+    "中文": "植生盤",
+    "English": "vegetation block"
+  },
+  {
+    "中文": "植生調查",
+    "English": "vegetation survey"
+  },
+  {
+    "中文": "植生覆蓋",
+    "English": "covering work by plants waterials"
+  },
+  {
+    "中文": "植生護坡",
+    "English": "slopeland protection by vegetation"
+  },
+  {
+    "中文": "植穴",
+    "English": "planting hole"
+  },
+  {
+    "中文": "植物分類學",
+    "English": "plant taxonomy"
+  },
+  {
+    "中文": "植物生長曲線",
+    "English": "plant growth curve"
+  },
+  {
+    "中文": "植物社會",
+    "English": "plant community"
+  },
+  {
+    "中文": "植物相",
+    "English": "plant stand, flora"
+  },
+  {
+    "中文": "植物相剋作用",
+    "English": "allelopathy of plants"
+  },
+  {
+    "中文": "植物族群",
+    "English": "plant population"
+  },
+  {
+    "中文": "植物荷爾蒙",
+    "English": "plant hormone"
+  },
+  {
+    "中文": "植物殘渣分解作用",
+    "English": "decompisition of plant residues in soil"
+  },
+  {
+    "中文": "植物群落相似性",
+    "English": "similarity of plant association"
+  },
+  {
+    "中文": "植物鹼",
+    "English": "alkaloids"
+  },
+  {
+    "中文": "植栽工程",
+    "English": "planting works"
+  },
+  {
+    "中文": "植被類型",
+    "English": "vegetation type"
+  },
+  {
+    "中文": "殘株敷蓋",
+    "English": "residue mulching"
+  },
+  {
+    "中文": "減災",
+    "English": "mitigation"
+  },
+  {
+    "中文": "發芽率",
+    "English": "percentage germination"
+  },
+  {
+    "中文": "發芽勢",
+    "English": "germination potential"
+  },
+  {
+    "中文": "稀有植物",
+    "English": "rare plant species"
+  },
+  {
+    "中文": "等徑樣區",
+    "English": "isoradius plot"
+  },
+  {
+    "中文": "等高耕作",
+    "English": "contour farming"
+  },
+  {
+    "中文": "等高草苗栽植",
+    "English": "contour grass planting"
+  },
+  {
+    "中文": "絕對生長速率",
+    "English": "absolute growth rate"
+  },
+  {
+    "中文": "萌芽",
+    "English": "sprouting"
+  },
+  {
+    "中文": "視線誘導植栽",
+    "English": "delineation planting"
+  },
+  {
+    "中文": "貯水係數",
+    "English": "coefficient of water storage"
+  },
+  {
+    "中文": "越年生植物",
+    "English": "winter annual plant, biennial plant"
+  },
+  {
+    "中文": "超限利用",
+    "English": "overuse"
+  },
+  {
+    "中文": "超音波水位計",
+    "English": "ultrasonic water level meter"
+  },
+  {
+    "中文": "跌水",
+    "English": "drop structures"
+  },
+  {
+    "中文": "鈉吸附比",
+    "English": "sodium adsorption ratio"
+  },
+  {
+    "中文": "間接危害",
+    "English": "indirect damage"
+  },
+  {
+    "中文": "陽性植物",
+    "English": "intolerant plants, heliophytes"
+  },
+  {
+    "中文": "陽離子交換",
+    "English": "cation exchange"
+  },
+  {
+    "中文": "陽離子交換能量",
+    "English": "cation exchange capacity"
+  },
+  {
+    "中文": "集水井",
+    "English": "catchment well"
+  },
+  {
+    "中文": "集水區",
+    "English": "watershed, catchment"
+  },
+  {
+    "中文": "集水區整體調查規劃",
+    "English": "holistic watershed investigation and planning"
+  },
+  {
+    "中文": "集流時間",
+    "English": "time of concentration"
+  },
+  {
+    "中文": "傾倒破壞",
+    "English": "toppling failure"
+  },
+  {
+    "中文": "傾斜觀測管",
+    "English": "inclinometer"
+  },
+  {
+    "中文": "圓弧破壞",
+    "English": "circular failure"
+  },
+  {
+    "中文": "圓錐貫入試驗",
+    "English": "cone penetration test"
+  },
+  {
+    "中文": "塊區",
+    "English": "patch"
+  },
+  {
+    "中文": "塊體運動",
+    "English": "mass movement"
+  },
+  {
+    "中文": "暗渠",
+    "English": "underdrain"
+  },
+  {
+    "中文": "楠榕林帶",
+    "English": "ficus-machilus forest zone"
+  },
+  {
+    "中文": "楠櫧林帶",
+    "English": "machilus-castanopsis forest zone"
+  },
+  {
+    "中文": "楔型破壞",
+    "English": "wedge failure"
+  },
+  {
+    "中文": "極相",
+    "English": "climax"
+  },
+  {
+    "中文": "溢洪道",
+    "English": "flood spillway"
+  },
+  {
+    "中文": "溝狀沖蝕",
+    "English": "gully erosion"
+  },
+  {
+    "中文": "溫量指數",
+    "English": "warmth index"
+  },
+  {
+    "中文": "溪床保護工",
+    "English": "protection works for streambed"
+  },
+  {
+    "中文": "溪岸沖蝕",
+    "English": "streambank erosion"
+  },
+  {
+    "中文": "溪流狀況指數",
+    "English": "index of stream condition"
+  },
+  {
+    "中文": "溪流穩定工程",
+    "English": "construction for stream channel stabilization"
+  },
+  {
+    "中文": "碎石鋪蓋",
+    "English": "crushed rock pavement"
+  },
+  {
+    "中文": "節點",
+    "English": "nodes"
+  },
+  {
+    "中文": "群體生態學",
+    "English": "synecology"
+  },
+  {
+    "中文": "落葉樹",
+    "English": "deciduous trees"
+  },
+  {
+    "中文": "葉面積比",
+    "English": "leaf area ratio"
+  },
+  {
+    "中文": "葉面積指數",
+    "English": "leaf area index"
+  },
+  {
+    "中文": "補氧作用 / 釋氧作用",
+    "English": "oxygenation"
+  },
+  {
+    "中文": "補植",
+    "English": "replanting, supplementary planting"
+  },
+  {
+    "中文": "資源管理",
+    "English": "resource management"
+  },
+  {
+    "中文": "農地沉砂池",
+    "English": "sedimentation pond for farmland"
+  },
+  {
+    "中文": "農地蝕溝治理",
+    "English": "gully control practices of farmland"
+  },
+  {
+    "中文": "農塘",
+    "English": "farming pond"
+  },
+  {
+    "中文": "農路",
+    "English": "farm road"
+  },
+  {
+    "中文": "道路緩衝帶",
+    "English": "road buffer zone"
+  },
+  {
+    "中文": "達西定律",
+    "English": "Darcy’s law"
+  },
+  {
+    "中文": "過水路面",
+    "English": "road surface drainage"
+  },
+  {
+    "中文": "電導度",
+    "English": "electric conductivity"
+  },
+  {
+    "中文": "預植箱",
+    "English": "pre-planting box"
+  },
+  {
+    "中文": "預警系統",
+    "English": "warning system"
+  },
+  {
+    "中文": "預鑄溝",
+    "English": "present drains"
+  },
+  {
+    "中文": "馴化",
+    "English": "acclimation"
+  },
+  {
+    "中文": "馴化種",
+    "English": "acclimation species"
+  },
+  {
+    "中文": "團粒（構造）",
+    "English": "aggregates"
+  },
+  {
+    "中文": "團粒之結合作用",
+    "English": "cementation of aggregates"
+  },
+  {
+    "中文": "團粒化劑",
+    "English": "aggregating agent"
+  },
+  {
+    "中文": "團粒噴植工法",
+    "English": "hydroseeding used aggregating agent"
+  },
+  {
+    "中文": "圖層",
+    "English": "layer"
+  },
+  {
+    "中文": "實生苗",
+    "English": "seedling"
+  },
+  {
+    "中文": "截水溝",
+    "English": "diverse ditch"
+  },
+  {
+    "中文": "截流",
+    "English": "water diversion"
+  },
+  {
+    "中文": "截洩溝",
+    "English": "interceptor drain"
+  },
+  {
+    "中文": "演替",
+    "English": "succession"
+  },
+  {
+    "中文": "滯洪池",
+    "English": "flood detention pond, retention pond"
+  },
+  {
+    "中文": "漫地流",
+    "English": "overland flow"
+  },
+  {
+    "中文": "滲漏",
+    "English": "seepage"
+  },
+  {
+    "中文": "監測系統",
+    "English": "monitoring system"
+  },
+  {
+    "中文": "種",
+    "English": "species"
+  },
+  {
+    "中文": "種子休眠",
+    "English": "seed dormancy"
+  },
+  {
+    "中文": "種子活力",
+    "English": "seed activity"
+  },
+  {
+    "中文": "種子淨度分析",
+    "English": "seed purification analysis"
+  },
+  {
+    "中文": "種子潛在表土撒播工",
+    "English": "top soil spreading works"
+  },
+  {
+    "中文": "種歧異度",
+    "English": "species diversity"
+  },
+  {
+    "中文": "種豐富度",
+    "English": "species richness"
+  },
+  {
+    "中文": "綠化植物",
+    "English": "plants used for revegetation"
+  },
+  {
+    "中文": "綠肥",
+    "English": "green manure"
+  },
+  {
+    "中文": "綠肥作物",
+    "English": "green manure crop"
+  },
+  {
+    "中文": "綠帶",
+    "English": "green belt"
+  },
+  {
+    "中文": "綠帶過濾作用",
+    "English": "filtering by greenbelt"
+  },
+  {
+    "中文": "綠資源",
+    "English": "green resources"
+  },
+  {
+    "中文": "綠覆率",
+    "English": "ratio of green coverage"
+  },
+  {
+    "中文": "緊急應變小組/災害應變中心",
+    "English": "emergency action teams / emergency operation center"
+  },
+  {
+    "中文": "網格式資料",
+    "English": "raster data"
+  },
+  {
+    "中文": "網絡",
+    "English": "network"
+  },
+  {
+    "中文": "維生管線",
+    "English": "lifelines"
+  },
+  {
+    "中文": "腐植酸",
+    "English": "humic acid"
+  },
+  {
+    "中文": "腐植層",
+    "English": "humus layer"
+  },
+  {
+    "中文": "腐植質",
+    "English": "humus"
+  },
+  {
+    "中文": "臺灣特有種",
+    "English": "Tawain endemic species"
+  },
+  {
+    "中文": "蓄洪池",
+    "English": "retention pond"
+  },
+  {
+    "中文": "蒸散作用",
+    "English": "transpiration"
+  },
+  {
+    "中文": "蒸散係數",
+    "English": "transpiration coefficient"
+  },
+  {
+    "中文": "蒸散潛勢",
+    "English": "potential transpiration"
+  },
+  {
+    "中文": "蒸發",
+    "English": "evaporation"
+  },
+  {
+    "中文": "蒸發皿",
+    "English": "evaporation pan"
+  },
+  {
+    "中文": "蒸發皿係數",
+    "English": "pan coefficient"
+  },
+  {
+    "中文": "蒸發散作用",
+    "English": "evaportranspiration"
+  },
+  {
+    "中文": "蒸發散計",
+    "English": "evapotranspirometer"
+  },
+  {
+    "中文": "蒸發散潛勢",
+    "English": "potential evapo-transpiration"
+  },
+  {
+    "中文": "蒸發量",
+    "English": "evaporation amount"
+  },
+  {
+    "中文": "蝕溝控制",
+    "English": "gully control"
+  },
+  {
+    "中文": "誘蝶植物",
+    "English": "butterfly introduced plants"
+  },
+  {
+    "中文": "遙感探測",
+    "English": "remote sensing"
+  },
+  {
+    "中文": "酸雨",
+    "English": "acid precipitation"
+  },
+  {
+    "中文": "噴植",
+    "English": "hydroseeding"
+  },
+  {
+    "中文": "寬壟階段",
+    "English": "broad based terrace"
+  },
+  {
+    "中文": "層狀沖蝕",
+    "English": "sheet erosion"
+  },
+  {
+    "中文": "播種床（整地）",
+    "English": "seedbed preparation"
+  },
+  {
+    "中文": "敷蓋",
+    "English": "mulching"
+  },
+  {
+    "中文": "數值地型模型",
+    "English": "digital terrain model"
+  },
+  {
+    "中文": "數值表面模型",
+    "English": "digital surface model"
+  },
+  {
+    "中文": "數值高程模型",
+    "English": "digital elevation model"
+  },
+  {
+    "中文": "暫棲地下水",
+    "English": "perched groundwater"
+  },
+  {
+    "中文": "樁柵工類",
+    "English": "pile wattle"
+  },
+  {
+    "中文": "標準貫入試驗",
+    "English": "standard penetration test"
+  },
+  {
+    "中文": "模擬降雨器",
+    "English": "rainfall simulator"
+  },
+  {
+    "中文": "潛在植被",
+    "English": "potential vegetation"
+  },
+  {
+    "中文": "潛在損失",
+    "English": "potential loss"
+  },
+  {
+    "中文": "潛移 / 蠕動",
+    "English": "creep"
+  },
+  {
+    "中文": "潛壩",
+    "English": "submerged dam"
+  },
+  {
+    "中文": "熱帶季風林",
+    "English": "tropical monsoon forests"
+  },
+  {
+    "中文": "熱帶雨林",
+    "English": "tropical rain forests"
+  },
+  {
+    "中文": "熱帶海岸林植生群落",
+    "English": "tropical coastal forest"
+  },
+  {
+    "中文": "緻密草皮",
+    "English": "turf"
+  },
+  {
+    "中文": "編柵工",
+    "English": "wicker works"
+  },
+  {
+    "中文": "線狀廊道",
+    "English": "line corridors"
+  },
+  {
+    "中文": "緩衝區",
+    "English": "buffer zone"
+  },
+  {
+    "中文": "緩衝帶",
+    "English": "buffer zone, buffer belt"
+  },
+  {
+    "中文": "緩衝綠帶",
+    "English": "buffer greenbelt"
+  },
+  {
+    "中文": "膠體粒子",
+    "English": "colloidal particles"
+  },
+  {
+    "中文": "蔭性植物 / 蔭地植物",
+    "English": "shade plants, sciophyte"
+  },
+  {
+    "中文": "蔓狀藤類",
+    "English": "decumbent vine"
+  },
+  {
+    "中文": "衛星天線",
+    "English": "satellite antenna"
+  },
+  {
+    "中文": "複合性災害",
+    "English": "compound disaster"
+  },
+  {
+    "中文": "複合肥料",
+    "English": "mixed fertilizer, compound fertilizer"
+  },
+  {
+    "中文": "複層林",
+    "English": "compound storied forest"
+  },
+  {
+    "中文": "適應",
+    "English": "adaptation"
+  },
+  {
+    "中文": "鋪網（工）",
+    "English": "netting works"
+  },
+  {
+    "中文": "鋪網噴植",
+    "English": "hydroseeding with wire mesh placement"
+  },
+  {
+    "中文": "熵",
+    "English": "entropy"
+  },
+  {
+    "中文": "擋土工程",
+    "English": "retaining works"
+  },
+  {
+    "中文": "擋土牆",
+    "English": "retaining wall"
+  },
+  {
+    "中文": "整合性風險管理",
+    "English": "integrated risk management"
+  },
+  {
+    "中文": "整流工程",
+    "English": "river regulation, stream regulation"
+  },
+  {
+    "中文": "整備",
+    "English": "preparedness"
+  },
+  {
+    "中文": "橫向排水孔",
+    "English": "horizontal boring hole, horizontal drainage hole"
+  },
+  {
+    "中文": "樹皮堆肥",
+    "English": "bark compost"
+  },
+  {
+    "中文": "樹冠層",
+    "English": "crown canopy"
+  },
+  {
+    "中文": "樹高",
+    "English": "tree height"
+  },
+  {
+    "中文": "樹籬",
+    "English": "hedgerows"
+  },
+  {
+    "中文": "機會種",
+    "English": "opportunist"
+  },
+  {
+    "中文": "澱積層",
+    "English": "illuvial horizon"
+  },
+  {
+    "中文": "激勃酸",
+    "English": "gibberellic acid"
+  },
+  {
+    "中文": "親水護岸",
+    "English": "amenity embankment"
+  },
+  {
+    "中文": "鋼索檢知器",
+    "English": "wire sensor"
+  },
+  {
+    "中文": "鋼筋應力計",
+    "English": "rebar stressmeter"
+  },
+  {
+    "中文": "靜水池",
+    "English": "stilling basin, stilling pool"
+  },
+  {
+    "中文": "頻度",
+    "English": "frequency"
+  },
+  {
+    "中文": "優勢度",
+    "English": "dominance"
+  },
+  {
+    "中文": "優勢度指數",
+    "English": "index of dominance"
+  },
+  {
+    "中文": "優勢種植物",
+    "English": "dominant plants"
+  },
+  {
+    "中文": "壓力計試驗",
+    "English": "pressuremeter test"
+  },
+  {
+    "中文": "壓條",
+    "English": "layering"
+  },
+  {
+    "中文": "應變",
+    "English": "response"
+  },
+  {
+    "中文": "濱水帶植生",
+    "English": "riparian vegetaiotn"
+  },
+  {
+    "中文": "濫伐",
+    "English": "deforestation"
+  },
+  {
+    "中文": "濕地",
+    "English": "wetland"
+  },
+  {
+    "中文": "濕地保護帶",
+    "English": "wetland protection zone"
+  },
+  {
+    "中文": "濕性演替",
+    "English": "hydrarch succession"
+  },
+  {
+    "中文": "環境應力",
+    "English": "environmental stress"
+  },
+  {
+    "中文": "礁岩海岸植生群落",
+    "English": "coral reef coastal vegetation"
+  },
+  {
+    "中文": "總體密度",
+    "English": "bulk density"
+  },
+  {
+    "中文": "薄層噴植法",
+    "English": "thin thickness hydroseeding"
+  },
+  {
+    "中文": "避難處所",
+    "English": "shelter"
+  },
+  {
+    "中文": "錨定擋土牆",
+    "English": "anchorage type retaining wall"
+  },
+  {
+    "中文": "闊葉樹林",
+    "English": "broad-leaved forest"
+  },
+  {
+    "中文": "黏著劑",
+    "English": "adhesive agent"
+  },
+  {
+    "中文": "覆蓋",
+    "English": "cover"
+  },
+  {
+    "中文": "覆蓋作物",
+    "English": "cover crops"
+  },
+  {
+    "中文": "覆蓋度",
+    "English": "coverage"
+  },
+  {
+    "中文": "覆蓋率",
+    "English": "cover rate"
+  },
+  {
+    "中文": "豐多度、豐富度",
+    "English": "abundance"
+  },
+  {
+    "中文": "攀緣藤類",
+    "English": "climbing vines"
+  },
+  {
+    "中文": "藤本類",
+    "English": "lianas"
+  },
+  {
+    "中文": "邊坡穩定",
+    "English": "slope stabilization"
+  },
+  {
+    "中文": "邊坡穩定分析",
+    "English": "slope stability analysis"
+  },
+  {
+    "中文": "邊緣效應",
+    "English": "edge effect"
+  },
+  {
+    "中文": "懸臂式擋土牆",
+    "English": "cantilever type retaining wall"
+  },
+  {
+    "中文": "攔砂籬",
+    "English": "sand control hedge"
+  },
+  {
+    "中文": "競爭",
+    "English": "competition"
+  },
+  {
+    "中文": "灌木",
+    "English": "shrubs"
+  },
+  {
+    "中文": "纏勒性植物",
+    "English": "strangler plants"
+  },
+  {
+    "中文": "纏繞藤類",
+    "English": "twining vine"
+  },
+  {
+    "中文": "護坡工程",
+    "English": "slope protection works"
+  },
+  {
+    "中文": "護坦",
+    "English": "apron"
+  },
+  {
+    "中文": "護岸",
+    "English": "revetment"
+  },
+  {
+    "中文": "疊式擋土牆",
+    "English": "aggregate type retaining wall"
+  },
+  {
+    "中文": "鬚根",
+    "English": "fibrous roots"
+  },
+  {
+    "中文": "纖維類植生資材",
+    "English": "fiber material for revegetation"
+  },
+  {
+    "中文": "鹼性土壤",
+    "English": "alkali soil"
+  },
+  {
+    "中文": "鹽生植物",
+    "English": "salt plants, halophyte"
+  },
+  {
+    "中文": "鹽度",
+    "English": "salinity"
+  },
+  {
+    "中文": "籬椿壩",
+    "English": "fence dams"
+  },
+  {
+    "中文": "C3 型植物",
+    "English": "C3 type plant"
+  },
+  {
+    "中文": "C4 型植物",
+    "English": "C4 type plant"
+  },
+  {
+    "中文": "L 型側溝",
+    "English": "L-type side ditch"
+  },
+  {
+    "中文": "黃金廊道",
+    "English": "gold corridor"
+  },
+  {
+    "中文": "自由經濟示範區",
+    "English": "Free Economic Pilot Zones"
+  },
+  {
+    "中文": "自由經濟示範區(簡稱示範區)",
+    "English": "Free Economic Pilot Zones (FEPZs)"
+  },
+  {
+    "中文": "臺灣米標章",
+    "English": "Taiwan Rice Mark"
+  },
+  {
+    "中文": "臺灣米標章產品",
+    "English": "TAIWAN RICE certified products"
+  },
+  {
+    "中文": "活化農地計畫",
+    "English": "Fallow Land Reactivation Program"
+  },
+  {
+    "中文": "黃金十年-樂活農業",
+    "English": "Golden Decade - LOHAS Agriculture"
+  },
+  {
+    "中文": "小地主大佃農",
+    "English": "Small Landlords and Big Tenants"
+  },
+  {
+    "中文": "農村再生",
+    "English": "Rural Regeneration"
+  },
+  {
+    "中文": "老農津貼",
+    "English": "Welfare Allowance for Elderly Farmers"
+  },
+  {
+    "中文": "農業專業區",
+    "English": "Specialized Agricultural production Area"
+  },
+  {
+    "中文": "農漁民子女就獎助學金",
+    "English": "Education Scholarship for Children of Agricultural and Fishery families"
+  },
+  {
+    "中文": "產銷履歷農產品",
+    "English": "traceable agricultural products (TAP)"
+  },
+  {
+    "中文": "農業加值",
+    "English": "value-added agriculture"
+  },
+  {
+    "中文": "產銷履歷溯源餐廳",
+    "English": "Traceability System in Restaurants"
+  },
+  {
+    "中文": "產銷履歷標章",
+    "English": "TAP label"
+  },
+  {
+    "中文": "教案",
+    "English": "teaching plan"
+  },
+  {
+    "中文": "產銷履歷達人",
+    "English": "TAP Expert"
+  },
+  {
+    "中文": "溯源餐廳",
+    "English": "Traceability Restaurants"
+  },
+  {
+    "中文": "產銷履歷辦桌",
+    "English": "TAP banquet"
+  },
+  {
+    "中文": "農業科技研究院(簡稱農科院)",
+    "English": "National Institute of Agricultural Science and Technology (NIAST)"
+  },
+  {
+    "中文": "豹鱠(七星斑)",
+    "English": "red coral trout"
+  },
+  {
+    "中文": "石斑魚神經症病毒與虹彩病毒雙價疫苗",
+    "English": "bivalent vaccine for iridovirus and nervous necrosis virus"
+  },
+  {
+    "中文": "農業災害保險",
+    "English": "Agricultural risk insurance"
+  },
+  {
+    "中文": "動物用疫苗",
+    "English": "animal vaccine"
+  },
+  {
+    "中文": "豬黴漿菌肺炎次單位疫苗",
+    "English": "the swine mycoplasma pneumonia subunit vaccine"
+  },
+  {
+    "中文": "檢驗試劑",
+    "English": "Test kits"
+  },
+  {
+    "中文": "疫苗佐劑",
+    "English": "vaccine adjuvants"
+  },
+  {
+    "中文": "無特定病源蛋",
+    "English": "SPF egg"
+  },
+  {
+    "中文": "雞蛋友善生產系統定義及指南",
+    "English": "Definition and Guideline of Friendly Eggs Production System"
+  },
+  {
+    "中文": "雞蛋友善生產系統",
+    "English": "Friendly Eggs Production System"
+  },
+  {
+    "中文": "動保團體",
+    "English": "Animal Protection Groups"
+  },
+  {
+    "中文": "世界動物日",
+    "English": "World Animal Day"
+  },
+  {
+    "中文": "寵物登記",
+    "English": "Pets registration"
+  },
+  {
+    "中文": "植入晶片",
+    "English": "implanting microchips"
+  },
+  {
+    "中文": "犬隻節育",
+    "English": "Neutering dogs"
+  },
+  {
+    "中文": "狗認養",
+    "English": "dog adoption"
+  },
+  {
+    "中文": "流浪犬",
+    "English": "stray dogs"
+  },
+  {
+    "中文": "動物保護法",
+    "English": "Animal Protection Act (APA)"
+  },
+  {
+    "中文": "寵物食品安全",
+    "English": "pet food safety"
+  },
+  {
+    "中文": "友善動物的環境",
+    "English": "animal-friendly environment"
+  },
+  {
+    "中文": "分子育種技術",
+    "English": "Molecular Breeding technology"
+  },
+  {
+    "中文": "分子標誌協助選種",
+    "English": "marker-assisted selection (MAS)"
+  },
+  {
+    "中文": "亞蔬-世界蔬菜中心",
+    "English": "the Asian Vegetable Research and Development Center (AVRDC) -The World Vegetable Center"
+  },
+  {
+    "中文": "小農",
+    "English": "small-scale farmers"
+  },
+  {
+    "中文": "低碳社會",
+    "English": "Low Carbon Society"
+  },
+  {
+    "中文": "蔬菜種原庫",
+    "English": "vegetable gene bank"
+  },
+  {
+    "中文": "耐病蟲品種",
+    "English": "well-adapted cultivars"
+  },
+  {
+    "中文": "病蟲害檢定及抗病蟲害篩選技術",
+    "English": "pest testing and pest resistance screening"
+  },
+  {
+    "中文": "小果番茄",
+    "English": "cherry tomatoes"
+  },
+  {
+    "中文": "全球貧窮",
+    "English": "global poverty"
+  },
+  {
+    "中文": "營養失衡",
+    "English": "nutritional imbalance"
+  },
+  {
+    "中文": "優質農產品",
+    "English": "Quality Agricultural Products"
+  },
+  {
+    "中文": "加工調理食品",
+    "English": "processed foods"
+  },
+  {
+    "中文": "農產品特定原產地規則",
+    "English": "specific Rules of Origin (ROO)"
+  },
+  {
+    "中文": "進口米混充國產米事件",
+    "English": "rice-mixing scandal"
+  },
+  {
+    "中文": "十大經典好米",
+    "English": "Ten Best Classic Rice Awards"
+  },
+  {
+    "中文": "香米",
+    "English": "Fragrant Rice"
+  },
+  {
+    "中文": "休耕地",
+    "English": "fallow land"
+  },
+  {
+    "中文": "青割玉米",
+    "English": "silage corn"
+  },
+  {
+    "中文": "飼用玉米",
+    "English": "forage corn"
+  },
+  {
+    "中文": "糧食自給",
+    "English": "food self-sufficiency"
+  },
+  {
+    "中文": "農民退休制度",
+    "English": "farmer's pension"
+  },
+  {
+    "中文": "世界糧食日",
+    "English": "World Food Day"
+  },
+  {
+    "中文": "米漢堡",
+    "English": "rice burgers"
+  },
+  {
+    "中文": "米麵條",
+    "English": "rice noodles"
+  },
+  {
+    "中文": "蔬菜標章",
+    "English": "Vegetable Certification System"
+  },
+  {
+    "中文": "有機蔬菜團膳供應體系",
+    "English": "the Organic Vegetable Supply System"
+  },
+  {
+    "中文": "抽驗",
+    "English": "sampling inspections"
+  },
+  {
+    "中文": "有機蔬菜供應及調配管理資訊系統",
+    "English": "Organic Vegetable Supply and Coordination Management"
+  },
+  {
+    "中文": "契作",
+    "English": "contractual farming system"
+  },
+  {
+    "中文": "有機農業",
+    "English": "Organic Agriculture"
+  },
+  {
+    "中文": "生態池濾水系統",
+    "English": "the ecological pool's water filtration system"
+  },
+  {
+    "中文": "有機蔬菜栽培區",
+    "English": "organic vegetable cultivation area"
+  },
+  {
+    "中文": "典型三生產業：生產、生活、生態",
+    "English": "three classic sectors: production, life, and ecology"
+  },
+  {
+    "中文": "農業產銷班",
+    "English": "Agricultural Production and Marketing Group"
+  },
+  {
+    "中文": "亞太糧肥中心",
+    "English": "the Food and Fertilizer Technology Center (FFTC)"
+  },
+  {
+    "中文": "繁殖技術",
+    "English": "reproductive technology"
+  },
+  {
+    "中文": "豬隻精液冷凍",
+    "English": "freezing swine semen"
+  },
+  {
+    "中文": "人工胚胎",
+    "English": "artificial embryos"
+  },
+  {
+    "中文": "胚胎幹細胞",
+    "English": "embryonic stem cells"
+  },
+  {
+    "中文": "國際食品展",
+    "English": "International Food Show"
+  },
+  {
+    "中文": "品牌農業區",
+    "English": "Branding Agriculture Area"
+  },
+  {
+    "中文": "產地證明標章",
+    "English": "Certification of Origin"
+  },
+  {
+    "中文": "臺灣優良農產品標章",
+    "English": "Certified Agricultural Standards (CAS)"
+  },
+  {
+    "中文": "有機農產品標章",
+    "English": "CAS Organic"
+  },
+  {
+    "中文": "驗證產品",
+    "English": "certified products"
+  },
+  {
+    "中文": "溫室氣體",
+    "English": "Greenhouse Gas"
+  },
+  {
+    "中文": "碳足跡排放量",
+    "English": "carbon footprint emissions"
+  },
+  {
+    "中文": "亞太農業政策資訊平台",
+    "English": "Asia-Pacific Information Platform on Agricultural Policy"
+  },
+  {
+    "中文": "國產牛肉生產追溯制度",
+    "English": "the Domestic Beef Traceability System"
+  },
+  {
+    "中文": "屠宰牛隻之飼養來源標記",
+    "English": "compulsory certificate of origin for cattle slaughtering"
+  }
+]

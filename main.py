@@ -5,6 +5,22 @@ import re
 import os
 import time
 
+def detailList():
+      # detailParseData = []
+    parseData = getopenDataList()
+    for ele in parseData[1290:]:
+        ele = {**ele, **detail(ele["ID"])}
+        print(ele)
+        detailParseData.append(ele)
+
+        time.sleep(0.3)
+        cnt+=1
+        if(cnt%100 ==0):
+            if(writeResToFile):
+                listToPrettyJson('openDataList.json',detailParseData)
+            print('sleeping...')
+            time.sleep(13)
+
 
 
 
@@ -62,10 +78,25 @@ def listToPrettyJson(filename,listData):
     f.close()
     os.system("node prettyJson.js "+str(filename))
 
+def badcharReplce(test_str):
+    test_str = test_str.replace("\\","%5C")
+    test_str = test_str.replace("/","%2F")
+    test_str = test_str.replace(":","%3A")
+    test_str = test_str.replace("*","%2A")
+    test_str = test_str.replace("?","%3F")
+    test_str = test_str.replace("“","%93")
+    test_str = test_str.replace("”","%94")
+    test_str = test_str.replace("<","%3C")
+    test_str = test_str.replace(">","%3E")
+    return test_str
 
 
 
-def pdfDownload(Id): 
+
+
+
+
+def pdfDownload(Id,filePath): 
     pdfUrl = "https://agridata.coa.gov.tw/open_detail.aspx?id="+str(Id)
 
     pdfHeaders = {
@@ -95,8 +126,8 @@ def pdfDownload(Id):
     # https://kaijento.github.io/2017/05/04/web-scraping-requests-eventtarget-viewstate/
     response = requests.request("POST", pdfUrl, headers=pdfHeaders, data=pdfPayload)
     # print(response.content)
-    with open("test.pdf", "wb") as out_file:
-        out_file.write(response.content)
+    with open(filePath+".pdf", "wb") as out_file:
+        out_file.write(response.content) 
 
 
     
@@ -144,7 +175,6 @@ def detail(ID):
         'interfaceURL' : ""
     }
     response = requests.request("GET", url, headers=headers)
-    # print(response.headers['Content-Type'])
 
 
     regex_rawvote = r"</select><span class=\"help  sdiv\" style=\".*\">平均 <b style=\"color: #78B42E;\" class=\"ssc\">\d+</b> 分 \( <span class=\"ssu\" style=\"float: inherit;\">\d+</span>人投票 \)</span>"
@@ -178,10 +208,32 @@ def detail(ID):
     # print(response.text)
 
 
+def sourceURLDownload(url,filePath):
+    headers = {
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Cookie': 'ASP.NET_SessionId=q3io0kbx3hof0ukhox2rlexf'
+    }
+    extensionName = ".txt"
 
-# print(len( getopenDataList() ))
-# pdfDownload("tR9TIFWlvquB") # https://regex101.com/r/0NHOvT/1/
-# detail("647")
+
+    try:
+        response = requests.request("GET", url, headers=headers,timeout = 5)
+        # print(response.headers['Content-Type'])
+
+
+        # https://stackoverflow.com/questions/6579876/how-to-match-a-substring-in-a-string-ignoring-case
+        if re.search('json', response.headers['Content-Type'], re.IGNORECASE):
+            extensionName = ".json"
+        elif re.search('html', response.headers['Content-Type'], re.IGNORECASE):
+            extensionName = ".html"
+
+
+        with open(filePath+extensionName, "w") as f: # https://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
+            f.write((response.text) )
+    except Exception as e:
+         with open(filePath+extensionName, "w") as f: # https://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
+            f.write(str(e) )
+
 
 
 
@@ -191,9 +243,37 @@ if os.path.exists("data/"):
     print("data/ exitst")
 else:
     print("mkdir data/")
-    os.mkdir( "data/", 666 )
+    os.mkdir( "data/" )
 
-for ele in getopenDataList(True)[:10]:
+with open('detailList.json', newline='') as jsonfile:
+    detailList = json.load(jsonfile)
+
+cnt = 38
+for ele in detailList[38:]:
+    print("cnt = ",cnt)
     print(ele)
+    if (os.path.exists("data/"+ele["Catalog"]) == False):
+        os.mkdir("data/"+ele["Catalog"])
+
+    if (os.path.exists("data/"+ele["Catalog"]+"/"+ele["Organ"] )==False):
+        os.mkdir("data/"+ele["Catalog"]+"/"+ele["Organ"] )
+
+    filePath = "data/"+ele["Catalog"]+"/"+ele["Organ"]+"/"+badcharReplce( ele["Title"] )
+    if (os.path.exists(filePath)==False):
+        os.mkdir(filePath)
 
 
+    os.system("rm -rf "+filePath+"/*")
+    pdfDownload(ele["ID"],filePath+"/"+badcharReplce( ele["Title"] )+"ReadMe")
+    sourceURLDownload(ele["sourceURL"],filePath+"/"+badcharReplce( ele["Title"] )+"sourceURL")
+    sourceURLDownload(ele["interfaceURL"],filePath+"/"+badcharReplce( ele["Title"])+"interfaceURL")
+
+    with open(filePath+"/"+badcharReplce( ele["Title"])+"summary.json" , "w") as f: 
+        f.write(str(ele) ) 
+
+
+    time.sleep(0.25)
+    if(cnt%100 ==0 and cnt!=0  ):
+        print("sleep... ",cnt)
+        time.sleep(15)
+    cnt+=1

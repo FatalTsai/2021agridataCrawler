@@ -1,0 +1,168 @@
+
+
+<html>
+<head id="head1"><meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1" />
+    <script type="text/javascript" src="/WFR/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/WFR/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/WFR/js/json3.min.js"></script>
+    <script type="text/javascript" src="/WFR/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/WFR/js/datepicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="/WFR/js/util.js"></script>
+    <script type="text/javascript" src="/WFR/js/string.js"></script>    
+    <script type="text/javascript" src="/WFR/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/WFR/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function InitMaster() {
+            //單行文字方塊按下enter觸發按鈕事件
+            $("input[type=text]").keypress(function (e) {
+                if (e.keyCode == 13) {
+                    var fbtns = $(".FunctionButtons input[type=submit]");
+                    if (fbtns.length > 0) {
+                        fbtns.first().trigger("click");
+                        return false;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+            });
+
+            var span = $(".ui-dialog-buttonset button span");
+            if ($(span).length > 0) {
+                $(span).parent().focus();
+            }
+        }
+
+        $(document).ready(function () {
+            InitCalendar();
+            InitMaster();
+            RecoverDisabledWebControl();
+        });
+    </script>
+    <title>
+	
+    肥料管理整合資訊系統
+
+</title><link id="Link1" href="css/style.css" type="text/css" rel="stylesheet" /><link id="Link2" href="css/jquery-ui.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+        .ui-dialog { margin:0 auto; }
+    </style>
+</head>
+<body>
+    <form method="post" action="./Login.aspx?__R=%7e%2fdefault.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/WFR/ScriptResource.axd?d=BjetErLDzjQsJM-Lje38KB3s_-kMCs4lKKzLRkmJj2k7A8SWG1Xiu18w-w73oy719ERFWyhKoDFf1eWzuVgSrn82UIQLbi6qgckALwLJ7s8H4-_z1DxOx4fEs3rXJ6npzzfzlCvklmqBSMn27chq-3COjcL0mV9mUNf1vBIkjwNAeXm5Z6Sg0Rx73z_-yhyX0&amp;t=4f7d5f1" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D23F7F46" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAbdT7gjXpMTWnsLDr8FCvgqsZ5YgdaZEHPS9Fcvy54KpCD2MqGjP8OS7TvpQEjR3UbXIcCSiaUPYM1xfb1SfkuElv9jt+NOf4ed1XdrzxyCDYJrkQDp1fX+PTX0qBlcdPDTXwAIjfEGi1sYRywJXCFNQoBVVALoCGLTzhd5dq8YWQ==" />
+        
+        
+        <table id="container" style="background-color: white;border-collapse:collapse; margin:auto">
+            <tr>
+                <td>
+                    <div class="container">
+                        <div class="header">
+                            
+                        </div>
+                        <div class="content" style="width: 100%">
+                            <table style="width: 100%">
+                                <tr>
+                                    
+                                    <td class="maincol">
+                                        
+                                        
+    <script type="text/javascript">
+        $(document).ready(function () {
+            refreshCc();
+        });
+
+        function refreshCc() {
+            $("#Main_m_ccimg").prop("src", "Common/createImg.aspx?r=" + Math.random());
+        }
+    </script>
+    <input type="hidden" name="ctl00$Main$ReturnPage" id="Main_ReturnPage" value="~/default.aspx" />
+    <div class="header">
+        <img id="Main_Image2" src="images/top_banner2.jpg?20150617" alt="表頭圖片" />
+    </div>
+    <div style="width: 1020px; height: 437px; background-position: left; background-image: url('images/login_bg.jpg');">
+        <div id="Main_m_LoginPanel" style="text-align: center; margin: 0 350px 0 350px;">
+	
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span id="Main_m_Msg" class="WarningMsg"></span>
+            <table border="0" class="view" style="width: 300px; margin-left:auto; margin-right:auto;">
+                <tr>
+                    <th colspan="2">使用者登入
+                    </th>
+                </tr>
+                <tr>
+                    <td class="title">帳號
+                    </td>
+                    <td>
+                        <input name="ctl00$Main$m_Account$m_TextBox" type="text" id="Main_m_Account_m_TextBox" />
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">密碼
+                    </td>
+                    <td>
+                        <input name="ctl00$Main$m_Passwd$m_TextBox" type="password" id="Main_m_Passwd_m_TextBox" />
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">驗證碼
+                    </td>
+                    <td>
+                        <a href="javascript:refreshCc();">
+                            <img id="Main_m_ccimg" src="" />
+                        </a>
+                        <input name="ctl00$Main$m_CheckCode$m_TextBox" type="text" id="Main_m_CheckCode_m_TextBox" />
+
+
+                    </td>
+                </tr>
+            </table>
+            <div class="FunctionButtons">
+                <input type="submit" name="ctl00$Main$m_OK" value="登入" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$m_OK&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="Main_m_OK" />
+                <div>
+                    <a id="Main_m_QueryFertBrand" href="PublicFun/QueryFertBrand.aspx" target="_blank">肥料廠牌查詢</a>
+                    <a id="Main_m_Bulletin1" href="PublicFun/ShowBulletin.aspx?type=1" target="_blank">、公告資料</a>
+                    <a id="Main_m_Bulletin2" href="PublicFun/ShowBulletin.aspx?type=2" target="_blank">、申辦須知</a>
+
+                </div>
+            </div>
+        
+</div>
+    </div>
+    <div class="footerImg">
+        <img id="Main_Image5" src="images/footer_banner.png" alt="表底圖片" />
+    </div>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+InitCalendar();InitMaster();RecoverDisabledWebControl();//]]>
+</script>
+</form>    
+</body>
+</html>

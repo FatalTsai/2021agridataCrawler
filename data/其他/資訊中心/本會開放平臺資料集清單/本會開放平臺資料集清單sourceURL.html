@@ -1,0 +1,719 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head1">
+    <script type="text/javascript" src="/js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/js/Util.js"></script>
+    <script type="text/javascript" src="/js/datepicker/WdatePicker.js"></script>
+    <script type="text/javascript" src="/js/jquery-bxslider/jquery.bxslider.js"></script>
+    <link id="Link2" type="text/css" rel="stylesheet" href="/js/jquery-bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-12166078-4', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            try {
+                if ($('.bxslider') !== null && $('.bxslider') !== undefined) {
+                    $('.bxslider').bxSlider({
+                        mode: 'fade',
+                        auto: true,
+                        captions: true,
+                        pager: false,
+                        pause: 5000,
+                        onSliderLoad: function () {
+                            // do funky JS stuff here
+                            $('.m_BannerDiv').show();
+                            //alert('Slider has finished loading. Click OK to continue!');
+                        }
+                    });
+                }
+            } catch (e) {
+
+            }
+            
+
+            CrossFrameDisabled();
+            //民國年
+            $(".Wdate").attr('title', '日期格式為：' + getToday('yyy/MM/dd'));
+            $(".Wdate").on("click", function () {
+                WdatePicker({ el: this, dateFmt: 'yyy/MM/dd', realDateFmt: 'yyyy/MM/dd' });
+            });
+            //西元年
+            $(".Fdate").attr('title', '日期格式為：' + getToday('yyyy/MM/dd'));
+            $(".Fdate").on("click", function () {
+                WdatePicker({ el: this, dateFmt: 'yyyy/MM/dd', realDateFmt: 'yyyy/MM/dd' });
+            });
+
+            var PrintMode = '';
+            if (PrintMode == "1") {
+                $(".rightbox").css("float", "left");
+
+                var HideControls = new Array(".top_location", ".tool", "#m_BackButtonDiv", "#m_MoveButtonDiv", "#m_ImageBoxDiv"
+                    , "#m_TopButtonDiv", "#m_BottomButtonDiv", "#m_CCBoxDiv", "#m_BannerDiv");
+                $.each(HideControls, function (key, value) {
+                    if ($(value).length > 0) {
+                        $(value).hide();
+                    }
+                });
+
+                var HideParentControls = new Array(".Pager");
+                $.each(HideParentControls, function (key, value) {
+                    if ($(value).length > 0) {
+                        $(value).parent().hide();
+                    }
+                });
+            }
+
+        });
+    </script>
+
+    <title>
+	行政院農業委員會資料開放平台
+</title><link id="Link1" type="text/css" rel="stylesheet" href="css/style.css" /><link type="text/css" rel="stylesheet" href="css/reset.css" /><link type="text/css" rel="stylesheet" href="css/opencoa_layout.css" />
+    <link type="text/css" rel="stylesheet" href="/css/jquery-ui.min.css" />
+
+    <style type="text/css">
+        #form1
+        {
+            text-align: left;
+        }
+    </style>
+    
+    
+    <script type="text/javascript">
+        $(function () {
+            $(document).ready(function () {
+                $("#DefaultPageContent_m_Keyword").autocomplete(
+                    {
+                        source: "/Search/Search.ashx",
+                        delay: 500,
+                        minLength : 1, //至少輸入幾個字元才開始給提示?
+                        //formatItem: function (row) {
+                        //    return "<div style='height:12px'><div style='float:left'>" + row[0] +
+                        //        "</div></div>";
+                        //},
+                        onItemSelect: findValue,
+                    });
+
+                function findValue(li) {
+                    if (li == null) return alert("No match!");
+                    $("#wname").val(li.extra[0]);
+                    $("#wname").attr("readonly", true);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <form method="POST" action="./Default.aspx" id="form1" class="css_form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTgyNjI2NzU1NQ9kFgJmD2QWBAIBD2QWBGYPFQcXL2pzL2pxdWVyeS0zLjUuMC5taW4uanMUL2pzL2pxdWVyeS11aS5taW4uanMVL2pzL2pxdWVyeS5ibG9ja1VJLmpzCy9qcy9VdGlsLmpzHS9qcy9kYXRlcGlja2VyL1dkYXRlUGlja2VyLmpzJi9qcy9qcXVlcnktYnhzbGlkZXIvanF1ZXJ5LmJ4c2xpZGVyLmpzJy9qcy9qcXVlcnktYnhzbGlkZXIvanF1ZXJ5LmJ4c2xpZGVyLmNzc2QCBg8VARYvY3NzL2pxdWVyeS11aS5taW4uY3NzZAIDD2QWBgIMDxYCHgdWaXNpYmxlaBYCAgUPDxYCHgtOYXZpZ2F0ZVVybAUZL0RlZmF1bHQuYXNweD9QcmludE1vZGU9MWRkAg0PZBYGAgUPZBYGAgEPFgIeBWNsYXNzBQZOZXdfaW5kAgMPFgIfAgUHUG9wdWxhcmQCBQ8WAh8CBQNIb3RkAgcPZBYGAgMPEGQPFhRmAgECAgIDAgQCBQIGAgcCCAIJAgoCCwIMAg0CDgIPAhACEQISAhMWFBAFDy0tLeiri+mBuOaThy0tLQUCLTJnEAUM5a6J5YWo6aOy6aOfBQIwMWcQBQzlnLDnkIblnJbos4cFAjAyZxAFDOi+sualreaXhemBigUCMDNnEAUG6L6y57OnBQIwNGcQBQbmvIHmpa0FAjA1ZxAFBueVnOeJpwUCMDZnEAUM6L6y5rCR6LyU5bCOBQIwN2cQBQzovrLmpa3ph5Hono0FAjA4ZxAFFeWLleakjeeJqemYsueWq+aqoueWqwUCMDlnEAUM5rC05Zyf5L+d5oyBBQIxMGcQBQzovrLmnZHlho3nlJ8FAjExZxAFDOmAoOael+eUn+eUogUCMTJnEAUM5qOu5p6X57aT54efBQIxM2cQBQzovrLmpa3np5HmioAFAjE0ZxAFBuS4u+ioiAUCMTVnEAUM6L6y5qWt5rOV6KaPBQIxNmcQBQzovrLnlLDmsLTliKkFAjE3ZxAFBuWFtuS7lgUCMThnEAUM6L6y5qWt5rCj6LGhBQIxOWdkZAIFDxBkEBUlDy0tLeiri+mBuOaThy0tLQnkvIHlioPomZUJ55Wc54mn6JmVCei8lOWwjuiZlQnnp5HmioDomZUP6L6y55Sw5rC05Yip572yCeS6uuS6i+WupAnmnIPoqIjlrqQJ57Wx6KiI5a6kCeazleimj+acgwzos4foqIrkuK3lv4MJ6L6y57On572yCea8gealree9shjli5XmpI3nianpmLLnlqvmqqLnlqvlsYAP6L6y5qWt6YeR6J6N5bGACeael+WLmeWxgA/msLTlnJ/kv53mjIHlsYAP6L6y5qWt6Kmm6amX5omAD+ael+alreippumpl+aJgA/msLTnlKLoqabpqZfmiYAP55Wc55Si6Kmm6amX5omAFeWutueVnOihm+eUn+ippumpl+aJgBvovrLmpa3ol6Xnianmr5LnianoqabpqZfmiYAe54m55pyJ55Sf54mp56CU56m25L+d6IKy5Lit5b+DGOahg+WckuWNgOi+sualreaUueiJr+WgtBjoi5fmoJfljYDovrLmpa3mlLnoia/loLQY5Y+w5Lit5Y2A6L6y5qWt5pS56Imv5aC0GOWPsOWNl+WNgOi+sualreaUueiJr+WgtBjpq5jpm4TljYDovrLmpa3mlLnoia/loLQY6Iqx6JOu5Y2A6L6y5qWt5pS56Imv5aC0GOWPsOadseWNgOi+sualreaUueiJr+WgtA/ojLbmpa3mlLnoia/loLQV56iu6IuX5pS56Imv57mB5q6W5aC0J+Wxj+adsei+sualreeUn+eJqeaKgOihk+WckuWNgOexjOWCmeiZlQzlhajlnIvmvIHmnIMV6L6y5qWt56eR5oqA56CU56m26ZmiD+S4reWkrueVnOeUouacgxUlAi0yAjA5AjA4AjI2AjE4AjMzAjM0AjA1AjExAjEwAjAxAjA0AjA2AjEzAjI4AjAzAjEyAjE0AjE2AjI1AjI0AjE1AjE3AjE5AjMwAjIwAjMyAjIxAjIzAjMxAjI5AjIyAjI3AjAyAjA3AjM1AjM4FCsDJWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dkZAIPD2QWAgIBDzwrAAkBAA8WBB4IRGF0YUtleXMWAB4LXyFJdGVtQ291bnQCBWQWCmYPZBYCAgEPEA8WBB4EVGV4dAUESlNPTh4HVG9vbFRpcAUKMSAgICAgICAgIGRkZGQCAQ9kFgICAQ8QDxYEHwUFA0NTVh8GBQoyICAgICAgICAgZGRkZAICD2QWAgIBDxAPFgQfBQUFRXhjZWwfBgUKMyAgICAgICAgIGRkZGQCAw9kFgICAQ8QDxYEHwUFBFdvcmQfBgUKNCAgICAgICAgIGRkZGQCBA9kFgICAQ8QDxYEHwUFA1htbB8GBQE1ZGRkZAIJDzwrABEEAA8WCB4TQXV0b0dlbmVyYXRlQ29sdW1uc2geC0FsbG93UGFnaW5nZx4LXyFEYXRhQm91bmRnHwQCxwlkARAWCWYCAQICAgMCBAIFAgYCBwIIFgk8KwAFAQAWAh8AZzwrAAUBABYCHwBnPCsABQEAFgIfAGc8KwAFAQAWAh8AZzwrAAUBABYCHwBnPCsABQEAFgIfAGc8KwAFAQAWAh8AZzwrAAUBABYCHwBoPCsABQEAFgIfAGgWCQIGAgZmAgZmZmZmZgkWAh4MUGFnZXJWaXNpYmxlZwwUKwAAFgJmD2QWGAIBD2QWEmYPZBYCAgEPDxYEHwEFIX4vUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPTE3Mh8FBSHmnKzmnIPplovmlL7lubPoh7ros4fmlpnpm4bmuIXllq5kZAIBD2QWAmYPFQJR5o+Q5L6b6LOH5paZ5YyF5ZCr77ya6LOH5paZ5ZCN56ix44CB5LiK5p625pel5pyf44CB5pu05paw5pel5pyf562J5qyE5L2N6LOH5paZ44CCKuaUv+W6nOizh+aWmemWi+aUvuW5s+iHuuizh+aWmeS9v+eUqOimj+evhGQCAg8PFgIfBQUG5YW25LuWZGQCAw9kFgICAQ8PFgIfBQUUSlNPTjxici8+Q1NWPGJyLz5YbWxkZAIEDw8WAh8FBQzos4foqIrkuK3lv4NkZAIFDw8WAh8FBQoyMDIxLzA0LzA0ZGQCBg8PFgIfBQUG5Y2z5pmCZGQCBw8PFgIfBQUFMjY5MTVkZAIIDw8WAh8FBQUyNjkxNWRkAgIPZBYSZg9kFgICAQ8PFgQfAQUqfi9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9QjhESjRlZWJIeFZIHwUFIemrmOeXheWOn+aAp+emvea1geaEn+mYsueWq+iZlee9rmRkAgEPZBYCZg8VAvAC6auY55eF5Y6f5oCn56a95rWB5oSf6Ziy55ar6JmV572uKOaPkOS+mzEwOeW5tOi1t+WutuemveWgtOeiuuiouumrmOeXheWOn+aAp+emvea1geaEn+ahiOS+i+WPiuiZleeQhuaDheW9oinvvIzmj5Dkvpvos4fmlpnljIXlkKvvvJpJRCjmtYHmsLTomZ8p44CBY291bnR5bmFtZSjnuKPluIIp44CBdG93bm5hbWUo6YSJ6Y6uKeOAgXNhbXBsZV9kYXRlKOaOoeaoo+aXpeacnynjgIFqdWRnZV9kYXRlKOWIpOWumuaXpeacnynjgIFhdmlhbl9zcGVjaWVzKOmjvOmkiuemveeorinjgIFBSV8yX2dlbmVyYWwo5Lqe5Z6LKEg144CBTjcpKeOAgUFJXzJfZ2VuZXJhbCjmkrLmrrrml6XmnJ8p44CBQUlfMl9nZW5lcmFsKOaSsuauuuaVuOmHjynnrYnmrITkvY0q5pS/5bqc6LOH5paZ6ZaL5pS+5bmz6Ie66LOH5paZ5L2/55So6KaP56+EZAICDw8WAh8FBRXli5XmpI3nianpmLLnlqvmqqLnlqtkZAIDD2QWAgIBDw8WAh8FBQxKU09OPGJyLz5DU1ZkZAIEDw8WAh8FBRjli5XmpI3nianpmLLnlqvmqqLnlqvlsYBkZAIFDw8WAh8FBQoyMDIxLzA0LzA0ZGQCBg8PFgIfBQUG5q+P5pelZGQCBw8PFgIfBQUEMzU5OGRkAggPDxYCHwUFBDM1OThkZAIDD2QWEmYPZBYCAgEPDxYEHwEFKn4vUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPUNzU2dmbEhYc3h4bx8FBRjlnJ/noILngb3lrrPkuovku7blvbHlg49kZAIBD2QWAmYPFQLqA+iSkOmbhuatt+WPsuW9seWDj+eFp+eJh++8jOW7uueri+att+WPsuW9seWDj+eFp+eJh+aHieeUqOeoi+W8j+S7i+mdoihBUEkp5o+Q5L6b5oeJ55So57O757Wx5LuL5o6l77yM5o+Q5L6b5LmL6LOH5paZ5o+Q5L6b5YyF5ousRXZlbnRJRCjnhafniYforZjliKXnorwp44CBUGhvdG9UeXBlKOeFp+eJh+Wei+aFiynjgIFMYXQo57aT5bqmKeOAgUxuZyjnt6/luqYp44CBQ291bnR5KOe4o+W4ginjgIFUb3duKOmEiemOrinjgIFWaWxsKOadkemHjCnjgIEgUGhvdG9EYXRlKOeFp+eJh+aLjeaUneaZgumWkynjgIFQaG90b0FuZ2xlKOaLjeaUneinkuW6pinjgIFTb3VyY2Uo54Wn54mH5o+Q5L6b6ICFKeOAgUxhbmRtYXJrKOmEsOi/keWcsOaomSnjgIFEZXNjcmlwdGlvbijnhafniYfmj4/ov7Ap44CBTm90ZSjlgpnoqLsp44CBRGlzYXN0ZXJZZWFyKOeBveWus+W5tOW6pinjgIFEaXNhc3Rlck5hbWUo54G95a6z5ZCN56ixKeOAgUZpbGVOYW1lKOeFp+eJh+mAo+e1kCkq5pS/5bqc6LOH5paZ6ZaL5pS+5bmz6Ie66LOH5paZ5L2/55So6KaP56+EZAICDw8WAh8FBQzmsLTlnJ/kv53mjIFkZAIDD2QWAgIBDw8WAh8FBQRKU09OZGQCBA8PFgIfBQUP5rC05Zyf5L+d5oyB5bGAZGQCBQ8PFgIfBQUKMjAyMS8wNC8wNGRkAgYPDxYCHwUFBuWNs+aZgmRkAgcPDxYCHwUFBDExNjBkZAIIDw8WAh8FBQQxMTYwZGQCBA9kFhJmD2QWAgIBDw8WBB8BBSp+L1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD1JRkpvbXFWenlCMGkfBQUS5a+154mp6YG65aSx5ZWf5LqLZGQCAQ9kFgJmDxUClgLkuLvopoHmj5DkvpvlhbfovqbnkIblr7XniannmbvoqJjkuJTpgbrlpLHnlLPloLHkuYvos4fmlpnjgILos4fmlpnmj5DkvpvljIXmi6zvvJrns7vntbHnt6jomZ/jgIHmmbbniYfomZ/norzjgIHlr7XnianlkI3jgIHlr7XnianliKXjgIHmgKfliKXjgIHlk4HnqK7jgIHmr5voibLjgIHlpJbop4DjgIHnibnlvrXjgIHpgbrlpLHmmYLplpPjgIHpgbrlpLHlnLDpu57jgIHpo7zkuLvlp5PlkI3jgIHpgKPntaHpm7voqbHjgIFFTWFpbOOAgeWcluaqlOS9jeWdgOetieashOS9jeizh+ioiuOAgirmlL/lupzos4fmlpnplovmlL7lubPoh7ros4fmlpnkvb/nlKjopo/nr4RkAgIPDxYCHwUFBueVnOeJp2RkAgMPZBYCAgEPDxYCHwUFFEpTT048YnIvPkNTVjxici8+WG1sZGQCBA8PFgIfBQUJ55Wc54mn6JmVZGQCBQ8PFgIfBQUKMjAyMS8wNC8wNGRkAgYPDxYCHwUFBuavj+aXpWRkAgcPDxYCHwUFBTE1NjUyZGQCCA8PFgIfBQUFMTU2NTJkZAIFD2QWEmYPZBYCAgEPDxYEHwEFKn4vUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPW45NmRhYnhDbUJzQx8FBRtVQVbnqbrmi43mraPlsITlvbHlg4/lnJbno5pkZAIBD2QWAmYPFQJ76JKQ6ZuGVUFW56m65ouN5b2x5YOP77yM57aT5Zyw55CG5a6a5L2N6IiH5q2j5bCE6JmV55CG55m85biD77yM5bu656uLVUFW56m65ouN5q2j5bCE5b2x5YOP5ZyW56Oa5o+Q5L6b5oeJ55So57O757Wx5LuL5o6l44CCKuaUv+W6nOizh+aWmemWi+aUvuW5s+iHuuizh+aWmeS9v+eUqOimj+evhGQCAg8PFgIfBQUM5Zyw55CG5ZyW6LOHZGQCAw9kFgICAQ8PFgIfBQUESlNPTmRkAgQPDxYCHwUFD+awtOWcn+S/neaMgeWxgGRkAgUPDxYCHwUFCjIwMjEvMDQvMDRkZAIGDw8WAh8FBQbljbPmmYJkZAIHDw8WAh8FBQQ5Mzg4ZGQCCA8PFgIfBQUEOTM4OGRkAgYPZBYSZg9kFgICAQ8PFgQfAQUqfi9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9cDRmRUd1akF0dnEwHwUFLeWcn+efs+a1geeBveWus+e3iuaApeaHieiuiuWwj+e1hOmWi+ioreizh+aWmWRkAgEPZBYCZg8VAuUB5o+Q5L6b5rC05Zyf5L+d5oyB5bGA5Zyf55+z5rWB54G95a6z57eK5oCl5oeJ6K6K5bCP57WE6ZaL6Kit6LOH5paZ5LiL6LyJ77yM5YyF5ZCr77ya44CBRGlzYXN0ZXJJRCjngb3lrrPnt6jnorwpRGlzYXN0ZXJZZWFyKOeBveWus+W5tOW6pinjgIFEaXNhc3RlclR5cGUo54G95a6z56iu6aGeKeOAgU9wZW5UaW1lKOmWi+ioreaZgumWkynjgIFDbG9zZVRpbWUo57WQ5p2f5pmC6ZaTKeetieashOS9jeOAgirmlL/lupzos4fmlpnplovmlL7lubPoh7ros4fmlpnkvb/nlKjopo/nr4RkAgIPDxYCHwUFDOawtOWcn+S/neaMgWRkAgMPZBYCAgEPDxYCHwUFBEpTT05kZAIEDw8WAh8FBQ/msLTlnJ/kv53mjIHlsYBkZAIFDw8WAh8FBQoyMDIxLzA0LzA0ZGQCBg8PFgIfBQUG5Y2z5pmCZGQCBw8PFgIfBQUDOTc3ZGQCCA8PFgIfBQUDOTc3ZGQCBw9kFhJmD2QWAgIBDw8WBB8BBSp+L1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD10UjlUSUZXbHZxdUIfBQUh6Ie654Gj6LGs6K2J5piO5qiZ56ug5ZWG5a626LOH5paZZGQCAQ9kFgJmDxUCkQTngrrmjqjlu6Poh7rngaPppIrosaznlKLmpa3vvIzlvLfljJblnIvnlKLosazogonmlbTpq5TorZjliKXmgKfooYzpirfvvIznibnlhazplovoh7rngaPosazorYnmmI7mqJnnq6DllYblrrbos4fmlpnvvIzos4fmlpnlhaflrrnljIXlkKvmnInluILmi5vlkI3nqLEobWFya2V0X25hbWUp44CB6LKp5ZSu5aC05omA5Zyw5Z2AKGFkZHIp44CB5q+P5pel54ef5qWt5pmC6ZaTKGJ1c2luZXNzX3dlZWsp44CB5bqX5a625LuL57S5KGNvbnRleHQp44CB5qiZ56ug5pyJ5pWI5pyf6ZmQKFZhbGlkRGF0ZSnjgIHntpPluqYoTG9udGl0dWRlKeOAgee3r+W6pihMYXRpdHVkZSnjgIHmqJnnq6Dnt6jomZ8oY2FzZV9jb2RlKeOAgeizh+aWmeacgOW+jOabtOaWsOaZgumWkyhsYXN0X2VkaXRlZF9kYXRlKeOAgeeHn+alremhnuWIpSh0eXBlKeOAgeaomeeroOe3qOiZnyhiYWRnZV9jb2RlKeOAgeeHn+alremWi+Wni+aZgumWkyhidXNpbmVzc19ob3VycynjgIHnh5/mpa3ntZDmnZ/mmYLplpMoYnVzaW5lc3NfaHVyc19lbmQp562J6LOH6KiK44CCKuaUv+W6nOizh+aWmemWi+aUvuW5s+iHuuizh+aWmeS9v+eUqOimj+evhGQCAg8PFgIfBQUM5a6J5YWo6aOy6aOfZGQCAw9kFgICAQ8PFgIfBQUMSlNPTjxici8+Q1NWZGQCBA8PFgIfBQUJ55Wc54mn6JmVZGQCBQ8PFgIfBQUKMjAyMS8wNC8wNGRkAgYPDxYCHwUFCeavj+Wwj+aZgmRkAgcPDxYCHwUFBDI3MDlkZAIIDw8WAh8FBQQyNzA5ZGQCCA9kFhJmD2QWAgIBDw8WBB8BBSF+L1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD0wMjYfBQUS5q+b6LGs5Lqk5piT6KGM5oOFZGQCAQ9kFgJmDxUCYOaPkOS+m+izh+aWmeWMheWQq++8muS6pOaYk+aXpeacn+OAgeW4guWgtOWQjeeoseOAgeaIkOS6pOmgreaVuOmgreaVuOWPiuWDueagvOetieashOS9jeizh+aWmeOAgirmlL/lupzos4fmlpnplovmlL7lubPoh7ros4fmlpnkvb/nlKjopo/nr4RkAgIPDxYCHwUFBueVnOeJp2RkAgMPZBYCAgEPDxYCHwUFFEpTT048YnIvPkNTVjxici8+WG1sZGQCBA8PFgIfBQUJ55Wc54mn6JmVZGQCBQ8PFgIfBQUKMjAyMS8wNC8wM2RkAgYPDxYCHwUFBuavj+aXpWRkAgcPDxYCHwUFBTM5ODI1ZGQCCA8PFgIfBQUFMzk4MjVkZAIJD2QWEmYPZBYCAgEPDxYEHwEFIX4vUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPTAyOB8FBQzovrLmsJHlrbjpmaJkZAIBD2QWAmYPFQKEAuaPkOS+m+izh+aWmeWMheWQq++8muiqsueoi2lk44CB6Kqy56iL5ZCN56ix44CB6KiT57e05Yil44CB6Kqy56iL5pel5pyf44CB6Kqy56iL6LK755So44CB5aCx5ZCN5pmC6ZaT44CB6ZaL6Kqy54uA5oWL44CB55Si5qWt5Yil44CB6Kqy56iL5Z6L5oWL44CB5ZCN6aGN44CB5aCx5ZCN5Lq65pW444CB6Kqy56iL5YWn5a6544CB5Y+D5Yqg5bCN6LGh44CB6LOH5qC85qKd5Lu244CB6Kqy56iL5Zyw6bue44CB6IGv57Wh6LOH6KiK562J5qyE5L2N6LOH5paZ44CCKuaUv+W6nOizh+aWmemWi+aUvuW5s+iHuuizh+aWmeS9v+eUqOimj+evhGQCAg8PFgIfBQUM6L6y5rCR6LyU5bCOZGQCAw9kFgICAQ8PFgIfBQUUSlNPTjxici8+Q1NWPGJyLz5YbWxkZAIEDw8WAh8FBQnovJTlsI7omZVkZAIFDw8WAh8FBQoyMDIxLzA0LzAzZGQCBg8PFgIfBQUG5q+P5pelZGQCBw8PFgIfBQUFMzQwNDlkZAIIDw8WAh8FBQUzNDA0OWRkAgoPZBYSZg9kFgICAQ8PFgQfAQUhfi9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9MDMzHwUFEui+suadkeW4gumbhuizh+aWmWRkAgEPZBYCZg8VAtIB5Zug5bGs5Zau5LiA5bm05bqm6Kq/5p+l5pS26YyE5LmL6LOH5paZ77yM5pys6aCF6LOH5paZ5LiN5YaN5pu05paw77yb5Y6f5YWI5o+Q5L6b6LOH5paZ5YyF5ZCr77ya57ij5biC44CB5biC6ZuG5ZCN56ix44CB5biC6ZuG5LuL57S544CB54ef5qWt5pmC6ZaT44CB6Zu76Kmx44CBR1BT44CB54ef5qWt5Zyw5Z2A44CB5Lqk6YCa6LOH6KiK562J5qyE5L2N6LOH5paZ44CCKuaUv+W6nOizh+aWmemWi+aUvuW5s+iHuuizh+aWmeS9v+eUqOimj+evhGQCAg8PFgIfBQUM6L6y5qWt5peF6YGKZGQCAw9kFgICAQ8PFgIfBQUUSlNPTjxici8+Q1NWPGJyLz5YbWxkZAIEDw8WAh8FBQ/msLTlnJ/kv53mjIHlsYBkZAIFDw8WAh8FBQoyMDIxLzA0LzAzZGQCBg8PFgIfBQUJ5LiN5pu05pawZGQCBw8PFgIfBQUFMjQ3NzZkZAIIDw8WAh8FBQUyNDc3NmRkAgsPDxYCHwBoZGQCDA9kFgJmD2QWCgIBDw8WAh8FBQQxMjIzZGQCAw8PFgIfBQUBMWRkAgUPDxYCHwUFAzEyM2RkAgcPEA8WAh8JZ2RkFgECAWQCCQ8PFgIfAGhkZAIODw8WAh8FBegfPHN0eWxlIHR5cGU9InRleHQvY3NzIj4ub2QtZm9vdGVyIHsKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgcGFkZGluZzogMjBweDsKICAgICAgICB9CgogICAgICAgICAgICAub2QtZm9vdGVyIC5jZWxsIHsKICAgICAgICAgICAgICAgIGZsZXg6IDE7CiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMzBweDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC5vZC1mb290ZXIgLmNlbGwgLnRpdGxlIHsKICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgLmNvbGxhcHNlLWFyZWEgewogICAgICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI0U3RTZFMDsKICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4OwogICAgICAgIH0KCiAgICAgICAgLmNvbGxhcHNlLWJ0biB7CiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsKICAgICAgICAgICAgd2lkdGg6IDk2cHg7CiAgICAgICAgICAgIGhlaWdodDogNDBweDsKICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi9pbWFnZXMvZl9idG5fcGFnZXRvcC5wbmcnKTsKICAgICAgICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDsKICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlOwogICAgICAgICAgICB0b3A6IDEzcHg7CiAgICAgICAgICAgIGNvbG9yOiAjMzQzNDM0OwogICAgICAgICAgICBmb250LXNpemU6IDE2cHg7CiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjsKCiAgICAgICAgfQoKICAgICAgICAuY29sbGFwc2UtYXJlYSBzcGFuIHsKICAgICAgICAgICAgbWFyZ2luLXRvcDogMTZweDsKICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogICAgICAgIH0KCiAgICAgICAgLmNvbnRlbnQgYSB7CiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICAgICAgICAgICAgY29sb3I6ICMwMDA7CiAgICAgICAgfQo8L3N0eWxlPgo8ZGl2IGNsYXNzPSJjb2xsYXBzZS1hcmVhIj4KPGRpdiBjbGFzcz0iY29sbGFwc2UtYnRuIj48c3Bhbj5DbG9zZTwvc3Bhbj48L2Rpdj4KPC9kaXY+Cgo8ZGl2IGNsYXNzPSJvZC1mb290ZXIiPgo8ZGl2IGNsYXNzPSJjZWxsIj4KPGRpdiBjbGFzcz0idGl0bGUiPuW5s+WPsOa2iOaBrzwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL0ZBUS9GQVEuYXNweCI+5bi46KaL5ZWP562UPC9hPjwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL1J1bGUvUnVsZS5hc3B4Ij7os4fmlpnkvb/nlKjopo/nr4Q8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvQWJvdXQvQWJvdXRVcy5hc3B4Ij7pl5zmlrzmiJHlgJE8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvQWJvdXQvUHJpdmFjeS5hc3B4Ij7pmrHnp4HmrIrkv53orbflrqPlkYo8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvQWJvdXQvRGF0YVBvbGljeS5hc3B4Ij7os4foqIrlronlhajmlL/nrZblrqPlsI48L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvQWJvdXQvUHJpdmFjeS5hc3B4Ij7pmrHnp4HmrIrkv53orbflrqPlkYo8L2E+PC9kaXY+CjwvZGl2PgoKPGRpdiBjbGFzcz0iY2VsbCI+CjxkaXYgY2xhc3M9InRpdGxlIj7plovmlL7os4fmlpk8L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbnRlbnQiPjxhIGhyZWY9Ii9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9MDM3Ij7ovrLnlKLlk4HkuqTmmJPooYzmg4U8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPTA2MiI+5ZCJ5ZyS5ZyD6LOH6KiKPC9hPjwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD0wMzkiPua8geeUouWTgeS6pOaYk+ihjOaDhTwvYT48L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbnRlbnQiPjxhIGhyZWY9Ii9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9MDI2Ij7mr5vosazkuqTmmJPooYzmg4U8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPTA1NiI+5a6256a95Lqk5piT6KGM5oOFKOeZveiCiembni/pm57om4spPC9hPjwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD0wNjMiPueUoumKt+WxpeattzwvYT48L2Rpdj4KPC9kaXY+Cgo8ZGl2IGNsYXNzPSJjZWxsIj4KPGRpdiBjbGFzcz0idGl0bGUiPuWcsOeQhuizh+aWmembhjwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD0xNTAiPuWFqOWPsOS/neWuieael+WIhuW4g+amgueVpeWcljwvYT48L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbnRlbnQiPjxhIGhyZWY9Ii9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9MTUyIj7lnJ/lo6TnrqHnkIbntYTlnJY8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPTE1NyI+6Ieq54S25L+d55WZ5Y2APC9hPjwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL1F1ZXJ5L1NlcnZpY2VEZXRhaWwuYXNweD9pZD0xNTkiPuWcn+WjpOWcljwvYT48L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbnRlbnQiPjxhIGhyZWY9Ii9RdWVyeS9TZXJ2aWNlRGV0YWlsLmFzcHg/aWQ9MTUzIj7oh7rngaPnj77nlJ/lpKnnhLbmpI3nvqTlnJY8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvUXVlcnkvU2VydmljZURldGFpbC5hc3B4P2lkPTE1NiI+6YeO55Sf5YuV54mp6YeN6KaB5qOy5oGv55Kw5aKDPC9hPjwvZGl2Pgo8L2Rpdj4KCjxkaXYgY2xhc3M9ImNlbGwiPgo8ZGl2IGNsYXNzPSJ0aXRsZSI+5oeJ55So5pyN5YuZ5bGV56S6PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvRGVtb25zdHJhdGVTZXJ2aWNlL1ZpZXdEZW1vLmFzcHg/aWQ9NCI+5Y+w54Gj6L6y55Si5ZOB5Lqk5piT6KGM5oOFPC9hPjwvZGl2PgoKPGRpdiBjbGFzcz0iY29udGVudCI+PGEgaHJlZj0iL0RlbW9uc3RyYXRlU2VydmljZS9WaWV3RGVtby5hc3B4P2lkPTIiPuW4guWgtOihjOaDhemAmjwvYT48L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbnRlbnQiPjxhIGhyZWY9Ii9EZW1vbnN0cmF0ZVNlcnZpY2UvVmlld0RlbW8uYXNweD9pZD0zIj7olKzmnpzooYzmg4Xnq5k8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvRGVtb25zdHJhdGVTZXJ2aWNlL1ZpZXdEZW1vLmFzcHg/aWQ9MTUiPuWPsOeBo+eVtuWto+mjn+adkDwvYT48L2Rpdj4KCjxkaXYgY2xhc3M9ImNvbnRlbnQiPjxhIGhyZWY9Ii9EZW1vbnN0cmF0ZVNlcnZpY2UvVmlld0RlbW8uYXNweD9pZD01Ij7mtarmtarlm57lrrY8L2E+PC9kaXY+Cgo8ZGl2IGNsYXNzPSJjb250ZW50Ij48YSBocmVmPSIvRGVtb25zdHJhdGVTZXJ2aWNlL1ZpZXdEZW1vLmFzcHg/aWQ9NTYiPuWLleeJqemgmOmkii1BbmltYWxBZG9wdGlvbjwvYT48L2Rpdj4KPC9kaXY+CjwvZGl2Pgo8c2NyaXB0PgoKICAgICAgICAkKCIuY29sbGFwc2UtYnRuIikub24oImNsaWNrIiwgZnVuY3Rpb24gKCkgewogICAgICAgICAgICB2YXIgYnRuVGV4dCA9ICQoIi5jb2xsYXBzZS1idG4gc3BhbiIpLnRleHQoKTsKICAgICAgICAgICAgY29uc29sZS5sb2coYnRuVGV4dCkKICAgICAgICAgICAgaWYgKGJ0blRleHQgPT09ICJPcGVuIikgewogICAgICAgICAgICAgICAgJCgiLmNvbGxhcHNlLWJ0biBzcGFuIikuaHRtbCgiQ2xvc2UiKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICQoIi5jb2xsYXBzZS1idG4gc3BhbiIpLmh0bWwoIk9wZW4iKTsKICAgICAgICAgICAgfQogICAgICAgICAgICAkKCIub2QtZm9vdGVyIikuc2xpZGVUb2dnbGUoKTsKCiAgICAgICAgfSkKICAgIDwvc2NyaXB0PmRkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYFBThjdGwwMCREZWZhdWx0UGFnZUNvbnRlbnQkbV9Gb3JtYXQkY3RsMDAkbV9Gb3JtYXRDaGVja0JveAU4Y3RsMDAkRGVmYXVsdFBhZ2VDb250ZW50JG1fRm9ybWF0JGN0bDAxJG1fRm9ybWF0Q2hlY2tCb3gFOGN0bDAwJERlZmF1bHRQYWdlQ29udGVudCRtX0Zvcm1hdCRjdGwwMiRtX0Zvcm1hdENoZWNrQm94BThjdGwwMCREZWZhdWx0UGFnZUNvbnRlbnQkbV9Gb3JtYXQkY3RsMDMkbV9Gb3JtYXRDaGVja0JveAU4Y3RsMDAkRGVmYXVsdFBhZ2VDb250ZW50JG1fRm9ybWF0JGN0bDA0JG1fRm9ybWF0Q2hlY2tCb3gFJWN0bDAwJERlZmF1bHRQYWdlQ29udGVudCRtX1Jlc3VsdEdyaWQPPCsADAEIAntkC6xPoqbDjnRydrYoA+xVQhdxs4+E0nEkci0BYVMjN78=" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"zh-TW","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"NT$","NaNSymbol":"非數值","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"上午","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402271999999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027 tt hh:mm:ss","LongDatePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027","LongTimePattern":"tt hh:mm:ss","MonthDayPattern":"M月d日","PMDesignator":"下午","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"yyyy/M/d","ShortTimePattern":"tt hh:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"yyyy\u0027年\u0027M\u0027月\u0027","AbbreviatedDayNames":["週日","週一","週二","週三","週四","週五","週六"],"ShortestDayNames":["日","一","二","三","四","五","六"],"DayNames":["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],"AbbreviatedMonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"IsReadOnly":true,"NativeCalendarName":"西曆 (中文)","AbbreviatedMonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""],"MonthGenitiveNames":["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月",""]},"eras":[1,"西元",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=L1w4KofqjlJiPOjRkAWTzUd3L-4dfV1hzs0FUWJNEAaplmrPAhsj0c1FzKuuPRatlKAqQWSV-IKgbi6X5Y8sVZeWbK3Ffpoipp_z2Km2YFNUqmR5a1kgX695WsmZXiOtZFllHK-WfC7FyH608cVZt00ywpbPjPLJCo9cuIvo5SGzcHrdjw9Dg_jszFLgUexK0&amp;t=2fe674eb" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAExvimPqSVKsReJ+qTfED0Kt2Sm0m5dMILTn7HQFmSr3CsMmfm0TIFlY8CQ6z6YjobmVYlC0u2Vzy4YsbddIPFFziFvfoSkVYCB6+IuXZmNbw+QSO2BE7r/j+c4FWRVkMz1UAzrnt5LPpCq560Kp3in+fWeCnI0/Gty/0ASrvKEQfXPCLrLf2khMlyCdHlOnpO3Y1JFBk3irTnJoYJOgd2ia0QlbX957PGIO9bNAmgdPH6ZHJKlnJonpnyGcprGyIHdRfqoTu2aLSEcQRYB8PmyBnrAl5qowIX388r7nqjB0BmKzkQRgnPQKCntr3OR8se6sqcgkJtGW+vPb3veso4LUXeTPKgDU4ZFAbTKTQERT9SgrLYkz19YT45SnVCysxhzlwE6PC2Txsu49Iq83RovuQ90LyWVIh1vTQLeomeD8kVYrsAhFd+TNkA5lo15KOItV/pirNh2ZESKxRqa6guaZPmYivGUfSIdb01PhbzAE4kxG0nEhch+kj3R/KX0eHNMTUvAWxoQHNK+2o7MK+gbSkKkEvVwImn4lvb0GcUAT9eNQIx2jEigp2F/dZlF7kcGvXOSgGMWPrXXVkksP/galk1yzemm4h/FHQWXJ+9re4bYXmHQRLrUuyIMi/YgZJa9cQXl+Z2RkoxnP9JM8dJXVE5eoPHNdGOcFYjToj3RWZmB+ja73ixUNBLQ3uVmCBu5BSkfUwoQyYWApTLKcM5yI2oc8aANZNqTv2rkrZnM9kHikYzE7koGipsEFP8Znzu8G7/uQJhS3mNYWIF9DPvNEm8dCdTx7uKDPJjn/WL6HWlDkgmPthz6/dE7DPdtPFyGzVFdYWXKd4NDv9a6t3zYOJ9wCIVJX8LfOpAviwNlV0CtgN0RrIM1N9axcZNPgkSchdcuJNL54WzGf9M/pgsedk5BffYlIu9Cc2Z9A2pDEhYumwf/QC4t0Pf5ENbJPN6j2q2h4mEKnTToHVNxAsC2dd4Sl/jrJOwoqyXb5+8se4IEgbCcvJxJBXAvBJ8F4Vx9gMKyPlr4P0ASdSE5sd9QIqKi9je4Sd0dqLUxKFmBEIANeQH5oMeEmmkfZbsGHOeCxzQ3GvUn4jbmAN+8wd6Woj3tEOUggQw+VIq8+ECnOpQNM7uwso4qNBgVU0y26n/XDLbbahz1Wy4Gx0mbtNdui89MsSbm2Xd1B4a1+EiQ2CxVW9a2t4T4GpHMbiyJLRukjyt2HOvCeTi9vvZuVdPY4rIRG06bHVbXZ6Zs2fDkQNfJn7qRyOBGrrI1NpTNu141eK5p9DHCcLof8Ylf1Z8sF6Dfjn/1uN2MaYUZk2xA2kc3rOvNg2RVzWWOXe19yVr192LlVNGm6hdlwtteZfkt4IpvbxIg3E86Fdt+B69sBWTVe7tQDlqUw8xfwgYhz4soiXZQ7+aM3iOQv4UFrTCUskecCtO83qrr1Wm/10LUXWZxXQGt7KN3R6kpYM/aWmALoqhWjANKiJQ1V0lFUaW6bOuaYFMkxWd8M6ZWWTQHsmuLDrEKYJHoyXlG4lZQYZo5+Esb0mcEapLd8RDUdjS4D0AxRm+b3zu6UVE/NV3vJVldOVNIj9gzVeKtWAfPcmRqYgqZ4XXS4gHD83WFuJ/00RXq2u39gGM+PIIpyFZzflvpMAp2RkgQ5y4p9OBnlEvg=" />
+        
+        <div id="WRAPPER_OPENCOA">
+            <div class="OPEN_COA">
+                <!--【TOP_LOGO等】-->
+                <script type='text/javascript'>
+                    function FontZoom(size) {
+                        var element = document.getElementsByTagName("p");
+                        var components = new Array();
+                        for (i = 0, j = 0; i < element.length; i++) {
+                            //attribute = element[i].getAttribute("id");
+                            //if(attribute == "WRAPPER_OPENCOA") {
+                            components[j] = element[i];
+                            j++;
+                            //}
+                        }
+                        for (k = 0; k < components.length; k++) {
+                            components[k].style.fontSize = size + 'px';
+                        }
+                    }
+                </script>
+
+                <!--【TOP_LOGO等】-->
+                <div class="TOP">
+                    <div class="left_logo">
+                        <h1><a href="Default.aspx" id="A4" class="logo">DATA.COA 行政院農業委員會資料開放平台</a></h1>
+                    </div>
+                    <div class="tool">
+                        <a class="font_small" href="#" onclick="javascript:FontZoom(13)">小</a>
+                        <a class="font_medium" href="#" onclick="javascript:FontZoom(15)">中</a>
+                        <a class="font_large" href="#" onclick="javascript:FontZoom(17)">大</a>
+                        <a href="About/SiteMap.aspx" id="A1" class="map"></a>
+                        <a href="About/Contact.aspx" id="A2" class="mail"></a>
+                        <a href="Default.aspx" id="A3" class="home"></a>
+                        <br class="CLEAR" />
+                    </div>
+                    <br class="CLEAR" />
+                </div>
+
+                <!--【中間區塊】-->
+                <!-- 字型 【大】是吃"fontbig" 【中】是吃"fontmedium" 【小】是吃"fontsmall"-->
+                <div class="CENTER fontmedium">
+                    <div id="m_TopButtonDiv" class="topbox">
+                        <!--上方按鈕-->
+                        <ul class="topbtn">
+
+                            <li class="news">
+                                <h2><a href="News/News.aspx">平台消息</a></h2>
+                            </li>
+                            <li class="qa">
+                                <h2><a href="FAQ/FAQ.aspx">常見問與答</a></h2>
+                            </li>
+                            <li class="open_data">
+                                <h2><a href="Query/OpenData.aspx">開放資料</a></h2>
+                            </li>
+                            <li class="geography">
+                                <h2><a href="Default.aspx?Type=Map">地理圖集</a></h2>
+                            </li>
+                            <li class="norms">
+                                <h2><a href="Rule/Rule.aspx">資料使用規範</a></h2>
+                            </li>
+                            <li class="DS">
+                                <h2><a href="DemonstrateService/DemonstrateService.aspx">應用服務展示</a></h2>
+                            </li>
+                            <li class="OG">
+                                <h2><a href="OpenDataGroup/OpenDataGroup.aspx">資料開放分組專區</a></h2>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div id="m_BannerDiv" class="banner" style="display: block;">
+
+                        <ul class="bxslider">
+<li style="display:none;"><a href="https://agridata.coa.gov.tw/" target="_blank"><img src="/Upload/Banner/20190212040918農委會-banner-1--OD.jpg"  style="width: 956px; height:182px"></a></li>
+<li style=""><a href="https://data.coa.gov.tw/" target="_blank"><img src="/Upload/Banner/20190212040950banner1.jpg"  style="width: 956px; height:182px"></a></li>
+<li style=""><a href="https://data.coa.gov.tw/" target="_blank"><img src="/Upload/Banner/20190212041020banner2.jpg"  style="width: 956px; height:182px"></a></li>
+<li style=""><a href="https://data.coa.gov.tw/" target="_blank"><img src="/Upload/Banner/20190212041037banner3.jpg"  style="width: 956px; height:182px"></a></li>
+</ul>
+
+                        
+                    </div>
+
+                    <div class="data">
+                        
+                        
+
+    <!--搜尋欄-->
+    <div class="search_box">
+        <p>網站搜尋</p>
+        <input name="ctl00$DefaultPageContent$m_Keyword" type="text" maxlength="50" id="DefaultPageContent_m_Keyword" />
+        <input type="hidden" name="currentPage" value="1" />
+
+        <a id="DefaultPageContent_m_Search" class="go_search" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$DefaultPageContent$m_Search&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">搜尋</a>
+        <br class="CLEAR" />
+    </div>
+
+    <div id="DefaultPageContent_nomapList" class="searchGo">
+        <h3 class="Depth">資料查詢</h3>
+        <h3 id="DefaultPageContent_m_h3new" class="New_in">
+            <a id="DefaultPageContent_hotClick" href="Default.aspx">最新上架</a>
+        </h3>
+        <h3 id="DefaultPageContent_m_h3data" class="Popular">
+            <a id="DefaultPageContent_dataClick" href="Default.aspx?Type=data">最多瀏覽</a>
+        </h3>
+        <h3 id="DefaultPageContent_m_h3hot" class="Hot">
+            <a id="DefaultPageContent_HyperLink1" href="Default.aspx?Type=hot">本月熱門</a>
+        </h3>
+        <br class="CLEAR" />
+    </div>
+    <div class="data_search_Function">
+        <div class="left_set">
+            <div id="DefaultPageContent_m_panelQuery">
+	
+                <div class="left_set">
+                    <input type="hidden" id="_m2" name="_m2" value="" />
+                    <ul>
+                        
+                        <li>
+                            <p>資料分類</p>
+                            <select name="ctl00$DefaultPageContent$m_Catalog" id="DefaultPageContent_m_Catalog">
+		<option selected="selected" value="-2">---請選擇---</option>
+		<option value="01">安全飲食</option>
+		<option value="02">地理圖資</option>
+		<option value="03">農業旅遊</option>
+		<option value="04">農糧</option>
+		<option value="05">漁業</option>
+		<option value="06">畜牧</option>
+		<option value="07">農民輔導</option>
+		<option value="08">農業金融</option>
+		<option value="09">動植物防疫檢疫</option>
+		<option value="10">水土保持</option>
+		<option value="11">農村再生</option>
+		<option value="12">造林生產</option>
+		<option value="13">森林經營</option>
+		<option value="14">農業科技</option>
+		<option value="15">主計</option>
+		<option value="16">農業法規</option>
+		<option value="17">農田水利</option>
+		<option value="18">其他</option>
+		<option value="19">農業氣象</option>
+
+	</select>
+                            <br class="CLEAR" />
+                        </li>
+                        <li>
+                            <p>提供單位</p>
+                            <select name="ctl00$DefaultPageContent$m_Organ" id="DefaultPageContent_m_Organ">
+		<option selected="selected" value="-2">---請選擇---</option>
+		<option value="09">企劃處</option>
+		<option value="08">畜牧處</option>
+		<option value="26">輔導處</option>
+		<option value="18">科技處</option>
+		<option value="33">農田水利署</option>
+		<option value="34">人事室</option>
+		<option value="05">會計室</option>
+		<option value="11">統計室</option>
+		<option value="10">法規會</option>
+		<option value="01">資訊中心</option>
+		<option value="04">農糧署</option>
+		<option value="06">漁業署</option>
+		<option value="13">動植物防疫檢疫局</option>
+		<option value="28">農業金融局</option>
+		<option value="03">林務局</option>
+		<option value="12">水土保持局</option>
+		<option value="14">農業試驗所</option>
+		<option value="16">林業試驗所</option>
+		<option value="25">水產試驗所</option>
+		<option value="24">畜產試驗所</option>
+		<option value="15">家畜衛生試驗所</option>
+		<option value="17">農業藥物毒物試驗所</option>
+		<option value="19">特有生物研究保育中心</option>
+		<option value="30">桃園區農業改良場</option>
+		<option value="20">苗栗區農業改良場</option>
+		<option value="32">台中區農業改良場</option>
+		<option value="21">台南區農業改良場</option>
+		<option value="23">高雄區農業改良場</option>
+		<option value="31">花蓮區農業改良場</option>
+		<option value="29">台東區農業改良場</option>
+		<option value="22">茶業改良場</option>
+		<option value="27">種苗改良繁殖場</option>
+		<option value="02">屏東農業生物技術園區籌備處</option>
+		<option value="07">全國漁會</option>
+		<option value="35">農業科技研究院</option>
+		<option value="38">中央畜產會</option>
+
+	</select>
+                            <br class="CLEAR" />
+                        </li>
+                        <li>
+                            <p>更新日期</p>
+                            <input name="ctl00$DefaultPageContent$m_StartDate" type="text" id="DefaultPageContent_m_StartDate" class="Wdate name" /><br />
+                            <br class="CLEAR" />
+                            <p class="to">～</p>
+                            <input name="ctl00$DefaultPageContent$m_EndDate" type="text" id="DefaultPageContent_m_EndDate" class="Wdate name" ControlToCompare="m_StartDate" /><br />
+                            
+                            <br class="CLEAR" />
+                        </li>
+                        <li>
+                            <p>資料名稱</p>
+                            <input name="ctl00$DefaultPageContent$m_Unit" type="text" id="DefaultPageContent_m_Unit" class="name" /><br />
+                            <br class="CLEAR" />
+                        </li>
+                        <li id="DefaultPageContent_nomap">
+                            <p>資料格式</p>
+                            <div class="thecheckbox">
+                                <span id="DefaultPageContent_m_Format"><span>
+                                        <p class="format">
+                                            <span class="checkbox" title="1         "><input id="DefaultPageContent_m_Format_m_FormatCheckBox_0" type="checkbox" name="ctl00$DefaultPageContent$m_Format$ctl00$m_FormatCheckBox" /><label for="DefaultPageContent_m_Format_m_FormatCheckBox_0">JSON</label></span>
+                                        </p>
+                                    </span><span>
+                                        <p class="format">
+                                            <span class="checkbox" title="2         "><input id="DefaultPageContent_m_Format_m_FormatCheckBox_1" type="checkbox" name="ctl00$DefaultPageContent$m_Format$ctl01$m_FormatCheckBox" /><label for="DefaultPageContent_m_Format_m_FormatCheckBox_1">CSV</label></span>
+                                        </p>
+                                    </span><br /><span>
+                                        <p class="format">
+                                            <span class="checkbox" title="3         "><input id="DefaultPageContent_m_Format_m_FormatCheckBox_2" type="checkbox" name="ctl00$DefaultPageContent$m_Format$ctl02$m_FormatCheckBox" /><label for="DefaultPageContent_m_Format_m_FormatCheckBox_2">Excel</label></span>
+                                        </p>
+                                    </span><span>
+                                        <p class="format">
+                                            <span class="checkbox" title="4         "><input id="DefaultPageContent_m_Format_m_FormatCheckBox_3" type="checkbox" name="ctl00$DefaultPageContent$m_Format$ctl03$m_FormatCheckBox" /><label for="DefaultPageContent_m_Format_m_FormatCheckBox_3">Word</label></span>
+                                        </p>
+                                    </span><br /><span>
+                                        <p class="format">
+                                            <span class="checkbox" title="5"><input id="DefaultPageContent_m_Format_m_FormatCheckBox_4" type="checkbox" name="ctl00$DefaultPageContent$m_Format$ctl04$m_FormatCheckBox" /><label for="DefaultPageContent_m_Format_m_FormatCheckBox_4">Xml</label></span>
+                                        </p>
+                                    </span><br /></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="Inquiry">
+                                <a id="DefaultPageContent_m_Query" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$DefaultPageContent$m_Query&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">查詢</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            
+</div>
+            <br class="CLEAR" />
+        </div>
+        <!--右邊結果-->
+        <div class="right_result_box">
+            <div class="resultbox" id="hotSearch">
+                <input type="hidden" name="totalPages" value="2" />
+                <input type="hidden" id="currentPage" name="currentPage" value="" />
+                <input type="hidden" id="maxRows" name="maxRows" value="10" />
+                <input type="hidden" id="_m" name="_m" value="" />
+
+                <div>
+	<table cellspacing="0" id="DefaultPageContent_m_ResultGrid">
+		<tr class="title_green2">
+			<th scope="col">資料名稱</th><th scope="col">資料說明</th><th scope="col">資料分類</th><th scope="col">資料格式</th><th scope="col">提供單位</th><th scope="col">更新日期</th><th scope="col">更新頻率</th>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_0" href="Query/ServiceDetail.aspx?id=172">本會開放平臺資料集清單</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    提供資料包含：資料名稱、上架日期、更新日期等欄位資料。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">其他</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_0">JSON<br/>CSV<br/>Xml</span>
+                            </td><td width="50">資訊中心</td><td class="line" width="50">2021/04/04</td><td width="50">即時</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_1" href="Query/ServiceDetail.aspx?id=B8DJ4eebHxVH">高病原性禽流感防疫處置</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    高病原性禽流感防疫處置(提供109年起家禽場確診高病原性禽流感案例及處理情形)，提供資料包含：ID(流水號)、countyname(縣市)、townname(鄉鎮)、sample_date(採樣日期)、judge_date(判定日期)、avian_species(飼養禽種)、AI_2_general(亞型(H5、N7))、AI_2_general(撲殺日期)、AI_2_general(撲殺數量)等欄位
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">動植物防疫檢疫</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_1">JSON<br/>CSV</span>
+                            </td><td width="50">動植物防疫檢疫局</td><td class="line" width="50">2021/04/04</td><td width="50">每日</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_2" href="Query/ServiceDetail.aspx?id=CsSgflHXsxxo">土砂災害事件影像</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    蒐集歷史影像照片，建立歷史影像照片應用程式介面(API)提供應用系統介接，提供之資料提供包括EventID(照片識別碼)、PhotoType(照片型態)、Lat(經度)、Lng(緯度)、County(縣市)、Town(鄉鎮)、Vill(村里)、 PhotoDate(照片拍攝時間)、PhotoAngle(拍攝角度)、Source(照片提供者)、Landmark(鄰近地標)、Description(照片描述)、Note(備註)、DisasterYear(災害年度)、DisasterName(災害名稱)、FileName(照片連結)
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">水土保持</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_2">JSON</span>
+                            </td><td width="50">水土保持局</td><td class="line" width="50">2021/04/04</td><td width="50">即時</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_3" href="Query/ServiceDetail.aspx?id=IFJomqVzyB0i">寵物遺失啟事</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    主要提供具辦理寵物登記且遺失申報之資料。資料提供包括：系統編號、晶片號碼、寵物名、寵物別、性別、品種、毛色、外觀、特徵、遺失時間、遺失地點、飼主姓名、連絡電話、EMail、圖檔位址等欄位資訊。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">畜牧</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_3">JSON<br/>CSV<br/>Xml</span>
+                            </td><td width="50">畜牧處</td><td class="line" width="50">2021/04/04</td><td width="50">每日</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_4" href="Query/ServiceDetail.aspx?id=n96dabxCmBsC">UAV空拍正射影像圖磚</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    蒐集UAV空拍影像，經地理定位與正射處理發布，建立UAV空拍正射影像圖磚提供應用系統介接。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">地理圖資</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_4">JSON</span>
+                            </td><td width="50">水土保持局</td><td class="line" width="50">2021/04/04</td><td width="50">即時</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_5" href="Query/ServiceDetail.aspx?id=p4fEGujAtvq0">土石流災害緊急應變小組開設資料</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    提供水土保持局土石流災害緊急應變小組開設資料下載，包含：、DisasterID(災害編碼)DisasterYear(災害年度)、DisasterType(災害種類)、OpenTime(開設時間)、CloseTime(結束時間)等欄位。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">水土保持</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_5">JSON</span>
+                            </td><td width="50">水土保持局</td><td class="line" width="50">2021/04/04</td><td width="50">即時</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_6" href="Query/ServiceDetail.aspx?id=tR9TIFWlvquB">臺灣豬證明標章商家資料</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    為推廣臺灣養豬產業，強化國產豬肉整體識別性行銷，特公開臺灣豬證明標章商家資料，資料內容包含有市招名稱(market_name)、販售場所地址(addr)、每日營業時間(business_week)、店家介紹(context)、標章有效期限(ValidDate)、經度(Lontitude)、緯度(Latitude)、標章編號(case_code)、資料最後更新時間(last_edited_date)、營業類別(type)、標章編號(badge_code)、營業開始時間(business_hours)、營業結束時間(business_hurs_end)等資訊。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">安全飲食</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_6">JSON<br/>CSV</span>
+                            </td><td width="50">畜牧處</td><td class="line" width="50">2021/04/04</td><td width="50">每小時</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_7" href="Query/ServiceDetail.aspx?id=026">毛豬交易行情</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    提供資料包含：交易日期、市場名稱、成交頭數頭數及價格等欄位資料。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">畜牧</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_7">JSON<br/>CSV<br/>Xml</span>
+                            </td><td width="50">畜牧處</td><td class="line" width="50">2021/04/03</td><td width="50">每日</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_8" href="Query/ServiceDetail.aspx?id=028">農民學院</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    提供資料包含：課程id、課程名稱、訓練別、課程日期、課程費用、報名時間、開課狀態、產業別、課程型態、名額、報名人數、課程內容、參加對象、資格條件、課程地點、聯絡資訊等欄位資料。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">農民輔導</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_8">JSON<br/>CSV<br/>Xml</span>
+                            </td><td width="50">輔導處</td><td class="line" width="50">2021/04/03</td><td width="50">每日</td>
+		</tr><tr class="line" align="center">
+			<td align="center" width="80">
+                                <a id="DefaultPageContent_m_ResultGrid_m_Link_9" href="Query/ServiceDetail.aspx?id=033">農村市集資料</a>
+                            </td><td class="line" align="left" valign="top">
+                                <div>
+                                    因屬單一年度調查收錄之資料，本項資料不再更新；原先提供資料包含：縣市、市集名稱、市集介紹、營業時間、電話、GPS、營業地址、交通資訊等欄位資料。
+                                </div>
+                                <div>
+                                    ＜本資料適用政府資料開放平臺資料使用規範＞
+                                </div>
+                            </td><td width="50">農業旅遊</td><td class="line" width="20">
+                                <span id="DefaultPageContent_m_ResultGrid_m_Format_9">JSON<br/>CSV<br/>Xml</span>
+                            </td><td width="50">水土保持局</td><td class="line" width="50">2021/04/03</td><td width="50">不更新</td>
+		</tr><tr>
+			<td colspan="7">
+    <div class="Pager" style="height:100%;">
+        共 <span id="DefaultPageContent_m_ResultGrid_TotalCount">1223</span> 筆資料，
+        第 <span id="DefaultPageContent_m_ResultGrid_PageIndex">1</span> /
+        <span id="DefaultPageContent_m_ResultGrid_TotalPage">123</span>
+        頁，每頁顯示
+        <select name="ctl00$DefaultPageContent$m_ResultGrid$ctl13$PageSizeList" id="DefaultPageContent_m_ResultGrid_PageSizeList">
+				<option value="5">5</option>
+				<option selected="selected" value="10">10</option>
+				<option value="30">30</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+
+			</select>
+        筆&nbsp;&nbsp;
+        
+        &nbsp;到第
+        <input name="ctl00$DefaultPageContent$m_ResultGrid$ctl13$PageIndexTextBox" type="text" id="DefaultPageContent_m_ResultGrid_PageIndexTextBox" title="請輸入頁碼" />
+        頁&nbsp;
+        <a id="DefaultPageContent_m_ResultGrid_NextPage" AutoPostBack="True" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$DefaultPageContent$m_ResultGrid$ctl13$NextPage&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><font color="White">下一頁</font></a>        
+    </div>    
+</td>
+		</tr>
+	</table>
+</div>
+            </div>
+        </div>
+        <div align="center">
+            <span id="DefaultPageContent_m_Msg" class="WarnMsgStyle" sid="m_Msg"></span>
+            <br />
+        </div>
+    </div>
+
+                        <br class="CLEAR" />
+                    </div>
+                </div>
+
+                <!--【資訊式頁尾】-->
+                <span id="m_FooterContent"><style type="text/css">.od-footer {
+            display: flex;
+            padding: 20px;
+        }
+
+            .od-footer .cell {
+                flex: 1;
+                line-height: 30px;
+            }
+
+                .od-footer .cell .title {
+                    font-weight: bold;
+                }
+
+        .collapse-area {
+            border-bottom: 1px solid #E7E6E0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .collapse-btn {
+            display: inline-block;
+            width: 96px;
+            height: 40px;
+            background-image: url('../images/f_btn_pagetop.png');
+            background-repeat: no-repeat;
+            position: relative;
+            top: 13px;
+            color: #343434;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+
+        .collapse-area span {
+            margin-top: 16px;
+            display: inline-block;
+        }
+
+        .content a {
+            text-decoration: none;
+            color: #000;
+        }
+</style>
+<div class="collapse-area">
+<div class="collapse-btn"><span>Close</span></div>
+</div>
+
+<div class="od-footer">
+<div class="cell">
+<div class="title">平台消息</div>
+
+<div class="content"><a href="/FAQ/FAQ.aspx">常見問答</a></div>
+
+<div class="content"><a href="/Rule/Rule.aspx">資料使用規範</a></div>
+
+<div class="content"><a href="/About/AboutUs.aspx">關於我們</a></div>
+
+<div class="content"><a href="/About/Privacy.aspx">隱私權保護宣告</a></div>
+
+<div class="content"><a href="/About/DataPolicy.aspx">資訊安全政策宣導</a></div>
+
+<div class="content"><a href="/About/Privacy.aspx">隱私權保護宣告</a></div>
+</div>
+
+<div class="cell">
+<div class="title">開放資料</div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=037">農產品交易行情</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=062">吉園圃資訊</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=039">漁產品交易行情</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=026">毛豬交易行情</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=056">家禽交易行情(白肉雞/雞蛋)</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=063">產銷履歷</a></div>
+</div>
+
+<div class="cell">
+<div class="title">地理資料集</div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=150">全台保安林分布概略圖</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=152">土壤管理組圖</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=157">自然保留區</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=159">土壤圖</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=153">臺灣現生天然植群圖</a></div>
+
+<div class="content"><a href="/Query/ServiceDetail.aspx?id=156">野生動物重要棲息環境</a></div>
+</div>
+
+<div class="cell">
+<div class="title">應用服務展示</div>
+
+<div class="content"><a href="/DemonstrateService/ViewDemo.aspx?id=4">台灣農產品交易行情</a></div>
+
+<div class="content"><a href="/DemonstrateService/ViewDemo.aspx?id=2">市場行情通</a></div>
+
+<div class="content"><a href="/DemonstrateService/ViewDemo.aspx?id=3">蔬果行情站</a></div>
+
+<div class="content"><a href="/DemonstrateService/ViewDemo.aspx?id=15">台灣當季食材</a></div>
+
+<div class="content"><a href="/DemonstrateService/ViewDemo.aspx?id=5">浪浪回家</a></div>
+
+<div class="content"><a href="/DemonstrateService/ViewDemo.aspx?id=56">動物領養-AnimalAdoption</a></div>
+</div>
+</div>
+<script>
+
+        $(".collapse-btn").on("click", function () {
+            var btnText = $(".collapse-btn span").text();
+            console.log(btnText)
+            if (btnText === "Open") {
+                $(".collapse-btn span").html("Close");
+            } else {
+                $(".collapse-btn span").html("Open");
+            }
+            $(".od-footer").slideToggle();
+
+        })
+    </script></span>   
+                                       
+                <!--【下方資訊】-->
+                <div class="statute" id="m_BottomButtonDiv">
+                    <ul class="bottombtn">
+                        <li class="information_security">
+                            <h3><a href="About/DataPolicy.aspx">資訊安全政策宣導</a></h3>
+                        </li>
+                        <li class="privacy">
+                            <h3><a href="About/Privacy.aspx">隱私權保護宣告</a></h3>
+                        </li>
+                        <li class="privacy">
+                            <h3><a href="About/AboutUs.aspx" id="A5">關於我們</a></h3>
+                        </li>
+                        <br class="CLEAR" />
+                    </ul>
+                </div>
+
+                <div class="BOTTON">
+                    <div class="contact">
+                        <p>
+                            台北市中正區南海路37號 │ 服務時間：AM9:00~PM5:30 │ 服務電話：(07)970-3898
+                                    <br />
+                            ※最佳瀏覽解析度為1024x768
+                        </p>
+                    </div>
+                    <div id="m_CCBoxDiv" class="cc_box">
+                        <p>
+                            除另有註明，網站之內容皆採用<br />
+                            <a target="_blank" href="https://data.gov.tw/?q=principle">政府資料開放平臺資料使用規範</a>
+                        </p>
+                    </div>
+                    <br class="CLEAR" />
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

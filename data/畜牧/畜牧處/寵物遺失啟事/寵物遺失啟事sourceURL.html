@@ -1,0 +1,1146 @@
+
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	寵物登記管理資訊網
+</title><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><link rel="shortcut icon" href="/favicon.ico" />
+    <!--   Core JS Files   -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="/js/plugins/moment.min.js"></script>
+    <!-- Material Kit CSS -->
+    <link href="/css/material-kit.css?v=2.0.5" rel="stylesheet" /><link href="/css/style.css" rel="stylesheet" />
+    <!-- DatePicker CSS -->
+    <link rel="stylesheet" href="/css/jquery-ui.css" />
+    <!-- basictable CSS -->
+    <link rel="stylesheet" href="/css/basictable.css" />
+    
+    
+    <!--Javascript Begin-->
+    
+    <script src="../js/common.js?v1"></script>
+    <script src="../js/enumFormat.js"></script>
+    <script src="../js/classFormat.js"></script>
+    <script src="../js/Utilities.js"></script>
+    <script src="../js/Business.js"></script>
+    <script src="../js/jquery.capslockstate.js"></script>
+    <script src="../js/jquery.basictable.min.js"></script>
+    <script src="../js/jquery-ui.js" type="text/javascript"></script>
+    <script src="../js/datepicker-zh-TW.js" type="text/javascript"></script>
+    <script src="../js/session.js"></script>
+    
+    <script src="../js/lockfun.js"></script>
+    <!--Javascript end-->
+    <!-- Google Tag Manager -->
+
+
+    <!-- Live Chat Widget powered by https://keyreply.com/chat/ -->
+    <!-- Advanced options: -->
+    <!-- data-align="left" -->
+    <!-- data-overlay="true" -->
+    
+
+    
+
+    
+
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                facebook: "1108170826032702", // Facebook page ID
+                line: "//lin.ee/yhLmCfV", // Line QR code URL
+                call_to_action: "", // Call to action
+                button_color: "#129BF4", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "line,facebook", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /GetButton.io widget -->
+
+
+
+
+    <script>
+        //(function (i, s, o, g, r, a, m) {
+        //    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        //        (i[r].q = i[r].q || []).push(arguments)
+        //    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        //        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        //})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        //ga('create', 'UA-30971483-1', 'auto');
+        //ga('send', 'pageview');
+
+        $(function () {
+            $("#inputValue").keyup(function (event) {
+                if (event.keyCode === 13) {
+                    $("#btnLogin").click();
+                }
+            });
+        });
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <style>
+        .LoadingImg {
+            position: fixed;
+            left: calc(50% - 32px);
+            top: 50%;
+            z-index: 99999;
+        }
+
+        .LoadingImg1 {
+            position: fixed;
+            left: calc(50% - 32px);
+            top: 50%;
+            z-index: 99999;
+        }
+
+        .ui-widget-header {
+            border: #5AB02E;
+            background: #5AB02E;
+        }
+
+
+        /*.search-zone {
+            background-color: #5AB02E;
+            text-align: center;
+            padding: 12px 0px;
+            /*display: none;*/
+        z-index: 9999; position: fixed !important; width: 100%; right: 0px; top: 75px;
+        }
+
+        .search-zone label,
+        .search-zone input,
+        .search-zone .keywords {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 1.125rem;
+            line-height: 1.125rem;
+            color: #fff;
+        }
+
+            .search-zone input[type="text"],
+            .mobile-search-zone input[type="text"] {
+                background-color: #fff;
+                margin: 5px;
+                padding: 5px;
+                border: none;
+                border-radius: 5px;
+                font-size: 1rem;
+                color: #000;
+            }
+
+        */
+    </style>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 430px;
+            width: auto;
+            margin: 0 auto;
+            position: relative;
+            align-items: center;
+        }
+
+        .imgbox canvas {
+            /*height: 430px;*/
+            /*max-width: 100%;
+            padding: 0;
+            border: 0;
+            /*display: flex;*/
+            align-items: center;
+            justify-content: center;
+        }
+
+        .GridTitle:hover > .GridTitle_hover {
+            display: block;
+            font-size: 9px;
+            color: gray;
+            border-radius: 6px;
+            padding: .5em;
+            background-color: #FFF;
+            z-index: 1;
+            position: absolute;
+            box-shadow: 0 0px 24px 2px rgba(0, 0, 0, 0), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+
+        .GridTitle > .GridTitle_hover {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="./" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg9kFgJmD2QWAgIDD2QWAgIBDxYCHgRUZXh0BZ4fIDxsaSBjbGFzcz0nbmF2LWl0ZW0gZHJvcGRvd24nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPScjJyBjbGFzcz0nbmF2LWxpbmsgZHJvcGRvd24tdG9nZ2xlJyBkYXRhLXRvZ2dsZT0nZHJvcGRvd24nIGlkPSduYXZiYXJEcm9wZG93bjEnPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSdtYXRlcmlhbC1pY29ucyc+cnNzX2ZlZWQ8L2k+IOacgOaWsOa2iOaBrw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+PHVsIGNsYXNzPSdkcm9wZG93bi1tZW51JyBhcmlhLWxhYmVsbGVkYnk9J25hdmJhckRyb3Bkb3duMSc+IDxhIGhyZWYgPSAnL3dlYi9PMS5hc3B4JyBjbGFzcz0nZHJvcGRvd24taXRlbSc+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSdtYXRlcmlhbC1pY29ucyc+YXJyb3dfcmlnaHQ8L2k+IOacgOaWsOa2iOaBrw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPjwvdWw+IDwvbGk+IDxsaSBjbGFzcz0nbmF2LWl0ZW0gZHJvcGRvd24nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPScjJyBjbGFzcz0nbmF2LWxpbmsgZHJvcGRvd24tdG9nZ2xlJyBkYXRhLXRvZ2dsZT0nZHJvcGRvd24nIGlkPSduYXZiYXJEcm9wZG93bjEnPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSdtYXRlcmlhbC1pY29ucyc+cGV0czwvaT4g5a+154mp5aSn5bCP5LqLDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT48dWwgY2xhc3M9J2Ryb3Bkb3duLW1lbnUnIGFyaWEtbGFiZWxsZWRieT0nbmF2YmFyRHJvcGRvd24xJz4gPGEgaHJlZiA9ICcvd2ViL28yMDEuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDlr7Xnmbvos4fmlpnmn6XoqaINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4gPGEgaHJlZiA9ICcvV2ViL08yMDIuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDntrLot6/mlrDnlLPovqYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4gPGEgaHJlZiA9ICcvV2ViL08yMDMuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDpgbrlpLHllZ/kuosNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4gPGEgaHJlZiA9ICcvV2ViL08yMDQuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDlsIvnjbLllZ/kuosNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4gPGEgaHJlZiA9ICcvV2ViL08yMDUuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDlr7XniankuI3opovkuoYo6YG65aSx55Sz5aCxKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPiA8YSBocmVmID0gJy9XZWIvTzIwNi5hc3B4JyBjbGFzcz0nZHJvcGRvd24taXRlbSc+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzPSdtYXRlcmlhbC1pY29ucyc+YXJyb3dfcmlnaHQ8L2k+IOWvteeJqeWbnuS+huS6hijpoJjlm57oqLvpircpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+PC91bD4gPC9saT4gPGxpIGNsYXNzPSduYXYtaXRlbSBkcm9wZG93bic+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9JyMnIGNsYXNzPSduYXYtbGluayBkcm9wZG93bi10b2dnbGUnIGRhdGEtdG9nZ2xlPSdkcm9wZG93bicgaWQ9J25hdmJhckRyb3Bkb3duMSc+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9J21hdGVyaWFsLWljb25zJz5uZXdfcmVsZWFzZXM8L2k+IOWFrOmWi+izh+ioig0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+PHVsIGNsYXNzPSdkcm9wZG93bi1tZW51JyBhcmlhLWxhYmVsbGVkYnk9J25hdmJhckRyb3Bkb3duMSc+IDxhIGhyZWYgPSAnL1dlYi9PMzAxLmFzcHgnIGNsYXNzPSdkcm9wZG93bi1pdGVtJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9J21hdGVyaWFsLWljb25zJz5hcnJvd19yaWdodDwvaT4g55m76KiY5qmf5qeL5p+l6KmiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+IDxhIGhyZWYgPSAnL1dlYi9PMzAyLmFzcHgnIGNsYXNzPSdkcm9wZG93bi1pdGVtJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9J21hdGVyaWFsLWljb25zJz5hcnJvd19yaWdodDwvaT4g57ij5biC55m76KiY54uA5rOBDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+IDxhIGhyZWYgPSAnL1dlYi9GQVEuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDlr7XniannmbvoqJhGQVENCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4gPGEgaHJlZiA9ICcvUGV0c01hcC9QZXRzTWFwLmFzcHgnIGNsYXNzPSdkcm9wZG93bi1pdGVtJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9J21hdGVyaWFsLWljb25zJz5hcnJvd19yaWdodDwvaT4g5q245oi257Wx6KiIDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2E+IDxhIGhyZWYgPSAnL1dhbmRlcmluZy9IZWF0TWFwVjEuYXNweCcgY2xhc3M9J2Ryb3Bkb3duLWl0ZW0nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPmFycm93X3JpZ2h0PC9pPiDpgYrolanniqznhrHljYDlnJYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT48L3VsPiA8L2xpPiA8bGkgY2xhc3M9J25hdi1pdGVtIGRyb3Bkb3duJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0nIycgY2xhc3M9J25hdi1saW5rIGRyb3Bkb3duLXRvZ2dsZScgZGF0YS10b2dnbGU9J2Ryb3Bkb3duJyBpZD0nbmF2YmFyRHJvcGRvd24xJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aSBjbGFzcz0nbWF0ZXJpYWwtaWNvbnMnPnB1YmxpYzwvaT4g55u46Zec57ay56uZ6YCj57WQDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT48dWwgY2xhc3M9J2Ryb3Bkb3duLW1lbnUnIGFyaWEtbGFiZWxsZWRieT0nbmF2YmFyRHJvcGRvd24xJz48bGk+PGEgaHJlZiA9J2h0dHBzOi8vYW5pbWFsLmNvYS5nb3YudHcvJyBjbGFzcz0nZHJvcGRvd24taXRlbScgIHRhcmdldD0nX2Jsb2NrJz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3M9J21hdGVyaWFsLWljb25zJz48L2k+IOWLleS/neizh+ioiue2sg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPjwvbGk+PC91bD4gPC9saT5kZBzjr+dsFbQ1dWlaXRsBhwesuNDiWMzIBpz/jXkXjjIo" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+
+        <nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent" color-on-scroll="100">
+            <div class="container">
+                <div class="navbar-translate navbar-logo">
+                    <a class="navbar-brand" href="../index.aspx">寵物登記管理資訊網</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                         <li class='nav-item dropdown'>
+                                            <a href='#' class='nav-link dropdown-toggle' data-toggle='dropdown' id='navbarDropdown1'>
+                                              <i class='material-icons'>rss_feed</i> 最新消息
+                                            </a><ul class='dropdown-menu' aria-labelledby='navbarDropdown1'> <a href = '/web/O1.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 最新消息
+                                    </a></ul> </li> <li class='nav-item dropdown'>
+                                            <a href='#' class='nav-link dropdown-toggle' data-toggle='dropdown' id='navbarDropdown1'>
+                                              <i class='material-icons'>pets</i> 寵物大小事
+                                            </a><ul class='dropdown-menu' aria-labelledby='navbarDropdown1'> <a href = '/web/o201.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 寵登資料查詢
+                                    </a> <a href = '/Web/O202.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 網路新申辦
+                                    </a> <a href = '/Web/O203.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 遺失啟事
+                                    </a> <a href = '/Web/O204.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 尋獲啟事
+                                    </a> <a href = '/Web/O205.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 寵物不見了(遺失申報)
+                                    </a> <a href = '/Web/O206.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 寵物回來了(領回註銷)
+                                    </a></ul> </li> <li class='nav-item dropdown'>
+                                            <a href='#' class='nav-link dropdown-toggle' data-toggle='dropdown' id='navbarDropdown1'>
+                                              <i class='material-icons'>new_releases</i> 公開資訊
+                                            </a><ul class='dropdown-menu' aria-labelledby='navbarDropdown1'> <a href = '/Web/O301.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 登記機構查詢
+                                    </a> <a href = '/Web/O302.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 縣市登記狀況
+                                    </a> <a href = '/Web/FAQ.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 寵物登記FAQ
+                                    </a> <a href = '/PetsMap/PetsMap.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 歸戶統計
+                                    </a> <a href = '/Wandering/HeatMapV1.aspx' class='dropdown-item'>
+                                <i class='material-icons'>arrow_right</i> 遊蕩犬熱區圖
+                                    </a></ul> </li> <li class='nav-item dropdown'>
+                                            <a href='#' class='nav-link dropdown-toggle' data-toggle='dropdown' id='navbarDropdown1'>
+                                              <i class='material-icons'>public</i> 相關網站連結
+                                            </a><ul class='dropdown-menu' aria-labelledby='navbarDropdown1'><li><a href ='https://animal.coa.gov.tw/' class='dropdown-item'  target='_block'>
+                                <i class='material-icons'></i> 動保資訊網
+                                    </a></li></ul> </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#LoginModal">
+                                <i class="material-icons">settings</i> 登入後台
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../PDF/00寵物管理前台操作手冊.pdf" target="_blank" class="nav-link">
+                                <i class="material-icons">attachment</i> 操作手冊
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+
+        
+    <script src="js/banner.js"></script>
+    <script>
+        var getlocationGPS = false;
+        var ShowErrCode = "";
+        const availableTags = [];
+        var wdth;
+        $(document).ready(function () {
+            getGPS();
+            BindData();
+            GetMeum();
+            $(window).resize(function () {
+                wdth = ($(window).width() >= 1350 ? 1350 : $(window).width());
+                myCanvas();
+            });
+
+        });
+
+        function getGPS() {
+            //防呆
+            if (!getlocationGPS) {
+                if (window.navigator.geolocation) {
+                    window.navigator.geolocation.getCurrentPosition(success, error,
+                        {
+                            enableHighAccuracy: true, //取得高精確度的位置資訊
+                            maximumAge: 0//馬上取得位置資訊
+                        });
+                } else {
+                    alert("瀏覽器不支援Html5的Geolocation API");
+                }
+                getlocationGPS = true;
+            }
+        }
+
+        function success(position) {
+            //alert("緯度：" + position.coords.latitude+",經度："+position.coords.longitude);
+            //$('#hidlatitude').val(position.coords.latitude);
+            //$('#hidlongitude').val(position.coords.longitude);
+            localStorage.setItem("Getlatitude", position.coords.latitude);
+            localStorage.setItem("Getlongitude", position.coords.longitude);
+            //alert(document.getElementById("hidlongitude").vlaue);
+        }
+
+        function error(e) {
+            //alert(e.message);
+            switch (e.code) {
+                case e.PERMISSION_DENIED:
+                    ShowErrCode = "請先允許網站取得您的最近位置資訊，以計算離您目前位置最近的登記站。";
+                    console.log("User denied the request for Geolocation.");
+                    break;
+                case e.POSITION_UNAVAILABLE:
+                    ShowErrCode = "無法取得您的位置資訊。";
+                    console.log("Location information is unavailable.");
+                    break;
+                case e.TIMEOUT:
+                    ShowErrCode = "已逾時。";
+                    console.log("The request to get user location timed out.");
+                    break;
+                case e.UNKNOWN_ERROR:
+                    ShowErrCode = "出現未知錯誤。";
+                    console.log("An unknown error occurred.");
+                    break;
+            }
+        }
+
+        function GetLose() {
+            var apiUrl = "../handler/GetData.ashx";
+            var apiParam = ToUrlParam({ Method: "TopLose" });
+            var isAsync = true;
+            WebAPI.Get(apiUrl, apiParam, isAsync, function (jsons) {
+                var dal = new cs.PostResult();
+                dal.ini(jsons);
+                if (dal.Success) {
+                    var json = JSON.parse(dal.Message);
+                    var DivStr = "";
+                    for (var key in json) {
+                        var TopLose = new cs.TopLose();
+                        TopLose.ini(json[key]);
+                        DivStr += //"<div class='col-sm-3'><div class='img' onclick=ShowList('" + TopLose.CHIPID + "')> "
+                            "<div class='col-sm-3'><div class='img')> "
+                            + "<img src='../XMLRequest/PET_PIC.ashx?File_No=" + TopLose.PICNum + "' alt='' class='img-fluid'>"
+                            + "<div class='overlay'><div class='text' >晶片號碼：" + TopLose.CHIPID + "</div></div></div>"
+                            + (TopLose.L_BREEDNAME != null ? "<h3>" + $.trim(TopLose.L_BREEDNAME) + "</h3>" : "")
+                            + (TopLose.HAIRNAME != null ? "<p>" + TopLose.HAIRNAME + TopLose.HAIRCOLOR + "</p>" : "")
+                            + (TopLose.L_FEATURE != null ? "<p>" + TopLose.L_FEATURE + "</p>" : "")
+                            + (TopLose.L_TIME != null ? "<p>" + TopLose.L_TIME + "</p>" : "")
+                            + (TopLose.L_PLACE != null ? "<p>" + TopLose.L_PLACE + "</p>" : "")
+                            + "</div> ";
+                    }
+                    $('#rowLose').html(DivStr);
+                    //document.getElementById('row' + i).innerHTML += " <div class='col-sm-3'><div class='img' onclick=ShowList('" + arrayData[q + k][1] + "')> <img src='../XMLRequest/PET_PIC.ashx?File_No=" + arrayData[q + k][0] + "' alt='' class='img-fluid'> <div class='overlay'><div class='text' >晶片號碼：" + arrayData[q + k][1] + "</div></div></div><h3>" + arrayData[q + k][2] + "</h3><p>" + arrayData[q + k][3] + arrayData[q + k][4] + "</p><p>" + arrayData[q + k][5] + "</p <p>" + arrayData[q + k][6] + "</p><p>" + arrayData[q + k][7] + "</p></div> ";
+                }
+                else {
+                    alert('遺失資料取得失敗 ');// + (dal.ErrorMessage != "" ? dal.ErrorMessage : dal.Message));
+                    //console.log(dal.Message);
+                }
+            }, function () { }, function () { });
+        }
+
+        function GetFind() {
+            var apiUrl = "../handler/GetData.ashx";
+            var apiParam = ToUrlParam({ Method: "TopFind" });
+            var isAsync = true;
+            WebAPI.Get(apiUrl, apiParam, isAsync, function (jsons) {
+                var dal = new cs.PostResult();
+                dal.ini(jsons);
+                if (dal.Success) {
+                    var json = JSON.parse(dal.Message);
+                    var DivStr = "";
+                    for (var key in json) {
+                        var TopFind = new cs.TopFind();
+                        TopFind.ini(json[key]);
+                        DivStr += //"<div class='col-sm-3'><div class='img' onclick=ShowList('" + TopFind.CHIPID + "')>"
+                            "<div class='col-sm-3'><div class='img'>"
+                            + "<img src='../XMLRequest/PET_PIC.ashx?File_No=" + TopFind.PICNum + "' alt='' class='img-fluid'>"
+                            + "<div class='overlay'><div class='text'>晶片號碼：" + TopFind.CHIPID + "</div></div></div>"
+                            + (TopFind.TWPetNAME != null ? "<h3>" +  $.trim(TopFind.TWPetNAME) + "</h3>" : "")
+                            + (TopFind.F_TWPetSEX != null ? "<p>" +  $.trim(TopFind.F_TWPetSEX) + "</p>" : "")
+                            + "<p>" +  $.trim(TopFind.OTHERSTATUS) + "</p>"
+                            + "<p>" +  $.trim(TopFind.STAY_PLACE) + "</p>"
+                            + "<p>" + $.trim(TopFind.STAY_TEL) + "</p>"
+                            + "<p>" + TopFind.SYSDATE + "</p></div> ";
+                        //console.log(DivStr);
+                    }
+                    $('#rowFind').html(DivStr);
+                }
+                else {
+                    alert('尋獲資料取得失敗');// + (dal.ErrorMessage != "" ? dal.ErrorMessage : dal.Message));
+                }
+            }, function () { }, function () { });
+        }
+
+        function GetStation() {
+            if (ShowErrCode != '') {
+                alert(ShowErrCode);
+            }
+            else {
+                var apiUrl = "../handler/PostData.ashx";
+                var apiParam = {
+                    Method: 'TopStation',
+                    latitude: localStorage.getItem('Getlatitude'),
+                    longitude: localStorage.getItem('Getlongitude')
+                };
+                var isAsync = true;
+                WebAPI.Post(apiUrl, apiParam, isAsync, function (jsons) {
+                    var obj = JSON.parse(jsons);
+                    var dal = new cs.PostResult();
+                    dal.ini(obj);
+                    if (dal.Success) {
+                        var json = JSON.parse(dal.Message);
+                        var DivStr = "";
+                        for (var key in json) {
+                            var TopStation = new cs.TopStation();
+                            TopStation.ini(json[key]);
+                            DivStr +=
+                                "<div class='col-sm-3 column'>"
+                                + "<a href=\"https://www.google.com.tw/maps/place/" + TopStation.SADDR + "\" target=\"_blank\"><i class='material-icons'>room</i></a>"
+                                + (TopStation.UserName != null ? "<h3>" + TopStation.UserName + "</h3>" : "")
+                                + (TopStation.CT != null ? "<p>" + TopStation.CT + "</p>" : "")
+                                + (TopStation.SADDR != null ? "<p>" + TopStation.SADDR + "</p>" : "")
+                                + (TopStation.TEL != null ? "<p>" + TopStation.TEL + "</p>" : "")
+                                + (TopStation.distance != null ? "<p>" + formatFloat(TopStation.distance, 2) + "(km)</p>" : "")
+                                + "</div>";
+                        }
+                        $('#rowStation').html(DivStr);
+                    }
+                    else {
+                        alert('登記站資訊取得失敗 ');// + (dal.ErrorMessage != "" ? dal.ErrorMessage : dal.Message));
+                        //console.log(dal.Message);
+                    }
+                }, function () { }, function () { });
+            }
+        }
+
+        function BindData() {
+            $('.LoadingImg').show();
+            setTimeout(function () {
+                GetLose();
+                GetFind();
+                GetStation();
+                $('.LoadingImg').hide();
+            }, 100);
+        }
+
+        function GotoSearchPage(querystring) {
+            if (querystring.trim() != "") {
+                location.href = '/Web/SearchPage.aspx?querystring=' + querystring;
+            } else {
+                alert("請輸入查詢條件！");
+            }
+        }
+
+        function GetMeum() {
+            $.ajax({
+                type: "POST",
+                url: "../Handler/GetSitemap.ashx",
+                data: {
+                    Method: "Sitemap",
+                    Param: JSON.stringify({
+                        action: "GetMeumData",
+                    }),
+                },
+                cache: false, async: false,
+                success: function (Result) {
+                    var obj = JSON.parse(Result);
+                    var dal = new cs.PostResult();
+                    dal.ini(obj);
+                    if (dal.Success) {
+                        var dalMenu = new cs.MenuList();
+                        var Menujson = JSON.parse(obj.Message);
+                        for (var key in Menujson) {
+                            dalMenu.ini(Menujson[key]);
+                            if (dalMenu.MenuID != null) {
+                                availableTags.push(dalMenu.MenuName);
+                            }
+                        }
+                        $("#txt_query").autocomplete({
+                            source: availableTags
+                        });
+                    }
+                },
+                error: function () {
+                    console.log('Request Error.');
+                }
+            });
+        }
+
+        cs.MenuList = function () {
+            this.MenuID = "";
+            this.MenuName = "";
+            this.Url = "";
+            this.Icon = "";
+            this.SubCount = "";
+        };
+
+        cs.MenuList.prototype.ini = function (objData) {
+            cs.set(this, objData);
+        };
+
+    </script>
+
+    <div class="page-header header-filter" data-parallax="true" style="background-image: url('img/banner.jpg')"></div>
+    <div class="main main-raised">
+        <div class="container">
+            
+
+            <section class="pet-group wrapper">
+                <div class="major-title">
+                    <img src="img/title-line-left.png"><h2>全站搜尋</h2>
+                    <img src="img/title-line-right.png">
+                </div>
+                <div class="btn-wrap">
+                    <input name="txt_query" type="text" maxlength="30" id="txt_query" accesskey="s" class="ui-autocomplete-input" placeholder="請輸入關鍵字" autocomplete="off">
+                    
+                    <a href="javascript:GotoSearchPage($('#txt_query').val());" class="btn btn-round btn-success btn-sm">搜尋</a>
+                    <a href="/Web/Sitemap.aspx" class="btn btn-round btn-success btn-sm">網站地圖</a>
+                </div>
+            </section>
+    <div class="banner box">
+        <div class="imgbox">
+                        <canvas width="1350" height="430"></canvas>
+                        <canvas width="1350" height="430"></canvas>
+                        <canvas width="1350" height="430"></canvas>
+                        <canvas width="1350" height="430"></canvas>
+                        <canvas width="1350" height="430"></canvas>
+        </div>
+    </div>
+
+            <section class="petsmap wrapper">
+                
+            </section>
+
+            <section class="petsmap wrapper">
+                <div class="one-img-text">
+                    <div class="one-half column-block background">
+                    </div>
+                    <div class="one-half column-block content">
+                        <h3>寵登歸戶統計</h3>
+                        <p>提供查詢全國、各縣（市）或鄉鎮（市）區已登記家戶飼養寵物統計資料。</p>
+                        <a href="petsmap/petsmap.aspx" class="btn btn-round btn-success">查詢地圖 <i class="material-icons">search</i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="pet-group wrapper">
+                <div class="major-title">
+                    <img src="img/title-line-left.png"><h2>遺失啟事</h2>
+                    <img src="img/title-line-right.png"><p>尋獲及領回寵物的飼主，請至登記站辦理尋獲及領回的登記，否則會影響您的權益唷！</p>
+                </div>
+                <div class="row" id="rowLose"></div>
+                <div class="btn-wrap"><a href="/Web/O203.aspx" class="btn btn-round btn-success">看更多</a></div>
+            </section>
+            
+            <section class="pet-group wrapper">
+                <div class="major-title">
+                    <img src="img/title-line-left.png"><h2>尋獲啟事</h2>
+                    <img src="img/title-line-right.png">
+                </div>
+                <div class="row" id="rowFind"></div>
+                <div class="btn-wrap"><a href="Web/O204.aspx" class="btn btn-round btn-success">看更多</a></div>
+            </section>
+
+            <section class="text-line-list wrapper">
+                <div class="major-title">
+                    <img src="img/title-line-left.png"><h2>登記機構</h2>
+                    <img src="img/title-line-right.png">
+                </div>
+                <div class="row" id="rowStation"></div>
+                <div class="btn-wrap">
+                    <a href="Web/O301.aspx" class="btn btn-round btn-success">看更多</a>
+                </div>
+                
+            </section>
+        </div>
+        <!-- ./container-->
+    </div>
+            <div class="imgs" style="display: none;"></div>
+            <div class="textsT" style="display: none;"><title></title></div>
+            <div class="textsC" style="display: none;">
+                <content></content>
+            </div>
+    <div class="modal fade" id="ShowAlertModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog loginbox" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="loginbox-header">
+                        <h3><span id="ShowAlert"></span></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <div class="form-label">如果您的瀏覽器沒有自動轉頁，請點擊此
+                                    <font style="font-weight: bold;"><a href="/Admin/LogonIndex.aspx">連結</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.design').each(function () {
+                var design = $(this).attr('data-design');
+                var id = $(this).attr('id');
+                var canvas = $(this).find("canvas")[0];
+                var ctx = canvas.getContext("2d");
+                var img = new Image;
+                canvas.width = 1000;
+                canvas.height = 400;
+                img.src = design;
+                img.onload = function () {
+                    ctx.drawImage(this, 0, 0);
+                };
+                
+            });
+            $('.imgbox').click(function () {
+                //alert('12213');
+            })
+        });
+        function myCanvas() {
+            $('.imgbox').each(function () {
+                var wdth = ($(window).width() >= 1350 ? 1350 : $(window).width());
+                var design = $('.imgs').find("img");
+                var title = $('.textsT').find("Title");
+                var content = $('.textsC').find("Content");
+                var id = $(this).attr('id');
+                var drowX = wdth - 1350
+                for (i = 0; i < design.length ; i++) {
+                    let imgWgap = 1350 - design[i].naturalWidth;
+                    let imgHgap = 430 - design[i].naturalHeight;
+                    let canvas = $(this).find("canvas")[i];
+                    let ctx = canvas.getContext("2d");
+                    ctx.clearRect(0, 0, 1350, 430);//清空畫布
+                    ctx.drawImage(design[i], (drowX >= 0 ? 0 + (imgWgap / 2) : (drowX / 2) + (imgWgap / 2)), imgHgap / 2);
+                }
+                for (i = 0; i < title.length; i++) {
+                    let canvas = $(this).find("canvas")[(i + design.length)];
+                    let ctx = canvas.getContext("2d");
+                    ctx.clearRect(0, 0, 1350, 430);//清空畫布
+
+                    var titlewidth = (wdth * 0.7);
+                    var FontRatio = (1 / (500 / wdth)) * 100;
+                    ctx.font = "220% 微軟正黑體";
+                    var startX = (wdth / 2);
+                    var Contentwidth = (wdth - 200);
+                    ctx.wrapText(title[i].text, startX - (titlewidth / 2), 100, titlewidth);
+                    ctx.font = "150% 標楷體";
+                    ctx.wrapText(content[i].textContent, startX - (Contentwidth / 2), 180, Contentwidth, 32);
+                    // Create gradient
+                    var grd = ctx.createLinearGradient(0, 0, 0, 150);
+                    grd.addColorStop(0, "red");
+                    grd.addColorStop(1, "black");
+
+                    // Fill with gradient
+                    ctx.fillStyle = grd;
+                    //ctx.fillRect(10, 10, 150, 80);
+
+                }
+
+            });
+        }
+
+        let imagedata = getData("F213", "F213", "GetImage");
+        if ($.trim(imagedata) != "") {
+            let jsonimagedata = JSON.parse(imagedata);
+            $('.imgbox canvas').remove();
+            $('.imgs img').remove();
+            $('.textsT Title').remove();
+            $('.textsC Content').remove();
+            var dal = new cs.F213;
+            for (var key in jsonimagedata) {
+                dal.ini(jsonimagedata[key]);
+                if (dal.SD <= getToday() && dal.ED >= getToday()) {
+                    if ($.trim(dal.File_Horizontal) != "") {
+                        $('.banner .imgbox').append('<canvas width="1350" height="430"></canvas>');
+                        $('.imgs ').append('<img src="../img/' + dal.File_Horizontal + '" />');
+                    }
+                    if ($.trim(dal.BBTitle) != "") {
+                        $('.banner .imgbox').append('<canvas width="1350" height="430"></canvas>');
+                        $('.textsT ').append('<Title>' + dal.BBTitle + '</Title>');
+                    }
+                    if ($.trim(dal.BBContent) != "") {
+                        $('.textsC ').append('<Content>' + dal.BBContent + '</Content>');
+                    }
+                }
+            }
+        }
+
+        BillboardSet = getData("F213", "F213", "BindBillboardSet");
+        let jsonData = JSON.parse(BillboardSet);
+        let StyleEmable = false;
+        if ($.trim(jsonData) != "") {
+            for (i = 0; i < jsonData.length + 1; i++) {
+                let obj = new cs.F213;
+                obj.ini(jsonData[i]);
+                if (!StyleEmable) {
+                    if (obj.Status) {
+                        //$(".banner").show();
+                        $(".banner").banner($(".banner").find("canvas"), {
+                            but:obj.Buttons ,    // 左右按钮默认为true
+                            butahidden: obj.ButtonHidden,    // 是否自动隐藏左右按钮默认隐藏
+                            list:obj.ListButton ,  // 导航按钮
+                            index: (obj.StartIndex-1),    //初始从第几个开始默认为0
+                            autoPlay: obj.AutoPlay ,  // 自动轮播默认为true
+                            delayTiem: obj.DelayTime,  // 延迟时间默认为2000
+                            moveTime: obj.MoveTime    // 远动时间默认为300
+                        });
+                        StyleEmable = true;
+                    }
+                    else {
+                        //$(".banner").hide();
+                    }
+                }
+            }
+        }
+        if (StyleEmable) {
+            setTimeout(function () {
+                myCanvas();
+            }, 1000);
+            
+        }
+
+    </script>
+
+        <!-- Classic Modal -->
+        <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog loginbox" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="material-icons">clear</i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loginbox-header">
+                            <h3>登入後台</h3>
+                        </div>
+                        <div class="loginbox-body">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="material-icons">account_circle</i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" id="txtUser" value="" placeholder="帳號" maxlength="10">
+                                </div>
+                            </div>
+                            <!--/.form-group-->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="material-icons">lock</i>
+                                        </span>
+                                    </div>
+                                    <input type="password" class="form-control" value="" id="txtUserPWD" placeholder="密碼" maxlength="20" />
+
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="form-group">
+                                <span class="input-group-text">
+                                    <i class="material-icons">warning</i>
+                                    驗證碼:<input type="text" name="checknum" id="inputValue" style="width: 80px;" maxlength="6" />
+                                    <img src="/handler/DynamicVerification.ashx" id="vimg" onclick="changeCode()" height="40" width="160" title="看不清楚??  點擊刷新驗證碼" />
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <span class="input-group-text">
+                                    <span id="reciprocal"></span>
+                                </span>
+                            </div>
+                            <!--/.form-group-->
+                        </div>
+                        <!--/.loginbox-body -->
+
+                    </div>
+                    <!--/.modal-body -->
+                    <div class="modal-footer" style="justify-content: center;">
+                        <input id="btnLogin" class="btn btn-round btn-success" type="button" value="登入" />
+                        <input id="btnForgetPW" class="btn btn-round btn-warning" type="button" data-toggle="modal" data-target="#ForgetPWModal" value="重設密碼" />
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ForgetPWModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog loginbox" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="material-icons">clear</i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loginbox-header">
+                            <h3>重設密碼</h3>
+                        </div>
+                        <div class="loginbox-body">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="material-icons">account_circle</i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" id="logUserID" value="" placeholder="帳號">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="material-icons">email</i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control" value="" id="logEmail" placeholder="電子信箱" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer" style="justify-content: center;">
+                        <a href="#" id="btnSendMail" class="btn btn-round btn-success">送出驗證信</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--  End Modal -->
+        <footer class="footer footer-default">
+            <div class="container clearfix">
+                <div class="float-left">
+                    <div class="qrcode">
+                        <img src="/img/qr_ioi.png" alt="">
+                    </div>
+                    <ul>
+                        <li>系統諮詢時間：星期一至星期五 09:00至12:30、13:30至18:00 </li>
+                        <li>系統服務專線：02-23831698</li>
+                        <li>系統線上客服： 
+                            <a style="color: white" href="https://lin.ee/yhLmCfV" target="_blank">@Line</a>
+                        </li>
+                        <li>瀏覽人數：<span id="lblcount"></span></li>
+                    </ul>
+                </div>
+                <!--./float-left-->
+
+                <div class="float-right">
+                    <ul>
+                        <li><span>輔導單位</span><a href="https://www.coa.gov.tw/" target="_blank"><img src="/img/logo_coa.png" alt="行政院農業委員會"></a></li>
+                        <li><span>執行單位</span><a href="http://enrf.com.tw/" target="_blank"><img src="/img/logo_cropped.png" alt="豐田生技資訊股份有限公司"></a></li>
+                    </ul>
+                </div>
+                <!--./float-right-->
+            </div>
+
+            <div class="container-fluid copyright">
+                行政院農委會 版權所有 2019 COA All Righits Reserved.<span id="CurrentPosition" style="color: red;"></span>
+            </div>
+        </footer>
+        <div class="LoadingImg" style="display: none;">
+            <img src="/images/loader.gif" />
+        </div>
+        <div class="LoadingImg1" style="display: none;">
+            <img src="/images/Spinner-1s-200px.gif" />
+        </div>
+        <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+        <!--  <script src="/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script> -->
+        <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+        <script src="/js/plugins/nouislider.min.js" type="text/javascript"></script>
+        <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+        <script src="/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+        <script>
+            $(document).ready(function () {
+                //carousel
+                $('.carousel').carousel({
+                    interval: false,
+                    wrap: false
+                })
+
+                setTimeout(function () {
+                    //$('.wh-widget-send-button-get-button').remove();
+                }, 3000);
+
+                var ReciprocalID = setInterval(function () { Reciprocal() }, 1000);
+                count();
+                checkbrowser();
+                $(".datetimepicker").datepicker({
+                    showButtonPanel: true,
+                    changeMonth: true,
+                    changeYear: true,
+                    closeText: '取消',
+                    onClose: function (dateText, inst) {
+                        if ($(window.event.srcElement).hasClass('ui-datepicker-close')) {
+                            $(this).val('');
+                        }
+                    }
+                });
+
+
+                $('#txtUser').focusout(function () {
+                    if ($.trim($(this).val()).length > 0) {
+                        if ($('#lblDBChkUid').length > 0) $('#lblDBChkUid').remove();
+                        $('#btnLogin').removeAttr("disabled");
+                    }
+                });
+
+                $('#btnLogin').click(function () {
+                    if ($('#lblDBChkUid').length > 0) $('#lblDBChkUid').remove();
+                    $('#btnLogin').attr('disabled', true);
+                    $('#btnForgetPW').attr('disabled', true);
+
+                    var uid = $('#txtUser').val();
+                    $('#lblDBChkUid').remove();
+                    if ($.trim(uid).length == 0) {
+                        $('<span id ="lblDBChkUid" style=\"color:red;font-size:0.5em;\">請輸入帳號</span>').insertAfter($('#txtUser'));
+                        $('#btnForgetPW').removeAttr("disabled");
+                    }
+                    else {
+                        $('.LoadingImg').show();
+                        setTimeout(function () {
+                            $.ajax({
+                                type: "POST",
+                                url: '../Handler/LoginFunc.ashx',
+                                data: {
+                                    Method: 'LoginChk',
+                                    Param: JSON.stringify({
+                                        UserID: FormateToBase64string($.trim($('#txtUser').val())),
+                                        UserPwD: FormateToBase64string($.trim($('#txtUserPWD').val())),
+                                        textvalue: $.trim($('#inputValue').val()),
+                                    }),
+                                },
+                                cache: false, async: false,
+                                //contentType: "application/json",
+                                success: function (Result) {
+                                    var obj = JSON.parse(Result);
+                                    //定義容器
+                                    var dal = new cs.PostResult();
+                                    //給值
+                                    dal.ini(obj);
+                                    if (dal.Success) {
+                                        //alert('驗證通過，' + dal.Message);
+                                        $('#LoginModal').modal("hide");
+                                        $('#ShowAlert').html('驗證通過，' + dal.Message);
+                                        $('#ShowAlertModal').modal("show");
+
+                                        clearInterval(ReciprocalID);
+                                        if (Session.get("url") != undefined) {
+                                            var url = '../' + Session.get("url");
+                                            //alert('Session=' + url);
+                                            location.href = url;
+                                        } else {
+                                            setTimeout(function () {
+                                                location.href = "/Admin/LogonIndex.aspx?logincheck=y";
+                                            }, 1000);
+                                        }
+                                    }
+                                    else {
+                                        alert(dal.ErrorMessage);
+                                        changeCode();//強制刷驗證碼
+                                    }
+                                },
+                                complete: function () {
+                                    $('.LoadingImg').fadeOut('400');
+                                    $('#btnLogin').removeAttr("disabled");
+                                    $('#btnForgetPW').removeAttr("disabled");
+                                }
+                            }).fail(function () {
+                                alert('驗證失敗Err!!!!');
+                                changeCode();//強制刷驗證碼
+                                $('.LoadingImg').fadeOut('400');
+                                $('#btnLogin').removeAttr("disabled");
+                                $('#btnForgetPW').removeAttr("disabled");
+                            });
+                        }, 500);
+                    }
+
+                });
+                //大寫檢查
+                capsLock();
+
+                //重設密碼
+                $('#btnForgetPW').click(function () {
+                    $('#logUserID').val('');
+                    $('#logEmail').val('');
+                });
+                //送出驗證信
+                $('#btnSendMail').click(function () {
+                    if (!Validate()) return false;
+                    $('#btnSendMail').attr('disabled', 'disabled');
+                    $('.LoadingImg').show();
+                    setTimeout(function () {
+                        var dal = {//new cs.LoginFunc;
+                            UserID: $('#logUserID').val().trim(),
+                            Email: $('#logEmail').val().trim(),
+                        }
+                        $.ajax({
+                            type: "Post",
+                            url: '../handler/LoginFunc.ashx',
+                            data: { Method: 'MailValidate', Param: JSON.stringify(dal) },
+                            cache: false, async: false,
+                            //contentType: "application/json",
+                            success: function (Result) {
+                                var obj = JSON.parse(Result);
+                                //定義容器
+                                var dal = new cs.PostResult();
+                                //給值
+                                dal.ini(obj);
+                                if (dal.Success) {
+                                    alert('申請成功，請至電子信箱收取驗證信');
+                                    $('#ForgetPWModal').modal('hide');
+                                }
+                                else {
+                                    alert((dal.ErrorMessage != "" ? dal.ErrorMessage : dal.Message));
+                                }
+                            },
+                            complete: function () {
+                                $('.LoadingImg').fadeOut('400');
+                                //$('#ddlDanger').removeAttr("disabled");
+                                $('#ForgetPWModal').modal('hide');
+                            }
+                        }).fail(function () {
+                            alert('ERROR!!!!');
+                            $('.LoadingImg').fadeOut('400');
+                            $('#ForgetPWModal').modal('hide');
+                        });
+                    }, 50);
+                });
+
+            });
+            function Validate() {
+                var response = true;
+                var msg = "";
+                if ($('#logUserID').val().trim() == "") {
+                    response = false;
+                    msg += '\n請輸入使用者帳號  ';
+                }
+                if ($('#logEmail').val().trim() == "") {
+                    response = false;
+                    msg += '\n請輸入電子信箱';
+                }
+                if (!response)
+                    alert(msg);
+                return response;
+            }
+            var reflashsec = 121;
+            function changeCode() {
+                var imgNode = document.getElementById("vimg");
+                imgNode.src = "/handler/DynamicVerification.ashx?t=" + (new Date()).valueOf(); // 這裡加時間防止瀏覽器快取
+                reflashsec = 121;
+                $('#inputValue').val('');
+            }
+
+            function Reciprocal() {
+                //reciprocal
+                if (reflashsec == 0) {
+                    reflashsec = 121;
+                    changeCode();
+                }
+                var ReciprocalRange = --reflashsec;
+                //$('#reciprocal').attr('style', 'background-color:black');
+                $('#reciprocal').html(ReciprocalRange + ' 秒後變更驗證碼 ' + (ReciprocalRange % 4 == 0 ? "···" : (ReciprocalRange % 4 == 1 ? "··" : (ReciprocalRange % 4 == 2 ? "·" : ""))));
+            }
+            function count() {
+                var ViewCount = true;
+                if (localStorage.getItem('ViewCount') != null) {
+                    //IP 時間 總數
+                    var json = JSON.parse(localStorage.getItem('ViewCount'));
+                    var QueryDT = json[0]['LastViewDateTime'].replace("T", " ").replace(/\-/g, "/");
+                    var NewDate = new Date();
+                    var bdate = dateUtil.DateTimeFormat(NewDate, 'yyyy/MM/dd');
+                    var btime = dateUtil.DateTimeFormat(NewDate, 'hh:mm:ss');
+                    var Nowdate = bdate + " " + btime;
+                    var PassMin = parseInt(new Date(Nowdate) - new Date(QueryDT.substring(0, 19))) / 1000 / 60;//差幾分鐘
+                    if (PassMin < 10) {
+                        ViewCount = false; //不更新
+                        $('#lblcount').text(json[0].TotalViewCount);
+                    }
+                }
+                if (ViewCount) {
+                    $.ajax({
+                        async: true,
+                        type: "POST",
+                        dataType: "json",
+                        data: {
+                            'Method': "OCount",
+                            'Param': JSON.stringify({}),
+                        },
+                        url: "/Handler/PostData.ashx",
+                        success: function (data, processStatus, $xhr) {
+                            if (data.Success) {
+                                localStorage.setItem("ViewCount", data.Message);
+                                var json = JSON.parse(data.Message);
+                                $('#lblcount').text(json[0].TotalViewCount);
+
+                            }
+                            else {
+                                $('#lblcount').text("ERROR");
+                            }
+                        }
+                    });
+                }
+            }
+            function checkbrowser() {
+
+                var explorer = navigator.userAgent;
+                console.log(explorer);
+                var ISIE = true;
+                if (explorer.indexOf("Firefox") >= 0) {
+                    //alert("Firefox");
+                    ISIE = false;
+                }
+                else if (explorer.indexOf("Chrome") >= 0) {
+                    //alert("Chrome");
+                    ISIE = false;
+                }
+                else if (explorer.indexOf("Opera") >= 0) {
+                    //alert("Opera");
+                    ISIE = false;
+                }
+                else if (explorer.indexOf("Safari") >= 0) {
+                    //alert("Safari");
+                    ISIE = false;
+                }
+                else if (explorer.indexOf("Netscape") >= 0) {
+                    //alert('Netscape');
+                    ISIE = false;
+                }
+                else {
+                    alert("IE已不再支援新的網路標準，請改用其他的瀏覽器開啟網頁。");
+                }
+            }
+        </script>
+
+        <!--Fonts and icons-->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    </form>
+</body>
+</html>

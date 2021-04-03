@@ -1,0 +1,7730 @@
+[
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 1065
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 10854
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 47284
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 392
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 4898
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 25065
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 84720
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 61976
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 87289
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 2644
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 15263
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 14264
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 1344
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 812432
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 11967
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 25631
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 34734
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 1253820
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 9485
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 214
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 679671
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 6706
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 992217
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 75
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 87
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 125507
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 47909
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 9038
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 56706
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 910404
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 4189
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 9512
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 2869
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 27706
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 1167213
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 10625
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 14822
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 1285
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 74364
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 2860657
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 30926
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 125667
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 501
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 10754
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 1758592
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 238767
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 184929
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 72251
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 25649
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 4928499
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 5422
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 130
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 286520
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 16056
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 372383
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 197914
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 7078
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 187171
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 2405
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 1997734
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 466596
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 17789
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 719148
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 2720
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 3471544
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 3675
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 878
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 1696
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 674
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 468587
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 376
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 1127
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 5710
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 657
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 980143
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 1167
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 387124
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 673
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 490
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 588
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 589771
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 1633
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 45778
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 119108
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 1456375
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 1532
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 330
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 132
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 46878
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 61294
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 6614
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 13945
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 681398
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 1065
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 10854
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 47284
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 261164
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 121255
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 97769
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 3299
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 1961001
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 16835
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 4130
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 2344
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 964378
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 162
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 31807
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 9755
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 5080
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 2130583
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 270288
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 1060
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 15836
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 2206
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 1504399
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 12694
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 27689
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 462
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2016,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 19176
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 2394
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 12719
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 68160
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 1271
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 5963
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 25076
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 86203
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 54617
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 23800
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 1805
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 18631
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 8331
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 9621
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 966153
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 12218
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 46461
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 27004
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 1299932
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 14933
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 1976
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 840174
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 8782
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 1125683
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 254
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 139
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 706
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 112328
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 18017
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 16436
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 53327
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 901889
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 9087
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 18907
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 5914
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 35458
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 1746041
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 24147
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 19091
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 17266
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 47262
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 1871864
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 31402
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 167639
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 1676
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 13895
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 1707395
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 220473
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 245741
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 70192
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 38302
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 5106269
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 7408
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 148
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 289831
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 326
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 611
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 26048
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 394907
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 281900
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 9947
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 218061
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 3960
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 2215792
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 387553
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 27378
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 750478
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 47029
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 3496775
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 598
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 1499
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 819
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 261
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 525785
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 1510
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 1539
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 754
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 531940
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 347975
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 228912
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 458
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 3228
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 51668
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 130795
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 1533852
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 4487
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 438
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 772
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 51904
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 23570
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 884
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 12083
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 626
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 728831
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 4158
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 28038
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 2782
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 2833
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 1206976
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 318860
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 126369
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 91241
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 709
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 1997655
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 23186
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 4882
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 1632
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 1215389
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 131
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 28840
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 5360
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 1771
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 1916967
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 106
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 161
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 351606
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 10351
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 640
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 518523
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 12140
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 28049
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 232
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 2
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2015,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 13838
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 747
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 3560
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 15529
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 79593
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 6619
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 24573
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 94458
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 58544
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 75105
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 2817
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 29751
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 14150
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 10004
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 1053797
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 6837
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 42786
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 14091
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 1200083
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 11975
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 2030
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 928093
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 5282
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 955996
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 143
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 175
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 2457
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 113496
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 16354
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 11397
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 86399
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 892993
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 6104
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 24858
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 10043
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 38826
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 1975219
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 27796
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 18800
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 18302
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 64232
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 2965761
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 31987
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 206291
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 3176
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 19827
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 2016270
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 238820
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 249670
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 71801
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 43644
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 4732344
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 7746
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 189
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 349560
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 683
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 379
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 19380
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 363072
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 176183
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 11171
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 284306
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 16098
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 2623509
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 430051
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 24489
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 810846
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 4078
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 3285387
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 401
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 1035
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 1384
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 407
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 584252
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 898
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 1331
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 1702
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 1369
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 955760
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 423618
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 1427
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 610837
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 1757
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 44163
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 125346
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 1484854
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 691
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 63282
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 55984
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 19
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 6617
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 465
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 713838
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 5290
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 57273
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 4609
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 5079
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 1386693
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 334862
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 133703
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 90797
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 5123
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 2007586
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 34385
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 2649
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 7123
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 1578706
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 137
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 31280
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 8962
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 4874
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 1968520
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 2523
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 444946
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 57134
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 1342
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 1241342
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 6773
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 26993
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 743
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 1
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2014,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 18613
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 966
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 2960
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 14761
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 65454
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "長糯",
+    "yield": 1198
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "圓糯",
+    "yield": 5232
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "在來",
+    "yield": 21512
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義市",
+    "type": "蓬萊",
+    "yield": 77006
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 52452
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹市",
+    "type": "蓬萊",
+    "yield": 67082
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "基隆市",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "澎湖縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 1094
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 17053
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 29756
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 11760
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 942861
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "長糯",
+    "yield": 3095
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "圓糯",
+    "yield": 15515
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "秈稻",
+    "yield": 26836
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "在來",
+    "yield": 3786
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "花蓮縣",
+    "type": "蓬萊",
+    "yield": 994203
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 529
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 12361
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 1651
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 775800
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "長糯",
+    "yield": 290
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "圓糯",
+    "yield": 3988
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺東縣",
+    "type": "蓬萊",
+    "yield": 853732
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 32
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 1618
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 85795
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "長糯",
+    "yield": 9208
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "圓糯",
+    "yield": 1464
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "在來",
+    "yield": 69398
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "屏東縣",
+    "type": "蓬萊",
+    "yield": 861286
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 3774
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 23563
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 730
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 28394
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 1613417
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "長糯",
+    "yield": 16465
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "圓糯",
+    "yield": 13293
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "秈稻",
+    "yield": 6979
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "在來",
+    "yield": 52600
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "嘉義縣",
+    "type": "蓬萊",
+    "yield": 2410997
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 41448
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 191507
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 3163
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 19399
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 1929230
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "長糯",
+    "yield": 213052
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "圓糯",
+    "yield": 195245
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "秈稻",
+    "yield": 33150
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "在來",
+    "yield": 49572
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "雲林縣",
+    "type": "蓬萊",
+    "yield": 4154594
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 8426
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 4520
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 330805
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "長糯",
+    "yield": 314
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "圓糯",
+    "yield": 656
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "秈稻",
+    "yield": 16042
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "南投縣",
+    "type": "蓬萊",
+    "yield": 358924
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 227933
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 9315
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 299588
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 5170
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 2425051
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "長糯",
+    "yield": 437507
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "圓糯",
+    "yield": 28137
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "秈稻",
+    "yield": 950389
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "在來",
+    "yield": 3230
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "彰化縣",
+    "type": "蓬萊",
+    "yield": 3058225
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中縣",
+    "type": "蓬萊",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 169
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 1459
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 1514
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 373
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 575121
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "長糯",
+    "yield": 664
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "圓糯",
+    "yield": 839
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "秈稻",
+    "yield": 1144
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "在來",
+    "yield": 1419
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "苗栗縣",
+    "type": "蓬萊",
+    "yield": 916575
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 549
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 380559
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "秈稻",
+    "yield": 1198
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新竹縣",
+    "type": "蓬萊",
+    "yield": 574687
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 14
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "長糯",
+    "yield": 1195
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "圓糯",
+    "yield": 27813
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "秈稻",
+    "yield": 117823
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "宜蘭縣",
+    "type": "蓬萊",
+    "yield": 1413372
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 194
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 40
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 1235
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 205
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 45029
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "長糯",
+    "yield": 95085
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "圓糯",
+    "yield": 17
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "秈稻",
+    "yield": 8884
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "在來",
+    "yield": 72
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "高雄市",
+    "type": "蓬萊",
+    "yield": 655646
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 8536
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 48343
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 4706
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 5331
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 1139625
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "長糯",
+    "yield": 239728
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "圓糯",
+    "yield": 128321
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "秈稻",
+    "yield": 67387
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "在來",
+    "yield": 5935
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺南市",
+    "type": "蓬萊",
+    "yield": 1519583
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 28374
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 3107
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 7653
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 1364856
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "長糯",
+    "yield": 133
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "圓糯",
+    "yield": 29058
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "秈稻",
+    "yield": 9870
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "在來",
+    "yield": 5153
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺中市",
+    "type": "蓬萊",
+    "yield": 1900241
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 2455
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 1901
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 402072
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "秈稻",
+    "yield": 36891
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "在來",
+    "yield": 1348
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "桃園市",
+    "type": "蓬萊",
+    "yield": 958175
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 4229
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "臺北市",
+    "type": "蓬萊",
+    "yield": 24223
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 2,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 328
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "陸稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "長糯",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "圓糯",
+    "yield": 1
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "秈稻",
+    "yield": 0
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "在來",
+    "yield": 93
+  },
+  {
+    "year": 2013,
+    "plant_time": 1,
+    "city_area": "新北市",
+    "type": "蓬萊",
+    "yield": 16466
+  }
+]

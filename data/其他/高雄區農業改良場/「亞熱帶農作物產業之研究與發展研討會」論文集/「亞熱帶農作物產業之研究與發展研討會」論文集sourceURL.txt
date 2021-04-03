@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='oldwww.kdais.gov.tw', port=443): Max retries exceeded with url: /k100/paper/paper.htm (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb1f7ca6198>, 'Connection to oldwww.kdais.gov.tw timed out. (connect timeout=5)'))

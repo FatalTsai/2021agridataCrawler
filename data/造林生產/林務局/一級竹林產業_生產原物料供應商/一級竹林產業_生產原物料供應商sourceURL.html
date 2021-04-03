@@ -1,0 +1,916 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>ç«¹æç¢æ¥­æè¡è«®è©¢ä¸­å¿</title>	
+
+		<meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="å°ç£ç«¹æç¢æ¥­æè¡è«®è©¢ä¸­å¿ ç«¹æææ°è¨æ¯ | ç«¹æç¥è­å°å | ç«¹æåå®¶å°å | ç«¹æäº®é»åå®¶ | ç«¹æç¢æ¥­å­ç´åè³è¨ | " />
+		<meta content='img/webs.jpg' itemprop='image' property='og:image' />
+		
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/fblogo.png" type="img/fblogo.png" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+		<link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css" media="screen">
+		<link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css" media="screen">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="css/theme-animate.css">
+
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/default.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.js"></script>
+
+		<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+		<!--[if lte IE 8]>
+			<script src="vendor/respond/respond.js"></script>
+			<script src="vendor/excanvas/excanvas.js"></script>
+		<![endif]-->
+		
+	<!-- Derrick ç«¹æç¢æ¥­ Map  ================================================== -->
+  <link href="css/map/mapcluat.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  
+ <!-- Derrick ç«¹æç¢æ¥­ Map Api ================================================== -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH89sBteAlr_onHhAGnNrWo_WrSnxfCGk&region=GB"></script> 
+  
+  <script type="text/javascript" src="js/gmap3.js"></script>
+ 
+  <script type="text/javascript">
+    	
+    // Icons used into the markers options
+var marka01 = new google.maps.MarkerImage(
+  'css/map/mapimgs/marker-images/bamboo1st.png',
+  new google.maps.Size(59,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(10,10)
+);
+var marka02 = new google.maps.MarkerImage(
+  'css/map/mapimgs/marker-images/bamboo2st.png',
+  new google.maps.Size(59,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(10,10)
+);
+
+var marka03 = new google.maps.MarkerImage(
+  'css/map/mapimgs/marker-images/bamboo3st.png',
+  new google.maps.Size(59,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(10,10)
+);
+
+
+// markers definition list
+var list = [
+  { lat: 23.4909293,lng: 120.4689227, 
+    data: { 
+      type: "magaza",
+      magazaID:1, 
+      magazaGrubuID:1, 
+      adi: "æªææ£®æ´»æ", 
+      adres: "åç¾©å¸ææ£®æ±è·¯1è", 
+      bilgi: "é»è©±ï¼05-2761601<br>å³çï¼05-2761670", 
+      logo: "bamboo3st.png",
+      brosurID:141, 
+      brosur: "css/map/mapimgs/no141.png" 
+    }, 
+    options: { 
+      icon: marka03
+    } 
+  }
+  
+
+,  
+  { lat: 23.921647400,lng: 120.91984120, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç­ä¸æ", 
+      adres: "åæç¸£é­æ± éå¤§éæå¤§éå··33-6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-92898013<br>ç¶²åï¼<a href='http://www.otop.tw/feature/106721.html' target='_blank'>www.otop.tw/feature/106721.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no107.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 24.8562482,lng: 121.08510189, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°ç£åå©åèä¼æ¥­æéå¬å¸", 
+      adres: "æ°ç«¹ç¸£æ°åé®åå¹³é4é°40è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-5888389<br>ç¶²åï¼<a href='http://035691319.tw66.com.tw/' target='_blank'>035691319.tw66.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.9561853,lng: 120.52346369, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ä¸­å(æªçé)", 
+      adres: "å½°åç¸£åå¿éèé¤¨æèéè·¯181", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8292075<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 25.0638078,lng: 121.50378309, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¾·å®ç«¹å¨è¡", 
+      adres: "æ°åå¸ä¸éåéæ°è·¯ä¸æ®µ20ï¼å·¥å» ï¼æ°åå¸äºè¡åæ°ç¾©è·¯äºæ®µ45ä¹3", 
+      bilgi: "è¯çµ¡é»è©±ï¼0935-006139<br>ç¶²åï¼<a href='http://1171437955855.tw66.com.tw/' target='_blank'>1171437955855.tw66.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no112.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 24.9421629,lng: 121.390983, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸å³½ç«¹ç«¿æ¹ç¼åº(æªçé)", 
+      adres: "æ°åå¸ä¸å³½åä¸æ¨¹è·¯222å··196è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-26738214<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.720196,lng: 120.760422, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ­¦å²«ä¼éè¾²å ´", 
+      adres: "åæç¸£é¹¿è°·éç«¹ææç°é ­å··35-66è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2676262<br>ç¶²åï¼<a href='http://www.wvsiv.idv.tw' target='_blank'>www.wvsiv.idv.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no008.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 25.106075,lng: 121.420906, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èæ°ææ©è¬æè¾²å ´", 
+      adres: "æ°åå¸äºè¡åå¾¡å²è·¯277-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0933-234371<br>ç¶²åï¼<a href='http://maoxin.organic.org.tw' target='_blank'>maoxin.organic.org.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no009.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 22.554142,lng: 120.540962, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ³°ææ©æ¢°å» ", 
+      adres: "å±æ±ç¸£æ½®å·é®ä¸é²è·¯å­å··25è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-788274<br>ç¶²åï¼<a href='http://www.tai-chang.com.tw' target='_blank'>www.tai-chang.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 24.691879,lng: 121.255913, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°ç«¹è¬èç¢é·ç­", 
+      adres: "æ°ç«¹ç¸£å°ç³éåæ¨æ2é°70è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-5842222<br>ç¶²åï¼<a href='http://www.hccst.gov.tw' target='_blank'>www.hccst.gov.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no012.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 22.966049,lng: 120.360130, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°åå¸é¾å´åè¾²æ", 
+      adres: "å°åå¸é¾å´åå´é é7é°æ°å¸å­223è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-5941114<br>ç¶²åï¼<a href='http://www.longcifa.com' target='_blank'>www.longcifa.com</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no017.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.299397,lng: 120.640442, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç«¹ç­çç¢åä½ç¤¾(åå¹³çª¯)", 
+      adres: "åç¾©ç¸£å¤§åéåå¹³æç³ç¡¤å§22è(åå¹³çª¯)", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2521229<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no020.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.252821,lng: 120.536980, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç«¹ç­çç¢åä½ç¤¾(åªæçª¯)", 
+      adres: "åç¾©ç¸£å¤§åéèè³æ7é°åªæ3è(åªæçª¯)", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2521366<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.83288,lng: 120.7555180, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ·»èçª¯é¶èæ", 
+      adres: "åæç¸£ééé®ç°å¯®éæ¥æå··10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-92781130<br>ç¶²åï¼<a href='http://www.tensing.com.tw' target='_blank'>www.tensing.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no026.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.9096351,lng: 120.5401042, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åèç«¹å", 
+      adres: "å½°åç¸£æ°¸ééäºç¦æäºç¦å··45å¼5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8221643<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 24.9253698,lng: 121.0034293, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹è¾²ç¨®èæéå¬å¸", 
+      adres: "æ°ç«¹å¸æ°è±ééåæéåå­54-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼035688820<br>ç¶²åï¼<a href='http://www.jkseedling.com.tw' target='_blank'>www.jkseedling.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no446.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.9768852,lng: 120.9883215, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åä¿åèæéå¬å¸", 
+      adres: "åæç¸£åéé®ä¸­å±±è·¯ä¸æ®µ265ä¹3è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0926-397358<br>ç¶²åï¼<a href='http://www.54560.com.tw/bamboo.html' target='_blank'>www.54560.com.tw/bamboo.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 22.8017665,lng: 121.0940898, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çç«¹è¡ï¼æ±æ¨¹è¯ï¼", 
+      adres: "å°æ±ç¸£ååéè³æè·¯320è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-9230122<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+  
+];
+	
+    
+    </script>
+    <script type="text/javascript">
+	
+      var mapMenuOpen = true;
+	  
+      var shadow = new google.maps.MarkerImage(
+        'css/map/mapimgs/marker-images/shadow.png',
+        new google.maps.Size(87,50),
+        new google.maps.Point(0,0),
+        new google.maps.Point(30,50)
+      );
+      
+      function mapMenuClose() {
+        if (!mapMenuOpen) {
+        $('#haritaPopUp').css('display', 'none');
+          mapMenuOpen = true;	
+        }
+      }
+
+
+      $(function () {
+	
+        // map initialisation
+        $('#anaharita').gmap3({
+          map:{
+            options: {
+              center: [23.857110, 120.534825],
+              zoom: 11,
+              panControl: true,
+              overviewMapControl: false,
+              mapTypeControl: false,
+              scaleControl: false,
+              streetViewControl: false,
+              zoomControl: true,
+              maxZoom: 16,
+              minZoom: 2
+            }
+          }
+        });
+        
+        $('#anaharita').gmap3({
+          marker:{
+            values: list, // from js/data.js
+            
+            // single marker options
+            options: {
+              draggable: false,
+              shadow: shadow
+            },
+            // single marker events
+            events: {
+              mouseover: function (marker, event, context) {
+                mapMenuOpen = true;
+                var map = $(this).gmap3('get');
+                var scale = Math.pow(2, map.getZoom());
+                var nw = new google.maps.LatLng(
+                map.getBounds().getNorthEast().lat(), map.getBounds().getSouthWest().lng());
+                var worldCoordinateNW = map.getProjection().fromLatLngToPoint(nw);
+                var worldCoordinate = map.getProjection().fromLatLngToPoint(marker.getPosition());
+                var pixelOffset = new google.maps.Point(Math.floor((worldCoordinate.x - worldCoordinateNW.x) * scale), Math.floor((worldCoordinate.y - worldCoordinateNW.y) * scale));
+                var mapposition = $("#anaharita").position();
+                
+                if (context.data.type != "merkez") {
+                  var icerik = "<div class='left'><div class='magazaadi' id='magazaadi'> " + context.data.adi + "</div><div class='magazaadres' id='magazaadres'> " + context.data.adres + "</div><div class='magazabilgi' id='magazabilgi'>" + context.data.bilgi + "</div></div><div class='right'><div class='urunlogo' onClick='CreatePresentation("+context.data.brosurID+",1,2);'> <img id='magazabrosur' src='"+context.data.brosur+"' width='100' height='141'></div></div>";
+                  
+                  $(".accordion").html(icerik);
+                  
+                  magazalogopath = "logo/";
+                  magazabrosurpath = "";
+                  
+                  $("#haritaPopUp").css('display', 'block');
+                  $("#haritaPopUp").css('left', (pixelOffset.x + mapposition.left + 15 + 'px'));
+                  $("#haritaPopUp").css('top', (pixelOffset.y + mapposition.top - 30 + 'px'));
+                  
+                }
+              },
+              mouseout: function () {
+                mapMenuOpen = false;
+                var t = setTimeout("mapMenuClose()", 500)
+              }
+            },
+            
+            // cluster definition
+            cluster:{
+              radius: 100,
+              
+              // This style will be used for clusters with more than 0 markers
+              0: {
+                content: '<div class="cluster cluster-1">CLUSTER_COUNT</div>',
+                width: 50,
+                height: 50
+              },
+              // This style will be used for clusters with more than 6 markers
+              6: {
+                content: '<div class="cluster cluster-2">CLUSTER_COUNT</div>',
+                width: 70,
+                height: 70
+              },
+              // This style will be used for clusters with more than 7 markers
+              7: {
+                content: '<div class="cluster cluster-3">CLUSTER_COUNT</div>',
+                width: 90,
+                height: 90
+              },
+              events: {
+                mouseover: function (cluster, event, context) {
+                  var icerik = "";
+                  magazalogopath = "logo/";
+                  magazabrosurpath = "";
+                  
+                  // If more than 7 markers, don't display the panel
+                  if(context.data.markers.length > 12 ){
+                    return;
+                  }
+                  for (i = 0; i < context.data.markers.length; i++) {
+                    icerik += "<div class='accordionButton'>" + context.data.markers[i].data.adi + "</div><div class='accordionContent'><div class='left'><div class='magazaadres' id='magazaadres'> " + context.data.markers[i].data.adres + "</div><div class='magazabilgi' id='magazabilgi'>" + context.data.markers[i].data.bilgi + "</div></div><div class='right'><div class='urunlogo' onClick='CreatePresentation("+context.data.markers[i].data.brosurID+",1,2);'> <img id='magazabrosur' src='"+context.data.markers[i].data.brosur+"' width='100' height='141'></div></div></div>";
+                  }
+                  
+                  $(".accordion").html(icerik);
+                  $("#haritaPopUp").css('display', 'block');
+                  $("#haritaPopUp").css('left', ($(cluster.main.getDOMElement()).offset().left + 10 + ($(cluster.main.getDOMElement()).width()/2) +'px'));
+                  $("#haritaPopUp").css('top', ($(cluster.main.getDOMElement()).offset().top -30+ ($(cluster.main.getDOMElement()).height()/2)+'px'));
+                  
+                  $(cluster.main.getDOMElement()).css('border', '0px solid #FF0000');
+                  
+                  $('.accordionButton').click(function () {
+                    $('.accordionButton').removeClass('on');
+                    $('.accordionContent').slideUp('normal');
+                    if ($(this).next().is(':hidden')) {
+                      $(this).addClass('on'); 
+                      $(this).next().slideDown('normal');
+                    }
+                  });
+                  
+                  $('.accordionContent').hide();
+                },
+                mouseout: function (cluster, event) {
+                  mapMenuOpen = false;
+                  var t = setTimeout("mapMenuClose()", 500)
+                },
+                click: function (cluster, event, context){
+                  var map = $(this).gmap3('get');
+                  mapMenuOpen = false;
+                  var t = setTimeout("mapMenuClose()", 100)				
+                  map.setCenter(context.data.latLng);
+                  map.setZoom(map.getZoom() + 1);
+                }
+              }
+            }
+          }
+        });
+
+        $("#haritaPopUp").mouseover(function() {
+          mapMenuOpen = true;
+          $("#haritaPopUp").css('display', 'block');
+        });
+        
+        $("#haritaPopUp").mouseout(function() {
+          $('#haritaPopUp').css('display', 'none');
+        });
+        
+      }); // end of $(function(){
+        
+        
+    </script>		
+
+	</head>
+	<body>
+		<div class="body">
+			<header id="header">
+				<div class="container">
+					<div class="logo">
+						<a href="index.asp">
+							<img alt="Home" width="269" height="80" data-sticky-width="202" data-sticky-height="60" data-sticky-top="33" src="img/logo.png">
+						</a>
+					</div>
+					<div class="search">
+						<form id="searchForm" method="POST" action="bus_search.asp">
+							<div class="input-group">
+								<input type="text" class="form-control search" name="T1" placeholder="è³ææå°" required>
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<ul class="social-icons">
+						<li class="facebook"><a href="https://www.facebook.com/twbamboo" title="Facebook">Facebook</a></li>
+						<li class="e-mail"><a href="mailto:YPHuang@itri.org.tw" title="e-mail">e-mail</a></li>
+						<li class="message"><a href="index06_03.htm" title="message">messege</a></li>
+					</ul>
+					<nav class="nav-top">
+						<ul class="nav nav-pills nav-top">
+							<li>
+								<a href="http://www.pcstore.com.tw/store1475237593/HM/introduce.htm" title="ç«¹ç¢åç·ä¸è³¼ç©" target="_blank"><i class="fa fa-shopping-cart"></i>ç·ä¸è³¼ç©</a>
+							</li>
+							<li>
+								<a href="http://www.bambootw.net/indexen.asp" title="English" target="_blank"><i class="fa fa-language"></i>English</a>
+							</li>
+						</ul>				
+					</nav>				
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								<li class="dropdown">
+									<a href="index.asp">é¦é </a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">æ¶æ¯å¬å</a>
+									<ul class="dropdown-menu">
+										<li><a href="index01.asp?newsdis=1">ç¶²ç«å¬åï¼å¨é¨å¬å</a></li>
+										<li><a href="index01.asp?newsdis=2">ç¢æ¥­è³è¨</a></li>
+										<li><a href="index01.asp?newsdis=3">æ´»åè¨æ¯</a></li>		
+										<li><a href="index01_product01.htm">äº®é»ååï¼ç«¹é¦èå</a></li>	
+										<li><a href="index01_product02.htm">ç«¹æ§æ°è¦å</a></li>																													
+									</ul>																	
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">éæ¼æ¬ç«</a>								
+									<ul class="dropdown-menu">
+										<li><a href="index02_01.htm">ç·£ç±</a></li>
+										<li><a href="index02_02.htm">ç¶²ç«ä»ç´¹</a></li>
+										<li><a href="index02_03.htm">å­ç´åèªªæ</a></li>																													
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">å°æ¥­æè¡è³æº</a>
+									<ul class="dropdown-menu">
+										<li><a href="index03_01.asp">æè¡ä¾çµ¦</a></li>
+										<li><a href="index03_02.asp">æè¡éæ±</a></li>
+										<li><a href="index03_03.asp">ç ç¼ææ</a></li>
+<li><a href="index03_04.asp">ç«¹ç¥è­åº«</a></li>																													
+									</ul>
+								</li>
+								<li class="dropdown active">
+									<a class="dropdown-toggle" href="#">åå®¶èè½</a>
+									<ul class="dropdown-menu">
+	               	 	<li><a href="index04_01.htm">äº®é»åååå®¶æ¨è¦</a></li>
+	                  <li><a href="index04_02.asp">ç«¹ç¢æ¥­å­ç´ååå®¶å°å</a></li>
+	                  <li><a href="index04_04.htm">ç«¹ç¢æ¥­åååé¡å°å</a></li>
+	                  <li><a href="index04_03.htm">720åº¦ç°æ¯å½±å</a></li>																														
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="index07.htm">ç·ä¸è³¼ç©</a>
+								</li>
+								<li class="dropdown">
+									<a href="index05.htm">ç¸éé£çµ</a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">è¯çµ¡æå</a>
+									<ul class="dropdown-menu">
+	               	 					
+						                  <li><a href="index06_02.htm">è¯çµ¡è«®è©¢ä¸­å¿</a></li>
+						                  <li><a href="index06_03.htm">è¨ªå®¢çè¨</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<div role="main" class="main">
+
+				<section class="page-header"></section>
+
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-3">
+							<aside class="sidebar">
+								<h2><strong>ç«¹ç¢æ¥­åå®¶å°å</strong></h2>
+								<p align="justify"><font size="3">èç±Google mapè¨­è¨å¯å°åå¼æè©¢ï¼ä»¥éåç´æ´åï¼ç¥è½æ´»ååæ©ã</font></p>	
+								<ul class="nav nav-list mb-xlg">
+									<li><a href="index04_02.asp?seeword=0"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­åå®¶å°åï¼ææåå®¶</font></a></li>
+									<li><a href="index04_02.asp?seeword=1"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­ä¸ç´åå®¶å°å</font></a></li>
+									<li><a href="index04_02.asp?seeword=2"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­äºç´åå®¶å°å</font></a></li>
+									<li><a href="index04_02.asp?seeword=3"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­ä¸ç´åå®¶å°å</font></a></li>
+								</ul>													
+							</aside>							
+						</div>
+						<div class="col-md-9">
+
+
+
+							<div class="row">
+								<div class="col-md-12">	
+									<h5><strong>(Google Map)</strong></h5>								
+									<h3><strong>ç«¹æç¢æ¥­å­ç´å	ä¸ç´åå®¶ åæï¼ä¾æå&nbsp;åå®¶åå¸å°å</strong></h3>
+									<hr class="solid">
+									<p><font size="4" color="#b39964">è«é»é¸å·¦å´åé è§ç</font></p>	 	 						
+								</div>
+								<div class="col-md-6">
+									<p align="justify">
+										ä¸ç´åå®¶çºåæï¼ä¾æåï¼äºç´åå®¶çºååï¼è£½é åï¼ä¸ç´åå®¶çºè³£å ´ï¼è¡é·åãè¥æåå®¶çºè·¨ç´å¦ï¼ä¸ç´ãäºç´ãä¸ç´é½æï¼åä»¥ä¸ç´çåç¤ºé¡è²é¡¯ç¤ºï¼æäºç´ä¹æä¸ç´ï¼åä»¥äºç´çåç¤ºé¡è²é¡¯ç¤ºï¼ä»¥æ­¤é¡æ¨ãç¥åç´åå®¶ç¼æ®ç¸è¼ç¸ä¹çä½ç¨ï¼ä»¥éåç´æ´åï¼å±åµç«¹ç¢æ¥­åæ©ã
+									</p>
+								</div>
+								<div class="col-md-6">
+									<p align="center"><img border="0" src="img/04/index04_02pic01.jpg" width="80%"></p>	
+								</div>
+							</div>
+
+						</div>
+
+					</div>					
+
+				</div>
+
+			</div>
+		  <!-- contact form -->
+		
+		
+	    <div id="haritaPopUp">
+	      <div class="arrowMap"></div>
+	      <div class="haritaWrapper">
+	        <div class="topMap"></div>
+	        <div class="content">
+	          <div class="containerMap">
+	            <div class="accordion"></div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <hr>
+	    <div id="haritaMain">
+	      <div id="haritaSehir"></div>
+	      <div id="anaharita" class="anaharita"> </div>
+	    </div>
+
+		  <!-- / contact form -->			
+ 
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribbon">
+							<span>Taiwan Bamboo</span>
+						</div>
+						<div class="col-md-3" margin: 0px 0px 10px 0px;>
+							<div class="contact-details">
+								<h4 class="heading-primary">è¯çµ¡æå | Contact Us</h4>
+									<p><font color="#FFFF00">å·è¡åéï¼å·¥ç é¢ãä¸­åé¢</font><br>
+										<font color="#ffffff">
+									å°åï¼73445 å°åå¸å­ç²åå·¥ç è·¯8è<br>
+									ç¸½æ©ï¼+886-6-6939333<br>å®¢æå°ç·ï¼0800-45-8899<br>
+									æåä¿¡ç®±ï¼<a href="mailto:YPHuang@itri.org.tw">YPHuang@itri.org.tw</a>
+									</font></p>  
+							</div>
+							<ul class="social-icons">
+								<li class="facebook"><a href="https://www.facebook.com/twbamboo" title="Facebook">Facebook</a></li>
+								<li class="e-mail"><a href="mailto:YPHuang@itri.org.tw" title="e-mail">e-mail</a></li>
+								<li class="message"><a href="index06_03.htm" title="message">messege</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="heading-primary">åè¨ªäººæ¬¡ | Counter</h4>
+							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options='{"username": "", "count": 2}'>
+								<p><a href="http://s07.flagcounter.com/more/1B"><img src="http://s07.flagcounter.com/count2/1B/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_4/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
+							  <p><script language="javascript" src="http://toolkit.url.com.tw/counter/setcounter.php?sid=87123"></script></p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="contact-details">
+								<h4 class="heading-primary">ç¸éé£çµ | related link</h4>
+								<ul class="nav nav-list mb-xl">
+									<li><a href="http://www.coa.gov.tw/show_index.php">è¡æ¿é¢è¾²æ¥­å§å¡æ</a></li>
+									<li><a href="http://www.forest.gov.tw">è¡æ¿é¢è¾²æ¥­å§å¡ææåå±</a></li>
+									<li><a href="https://www.itri.org.tw/">å·¥æ¥­æè¡ç ç©¶é¢</a></li>																
+									<li><a href="https://www.facebook.com/twbamboo">å°ç£ç«¹æç¢æ¥­Facebook</a></li>
+									<li><a href="https://www.facebook.com/bambootaiwan.tw">ç«¹è·¡é¤¨Facebook</a></li>								
+									<li><a href="http://www.eco-materials.org.tw/">å°ç£çæææç¢æ¥­ç¼å±åæ</a></li>										
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3" style="text-align:center">
+							<h4 class="heading-primary">ç²çµ²å°é  | Facebook</h4>
+								<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ftwbamboo&amp;width=249&amp;height=230&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:249px; height:230px;" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+						  <div style="text-align: center">
+							  <p><font color="#FFFFFF">è¡æ¿é¢è¾²æ¥­å§å¡ææåå± çæ¬ææ Â© copyright Â© 2014 ALL Rights Reserved.<br> å»ºè­°ç¶²é çè¦½è§£æåº¦ 1920x1080 (å«ä»¥ä¸)&nbsp;&nbsp;&nbsp;ç¶­è­·å®ä½ï¼å¹³æ²»ç§ææéå¬å¸</font></p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Vendor -->
+		<!--[if lt IE 9]>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<!--<script src="vendor/jquery/jquery.js"></script>--><!--20150731è¨»è§£(å½±é¿å°map)-->
+		<!--<![endif]-->
+		<script src="vendor/jquery.appear/jquery.appear.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.js"></script>
+		<script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+		<script src="vendor/bootstrap/bootstrap.js"></script>
+		<script src="vendor/common/common.js"></script>
+		<script src="vendor/jquery.validation/jquery.validation.js"></script>
+		<script src="vendor/jquery.stellar/jquery.stellar.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.js"></script>
+		<script src="vendor/isotope/jquery.isotope.js"></script>
+		<script src="vendor/owlcarousel/owl.carousel.js"></script>
+		<script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="vendor/vide/vide.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+		
+		<!-- Specific Page Vendor and Views -->
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+		<script src="js/views/view.home.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script type="text/javascript">
+		
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-12345678-1']);
+			_gaq.push(['_trackPageview']);
+		
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		
+		</script>
+		 -->
+
+	</body>
+</html>
+
+
+		<!-- å°ç£ç«¹æç¢æ¥­ å³ææè¡æå Star-->
+		  <!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			
+			<!-- Your customer chat code -->
+			<div class="fb-customerchat"
+			  attribution=setup_tool
+			  page_id="379599838871287"
+			  theme_color="#67b868">
+			</div>
+		<!-- å°ç£ç«¹æç¢æ¥­ å³ææè¡æå End -->
+		

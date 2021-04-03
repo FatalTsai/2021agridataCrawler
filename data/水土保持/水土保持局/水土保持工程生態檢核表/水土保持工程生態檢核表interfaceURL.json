@@ -1,0 +1,4562 @@
+[
+  {
+    "ROW_NUM": 456,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-17-316",
+    "ENGIN_NAME": "新光部落牌樓旁坡地災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 455,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-17-316",
+    "ENGIN_NAME": "新光部落牌樓旁坡地災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 454,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-17-312",
+    "ENGIN_NAME": "石磊12鄰聯絡道旁災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 453,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-17-312",
+    "ENGIN_NAME": "石磊12鄰聯絡道旁災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 452,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-17-311",
+    "ENGIN_NAME": "光華地區五、六鄰旁崩塌地災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 451,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-17-311",
+    "ENGIN_NAME": "光華地區五、六鄰旁崩塌地災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 450,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-16-306",
+    "ENGIN_NAME": "石磊禱告山崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 449,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-16-306",
+    "ENGIN_NAME": "石磊禱告山崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 448,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-16-305",
+    "ENGIN_NAME": "石磊地區5-800號崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 447,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-16-305",
+    "ENGIN_NAME": "石磊地區5-800號崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 446,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-16-302",
+    "ENGIN_NAME": "鎮子堡坡地保育一期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 445,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-16-302",
+    "ENGIN_NAME": "鎮子堡坡地保育一期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 444,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-13-253",
+    "ENGIN_NAME": "鐵立庫二期土石災害復育工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 443,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-13-253",
+    "ENGIN_NAME": "鐵立庫二期土石災害復育工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": "以高度較小的潛壩群代替高壩設計，以達到工程減量及節能減碳的效益"
+  },
+  {
+    "ROW_NUM": 442,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-13-229",
+    "ENGIN_NAME": "鐵立庫崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 441,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-13-229",
+    "ENGIN_NAME": "鐵立庫崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 440,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-13-226",
+    "ENGIN_NAME": "鎮西堡崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 439,
+    "PLANYEAR": 95,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "97S-SME-1-13-226",
+    "ENGIN_NAME": "鎮西堡崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 438,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-22-356",
+    "ENGIN_NAME": "鐵立庫災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 437,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-22-356",
+    "ENGIN_NAME": "鐵立庫災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": "使用自由樑型框配合黑麥草、高狐草等植物進行噴植，讓裸坡快速恢復植生"
+  },
+  {
+    "ROW_NUM": 436,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-22-356",
+    "ENGIN_NAME": "鐵立庫災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 435,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-22-355",
+    "ENGIN_NAME": "嘎拉賀土石災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 434,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-22-355",
+    "ENGIN_NAME": "嘎拉賀土石災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 433,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-19-334",
+    "ENGIN_NAME": "卡拉橋上游左岸崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": "目前坡面已有植生將盡量保留，裸露地區以自由樑框護坡植生、鋪網噴植等生態工程保護坡面。"
+  },
+  {
+    "ROW_NUM": 432,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-19-334",
+    "ENGIN_NAME": "卡拉橋上游左岸崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "卡拉橋上游左岸崩塌地因植生狀況良好，已取消工程施作，而改為卡拉部落崩塌地處理及擋土牆工程。"
+  },
+  {
+    "ROW_NUM": 431,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-19-333",
+    "ENGIN_NAME": "卡拉溪下游右岸第二區崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "2.減輕：未來於施作時將要求承商需以簡易流籠等方式吊掛材料、機具，不得於溪床開闢施工便道，減少對生態之影響。"
+  },
+  {
+    "ROW_NUM": 430,
+    "PLANYEAR": 98,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-19-333",
+    "ENGIN_NAME": "卡拉溪下游右岸第二區崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": "1.縮小、植生：部分坡面目前已有植生，則盡量保留(右圖)。"
+  },
+  {
+    "ROW_NUM": 429,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-26-401",
+    "ENGIN_NAME": "鐵立庫四期土石災害復育工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 428,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-385",
+    "ENGIN_NAME": "養老部落二期土石災害復育工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "攔阻",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 427,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-385",
+    "ENGIN_NAME": "養老部落二期土石災害復育工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 426,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-379",
+    "ENGIN_NAME": "秀錦地區7-000號崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 425,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-379",
+    "ENGIN_NAME": "秀錦地區7-000號崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留既有植生區域"
+  },
+  {
+    "ROW_NUM": 424,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-376",
+    "ENGIN_NAME": "鎮子堡坡地保育二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 423,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-376",
+    "ENGIN_NAME": "鎮子堡坡地保育二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "疏導",
+    "CONSERVATION_DESC": "1.第一工區施作箱涵及靜水池，疏導水流，防止坑溝沖蝕。"
+  },
+  {
+    "ROW_NUM": 422,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-376",
+    "ENGIN_NAME": "鎮子堡坡地保育二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": "2.第二工區於暨有靜水池後方，施作擋土牆暨 L 溝保護坡腳；PC 路面改善原有土路。"
+  },
+  {
+    "ROW_NUM": 421,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-372",
+    "ENGIN_NAME": "秀巒二期崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 420,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-370",
+    "ENGIN_NAME": "卡拉溪上游第三區崩塌處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "調整自由樑框範圍，限制在裸露植生生長狀況差的位置。"
+  },
+  {
+    "ROW_NUM": 419,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "99S-SME-1-24-368",
+    "ENGIN_NAME": "卡拉溪上游第一區崩塌處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "調整自由樑框範圍，限制在裸露植生生長狀況差的位置。"
+  },
+  {
+    "ROW_NUM": 418,
+    "PLANYEAR": 99,
+    "ORGAN": "臺北分局",
+    "ENGIN_ID": "98S-SME-1-23-363",
+    "ENGIN_NAME": "羅浮村4鄰土石災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": ""
+  },
+  {
+    "ROW_NUM": 417,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "從六座固床工減少為兩座"
+  },
+  {
+    "ROW_NUM": 416,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "使用建議的施工便道路徑，減輕對林地之破壞"
+  },
+  {
+    "ROW_NUM": 415,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "改以梳子壩設計，開口部分與現有河床等高，可增加水域廊道暢通性"
+  },
+  {
+    "ROW_NUM": 414,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強沉砂設施效率，減輕河道潭區 淤積"
+  },
+  {
+    "ROW_NUM": 413,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以導水或繞流方式，維持表面逕流"
+  },
+  {
+    "ROW_NUM": 412,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以鋪鋼板或架棧道等新方法，可避免機具壓壞河床大石與底質"
+  },
+  {
+    "ROW_NUM": 411,
+    "PLANYEAR": 102,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "102ZNW3004-001",
+    "ENGIN_NAME": "頓阿巴娜野溪上游崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留大樹、大石與次生林、竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 410,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "避免大範圍開挖"
+  },
+  {
+    "ROW_NUM": 409,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "利用拋石方式增加孔隙，以供水、陸域動植物棲息環境"
+  },
+  {
+    "ROW_NUM": 408,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "護岸回填時，表層土壤(20公分)不壓實或夯實"
+  },
+  {
+    "ROW_NUM": 407,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工時設置臨時沉沙設施"
+  },
+  {
+    "ROW_NUM": 406,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道利用既有清淤便道，並設柵欄管制，以減少原有地形地貌之破壞"
+  },
+  {
+    "ROW_NUM": 405,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工中機具過溪處利用涵管或臨時便橋，避免直接碾壓河道"
+  },
+  {
+    "ROW_NUM": 404,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "完工後之填土區及裸露區採自然復育"
+  },
+  {
+    "ROW_NUM": 403,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以複式斷面設計護岸，第一階使用漿砌石，第二階採用乾砌石，增加水、陸域動植物棲息空間"
+  },
+  {
+    "ROW_NUM": 402,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "工區內設置臨時堆置區堆置土石"
+  },
+  {
+    "ROW_NUM": 401,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留溪床原有大石與漂石，避免破壞原有生物棲息之環境"
+  },
+  {
+    "ROW_NUM": 400,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "避免大範圍開挖"
+  },
+  {
+    "ROW_NUM": 399,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "利用拋石方式增加孔隙，以供水、陸域動植物棲息環境"
+  },
+  {
+    "ROW_NUM": 398,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "護岸回填時，表層土壤(20公分)不壓實或夯實"
+  },
+  {
+    "ROW_NUM": 397,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工時設置臨時沉沙設施"
+  },
+  {
+    "ROW_NUM": 396,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道利用既有清淤便道，並設柵欄管制，以減少原有地形地貌之破壞"
+  },
+  {
+    "ROW_NUM": 395,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工中機具過溪處利用涵管或臨時便橋，避免直接碾壓河道"
+  },
+  {
+    "ROW_NUM": 394,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "完工後之填土區及裸露區採自然復育"
+  },
+  {
+    "ROW_NUM": 393,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以複式斷面設計護岸，第一階使用漿砌石，第二階採用乾砌石，增加水、陸域動植物棲息空間"
+  },
+  {
+    "ROW_NUM": 392,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "工區內設置臨時堆置區堆置土石"
+  },
+  {
+    "ROW_NUM": 391,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-008",
+    "ENGIN_NAME": "後堀溪南179線旁護岸二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留溪床原有大石與漂石，避免破壞原有生物棲息之環境"
+  },
+  {
+    "ROW_NUM": 390,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "第二工區避免大範圍開挖"
+  },
+  {
+    "ROW_NUM": 389,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區護岸回填時，表層土壤(20公分)不壓實或夯實"
+  },
+  {
+    "ROW_NUM": 388,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區施工時設置臨時沉沙設施"
+  },
+  {
+    "ROW_NUM": 387,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區施工便道建議利用現有農道與乾涸河床，與溪流流水區保持距離"
+  },
+  {
+    "ROW_NUM": 386,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區施工中機具過溪處利用涵管或臨時便橋，避免直接碾壓河道"
+  },
+  {
+    "ROW_NUM": 385,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區完工後之填土區及裸露區採自然復育"
+  },
+  {
+    "ROW_NUM": 384,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區以複式斷面設計護岸，第一階使用漿砌石，第二階採用乾砌石，增加水、陸域動植物棲息空間"
+  },
+  {
+    "ROW_NUM": 383,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區工區內設置臨時堆置區堆置土石"
+  },
+  {
+    "ROW_NUM": 382,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區施工時設置臨時沉沙設施"
+  },
+  {
+    "ROW_NUM": 381,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區施工便道建議利用現有農道與乾涸河床，與溪流流水區保持距離"
+  },
+  {
+    "ROW_NUM": 380,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區施工中機具過溪處利用涵管或臨時便橋，避免直接碾壓河道"
+  },
+  {
+    "ROW_NUM": 379,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區保留溪床原有大石與漂石，避免破壞原有生物棲息之環境"
+  },
+  {
+    "ROW_NUM": 378,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區保留上游沙洲島部分植被"
+  },
+  {
+    "ROW_NUM": 377,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區保留溪床原有大石與漂石，避免破壞原有生物棲息之環境"
+  },
+  {
+    "ROW_NUM": 376,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "第二工區避免大範圍開挖"
+  },
+  {
+    "ROW_NUM": 375,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區護岸回填時，表層土壤(20公分)不壓實或夯實"
+  },
+  {
+    "ROW_NUM": 374,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區完工後之填土區及裸露區採自然復育"
+  },
+  {
+    "ROW_NUM": 373,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區以複式斷面設計護岸，第一階使用漿砌石，第二階採用乾砌石，增加水、陸域動植物棲息空間"
+  },
+  {
+    "ROW_NUM": 372,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區施工時設置臨時沉沙設施"
+  },
+  {
+    "ROW_NUM": 371,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區施工便道建議利用現有農道與乾涸河床，與溪流流水區保持距離"
+  },
+  {
+    "ROW_NUM": 370,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區施工中機具過溪處利用涵管或臨時便橋，避免直接碾壓河道"
+  },
+  {
+    "ROW_NUM": 369,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區保留溪床原有大石與漂石，避免破壞原有生物棲息之環境"
+  },
+  {
+    "ROW_NUM": 368,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區保留上游沙洲島部分植被"
+  },
+  {
+    "ROW_NUM": 367,
+    "PLANYEAR": 103,
+    "ORGAN": "臺南分局",
+    "ENGIN_ID": "103ZNW3001-007",
+    "ENGIN_NAME": "仁耀橋下游護岸整治及12號橋上游維護工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區保留溪床原有大石與漂石，避免破壞原有生物棲息之環境"
+  },
+  {
+    "ROW_NUM": 366,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "上方工區工區周邊已有冇骨消與無患子樹，建議限縮開挖面積，以不干擾既有植被為原則，並以明顯之標示圈圍既有植生範圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 365,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下方工區：預定護欄範圍已有沖蝕溝，請考量路面排水方向，避免沖刷擴大"
+  },
+  {
+    "ROW_NUM": 364,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": "裸露地周邊種源豐富，建議使其自然復育。若噴植草種，建議採用適生於當地之原生種"
+  },
+  {
+    "ROW_NUM": 363,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "下方工區：建議施工避免干擾周邊原生植被"
+  },
+  {
+    "ROW_NUM": 362,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-005",
+    "ENGIN_NAME": "頓阿巴那野溪茶山國小下方整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "建議施工時盡量限縮開挖範圍，避免干擾原生植群"
+  },
+  {
+    "ROW_NUM": 361,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-005",
+    "ENGIN_NAME": "頓阿巴那野溪茶山國小下方整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "此溪段之水域棲地多樣且兩岸濱溪植生豐富，建議盡可能保留原自然棲地環境"
+  },
+  {
+    "ROW_NUM": 360,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-005",
+    "ENGIN_NAME": "頓阿巴那野溪茶山國小下方整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "建議保留溪流石質底質，以維護多孔隙且多樣棲地類型，供水生生物棲息繁衍"
+  },
+  {
+    "ROW_NUM": 359,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-005",
+    "ENGIN_NAME": "頓阿巴那野溪茶山國小下方整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "建議保留原溪段大石且不打除"
+  },
+  {
+    "ROW_NUM": 358,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-005",
+    "ENGIN_NAME": "頓阿巴那野溪茶山國小下方整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "建議保留既有胸徑大於15公分的喬木，且列為保全對象，並以明顯之標示圈圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 357,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-005",
+    "ENGIN_NAME": "頓阿巴那野溪茶山國小下方整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "建議下游可保留自然溪段，可提供鄰近腹地之野生動物良好庇護所"
+  },
+  {
+    "ROW_NUM": 356,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-004",
+    "ENGIN_NAME": "依拜邦野溪整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "盡可能減少上游段為河道調整工程開挖範圍，並配合濱溪帶植生復原，以維護本地自然環境"
+  },
+  {
+    "ROW_NUM": 355,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-004",
+    "ENGIN_NAME": "依拜邦野溪整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "河道左右岸竹闊葉混合林環境，建議減少開挖範圍，以維護動物棲息空間，"
+  },
+  {
+    "ROW_NUM": 354,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-004",
+    "ENGIN_NAME": "依拜邦野溪整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "隔離",
+    "CONSERVATION_DESC": "胸徑大於15公分之喬木以明顯之標示圈圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 353,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-004",
+    "ENGIN_NAME": "依拜邦野溪整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工期間導流溪水避開施工區域，避免斷流與水質混濁導致水生生物無法生存"
+  },
+  {
+    "ROW_NUM": 352,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-004",
+    "ENGIN_NAME": "依拜邦野溪整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "本河段坡度緩且溪流寬，建議以較緩坡度設置護岸，保留動物可通行的環境"
+  },
+  {
+    "ROW_NUM": 351,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-004",
+    "ENGIN_NAME": "依拜邦野溪整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "為維護溪流環境，建議保留溪流原有底質與環境"
+  },
+  {
+    "ROW_NUM": 350,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-003",
+    "ENGIN_NAME": "新美2鄰129線下方坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "攔阻",
+    "CONSERVATION_DESC": "因本工區多外來入侵植物，應於現地回填而不移至下游區域，以避免外來入侵種拓殖至下游"
+  },
+  {
+    "ROW_NUM": 349,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-003",
+    "ENGIN_NAME": "新美2鄰129線下方坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "建議以最小開挖面為原則，避免干擾周邊原生植群"
+  },
+  {
+    "ROW_NUM": 348,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-003",
+    "ENGIN_NAME": "新美2鄰129線下方坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "植生裸露部分則建議自鄰近地區採取原生植種移植或灑播其種子"
+  },
+  {
+    "ROW_NUM": 347,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-003",
+    "ENGIN_NAME": "新美2鄰129線下方坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "下游野溪旁茄苳為附近重要種源，樹幹上亦多附生植物，應列為重要保全對象，以明顯之標示圈圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 346,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區：施工便道建議延續下游防砂壩左岸的既有便道，以減少開挖範圍"
+  },
+  {
+    "ROW_NUM": 345,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第一工區：建議於靜水池加設動物逃生通道或堆疊塊石製造可攀爬之緩坡，避免野生動物受困其中"
+  },
+  {
+    "ROW_NUM": 344,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：預定工區已有砌石溝，且有植生附著，建議保留塊石底質，維持多孔隙以提供動物棲息環境"
+  },
+  {
+    "ROW_NUM": 343,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：道路以上之上游段，左岸大樹位於上邊坡，原設計方案應不致干擾，建議保留溝旁大樹(茄苳…等其他樹種)，並以明顯之標示圈圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 342,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：建議加設動物逃生通道，避免野生動物受困其中"
+  },
+  {
+    "ROW_NUM": 341,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區：左岸為良好之次生林環境，建議保留並於施工中以明顯之標示圈圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 340,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區：右岸為初期演替之植生環境，建議減少開挖範圍，以維持植生演替趨勢"
+  },
+  {
+    "ROW_NUM": 339,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區：工區環境具有大塊石，現勘時有逕流水，建議保留塊石底質，維持多孔隙以提供動物棲息環境"
+  },
+  {
+    "ROW_NUM": 338,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-002",
+    "ENGIN_NAME": "樂野1鄰及4鄰坑溝整治二期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "改善",
+    "CONSERVATION_DESC": "前期工程完工後，因施工便道開設，已有大樹根系裸露，建議可予以復原，避免災害發生可能"
+  },
+  {
+    "ROW_NUM": 337,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "右岸為初期演替之植生環境，建議減少開挖範圍，以維持植生演替趨勢"
+  },
+  {
+    "ROW_NUM": 336,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "隔離",
+    "CONSERVATION_DESC": "保留區域或目標於施工中以明顯之標示圈圍，避免施工過程誤傷"
+  },
+  {
+    "ROW_NUM": 335,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道建議延續下游防砂壩左岸的既有便道，以減少開挖範圍"
+  },
+  {
+    "ROW_NUM": 334,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "於靜水池加設動物逃生通道或堆疊塊石製造可攀爬之緩坡，避免野生動物受困其中"
+  },
+  {
+    "ROW_NUM": 333,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "於靜水池加設動物逃生通道或堆疊塊石製造可攀爬之緩坡，避免野生動物受困其中"
+  },
+  {
+    "ROW_NUM": 332,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留溪床塊石底質，維持多孔隙動物棲息環境。"
+  },
+  {
+    "ROW_NUM": 331,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3304-001",
+    "ENGIN_NAME": "外埤坑溝整治工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留左岸為良好次生林環境"
+  },
+  {
+    "ROW_NUM": 330,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "混凝土擋土牆皆採用造型模板，增加粗造度，有利小型動物攀爬"
+  },
+  {
+    "ROW_NUM": 329,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "使用現有便道，勿新設便道干擾現有林地"
+  },
+  {
+    "ROW_NUM": 328,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "必要回填覆土於樹木根部時，以大礫石取代土砂增加孔隙度"
+  },
+  {
+    "ROW_NUM": 327,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強樹木圍籬標示與護墊保護避免誤傷"
+  },
+  {
+    "ROW_NUM": 326,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": "該處裸露地地主後續將自行種植樹木及草皮"
+  },
+  {
+    "ROW_NUM": 325,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留預定擋土牆附近大樹"
+  },
+  {
+    "ROW_NUM": 324,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區周邊次生林"
+  },
+  {
+    "ROW_NUM": 323,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "混凝土擋土牆皆採用造型模板，增加粗造度，有利小型動物攀爬"
+  },
+  {
+    "ROW_NUM": 322,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "使用現有便道，勿新設便道干擾現有林地"
+  },
+  {
+    "ROW_NUM": 321,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "必要回填覆土於樹木根部時，以大礫石取代土砂增加孔隙度"
+  },
+  {
+    "ROW_NUM": 320,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強樹木圍籬標示與護墊保護避免誤傷"
+  },
+  {
+    "ROW_NUM": 319,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "植生",
+    "CONSERVATION_DESC": "該處裸露地地主後續將自行種植樹木及草皮"
+  },
+  {
+    "ROW_NUM": 318,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留預定擋土牆附近大樹"
+  },
+  {
+    "ROW_NUM": 317,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-010",
+    "ENGIN_NAME": "西興村第二庄崩塌地處理二期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區周邊次生林"
+  },
+  {
+    "ROW_NUM": 316,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工範圍內設置4處生態廊道"
+  },
+  {
+    "ROW_NUM": 315,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用既有道路與空地設置施工便道"
+  },
+  {
+    "ROW_NUM": 314,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "不影響設計功能前提下，施工時予以保留樹木"
+  },
+  {
+    "ROW_NUM": 313,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區附近次生林"
+  },
+  {
+    "ROW_NUM": 312,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工範圍內設置4處生態廊道"
+  },
+  {
+    "ROW_NUM": 311,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用既有道路與空地設置施工便道"
+  },
+  {
+    "ROW_NUM": 310,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "不影響設計功能前提下，施工時予以保留樹木"
+  },
+  {
+    "ROW_NUM": 309,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區附近次生林"
+  },
+  {
+    "ROW_NUM": 308,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "完工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工範圍內設置4處生態廊道"
+  },
+  {
+    "ROW_NUM": 307,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "完工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用既有道路與空地設置施工便道"
+  },
+  {
+    "ROW_NUM": 306,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "完工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "不影響設計功能前提下，施工時予以保留樹木"
+  },
+  {
+    "ROW_NUM": 305,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-009",
+    "ENGIN_NAME": "菜瓜坪排水改善工程",
+    "CHECK_PHASE": "完工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區附近次生林"
+  },
+  {
+    "ROW_NUM": 304,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "第一工區：避免大面積開挖與減少土砂進入河道"
+  },
+  {
+    "ROW_NUM": 303,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區：設置擋水與沉砂設施"
+  },
+  {
+    "ROW_NUM": 302,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區：施工便道與土石機具堆置場建議利用現有道路、裸露地與空地，避免規劃於附近次生林內"
+  },
+  {
+    "ROW_NUM": 301,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區：建議繞流或引流上游溪水避開工區，引流位置建議設置於第二點所述深潭下游，可避免潭區斷流"
+  },
+  {
+    "ROW_NUM": 300,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：保留工區周邊之次生林"
+  },
+  {
+    "ROW_NUM": 299,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：工區上游近民宅處有三棵大樹(211852, 2578040; 211853, 2578043; 211851, 2578061)保留，樹木周邊圈圍標示與護墊保護，避免工程中誤傷，施工便道周邊大樹適度予以標示"
+  },
+  {
+    "ROW_NUM": 298,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：工區上游版橋下方有一淺潭(211996, 2577923)並有魚類棲息，建議保留並避免干擾"
+  },
+  {
+    "ROW_NUM": 297,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "第一工區：避免大面積開挖與減少土砂進入河道"
+  },
+  {
+    "ROW_NUM": 296,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區：設置擋水與沉砂設施"
+  },
+  {
+    "ROW_NUM": 295,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區：施工便道與土石機具堆置場建議利用現有道路、裸露地與空地，避免規劃於附近次生林內"
+  },
+  {
+    "ROW_NUM": 294,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "第二工區：建議繞流或引流上游溪水避開工區，引流位置建議設置於第二點所述深潭下游，可避免潭區斷流"
+  },
+  {
+    "ROW_NUM": 293,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：保留工區周邊之次生林"
+  },
+  {
+    "ROW_NUM": 292,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：工區上游近民宅處有三棵大樹(211852, 2578040; 211853, 2578043; 211851, 2578061)保留，樹木周邊圈圍標示與護墊保護，避免工程中誤傷，施工便道周邊大樹適度予以標示"
+  },
+  {
+    "ROW_NUM": 291,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-008",
+    "ENGIN_NAME": "和平四號橋下游野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區：工區上游版橋下方有一淺潭(211996, 2577923)並有魚類棲息，建議保留並避免干擾"
+  },
+  {
+    "ROW_NUM": 290,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池出口處設計斜緩坡並打毛處理"
+  },
+  {
+    "ROW_NUM": 289,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池上方鋪置蓋板"
+  },
+  {
+    "ROW_NUM": 288,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "排水溝內面增加壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 287,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "注意施工期間的水土保持，避免土砂影響下游地區"
+  },
+  {
+    "ROW_NUM": 286,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 285,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池出口處設計斜緩坡並打毛處理"
+  },
+  {
+    "ROW_NUM": 284,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池上方鋪置蓋板"
+  },
+  {
+    "ROW_NUM": 283,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "排水溝內面增加壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 282,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "注意施工期間的水土保持，避免土砂影響下游地區"
+  },
+  {
+    "ROW_NUM": 281,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-007",
+    "ENGIN_NAME": "隙頂5鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 280,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "坡面掛網植生混合噴植原生草本及木本植物"
+  },
+  {
+    "ROW_NUM": 279,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "避開周邊竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 278,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留裸露區域既有植生"
+  },
+  {
+    "ROW_NUM": 277,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "坡面掛網植生混合噴植原生草本及木本植物"
+  },
+  {
+    "ROW_NUM": 276,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "避開周邊竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 275,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-006",
+    "ENGIN_NAME": "達邦6鄰崩塌地處理工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留裸露區域既有植生"
+  },
+  {
+    "ROW_NUM": 274,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "降低原護岸高度，上部以砌石形式取代"
+  },
+  {
+    "ROW_NUM": 273,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "護岸斜率降低"
+  },
+  {
+    "ROW_NUM": 272,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加護岸壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 271,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工設計開口，並拋排現場塊石增加棲地多樣性"
+  },
+  {
+    "ROW_NUM": 270,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以砌石保護樹木根部"
+  },
+  {
+    "ROW_NUM": 269,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游設計沉沙池設施"
+  },
+  {
+    "ROW_NUM": 268,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "避開兩岸次生林及保留工區周邊既有喬木"
+  },
+  {
+    "ROW_NUM": 267,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區上游楠櫧類森林"
+  },
+  {
+    "ROW_NUM": 266,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "取消部分工程施作，避開原生魚類"
+  },
+  {
+    "ROW_NUM": 265,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "降低原護岸高度，上部以砌石形式取代"
+  },
+  {
+    "ROW_NUM": 264,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "護岸斜率降低"
+  },
+  {
+    "ROW_NUM": 263,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加護岸壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 262,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工設計開口，並拋排現場塊石增加棲地多樣性"
+  },
+  {
+    "ROW_NUM": 261,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以砌石保護樹木根部"
+  },
+  {
+    "ROW_NUM": 260,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游設計沉沙池設施"
+  },
+  {
+    "ROW_NUM": 259,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "避開兩岸次生林及保留工區周邊既有喬木"
+  },
+  {
+    "ROW_NUM": 258,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區上游楠櫧類森林"
+  },
+  {
+    "ROW_NUM": 257,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-005",
+    "ENGIN_NAME": "茶山1鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "取消部分工程施作，避開原生魚類"
+  },
+  {
+    "ROW_NUM": 256,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "工程施作時應謹慎避免大面積開挖與干擾"
+  },
+  {
+    "ROW_NUM": 255,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "隔離",
+    "CONSERVATION_DESC": "樹木與重要生態區域應以圍籬標示，避免誤傷保護目標。"
+  },
+  {
+    "ROW_NUM": 254,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢"
+  },
+  {
+    "ROW_NUM": 253,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "箱涵開口處設置疊石"
+  },
+  {
+    "ROW_NUM": 252,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加護岸壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 251,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "降低原設計護岸高度，上部以砌石形式取代，減少動物往來水陸域之阻隔"
+  },
+  {
+    "ROW_NUM": 250,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、空地與竹林地區，避免干擾林地"
+  },
+  {
+    "ROW_NUM": 249,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口至底部，下游面設置疊石，減輕落差"
+  },
+  {
+    "ROW_NUM": 248,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "工區下游設置沉砂設施"
+  },
+  {
+    "ROW_NUM": 247,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區下游左岸有山棕1棵(0K+040.00)保留"
+  },
+  {
+    "ROW_NUM": 246,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區下游右岸有山黃麻1棵(0K+044.10)保留"
+  },
+  {
+    "ROW_NUM": 245,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區上游左岸有一山棕群(0K+012.07~0K+024.00間)保留"
+  },
+  {
+    "ROW_NUM": 244,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區下游左岸有茄冬1棵(0K+034.17)保留"
+  },
+  {
+    "ROW_NUM": 243,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留第二工區上游大石"
+  },
+  {
+    "ROW_NUM": 242,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "工程施作時應謹慎避免大面積開挖與干擾"
+  },
+  {
+    "ROW_NUM": 241,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢"
+  },
+  {
+    "ROW_NUM": 240,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "樹木與重要生態區域應以圍籬標示，避免誤傷保護目標"
+  },
+  {
+    "ROW_NUM": 239,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "箱涵開口處設置疊石"
+  },
+  {
+    "ROW_NUM": 238,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加護岸壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 237,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "降低原設計護岸高度，上部以砌石形式取代，減少動物往來水陸域之阻隔"
+  },
+  {
+    "ROW_NUM": 236,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、空地與竹林地區，避免干擾林地"
+  },
+  {
+    "ROW_NUM": 235,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口至底部，下游面設置疊石，減輕落差"
+  },
+  {
+    "ROW_NUM": 234,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "工區下游設置沉砂設施"
+  },
+  {
+    "ROW_NUM": 233,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區下游左岸有山棕1棵(0K+040.00)保留"
+  },
+  {
+    "ROW_NUM": 232,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第二工區下游右岸有山黃麻1棵(0K+044.10)保留"
+  },
+  {
+    "ROW_NUM": 231,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區上游左岸有一山棕群(0K+012.07~0K+024.00間)保留"
+  },
+  {
+    "ROW_NUM": 230,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "第一工區下游左岸有茄冬1棵(0K+034.17)保留"
+  },
+  {
+    "ROW_NUM": 229,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-004",
+    "ENGIN_NAME": "山美五鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留第二工區上游大石"
+  },
+  {
+    "ROW_NUM": 228,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "開挖處採鋼板擋土式垂直下挖，減少開挖面"
+  },
+  {
+    "ROW_NUM": 227,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "降低原護岸高度"
+  },
+  {
+    "ROW_NUM": 226,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "護岸上部以砌石形式取代，增加砌石比例"
+  },
+  {
+    "ROW_NUM": 225,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "箱涵開口處設置疊石，減輕落差"
+  },
+  {
+    "ROW_NUM": 224,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加護岸壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 223,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口至底部，下游面設置疊石，減輕落差"
+  },
+  {
+    "ROW_NUM": 222,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用現有道路、空地及竹林地做為施工便道及土石機具堆置場"
+  },
+  {
+    "ROW_NUM": 221,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區週圍竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 220,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區週圍大樹"
+  },
+  {
+    "ROW_NUM": 219,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "開挖處採鋼板擋土式垂直下挖，減少開挖面"
+  },
+  {
+    "ROW_NUM": 218,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "降低原護岸高度"
+  },
+  {
+    "ROW_NUM": 217,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "護岸上部以砌石形式取代，增加砌石比例"
+  },
+  {
+    "ROW_NUM": 216,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "箱涵開口處設置疊石，減輕落差"
+  },
+  {
+    "ROW_NUM": 215,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加護岸壁面粗糙度"
+  },
+  {
+    "ROW_NUM": 214,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口至底部，下游面設置疊石，減輕落差"
+  },
+  {
+    "ROW_NUM": 213,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用現有道路、空地及竹林地做為施工便道及土石機具堆置場"
+  },
+  {
+    "ROW_NUM": 212,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區週圍竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 211,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-003",
+    "ENGIN_NAME": "山美四鄰農路旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區週圍大樹"
+  },
+  {
+    "ROW_NUM": 210,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有農路、空地與竹林，沿乾涸溪床或溪溝左岸竹林施作。加強便道、樹木與重要生態區域圍籬標示，避免誤入非施工範圍"
+  },
+  {
+    "ROW_NUM": 209,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "建議降低原設計混凝土護岸高度，上半部調整為砌石護岸。非攻擊面增加砌石緩坡護岸比例，或設置動物逃生通道，減少動物往來之阻隔。混凝土牆面增加粗糙度有助小型動物攀爬"
+  },
+  {
+    "ROW_NUM": 208,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口至底部，或在下游面設置疊石減少落差，減少工程縱向阻隔"
+  },
+  {
+    "ROW_NUM": 207,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "考量工程安全前提下，建議調整固床工與護岸位置迴避，加強樹木標示與護墊保護。避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢"
+  },
+  {
+    "ROW_NUM": 206,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留路邊下游右岸楓香1棵與杜英1棵(0K+000.00)、路邊上游右岸雀榕1棵(0K+008.30)；沿溪中游右岸有櫸木4棵(0K+023.93)，上游右岸有破布子3棵、山黃麻1棵與灌叢(0K+067.35~0K+098.40)"
+  },
+  {
+    "ROW_NUM": 205,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工程範圍內鄰近次生林，屬於森林演替後期之環境，是潛在動物棲地，生態豐富，建議保留"
+  },
+  {
+    "ROW_NUM": 204,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有農路、空地與竹林，沿乾涸溪床或溪溝左岸竹林施作。加強便道、樹木與重要生態區域圍籬標示，避免誤入非施工範圍"
+  },
+  {
+    "ROW_NUM": 203,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "建議降低原設計混凝土護岸高度，上半部調整為砌石護岸。非攻擊面增加砌石緩坡護岸比例，或設置動物逃生通道，減少動物往來之阻隔。混凝土牆面增加粗糙度有助小型動物攀"
+  },
+  {
+    "ROW_NUM": 202,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口至底部，或在下游面設置疊石減少落差，減少工程縱向阻隔"
+  },
+  {
+    "ROW_NUM": 201,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "考量工程安全前提下，建議調整固床工與護岸位置迴避，加強樹木標示與護墊保護。避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢"
+  },
+  {
+    "ROW_NUM": 200,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留路邊下游右岸楓香1棵與杜英1棵(0K+000.00)、路邊上游右岸雀榕1棵(0K+008.30)；沿溪中游右岸有櫸木4棵(0K+023.93)，上游右岸有破布子3棵、山黃麻1棵與灌叢(0K+067.35~0K+098.40)"
+  },
+  {
+    "ROW_NUM": 199,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-002",
+    "ENGIN_NAME": "樂野永久屋上方坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工程範圍內鄰近次生林，屬於森林演替後期之環境，是潛在動物棲地，生態豐富，建議保留"
+  },
+  {
+    "ROW_NUM": 198,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "工程施作時避免大面積開挖以保持水土"
+  },
+  {
+    "ROW_NUM": 197,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "降低原設計護岸高度，上部以砌石形式取代，減少動物往來水陸域之阻隔；混凝土牆面增加壁面粗糙度，有助小型動物攀爬"
+  },
+  {
+    "ROW_NUM": 196,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "建議本工程該段仍採用砌石形式，維持原有微棲地孔隙"
+  },
+  {
+    "ROW_NUM": 195,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口下游面設置疊石，降低高差至0.5公尺，減少工程縱向阻隔"
+  },
+  {
+    "ROW_NUM": 194,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工區下側左岸有破布子、山紅柿與朴樹各1棵(219855, 2595672; 219859, 2595661)，建議保留並落實樹木標示與護墊保護，避免工程中誤傷"
+  },
+  {
+    "ROW_NUM": 193,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "工程施作時避免大面積開挖以保持水土"
+  },
+  {
+    "ROW_NUM": 192,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "降低原設計護岸高度，上部以砌石形式取代，減少動物往來水陸域之阻隔；混凝土牆面增加壁面粗糙度，有助小型動物攀爬"
+  },
+  {
+    "ROW_NUM": 191,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "建議本工程該段仍採用砌石形式，維持原有微棲地孔隙"
+  },
+  {
+    "ROW_NUM": 190,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工開口下游面設置疊石，降低高差至0.5公尺，減少工程縱向阻隔"
+  },
+  {
+    "ROW_NUM": 189,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3302-001",
+    "ENGIN_NAME": "樂野2鄰野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工區下側左岸有破布子、山紅柿與朴樹各1棵(219855, 2595672; 219859, 2595661)，建議保留並落實樹木標示與護墊保護，避免工程中誤傷"
+  },
+  {
+    "ROW_NUM": 188,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "溪流遍布塊石，建議迴避或縮減工程規模與長度，部份溪段維持自然不干擾"
+  },
+  {
+    "ROW_NUM": 187,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "隔離",
+    "CONSERVATION_DESC": "生態保全對象與範圍以明顯之標示圈圍，避免施工過程誤入誤傷"
+  },
+  {
+    "ROW_NUM": 186,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "完工後移植當地小苗草種，或植生適生於當地之原生種"
+  },
+  {
+    "ROW_NUM": 185,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "機具過溪處鋪設涵管或臨時便橋，避免機具直接行經河道，擾動土砂進入溪水中"
+  },
+  {
+    "ROW_NUM": 184,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道建議利用現有農道與乾涸河床，與溪流流水區保持距離"
+  },
+  {
+    "ROW_NUM": 183,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "建議以砌石護岸形式設計，或是降低原設計混凝土護岸高度，上半部改砌石護岸。"
+  },
+  {
+    "ROW_NUM": 182,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "建議以半半施工法施作，繞流導流溪水迴避施工處，排擋水設施與設置沉砂設施，以降低濁度"
+  },
+  {
+    "ROW_NUM": 181,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工與防砂壩建議採用低落差或開口壩設計，或其他高通透性設計，維持生物縱向通透性"
+  },
+  {
+    "ROW_NUM": 180,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "攻擊面增加砌石緩坡護岸比例，或是設計動物逃生通道或堆疊塊石製造可攀爬緩坡，維持生物橫向通透性"
+  },
+  {
+    "ROW_NUM": 179,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "左岸竹闊葉混合林與未管理檳榔園交錯區域生態良好，建議迴避不擾動"
+  },
+  {
+    "ROW_NUM": 178,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3005-001",
+    "ENGIN_NAME": "東西坑溪崩塌地及野溪治理五期工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工區有一植生豐富的河島，建議迴避或僅可能保留"
+  },
+  {
+    "ROW_NUM": 177,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "工程後灑播原生草種與植生原生樹種"
+  },
+  {
+    "ROW_NUM": 176,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "既有便道作為施工便道，不另闢新便道"
+  },
+  {
+    "ROW_NUM": 175,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工區域與施工便道附近大樹，應迴避並以圍籬標示，避免誤傷樹木。避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分通透。"
+  },
+  {
+    "ROW_NUM": 174,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "於道路側排置土包，防止濁水流入溪流"
+  },
+  {
+    "ROW_NUM": 173,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "生態保全對象、施工便道與施工範圍建議標示於設計圖說中，依圖施作。施工前以圍籬標示避免誤入，並對施工人員進行施工前教育訓練。"
+  },
+  {
+    "ROW_NUM": 172,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留野溪石質溪床環境"
+  },
+  {
+    "ROW_NUM": 171,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留左岸大樹群(219538,2595788；219557,595722；219572,2595702)"
+  },
+  {
+    "ROW_NUM": 170,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留右岸大樹群(219511,2595760；219515,2595729)"
+  },
+  {
+    "ROW_NUM": 169,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留右岸大樹(219497,2595750)：該樹為當地原民信仰重心"
+  },
+  {
+    "ROW_NUM": 168,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工程周邊竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 167,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "取消原設計固床工與護岸工程"
+  },
+  {
+    "ROW_NUM": 166,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "工程後灑播原生草種與植生原生樹種"
+  },
+  {
+    "ROW_NUM": 165,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "既有便道作為施工便道，不另闢新便道"
+  },
+  {
+    "ROW_NUM": 164,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工區域與施工便道附近大樹，應迴避並以圍籬標示，避免誤傷樹木。避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分通透"
+  },
+  {
+    "ROW_NUM": 163,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "於道路側排置土包，防止濁水流入溪流"
+  },
+  {
+    "ROW_NUM": 162,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "生態保全對象、施工便道與施工範圍建議標示於設計圖說中，依圖施作。施工前以圍籬標示避免誤入，並對施工人員進行施工前教育訓練"
+  },
+  {
+    "ROW_NUM": 161,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留野溪石質溪床環境"
+  },
+  {
+    "ROW_NUM": 160,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留左岸大樹群(219538,2595788；219557,595722；219572,2595702)"
+  },
+  {
+    "ROW_NUM": 159,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留右岸大樹群(219511,2595760；219515,2595729)"
+  },
+  {
+    "ROW_NUM": 158,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留右岸大樹(219497,2595750)：該樹為當地原民信仰重心"
+  },
+  {
+    "ROW_NUM": 157,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工程周邊竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 156,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-003",
+    "ENGIN_NAME": "雅吾瑪斯野溪整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "取消原設計固床工與護岸工程"
+  },
+  {
+    "ROW_NUM": 155,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "機具過溪處鋪設便道"
+  },
+  {
+    "ROW_NUM": 154,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "為維持溪流縱向通透性，建議固床工開口，並於下方疊石降低落差，使受困動物容易從下游脫困，魚類容易上溯"
+  },
+  {
+    "ROW_NUM": 153,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、空地與竹林地區，避免干擾周圍竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 152,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "保留溪床石質底質，建議避免全數移除工區礫石、漂石與大石，至少保留半數石塊於溪床中。"
+  },
+  {
+    "ROW_NUM": 151,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工下游鋪設漿砌塊石及拋石"
+  },
+  {
+    "ROW_NUM": 150,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "生態保全對象、施工便道與施工範圍建議標示於設計圖說中，依圖施作。施工前以圍籬或清楚之標示避免誤入，並對施工人員進行施工前教育訓練，以充分瞭解生態保全措施，利用自主檢查表管理"
+  },
+  {
+    "ROW_NUM": 149,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強排擋水設施與設置沉砂池"
+  },
+  {
+    "ROW_NUM": 148,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留左岸濱溪樹木，避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢。樹木座標如下 ( 222242,2592648；222262, 2592669；222278,2592687；222323, 2592711；222366, 2592722)"
+  },
+  {
+    "ROW_NUM": 147,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工程右岸為大面積生態豐富之竹闊葉混合林，是潛在動物棲地，工程施作時應謹慎避免開挖與干擾"
+  },
+  {
+    "ROW_NUM": 146,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "機具過溪處鋪設便道"
+  },
+  {
+    "ROW_NUM": 145,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "為維持溪流縱向通透性，建議固床工開口，並於下方疊石降低落差，使受困動物容易從下游脫困，魚類容易上溯"
+  },
+  {
+    "ROW_NUM": 144,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、空地與竹林地區，避免干擾周圍竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 143,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "保留溪床石質底質，建議避免全數移除工區礫石、漂石與大石，至少保留半數石塊於溪床中"
+  },
+  {
+    "ROW_NUM": 142,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "固床工下游鋪設漿砌塊石及拋石"
+  },
+  {
+    "ROW_NUM": 141,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "生態保全對象、施工便道與施工範圍建議標示於設計圖說中，依圖施作。施工前以圍籬或清楚之標示避免誤入，並對施工人員進行施工前教育訓練，以充分瞭解生態保全措施，利用自主檢查表管理"
+  },
+  {
+    "ROW_NUM": 140,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強排擋水設施與設置沉砂池"
+  },
+  {
+    "ROW_NUM": 139,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留左岸濱溪樹木，避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢。樹木座標如下 ( 222242,2592648；222262, 2592669；222278,2592687；222323, 2592711；222366, 2592722)"
+  },
+  {
+    "ROW_NUM": 138,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-002",
+    "ENGIN_NAME": "達德安溪支流整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工程右岸為大面積生態豐富之竹闊葉混合林，是潛在動物棲地，工程施作時應謹慎避免開挖與干擾"
+  },
+  {
+    "ROW_NUM": 137,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "工程範圍周邊為大面積生態豐富之竹闊葉混合林，是潛在動物棲地，工程施作時應謹慎避免大面積開挖與干擾。"
+  },
+  {
+    "ROW_NUM": 136,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "機具過溪處鋪設涵管或臨時便橋"
+  },
+  {
+    "ROW_NUM": 135,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "設置6處溪床鋪排塊石"
+  },
+  {
+    "ROW_NUM": 134,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "為維持溪流縱向通透性，建議固床工開口，並於下方疊石降低落差，使受困動物容易從下游脫困，魚類容易上溯"
+  },
+  {
+    "ROW_NUM": 133,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工時加強排擋水設施"
+  },
+  {
+    "ROW_NUM": 132,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與流水區保持距離"
+  },
+  {
+    "ROW_NUM": 131,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、空地與竹林地區，避免干擾右岸下游竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 130,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以繞流導流溪水迴避施工處以降低濁度"
+  },
+  {
+    "ROW_NUM": 129,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留兩岸前期工程保留之大樹 ，避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢。右岸大樹群(224412,2594343；224414,2594337；224415,2594326；224414;2594321)；左岸大樹2處(224342, 2594280； 224311, 2594352)"
+  },
+  {
+    "ROW_NUM": 128,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "工程範圍周邊為大面積生態豐富之竹闊葉混合林，是潛在動物棲地，工程施作時應謹慎避免大面積開挖與干擾"
+  },
+  {
+    "ROW_NUM": 127,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "機具過溪處鋪設涵管或臨時便橋"
+  },
+  {
+    "ROW_NUM": 126,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "設置6處溪床鋪排塊石"
+  },
+  {
+    "ROW_NUM": 125,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "為維持溪流縱向通透性，建議固床工開口，並於下方疊石降低落差，使受困動物容易從下游脫困，魚類容易上溯"
+  },
+  {
+    "ROW_NUM": 124,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工時加強排擋水設施"
+  },
+  {
+    "ROW_NUM": 123,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與流水區保持距離"
+  },
+  {
+    "ROW_NUM": 122,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、空地與竹林地區，避免干擾右岸下游竹闊葉混合林"
+  },
+  {
+    "ROW_NUM": 121,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以繞流導流溪水迴避施工處以降低濁度"
+  },
+  {
+    "ROW_NUM": 120,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3003-001",
+    "ENGIN_NAME": "櫻花溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留兩岸前期工程保留之大樹 ，避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢。 右岸大樹群(224412,2594343；224414,2594337；224415,2594326；224414;2594321)；左岸大樹2處 (224342, 2594280； 224311, 2594352)"
+  },
+  {
+    "ROW_NUM": 119,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加多處生態砌石護岸"
+  },
+  {
+    "ROW_NUM": 118,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "規劃7處溪底拋石"
+  },
+  {
+    "ROW_NUM": 117,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "將固床工開口至底部，並於下游堆疊塊石"
+  },
+  {
+    "ROW_NUM": 116,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、草生地與空地"
+  },
+  {
+    "ROW_NUM": 115,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "保留大部分塊石"
+  },
+  {
+    "ROW_NUM": 114,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "必要回填覆土於樹木根部時，以大礫石取代土砂增加孔隙度"
+  },
+  {
+    "ROW_NUM": 113,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強樹木圍籬標示與護墊保護避免誤傷"
+  },
+  {
+    "ROW_NUM": 112,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留溪溝中倒木"
+  },
+  {
+    "ROW_NUM": 111,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區上游右岸與下游左岸次生林"
+  },
+  {
+    "ROW_NUM": 110,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留下游左岸預定量體旁之大樹(208804, 2573730)"
+  },
+  {
+    "ROW_NUM": 109,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工程施作時應謹慎避免大面積開挖，保留次生林間連結"
+  },
+  {
+    "ROW_NUM": 108,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "增加多處生態砌石護岸"
+  },
+  {
+    "ROW_NUM": 107,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "規劃7處溪底拋石"
+  },
+  {
+    "ROW_NUM": 106,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "將固床工開口至底部，並於下游堆疊塊石"
+  },
+  {
+    "ROW_NUM": 105,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，建議利用現有道路、草生地與空地"
+  },
+  {
+    "ROW_NUM": 104,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "保留大部分塊石"
+  },
+  {
+    "ROW_NUM": 103,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "必要回填覆土於樹木根部時，以大礫石取代土砂增加孔隙度"
+  },
+  {
+    "ROW_NUM": 102,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強樹木圍籬標示與護墊保護避免誤傷"
+  },
+  {
+    "ROW_NUM": 101,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留溪溝中倒木"
+  },
+  {
+    "ROW_NUM": 100,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區上游右岸與下游左岸次生林"
+  },
+  {
+    "ROW_NUM": 99,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留下游左岸預定量體旁之大樹(208804, 2573730)"
+  },
+  {
+    "ROW_NUM": 98,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-006",
+    "ENGIN_NAME": "東西坑溪旁坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "工程施作時應謹慎避免大面積開挖，保留次生林間連結"
+  },
+  {
+    "ROW_NUM": 97,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "撒播適生原生草種與樹種"
+  },
+  {
+    "ROW_NUM": 96,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "移植原次生林小苗木完工後回植"
+  },
+  {
+    "ROW_NUM": 95,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，利用現有道路、裸露地與空地，不另外闢建其他便道與空間"
+  },
+  {
+    "ROW_NUM": 94,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留兩側護坡處之既有次生林或已生長恢復的灌叢"
+  },
+  {
+    "ROW_NUM": 93,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "撒播適生原生草種與樹種"
+  },
+  {
+    "ROW_NUM": 92,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "移植原次生林小苗木完工後回植"
+  },
+  {
+    "ROW_NUM": 91,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場，利用現有道路、裸露地與空地，不另外闢建其他便道與空間"
+  },
+  {
+    "ROW_NUM": 90,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-005",
+    "ENGIN_NAME": "瀨頭崩塌地處理4期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留兩側護坡處之既有次生林或已生長恢復的灌叢"
+  },
+  {
+    "ROW_NUM": 89,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池底部不封底，以排石鋪底增加透水性"
+  },
+  {
+    "ROW_NUM": 88,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場利用現有道路、草生地與空地"
+  },
+  {
+    "ROW_NUM": 87,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強樹木圍籬標示與護墊保護避免誤傷。避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢"
+  },
+  {
+    "ROW_NUM": 86,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留坑溝中游左岸鄰近坑溝處大樹8棵"
+  },
+  {
+    "ROW_NUM": 85,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區週圍次生林"
+  },
+  {
+    "ROW_NUM": 84,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區左岸赤楊林"
+  },
+  {
+    "ROW_NUM": 83,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池底部不封底，以排石鋪底增加透水性"
+  },
+  {
+    "ROW_NUM": 82,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道與土石機具堆置場利用現有道路、草生地與空地"
+  },
+  {
+    "ROW_NUM": 81,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強樹木圍籬標示與護墊保護避免誤傷。避免覆土於樹木根部，若有回填必要，建議以大礫石取代土砂以增加孔隙度，維持樹根呼吸與水分順暢"
+  },
+  {
+    "ROW_NUM": 80,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留坑溝中游左岸鄰近坑溝處大樹8棵"
+  },
+  {
+    "ROW_NUM": 79,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區週圍次生林"
+  },
+  {
+    "ROW_NUM": 78,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-004",
+    "ENGIN_NAME": "達邦七鄰坑溝整治工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區左岸赤楊林"
+  },
+  {
+    "ROW_NUM": 77,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "延續前期措施，施工時限縮開挖面"
+  },
+  {
+    "ROW_NUM": 76,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池底部採用拋石"
+  },
+  {
+    "ROW_NUM": 75,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "裸露區自然復育植生"
+  },
+  {
+    "ROW_NUM": 74,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "設計乾砌石護岸及砌石生態斜坡"
+  },
+  {
+    "ROW_NUM": 73,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道或堆置場所利用現有道路、裸露地與空地"
+  },
+  {
+    "ROW_NUM": 72,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以繞流或導流避免伏流現象產生"
+  },
+  {
+    "ROW_NUM": 71,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留預定工區右側12棵楝科大樹(221735, 2588807)"
+  },
+  {
+    "ROW_NUM": 70,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區範圍左右兩岸之次生林"
+  },
+  {
+    "ROW_NUM": 69,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "延續前期措施，施工時限縮開挖面"
+  },
+  {
+    "ROW_NUM": 68,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "靜水池底部採用拋石"
+  },
+  {
+    "ROW_NUM": 67,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "裸露區自然復育植生"
+  },
+  {
+    "ROW_NUM": 66,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "設計乾砌石護岸及砌石生態斜坡"
+  },
+  {
+    "ROW_NUM": 65,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道或堆置場所利用現有道路、裸露地與空地"
+  },
+  {
+    "ROW_NUM": 64,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以繞流或導流避免伏流現象產生"
+  },
+  {
+    "ROW_NUM": 63,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留預定工區右側12棵楝科大樹(221735, 2588807)"
+  },
+  {
+    "ROW_NUM": 62,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-003",
+    "ENGIN_NAME": "達有野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區範圍左右兩岸之次生林"
+  },
+  {
+    "ROW_NUM": 61,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "種植台灣櫸，裸露區自然復育植生"
+  },
+  {
+    "ROW_NUM": 60,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "設計乾砌石護岸及乾砌石生態廊道"
+  },
+  {
+    "ROW_NUM": 59,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工時限縮開挖面，並以繞流或導流避免伏流現象產生"
+  },
+  {
+    "ROW_NUM": 58,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道或堆置場所利用現有道路、草生地與空地"
+  },
+  {
+    "ROW_NUM": 57,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "前期工程防砂壩體落差大，建議疊石降低落差，未設計開口之固床工建議適當切割開口"
+  },
+  {
+    "ROW_NUM": 56,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "保留石質底質，以大石營造一深潭區，作為水域生物棲息之所"
+  },
+  {
+    "ROW_NUM": 55,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用現地石材構築低落差(<0.5 m)階梯式，潭瀨交替的固床設施；或設計開口至河床的低壩"
+  },
+  {
+    "ROW_NUM": 54,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強沉砂設施，避免造成水質混濁與下游土砂淤積"
+  },
+  {
+    "ROW_NUM": 53,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以乾砌石或石籠方式施作緩坡護岸；或降低原設計護岸高度與坡度，上部以砌石形式取代，疊石成緩坡使周圍次生林中動物易於通行與利用溪流"
+  },
+  {
+    "ROW_NUM": 52,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留既有塊石"
+  },
+  {
+    "ROW_NUM": 51,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留前期工程左側楠木(221720, 2589051)"
+  },
+  {
+    "ROW_NUM": 50,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區範圍左右兩岸與上游之次生林"
+  },
+  {
+    "ROW_NUM": 49,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "種植台灣櫸，裸露區自然復育植生"
+  },
+  {
+    "ROW_NUM": 48,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "設計乾砌石護岸及乾砌石生態廊道"
+  },
+  {
+    "ROW_NUM": 47,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工時限縮開挖面，並以繞流或導流避免伏流現象產生"
+  },
+  {
+    "ROW_NUM": 46,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "施工便道或堆置場所利用現有道路、草生地與空地"
+  },
+  {
+    "ROW_NUM": 45,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "前期工程防砂壩體落差大，建議疊石降低落差，未設計開口之固床工建議適當切割開口"
+  },
+  {
+    "ROW_NUM": 44,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "保留石質底質，以大石營造一深潭區，作為水域生物棲息之所"
+  },
+  {
+    "ROW_NUM": 43,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "加強沉砂設施，避免造成水質混濁與下游土砂淤積"
+  },
+  {
+    "ROW_NUM": 42,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "以乾砌石或石籠方式施作緩坡護岸；或降低原設計護岸高度與坡度，上部以砌石形式取代，疊石成緩坡使周圍次生林中動物易於通行與利用溪流"
+  },
+  {
+    "ROW_NUM": 41,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留既有塊石"
+  },
+  {
+    "ROW_NUM": 40,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留前期工程左側楠木(221720, 2589051)"
+  },
+  {
+    "ROW_NUM": 39,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "保留工區範圍左右兩岸與上游之次生林"
+  },
+  {
+    "ROW_NUM": 38,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-002",
+    "ENGIN_NAME": "里佳村二、三鄰野溪整治四期工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "利用現地石材構築低落差(<0.5 m)階梯式，潭瀨交替的固床設施；或設計開口至河床的低壩"
+  },
+  {
+    "ROW_NUM": 37,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "社區下方崩塌處清坡以最小面積為原則"
+  },
+  {
+    "ROW_NUM": 36,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "社區下方崩塌處噴植作業選用原生適生草種與樹種"
+  },
+  {
+    "ROW_NUM": 35,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用上游工區前期工程遺留的便道與堆置場址，裸露面與填土區漸有植生生長成為草生地，可設置為施工便道與機具堆置場所"
+  },
+  {
+    "ROW_NUM": 34,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區設置沉砂設施，或排擋水設施，或以繞流導流方式以降低濁度"
+  },
+  {
+    "ROW_NUM": 33,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區施工機具過溪處鋪設涵管或臨時便橋，避免機具直接行經河道，擾動土砂進入溪水中"
+  },
+  {
+    "ROW_NUM": 32,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區建議進行人工採種試驗，種子收集後保持乾燥(避免發霉)，利用人工撒播方式均勻撒播於土方回填範圍，並以綠覆率驗收"
+  },
+  {
+    "ROW_NUM": 31,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區建議人工小苗移植，移植周圍環境之先驅草木本，工程施作後於裸露面回植"
+  },
+  {
+    "ROW_NUM": 30,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區防砂壩建議以開口壩型式設計，高度與河床面等高，或配合疊石使上下游水域落差最小化"
+  },
+  {
+    "ROW_NUM": 29,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游工區便道或堆置區周邊有林地時，限縮開挖面積，設置柵欄圈圍避免機具誤入，並納入圖說"
+  },
+  {
+    "ROW_NUM": 28,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區施工便道(包含機具堆放之工作台)建議由A區闢設"
+  },
+  {
+    "ROW_NUM": 27,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區建議施工便道開設前進行該區種子表土保存，施工結束後均勻回舖於施工便道進行復原(勿夯實)"
+  },
+  {
+    "ROW_NUM": 26,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "社區下方崩塌處建議邊坡上既有喬木保留不清除"
+  },
+  {
+    "ROW_NUM": 25,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "上游與下游工區周邊森林為竹闊葉混合林，屬高度敏感區域 (紅色標示)，建議迴避不干擾"
+  },
+  {
+    "ROW_NUM": 24,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "規劃設計階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "下游工區支流水域生態豐富，建議迴避不擾動"
+  },
+  {
+    "ROW_NUM": 23,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區設置沉砂設施，或排擋水設施，或以繞流導流方式以降低濁度"
+  },
+  {
+    "ROW_NUM": 22,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區施工機具過溪處鋪設涵管或臨時便橋，避免機具直接行經河道，擾動土砂進入溪水"
+  },
+  {
+    "ROW_NUM": 21,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區施工便道(包含機具堆放之工作台)建議由A區闢設"
+  },
+  {
+    "ROW_NUM": 20,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區建議該工程進行人工採種試驗，種子收集後保持乾燥(避免發霉)，利用人工撒播方式均勻撒播於土方回填範圍，並以綠覆率驗收"
+  },
+  {
+    "ROW_NUM": 19,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區建議施工便道開設前進行該區種子表土保存，施工結束後均勻回舖於施工便道進行復原(勿夯實)"
+  },
+  {
+    "ROW_NUM": 18,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區建議人工小苗移植，移植周圍環境之先驅草木本，工程施作後於裸露面回植"
+  },
+  {
+    "ROW_NUM": 17,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區防砂壩建議以開口壩型式設計，高度與河床面等高，或配合疊石使上下游水域落差最小化"
+  },
+  {
+    "ROW_NUM": 16,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "下游工區周邊森林為竹闊葉混合林，屬高度敏感區域 (紅色標示)，建議迴避不干擾"
+  },
+  {
+    "ROW_NUM": 15,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "核定階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "下游工區支流水域生態豐富，建議迴避不擾動"
+  },
+  {
+    "ROW_NUM": 14,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "縮小",
+    "CONSERVATION_DESC": "社區下方崩塌處清坡以最小面積為原則"
+  },
+  {
+    "ROW_NUM": 13,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "補償",
+    "CONSERVATION_DESC": "社區下方崩塌處噴植作業選用原生適生草種與樹種"
+  },
+  {
+    "ROW_NUM": 12,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "利用上游工區前期工程遺留的便道與堆置場址，裸露面與填土區漸有植生生長成為草生地，可設置為施工便道與機具堆置場所"
+  },
+  {
+    "ROW_NUM": 11,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區設置沉砂設施，或排擋水設施，或以繞流導流方式以降低濁度"
+  },
+  {
+    "ROW_NUM": 10,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區施工機具過溪處鋪設涵管或臨時便橋，避免機具直接行經河道，擾動土砂進入溪水中"
+  },
+  {
+    "ROW_NUM": 9,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區建議進行人工採種試驗，種子收集後保持乾燥(避免發霉)，利用人工撒播方式均勻撒播於土方回填範圍，並以綠覆率驗收"
+  },
+  {
+    "ROW_NUM": 8,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區建議人工小苗移植，移植周圍環境之先驅草木本，工程施作後於裸露面回植"
+  },
+  {
+    "ROW_NUM": 7,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游與下游工區防砂壩建議以開口壩型式設計，高度與河床面等高，或配合疊石使上下游水域落差最小化"
+  },
+  {
+    "ROW_NUM": 6,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "上游工區便道或堆置區周邊有林地時，限縮開挖面積，設置柵欄圈圍避免機具誤入，並納入圖說"
+  },
+  {
+    "ROW_NUM": 5,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區施工便道(包含機具堆放之工作台)建議由A區闢設"
+  },
+  {
+    "ROW_NUM": 4,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "減輕",
+    "CONSERVATION_DESC": "下游工區建議施工便道開設前進行該區種子表土保存，施工結束後均勻回舖於施工便道進行復原(勿夯實)"
+  },
+  {
+    "ROW_NUM": 3,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "社區下方崩塌處建議邊坡上既有喬木保留不清除"
+  },
+  {
+    "ROW_NUM": 2,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "上游與下游工區周邊森林為竹闊葉混合林，屬高度敏感區域 (紅色標示)，建議迴避不干擾"
+  },
+  {
+    "ROW_NUM": 1,
+    "PLANYEAR": 103,
+    "ORGAN": "南投分局",
+    "ENGIN_ID": "103ZNW3001-001",
+    "ENGIN_NAME": "巴沙那橋上下游災害復建工程",
+    "CHECK_PHASE": "施工階段",
+    "CONSERVATION_TYPES": "迴避",
+    "CONSERVATION_DESC": "下游工區支流水域生態豐富，建議迴避不擾動"
+  }
+]

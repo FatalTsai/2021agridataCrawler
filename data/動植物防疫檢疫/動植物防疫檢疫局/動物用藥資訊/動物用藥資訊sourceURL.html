@@ -1,0 +1,15 @@
+ï»¿<html><head><title></title>
+<script type="text/javascript">
+function showMsg() {
+    var sslUrl = location.href.replace(/^http/i, "https");
+    sslUrl = sslUrl.replace("163.29.152.42", "amdrug.baphiq.gov.tw");
+    document.getElementById("lnkSSL").href = sslUrl;
+    setInterval(function() {
+            location.href = sslUrl;
+    }, 1000);
+}
+</script>
+</head>
+<body onload="showMsg();">
+<a id="lnkSSL"></a>
+</body></html>

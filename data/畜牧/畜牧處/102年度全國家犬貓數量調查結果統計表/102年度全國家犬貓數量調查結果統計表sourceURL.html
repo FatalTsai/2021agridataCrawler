@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="description" content="動物保護資訊網" />
+    <meta name="author" content="" />
+    <!--Favicon -->
+    <link rel="icon" type="image/png" href="/Areas/Frontend/Content/Frontend_Template/images/favicon.png" />
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/Areas/Frontend/Content/Frontend_Template/images/apple-touch-icon.png" />
+
+    <title>動物保護資訊網-錯誤訊息</title>
+
+
+    <!-- ***************************** CSS ************************************** -->
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/plugins.css?v=2.4" />
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/revolutionslider/settings.css" />
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/theme.css?v=2.4" />
+    <!-- Page Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/content/sun-01/css/sun-01.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/custom.css" />
+    <!-- 自訂css -->
+    <link rel="stylesheet" href="/Areas/Frontend/Content/Frontend_Template/css/all.css?20191028" />
+
+    <!-- SweetAlert2 -->
+    <link href="/Areas/Backend/Plugin/SweetAlert2/sweetalert2.min.css" rel="stylesheet" />
+    <script src="/Areas/Backend/Plugin/SweetAlert2/sweetalert2.min.js"></script>
+    <script src="/Areas/Backend/Plugin/SweetAlert2/SweetAlertBox.js"></script>
+    <script src="/Areas/Backend/Plugin/SweetAlert2/core.js"></script>
+
+    
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/jquery.min.js?v=2.3"></script>
+
+
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '195015961847823');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=195015961847823&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+<!-- LOADER -->
+<div class="page-loader bg-white">
+    <div class="v-center t-center">
+        <div class="spinner">
+            <div class="spinner__item1 bg-colored"></div>
+            <div class="spinner__item2 bg-colored"></div>
+            <div class="spinner__item3 bg-colored"></div>
+            <div class="spinner__item4 bg-colored"></div>
+        </div>
+    </div>
+</div>
+
+<!-- PAGETOP -->
+<div id="pagetop" class="dark">
+    <a class="skip-main" onclick="EnterContent();" href="#accesskeyc" title="進入主要內容" tabindex="1">進入主要內容</a>
+    <div class="container">
+        <!-- Right, socials -->
+        <div class="right clearfix">
+            <a href="#accesskeyu" name="accesskeyu" id="accesskeyu" accesskey="u" title="上方選單區塊" tabindex="1">:::</a>
+            <a href="/Frontend/VUC/SiteMap" class="text" title="網站導覽" tabindex="1">網站導覽</a>
+            <a href="/Frontend/AdoptSearch/AdoptInfo?tab=2" class="text" title="動保申訴電話" rel="nofollow" tabindex="1">動保申訴電話</a>
+            <a href="https://www.facebook.com/animalcoa/" target="_blank" title="facebook粉絲專頁(另開視窗)" class="facebook" tabindex="1"><i class="fa fa-facebook"></i></a>
+        </div>
+    </div>
+</div>
+<!--END PAGETOP -->
+<!-- NAVIGATION -->
+<nav id="navigation" class="white-nav sticky modern hover4 radius-drop" data-offset="55">
+    <!-- Columns -->
+    <div class="columns clearfix container">
+        <!-- Logo -->
+        <div class="logo">
+            <h1>
+                <a href="/" title="動物保護資訊網:回首頁" tabindex="1">
+                    <img src="/Areas/Frontend/Content/Frontend_Template/images/logo.png" data-second-logo="~/Areas/Frontend/Content/Frontend_Template/images/logo.png" alt="動物保護資訊網-徽標">
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav clearfix uppercase">
+                <li class="dropdown-toggle" id="dt-1">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-1');" title="訊息專區" tabindex="1"><button onclick="javascript:location.href='/Frontend/News/LatestNews?tab=1'" tabindex="-1">訊息專區</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/News/LatestNews?tab=1" title="公告訊息" tabindex="1">公告訊息</a></li>
+                        <li><a href="/Frontend/News/LatestNews?tab=2"  title="新聞稿" tabindex="1">新聞稿</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-2">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-2');" title="認領養與協尋" tabindex="1"><button onclick="javascript:location.href='/Frontend/AdoptSearch/AdoptInfo?tab=1'" tabindex="-1">認領養與協尋</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/AdoptSearch/AdoptInfo?tab=1" title="領養資訊" tabindex="1">領養資訊</a></li>
+                        <li><a href="/Frontend/AdoptSearch/AdoptInfo?tab=2" title="協尋資訊" tabindex="1">協尋資訊</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-3">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-3');" title="主題網站" tabindex="1"><button tabindex="-1">主題網站</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/PublicShelter" title="公立動物收容所列表" tabindex="1">公立動物收容所列表</a></li>
+                        <li><a href="https://asms.coa.gov.tw/Amlapp/App/AnnounceMent.aspx?PageType=Adopt" target="_blank" title="全國動物收容管理系統 (另開新頁)" tabindex="1">全國動物收容管理系統</a></li>
+                        <li><a href="https://paim.coa.gov.tw/Web/BusinessList.aspx" target="_blank" title="特定寵物業管理系統 (另開新頁)" tabindex="1">特定寵物業管理系統</a></li>
+                        <li><a href="https://petfood.coa.gov.tw/web/" target="_blank" title="寵物食品申報網 (另開新頁)" tabindex="1">寵物食品申報網</a></li>
+                        <li><a href="https://www.pet.gov.tw/" target="_blank" title="寵物登記管理系統 (另開新頁)" tabindex="1">寵物登記管理系統</a></li>
+                        <li><a href="https://www.baphiq.gov.tw/view.php?catid=4507" target="_blank" title="狂犬病專區防檢局 (另開新頁)" tabindex="1">狂犬病專區(防檢局)</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-toggle" id="dt-4">
+                    <a href="#" class="stay" onkeydown="ActOnFocus('dt-4');" title="我想了解專區" tabindex="1"><button onclick="javascript:location.href='/Frontend/Know'" tabindex="-1">我想了解專區</button></a>
+                    <ul class="dropdown-menu to-right">
+                        <li><a href="/Frontend/Know/EconomicAnimal" title="經濟動物" tabindex="1">經濟動物</a></li>
+                        <li><a href="/Frontend/Know/ExperimentAnimal" title="實驗動物" tabindex="1">實驗動物</a></li>
+                        <li><a href="/Frontend/Know/Laws" title="法令天地" tabindex="1">法令天地</a></li>
+                        <li><a href="/Frontend/Know/AnimalResource" title="動保資源" tabindex="1">動保資源</a></li>
+                        <li><a href="/Frontend/AdoptSearch/DogHotSpot" style="width: 203px;" title="遊蕩犬熱點執行成效管控" tabindex="1">遊蕩犬熱點執行成效管控</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://chiefsuit.coa.gov.tw/ChiefMail/jsp/doms/ac/A001.jsp" target="_blank" title="首長信箱(另開視窗)" tabindex="1">連絡我們</a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Navigation Menu -->
+
+        <!-- Right Elements; Nav Button, Language Button, Search .etc -->
+        <div class="nav-elements">
+            <ul class="clearfix nav no-ls normal">
+                <!-- Search Button -->
+                <li><a href="/Frontend/VUC/SiteSearch" class="search-form-trigger" title="全站搜尋" tabindex="1"><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Columns -->
+</nav>
+<!-- END NAVIGATION -->
+
+<script>
+
+    function EnterContent() {
+            $('#accesskeyc').focus();
+    }
+
+    // 鍵盤操作 onFocus  下拉展開
+    function ActOnFocus(TabName) {
+        var $item = $('#'+TabName).find('ul.dropdown-menu');
+        $('.nav-menu ul.dropdown-menu').hide();
+        $item.show(0);
+    }
+</script>
+
+    <noscript>
+        您的瀏覽器不支援JavaScript功能，若網頁功能無法正常使用時，請開啟瀏覽器JavaScript狀態
+        <style>
+            .page-loader {
+                display: none;
+            }
+        </style>
+    </noscript>
+
+    
+
+
+<!--  Section -->
+<div id="inner-page" class="margin-b-150">
+    <div class="container">
+        <div class="col-xs-12">
+
+            <div class="jumbotron">
+                <h3>無此頁面</h3>
+
+                <p>很抱歉，此頁面不存在。</p>
+                <p>
+                    <a id="btnHome" class="btn btn-primary btn-lg" href="/" role="button">返回首頁</a>
+                    <a id="btnBack" class="btn btn-lg" href="#" role="button" onclick="javascript: history.back();">返回上一頁</a>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<footer id="footer" class="classic_footer">
+    <!-- Container -->
+    <div class="container footer-body">
+        <div class="row clearfix">
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <!-- Title -->
+                <p class="uppercase white extrabold h4">關於我們</p>
+                <p class="xxs-mt bold gray7 h5">動物保護資訊網</p>
+                <p class="mini-mt">本網站讓 ”尊重生命 保護動物” 理念成為生活的一部分！提供基本小常識，從自我檢測是否適合飼養寵物，如何認領養或選擇合法寵物業者、植入晶片並辦理寵物登記、到絕育或提出繁殖管理說明、教導寵物正確行為，並提供相關單位聯絡方式，幫助您了解自己、認識寵物，輕鬆展開您與寵物－愛的新生活。</p>
+                <p class="uppercase white extrabold xs-mt h5">
+                    瀏覽人數：<span class="visitor"></span>
+                </p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <!-- Title -->
+                <p class="uppercase white extrabold h5">聯絡我們</p>
+                <p class="xxs-mt bold gray7 h6"><i class="fa fa-map-marker mini-mr"></i>地址</p>
+                <p class="mini-mt">10014 臺北市中正區南海路 37 號</p>
+                <!-- Google Map -->
+                <a href="https://goo.gl/maps/JRgfxoKedb3DAj5m7" title="前往 google地圖(另開視窗)" target="_blank">
+                    Google Map
+                </a>
+                <p class="xs-mt bold gray7 h6"><i class="fa fa-phone mini-mr"></i>電話</p>
+                <p class="mini-mt">(02)2381-2991</p>
+                <p class="xs-mt bold gray7 h6"><i class="fa fa-fax mini-mr"></i>傳真</p>
+                <p class="mini-mt">(02)2331-0341</p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                <p class="uppercase white extrabold xxs-mb h5">快速連結</p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/PetInsurance" class="mini-mt underline-hover gray6-hover gray7" title="前往 寵物保險">寵物保險</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/OpenDeclare" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站資料開放宣告">網站資料開放宣告</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/PrivacyDeclare" class="mini-mt underline-hover gray6-hover gray7" title="前往 隱私權及資訊安全宣告">隱私權及資訊安全宣告</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/SiteMap" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站導覽">網站導覽</a></p>
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/SiteSearch" class="mini-mt underline-hover gray6-hover gray7" title="前往 全站搜尋">全站搜尋</a></p>
+                
+                <p class="xxs-mt gray7"><a href="/Frontend/VUC/APIservice" class="mini-mt underline-hover gray6-hover gray7" title="前往 網站API串接服務">網站API串接服務</a></p>
+                <p class="xxs-mt gray7"><a href="https://www.coa.gov.tw/ws.php?id=19059" target="_blank" title="前往 重大政策(另開視窗)" class="mini-mt underline-hover gray6-hover gray7">重大政策</a></p>
+                <p class="xxs-mt gray7"><a href="https://www.coa.gov.tw/ws.php?id=3" target="_blank" title="前往 施政計畫(另開視窗)" class="mini-mt underline-hover gray6-hover gray7">施政計畫</a></p>
+            </div>
+            <!-- End Column -->
+            <!-- Column -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <!-- Title -->
+                <p class="uppercase white extrabold no-pm h5">社群連結</p>
+                <p class="xxs-mt gray7">
+                    <span class="fa-stack fa-1x">
+                        <a href="https://www.facebook.com/animalcoa/" target="_blank" title="facebook粉絲專頁(另開視窗)" class="facebook">
+                            <i class="fa fa-square fa-stack-2x" style="color: #3B5998;"></i>
+                            <i class="fa fa-facebook fa-stack-1x" style="color: #fff;"></i>
+                        </a>
+                    </span>
+                </p>
+                    <a href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20191220101946" title="無障礙網站" style="display:block;">
+                        <img alt="通過AA檢測等級無障礙網頁檢測" border="0" height="auto" src="https://www.handicap-free.nat.gov.tw/ImagesUploads/e556a365-33fc-40e3-8d8f-94e2cd96288d.jpg" style="margin:20px 0;" width="150px">
+                    </a>
+            </div>
+            <!-- End Column -->  
+        </div>
+    </div>
+    <!-- End Container -->
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row clearfix calculate-height t-center-xs">
+                <div class="col-sm-6 col-xs-12 table-im t-left height-auto-mobile t-center-xs">
+                    <div class="v-middle">
+                        <img src="/Areas/Frontend/Content/Frontend_Template/content/sun-01/images/logo_02.png" alt="logo icon" class="logo">
+                    </div>
+                </div>
+                <!-- Bottom Note -->
+                <div class="col-sm-6 col-xs-12 table-im t-right height-auto-mobile t-center-xs xxs-mt-mobile">
+                    <p class="v-middle">
+                        <p class="gray6-hover h6">Term and Condition | 行政院農業委員會版權所有</p>
+                        © 2019. COA All Rights Reserved‧
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END FOOTER -->
+<!--========== END FOOTER ==========-->
+<!-- Back To Top -->
+<a id="back-to-top" href="#top" title="返回頂端"><i class="fa fa-angle-up"></i></a>
+<style>
+    a.facebook{
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+</style>
+
+    
+    <input id="sessionlang" name="sessionlang" type="hidden" value="" />
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    
+
+
+
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/revolutionslider/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/revolutionslider/jquery.themepunch.tools.min.js"></script>
+    <!-- PAGE OPTIONS - You can find special scripts for this version -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/content/sun-01/js/plugins.js?20191029"></script>
+    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
+    <script type="text/javascript" src="/Areas/Frontend/Content/Frontend_Template/js/scripts.js?v=2.3"></script>
+    <!-- End JS Files -->
+
+    <script type="text/javascript">
+        (function ($, window, document, undefined) {
+            'use strict';
+
+            // init cubeportfolio
+            $('#images').cubeportfolio({
+                layoutMode: 'slider',
+                drag: true,
+                auto: false,
+                autoTimeout: 5000,
+                autoPauseOnHover: true,
+                showNavigation: false,
+                showPagination: false,
+                rewindNav: true,
+                scrollByPage: true,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 0,
+                    cols: 1,
+                }],
+                gapHorizontal: 0,
+                gapVertical: 0,
+                caption: '',
+                displayType: 'fadeIn',
+                displayTypeSpeed: 400,
+
+                plugins: {
+                    slider: {
+                        pagination: '#thumbnails',
+                        paginationClass: 'cbp-pagination-active',
+                    }
+                },
+            });
+
+            $('#recents').cubeportfolio({
+                layoutMode: 'slider',
+                drag: true,
+                auto: false,
+                autoTimeout: 5000,
+                autoPauseOnHover: true,
+                showNavigation: false,
+                showPagination: true,
+                rewindNav: false,
+                scrollByPage: false,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1500,
+                    cols: 5,
+                }, {
+                    width: 1100,
+                    cols: 4,
+                }, {
+                    width: 700,
+                    cols: 3,
+                }, {
+                    width: 480,
+                    cols: 2,
+                }, {
+                    width: 360,
+                    cols: 1,
+                    options: {
+                        caption: '',
+                        gapVertical: 10,
+                    }
+                }],
+                gapHorizontal: 0,
+                gapVertical: 25,
+                caption: '',
+                displayType: 'fadeIn',
+                displayTypeSpeed: 40,
+
+            });
+
+            // 流體排版
+            $('#posts').cubeportfolio({
+                filters: '#tags',
+                search: '#blog-search',
+                gapHorizontal: 50,
+                layoutMode: 'grid',
+                gapVertical: 20,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1050,
+                    cols: 4,
+                }, {
+                    width: 950,
+                    cols: 3,
+                }, {
+                    width: 850,
+                    cols: 2,
+                }, {
+                    width: 770,
+                    cols: 2,
+                }, {
+                    width: 640,
+                    cols: 2,
+                }, {
+                    width: 480,
+                    cols: 1,
+                }, {
+                    width: 320,
+                    cols: 1
+                }],
+                caption: 'none',
+                animationType: 'quicksand',
+                displayType: 'bottomToTop',
+                displayTypeSpeed: 60,
+            });
+        })(jQuery, window, document);
+    </script>
+
+    <script>
+        $(function () {
+            // 瀏覽人數
+            $.ajax({
+                type: "Post",
+                url: "/Frontend/VUC/Visitors",
+                dataType: "json",
+                success: function (response) {
+                    if (response.isSuccess === true) {
+                        $.each($('.visitor'), function (index, element) {
+                            element.innerText = response.data;
+                        })
+                    }
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64678028-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64678028-1');
+    </script>
+</body>
+</html>

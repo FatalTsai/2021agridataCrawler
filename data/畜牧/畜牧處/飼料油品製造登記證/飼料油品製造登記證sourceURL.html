@@ -1,0 +1,868 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>行政院農業委員會 - 飼料管理系統</title>
+
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui-1.10.1.custom.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validationEngine-zh_TW.js"></script>
+<script type="text/javascript" src="../js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="../js/json2.js"></script>
+<script type="text/javascript" src="../js/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../js/json2form.2.0.js"></script>
+<script type="text/javascript" src="../js/BaseUtils.js"></script>
+<script type="text/javascript" src="../js/jquery.uec.pagin.js"></script>
+<script type="text/javascript" src="../js/jquery.uec.span.js"></script>
+<script type="text/javascript" src="../js/jquery.chineseDatepicker.js"></script>
+<script type="text/javascript" src="../js/jquery.unserializeForm.js"></script>
+<script type="text/javascript" src="../js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="../js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="../js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="../js/ddaccordion.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/menu.css" />
+<link href="https://permit.coa.gov.tw:443/Feed/css/start/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="https://permit.coa.gov.tw:443/Feed/css/start/jquery.ui.theme.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+	//javascript: windows.history.forward(1);
+	jQuery.ajaxSettings.traditional = true;
+	jQuery.ajaxSettings.cache = false;
+	var ajax_element = null;
+	
+	$(document).ajaxSend(function(event,xhr,options) {
+		//alert("options.url == " + options.url);
+		if(options.url != "/Feed/E0501/fileUpload.action"){
+			var submitForm = null;
+			if (ajax_element != null) 	{
+				submitForm = ajax_element.parents('form');
+			}
+			var isValid = true;
+			if (submitForm != null)	{
+				try	{
+					isValid = submitForm.validationEngine('validate');
+				}catch(e){}; 
+			}
+
+			if (!isValid)	{
+				xhr.abort();
+			}else	{
+				if(submitForm != "uploadForm"){
+					$.blockUI({ message: waitHtml()});
+				}
+			}
+		}
+	});
+	$(document).ajaxError(function(event,xhr,options) {
+		if(options.url != "/Feed/E0501/fileUpload.action"){
+			if (xhr.status != 0 && xhr.status != 200)	{//0: abort 200:OK
+				alert('伺服器連結錯誤');
+			}
+		}
+	});
+	$(document).ajaxComplete(function(event,xhr,options) {
+		if(options.url != "/Feed/E0501/fileUpload.action"){
+			$.unblockUI();
+		}
+	});
+	
+	function waitHtml(){
+		return '<img src="../images/loading.gif"/>'+'&nbsp;處理中請稍候...';
+	}
+</script>
+	
+<link rel="stylesheet" type="text/css" href="../css/validationEngine.jquery.css" />
+
+</head>
+<body>
+	<div id="container">
+		<table style="width: 100%;" border="1">
+			<tbody>
+				<tr style="height: 20%;">
+					<td>
+						
+
+<div id="header">
+	<div id="header2">
+		<table width="100%" height="85" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr class="nav">
+				<td height="50">
+					<a href="/Feed/Unlogin/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA">首頁</a>
+					<a href="/Feed/Login/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA">登入</a>
+				</td>
+			</tr>
+			<tr>
+				<td height="57" align="right" class="username"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+					</td>
+				</tr>
+				<tr style="height: 70%;">
+					<td style="width:100%;">
+						<div id="statusBar">
+
+目前位置： 飼料登記證管理 -飼料相關登記證公開查詢作業(B0201)<b>今天：中華民國110年04月04日 星期日</b></div>
+						<div id="main2">
+							
+
+
+
+<style> 
+    .nobr br{display:none}   
+</style>
+
+<script type="text/javascript">
+	var cells=[
+			function(result){
+				return "<div align=\"center\"><input type=\"button\" class=\"editBt\" onclick=\"editWin('"+result.certDocOID+"');\" /></div>";
+			}, function(result){
+				if(result.certCode=="AGB0" || result.certCode=="AGBYM" || result.certCode=="AGH6M"){ //製造
+					return result.plantCityName;
+				}else{ //輸入
+					return result.applicantCityName;
+				}
+			}, function(result){
+				return result.certNo;
+			}, function(result){
+				return result.certCodeDesc;
+			}, function(result){
+				return result.feedGoodsTypeNoCNAME;
+			}, function(result){
+				return result.feedGoodsChineseName;
+			}, function(result){
+				return result.applicantName;
+			}, function(result){
+				return result.firstIssuedDate;
+			}, function(result){
+				return result.expirationDate;
+			} 
+		];
+
+	$(document).ready(function(){
+		$("#viewDialog").dialog({
+			autoOpen : false,
+			modal : true,
+			width : 750
+		});
+		
+		$("#downloadExcelDialog").dialog({
+			autoOpen : false,
+			modal : true,
+			width : 750
+		});
+		
+		$("#queryForm").ajaxQuery({cells : cells});
+		
+		changeCertCode();
+		
+		$("#queryFeedCategoryBtn").click(function(){
+			selectFeedCategory("queryVO_feedGoodsTypeNo", "feedSampling_tyCname");
+		});
+		
+		$("#clearBtn").click(function(){
+			var cname=$("#qry_cname").val();
+			clearInput("queryForm");
+			if(cname!=""){
+				$("#queryForm").attr("action", '/Feed/B0201/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA');
+				$("#queryForm").submit();
+			}
+		});
+		
+		$("#downloadXml").click(function(){
+	 	   	document.forms[0].action="downloadXML.action";
+	 	   	document.forms[0].submit();
+	 	   	document.forms[0].action="query.action";
+	 	});
+		
+		$("#downloadExcel").click(function(){
+			setFileType();
+	 	   	document.forms[0].action="downloadExcel.action";
+	 	   	document.forms[0].submit();
+	 	   	document.forms[0].action="query.action";
+	 	   	$("#downloadExcelDialog").dialog("close");
+	 	});
+		
+		$("#certCode").change(function(){
+			changeCertCode();
+		});
+		
+		$("#caNo").change(function(){
+			var caNo = $("#caNo").val();
+			$("#caNo2").empty();
+			
+			$.ajax({
+				url : '/Feed/B0201/getFeedCategoryList.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA',
+				dataType : "json",
+				type : "POST",
+				data : {
+					caNo : caNo,
+					docType : $("#certCode").val()
+				},
+				success : function(data){
+					$("#caNo2").append("<option value=''>全部</option>");
+					for(var i=0; i < data.length; i++){
+						$("#caNo2").append("<option value='"+data[i].tyCname+"'>"+data[i].tyCname+"</option>");
+					}
+				}
+			});
+		});
+	});
+		
+	function changeCertCode(){
+		var val = $("#certCode").val();
+		$("#caNo").empty();
+		$("#caNo2").empty();
+		$("#caNo2").append("<option value=''>全部</option>");
+		
+		if(val!=null && val!=""){
+			$.ajax({
+				url : '/Feed/B0201/getFeedClassList.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA',
+				dataType : "json",
+				type : "POST",
+				data : {
+					docType : val
+				},
+				success : function(data){
+					$("#caNo").append("<option value=''>全部</option>");
+					
+					for(var i=0; i < data.length; i++){
+						if((val=="AGB0" || val=="AGB1" || val=='') 
+								&&(data[i].caNo=="X" || data[i].caNo=="Y")
+						   		&&(data[i].caCname=="動物性飼料" || data[i].caCname=="植物性飼料")){
+							$("#caNo").append("<option value='"+data[i].caNo+"'>"+data[i].caCname+"(油品)</option>");
+						}else{
+							$("#caNo").append("<option value='"+data[i].caNo+"'>"+data[i].caCname+"</option>");
+						}
+					}
+				}
+			});
+		}else{
+			$("#caNo").append("<option value=''>全部</option>");
+		}			
+	}
+
+	function editWin(certDocOid){
+		$("span").html("");
+		clearInput("viewForm");
+		$.ajax({
+			url : '/Feed/B0201/view.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA',
+			dataType : "json",
+			type : "POST",
+			data : {
+				certDocOid : certDocOid
+			},
+			success : function(data) {  
+				$("#viewForm").json2Span({data : data, prefix : "view_feedCertDoc"}); 
+				var issuedText="中　　華　　民　　國　"+data.firstIssuedDate_year+" 年　　"+data.firstIssuedDate_month+"　月　"+data.firstIssuedDate_day+"　日　";			
+				var expiryText="<font size=1>本證有效期限至"+data.expirationDate_year+"年"+data.expirationDate_month+"月"+data.expirationDate_day+"日</font>";
+				$("#view_feedCertDoc_firstIssuedDate").html(issuedText);
+				$("#view_feedCertDoc_expirationDate").html(expiryText);
+				if(data.certCode=="AGB1" || data.certCode=="AGBYI" || data.certCode=="AGH6I"){
+					$("#factoryName").hide();
+					$("#factoryAddress").hide();
+				}else{
+					$("#factoryName").show();
+					$("#factoryAddress").show();
+				}				
+				if(data.certCode=="AGH6I" || data.certCode=="AGH6M"){
+					$("#footerOfB0201").hide();
+					
+				}else{
+					$("#footerOfB0201").show();
+				}
+				$("#viewDialog").dialog("open");
+			}
+		});
+	}
+	
+	function doBack(){
+		$("#viewDialog").dialog("close");
+	}
+	
+	function setFileType(){
+		var radios=document.getElementsByName("selectType");
+		for(var i = 0; i < radios.length; i++){ //取得所選檔案格式
+		    if(radios[i].checked){
+		        $("#fileType").val(radios[i].value);
+		     	break;	
+		    }
+		}
+	}
+</script>
+
+
+
+
+<script type="text/javascript">
+	var feedCells = [
+			function(result) {
+				return "<div align=\"center\"><input type=\"button\" class=\"actionBt\" onclick=\"pickFeedCategory('"
+						+ result.tyNo
+						+ "', '"
+						+ result.tyCname
+						+ "');\" /></div>";
+			}, function(result) {
+				return result.tyCname;
+			} ];
+
+	$(document).ready(function() {
+
+		$("#feedCategoryDialog").dialog({
+			autoOpen : false,
+			modal : true,
+			width : 900
+		});
+
+		$('#feedCategoryQueryForm').ajaxQuery({
+			cells : feedCells,
+			tbodyId : 'feedResultList',
+			totalBlockId : 'feedTotalBlock',
+			totalBlockId2 : 'feedTotalBlock2',
+			previousId : 'feedPreBtn',
+			previousId2 : 'feedPreBtn2',
+			nextId : 'feedNextBtn',
+			nextId2 : 'feedNextBtn2',
+			pageSizeId : 'feedPageSize',
+			pageSizeId2 : 'feedPageSize2',
+			pageNumberId : 'feedPageNumber',
+			pageNumberId2 : 'feedPageNumber2',
+			queryButtonId : 'feedQueryBtn',
+			isKeepParameter : false,
+			isAutoRequery : false
+		});
+	});
+
+	function selectFeedCategory(codeField, nameField) {
+		clearInput("feedCategoryQueryForm");
+		$("#feedResultList").html("");
+		$('#feedCategoryDialog').data('codeField', codeField);
+		$('#feedCategoryDialog').data('nameField', nameField);
+		$('#feedCategoryDialog').dialog('open');
+	}
+
+	function pickFeedCategory(tyNo, tyName) {
+		var codeField = $('#feedCategoryDialog').data('codeField');
+		var nameField = $('#feedCategoryDialog').data('nameField');
+		$('#' + codeField).val(tyNo);
+		$('#' + nameField).val(tyName);
+		
+		//由於此函式為共用，因此，為了讓相關功能頁(如:C0301)可以將建議的「檢驗項目」以紅字來呈現，故加入以下事件(change)通知，至於
+		//其它沒有綁定以下事件(change)的功能頁則不受影響。
+		$('#' + codeField).trigger('change');
+		
+		$('#feedCategoryDialog').dialog('close');
+	}
+</script>
+<div id="feedCategoryDialog" title="飼料種類查詢帶入作業">
+	<div id="queryCss">
+		<div class="fm">
+			<form id="feedCategoryQueryForm" name="feedCategoryQueryForm" action="/Feed/Common/getFeedCategoryList.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA" method="post">
+				<table style="width: 100%">
+					<tr>
+						<td class="group2">
+							<div class="praise-title3">查詢條件</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table class="list" cellspacing="1" cellpadding="0">
+								<tr class="head">
+									<td width="20%">飼料種類名稱：</td>
+									<td width="30%" class="td3">
+										<input type="text" name="feedCategoryQueryVO.tyCname" size="18" value="" id="feedCategoryQueryForm_feedCategoryQueryVO_tyCname" class="input"/>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<hr class="hrG" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table width="100%">
+								<tr>
+									<td align="center">
+										&nbsp;&nbsp;
+										<input id="feedQueryBtn" type="button" value="開始查詢" class="inputbtn" />
+										&nbsp;&nbsp;
+										<input type="reset" value="清除條件" class="inputbtn" />
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="group2">
+							<div class="praise-title4">查詢結果</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table width="100%" cellspacing="2">
+								<tr>
+									<td width="35%" class="pad7"></td>
+									<!--edit 加class  pageNum-->
+									<td align="right" width="65%" class="pageNum">
+										本次查詢共
+
+										<span id="feedTotalBlock" class="colorB">
+											0
+										</span>
+										筆,
+										<input type="button" value=" " title="上一頁" name="preBt" id="feedPreBtn" class="btnP" />
+										每頁顯示
+										<select name="feedCategoryQueryVO.pageSize" id="feedPageSize">
+    <option value="10">10</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="500">500</option>
+
+
+</select>
+
+
+										筆/第
+										<select name="feedCategoryQueryVO.pageNumber" id="feedPageNumber">
+    <option value="1" selected="selected">1</option>
+
+
+</select>
+
+
+										頁
+										<input type="button" value=" " title="下一頁" name="nextBt" id="feedNextBtn" class="btnN" />
+
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table class="list" cellspacing="1" cellpadding="0">
+								<thead>
+									<tr class="head">
+										<td align="center">帶入</td> 
+										<td align="center">飼料種類名稱</td>
+									</tr>
+								</thead>
+								<tbody id="feedResultList"></tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table width="100%" cellspacing="2">
+								<tr>
+									<td width="35%" class="pad7"></td>
+									<!--edit 加class  pageNum-->
+									<td align="right" width="65%" class="pageNum">
+										本次查詢共
+
+										<span id="feedTotalBlock2" class="colorB">
+											0
+										</span>
+										筆,
+										<input type="button" value=" " title="上一頁" name="preBt" id="feedPreBtn2" class="btnP" />
+										每頁顯示
+										<select name="" id="feedPageSize2">
+    <option value="10">10</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="500">500</option>
+
+
+</select>
+
+
+										筆/第
+										<select name="" id="feedPageNumber2">
+    <option value="1">1</option>
+
+
+</select>
+
+
+										頁
+										<input type="button" value=" " title="下一頁" name="nextBt" id="feedNextBtn2" class="btnN" />
+
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</form>
+
+
+
+		</div>
+	</div>
+</div>
+
+
+<div class="fm">
+	<form id="queryForm" name="queryForm" action="/Feed/B0201/query.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA" method="post">
+		<input type="hidden" id="fileType" name="fileType" />
+		<table style="width: 100%">
+			<tr>
+				<td class="group2">
+					<div class="praise-title3">飼料製造、輸入登記證公開資訊查詢條件</div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<table class="list" cellspacing="1" cellpadding="0">
+						<tr class="head">
+							<td width="20%">縣市別</td>
+							<td width="30%" class="td3">
+								<select name="queryVO.cityNo" id="queryForm_queryVO_cityNo">
+    <option value=""
+    >請選擇</option>
+    <option value="001">臺北市</option>
+    <option value="002">高雄市</option>
+    <option value="005">桃園市</option>
+    <option value="010">臺中市</option>
+    <option value="017">臺南市</option>
+    <option value="N01">新北市</option>
+    <option value="000">台灣省</option>
+    <option value="003">基隆市</option>
+    <option value="006">新竹縣</option>
+    <option value="007">新竹市</option>
+    <option value="008">苗栗縣</option>
+    <option value="011">彰化縣</option>
+    <option value="012">南投縣</option>
+    <option value="013">雲林縣</option>
+    <option value="014">嘉義縣</option>
+    <option value="015">嘉義市</option>
+    <option value="019">屏東縣</option>
+    <option value="020">宜蘭縣</option>
+    <option value="021">花蓮縣</option>
+    <option value="022">臺東縣</option>
+    <option value="023">金門縣</option>
+    <option value="024">連江縣</option>
+    <option value="025">澎湖縣</option>
+
+
+</select>
+
+
+							</td>
+							<td width="20%">統一編號</td>
+							<td class="td3"><input type="text" name="queryVO.applicantCode" size="15" value="" id="queryForm_queryVO_applicantCode" class="input"/></td>
+						</tr>
+						<tr class="head">
+							<td width="20%">登記證號</td>
+							<td width="30%" class="td3"><input type="text" name="queryVO.certNo" size="30" value="" id="queryForm_queryVO_certNo" class="input"/></td>
+							<td width="20%">商品名稱</td>
+							<td class="td3"><input type="text" name="queryVO.feedGoodsChineseName" size="30" value="" id="queryForm_queryVO_feedGoodsChineseName" class="input"/>
+							</td>
+						</tr>
+						<tr class="head">
+							<td width="20%">商號名稱</td>
+							<td class="td3"><input type="text" name="queryVO.applicantName" size="30" value="" id="queryForm_queryVO_applicantName" class="input"/></td>
+							<td width="20%">飼料詳細品目<br/>(農委會公告)</td>
+							<td class="td3">
+								<div class="nobr">
+									<select id="caNo" name="queryVO.caNo">
+									   <option value="">全部</option>
+									</select>
+									&nbsp;
+									<select id="caNo2" name="queryVO.feedGoodsTypeNoCNAME">
+									   <option value="">全部</option>
+									</select>
+								</div>									
+							</td>
+						</tr>
+						<tr class="head">
+							<td width="20%">登記證類別</td>
+							<td class="td3" colspan=3>
+								
+								
+								
+								
+									<select name="queryVO.certCode" id="certCode">
+    <option value=""
+    >全部</option>
+    <option value="AGB0">飼料、飼料添加物製造登記證</option>
+    <option value="AGB1">飼料、飼料添加物輸入登記證</option>
+    <option value="AGBYI">飼料油品輸入登記證</option>
+    <option value="AGBYM">飼料油品製造登記證</option>
+    <option value="AGH6I">水產配合飼料輸入登記證</option>
+    <option value="AGH6M">水產配合飼料製造登記證</option>
+
+
+</select>
+
+
+														
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center"><hr class="hrG" /></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td align="center">&nbsp;&nbsp;
+								<input id="queryBtn" type="button" value="開始查詢" class="inputbtn" /> &nbsp;&nbsp;
+								<input id="downloadXml" type="button" value="匯出XML" class="inputbtn" />&nbsp;&nbsp;
+								<input id="openDownloadExcel" type="button" value="匯出EXCEL" class="inputbtn" onclick="$('#downloadExcelDialog').dialog('open');" />&nbsp;&nbsp;
+								<input id="clearBtn" type="button" value="清除條件" class="inputbtn" />&nbsp;&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="group2"><div class="praise-title4">查詢結果</div></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<table width="100%" cellspacing="2">
+						<tr>
+							<td width="35%" class="pad7"></td>
+							<!--edit 加class  pageNum-->
+							<td align="right" width="65%" class="pageNum">
+								本次查詢共 <span id="totalBlock" class="colorB"> 0</span>筆, 
+								<input type="button" value=" " title="上一頁" name="preBt" id="preBtn" class="btnP" />
+								 每頁顯示 <select name="queryVO.pageSize" id="pageSize">
+    <option value="10">10</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="500">500</option>
+
+
+</select>
+
+
+								 筆/第 <select name="queryVO.pageNumber" id="pageNumber">
+    <option value="1" selected="selected">1</option>
+
+
+</select>
+
+ 頁 
+								<input type="button" value=" " title="下一頁" name="nextBt" id="nextBtn" class="btnN" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<table class="list" cellspacing="1" cellpadding="0">
+						<thead>
+							<tr class="head">
+								<td align="center">檢視</td>
+								<td align="center">業者/工廠縣市別</td>
+								<td align="center">登記證字號</td>
+								<td align="center">登記證類別</td>
+								<td align="center">飼料品目</td>
+								<td align="center">商品名稱</td>
+								<td align="center">商號名稱</td>
+								<td align="center">核發日期</td>
+								<td align="center">有效日期</td>
+							</tr>
+						</thead>
+						<tbody id="resultList"></tbody>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<table width="100%" cellspacing="2">
+						<tr>
+							<td width="35%" class="pad7"></td>
+							<!--edit 加class  pageNum-->
+							<td align="right" width="65%" class="pageNum">
+								本次查詢共 <span id="totalBlock2" class="colorB"> 0</span> 筆,
+								<input type="button" value=" " title="上一頁" name="preBt" id="preBtn2" class="btnP" />
+								每頁顯示 <select name="" id="pageSize2">
+    <option value="10">10</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="500">500</option>
+
+
+</select>
+
+
+								筆/第 <select name="" id="pageNumber2">
+    <option value="1">1</option>
+
+
+</select>
+
+ 頁 
+								<input type="button" value=" " title="下一頁" name="nextBt" id="nextBtn2" class="btnN" />
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+
+
+	<div id="viewDialog" title="檢視">
+		<form id="viewForm" name="viewForm" action="/Feed/B0201/index.action;jsessionid=DCD055F44478F6E850BF95A1FEAD44AA" method="post">
+			<table width="100%" border="0" cellspacing="20" cellpadding="0" >
+				<tr><td align=center><font size=3><b><span id="view_feedCertDoc_certCodeDesc"></span></b></font></td></tr>
+				<tr style=" height : 14px;"><td align=right><span id="view_feedCertDoc_certDocHead"></span> 字第 <span id="view_feedCertDoc_certDocTail"></span> 號</td></tr>
+				<tr><td align=right><span id="view_feedCertDoc_certNo"></span></td></tr>
+				<tr>
+					<td>
+						<table class="content" cellpadding="0" cellspacing="10">
+							<tr>
+								<th width="22%" align="right">業者／工廠縣市別：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_cityName">業者／工廠縣市別</span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">商號名稱 ：</th>
+								<td width="78%" align="left">
+									<span id="view_feedCertDoc_applicantName"></span>
+									<span id="view_feedCertDoc_applicantCode"></span>
+								</td>
+							</tr>
+							
+							<tr id="factoryName">
+								<th width="22%" align="right">工廠名稱：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_factoryName"></span></td>
+							</tr>
+							
+							<tr id="factoryAddress">
+								<th width="22%" align="right">工廠地址：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_factoryAddress"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">負責人姓名：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_representative"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">飼料品目類別：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_caCname"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">飼料品目：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_feedGoodsTypeNoCNAME"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">商品名稱：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_feedGoodsChineseName"></span>      <span id="view_feedCertDoc_feedGoodsEnglishName"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">適用對象：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_target"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">包裝型式：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_goodsPackage"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">形狀：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_shape"></span></td>
+							</tr>
+							
+							<tr>
+								<th width="22%" align="right">成分：</th>
+								<td width="78%" align="left"><span id="view_feedCertDoc_ingrdName"></span></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				
+ 				<tr>
+ 					<td>
+ 						<div id="footerOfB0201">
+	 						<b>
+				 				前項飼料(飼料添加物)申請製造登記，經審核與飼料管理法規定相符，應發給本證，以資證明。<br/><br/>
+								行政院農業委員會主任委員
+							</b>
+						</div>
+					</td>
+				</tr>
+				
+ 				<tr><td></td></tr>
+ 				
+ 				<tr><td align="center" id="view_feedCertDoc_firstIssuedDate"></td></tr>
+ 				
+ 				<tr><td></td></tr>
+				
+				<tr><td align="right"  id="view_feedCertDoc_expirationDate"></td></tr>
+			</table>
+		</form>
+
+
+
+	</div>
+</div>
+
+<div id="downloadExcelDialog" title="請選擇輸出檔案格式">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="Tab01 truecolor">
+		<tr>
+			<th width="22%" align="right">檔案格式</th>
+			<td width="78%" align="left">
+				<input type="radio" name="selectType" value="excel" checked="checked" />Excel
+				<input type="radio" name="selectType" value="ods">ODS			
+			</td>
+		</tr>		
+	</table>
+				
+	<div class="btnBox">
+		<input id="downloadExcel" type="button" class="button" value="確定" />&nbsp;
+		<input type="button" class="button" value="取消" onclick="$('#downloadExcelDialog').dialog('close');" />
+	</div>
+</div>
+						</div>
+					</td>
+				</tr>
+				<tr style="height: 10%;">
+					<td>
+						<div id="footer">
+	<div id="footer2">
+		<p>Copyright(c)2013 coa.gov.tw All Rights. Reserved.</p>
+		<p>建議使用IE 7.0或Firefox 3.0或Google Chrome 3.0 以上瀏覽器.&nbsp;最佳瀏覽螢幕解析度1024x768以上.</p>
+		<p>10014台北市中正區南海路37號 電話：02-23812991 傳真：02-23310341.&nbsp;&nbsp;諮詢服務專線：0800-588-889.</p>
+	</div>
+</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

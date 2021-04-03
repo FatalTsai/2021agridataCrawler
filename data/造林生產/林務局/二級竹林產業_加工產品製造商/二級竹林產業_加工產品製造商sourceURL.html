@@ -1,0 +1,6445 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>ç«¹æç¢æ¥­æè¡è«®è©¢ä¸­å¿</title>	
+
+		<meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="å°ç£ç«¹æç¢æ¥­æè¡è«®è©¢ä¸­å¿ ç«¹æææ°è¨æ¯ | ç«¹æç¥è­å°å | ç«¹æåå®¶å°å | ç«¹æäº®é»åå®¶ | ç«¹æç¢æ¥­å­ç´åè³è¨ | " />
+		<meta content='img/webs.jpg' itemprop='image' property='og:image' />
+		
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/fblogo.png" type="img/fblogo.png" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+		<link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css" media="screen">
+		<link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css" media="screen">
+		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
+		<link rel="stylesheet" href="css/theme-animate.css">
+
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+		<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skins/default.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.js"></script>
+
+		<!--[if IE]>
+			<link rel="stylesheet" href="css/ie.css">
+		<![endif]-->
+
+		<!--[if lte IE 8]>
+			<script src="vendor/respond/respond.js"></script>
+			<script src="vendor/excanvas/excanvas.js"></script>
+		<![endif]-->
+		
+	<!-- Derrick ç«¹æç¢æ¥­ Map  ================================================== -->
+  <link href="css/map/mapcluat.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  
+ <!-- Derrick ç«¹æç¢æ¥­ Map Api ================================================== -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCH89sBteAlr_onHhAGnNrWo_WrSnxfCGk&region=GB"></script> 
+  
+  <script type="text/javascript" src="js/gmap3.js"></script>
+ 
+  <script type="text/javascript">
+    	
+    // Icons used into the markers options
+var marka01 = new google.maps.MarkerImage(
+  'css/map/mapimgs/marker-images/bamboo1st.png',
+  new google.maps.Size(59,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(10,10)
+);
+var marka02 = new google.maps.MarkerImage(
+  'css/map/mapimgs/marker-images/bamboo2st.png',
+  new google.maps.Size(59,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(10,10)
+);
+
+var marka03 = new google.maps.MarkerImage(
+  'css/map/mapimgs/marker-images/bamboo3st.png',
+  new google.maps.Size(59,50),
+  new google.maps.Point(0,0),
+  new google.maps.Point(10,10)
+);
+
+
+// markers definition list
+var list = [
+  { lat: 23.4909293,lng: 120.4689227, 
+    data: { 
+      type: "magaza",
+      magazaID:1, 
+      magazaGrubuID:1, 
+      adi: "æªææ£®æ´»æ", 
+      adres: "åç¾©å¸ææ£®æ±è·¯1è", 
+      bilgi: "é»è©±ï¼05-2761601<br>å³çï¼05-2761670", 
+      logo: "bamboo3st.png",
+      brosurID:141, 
+      brosur: "css/map/mapimgs/no141.png" 
+    }, 
+    options: { 
+      icon: marka03
+    } 
+  }
+  
+
+,  
+  { lat: 23.778647,lng: 120.7120612, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¯å±±ç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯äºæ®µ800è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2658753<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no144.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7649937,lng: 120.70595300, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ´»ç«¹ç«¹æ¨å±å·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®å±±è·¯ä¸æ®µè£éæ°æ6å··2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2659193<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7621674,lng: 120.70511179, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å¢ä¿±ãç«¹ç±¬ç¬è£½é (å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éçç«¹å··39å¼107è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0910-542123<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.742538,lng: 120.67285400, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä»²å¤å¤å·¥ä½å", 
+      adres: "åæç¸£ç«¹å±±é®å¾·èéé¯åè·¯118-5-10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2658645<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.746663400,lng: 120.68209000, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ææè£½é (å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®é æè·¯253ä¹2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2648032<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.765869,lng: 120.71844099, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å¢ä¿±è£½é (å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®æ±éè·¯8ä¹15è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2659317<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.759315,lng: 120.70387710, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§ç¦¾ç«¹å·¥å» ", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éçç«¹å··261å¼24è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2635206<br>ç¶²åï¼<a href='http://www.bamboola.com.tw/' target='_blank'>www.bamboola.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no151.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.761468,lng: 120.68219199, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ³æºç«¹æ¥­å å·¥æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®ä¸åªéæåªå··22ä¹5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2646646<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7577352,lng: 120.66506200, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¬£æç«¹æå å·¥å» ", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯ä¸æ®µ1689è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2643925<br>ç¶²åï¼<a href='http://hen-lin.com/' target='_blank'>hen-lin.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no153.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7578922,lng: 120.69494770, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¶ç©ç«¹æ¥­ç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéåè²å··275è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2649602<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7593608,lng: 120.70344439, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸å³°ç«¹æå å·¥å»  å®æç«¹æ¨å å·¥å» (å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®é¹¿å±±è·¯56å··65è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2644070<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.768026,lng: 120.70259699, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹åç¢æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å·¥æ¥­åå»¶å¹³è·¯18è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642820<br>ç¶²åï¼<a href='http://www.takemitsu-kendo.com.tw/' target='_blank'>www.takemitsu-kendo.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no156.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7694387,lng: 120.70500270, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹è²æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³è·¯äºè·¯2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2655503<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7685308,lng: 120.70154730, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¥å¾·ä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³ä¸è·¯9è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642351<br>ç¶²åï¼<a href='http://tw.commerce.com.tw/modules.php?modules=company&action=company_inside&ID=A0006281' target='_blank'>tw.commerce.com.tw/modules.php?modules=company&action=company_inside&ID=A0006281</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7661887,lng: 120.6649926, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æå±±å·¥å", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­åè·¯6è(æå°é¢)", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-92659230<br>ç¶²åï¼<a href='http://vip.arch-world.com.tw/Product-Item_82499_17676.html' target='_blank'>vip.arch-world.com.tw/Product-Item_82499_17676.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no106.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.921647400,lng: 120.91984120, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç­ä¸æ", 
+      adres: "åæç¸£é­æ± éå¤§éæå¤§éå··33-6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-92898013<br>ç¶²åï¼<a href='http://www.otop.tw/feature/106721.html' target='_blank'>www.otop.tw/feature/106721.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no107.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.764941,lng: 120.65730099, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å®éç«¹åè¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­åéåå±±è·¯äºæ®µ368è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642668<br>ç¶²åï¼<a href='http://hon-dar.com/index2.php' target='_blank'>hon-dar.com/index2.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no159.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7495924,lng: 120.681376, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¾©ç¯ç«¹æ¨æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±éé æè·¯145è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2643372<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8126241,lng: 120.72106600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çè»è¼ªç«¹åå", 
+      adres: "åæç¸£ç«¹å±±é®ç¤¾å¯®éæ°´å°¾å··8ä¹6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2622611<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7656484,lng: 120.66335460, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å­æç«¹æ¨å·¥èå» ", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å´éä¸­åè·¯12-87è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2643971<br>ç¶²åï¼<a href='http://www.yczm.com.tw/sdp/430038/3/main-2411879/0.html' target='_blank'>www.yczm.com.tw/sdp/430038/3/main-2411879/0.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no162.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7604316,lng: 120.69715919, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åèç«¹æ¨å·¥èå» (å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéé¹¿å±±è·¯145è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2653493<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7691797,lng: 120.70051280, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¼¢ç°¾å·¥æ¥­æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éå»¶å¹³å­è·¯5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-265173<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7675771,lng: 120.70247599, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åé ä¼æ¥­", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³äºè·¯11è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642394<br>ç¶²åï¼<a href='http://www.ever-shine.com.tw/contact/contact.php' target='_blank'>www.ever-shine.com.tw/contact/contact.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no165.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7608671,lng: 120.67526700, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¾é³³ä¸­è¯ç®¸æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®é²ææ°æ70è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2644229<br>ç¶²åï¼<a href='http://www.lnf.com.tw/html/front/bin/home.phtml' target='_blank'>www.lnf.com.tw/html/front/bin/home.phtml</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no166.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7619664,lng: 120.68895729, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éèç«¹èç¤¾(æ­æ¥­)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéå¤§ç¾©è¡40è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2641840<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.759308,lng: 120.69572100, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åæ³°ç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®åè²ä¸å··16è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-264368<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no168.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7582664,lng: 120.69967429, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°ç£é«ç°è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éé¹¿å±±è·¯284å··61è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642384<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0638078,lng: 121.50378309, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¾·å®ç«¹å¨è¡", 
+      adres: "æ°åå¸ä¸éåéæ°è·¯ä¸æ®µ20ï¼å·¥å» ï¼æ°åå¸äºè¡åæ°ç¾©è·¯äºæ®µ45ä¹3", 
+      bilgi: "è¯çµ¡é»è©±ï¼0935-006139<br>ç¶²åï¼<a href='http://1171437955855.tw66.com.tw/' target='_blank'>1171437955855.tw66.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no112.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 24.9421629,lng: 121.390983, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸å³½ç«¹ç«¿æ¹ç¼åº(æªçé)", 
+      adres: "æ°åå¸ä¸å³½åä¸æ¨¹è·¯222å··196è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-26738214<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 25.054244,lng: 121.50814600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æå®å¥åº·ç§ææéå¬å¸", 
+      adres: "å°åå¸å¤§ååè²´å¾·è¡34-31æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-86763310<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0496357,lng: 121.51573559, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°æ¥æºéç¹è¡ä»½æéå¬å¸", 
+      adres: "å°åå¸å¤§ååå¤ªåè·¯11å··17è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-25569081<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0262198,lng: 121.46586209, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åæç«¹å¨å¯¦æ¥­æéå¬å¸", 
+      adres: "æ°åå¸æ³°å±±åæ°çè·¯139è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-22972597<br>ç¶²åï¼<a href='http://a668888.myweb.hinet.net/' target='_blank'>a668888.myweb.hinet.net/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0071669,lng: 121.51308100, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é æä¼æ¥­æéå¬å¸", 
+      adres: "æ°åå¸æ°¸ååæ°¸åè·¯ä¸æ®µ6713æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-29581100<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.955206,lng: 121.35732889, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±äº«ç·å¨æéå¬å¸", 
+      adres: "æ°åå¸é¶¯æ­åæåè·¯71è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0932-228555<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.9608493,lng: 121.42894790, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åå­£ç¹ä¼æ¥­æéå¬å¸", 
+      adres: "æ°åå¸åååæ°¸å¯§è·¯32å··12è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-22679455<br>ç¶²åï¼<a href='http://www.skip.com.tw/about-us.html' target='_blank'>www.skip.com.tw/about-us.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no121.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.9483589,lng: 121.22361980, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éçä¼æ¥­ç¤¾(æªçé)", 
+      adres: "æ¡åç¸£ä¸­å£¢å¸çè·¯133è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-4355377<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0214387,lng: 121.21618450, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éåççç«¹æèå(æªçé)", 
+      adres: "æ¡åå¤§åéæ©«å³°æå¤§æºè·¯109è(æ¡åé«éµè·¯ç¹å)", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-381-6850<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.6080181,lng: 120.95894959, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æºç¬ç«¹æ¥­ ç«¹ç­ç¤¾", 
+      adres: "èæ ç¸£ä¸ç£éå¤§æ²³æ19ä¹1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼037-831407<br>ç¶²åï¼<a href='http://www.mlog.tw/dfcecd1fa/' target='_blank'>www.mlog.tw/dfcecd1fa/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.076034300,lng: 120.69958350, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¦å¾å¯¦æ¥­æéå¬å¸(è§£æ£)", 
+      adres: "å°ä¸­ç¸£é§å³°éä¸­æ­£è·¯1267èä¹12", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-23393716<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.115282,lng: 120.69629299, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é·å®èè¡å·¥è(æªçé)", 
+      adres: "å°ä¸­ç¸£å¤§éå¸æ±æè·¯92è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-24875162<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.231791,lng: 120.725864, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¿±å¯è¡ä»½æéå¬å¸", 
+      adres: "å°ä¸­å¸è±ååé®æè·¯107å··62è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25360885<br>ç¶²åï¼<a href='http://www.twciatwn.org.tw/Blog3/Default.aspx?SID=222' target='_blank'>www.twciatwn.org.tw/Blog3/Default.aspx?SID=222</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.0799211,lng: 120.62716879, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç±³è­å®¶å¯¢å·æéå¬å¸", 
+      adres: "å°ä¸­å¸çæ¥åèºæ½­éæ¶åè·¯115è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-23352669<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.168272200,lng: 120.64799829, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å³æé©ç«¹èå", 
+      adres: "å°ä¸­å¸è¥¿å±¯åæ ä¾éæ ä¸­è·¯18å··32è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0932500795<br>ç¶²åï¼<a href='http://mashup.com.tw/chang/' target='_blank'>mashup.com.tw/chang/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2165305,lng: 120.56777590, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¸éç«¹èä¼æ¥­ç¤¾", 
+      adres: "å°ä¸­å¸æ²é¹¿ååå¢é4é°åæè·¯51å··17å¼11è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1103792,lng: 120.7276008, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¿éç«¹æ¨å·¥èå» è¡ä»½æéå¬å¸", 
+      adres: "å°ä¸­å¸å¤ªå¹³ååééåèè·¯733å··11è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-22703377<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7714761,lng: 120.71272959, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¶ç©ç«¹æ¨è¡", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éä¿ç²è·¯81è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0932-649602<br>ç¶²åï¼<a href='http://www.chingsui1398.com/index.aspx' target='_blank'>www.chingsui1398.com/index.aspx</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no286.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2437903,lng: 120.55074530, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸­æ¸¯ç«¹èç¤¾", 
+      adres: "å°ä¸­å¸æ¢§æ£²åå¤§æéæéè·¯207è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7530045,lng: 120.68102569, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è±ªå±±ç«¹ç­å å·¥å» ", 
+      adres: "åæç¸£ç«¹å±±é®é¯åè·¯ä¹2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2712237<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.980233,lng: 120.74514699, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä½³éæ¨æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£èå±¯é®ååéä¸å±¤å··20è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2553535<br>ç¶²åï¼<a href='http://www.bestar.net/' target='_blank'>www.bestar.net/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7551382,lng: 120.6666728, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èç«¹è¡(æªçé)", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å´éæ°çå··81ä¹4è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2641418<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.755923,lng: 120.68107600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç­ä¹¾è£½é 01(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®é æ©«è¡39ä¹2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2660861<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8029156,lng: 120.83531459, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç­ä¹¾è£½é 02(å¾ç¢ºèª)", 
+      adres: "åæç¸£æ°´ééçå³°æè¬å£½å··38è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2774529<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.754981100,lng: 120.6656429, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åç«ç«¹æ¥­æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å´éæ°çå··93-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2652856<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.727694,lng: 120.75406499, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å­å®ç«¹ãåæ¹ç«¹è£½é (å¾ç¢ºèª)", 
+      adres: "åæç¸£é¹¿è°·éç«¹ææåå¾©è·¯95ä¹9è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2676456<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7637691,lng: 120.69199400, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸­åç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéå¤§åè¡181è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2647314<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7640004,lng: 120.66176040, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æºä¿¡ç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®åå±±é®åå±±è·¯äºæ®µ225å··31è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2645247<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7707534,lng: 120.70712279, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å®å©ç«¹å·¥èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯äºæ®µ1128è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2644632<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7538131,lng: 120.68444999, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ­£æç«¹èç¤¾(æ­æ¥­)", 
+      adres: "åæç¸£ç«¹å±±é®æ©«è¡7è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2643542<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9165785,lng: 120.7014339, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸å«ææéå¬å¸", 
+      adres: "åæå¸æ±å±±è·¯347-5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2239491-2<br>ç¶²åï¼<a href='http://tw.ttnet.net/ttnet/gotohtm/0/4303030343932353.htm' target='_blank'>tw.ttnet.net/ttnet/gotohtm/0/4303030343932353.htm</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no174.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.812564,lng: 120.74790299, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¯æå·¥èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å¯å·éå¯å·å··25-2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2622222<br>ç¶²åï¼<a href='http://www.bambooear.com/' target='_blank'>www.bambooear.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no175.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.747833000,lng: 120.70526599, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é åç«¹å·¥èç¤¾(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®æ¡æéä¸­æ­£å··71è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2644719<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.759109,lng: 120.68836799, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±æç«¹èç¤¾(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®æ¡æéç«¹å±±è·¯2ä¹27è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2661988<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7713068,lng: 120.70077130, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¬£ç¦¾å·¥è(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶æ­£éæ±è¥¿è·¯14è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2649288<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.803662,lng: 120.71485630, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¯¶è¤æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å±±å´ééå±±è·¯ä¸æ®µ2169è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2623734<br>ç¶²åï¼<a href='http://broton.xxking.com/' target='_blank'>broton.xxking.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no179.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7612271,lng: 120.70294719, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å±è£ç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®çç«¹å··142è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2646059<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7612961,lng: 120.68865270, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éèæ©æ¢°å» ", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéå®å®å··20ä¹48è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2652878<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8112649,lng: 120.74726760, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å±±é®éç«¹çç¢åä½ç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å¯å·éå¯å·å··31è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2623928<br>ç¶²åï¼<a href='http://www.bamboo.org.tw/' target='_blank'>www.bamboo.org.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no182.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.782609,lng: 120.71167899, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¥ææ°ç«¹è", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³ééå±±è·¯äºæ®µ582è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2646216<br>ç¶²åï¼<a href='http://www.smn.com.tw/' target='_blank'>www.smn.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no183.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7714761,lng: 120.71272959, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¦®å±±ç«¹å", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éä¿ç²è·¯196è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2649930<br>ç¶²åï¼<a href='http://0492649930.mmmtravel.com.tw/' target='_blank'>0492649930.mmmtravel.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no185.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.763081900,lng: 120.72049089, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å±é¨è½", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éæ±éè·¯1-67è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0919-649069<br>ç¶²åï¼<a href='http://bamboohouse.emmm.tw/' target='_blank'>bamboohouse.emmm.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no186.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7695631,lng: 120.70284700, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹è²ç«¹åå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éå»¶å¹³äºè·¯1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642828<br>ç¶²åï¼<a href='http://lhzycn.com/index.asp' target='_blank'>lhzycn.com/index.asp</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no187.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7597445,lng: 120.70182210, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹é»å·¥å", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éé¹¿å±±è·¯319å··17è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2651875<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7635954,lng: 120.66534690, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é è±ä¼éç«¹å±", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­åéåå±±è·¯äºæ®µ47-27è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0920-266468<br>ç¶²åï¼<a href='http://www.bambootaiwan.com/main.php' target='_blank'>www.bambootaiwan.com/main.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no189.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.755809,lng: 120.68332299, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å±±éé¢¨", 
+      adres: "åæç¸£ç«¹å±±é®æ©«è¡80è2æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2633761<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.756948,lng: 120.68306299, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éåé¤¨å·¥å(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯ä¸æ®µ899å··7è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0932-641523<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9711959,lng: 120.9736646, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¾æ°´ç«¹ç­å·¥ä½å®¤", 
+      adres: "åæç¸£åéé®åå®éæå¾·ä¸å··28è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0935-897243<br>ç¶²åï¼<a href='http://cup897243@pchome.com.tw' target='_blank'>cup897243@pchome.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.77488,lng: 120.71058700, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èé¨ç²¾åä¼æ¥­æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®ä¿ç²è·¯10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2636399<br>ç¶²åï¼<a href='http://yitsun2005.smartweb.tw/' target='_blank'>yitsun2005.smartweb.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7934622,lng: 120.71106469, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èåãç«¹ç«¥ç©è£½é ", 
+      adres: "åæç¸£èå±¯é®èæºªè·¯569å··15è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0928-955759<br>ç¶²åï¼<a href='http://linbamboo.smartweb.tw/' target='_blank'>linbamboo.smartweb.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no194.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9675004,lng: 120.6763158, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹éèåæéå¬å¸", 
+      adres: "åæç¸£èå±¯é®èæºªè·¯154ï½69è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0912-355866<br>ç¶²åï¼<a href='http://www.bbc-bamboo.com/' target='_blank'>www.bbc-bamboo.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no196.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7577352,lng: 120.66506200, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å å®ç«¹æ¨æå å·¥é²èå» ", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å´é5é°éå±±è·¯3æ®µ1671è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2633097<br>ç¶²åï¼<a href='http://www.guanyu.com.tw/' target='_blank'>www.guanyu.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no198.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7658745,lng: 120.66344759, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å ç«¹å¯¦æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å´éä¸­åè·¯6ä¹2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-5891661<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7997406,lng: 120.71321850, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é²åç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å±±å´ééå±±è·¯2æ®µ76å··13è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2622097<br>ç¶²åï¼<a href='http://www.jinyicompany.com/' target='_blank'>www.jinyicompany.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no201.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.911087,lng: 120.67465800, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é³³å°ç´«ç«¹ææ¥­è¡ä»½æéå¬å¸(å¾ç¢ºèª)", 
+      adres: "åæç¸£åæå¸æ¼³åé36é°æåè·¯561è2æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.748305,lng: 120.68166010, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å±éç«¹è¡", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±éé æè·¯221â2è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.81367,lng: 120.74747000, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹æ³°è²¿æè¡", 
+      adres: "åæç¸£ç«¹å±±é®å¤§åè·¯178è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2631555<br>ç¶²åï¼<a href='http://www.jutaitw.com/index.html' target='_blank'>www.jutaitw.com/index.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no287.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7502521,lng: 120.69350400, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èè¡åµä½05(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®æ¡æéä¸­å±±è·¯9-3è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-265-1437<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.767548,lng: 120.70205899, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åéç«¹æ¨æ¥­æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éå»¶å¹³äºè·¯17è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2643411<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.767267,lng: 120.70346599, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åå¸¸ç«¹æ¨æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éå»¶å¹³äºè·¯8è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2643411<br>ç¶²åï¼<a href='http://www.outlooking.com.tw/home/index.asp' target='_blank'>www.outlooking.com.tw/home/index.asp</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no203.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8448549,lng: 120.6900806, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¹ä»æ¨ç«¹æ¥­è¡ä»½æéå¬å¸", 
+      adres: "åæç¸£åééä¸­å±±æåå±±è·¯1æ®µ236è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2732165<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7632538,lng: 120.68987949, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èç«¹å·¥èç¤¾(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéå¤§ç¾©è¡189å··1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.761137,lng: 120.70353899, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éç¾ç«¹å¨æéå¬å¸", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥é11é°çç«¹å··374è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642902<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7462901,lng: 120.67524100, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¨ç¾ç«¹èç¤¾(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®é¯åè·¯84è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9863216,lng: 120.67989560, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¾å·§å¾·ç«¹æ¨å» ", 
+      adres: "åæç¸£èå±¯é®å èéè¬èè·¯257è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2334730<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7681741,lng: 120.70364870, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¯å±±ç«¹æ¨èå» ", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éå»¶å¹³âè·¯15è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642992<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7624557,lng: 120.67495570, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åç«¹è¡", 
+      adres: "åæç¸£ç«¹å±±é®ç«¹åé15é°é²ææ°æäºè·¯59è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8309827,lng: 120.60384240, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¯æ¦®ç«¹æ¥­æéå¬å¸", 
+      adres: "å½°åç¸£äºæ°´éåäºæå¡éè·¯5æ®µ505è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8745133<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8246772,lng: 120.61059920, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åæç«¹å¨å·¥æ¥­ç¤¾", 
+      adres: "å½°åç¸£äºæ°´éååæçªç°äºå··102è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9592562,lng: 120.57524739, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åç¼ç«¹è¡(å¾ç¢ºèª)", 
+      adres: "å½°åç¸£å¡æé®æ±åéè²è±è·¯9è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8285042,lng: 120.60156699, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤æ³°ç«¹èè¡", 
+      adres: "å½°åç¸£äºæ°´éåäºæåäºè·¯27è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8745596<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8371468,lng: 120.58956490, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¯å°ç«¹æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£ç°ä¸­é®ä¸å®éåå®è·¯45å··25è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8870678<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8089494,lng: 120.61503919, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¾åç«¹èç¤¾", 
+      adres: "å½°åç¸£äºæ°´éäºæ°´æ6é°å®å¾·å··39â4è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8793859<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8026945,lng: 120.62642000, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é²åç«¹èç¤¾", 
+      adres: "å½°åç¸£äºæ°´éè£æ°æåéè·¯2æ®µ666è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8792763<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no220.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.132388,lng: 120.4892734, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°ç£ç¾åå·¥æ¥­è¡ä»½å¬å¸", 
+      adres: "å½°åç¸£åç¾é®åæ¸¯è·¯575è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7565307<br>ç¶²åï¼<a href='http://www.paiho.com/ch_news.html' target='_blank'>www.paiho.com/ch_news.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.767919,lng: 120.71320600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èè¡åµä½06(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éæ±éè·¯10-18è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-265-5857<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8967696,lng: 120.59549119, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è³å¾è£½è¥ªæéå¬å¸", 
+      adres: "å½°åç¸£ç¤¾é ­éå¿ ç¾©è·¯668è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8712668<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no222.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.0494979,lng: 120.4351203, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éæ ¼ç°¾å·¥æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£é¹¿æ¸¯é®æµ·åéé¡åå··59è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7788256<br>ç¶²åï¼<a href='http://www.lkbamboo.com.tw/html/front/bin/home.phtml' target='_blank'>www.lkbamboo.com.tw/html/front/bin/home.phtml</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no223.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1433086,lng: 120.49780510, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¯åç´¡ç¹è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£ä¼¸æ¸¯éæ±´é ­ææ±´é ­è·¯117è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7982028<br>ç¶²åï¼<a href='http://www.iecomax-shop.com/' target='_blank'>www.iecomax-shop.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no224.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.020323,lng: 120.5820364, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åå®ä¼æ¥­æéå¬å¸", 
+      adres: "å½°åç¸£è±å£éç£éæä¸è¬è·¯355å··18è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7862350<br>ç¶²åï¼<a href='http://www.knitting-machine.com.tw/about.htmlhttp://www.knitting-machine.com.tw/about.html' target='_blank'>www.knitting-machine.com.tw/about.htmlhttp://www.knitting-machine.com.tw/about.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no225.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.904969500,lng: 120.57858720, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¦¾èåéæéå¬å¸", 
+      adres: "å½°åç¸£ç¤¾é ­éå¼µåæå¤§å³å··16ä¹6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8724278<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no226.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.904969500,lng: 120.57858720, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çªå¥ä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£ç¤¾é ­éå¼µåæå¤§å³å··16è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8731767<br>ç¶²åï¼<a href='http://n1220913.myweb.hinet.net/' target='_blank'>n1220913.myweb.hinet.net/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no227.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.0699412,lng: 120.5292898, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¿¡ç¼è¡", 
+      adres: "å½°åç¸£å½°åå¸ä¸­è¯è¥¿è·¯283å··10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7616777<br>ç¶²åï¼<a href='http://www.htm.url.tw/' target='_blank'>www.htm.url.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no228.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9544005,lng: 120.5745859, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ³æ£¨ä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£ç¤¾é ­éå»ºåè·¯14è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8724088<br>ç¶²åï¼<a href='http://www.gracetowel.net/' target='_blank'>www.gracetowel.net/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8491301,lng: 120.45784779, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å»æ¿ä¼æ¥­ç¤¾", 
+      adres: "å½°åç¸£å¤é ­éä¸­åæå½°æ°´è·¯ä¸æ®µ387è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8894760<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.0447606,lng: 120.4160663, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¦ç¶­æ£ç¹å·¥æ¥­æéå¬å¸", 
+      adres: "å½°åç¸£æºªæ¹é®ä¸­å±±éå¤§æºªè·¯ä¸æ®µ122è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8828518<br>ç¶²åï¼<a href='http://fullwelfare.com.tw/' target='_blank'>fullwelfare.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no231.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8955996,lng: 120.6025267, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é·é ç¹è¥ªå» ", 
+      adres: "å½°åç¸£ç¤¾é ­éå±±æ¹ææ¸æ°´å²©è·¯42è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8724252<br>ç¶²åï¼<a href='http://www.socksmit.com/tw/index.asp?au_id=10&sub_id=15' target='_blank'>www.socksmit.com/tw/index.asp?au_id=10&sub_id=15</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no232.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1167621,lng: 120.49321980, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ééç¹é è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£åç¾é®éå¨è·¯959è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7566889<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.068546,lng: 120.44449069, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çåç¼ç«¹æ¥­æéå¬å¸--è§£æ£(103/07/08)", 
+      adres: "å½°åç¸£é¹¿æ¸¯é®é åéèæ¸¯å··120è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7773266<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.765961,lng: 120.625543, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éºè²æ¨å¨å·¥èç¤¾", 
+      adres: "é²æç¸£æå§éä¸­æ­£æ±è·¯29è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-5892300<br>ç¶²åï¼<a href='http://www.shinemelody.com.tw/' target='_blank'>www.shinemelody.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no235.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7210511,lng: 120.51820480, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ææç²¾åç¾è²¨æéå¬å¸", 
+      adres: "é²æç¸£æå­å¸èè¾²è·¯353èBæ£", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-5512660<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7170888,lng: 120.44333600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¥½å®¶åº­æ¯å·¾è¡ä»½æéå¬å¸", 
+      adres: "é²æç¸£èå°¾é®ææ£®è·¯ä¸æ®µ63å··35è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-6225999<br>ç¶²åï¼<a href='http://www.toptowel.com.tw/news.php' target='_blank'>www.toptowel.com.tw/news.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no237.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.718897,lng: 120.44973800, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åç¶­æ£ç¹å» ", 
+      adres: "é²æç¸£èå°¾é®å´é ­éå´é ­100è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-6224378<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.416823,lng: 120.35564299, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "äºè¥äºè¡ä»½æéå¬å¸", 
+      adres: "åç¾©ç¸£æ°´ä¸éååæå¾å¯®120è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2683106<br>ç¶²åï¼<a href='http://www.flora-bamboo.com/' target='_blank'>www.flora-bamboo.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no242.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.237494,lng: 120.644791, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°¸é¨°æ¨æ¥­æéå¬å¸", 
+      adres: "å°ä¸­å¸å¤§éåå¤§æè·¯163å··18è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25691878<br>ç¶²åï¼<a href='http://hu.I-can.com.tw' target='_blank'>hu.I-can.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.097507,lng: 120.679070, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¿ é½æ¨æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å°ä¸­å¸å¤§éåå¤§è¡è·¯38ä¹1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-24067555<br>ç¶²åï¼<a href='http://b2c.worldtrade.org.tw/23231989/' target='_blank'>b2c.worldtrade.org.tw/23231989/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.720196,lng: 120.760422, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ­¦å²«ä¼éè¾²å ´", 
+      adres: "åæç¸£é¹¿è°·éç«¹ææç°é ­å··35-66è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2676262<br>ç¶²åï¼<a href='http://www.wvsiv.idv.tw' target='_blank'>www.wvsiv.idv.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no008.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 22.554142,lng: 120.540962, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ³°ææ©æ¢°å» ", 
+      adres: "å±æ±ç¸£æ½®å·é®ä¸é²è·¯å­å··25è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-788274<br>ç¶²åï¼<a href='http://www.tai-chang.com.tw' target='_blank'>www.tai-chang.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 25.062475,lng: 121.528862, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éå¨ç²¾å¯å·¥æ¥­æéå¬å¸", 
+      adres: "å°åå¸ä¸­å±±åæ°æ¬æ±è·¯2æ®µ26è6æ¨ä¹1", 
+      bilgi: "è¯çµ¡é»è©±ï¼09-3705-5348<br>ç¶²åï¼<a href='http://www.taiwantrade.com.tw/CH/companydetail/298034' target='_blank'>www.taiwantrade.com.tw/CH/companydetail/298034</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.738956,lng: 121.093155, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¯åå¯¦æ¥­æéå¬å¸", 
+      adres: "æ°ç«¹ç¸£ç«¹æ±é®åèè·¯äºæ®µå­è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-5956965<br>ç¶²åï¼<a href='http://www.grand-curtain.com' target='_blank'>www.grand-curtain.com</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no013.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.249336,lng: 120.655945, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¿ææ©æ¢°ä¼æ¥­æéå¬å¸", 
+      adres: "å°ä¸­ç¸£å¤§ééç¥æè·¯ä¸æ®µ373è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-2565-3866#7<br>ç¶²åï¼<a href='http://www.eason.com.tw' target='_blank'>www.eason.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.966049,lng: 120.360130, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°åå¸é¾å´åè¾²æ", 
+      adres: "å°åå¸é¾å´åå´é é7é°æ°å¸å­223è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-5941114<br>ç¶²åï¼<a href='http://www.longcifa.com' target='_blank'>www.longcifa.com</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no017.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.765816,lng: 120.710144, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å±±çåç«¹èæåå", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³æ°æ1-20è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2653-205<br>ç¶²åï¼<a href='http://www.puyuan.com.tw/05/05-12.htm' target='_blank'>www.puyuan.com.tw/05/05-12.htm</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no018.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.755493,lng: 121.133385, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¿é¼ä¼æ¥­æéå¬å¸", 
+      adres: "å°æ±ç¸£å°æ±å¸å¤§æ­£è·¯16è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-29403732<br>ç¶²åï¼<a href='http://www.geding.com.tw/tw/index.php' target='_blank'>www.geding.com.tw/tw/index.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no383.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.753030500,lng: 120.6809002, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å®ç¼ç«¹è¡", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±é7é°åé ­è¡11-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7576946,lng: 120.70139680, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±æ¬£ç«¹æ¨ä¼æ¥­ç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éé¹¿å±±è·¯284å··144è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7375682,lng: 120.69134429, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è© æ°ç«¹è", 
+      adres: "åæç¸£ç«¹å±±é®ç§æé12é°ä¸­åè·¯94-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.0827479,lng: 120.54436790, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æç¼ç«¹åº", 
+      adres: "å½°åç¸£å½°åå¸åå¾©éé·èè¡99è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.055382,lng: 120.43616500, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¦æ¦®ç«¹æ¨ä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å½°åç¸£é¹¿æ¸¯é®æ¯ç¦é16é°æ°æè·¯97è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-7779636<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7551316,lng: 120.3060706, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éå®¶ç«¹èå®¶å·(å¾ç¢ºèª)", 
+      adres: "é²æç¸£å´èéå¤§ææ140è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-6969699<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.4787554,lng: 120.44743130, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°ç­èå(å¾ç¢ºèª)", 
+      adres: "åç¾©å¸ä¸­æ­£è·¯479è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2242017<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.002765500,lng: 120.19769300, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¿¡äºç«¹åº", 
+      adres: "å°åå¸ååæåè·¯504å··65è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-2284128<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no309.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.2906603,lng: 120.21953740, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°ååéä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å°åå¸é¹½æ°´åå­«åé4-6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-6550550-3<br>ç¶²åï¼<a href='http://minepharm.com/Index.php' target='_blank'>minepharm.com/Index.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no310.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.999191,lng: 120.23898499, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éæ¾ä¼æ¥­æéå¬å¸ éæ¾è¶å·ç¾è²¨", 
+      adres: "å°åå¸æ°¸åº·åå°æ±è·¯647å··10å¼11è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-3136022<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6575338,lng: 120.31514149, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å®çç«¹å¨è¡", 
+      adres: "é«éå¸ä¸æ°åæ°æä¸è·¯431å··6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-3827872<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.626042,lng: 120.27924800, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°¸æè", 
+      adres: "é«éå¸é¹½ååäºç¦åè·¯328è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-5514983<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.635252,lng: 120.37437699, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å©é²ç«¹èè¡ç´«ç«¹ç«¹æ¨è(å¾ç¢ºèª)", 
+      adres: "é«éå¸é³³å±±åå»ºåè·¯ä¸æ®µ53å··2å¼82è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-703742<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.619515,lng: 120.48104290, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤©æ©å¯¢å·", 
+      adres: "å±æ±ç¸£è¬ä¸¹éè¬ä¸¹è·¯ä¸æ®µ150å··11å¼30è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0800212868<br>ç¶²åï¼<a href='http://www.lovetn.com.tw/index.html' target='_blank'>www.lovetn.com.tw/index.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no315.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.930737,lng: 121.42724199, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éåèç«¹å¨å·¥å» ", 
+      adres: "æ°åå¸ä¸å³½åæç¦é177 179è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-26726486<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.6888873,lng: 120.87520659, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¢§ç«¹å¹³è", 
+      adres: "èæ ç¸£ç«¹åé®å»ºä»è¡15è7æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼037-472223<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.5347997,lng: 120.97615989, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¬èå·¥ä½å", 
+      adres: "èæ ç¸£ååºéè¬èæ19é°117è", 
+      bilgi: "è¯çµ¡é»è©±ï¼037-821226<br>ç¶²åï¼<a href='http://mmweb.tw/31411' target='_blank'>mmweb.tw/31411</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no318.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.4906805,lng: 120.85276550, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç¤¾åç¼å±åæ", 
+      adres: "èæ ç¸£å¬é¤¨éå¤§åæ6é°164è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0911-989658<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1436279,lng: 120.67624999, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è§ç«¹å (å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸ä¸­å±±è·¯291è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-22244820<br>ç¶²åï¼<a href='http://bamboo-arts.myweb.hinet.net/' target='_blank'>bamboo-arts.myweb.hinet.net/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no320.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1420313,lng: 120.67576789, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç­(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸ååæ³å·è¥¿è·¯ä¸æ®µ196å··2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0937-241599<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.75607,lng: 120.68609900, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åµä½04(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®ç«¹å±±éç¥å¸«è¡5-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2646777<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7789207,lng: 120.71197800, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åµä½05(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯äºæ®µ782è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0912-976981<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1803125,lng: 120.665884, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¾é³³ç ç«¹ç·¨èè¡åµä½(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸ä¸­æ¸è·¯æ°å¹³å··32å¼35è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0926-457272<br>ç¶²åï¼<a href='http://blog.artlib.net.tw/author_personal.php?ename=handwork' target='_blank'>blog.artlib.net.tw/author_personal.php?ename=handwork</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.174896,lng: 120.67015500, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é³æ¥æç«¹éåµä½(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸ä¸­æ¸è·¯13å··2å¼5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-22926949<br>ç¶²åï¼<a href='http://blog.artlib.net.tw/author_personal.php?ename=chenchunming' target='_blank'>blog.artlib.net.tw/author_personal.php?ename=chenchunming</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1853179,lng: 120.60742720, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èè¡åµä½01(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸è¥¿å±¯åç¦è¯è¡15å··8è14-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0928-757996<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.175014,lng: 120.71547699, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èè¡åµä½02(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸åå±¯åè»åè¡4ä¹5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-24362071<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.0607067,lng: 120.6981687, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èè¡åµä½03(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸é§å³°åä¸­æ­£è·¯828å··52è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-2339-487<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9779555,lng: 120.68751670, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ææ¦®çèå¸«å·¥ä½å®¤", 
+      adres: "åæç¸£èå±¯é®ç¢§å±±è·¯14è11æ¨3-1", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2321217<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9790435,lng: 120.71966999, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çä¹è¯å°ç£ç«¹èé¤¨", 
+      adres: "åæç¸£èå±¯é®ååéä¸­æ­£è·¯288-32è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0933523187<br>ç¶²åï¼<a href='http://bamboo-hsu.smartweb.tw/' target='_blank'>bamboo-hsu.smartweb.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no329.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9807747,lng: 120.69185670, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åç«å°ç£å·¥èç ç©¶ç¼å±ä¸­å¿", 
+      adres: "åæç¸£èå±¯é®ä¸­æ­£è·¯573è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2334141#232<br>ç¶²åï¼<a href='http://www.ntcri.gov.tw/Default2.aspx' target='_blank'>www.ntcri.gov.tw/Default2.aspx</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no330.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9838782,lng: 120.68722330, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åµä½02(å¾ç¢ºèª)", 
+      adres: "åæç¸£èå±¯é®åæè·¯136è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2336750<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.973075,lng: 120.68788300, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åµä½03(å¾ç¢ºèª)", 
+      adres: "åæç¸£èå±¯é®èå±±è·¯648å··49å¼34è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2338616<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.8355364,lng: 120.70565869, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èè¼å·¥æ¿", 
+      adres: "åæç¸£åééåæ¾è·¯ä¸æ®µ59å··12è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2737199<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no333.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7578721,lng: 120.70692499, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "äºåä¸å·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®é¹¿å±±è·¯458è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0931-249166<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no334.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.829922,lng: 120.70523000, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æº«ä¹å¯ç«¹èå", 
+      adres: "åæç¸£ç«¹å±±é®ç¤¾å¯®éåé²è·¯12-59è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2623658<br>ç¶²åï¼<a href='http://www.artbamboo.com.tw/' target='_blank'>www.artbamboo.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no335.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7529365,lng: 120.68325630, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é»å¡å±±ç«¹ç·¨å·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±éèåè·¯33ä¹18è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2655106<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7664251,lng: 120.71551290, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¦ç·ç«¹ç·¨å·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éæ±éè·¯5-85è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2652878<br>ç¶²åï¼<a href='http://brocade.smartweb.tw/' target='_blank'>brocade.smartweb.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no337.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7621674,lng: 120.70511179, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åæç¸£ç«¹èå­¸æçäºé·(100-101å¹´)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éçç«¹å··39å¼107è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2659317<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.7640272,lng: 121.7540945, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åèç«¹è¡", 
+      adres: "å®è­ç¸£å®è­å¸åèè¡157è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-9323836<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no394.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.594252,lng: 120.506836, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸å¤ä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å±æ±ç¸£è¬ä¸¹éç«¹ææå¤§å­¸è·¯107è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7777711<br>ç¶²åï¼<a href='http://www.ssefloor.com' target='_blank'>www.ssefloor.com</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no061.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.299397,lng: 120.640442, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç«¹ç­çç¢åä½ç¤¾(åå¹³çª¯)", 
+      adres: "åç¾©ç¸£å¤§åéåå¹³æç³ç¡¤å§22è(åå¹³çª¯)", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2521229<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no020.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.252821,lng: 120.536980, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç«¹ç­çç¢åä½ç¤¾(åªæçª¯)", 
+      adres: "åç¾©ç¸£å¤§åéèè³æ7é°åªæ3è(åªæçª¯)", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2521366<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure01.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 24.255110,lng: 120.734825, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ­£åæ¨å·¥æ©æ¢°å» (è±åå)", 
+      adres: "å°ä¸­å¸è±ååæ°´æºè·¯387è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25241105<br>ç¶²åï¼<a href='http://www.ckmtw.com.tw' target='_blank'>www.ckmtw.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no024.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.277525,lng: 120.637207, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ­£åæ¨å·¥æ©æ¢°å» (æ¸æ°´å)", 
+      adres: "å°ä¸­å¸æ¸æ°´åç¥æ¸è·¯6-10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-26201763<br>ç¶²åï¼<a href='http://www.ckmtw.com.tw' target='_blank'>www.ckmtw.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no024.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.83288,lng: 120.7555180, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ·»èçª¯é¶èæ", 
+      adres: "åæç¸£ééé®ç°å¯®éæ¥æå··10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-92781130<br>ç¶²åï¼<a href='http://www.tensing.com.tw' target='_blank'>www.tensing.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no026.png" 
+    }, 
+    options: { 
+      icon: marka01
+    } 
+  }
+  
+
+,  
+  { lat: 23.753628,lng: 120.68084599, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åµä½06(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®é²æè·¯ä¸å··25è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2653905<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.4821983,lng: 120.43010300, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éç¾æ¯å·¾è¡", 
+      adres: "åç¾©å¸ååä¸è¡14è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2333248<br>ç¶²åï¼<a href='http://23791397.weebly.com/' target='_blank'>23791397.weebly.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.0216077,lng: 120.25064199, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åèéæéå¬å¸(éçæ¥­ä¸­)", 
+      adres: "å°åå¸æ°¸åº·åæ°¸èè·¯427å··2å¼38è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-2024190<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no244.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.636404,lng: 120.37878200, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ­èµ«åéæéå¬å¸", 
+      adres: "é«éå¸å¤§å¯®åå¤§æ¼¢è·¯476å··38è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-7025522<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.8171286,lng: 120.30222509, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éèä¼æ¥­æéå¬å¸", 
+      adres: "é«éå¸å²¡å±±ååèéåèè·¯62è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-6225222<br>ç¶²åï¼<a href='http://www.pillow.com.tw/chinese/index.htm' target='_blank'>www.pillow.com.tw/chinese/index.htm</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no246.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6652827,lng: 120.29680439, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«å¤§èæ¥­æéå¬å¸", 
+      adres: "é«éå¸ä»æ­¦åæ°¸å®å··12å¼19è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-3555958<br>ç¶²åï¼<a href='http://www.lida-log.com/' target='_blank'>www.lida-log.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no247.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.7157098,lng: 120.34066310, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ·»ä»è±æ¿æéå¬å¸", 
+      adres: "é«éå¸ä»æ­¦åæ°¸å®å··12å¼19è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-3725002<br>ç¶²åï¼<a href='http://b2c.worldtrade.org.tw/86904462/' target='_blank'>b2c.worldtrade.org.tw/86904462/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no248.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6249823,lng: 120.35794399, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç­é£¯è£½é ", 
+      adres: "é«éå¸é³³å±±åä¸æ°è·¯279è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-7462450<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no249.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.7865674,lng: 120.35369400, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹æ¤ãææè£½é ", 
+      adres: "é«éå¸çå·¢ååçæåé°ä¸­å®è·¯29è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-6160616<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.634071,lng: 121.83002399, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æåå¯¦æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å®è­ç¸£èæ¾³é®é¾å¾·å·¥æ¥­åèªå¼·è·¯8è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-9903188<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no252.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.051626,lng: 121.56445600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åå±±ç«¹å¨å·¥å» è¡ä»½æéå¬å¸", 
+      adres: "å°åå¸æ¾å±±ååäº¬æ±è·¯äºæ®µ223è14æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-27534990<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.023016900,lng: 121.52113899, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±ç¸å¯¦æ¥­æéå¬å¸", 
+      adres: "å°åå¸ä¸­æ­£ååå®è¡85-1è3æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-23683090<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0310425,lng: 121.51926500, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¾©èè¡ä»½æéå¬å¸", 
+      adres: "å°åå¸ä¸­æ­£åç¾æ¯ç¦è·¯ä¸æ®µ46è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-23913458<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.016868,lng: 121.53114600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¨ç«¹å¯¦æ¥­æéå¬å¸", 
+      adres: "å°åå¸ä¸­æ­£åç¾æ¯ç¦è·¯ä¸æ®µ244å··2å¼4è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-23686582<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0507674,lng: 121.57672079, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ä¹å", 
+      adres: "å°åå¸æ¾å±±åé¥æ²³è¡196è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-27673378<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no257.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.112021,lng: 121.537599, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "248è¾²å­¸å", 
+      adres: "å°åå¸å£«æåå£«æ±è·¯286å··31è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-28346279<br>ç¶²åï¼<a href='http://www.248.com.tw/?page_id=909' target='_blank'>www.248.com.tw/?page_id=909</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no259.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0723045,lng: 121.43275459, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ææ³°è¤ç«¹å·¥èç¤¾(å¾ç¢ºèª)", 
+      adres: "æ°åå¸äºè¡åèªå¼·è·¯37å··1å¼34è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-22508942<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0168039,lng: 121.52519010, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¦æå±(å¾ç¢ºèª)", 
+      adres: "å°åå¸ä¸­æ­£åæ°´æºè·¯21-1è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-23673172<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.97307,lng: 121.54934999, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åé ç«¹èå(å¾ç¢ºèª)", 
+      adres: "å°åå¸å¯¶èè·¯167è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-3051392<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.89781,lng: 121.355096, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç«¹æè¡(å¾ç¢ºèª)", 
+      adres: "æ°åå¸ä¸å³½åå¤§åé179è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-6711970<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1533844,lng: 120.61573420, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å²³ç´å¯¦æ¥­", 
+      adres: "å°ä¸­å¸åå±¯åå¯¶å±±ä¸è¡152è10æ¨1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-23826812<br>ç¶²åï¼<a href='http://www.woodcharcoal.com.tw/' target='_blank'>www.woodcharcoal.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no264.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2497307,lng: 120.70863580, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¾°äº¦æéå¬å¸", 
+      adres: "å°ä¸­å¸è±ååä¸­æ­£è·¯555å··7è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25288830<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1788401,lng: 120.73912880, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ä¹éä¼æ¥­æéå¬å¸", 
+      adres: "å°ä¸­å¸åå±¯åæ±å±±è·¯äºæ®µ1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-22394321<br>ç¶²åï¼<a href='http://www.bamboo-country.com.tw/contact.php' target='_blank'>www.bamboo-country.com.tw/contact.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0361966,lng: 121.61400520, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹è»(å¾ç¢ºèª)", 
+      adres: "å°åå¸ç ç©¶é¢è·¯äºæ®µ182å··58å¼25è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-27820586<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1592009,lng: 120.69033200, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èå¯ç«¹è(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸ååå¥è¡è·¯26è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-22335843<br>ç¶²åï¼<a href='http://www.5fu.idv.tw/yuke/' target='_blank'>www.5fu.idv.tw/yuke/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no268.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2442658,lng: 120.71569599, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹æ³°åè¡", 
+      adres: "å°ä¸­å¸è±åååç°æ±è·¯82å··37è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25228234<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.159198,lng: 120.69059900, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å»ºç¾åè¡", 
+      adres: "å°ä¸­å¸ååå¥è¡è·¯14è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-22332718<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.3471135,lng: 120.654592, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§ç«¹è¡(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸å¤ååéµå±±é2é°é·çè·¯58â8è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2437981,lng: 120.71790039, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹æ³°è¡", 
+      adres: "å°ä¸­å¸è±ååç°å¿é5é°åç°æ±è·¯82å··37è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2505419,lng: 120.71248700, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ççç«¹åº", 
+      adres: "å°ä¸­å¸è±ååè¥¿å®éä¸­æ­£è·¯417è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25221258<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2678275,lng: 120.80371689, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§èè¡¡ç«¹å¨è¡(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸æ±å¢ååå¹³éè±å¢è·¯400è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.251541000,lng: 120.83078300, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ææ­£ç«¹ç± è¡", 
+      adres: "å°ä¸­å¸æ±å¢åå»¶å¹³éç¬¬ä¸æ©«è¡149è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25873523<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.2538434,lng: 120.82609500, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é²èç«¹æè¡", 
+      adres: "å°ä¸­å¸æ±å¢åå»¶å¹³éä¸­æ­£è·¯152è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25884853<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.174652,lng: 120.68727200, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ä¹éå·¥èç¤¾(å¾ç¢ºèª)", 
+      adres: "å°ä¸­å¸åå±¯åå¹³ç¦éæé è·¯2æ®µ73è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7599749,lng: 120.68367990, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹çæ ½è²·è³£(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å¤§æè·¯3æ®µ485è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2651670<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7609149,lng: 120.69290150, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¡ç«¹ææè²·è³£(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åééå±±è·¯3æ®µ501è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2645656<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7759891,lng: 120.71048500, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¯é«ç«¹èå", 
+      adres: "åæç¸£ç«¹å±±é®ä¿ç²è·¯3ä¹1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2654581<br>ç¶²åï¼<a href='http://mmweb.tw/33983/' target='_blank'>mmweb.tw/33983/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no280.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7832635,lng: 120.71197230, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é´»åå±±ç¢è¡", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯äºæ®µ546è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2654021<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7596321,lng: 120.70478509, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æºå¥½ç«¹æ¨å·¥èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥é9é°å»¶ç¥¥è·¯362å··8è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2648578<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.794384000,lng: 120.71063300, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¥å¾·ç«¹èé¤¨(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å±±å´ééå±±è·¯2æ®µ399è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2642351<br>ç¶²åï¼<a href='http://club.mmweb.tw/mobile/31296/' target='_blank'>club.mmweb.tw/mobile/31296/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no285.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.921647400,lng: 120.91984120, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é­æ± æ¾æ°´ç«¹ç­éç¼æéå¬å¸", 
+      adres: "åæç¸£é­æ± éå¤§éæ7é°å¤§éå··33-6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2916376<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9722245,lng: 120.96496309, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å®æ¾ç«¹è¡", 
+      adres: "åæç¸£åéé®è¥¿ééæ¼¢ä¸­è¡215å··8è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.778443,lng: 120.71500600, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åç«¹å·¥å(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éç±æ¹å··31-15è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7525958,lng: 120.67447839, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¥å¾ç«¹æ¨è¡(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±é32é°æ°çè·¯176è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7518259,lng: 120.7779584, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹é¢¨é½å·¥ä½å®¤", 
+      adres: "åæç¸£é¹¿è°·éæ°¸éæ6é°ä»ç¾©è·¯58-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7404626,lng: 120.75808800, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çç«¹å·¥å", 
+      adres: "åæç¸£é¹¿è°·éå»£èæ2é°ä¸­æ­£è·¯1æ®µ77è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no293.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9167354,lng: 120.69971730, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°ç£ç«¹å¬é¤¨(å¾ç¢ºèª)", 
+      adres: "åæç¸£åæå¸è»åéæ±å±±è·¯347â5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7521379,lng: 120.67923250, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¯æ£®ç«¹æ¨è¡", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±é20é°æ°åè¡146è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7152245,lng: 120.70385770, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å®æç«¹èç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å¤§éé6é°é æè·¯179è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7615898,lng: 120.70386659, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å å¾·ç«¹æ¨ç²¾åç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®å»¶ç¥¥éçç«¹å··125è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2654186<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7507179,lng: 120.67885679, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±æç«¹å·¥èåç¤¾", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­å±±éèªå¼·å­è·¯8è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2647593<br>ç¶²åï¼<a href='http://tw.ttnet.net/co/gotohtm-ph5ghquvjytwnpt.html' target='_blank'>tw.ttnet.net/co/gotohtm-ph5ghquvjytwnpt.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no299.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.784686,lng: 120.71228769, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¦èç«¹èå·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³ééå±±è·¯äºæ®µ574è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2633353<br>ç¶²åï¼<a href='http://w52130@yahoo.com.tw' target='_blank'>w52130@yahoo.com.tw</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no359.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.773371000,lng: 120.70180900, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç®¡å®¶å·åµä½(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶æ­£éæ±è¥¿è·¯16-20è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2652016<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no360.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7510911,lng: 120.67625399, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é è±ç«¹å±", 
+      adres: "åæç¸£ç«¹å±±é®ä¸­åéåå±±è·¯äºæ®µ47-27è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2651668<br>ç¶²åï¼<a href='http://bambootaiwan.com/' target='_blank'>bambootaiwan.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no361.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.063013,lng: 121.165825, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é·èç«¹è¡", 
+      adres: "å°æ±ç¸£éå±±é®å´é æä¸­ç³è·¯28-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0919-775480<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no384.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7559631,lng: 120.67336799, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¾ç¯å·¥ä½å", 
+      adres: "åæç¸£ç«¹å±±é®é²æéå¬æè·¯57å··6è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2658349<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7840794,lng: 120.71235460, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç§å£«çç«¹é", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯äºæ®µ553è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2646266<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7584875,lng: 120.69196959, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°æ¥­ç«¹éèå¸«", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åééåå··22036è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2641490<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.776468000,lng: 120.67855099, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èä¿å®ç«¹éå·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®ä¸åªéä¸åªè·¯37-3è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0920-156080<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7670872,lng: 120.70643040, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹çæ¿è£½ä½(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯ä¸æ®µè£è¾²æ°æ6å··2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2659193<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7624606,lng: 120.69351269, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹é æ¯01(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéåèå··118è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0920515226<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7415776,lng: 120.67212549, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹è£æ½¢(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å¾·èéé¯åè·¯118-5-10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2645172<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7581374,lng: 120.69392549, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹éãç«¹ç·¨ç«¹ãçµé£¾(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å»¶åéåè²å··97è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2633651<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7542803,lng: 120.67883110, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é»é¦å±å·¥ä½å®¤(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®éå±±è·¯ä¸æ®µ1148å··14è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0935-447334<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7662611,lng: 120.71655069, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æçç§å·¥ä½å®¤", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³éæ±éè·¯8-51è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2662573<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.983985,lng: 120.66414099, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç·¨åµä½04(å¾ç¢ºèª)", 
+      adres: "åæç¸£èå±¯é®åæéå²é¤¨è·¯268å··100è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.812625,lng: 120.74784100, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹èè¡åµä½04(å¾ç¢ºèª)", 
+      adres: "åæç¸£ç«¹å±±é®å¯å·éå¯å·å··25-4è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-262-2222<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7359481,lng: 120.76109589, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èå¯¶è®ç«¹ç·¨å·¥ä½å®¤(å¾ç¢ºèª)", 
+      adres: "åæç¸£é¹¿è°·éä¸­æ­£ä¸è·¯110è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2754216<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no362.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.968690100,lng: 120.32643910, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç§éæç«¹ç·¨å·¥è", 
+      adres: "å°åå¸éå»ååéè·¯2æ®µ720å··36è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-5957510<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no363.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.952271,lng: 120.27971950, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¤¾åæ³äººèºåå¸ç«¹æ", 
+      adres: "å°åå¸æ­¸ä»åå­ç²éå­ç²è·¯151å··22è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0931-541802<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no364.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.948256,lng: 120.393015, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å°åå¸é¾èç¤¾åç¼å±åæ", 
+      adres: "å°åå¸é¾å´å¶é¾è¹æè¦èæ¹10è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-5947270<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no365.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.8282849,lng: 120.3093846, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¬ç«¹å·¥å", 
+      adres: "é«éå¸å²¡å±±åæ½­åºéæ½­åºè·¯78è", 
+      bilgi: "è¯çµ¡é»è©±ï¼<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.622479,lng: 120.361333, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹ç±å±", 
+      adres: "é«éå¸é³³å±±åå¤§æ±ä¸è·¯94è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-741-0630<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no386.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6341915,lng: 120.3634639, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é¾æç«¹å", 
+      adres: "é«éå¸é³³å±±åç¶æ­¦è·¯129è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-7467337<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no387.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6544149,lng: 120.5205486, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¸åº­ç«¹èè¡", 
+      adres: "å±æ±ç¸£éºæ´éä¸­å±±è·¯619è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7227386<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.802065,lng: 120.4630585, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ¼¾ç«¹å", 
+      adres: "é²æç¸£è¥¿èºé®å¸å¾è¡28è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0937182583<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no389.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9786956,lng: 121.6056353, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±èç«¹åº(å¾ç¢ºèª)", 
+      adres: "è±è®ç¸£è±è®å¸æ°åè·¯105è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-8321027<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.575382,lng: 121.3684513, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°åç«¹ç«¹è¡", 
+      adres: "è±è®ç¸£çç©éå¯æ°æ122èä¹2", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-8811027<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9534843,lng: 121.5894431, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¿¡å·ç«¹æ¥­æéå¬å¸(æ­æ¥­)", 
+      adres: "è±è®ç¸£åå®éåæµ·åè¡244è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-8525131<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.795866,lng: 121.0909107, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "åèç«¹è¡", 
+      adres: "å°æ±ç¸£ååéåå¹³è·¯507è", 
+      bilgi: "è¯çµ¡é»è©±ï¼089-381287<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6781148,lng: 120.4938628, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¯èç«¹è¡", 
+      adres: "å±æ±ç¸£å±æ±å¸åå©è·¯24èä¹1", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7362061<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.7344308,lng: 120.4960379, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±å¯§ç«¹è¡", 
+      adres: "å±æ±ç¸£ä¹å¦éæ±å¯§æå¯ä»è¡1è1æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7390255<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no397.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.4384099,lng: 120.5119567, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¼ç¼ç«¹è¡", 
+      adres: "Â å±æ±ç¸£æééä¸­å±±è·¯292è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-8752291<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.7020442,lng: 120.5748873, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¹è¯ç«¹è¡", 
+      adres: "å±æ±ç¸£æ°´æºè·¯131è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7621370<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.7500109,lng: 121.7542151, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è­é½ç«¹è¡", 
+      adres: "å®è­ç¸£å®è­å¸å¾©èè·¯72è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-9324673<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.34375,lng: 120.437396, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å©æ³°ç«¹è¡", 
+      adres: "å°åå¸ç½æ²³åæ²³æ±é1~3è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-6851049<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no401.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.2197011,lng: 121.6395614, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é£å©ç«¹è¡", 
+      adres: "Â æ°åå¸éå±±åæè­·è¡24è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-24982303<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6127356,lng: 120.2948123, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çå±±ç«¹è¡", 
+      adres: "é«éå¸èå®è·¯40è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-3322425<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.646727,lng: 120.3142083, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ååç«¹è¡", 
+      adres: "é«éå¸ä¸æ°åæ°æä¸è·¯157è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-3117901<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.63494,lng: 120.164985, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¾å®¶æéå¬å¸(åå±¤è¿°ç²¾æ²¹å·¥å» )", 
+      adres: "é²æç¸£å£æ¹éä¸å´æä¸å¯®è·¯12è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0937-294669<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no454.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.6576902,lng: 120.8929592, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸é´ç«¹æå å·¥å» ", 
+      adres: "èæ ç¸£é ­ä»½é®å»£èé1é°19-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-7561688<br>ç¶²åï¼<a href='http://bamboo.so-buy.com/front/bin/ptlist.phtml?Category=401153' target='_blank'>bamboo.so-buy.com/front/bin/ptlist.phtml?Category=401153</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no445.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0462955,lng: 121.4301764, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èå»·å·¥æ¥­æéå¬å¸", 
+      adres: "æ°åå¸æ³°å±±åæå¿è·¯äºæ®µ273å··17è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-29008080<br>ç¶²åï¼<a href='http://www.maoting.com.tw/' target='_blank'>www.maoting.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no449.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0624264,lng: 121.435025, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å±±æ¬£è¯åå»ºæ", 
+      adres: "æ°åå¸æ³°å±±åæ¥æ±è·¯46å··63è", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-2909-1990<br>ç¶²åï¼<a href='http://www.csan.com.tw/' target='_blank'>www.csan.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no450.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.259139,lng: 120.7447405, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ³æºæ¨æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å°ä¸­å¸è±ååå¯é½è·¯306è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25231164<br>ç¶²åï¼<a href='http://www.nthcc.gov.tw/bamboo/06_link/01_main.asp?bull_id=272' target='_blank'>www.nthcc.gov.tw/bamboo/06_link/01_main.asp?bull_id=272</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.0722635,lng: 120.7266602, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°¸å¨ææ¥­çç¢åä½ç¤¾", 
+      adres: "å±æ±ç¸£è»åéçµ±åæçµ±åè·¯41ä¹47è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-8822234<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no455.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.8744918,lng: 121.0961017, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å±±è±¬å/ æå­ç¸åå¡", 
+      adres: "å°æ±ç¸£ååéæå³°æé¾éè112è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-9571179<br>ç¶²åï¼<a href='http://mpozuk.organic.org.tw/supergood/front/bin/home.phtml' target='_blank'>mpozuk.organic.org.tw/supergood/front/bin/home.phtml</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no433.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.3144644,lng: 120.726692, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éåæ¨æ¥­è¡ä»½æéå¬å¸", 
+      adres: "å°ä¸­å¸åéååééä¸è±è·¯ä¸æ³å··30è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-25577676<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7669218,lng: 120.704025, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¾·è±æ¨æ¥­", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³ä¸è·¯2è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-9264-2094<br>ç¶²åï¼<a href='http://www.tefeng.com.tw/' target='_blank'>www.tefeng.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no435.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0650949,lng: 121.5846729, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "MOSIAèç³»äºè¡ä»½æéå¬å¸", 
+      adres: "å°åå¸å§æ¹åæ°æ¹äºè·¯367è2æ¨", 
+      bilgi: "è¯çµ¡é»è©±ï¼02-27923700<br>ç¶²åï¼<a href='http://www.mosia.com.tw/' target='_blank'>www.mosia.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no438.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.570472,lng: 120.5507767, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¥æ¨ææ¥­ç§æè¡ä»½æéå¬å¸", 
+      adres: "å±æ±ç¸£è¬å·éé¹¿å¯®æä¸å¤è·¯1ä¹9è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7810272 ~ 3<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1717658,lng: 120.6039332, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è²¡åæ³äººéé¡æ¨éåä¼éç§æç ç¼ä¸­å¿", 
+      adres: "å°ä¸­å¸è¥¿å±¯åå·¥æ¥­åå«è·¯11è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-23590112<br>ç¶²åï¼<a href='http://www.bestmotion.com/frthome.asp' target='_blank'>www.bestmotion.com/frthome.asp</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no440.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.1722991,lng: 120.5891167, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è²¡åæ³äººç²¾å¯æ©æ¢°", 
+      adres: "å°ä¸­å¸è¥¿å±¯å(407)å°ä¸­å·¥æ¥­åï¼ï¼è·¯ï¼ï¼è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-23599009<br>ç¶²åï¼<a href='http://www.pmc.org.tw/' target='_blank'>www.pmc.org.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no441.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.9357665,lng: 121.5940137, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è²¡åæ³äººç³ææ¨è³æºç¢æ¥­ç ç©¶ç¼å±ä¸­å¿", 
+      adres: "è±è®ç¸£åå®éåè¯æåæ¿±è·¯ä¸æ®µ534è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-8423899<br>ç¶²åï¼<a href='http://www.srdc.org.tw/index.php' target='_blank'>www.srdc.org.tw/index.php</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no442.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.977089,lng: 121.602957, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æè¨±é¿å(å¾ç¢ºèª)", 
+      adres: "è±è®ç¸£è±è®å¸æ°åè·¯49è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-8358777<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.586916,lng: 120.944915, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æºç¬ç«¹æ¥­ç¤¾", 
+      adres: "èæ ç¸£çæ½­éç¾å£½æ9é°2ä¹1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-7932118<br>ç¶²åï¼<a href='http://a754adffbe08ad87b90a9a5bc5c8daed11e6588b.googledrive.com/host/0B6Q3wgQRz72xNEJ6NExlYUU4TWs/index.html' target='_blank'>a754adffbe08ad87b90a9a5bc5c8daed11e6588b.googledrive.com/host/0B6Q3wgQRz72xNEJ6NExlYUU4TWs/index.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no407.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.922825,lng: 120.552858, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç«¹å®ç¼ååº", 
+      adres: "å½°åç¸£æ°¸ééæ°¸èè·¯ä¸æ®µ305è", 
+      bilgi: "è¯çµ¡é»è©±ï¼04-8221236<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.970907,lng: 120.21534, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é­é£ç¼ç«¹æåº", 
+      adres: "å°åå¸æ±åå¤§åè·¯äºæ®µ447è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-2686385<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.677874,lng: 120.49438, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é«æ°ç«¹è¡", 
+      adres: "å±æ±ç¸£å±æ±å¸åå©è·¯22è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7361896<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no410.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.882329,lng: 120.495485, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æå°¾ç«¹å¨è¡", 
+      adres: "é«éå¸æå±±åæå±ä¸è·¯17è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-6612925<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.738028,lng: 121.09415, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¯åç«¹ç°¾", 
+      adres: "æ°ç«¹ç¸£ç«¹æ±é®åèè·¯äºæ®µå­è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-5956965<br>ç¶²åï¼<a href='http://www.grand-curtain.com/' target='_blank'>www.grand-curtain.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no412.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.763552,lng: 121.755312, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "å¤§åç«¹è¡", 
+      adres: "å®è­ç¸£å®è­å¸åè¡è¡1ä¹11è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-9357599<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.499319,lng: 120.372083, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æè¼ç«¹è¡", 
+      adres: "åç¾©ç¸£å¤ªä¿å¸ä¸­å±±è·¯äºæ®µ65è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-2373216<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.972703,lng: 120.190674, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é­èªæç«¹æè¡", 
+      adres: "å°åå¸ååéè¯è·¯ä¸æ®µ244è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-2619057<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.380423,lng: 120.436653, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éçç«¹æè¡", 
+      adres: "å°åå¸ç½æ²³åç«¹ééçªå­å17èä¹12", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-6832316<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.943008,lng: 120.178699, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸éç±æ¥­æéå¬å¸", 
+      adres: "å°åå¸éå»ååéè·¯ä¸æ®µ195å··43è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-5966846<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.737458,lng: 121.094716, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ±å±±ç«¹æ¨è¡", 
+      adres: "æ°ç«¹ç¸£ç«¹æ±é®åèè·¯ä¸æ®µ651è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-5962108<br>ç¶²åï¼<a href='http://www.dongshanbamboo.url.tw/' target='_blank'>www.dongshanbamboo.url.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no418.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.798481,lng: 120.459411, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸è³ç«¹æè¡", 
+      adres: "é²æç¸£è¥¿èºé®å»ºèè·¯184è", 
+      bilgi: "è¯çµ¡é»è©±ï¼05-5863486<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.083707,lng: 121.468254, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¼æç«¹å¨å·¥ç¨è¡", 
+      adres: "æ°åå¸èæ´²ååè¯è·¯46å··21å¼6è2F", 
+      bilgi: "è¯çµ¡é»è©±ï¼0910358743<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no420.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.665419,lng: 120.880456, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä¸é´ç«¹æå å·¥å» ", 
+      adres: "èæ ç¸£é ­ä»½é®å»£èé1é°19-1è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-7561688<br>ç¶²åï¼<a href='http://bamboo.so-buy.com/front/bin/home.phtml' target='_blank'>bamboo.so-buy.com/front/bin/home.phtml</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no421.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6457626,lng: 120.413816, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "é«çä¼æ¥­è¡ä»½æéå¬å¸", 
+      adres: "é«éå¸å¤§æ¨¹åä¹æ²éç¦åè¡3å··56è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-7333972<br>ç¶²åï¼<a href='http://jewater170.com/' target='_blank'>jewater170.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no422.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.6421601,lng: 120.4554992, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ä½³æ´ªè¡ä»½æéå¬å¸", 
+      adres: "å±æ±å¸å å·¥åºå£åç¶å»ºè·¯15è", 
+      bilgi: "è¯çµ¡é»è©±ï¼08-7530672<br>ç¶²åï¼<a href='http://www.aquaflow.com.tw/index.htm' target='_blank'>www.aquaflow.com.tw/index.htm</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no423.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 25.0307374,lng: 121.376063, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "è¼æç«¹å¨", 
+      adres: "æ¡åç¸£é¾å±±éæ¯èè·¯97å··5è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0910358743<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no426.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.6964212,lng: 120.8954245, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°¸å·¨ç«¹æ¨æéå¬å¸", 
+      adres: "èæ ç¸£é ­ä»½é®å¾èè£¡ä¿¡ç¾©è·¯449è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-7665990<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.969522,lng: 121.5972821, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç°æ¦®ç«¹æ¨æéå¬å¸", 
+      adres: "è±è®ç¸£è±è®å¸é·æ¥è¡55è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-8343348<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/noBrochure02.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.9107769,lng: 121.1454711, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "ç¾©èç«¹æ¨è¡", 
+      adres: "æ¡åå¸æ¥æ¢åå¤§å¹³è¡59è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-4783374<br>ç¶²åï¼<a href='http://' target='_blank'></a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no430.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.634916,lng: 121.822008, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ ¹æº TWBwood", 
+      adres: "å®è­ç¸£èªå¼·è·¯ 6 è", 
+      bilgi: "è¯çµ¡é»è©±ï¼03-9903188<br>ç¶²åï¼<a href='http://http://www.twbwood.com/' target='_blank'>http://www.twbwood.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no458.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 24.663970,lng: 121.800848, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èæ¨å·¥å ´", 
+      adres: "å®è­ç¸£èæ¾³é®é¾å¾·å·¥æ¥­åèªå¼·è·¯8è", 
+      bilgi: "è¯çµ¡é»è©±ï¼0928-019770<br>ç¶²åï¼<a href='http://http://www.kuenjin.com.tw/' target='_blank'>http://www.kuenjin.com.tw/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no459.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 22.601274,lng: 120.41356, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "éæç«ç°æ¨ä½è¨­è¨", 
+      adres: "é«éå¸å¤§å¯®åä¸éè·¯583-23è", 
+      bilgi: "è¯çµ¡é»è©±ï¼07-7885846<br>ç¶²åï¼<a href='http://http://blog.xuite.net/stone77/twblog' target='_blank'>http://blog.xuite.net/stone77/twblog</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no460.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.2881261,lng: 120.2241685, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "æ°ååéè¡ä»½æéå¬å¸", 
+      adres: "å°åå¸é¹½æ°´åå­«åéå­«åå¯®4ä¹6è", 
+      bilgi: "è¯çµ¡é»è©±ï¼06-6550550<br>ç¶²åï¼<a href='http://http://www.minepharm.com/' target='_blank'>http://www.minepharm.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no462.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.805090,lng: 120.859428, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "èºå¤§æ°´éæ¨æå¯¦ç¿å·¥å» ", 
+      adres: "åæç¸£æ°´ééæ°¸è±ææ°´ä¿¡è·¯ä¸æ®µ547è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2770138<br>ç¶²åï¼<a href='http://https://www.exfo.ntu.edu.tw/factory/index.html' target='_blank'>https://www.exfo.ntu.edu.tw/factory/index.html</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no463.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+,  
+  { lat: 23.7658487,lng: 120.7101519, 
+    data: { 
+      type: "magaza", 
+      magazaID:1,
+      magazaGrubuID:1,
+      adi: "çåèè¡å", 
+      adres: "åæç¸£ç«¹å±±é®å»¶å¹³æ°æ1-20è", 
+      bilgi: "è¯çµ¡é»è©±ï¼049-2653205<br>ç¶²åï¼<a href='http://http://www.ez-life99.com/' target='_blank'>http://www.ez-life99.com/</a>", 
+      logo: "bamboo2st.png", 
+      brosurID:141,       
+      brosur: "css/map/mapimgs/no464.png" 
+    }, 
+    options: { 
+      icon: marka02
+    } 
+  }
+  
+
+  
+];
+	
+    
+    </script>
+    <script type="text/javascript">
+	
+      var mapMenuOpen = true;
+	  
+      var shadow = new google.maps.MarkerImage(
+        'css/map/mapimgs/marker-images/shadow.png',
+        new google.maps.Size(87,50),
+        new google.maps.Point(0,0),
+        new google.maps.Point(30,50)
+      );
+      
+      function mapMenuClose() {
+        if (!mapMenuOpen) {
+        $('#haritaPopUp').css('display', 'none');
+          mapMenuOpen = true;	
+        }
+      }
+
+
+      $(function () {
+	
+        // map initialisation
+        $('#anaharita').gmap3({
+          map:{
+            options: {
+              center: [23.857110, 120.534825],
+              zoom: 11,
+              panControl: true,
+              overviewMapControl: false,
+              mapTypeControl: false,
+              scaleControl: false,
+              streetViewControl: false,
+              zoomControl: true,
+              maxZoom: 16,
+              minZoom: 2
+            }
+          }
+        });
+        
+        $('#anaharita').gmap3({
+          marker:{
+            values: list, // from js/data.js
+            
+            // single marker options
+            options: {
+              draggable: false,
+              shadow: shadow
+            },
+            // single marker events
+            events: {
+              mouseover: function (marker, event, context) {
+                mapMenuOpen = true;
+                var map = $(this).gmap3('get');
+                var scale = Math.pow(2, map.getZoom());
+                var nw = new google.maps.LatLng(
+                map.getBounds().getNorthEast().lat(), map.getBounds().getSouthWest().lng());
+                var worldCoordinateNW = map.getProjection().fromLatLngToPoint(nw);
+                var worldCoordinate = map.getProjection().fromLatLngToPoint(marker.getPosition());
+                var pixelOffset = new google.maps.Point(Math.floor((worldCoordinate.x - worldCoordinateNW.x) * scale), Math.floor((worldCoordinate.y - worldCoordinateNW.y) * scale));
+                var mapposition = $("#anaharita").position();
+                
+                if (context.data.type != "merkez") {
+                  var icerik = "<div class='left'><div class='magazaadi' id='magazaadi'> " + context.data.adi + "</div><div class='magazaadres' id='magazaadres'> " + context.data.adres + "</div><div class='magazabilgi' id='magazabilgi'>" + context.data.bilgi + "</div></div><div class='right'><div class='urunlogo' onClick='CreatePresentation("+context.data.brosurID+",1,2);'> <img id='magazabrosur' src='"+context.data.brosur+"' width='100' height='141'></div></div>";
+                  
+                  $(".accordion").html(icerik);
+                  
+                  magazalogopath = "logo/";
+                  magazabrosurpath = "";
+                  
+                  $("#haritaPopUp").css('display', 'block');
+                  $("#haritaPopUp").css('left', (pixelOffset.x + mapposition.left + 15 + 'px'));
+                  $("#haritaPopUp").css('top', (pixelOffset.y + mapposition.top - 30 + 'px'));
+                  
+                }
+              },
+              mouseout: function () {
+                mapMenuOpen = false;
+                var t = setTimeout("mapMenuClose()", 500)
+              }
+            },
+            
+            // cluster definition
+            cluster:{
+              radius: 100,
+              
+              // This style will be used for clusters with more than 0 markers
+              0: {
+                content: '<div class="cluster cluster-1">CLUSTER_COUNT</div>',
+                width: 50,
+                height: 50
+              },
+              // This style will be used for clusters with more than 6 markers
+              6: {
+                content: '<div class="cluster cluster-2">CLUSTER_COUNT</div>',
+                width: 70,
+                height: 70
+              },
+              // This style will be used for clusters with more than 7 markers
+              7: {
+                content: '<div class="cluster cluster-3">CLUSTER_COUNT</div>',
+                width: 90,
+                height: 90
+              },
+              events: {
+                mouseover: function (cluster, event, context) {
+                  var icerik = "";
+                  magazalogopath = "logo/";
+                  magazabrosurpath = "";
+                  
+                  // If more than 7 markers, don't display the panel
+                  if(context.data.markers.length > 12 ){
+                    return;
+                  }
+                  for (i = 0; i < context.data.markers.length; i++) {
+                    icerik += "<div class='accordionButton'>" + context.data.markers[i].data.adi + "</div><div class='accordionContent'><div class='left'><div class='magazaadres' id='magazaadres'> " + context.data.markers[i].data.adres + "</div><div class='magazabilgi' id='magazabilgi'>" + context.data.markers[i].data.bilgi + "</div></div><div class='right'><div class='urunlogo' onClick='CreatePresentation("+context.data.markers[i].data.brosurID+",1,2);'> <img id='magazabrosur' src='"+context.data.markers[i].data.brosur+"' width='100' height='141'></div></div></div>";
+                  }
+                  
+                  $(".accordion").html(icerik);
+                  $("#haritaPopUp").css('display', 'block');
+                  $("#haritaPopUp").css('left', ($(cluster.main.getDOMElement()).offset().left + 10 + ($(cluster.main.getDOMElement()).width()/2) +'px'));
+                  $("#haritaPopUp").css('top', ($(cluster.main.getDOMElement()).offset().top -30+ ($(cluster.main.getDOMElement()).height()/2)+'px'));
+                  
+                  $(cluster.main.getDOMElement()).css('border', '0px solid #FF0000');
+                  
+                  $('.accordionButton').click(function () {
+                    $('.accordionButton').removeClass('on');
+                    $('.accordionContent').slideUp('normal');
+                    if ($(this).next().is(':hidden')) {
+                      $(this).addClass('on'); 
+                      $(this).next().slideDown('normal');
+                    }
+                  });
+                  
+                  $('.accordionContent').hide();
+                },
+                mouseout: function (cluster, event) {
+                  mapMenuOpen = false;
+                  var t = setTimeout("mapMenuClose()", 500)
+                },
+                click: function (cluster, event, context){
+                  var map = $(this).gmap3('get');
+                  mapMenuOpen = false;
+                  var t = setTimeout("mapMenuClose()", 100)				
+                  map.setCenter(context.data.latLng);
+                  map.setZoom(map.getZoom() + 1);
+                }
+              }
+            }
+          }
+        });
+
+        $("#haritaPopUp").mouseover(function() {
+          mapMenuOpen = true;
+          $("#haritaPopUp").css('display', 'block');
+        });
+        
+        $("#haritaPopUp").mouseout(function() {
+          $('#haritaPopUp').css('display', 'none');
+        });
+        
+      }); // end of $(function(){
+        
+        
+    </script>		
+
+	</head>
+	<body>
+		<div class="body">
+			<header id="header">
+				<div class="container">
+					<div class="logo">
+						<a href="index.asp">
+							<img alt="Home" width="269" height="80" data-sticky-width="202" data-sticky-height="60" data-sticky-top="33" src="img/logo.png">
+						</a>
+					</div>
+					<div class="search">
+						<form id="searchForm" method="POST" action="bus_search.asp">
+							<div class="input-group">
+								<input type="text" class="form-control search" name="T1" placeholder="è³ææå°" required>
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<ul class="social-icons">
+						<li class="facebook"><a href="https://www.facebook.com/twbamboo" title="Facebook">Facebook</a></li>
+						<li class="e-mail"><a href="mailto:YPHuang@itri.org.tw" title="e-mail">e-mail</a></li>
+						<li class="message"><a href="index06_03.htm" title="message">messege</a></li>
+					</ul>
+					<nav class="nav-top">
+						<ul class="nav nav-pills nav-top">
+							<li>
+								<a href="http://www.pcstore.com.tw/store1475237593/HM/introduce.htm" title="ç«¹ç¢åç·ä¸è³¼ç©" target="_blank"><i class="fa fa-shopping-cart"></i>ç·ä¸è³¼ç©</a>
+							</li>
+							<li>
+								<a href="http://www.bambootw.net/indexen.asp" title="English" target="_blank"><i class="fa fa-language"></i>English</a>
+							</li>
+						</ul>				
+					</nav>				
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								<li class="dropdown">
+									<a href="index.asp">é¦é </a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">æ¶æ¯å¬å</a>
+									<ul class="dropdown-menu">
+										<li><a href="index01.asp?newsdis=1">ç¶²ç«å¬åï¼å¨é¨å¬å</a></li>
+										<li><a href="index01.asp?newsdis=2">ç¢æ¥­è³è¨</a></li>
+										<li><a href="index01.asp?newsdis=3">æ´»åè¨æ¯</a></li>		
+										<li><a href="index01_product01.htm">äº®é»ååï¼ç«¹é¦èå</a></li>	
+										<li><a href="index01_product02.htm">ç«¹æ§æ°è¦å</a></li>																													
+									</ul>																	
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">éæ¼æ¬ç«</a>								
+									<ul class="dropdown-menu">
+										<li><a href="index02_01.htm">ç·£ç±</a></li>
+										<li><a href="index02_02.htm">ç¶²ç«ä»ç´¹</a></li>
+										<li><a href="index02_03.htm">å­ç´åèªªæ</a></li>																													
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">å°æ¥­æè¡è³æº</a>
+									<ul class="dropdown-menu">
+										<li><a href="index03_01.asp">æè¡ä¾çµ¦</a></li>
+										<li><a href="index03_02.asp">æè¡éæ±</a></li>
+										<li><a href="index03_03.asp">ç ç¼ææ</a></li>
+<li><a href="index03_04.asp">ç«¹ç¥è­åº«</a></li>																													
+									</ul>
+								</li>
+								<li class="dropdown active">
+									<a class="dropdown-toggle" href="#">åå®¶èè½</a>
+									<ul class="dropdown-menu">
+	               	 	<li><a href="index04_01.htm">äº®é»åååå®¶æ¨è¦</a></li>
+	                  <li><a href="index04_02.asp">ç«¹ç¢æ¥­å­ç´ååå®¶å°å</a></li>
+	                  <li><a href="index04_04.htm">ç«¹ç¢æ¥­åååé¡å°å</a></li>
+	                  <li><a href="index04_03.htm">720åº¦ç°æ¯å½±å</a></li>																														
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="index07.htm">ç·ä¸è³¼ç©</a>
+								</li>
+								<li class="dropdown">
+									<a href="index05.htm">ç¸éé£çµ</a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#">è¯çµ¡æå</a>
+									<ul class="dropdown-menu">
+	               	 					
+						                  <li><a href="index06_02.htm">è¯çµ¡è«®è©¢ä¸­å¿</a></li>
+						                  <li><a href="index06_03.htm">è¨ªå®¢çè¨</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<div role="main" class="main">
+
+				<section class="page-header"></section>
+
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-3">
+							<aside class="sidebar">
+								<h2><strong>ç«¹ç¢æ¥­åå®¶å°å</strong></h2>
+								<p align="justify"><font size="3">èç±Google mapè¨­è¨å¯å°åå¼æè©¢ï¼ä»¥éåç´æ´åï¼ç¥è½æ´»ååæ©ã</font></p>	
+								<ul class="nav nav-list mb-xlg">
+									<li><a href="index04_02.asp?seeword=0"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­åå®¶å°åï¼ææåå®¶</font></a></li>
+									<li><a href="index04_02.asp?seeword=1"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­ä¸ç´åå®¶å°å</font></a></li>
+									<li><a href="index04_02.asp?seeword=2"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­äºç´åå®¶å°å</font></a></li>
+									<li><a href="index04_02.asp?seeword=3"><font size="4">ã<i class="fa fa-caret-right"></i>ãç«¹ç¢æ¥­ä¸ç´åå®¶å°å</font></a></li>
+								</ul>													
+							</aside>							
+						</div>
+						<div class="col-md-9">
+
+
+
+							<div class="row">
+								<div class="col-md-12">	
+									<h5><strong>(Google Map)</strong></h5>								
+									<h3><strong>ç«¹æç¢æ¥­å­ç´å	äºç´åå®¶ ååï¼è£½é å&nbsp;åå®¶åå¸å°å</strong></h3>
+									<hr class="solid">
+									<p><font size="4" color="#b39964">è«é»é¸å·¦å´åé è§ç</font></p>	 	 						
+								</div>
+								<div class="col-md-6">
+									<p align="justify">
+										ä¸ç´åå®¶çºåæï¼ä¾æåï¼äºç´åå®¶çºååï¼è£½é åï¼ä¸ç´åå®¶çºè³£å ´ï¼è¡é·åãè¥æåå®¶çºè·¨ç´å¦ï¼ä¸ç´ãäºç´ãä¸ç´é½æï¼åä»¥ä¸ç´çåç¤ºé¡è²é¡¯ç¤ºï¼æäºç´ä¹æä¸ç´ï¼åä»¥äºç´çåç¤ºé¡è²é¡¯ç¤ºï¼ä»¥æ­¤é¡æ¨ãç¥åç´åå®¶ç¼æ®ç¸è¼ç¸ä¹çä½ç¨ï¼ä»¥éåç´æ´åï¼å±åµç«¹ç¢æ¥­åæ©ã
+									</p>
+								</div>
+								<div class="col-md-6">
+									<p align="center"><img border="0" src="img/04/index04_02pic01.jpg" width="80%"></p>	
+								</div>
+							</div>
+
+						</div>
+
+					</div>					
+
+				</div>
+
+			</div>
+		  <!-- contact form -->
+		
+		
+	    <div id="haritaPopUp">
+	      <div class="arrowMap"></div>
+	      <div class="haritaWrapper">
+	        <div class="topMap"></div>
+	        <div class="content">
+	          <div class="containerMap">
+	            <div class="accordion"></div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <hr>
+	    <div id="haritaMain">
+	      <div id="haritaSehir"></div>
+	      <div id="anaharita" class="anaharita"> </div>
+	    </div>
+
+		  <!-- / contact form -->			
+ 
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer-ribbon">
+							<span>Taiwan Bamboo</span>
+						</div>
+						<div class="col-md-3" margin: 0px 0px 10px 0px;>
+							<div class="contact-details">
+								<h4 class="heading-primary">è¯çµ¡æå | Contact Us</h4>
+									<p><font color="#FFFF00">å·è¡åéï¼å·¥ç é¢ãä¸­åé¢</font><br>
+										<font color="#ffffff">
+									å°åï¼73445 å°åå¸å­ç²åå·¥ç è·¯8è<br>
+									ç¸½æ©ï¼+886-6-6939333<br>å®¢æå°ç·ï¼0800-45-8899<br>
+									æåä¿¡ç®±ï¼<a href="mailto:YPHuang@itri.org.tw">YPHuang@itri.org.tw</a>
+									</font></p>  
+							</div>
+							<ul class="social-icons">
+								<li class="facebook"><a href="https://www.facebook.com/twbamboo" title="Facebook">Facebook</a></li>
+								<li class="e-mail"><a href="mailto:YPHuang@itri.org.tw" title="e-mail">e-mail</a></li>
+								<li class="message"><a href="index06_03.htm" title="message">messege</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="heading-primary">åè¨ªäººæ¬¡ | Counter</h4>
+							<div id="tweet" class="twitter" data-plugin-tweets data-plugin-options='{"username": "", "count": 2}'>
+								<p><a href="http://s07.flagcounter.com/more/1B"><img src="http://s07.flagcounter.com/count2/1B/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_4/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
+							  <p><script language="javascript" src="http://toolkit.url.com.tw/counter/setcounter.php?sid=87123"></script></p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="contact-details">
+								<h4 class="heading-primary">ç¸éé£çµ | related link</h4>
+								<ul class="nav nav-list mb-xl">
+									<li><a href="http://www.coa.gov.tw/show_index.php">è¡æ¿é¢è¾²æ¥­å§å¡æ</a></li>
+									<li><a href="http://www.forest.gov.tw">è¡æ¿é¢è¾²æ¥­å§å¡ææåå±</a></li>
+									<li><a href="https://www.itri.org.tw/">å·¥æ¥­æè¡ç ç©¶é¢</a></li>																
+									<li><a href="https://www.facebook.com/twbamboo">å°ç£ç«¹æç¢æ¥­Facebook</a></li>
+									<li><a href="https://www.facebook.com/bambootaiwan.tw">ç«¹è·¡é¤¨Facebook</a></li>								
+									<li><a href="http://www.eco-materials.org.tw/">å°ç£çæææç¢æ¥­ç¼å±åæ</a></li>										
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3" style="text-align:center">
+							<h4 class="heading-primary">ç²çµ²å°é  | Facebook</h4>
+								<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ftwbamboo&amp;width=249&amp;height=230&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:249px; height:230px;" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+						  <div style="text-align: center">
+							  <p><font color="#FFFFFF">è¡æ¿é¢è¾²æ¥­å§å¡ææåå± çæ¬ææ Â© copyright Â© 2014 ALL Rights Reserved.<br> å»ºè­°ç¶²é çè¦½è§£æåº¦ 1920x1080 (å«ä»¥ä¸)&nbsp;&nbsp;&nbsp;ç¶­è­·å®ä½ï¼å¹³æ²»ç§ææéå¬å¸</font></p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Vendor -->
+		<!--[if lt IE 9]>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<!--<script src="vendor/jquery/jquery.js"></script>--><!--20150731è¨»è§£(å½±é¿å°map)-->
+		<!--<![endif]-->
+		<script src="vendor/jquery.appear/jquery.appear.js"></script>
+		<script src="vendor/jquery.easing/jquery.easing.js"></script>
+		<script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+		<script src="vendor/bootstrap/bootstrap.js"></script>
+		<script src="vendor/common/common.js"></script>
+		<script src="vendor/jquery.validation/jquery.validation.js"></script>
+		<script src="vendor/jquery.stellar/jquery.stellar.js"></script>
+		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="vendor/jquery.gmap/jquery.gmap.js"></script>
+		<script src="vendor/isotope/jquery.isotope.js"></script>
+		<script src="vendor/owlcarousel/owl.carousel.js"></script>
+		<script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+		<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="vendor/vide/vide.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+		
+		<!-- Specific Page Vendor and Views -->
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+		<script src="js/views/view.home.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script type="text/javascript">
+		
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-12345678-1']);
+			_gaq.push(['_trackPageview']);
+		
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		
+		</script>
+		 -->
+
+	</body>
+</html>
+
+
+		<!-- å°ç£ç«¹æç¢æ¥­ å³ææè¡æå Star-->
+		  <!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			
+			<!-- Your customer chat code -->
+			<div class="fb-customerchat"
+			  attribution=setup_tool
+			  page_id="379599838871287"
+			  theme_color="#67b868">
+			</div>
+		<!-- å°ç£ç«¹æç¢æ¥­ å³ææè¡æå End -->
+		
