@@ -1,1 +1,17 @@
-{'ID': '028', 'Title': '農民學院', 'Organ': '輔導處', 'Catalog': '農民輔導', 'Counter': 34038, 'Lnkcnt': 24507, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '10', 'UpdateFrequency': '每日', 'description': '提供資料包含：課程id、課程名稱、訓練別、課程日期、課程費用、報名時間、開課狀態、產業別、課程型態、名額、報名人數、課程內容、參加對象、資格條件、課程地點、聯絡資訊等欄位資料。', 'sourceURL': 'https://academy.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/FarmerAcademyData.aspx'}
+{
+	"ID": "028",
+	"Title": "農民學院",
+	"Organ": "輔導處",
+	"Catalog": "農民輔導",
+	"Counter": 34038,
+	"Lnkcnt": 24507,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "10",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包含：課程id、課程名稱、訓練別、課程日期、課程費用、報名時間、開課狀態、產業別、課程型態、名額、報名人數、課程內容、參加對象、資格條件、課程地點、聯絡資訊等欄位資料。",
+	"sourceURL": "https://academy.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/FarmerAcademyData.aspx"
+}

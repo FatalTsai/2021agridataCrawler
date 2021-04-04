@@ -1,1 +1,17 @@
-{'ID': 'B78', 'Title': '農藥管理人員教育訓練課程', 'Organ': '動植物防疫檢疫局', 'Catalog': '農民輔導', 'Counter': 7191, 'Lnkcnt': 282, 'LastUpdateTime': '2020-07-31', 'Messages': 0, 'Collect': 0, 'rating': '1', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包括：課程名稱、網址、課程內容、發佈日期、舉辦日期起、舉辦日期迄等欄位資訊。', 'sourceURL': 'http://pesticide.baphiq.gov.tw/web/ClassSelect.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/PesticideClassData.aspx'}
+{
+	"ID": "B78",
+	"Title": "農藥管理人員教育訓練課程",
+	"Organ": "動植物防疫檢疫局",
+	"Catalog": "農民輔導",
+	"Counter": 7191,
+	"Lnkcnt": 282,
+	"LastUpdateTime": "2020-07-31",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "1",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：課程名稱、網址、課程內容、發佈日期、舉辦日期起、舉辦日期迄等欄位資訊。",
+	"sourceURL": "http://pesticide.baphiq.gov.tw/web/ClassSelect.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/PesticideClassData.aspx"
+}

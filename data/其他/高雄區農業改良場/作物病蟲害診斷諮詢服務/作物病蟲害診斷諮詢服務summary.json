@@ -1,1 +1,17 @@
-{'ID': '873', 'Title': '作物病蟲害診斷諮詢服務', 'Organ': '高雄區農業改良場', 'Catalog': '其他', 'Counter': 5875, 'Lnkcnt': 1997, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '1', 'NumberOfVoters': '2', 'UpdateFrequency': '即時', 'description': '提供資料包括：服務專線、植保研究室研究人員聯絡專線、服務說明網頁等欄位資料。', 'sourceURL': 'http://www.kdais.gov.tw/view.php?catid=1691', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=873'}
+{
+	"ID": "873",
+	"Title": "作物病蟲害診斷諮詢服務",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "其他",
+	"Counter": 5875,
+	"Lnkcnt": 1997,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "1",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：服務專線、植保研究室研究人員聯絡專線、服務說明網頁等欄位資料。",
+	"sourceURL": "http://www.kdais.gov.tw/view.php?catid=1691",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=873"
+}

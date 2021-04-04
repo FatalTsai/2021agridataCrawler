@@ -1,1 +1,17 @@
-{'ID': '348', 'Title': '藥物毒物試驗所簡訊', 'Organ': '農業藥物毒物試驗所', 'Catalog': '農業科技', 'Counter': 10532, 'Lnkcnt': 4147, 'LastUpdateTime': '2021-02-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每2月', 'description': '提供資料包括：期數、出刊時間、檔案連結等欄位資訊。', 'sourceURL': 'https://www.tactri.gov.tw/Category/List/%E8%97%A5%E6%AF%92%E6%89%80%E7%B0%A1%E8%A8%8A', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=348'}
+{
+	"ID": "348",
+	"Title": "藥物毒物試驗所簡訊",
+	"Organ": "農業藥物毒物試驗所",
+	"Catalog": "農業科技",
+	"Counter": 10532,
+	"Lnkcnt": 4147,
+	"LastUpdateTime": "2021-02-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每2月",
+	"description": "提供資料包括：期數、出刊時間、檔案連結等欄位資訊。",
+	"sourceURL": "https://www.tactri.gov.tw/Category/List/%E8%97%A5%E6%AF%92%E6%89%80%E7%B0%A1%E8%A8%8A",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=348"
+}

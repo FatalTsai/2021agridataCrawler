@@ -1,17 +1,17 @@
 [
-  {
-    "UpdateTime": "20210115",
-    "UpdateInterval": -1,
-    "AuthorityCode": "AFR",
-    "OperatorCode": "AFR",
-    "OperatorName_Zh_tw": "阿里山林業鐵路及文化資產管理處",
-    "OperatorName_En": "Alishan Forest Railway and Cultural Heritage Office",
-    "OperatorPhone": "05-2779843",
-    "OperatorEmail": "afrts@forest.gov.tw",
-    "OperatorURL": "https://afrch.forest.gov.tw/",
-    "FareURL": "https://afrch.forest.gov.tw/0000119",
-    "ReservationURL": "https://afrts.forest.gov.tw/TP01_1.aspx",
-    "ReservationPhone": "無",
-    "OperatorLogoURL": ""
-  }
+	{
+		"UpdateTime": "20210115",
+		"UpdateInterval": -1,
+		"AuthorityCode": "AFR",
+		"OperatorCode": "AFR",
+		"OperatorName_Zh_tw": "阿里山林業鐵路及文化資產管理處",
+		"OperatorName_En": "Alishan Forest Railway and Cultural Heritage Office",
+		"OperatorPhone": "05-2779843",
+		"OperatorEmail": "afrts@forest.gov.tw",
+		"OperatorURL": "https://afrch.forest.gov.tw/",
+		"FareURL": "https://afrch.forest.gov.tw/0000119",
+		"ReservationURL": "https://afrts.forest.gov.tw/TP01_1.aspx",
+		"ReservationPhone": "無",
+		"OperatorLogoURL": ""
+	}
 ]

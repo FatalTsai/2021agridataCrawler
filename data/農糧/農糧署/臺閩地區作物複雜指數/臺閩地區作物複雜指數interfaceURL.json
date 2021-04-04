@@ -1,2630 +1,2630 @@
 [
-  {
-    "year": 2017,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2017,
-    "city_area": "金門縣",
-    "plant_area": 3,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 192,
-    "no_extended_re_plant": 192
-  },
-  {
-    "year": 2017,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 118,
-    "no_extended_re_plant": 127
-  },
-  {
-    "year": 2017,
-    "city_area": "新竹市",
-    "plant_area": 1,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 61,
-    "no_extended_re_plant": 59
-  },
-  {
-    "year": 2017,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 26,
-    "no_extended_re_plant": 4
-  },
-  {
-    "year": 2017,
-    "city_area": "澎湖縣",
-    "plant_area": 0,
-    "reward_area": 5,
-    "extended_plant": 0,
-    "re_plant_avg": 11,
-    "no_extended_re_plant": 11
-  },
-  {
-    "year": 2017,
-    "city_area": "花蓮縣",
-    "plant_area": 35,
-    "reward_area": 45,
-    "extended_plant": 9,
-    "re_plant_avg": 78,
-    "no_extended_re_plant": 72
-  },
-  {
-    "year": 2017,
-    "city_area": "台東縣",
-    "plant_area": 29,
-    "reward_area": 46,
-    "extended_plant": 13,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 46
-  },
-  {
-    "year": 2017,
-    "city_area": "屏東縣",
-    "plant_area": 62,
-    "reward_area": 70,
-    "extended_plant": 35,
-    "re_plant_avg": 87,
-    "no_extended_re_plant": 75
-  },
-  {
-    "year": 2017,
-    "city_area": "嘉義縣",
-    "plant_area": 82,
-    "reward_area": 73,
-    "extended_plant": 30,
-    "re_plant_avg": 111,
-    "no_extended_re_plant": 120
-  },
-  {
-    "year": 2017,
-    "city_area": "雲林縣",
-    "plant_area": 120,
-    "reward_area": 79,
-    "extended_plant": 14,
-    "re_plant_avg": 150,
-    "no_extended_re_plant": 161
-  },
-  {
-    "year": 2017,
-    "city_area": "南投縣",
-    "plant_area": 48,
-    "reward_area": 65,
-    "extended_plant": 36,
-    "re_plant_avg": 73,
-    "no_extended_re_plant": 39
-  },
-  {
-    "year": 2017,
-    "city_area": "彰化縣",
-    "plant_area": 79,
-    "reward_area": 61,
-    "extended_plant": 13,
-    "re_plant_avg": 128,
-    "no_extended_re_plant": 136
-  },
-  {
-    "year": 2017,
-    "city_area": "苗栗縣",
-    "plant_area": 24,
-    "reward_area": 33,
-    "extended_plant": 9,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2017,
-    "city_area": "新竹縣",
-    "plant_area": 13,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 50,
-    "no_extended_re_plant": 40
-  },
-  {
-    "year": 2017,
-    "city_area": "宜蘭縣",
-    "plant_area": 18,
-    "reward_area": 27,
-    "extended_plant": 2,
-    "re_plant_avg": 65,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2017,
-    "city_area": "高雄市",
-    "plant_area": 38,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 81,
-    "no_extended_re_plant": 66
-  },
-  {
-    "year": 2017,
-    "city_area": "台南市",
-    "plant_area": 82,
-    "reward_area": 92,
-    "extended_plant": 30,
-    "re_plant_avg": 89,
-    "no_extended_re_plant": 83
-  },
-  {
-    "year": 2017,
-    "city_area": "台中市",
-    "plant_area": 53,
-    "reward_area": 47,
-    "extended_plant": 22,
-    "re_plant_avg": 112,
-    "no_extended_re_plant": 123
-  },
-  {
-    "year": 2017,
-    "city_area": "桃園市",
-    "plant_area": 26,
-    "reward_area": 32,
-    "extended_plant": 2,
-    "re_plant_avg": 82,
-    "no_extended_re_plant": 80
-  },
-  {
-    "year": 2017,
-    "city_area": "台北市",
-    "plant_area": 2,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 71,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2017,
-    "city_area": "新北市",
-    "plant_area": 9,
-    "reward_area": 24,
-    "extended_plant": 6,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 17
-  },
-  {
-    "year": 2016,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2016,
-    "city_area": "金門縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2016,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 117,
-    "no_extended_re_plant": 124
-  },
-  {
-    "year": 2016,
-    "city_area": "新竹市",
-    "plant_area": 1,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 60,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2016,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 27,
-    "no_extended_re_plant": 4
-  },
-  {
-    "year": 2016,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 11
-  },
-  {
-    "year": 2016,
-    "city_area": "花蓮縣",
-    "plant_area": 34,
-    "reward_area": 45,
-    "extended_plant": 9,
-    "re_plant_avg": 76,
-    "no_extended_re_plant": 70
-  },
-  {
-    "year": 2016,
-    "city_area": "台東縣",
-    "plant_area": 29,
-    "reward_area": 47,
-    "extended_plant": 13,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 48
-  },
-  {
-    "year": 2016,
-    "city_area": "屏東縣",
-    "plant_area": 63,
-    "reward_area": 71,
-    "extended_plant": 36,
-    "re_plant_avg": 89,
-    "no_extended_re_plant": 78
-  },
-  {
-    "year": 2016,
-    "city_area": "嘉義縣",
-    "plant_area": 84,
-    "reward_area": 73,
-    "extended_plant": 31,
-    "re_plant_avg": 114,
-    "no_extended_re_plant": 125
-  },
-  {
-    "year": 2016,
-    "city_area": "雲林縣",
-    "plant_area": 120,
-    "reward_area": 80,
-    "extended_plant": 14,
-    "re_plant_avg": 150,
-    "no_extended_re_plant": 161
-  },
-  {
-    "year": 2016,
-    "city_area": "南投縣",
-    "plant_area": 48,
-    "reward_area": 65,
-    "extended_plant": 37,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 39
-  },
-  {
-    "year": 2016,
-    "city_area": "彰化縣",
-    "plant_area": 81,
-    "reward_area": 62,
-    "extended_plant": 13,
-    "re_plant_avg": 132,
-    "no_extended_re_plant": 140
-  },
-  {
-    "year": 2016,
-    "city_area": "苗栗縣",
-    "plant_area": 26,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 66
-  },
-  {
-    "year": 2016,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 28,
-    "extended_plant": 5,
-    "re_plant_avg": 51,
-    "no_extended_re_plant": 41
-  },
-  {
-    "year": 2016,
-    "city_area": "桃園縣",
-    "plant_area": 18,
-    "reward_area": 28,
-    "extended_plant": 3,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 62
-  },
-  {
-    "year": 2016,
-    "city_area": "宜蘭縣",
-    "plant_area": 40,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 84,
-    "no_extended_re_plant": 70
-  },
-  {
-    "year": 2016,
-    "city_area": "高雄市",
-    "plant_area": 81,
-    "reward_area": 93,
-    "extended_plant": 31,
-    "re_plant_avg": 87,
-    "no_extended_re_plant": 80
-  },
-  {
-    "year": 2016,
-    "city_area": "台南市",
-    "plant_area": 54,
-    "reward_area": 49,
-    "extended_plant": 22,
-    "re_plant_avg": 112,
-    "no_extended_re_plant": 121
-  },
-  {
-    "year": 2016,
-    "city_area": "台中市",
-    "plant_area": 24,
-    "reward_area": 34,
-    "extended_plant": 3,
-    "re_plant_avg": 71,
-    "no_extended_re_plant": 68
-  },
-  {
-    "year": 2016,
-    "city_area": "台北市",
-    "plant_area": 2,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 64
-  },
-  {
-    "year": 2016,
-    "city_area": "新北市",
-    "plant_area": 9,
-    "reward_area": 25,
-    "extended_plant": 6,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 17
-  },
-  {
-    "year": 2015,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2015,
-    "city_area": "金門縣",
-    "plant_area": 5,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2015,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 114,
-    "no_extended_re_plant": 121
-  },
-  {
-    "year": 2015,
-    "city_area": "新竹市",
-    "plant_area": 1,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 39,
-    "no_extended_re_plant": 35
-  },
-  {
-    "year": 2015,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 25,
-    "no_extended_re_plant": 3
-  },
-  {
-    "year": 2015,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2015,
-    "city_area": "花蓮縣",
-    "plant_area": 33,
-    "reward_area": 46,
-    "extended_plant": 9,
-    "re_plant_avg": 73,
-    "no_extended_re_plant": 66
-  },
-  {
-    "year": 2015,
-    "city_area": "台東縣",
-    "plant_area": 29,
-    "reward_area": 47,
-    "extended_plant": 14,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 46
-  },
-  {
-    "year": 2015,
-    "city_area": "屏東縣",
-    "plant_area": 62,
-    "reward_area": 71,
-    "extended_plant": 35,
-    "re_plant_avg": 87,
-    "no_extended_re_plant": 74
-  },
-  {
-    "year": 2015,
-    "city_area": "嘉義縣",
-    "plant_area": 77,
-    "reward_area": 73,
-    "extended_plant": 31,
-    "re_plant_avg": 104,
-    "no_extended_re_plant": 108
-  },
-  {
-    "year": 2015,
-    "city_area": "雲林縣",
-    "plant_area": 117,
-    "reward_area": 80,
-    "extended_plant": 14,
-    "re_plant_avg": 146,
-    "no_extended_re_plant": 156
-  },
-  {
-    "year": 2015,
-    "city_area": "南投縣",
-    "plant_area": 48,
-    "reward_area": 65,
-    "extended_plant": 37,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 39
-  },
-  {
-    "year": 2015,
-    "city_area": "彰化縣",
-    "plant_area": 79,
-    "reward_area": 62,
-    "extended_plant": 13,
-    "re_plant_avg": 128,
-    "no_extended_re_plant": 136
-  },
-  {
-    "year": 2015,
-    "city_area": "苗栗縣",
-    "plant_area": 22,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 64,
-    "no_extended_re_plant": 50
-  },
-  {
-    "year": 2015,
-    "city_area": "新竹縣",
-    "plant_area": 11,
-    "reward_area": 28,
-    "extended_plant": 5,
-    "re_plant_avg": 38,
-    "no_extended_re_plant": 25
-  },
-  {
-    "year": 2015,
-    "city_area": "桃園縣",
-    "plant_area": 18,
-    "reward_area": 27,
-    "extended_plant": 3,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2015,
-    "city_area": "宜蘭縣",
-    "plant_area": 38,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 80,
-    "no_extended_re_plant": 65
-  },
-  {
-    "year": 2015,
-    "city_area": "高雄市",
-    "plant_area": 79,
-    "reward_area": 93,
-    "extended_plant": 30,
-    "re_plant_avg": 85,
-    "no_extended_re_plant": 78
-  },
-  {
-    "year": 2015,
-    "city_area": "台南市",
-    "plant_area": 53,
-    "reward_area": 49,
-    "extended_plant": 22,
-    "re_plant_avg": 107,
-    "no_extended_re_plant": 113
-  },
-  {
-    "year": 2015,
-    "city_area": "台中市",
-    "plant_area": 15,
-    "reward_area": 35,
-    "extended_plant": 3,
-    "re_plant_avg": 43,
-    "no_extended_re_plant": 38
-  },
-  {
-    "year": 2015,
-    "city_area": "台北市",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 80,
-    "no_extended_re_plant": 70
-  },
-  {
-    "year": 2015,
-    "city_area": "新北市",
-    "plant_area": 9,
-    "reward_area": 25,
-    "extended_plant": 6,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 17
-  },
-  {
-    "year": 2014,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2014,
-    "city_area": "金門縣",
-    "plant_area": 4,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2014,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 120,
-    "no_extended_re_plant": 130
-  },
-  {
-    "year": 2014,
-    "city_area": "新竹市",
-    "plant_area": 1,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 60,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2014,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 25,
-    "no_extended_re_plant": 3
-  },
-  {
-    "year": 2014,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2014,
-    "city_area": "花蓮縣",
-    "plant_area": 33,
-    "reward_area": 46,
-    "extended_plant": 10,
-    "re_plant_avg": 71,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2014,
-    "city_area": "台東縣",
-    "plant_area": 29,
-    "reward_area": 47,
-    "extended_plant": 14,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 46
-  },
-  {
-    "year": 2014,
-    "city_area": "屏東縣",
-    "plant_area": 62,
-    "reward_area": 71,
-    "extended_plant": 36,
-    "re_plant_avg": 87,
-    "no_extended_re_plant": 74
-  },
-  {
-    "year": 2014,
-    "city_area": "嘉義縣",
-    "plant_area": 81,
-    "reward_area": 74,
-    "extended_plant": 30,
-    "re_plant_avg": 110,
-    "no_extended_re_plant": 117
-  },
-  {
-    "year": 2014,
-    "city_area": "雲林縣",
-    "plant_area": 118,
-    "reward_area": 80,
-    "extended_plant": 14,
-    "re_plant_avg": 147,
-    "no_extended_re_plant": 156
-  },
-  {
-    "year": 2014,
-    "city_area": "南投縣",
-    "plant_area": 49,
-    "reward_area": 65,
-    "extended_plant": 37,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 40
-  },
-  {
-    "year": 2014,
-    "city_area": "彰化縣",
-    "plant_area": 79,
-    "reward_area": 62,
-    "extended_plant": 13,
-    "re_plant_avg": 127,
-    "no_extended_re_plant": 135
-  },
-  {
-    "year": 2014,
-    "city_area": "苗栗縣",
-    "plant_area": 24,
-    "reward_area": 33,
-    "extended_plant": 8,
-    "re_plant_avg": 72,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2014,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 28,
-    "extended_plant": 5,
-    "re_plant_avg": 50,
-    "no_extended_re_plant": 40
-  },
-  {
-    "year": 2014,
-    "city_area": "桃園縣",
-    "plant_area": 22,
-    "reward_area": 36,
-    "extended_plant": 3,
-    "re_plant_avg": 60,
-    "no_extended_re_plant": 57
-  },
-  {
-    "year": 2014,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 3,
-    "re_plant_avg": 65,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2014,
-    "city_area": "高雄市",
-    "plant_area": 38,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 82,
-    "no_extended_re_plant": 67
-  },
-  {
-    "year": 2014,
-    "city_area": "台南市",
-    "plant_area": 78,
-    "reward_area": 93,
-    "extended_plant": 30,
-    "re_plant_avg": 84,
-    "no_extended_re_plant": 77
-  },
-  {
-    "year": 2014,
-    "city_area": "台中市",
-    "plant_area": 54,
-    "reward_area": 50,
-    "extended_plant": 22,
-    "re_plant_avg": 109,
-    "no_extended_re_plant": 115
-  },
-  {
-    "year": 2014,
-    "city_area": "台北市",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 92,
-    "no_extended_re_plant": 85
-  },
-  {
-    "year": 2014,
-    "city_area": "新北市",
-    "plant_area": 10,
-    "reward_area": 26,
-    "extended_plant": 6,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 17
-  },
-  {
-    "year": 2013,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2013,
-    "city_area": "金門縣",
-    "plant_area": 4,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2013,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 121,
-    "no_extended_re_plant": 132
-  },
-  {
-    "year": 2013,
-    "city_area": "新竹市",
-    "plant_area": 1,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 61,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2013,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 26,
-    "no_extended_re_plant": 3
-  },
-  {
-    "year": 2013,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2013,
-    "city_area": "花蓮縣",
-    "plant_area": 32,
-    "reward_area": 45,
-    "extended_plant": 10,
-    "re_plant_avg": 72,
-    "no_extended_re_plant": 64
-  },
-  {
-    "year": 2013,
-    "city_area": "台東縣",
-    "plant_area": 29,
-    "reward_area": 47,
-    "extended_plant": 14,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 46
-  },
-  {
-    "year": 2013,
-    "city_area": "屏東縣",
-    "plant_area": 63,
-    "reward_area": 71,
-    "extended_plant": 37,
-    "re_plant_avg": 89,
-    "no_extended_re_plant": 77
-  },
-  {
-    "year": 2013,
-    "city_area": "嘉義縣",
-    "plant_area": 79,
-    "reward_area": 74,
-    "extended_plant": 30,
-    "re_plant_avg": 108,
-    "no_extended_re_plant": 113
-  },
-  {
-    "year": 2013,
-    "city_area": "雲林縣",
-    "plant_area": 113,
-    "reward_area": 80,
-    "extended_plant": 14,
-    "re_plant_avg": 141,
-    "no_extended_re_plant": 149
-  },
-  {
-    "year": 2013,
-    "city_area": "南投縣",
-    "plant_area": 49,
-    "reward_area": 65,
-    "extended_plant": 37,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 41
-  },
-  {
-    "year": 2013,
-    "city_area": "彰化縣",
-    "plant_area": 78,
-    "reward_area": 62,
-    "extended_plant": 13,
-    "re_plant_avg": 127,
-    "no_extended_re_plant": 134
-  },
-  {
-    "year": 2013,
-    "city_area": "苗栗縣",
-    "plant_area": 23,
-    "reward_area": 33,
-    "extended_plant": 8,
-    "re_plant_avg": 71,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2013,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 28,
-    "extended_plant": 5,
-    "re_plant_avg": 50,
-    "no_extended_re_plant": 39
-  },
-  {
-    "year": 2013,
-    "city_area": "桃園縣",
-    "plant_area": 20,
-    "reward_area": 36,
-    "extended_plant": 3,
-    "re_plant_avg": 56,
-    "no_extended_re_plant": 52
-  },
-  {
-    "year": 2013,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 3,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 62
-  },
-  {
-    "year": 2013,
-    "city_area": "高雄市",
-    "plant_area": 38,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 80,
-    "no_extended_re_plant": 64
-  },
-  {
-    "year": 2013,
-    "city_area": "台南市",
-    "plant_area": 76,
-    "reward_area": 93,
-    "extended_plant": 31,
-    "re_plant_avg": 81,
-    "no_extended_re_plant": 71
-  },
-  {
-    "year": 2013,
-    "city_area": "台中市",
-    "plant_area": 55,
-    "reward_area": 50,
-    "extended_plant": 22,
-    "re_plant_avg": 109,
-    "no_extended_re_plant": 117
-  },
-  {
-    "year": 2013,
-    "city_area": "台北市",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 94,
-    "no_extended_re_plant": 89
-  },
-  {
-    "year": 2013,
-    "city_area": "新北市",
-    "plant_area": 10,
-    "reward_area": 27,
-    "extended_plant": 6,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 17
-  },
-  {
-    "year": 2012,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2012,
-    "city_area": "金門縣",
-    "plant_area": 4,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2012,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 115,
-    "no_extended_re_plant": 122
-  },
-  {
-    "year": 2012,
-    "city_area": "新竹市",
-    "plant_area": 1,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 58,
-    "no_extended_re_plant": 54
-  },
-  {
-    "year": 2012,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 26,
-    "no_extended_re_plant": 4
-  },
-  {
-    "year": 2012,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2012,
-    "city_area": "花蓮縣",
-    "plant_area": 31,
-    "reward_area": 46,
-    "extended_plant": 10,
-    "re_plant_avg": 68,
-    "no_extended_re_plant": 60
-  },
-  {
-    "year": 2012,
-    "city_area": "台東縣",
-    "plant_area": 30,
-    "reward_area": 47,
-    "extended_plant": 15,
-    "re_plant_avg": 64,
-    "no_extended_re_plant": 47
-  },
-  {
-    "year": 2012,
-    "city_area": "屏東縣",
-    "plant_area": 62,
-    "reward_area": 71,
-    "extended_plant": 36,
-    "re_plant_avg": 87,
-    "no_extended_re_plant": 74
-  },
-  {
-    "year": 2012,
-    "city_area": "嘉義縣",
-    "plant_area": 78,
-    "reward_area": 74,
-    "extended_plant": 30,
-    "re_plant_avg": 105,
-    "no_extended_re_plant": 108
-  },
-  {
-    "year": 2012,
-    "city_area": "雲林縣",
-    "plant_area": 115,
-    "reward_area": 80,
-    "extended_plant": 13,
-    "re_plant_avg": 143,
-    "no_extended_re_plant": 151
-  },
-  {
-    "year": 2012,
-    "city_area": "南投縣",
-    "plant_area": 49,
-    "reward_area": 65,
-    "extended_plant": 37,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 41
-  },
-  {
-    "year": 2012,
-    "city_area": "彰化縣",
-    "plant_area": 76,
-    "reward_area": 62,
-    "extended_plant": 13,
-    "re_plant_avg": 123,
-    "no_extended_re_plant": 129
-  },
-  {
-    "year": 2012,
-    "city_area": "苗栗縣",
-    "plant_area": 23,
-    "reward_area": 33,
-    "extended_plant": 9,
-    "re_plant_avg": 68,
-    "no_extended_re_plant": 57
-  },
-  {
-    "year": 2012,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 28,
-    "extended_plant": 5,
-    "re_plant_avg": 49,
-    "no_extended_re_plant": 37
-  },
-  {
-    "year": 2012,
-    "city_area": "桃園縣",
-    "plant_area": 17,
-    "reward_area": 37,
-    "extended_plant": 3,
-    "re_plant_avg": 47,
-    "no_extended_re_plant": 43
-  },
-  {
-    "year": 2012,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 3,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2012,
-    "city_area": "高雄市",
-    "plant_area": 36,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2012,
-    "city_area": "台南市",
-    "plant_area": 71,
-    "reward_area": 94,
-    "extended_plant": 32,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2012,
-    "city_area": "台中市",
-    "plant_area": 55,
-    "reward_area": 51,
-    "extended_plant": 22,
-    "re_plant_avg": 109,
-    "no_extended_re_plant": 117
-  },
-  {
-    "year": 2012,
-    "city_area": "台北市",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 93,
-    "no_extended_re_plant": 88
-  },
-  {
-    "year": 2012,
-    "city_area": "新北市",
-    "plant_area": 11,
-    "reward_area": 27,
-    "extended_plant": 7,
-    "re_plant_avg": 40,
-    "no_extended_re_plant": 17
-  },
-  {
-    "year": 2011,
-    "city_area": "連江縣",
-    "plant_area": 0,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2011,
-    "city_area": "金門縣",
-    "plant_area": 4,
-    "reward_area": 0,
-    "extended_plant": 0,
-    "re_plant_avg": 0,
-    "no_extended_re_plant": 0
-  },
-  {
-    "year": 2011,
-    "city_area": "嘉義市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 114,
-    "no_extended_re_plant": 121
-  },
-  {
-    "year": 2011,
-    "city_area": "新竹市",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 60
-  },
-  {
-    "year": 2011,
-    "city_area": "基隆市",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 26,
-    "no_extended_re_plant": 4
-  },
-  {
-    "year": 2011,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2011,
-    "city_area": "花蓮縣",
-    "plant_area": 32,
-    "reward_area": 45,
-    "extended_plant": 10,
-    "re_plant_avg": 70,
-    "no_extended_re_plant": 62
-  },
-  {
-    "year": 2011,
-    "city_area": "台東縣",
-    "plant_area": 31,
-    "reward_area": 47,
-    "extended_plant": 16,
-    "re_plant_avg": 65,
-    "no_extended_re_plant": 48
-  },
-  {
-    "year": 2011,
-    "city_area": "屏東縣",
-    "plant_area": 64,
-    "reward_area": 71,
-    "extended_plant": 38,
-    "re_plant_avg": 90,
-    "no_extended_re_plant": 79
-  },
-  {
-    "year": 2011,
-    "city_area": "嘉義縣",
-    "plant_area": 80,
-    "reward_area": 74,
-    "extended_plant": 32,
-    "re_plant_avg": 108,
-    "no_extended_re_plant": 114
-  },
-  {
-    "year": 2011,
-    "city_area": "雲林縣",
-    "plant_area": 116,
-    "reward_area": 81,
-    "extended_plant": 14,
-    "re_plant_avg": 143,
-    "no_extended_re_plant": 152
-  },
-  {
-    "year": 2011,
-    "city_area": "南投縣",
-    "plant_area": 49,
-    "reward_area": 66,
-    "extended_plant": 38,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 42
-  },
-  {
-    "year": 2011,
-    "city_area": "彰化縣",
-    "plant_area": 77,
-    "reward_area": 63,
-    "extended_plant": 13,
-    "re_plant_avg": 123,
-    "no_extended_re_plant": 128
-  },
-  {
-    "year": 2011,
-    "city_area": "苗栗縣",
-    "plant_area": 22,
-    "reward_area": 33,
-    "extended_plant": 9,
-    "re_plant_avg": 67,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2011,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 29,
-    "extended_plant": 5,
-    "re_plant_avg": 50,
-    "no_extended_re_plant": 38
-  },
-  {
-    "year": 2011,
-    "city_area": "桃園縣",
-    "plant_area": 18,
-    "reward_area": 37,
-    "extended_plant": 3,
-    "re_plant_avg": 48,
-    "no_extended_re_plant": 43
-  },
-  {
-    "year": 2011,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 3,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2011,
-    "city_area": "高雄市",
-    "plant_area": 36,
-    "reward_area": 47,
-    "extended_plant": 21,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 55
-  },
-  {
-    "year": 2011,
-    "city_area": "台南市",
-    "plant_area": 71,
-    "reward_area": 94,
-    "extended_plant": 32,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 62
-  },
-  {
-    "year": 2011,
-    "city_area": "台中市",
-    "plant_area": 56,
-    "reward_area": 51,
-    "extended_plant": 23,
-    "re_plant_avg": 110,
-    "no_extended_re_plant": 118
-  },
-  {
-    "year": 2011,
-    "city_area": "台北市",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 95,
-    "no_extended_re_plant": 90
-  },
-  {
-    "year": 2011,
-    "city_area": "新北市",
-    "plant_area": 11,
-    "reward_area": 30,
-    "extended_plant": 8,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 16
-  },
-  {
-    "year": 2010,
-    "city_area": "高雄巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 53,
-    "no_extended_re_plant": 30
-  },
-  {
-    "year": 2010,
-    "city_area": "臺北巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 97,
-    "no_extended_re_plant": 95
-  },
-  {
-    "year": 2010,
-    "city_area": "臺南巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 94,
-    "no_extended_re_plant": 93
-  },
-  {
-    "year": 2010,
-    "city_area": "嘉義巿",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 116,
-    "no_extended_re_plant": 125
-  },
-  {
-    "year": 2010,
-    "city_area": "臺中巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 91,
-    "no_extended_re_plant": 87
-  },
-  {
-    "year": 2010,
-    "city_area": "新竹巿",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 64,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2010,
-    "city_area": "基隆巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 25,
-    "no_extended_re_plant": 7
-  },
-  {
-    "year": 2010,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2010,
-    "city_area": "花蓮縣",
-    "plant_area": 32,
-    "reward_area": 45,
-    "extended_plant": 11,
-    "re_plant_avg": 71,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2010,
-    "city_area": "臺東縣",
-    "plant_area": 32,
-    "reward_area": 47,
-    "extended_plant": 17,
-    "re_plant_avg": 68,
-    "no_extended_re_plant": 50
-  },
-  {
-    "year": 2010,
-    "city_area": "屏東縣",
-    "plant_area": 64,
-    "reward_area": 71,
-    "extended_plant": 38,
-    "re_plant_avg": 90,
-    "no_extended_re_plant": 78
-  },
-  {
-    "year": 2010,
-    "city_area": "高雄縣",
-    "plant_area": 36,
-    "reward_area": 48,
-    "extended_plant": 22,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 54
-  },
-  {
-    "year": 2010,
-    "city_area": "臺南縣",
-    "plant_area": 62,
-    "reward_area": 92,
-    "extended_plant": 33,
-    "re_plant_avg": 68,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2010,
-    "city_area": "嘉義縣",
-    "plant_area": 75,
-    "reward_area": 74,
-    "extended_plant": 33,
-    "re_plant_avg": 101,
-    "no_extended_re_plant": 102
-  },
-  {
-    "year": 2010,
-    "city_area": "雲林縣",
-    "plant_area": 115,
-    "reward_area": 81,
-    "extended_plant": 13,
-    "re_plant_avg": 143,
-    "no_extended_re_plant": 151
-  },
-  {
-    "year": 2010,
-    "city_area": "南投縣",
-    "plant_area": 52,
-    "reward_area": 66,
-    "extended_plant": 39,
-    "re_plant_avg": 79,
-    "no_extended_re_plant": 48
-  },
-  {
-    "year": 2010,
-    "city_area": "彰化縣",
-    "plant_area": 78,
-    "reward_area": 63,
-    "extended_plant": 13,
-    "re_plant_avg": 123,
-    "no_extended_re_plant": 130
-  },
-  {
-    "year": 2010,
-    "city_area": "臺中縣",
-    "plant_area": 53,
-    "reward_area": 48,
-    "extended_plant": 22,
-    "re_plant_avg": 110,
-    "no_extended_re_plant": 119
-  },
-  {
-    "year": 2010,
-    "city_area": "苗栗縣",
-    "plant_area": 23,
-    "reward_area": 33,
-    "extended_plant": 9,
-    "re_plant_avg": 68,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2010,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 29,
-    "extended_plant": 5,
-    "re_plant_avg": 50,
-    "no_extended_re_plant": 38
-  },
-  {
-    "year": 2010,
-    "city_area": "桃園縣",
-    "plant_area": 18,
-    "reward_area": 37,
-    "extended_plant": 3,
-    "re_plant_avg": 48,
-    "no_extended_re_plant": 44
-  },
-  {
-    "year": 2010,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2010,
-    "city_area": "臺北縣",
-    "plant_area": 11,
-    "reward_area": 31,
-    "extended_plant": 8,
-    "re_plant_avg": 37,
-    "no_extended_re_plant": 16
-  },
-  {
-    "year": 2009,
-    "city_area": "高雄巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 54,
-    "no_extended_re_plant": 32
-  },
-  {
-    "year": 2009,
-    "city_area": "臺北巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 99,
-    "no_extended_re_plant": 98
-  },
-  {
-    "year": 2009,
-    "city_area": "臺南巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 89,
-    "no_extended_re_plant": 87
-  },
-  {
-    "year": 2009,
-    "city_area": "嘉義巿",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 118,
-    "no_extended_re_plant": 129
-  },
-  {
-    "year": 2009,
-    "city_area": "臺中巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 90,
-    "no_extended_re_plant": 86
-  },
-  {
-    "year": 2009,
-    "city_area": "新竹巿",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 0,
-    "re_plant_avg": 70,
-    "no_extended_re_plant": 66
-  },
-  {
-    "year": 2009,
-    "city_area": "基隆巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 56,
-    "no_extended_re_plant": 30
-  },
-  {
-    "year": 2009,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2009,
-    "city_area": "花蓮縣",
-    "plant_area": 30,
-    "reward_area": 45,
-    "extended_plant": 11,
-    "re_plant_avg": 67,
-    "no_extended_re_plant": 57
-  },
-  {
-    "year": 2009,
-    "city_area": "臺東縣",
-    "plant_area": 32,
-    "reward_area": 48,
-    "extended_plant": 16,
-    "re_plant_avg": 67,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2009,
-    "city_area": "屏東縣",
-    "plant_area": 68,
-    "reward_area": 71,
-    "extended_plant": 41,
-    "re_plant_avg": 94,
-    "no_extended_re_plant": 87
-  },
-  {
-    "year": 2009,
-    "city_area": "高雄縣",
-    "plant_area": 37,
-    "reward_area": 48,
-    "extended_plant": 24,
-    "re_plant_avg": 79,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2009,
-    "city_area": "臺南縣",
-    "plant_area": 71,
-    "reward_area": 92,
-    "extended_plant": 33,
-    "re_plant_avg": 78,
-    "no_extended_re_plant": 65
-  },
-  {
-    "year": 2009,
-    "city_area": "嘉義縣",
-    "plant_area": 80,
-    "reward_area": 74,
-    "extended_plant": 33,
-    "re_plant_avg": 109,
-    "no_extended_re_plant": 116
-  },
-  {
-    "year": 2009,
-    "city_area": "雲林縣",
-    "plant_area": 118,
-    "reward_area": 80,
-    "extended_plant": 13,
-    "re_plant_avg": 146,
-    "no_extended_re_plant": 155
-  },
-  {
-    "year": 2009,
-    "city_area": "南投縣",
-    "plant_area": 53,
-    "reward_area": 66,
-    "extended_plant": 40,
-    "re_plant_avg": 80,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2009,
-    "city_area": "彰化縣",
-    "plant_area": 79,
-    "reward_area": 64,
-    "extended_plant": 14,
-    "re_plant_avg": 124,
-    "no_extended_re_plant": 131
-  },
-  {
-    "year": 2009,
-    "city_area": "臺中縣",
-    "plant_area": 55,
-    "reward_area": 49,
-    "extended_plant": 22,
-    "re_plant_avg": 113,
-    "no_extended_re_plant": 123
-  },
-  {
-    "year": 2009,
-    "city_area": "苗栗縣",
-    "plant_area": 24,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 72,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2009,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 29,
-    "extended_plant": 6,
-    "re_plant_avg": 49,
-    "no_extended_re_plant": 37
-  },
-  {
-    "year": 2009,
-    "city_area": "桃園縣",
-    "plant_area": 18,
-    "reward_area": 37,
-    "extended_plant": 3,
-    "re_plant_avg": 47,
-    "no_extended_re_plant": 42
-  },
-  {
-    "year": 2009,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 55
-  },
-  {
-    "year": 2009,
-    "city_area": "臺北縣",
-    "plant_area": 11,
-    "reward_area": 31,
-    "extended_plant": 8,
-    "re_plant_avg": 36,
-    "no_extended_re_plant": 16
-  },
-  {
-    "year": 2008,
-    "city_area": "高雄巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 56,
-    "no_extended_re_plant": 34
-  },
-  {
-    "year": 2008,
-    "city_area": "臺北巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 101,
-    "no_extended_re_plant": 101
-  },
-  {
-    "year": 2008,
-    "city_area": "臺南巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 94,
-    "no_extended_re_plant": 93
-  },
-  {
-    "year": 2008,
-    "city_area": "嘉義巿",
-    "plant_area": 2,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 118,
-    "no_extended_re_plant": 130
-  },
-  {
-    "year": 2008,
-    "city_area": "臺中巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 97,
-    "no_extended_re_plant": 96
-  },
-  {
-    "year": 2008,
-    "city_area": "新竹巿",
-    "plant_area": 2,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 68,
-    "no_extended_re_plant": 64
-  },
-  {
-    "year": 2008,
-    "city_area": "基隆巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 56,
-    "no_extended_re_plant": 31
-  },
-  {
-    "year": 2008,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2008,
-    "city_area": "花蓮縣",
-    "plant_area": 31,
-    "reward_area": 46,
-    "extended_plant": 11,
-    "re_plant_avg": 67,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2008,
-    "city_area": "臺東縣",
-    "plant_area": 32,
-    "reward_area": 48,
-    "extended_plant": 17,
-    "re_plant_avg": 67,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2008,
-    "city_area": "屏東縣",
-    "plant_area": 69,
-    "reward_area": 73,
-    "extended_plant": 43,
-    "re_plant_avg": 95,
-    "no_extended_re_plant": 89
-  },
-  {
-    "year": 2008,
-    "city_area": "高雄縣",
-    "plant_area": 37,
-    "reward_area": 50,
-    "extended_plant": 24,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2008,
-    "city_area": "臺南縣",
-    "plant_area": 73,
-    "reward_area": 92,
-    "extended_plant": 35,
-    "re_plant_avg": 79,
-    "no_extended_re_plant": 67
-  },
-  {
-    "year": 2008,
-    "city_area": "嘉義縣",
-    "plant_area": 82,
-    "reward_area": 74,
-    "extended_plant": 34,
-    "re_plant_avg": 110,
-    "no_extended_re_plant": 118
-  },
-  {
-    "year": 2008,
-    "city_area": "雲林縣",
-    "plant_area": 118,
-    "reward_area": 81,
-    "extended_plant": 14,
-    "re_plant_avg": 146,
-    "no_extended_re_plant": 155
-  },
-  {
-    "year": 2008,
-    "city_area": "南投縣",
-    "plant_area": 53,
-    "reward_area": 66,
-    "extended_plant": 41,
-    "re_plant_avg": 81,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2008,
-    "city_area": "彰化縣",
-    "plant_area": 78,
-    "reward_area": 64,
-    "extended_plant": 13,
-    "re_plant_avg": 123,
-    "no_extended_re_plant": 129
-  },
-  {
-    "year": 2008,
-    "city_area": "臺中縣",
-    "plant_area": 56,
-    "reward_area": 49,
-    "extended_plant": 22,
-    "re_plant_avg": 113,
-    "no_extended_re_plant": 123
-  },
-  {
-    "year": 2008,
-    "city_area": "苗栗縣",
-    "plant_area": 24,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 72,
-    "no_extended_re_plant": 61
-  },
-  {
-    "year": 2008,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 29,
-    "extended_plant": 6,
-    "re_plant_avg": 49,
-    "no_extended_re_plant": 36
-  },
-  {
-    "year": 2008,
-    "city_area": "桃園縣",
-    "plant_area": 16,
-    "reward_area": 37,
-    "extended_plant": 3,
-    "re_plant_avg": 43,
-    "no_extended_re_plant": 38
-  },
-  {
-    "year": 2008,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2008,
-    "city_area": "臺北縣",
-    "plant_area": 11,
-    "reward_area": 32,
-    "extended_plant": 8,
-    "re_plant_avg": 36,
-    "no_extended_re_plant": 15
-  },
-  {
-    "year": 2007,
-    "city_area": "高雄巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 40
-  },
-  {
-    "year": 2007,
-    "city_area": "臺北巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 99,
-    "no_extended_re_plant": 98
-  },
-  {
-    "year": 2007,
-    "city_area": "臺南巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 94,
-    "no_extended_re_plant": 93
-  },
-  {
-    "year": 2007,
-    "city_area": "嘉義巿",
-    "plant_area": 3,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 127,
-    "no_extended_re_plant": 144
-  },
-  {
-    "year": 2007,
-    "city_area": "臺中巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 99,
-    "no_extended_re_plant": 99
-  },
-  {
-    "year": 2007,
-    "city_area": "新竹巿",
-    "plant_area": 2,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 70
-  },
-  {
-    "year": 2007,
-    "city_area": "基隆巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 37
-  },
-  {
-    "year": 2007,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 12,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2007,
-    "city_area": "花蓮縣",
-    "plant_area": 30,
-    "reward_area": 46,
-    "extended_plant": 11,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 55
-  },
-  {
-    "year": 2007,
-    "city_area": "臺東縣",
-    "plant_area": 32,
-    "reward_area": 48,
-    "extended_plant": 17,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2007,
-    "city_area": "屏東縣",
-    "plant_area": 72,
-    "reward_area": 74,
-    "extended_plant": 45,
-    "re_plant_avg": 97,
-    "no_extended_re_plant": 93
-  },
-  {
-    "year": 2007,
-    "city_area": "高雄縣",
-    "plant_area": 37,
-    "reward_area": 50,
-    "extended_plant": 25,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 50
-  },
-  {
-    "year": 2007,
-    "city_area": "臺南縣",
-    "plant_area": 75,
-    "reward_area": 92,
-    "extended_plant": 35,
-    "re_plant_avg": 82,
-    "no_extended_re_plant": 70
-  },
-  {
-    "year": 2007,
-    "city_area": "嘉義縣",
-    "plant_area": 82,
-    "reward_area": 75,
-    "extended_plant": 34,
-    "re_plant_avg": 110,
-    "no_extended_re_plant": 118
-  },
-  {
-    "year": 2007,
-    "city_area": "雲林縣",
-    "plant_area": 119,
-    "reward_area": 81,
-    "extended_plant": 14,
-    "re_plant_avg": 147,
-    "no_extended_re_plant": 157
-  },
-  {
-    "year": 2007,
-    "city_area": "南投縣",
-    "plant_area": 54,
-    "reward_area": 66,
-    "extended_plant": 41,
-    "re_plant_avg": 81,
-    "no_extended_re_plant": 49
-  },
-  {
-    "year": 2007,
-    "city_area": "彰化縣",
-    "plant_area": 81,
-    "reward_area": 64,
-    "extended_plant": 13,
-    "re_plant_avg": 127,
-    "no_extended_re_plant": 134
-  },
-  {
-    "year": 2007,
-    "city_area": "臺中縣",
-    "plant_area": 56,
-    "reward_area": 49,
-    "extended_plant": 22,
-    "re_plant_avg": 114,
-    "no_extended_re_plant": 126
-  },
-  {
-    "year": 2007,
-    "city_area": "苗栗縣",
-    "plant_area": 25,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 73,
-    "no_extended_re_plant": 63
-  },
-  {
-    "year": 2007,
-    "city_area": "新竹縣",
-    "plant_area": 15,
-    "reward_area": 29,
-    "extended_plant": 6,
-    "re_plant_avg": 51,
-    "no_extended_re_plant": 38
-  },
-  {
-    "year": 2007,
-    "city_area": "桃園縣",
-    "plant_area": 17,
-    "reward_area": 38,
-    "extended_plant": 3,
-    "re_plant_avg": 45,
-    "no_extended_re_plant": 41
-  },
-  {
-    "year": 2007,
-    "city_area": "宜蘭縣",
-    "plant_area": 17,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 57
-  },
-  {
-    "year": 2007,
-    "city_area": "臺北縣",
-    "plant_area": 11,
-    "reward_area": 32,
-    "extended_plant": 8,
-    "re_plant_avg": 36,
-    "no_extended_re_plant": 15
-  },
-  {
-    "year": 2006,
-    "city_area": "高雄巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 62,
-    "no_extended_re_plant": 40
-  },
-  {
-    "year": 2006,
-    "city_area": "臺北巿",
-    "plant_area": 4,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 105,
-    "no_extended_re_plant": 109
-  },
-  {
-    "year": 2006,
-    "city_area": "臺南巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 105,
-    "no_extended_re_plant": 106
-  },
-  {
-    "year": 2006,
-    "city_area": "嘉義巿",
-    "plant_area": 3,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 130,
-    "no_extended_re_plant": 147
-  },
-  {
-    "year": 2006,
-    "city_area": "臺中巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 101,
-    "no_extended_re_plant": 102
-  },
-  {
-    "year": 2006,
-    "city_area": "新竹巿",
-    "plant_area": 2,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 57
-  },
-  {
-    "year": 2006,
-    "city_area": "基隆巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 64,
-    "no_extended_re_plant": 39
-  },
-  {
-    "year": 2006,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 13,
-    "no_extended_re_plant": 12
-  },
-  {
-    "year": 2006,
-    "city_area": "花蓮縣",
-    "plant_area": 31,
-    "reward_area": 46,
-    "extended_plant": 11,
-    "re_plant_avg": 67,
-    "no_extended_re_plant": 56
-  },
-  {
-    "year": 2006,
-    "city_area": "臺東縣",
-    "plant_area": 32,
-    "reward_area": 48,
-    "extended_plant": 17,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 48
-  },
-  {
-    "year": 2006,
-    "city_area": "屏東縣",
-    "plant_area": 74,
-    "reward_area": 74,
-    "extended_plant": 45,
-    "re_plant_avg": 99,
-    "no_extended_re_plant": 97
-  },
-  {
-    "year": 2006,
-    "city_area": "高雄縣",
-    "plant_area": 38,
-    "reward_area": 50,
-    "extended_plant": 25,
-    "re_plant_avg": 76,
-    "no_extended_re_plant": 53
-  },
-  {
-    "year": 2006,
-    "city_area": "臺南縣",
-    "plant_area": 76,
-    "reward_area": 92,
-    "extended_plant": 36,
-    "re_plant_avg": 83,
-    "no_extended_re_plant": 71
-  },
-  {
-    "year": 2006,
-    "city_area": "嘉義縣",
-    "plant_area": 84,
-    "reward_area": 75,
-    "extended_plant": 34,
-    "re_plant_avg": 112,
-    "no_extended_re_plant": 122
-  },
-  {
-    "year": 2006,
-    "city_area": "雲林縣",
-    "plant_area": 122,
-    "reward_area": 81,
-    "extended_plant": 14,
-    "re_plant_avg": 151,
-    "no_extended_re_plant": 162
-  },
-  {
-    "year": 2006,
-    "city_area": "南投縣",
-    "plant_area": 54,
-    "reward_area": 67,
-    "extended_plant": 42,
-    "re_plant_avg": 82,
-    "no_extended_re_plant": 51
-  },
-  {
-    "year": 2006,
-    "city_area": "彰化縣",
-    "plant_area": 82,
-    "reward_area": 64,
-    "extended_plant": 14,
-    "re_plant_avg": 128,
-    "no_extended_re_plant": 136
-  },
-  {
-    "year": 2006,
-    "city_area": "臺中縣",
-    "plant_area": 57,
-    "reward_area": 50,
-    "extended_plant": 22,
-    "re_plant_avg": 113,
-    "no_extended_re_plant": 124
-  },
-  {
-    "year": 2006,
-    "city_area": "苗栗縣",
-    "plant_area": 25,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 74,
-    "no_extended_re_plant": 64
-  },
-  {
-    "year": 2006,
-    "city_area": "新竹縣",
-    "plant_area": 14,
-    "reward_area": 30,
-    "extended_plant": 6,
-    "re_plant_avg": 49,
-    "no_extended_re_plant": 35
-  },
-  {
-    "year": 2006,
-    "city_area": "桃園縣",
-    "plant_area": 17,
-    "reward_area": 39,
-    "extended_plant": 3,
-    "re_plant_avg": 44,
-    "no_extended_re_plant": 38
-  },
-  {
-    "year": 2006,
-    "city_area": "宜蘭縣",
-    "plant_area": 18,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 65,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2006,
-    "city_area": "臺北縣",
-    "plant_area": 12,
-    "reward_area": 32,
-    "extended_plant": 8,
-    "re_plant_avg": 38,
-    "no_extended_re_plant": 16
-  },
-  {
-    "year": 2005,
-    "city_area": "高雄巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 63,
-    "no_extended_re_plant": 43
-  },
-  {
-    "year": 2005,
-    "city_area": "臺北巿",
-    "plant_area": 4,
-    "reward_area": 3,
-    "extended_plant": 2,
-    "re_plant_avg": 109,
-    "no_extended_re_plant": 116
-  },
-  {
-    "year": 2005,
-    "city_area": "臺南巿",
-    "plant_area": 4,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 111,
-    "no_extended_re_plant": 113
-  },
-  {
-    "year": 2005,
-    "city_area": "嘉義巿",
-    "plant_area": 3,
-    "reward_area": 2,
-    "extended_plant": 1,
-    "re_plant_avg": 123,
-    "no_extended_re_plant": 138
-  },
-  {
-    "year": 2005,
-    "city_area": "臺中巿",
-    "plant_area": 3,
-    "reward_area": 3,
-    "extended_plant": 1,
-    "re_plant_avg": 105,
-    "no_extended_re_plant": 107
-  },
-  {
-    "year": 2005,
-    "city_area": "新竹巿",
-    "plant_area": 2,
-    "reward_area": 3,
-    "extended_plant": 0,
-    "re_plant_avg": 75,
-    "no_extended_re_plant": 71
-  },
-  {
-    "year": 2005,
-    "city_area": "基隆巿",
-    "plant_area": 0,
-    "reward_area": 1,
-    "extended_plant": 0,
-    "re_plant_avg": 65,
-    "no_extended_re_plant": 40
-  },
-  {
-    "year": 2005,
-    "city_area": "澎湖縣",
-    "plant_area": 1,
-    "reward_area": 6,
-    "extended_plant": 0,
-    "re_plant_avg": 13,
-    "no_extended_re_plant": 13
-  },
-  {
-    "year": 2005,
-    "city_area": "花蓮縣",
-    "plant_area": 31,
-    "reward_area": 47,
-    "extended_plant": 11,
-    "re_plant_avg": 66,
-    "no_extended_re_plant": 55
-  },
-  {
-    "year": 2005,
-    "city_area": "臺東縣",
-    "plant_area": 31,
-    "reward_area": 48,
-    "extended_plant": 16,
-    "re_plant_avg": 65,
-    "no_extended_re_plant": 47
-  },
-  {
-    "year": 2005,
-    "city_area": "屏東縣",
-    "plant_area": 74,
-    "reward_area": 75,
-    "extended_plant": 44,
-    "re_plant_avg": 99,
-    "no_extended_re_plant": 98
-  },
-  {
-    "year": 2005,
-    "city_area": "高雄縣",
-    "plant_area": 39,
-    "reward_area": 50,
-    "extended_plant": 25,
-    "re_plant_avg": 77,
-    "no_extended_re_plant": 55
-  },
-  {
-    "year": 2005,
-    "city_area": "臺南縣",
-    "plant_area": 76,
-    "reward_area": 92,
-    "extended_plant": 36,
-    "re_plant_avg": 82,
-    "no_extended_re_plant": 71
-  },
-  {
-    "year": 2005,
-    "city_area": "嘉義縣",
-    "plant_area": 83,
-    "reward_area": 75,
-    "extended_plant": 34,
-    "re_plant_avg": 111,
-    "no_extended_re_plant": 120
-  },
-  {
-    "year": 2005,
-    "city_area": "雲林縣",
-    "plant_area": 123,
-    "reward_area": 81,
-    "extended_plant": 14,
-    "re_plant_avg": 152,
-    "no_extended_re_plant": 163
-  },
-  {
-    "year": 2005,
-    "city_area": "南投縣",
-    "plant_area": 56,
-    "reward_area": 67,
-    "extended_plant": 42,
-    "re_plant_avg": 83,
-    "no_extended_re_plant": 55
-  },
-  {
-    "year": 2005,
-    "city_area": "彰化縣",
-    "plant_area": 83,
-    "reward_area": 64,
-    "extended_plant": 13,
-    "re_plant_avg": 130,
-    "no_extended_re_plant": 137
-  },
-  {
-    "year": 2005,
-    "city_area": "臺中縣",
-    "plant_area": 57,
-    "reward_area": 50,
-    "extended_plant": 22,
-    "re_plant_avg": 115,
-    "no_extended_re_plant": 127
-  },
-  {
-    "year": 2005,
-    "city_area": "苗栗縣",
-    "plant_area": 26,
-    "reward_area": 34,
-    "extended_plant": 9,
-    "re_plant_avg": 77,
-    "no_extended_re_plant": 68
-  },
-  {
-    "year": 2005,
-    "city_area": "新竹縣",
-    "plant_area": 16,
-    "reward_area": 30,
-    "extended_plant": 7,
-    "re_plant_avg": 54,
-    "no_extended_re_plant": 41
-  },
-  {
-    "year": 2005,
-    "city_area": "桃園縣",
-    "plant_area": 18,
-    "reward_area": 39,
-    "extended_plant": 3,
-    "re_plant_avg": 47,
-    "no_extended_re_plant": 42
-  },
-  {
-    "year": 2005,
-    "city_area": "宜蘭縣",
-    "plant_area": 18,
-    "reward_area": 27,
-    "extended_plant": 4,
-    "re_plant_avg": 64,
-    "no_extended_re_plant": 58
-  },
-  {
-    "year": 2005,
-    "city_area": "臺北縣",
-    "plant_area": 12,
-    "reward_area": 33,
-    "extended_plant": 9,
-    "re_plant_avg": 38,
-    "no_extended_re_plant": 16
-  }
+	{
+		"year": 2017,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2017,
+		"city_area": "金門縣",
+		"plant_area": 3,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 192,
+		"no_extended_re_plant": 192
+	},
+	{
+		"year": 2017,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 118,
+		"no_extended_re_plant": 127
+	},
+	{
+		"year": 2017,
+		"city_area": "新竹市",
+		"plant_area": 1,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 61,
+		"no_extended_re_plant": 59
+	},
+	{
+		"year": 2017,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 26,
+		"no_extended_re_plant": 4
+	},
+	{
+		"year": 2017,
+		"city_area": "澎湖縣",
+		"plant_area": 0,
+		"reward_area": 5,
+		"extended_plant": 0,
+		"re_plant_avg": 11,
+		"no_extended_re_plant": 11
+	},
+	{
+		"year": 2017,
+		"city_area": "花蓮縣",
+		"plant_area": 35,
+		"reward_area": 45,
+		"extended_plant": 9,
+		"re_plant_avg": 78,
+		"no_extended_re_plant": 72
+	},
+	{
+		"year": 2017,
+		"city_area": "台東縣",
+		"plant_area": 29,
+		"reward_area": 46,
+		"extended_plant": 13,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 46
+	},
+	{
+		"year": 2017,
+		"city_area": "屏東縣",
+		"plant_area": 62,
+		"reward_area": 70,
+		"extended_plant": 35,
+		"re_plant_avg": 87,
+		"no_extended_re_plant": 75
+	},
+	{
+		"year": 2017,
+		"city_area": "嘉義縣",
+		"plant_area": 82,
+		"reward_area": 73,
+		"extended_plant": 30,
+		"re_plant_avg": 111,
+		"no_extended_re_plant": 120
+	},
+	{
+		"year": 2017,
+		"city_area": "雲林縣",
+		"plant_area": 120,
+		"reward_area": 79,
+		"extended_plant": 14,
+		"re_plant_avg": 150,
+		"no_extended_re_plant": 161
+	},
+	{
+		"year": 2017,
+		"city_area": "南投縣",
+		"plant_area": 48,
+		"reward_area": 65,
+		"extended_plant": 36,
+		"re_plant_avg": 73,
+		"no_extended_re_plant": 39
+	},
+	{
+		"year": 2017,
+		"city_area": "彰化縣",
+		"plant_area": 79,
+		"reward_area": 61,
+		"extended_plant": 13,
+		"re_plant_avg": 128,
+		"no_extended_re_plant": 136
+	},
+	{
+		"year": 2017,
+		"city_area": "苗栗縣",
+		"plant_area": 24,
+		"reward_area": 33,
+		"extended_plant": 9,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2017,
+		"city_area": "新竹縣",
+		"plant_area": 13,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 50,
+		"no_extended_re_plant": 40
+	},
+	{
+		"year": 2017,
+		"city_area": "宜蘭縣",
+		"plant_area": 18,
+		"reward_area": 27,
+		"extended_plant": 2,
+		"re_plant_avg": 65,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2017,
+		"city_area": "高雄市",
+		"plant_area": 38,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 81,
+		"no_extended_re_plant": 66
+	},
+	{
+		"year": 2017,
+		"city_area": "台南市",
+		"plant_area": 82,
+		"reward_area": 92,
+		"extended_plant": 30,
+		"re_plant_avg": 89,
+		"no_extended_re_plant": 83
+	},
+	{
+		"year": 2017,
+		"city_area": "台中市",
+		"plant_area": 53,
+		"reward_area": 47,
+		"extended_plant": 22,
+		"re_plant_avg": 112,
+		"no_extended_re_plant": 123
+	},
+	{
+		"year": 2017,
+		"city_area": "桃園市",
+		"plant_area": 26,
+		"reward_area": 32,
+		"extended_plant": 2,
+		"re_plant_avg": 82,
+		"no_extended_re_plant": 80
+	},
+	{
+		"year": 2017,
+		"city_area": "台北市",
+		"plant_area": 2,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 71,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2017,
+		"city_area": "新北市",
+		"plant_area": 9,
+		"reward_area": 24,
+		"extended_plant": 6,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 17
+	},
+	{
+		"year": 2016,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2016,
+		"city_area": "金門縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2016,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 117,
+		"no_extended_re_plant": 124
+	},
+	{
+		"year": 2016,
+		"city_area": "新竹市",
+		"plant_area": 1,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 60,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2016,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 27,
+		"no_extended_re_plant": 4
+	},
+	{
+		"year": 2016,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 11
+	},
+	{
+		"year": 2016,
+		"city_area": "花蓮縣",
+		"plant_area": 34,
+		"reward_area": 45,
+		"extended_plant": 9,
+		"re_plant_avg": 76,
+		"no_extended_re_plant": 70
+	},
+	{
+		"year": 2016,
+		"city_area": "台東縣",
+		"plant_area": 29,
+		"reward_area": 47,
+		"extended_plant": 13,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 48
+	},
+	{
+		"year": 2016,
+		"city_area": "屏東縣",
+		"plant_area": 63,
+		"reward_area": 71,
+		"extended_plant": 36,
+		"re_plant_avg": 89,
+		"no_extended_re_plant": 78
+	},
+	{
+		"year": 2016,
+		"city_area": "嘉義縣",
+		"plant_area": 84,
+		"reward_area": 73,
+		"extended_plant": 31,
+		"re_plant_avg": 114,
+		"no_extended_re_plant": 125
+	},
+	{
+		"year": 2016,
+		"city_area": "雲林縣",
+		"plant_area": 120,
+		"reward_area": 80,
+		"extended_plant": 14,
+		"re_plant_avg": 150,
+		"no_extended_re_plant": 161
+	},
+	{
+		"year": 2016,
+		"city_area": "南投縣",
+		"plant_area": 48,
+		"reward_area": 65,
+		"extended_plant": 37,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 39
+	},
+	{
+		"year": 2016,
+		"city_area": "彰化縣",
+		"plant_area": 81,
+		"reward_area": 62,
+		"extended_plant": 13,
+		"re_plant_avg": 132,
+		"no_extended_re_plant": 140
+	},
+	{
+		"year": 2016,
+		"city_area": "苗栗縣",
+		"plant_area": 26,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 66
+	},
+	{
+		"year": 2016,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 28,
+		"extended_plant": 5,
+		"re_plant_avg": 51,
+		"no_extended_re_plant": 41
+	},
+	{
+		"year": 2016,
+		"city_area": "桃園縣",
+		"plant_area": 18,
+		"reward_area": 28,
+		"extended_plant": 3,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 62
+	},
+	{
+		"year": 2016,
+		"city_area": "宜蘭縣",
+		"plant_area": 40,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 84,
+		"no_extended_re_plant": 70
+	},
+	{
+		"year": 2016,
+		"city_area": "高雄市",
+		"plant_area": 81,
+		"reward_area": 93,
+		"extended_plant": 31,
+		"re_plant_avg": 87,
+		"no_extended_re_plant": 80
+	},
+	{
+		"year": 2016,
+		"city_area": "台南市",
+		"plant_area": 54,
+		"reward_area": 49,
+		"extended_plant": 22,
+		"re_plant_avg": 112,
+		"no_extended_re_plant": 121
+	},
+	{
+		"year": 2016,
+		"city_area": "台中市",
+		"plant_area": 24,
+		"reward_area": 34,
+		"extended_plant": 3,
+		"re_plant_avg": 71,
+		"no_extended_re_plant": 68
+	},
+	{
+		"year": 2016,
+		"city_area": "台北市",
+		"plant_area": 2,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 64
+	},
+	{
+		"year": 2016,
+		"city_area": "新北市",
+		"plant_area": 9,
+		"reward_area": 25,
+		"extended_plant": 6,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 17
+	},
+	{
+		"year": 2015,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2015,
+		"city_area": "金門縣",
+		"plant_area": 5,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2015,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 114,
+		"no_extended_re_plant": 121
+	},
+	{
+		"year": 2015,
+		"city_area": "新竹市",
+		"plant_area": 1,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 39,
+		"no_extended_re_plant": 35
+	},
+	{
+		"year": 2015,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 25,
+		"no_extended_re_plant": 3
+	},
+	{
+		"year": 2015,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2015,
+		"city_area": "花蓮縣",
+		"plant_area": 33,
+		"reward_area": 46,
+		"extended_plant": 9,
+		"re_plant_avg": 73,
+		"no_extended_re_plant": 66
+	},
+	{
+		"year": 2015,
+		"city_area": "台東縣",
+		"plant_area": 29,
+		"reward_area": 47,
+		"extended_plant": 14,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 46
+	},
+	{
+		"year": 2015,
+		"city_area": "屏東縣",
+		"plant_area": 62,
+		"reward_area": 71,
+		"extended_plant": 35,
+		"re_plant_avg": 87,
+		"no_extended_re_plant": 74
+	},
+	{
+		"year": 2015,
+		"city_area": "嘉義縣",
+		"plant_area": 77,
+		"reward_area": 73,
+		"extended_plant": 31,
+		"re_plant_avg": 104,
+		"no_extended_re_plant": 108
+	},
+	{
+		"year": 2015,
+		"city_area": "雲林縣",
+		"plant_area": 117,
+		"reward_area": 80,
+		"extended_plant": 14,
+		"re_plant_avg": 146,
+		"no_extended_re_plant": 156
+	},
+	{
+		"year": 2015,
+		"city_area": "南投縣",
+		"plant_area": 48,
+		"reward_area": 65,
+		"extended_plant": 37,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 39
+	},
+	{
+		"year": 2015,
+		"city_area": "彰化縣",
+		"plant_area": 79,
+		"reward_area": 62,
+		"extended_plant": 13,
+		"re_plant_avg": 128,
+		"no_extended_re_plant": 136
+	},
+	{
+		"year": 2015,
+		"city_area": "苗栗縣",
+		"plant_area": 22,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 64,
+		"no_extended_re_plant": 50
+	},
+	{
+		"year": 2015,
+		"city_area": "新竹縣",
+		"plant_area": 11,
+		"reward_area": 28,
+		"extended_plant": 5,
+		"re_plant_avg": 38,
+		"no_extended_re_plant": 25
+	},
+	{
+		"year": 2015,
+		"city_area": "桃園縣",
+		"plant_area": 18,
+		"reward_area": 27,
+		"extended_plant": 3,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2015,
+		"city_area": "宜蘭縣",
+		"plant_area": 38,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 80,
+		"no_extended_re_plant": 65
+	},
+	{
+		"year": 2015,
+		"city_area": "高雄市",
+		"plant_area": 79,
+		"reward_area": 93,
+		"extended_plant": 30,
+		"re_plant_avg": 85,
+		"no_extended_re_plant": 78
+	},
+	{
+		"year": 2015,
+		"city_area": "台南市",
+		"plant_area": 53,
+		"reward_area": 49,
+		"extended_plant": 22,
+		"re_plant_avg": 107,
+		"no_extended_re_plant": 113
+	},
+	{
+		"year": 2015,
+		"city_area": "台中市",
+		"plant_area": 15,
+		"reward_area": 35,
+		"extended_plant": 3,
+		"re_plant_avg": 43,
+		"no_extended_re_plant": 38
+	},
+	{
+		"year": 2015,
+		"city_area": "台北市",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 80,
+		"no_extended_re_plant": 70
+	},
+	{
+		"year": 2015,
+		"city_area": "新北市",
+		"plant_area": 9,
+		"reward_area": 25,
+		"extended_plant": 6,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 17
+	},
+	{
+		"year": 2014,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2014,
+		"city_area": "金門縣",
+		"plant_area": 4,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2014,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 120,
+		"no_extended_re_plant": 130
+	},
+	{
+		"year": 2014,
+		"city_area": "新竹市",
+		"plant_area": 1,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 60,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2014,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 25,
+		"no_extended_re_plant": 3
+	},
+	{
+		"year": 2014,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2014,
+		"city_area": "花蓮縣",
+		"plant_area": 33,
+		"reward_area": 46,
+		"extended_plant": 10,
+		"re_plant_avg": 71,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2014,
+		"city_area": "台東縣",
+		"plant_area": 29,
+		"reward_area": 47,
+		"extended_plant": 14,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 46
+	},
+	{
+		"year": 2014,
+		"city_area": "屏東縣",
+		"plant_area": 62,
+		"reward_area": 71,
+		"extended_plant": 36,
+		"re_plant_avg": 87,
+		"no_extended_re_plant": 74
+	},
+	{
+		"year": 2014,
+		"city_area": "嘉義縣",
+		"plant_area": 81,
+		"reward_area": 74,
+		"extended_plant": 30,
+		"re_plant_avg": 110,
+		"no_extended_re_plant": 117
+	},
+	{
+		"year": 2014,
+		"city_area": "雲林縣",
+		"plant_area": 118,
+		"reward_area": 80,
+		"extended_plant": 14,
+		"re_plant_avg": 147,
+		"no_extended_re_plant": 156
+	},
+	{
+		"year": 2014,
+		"city_area": "南投縣",
+		"plant_area": 49,
+		"reward_area": 65,
+		"extended_plant": 37,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 40
+	},
+	{
+		"year": 2014,
+		"city_area": "彰化縣",
+		"plant_area": 79,
+		"reward_area": 62,
+		"extended_plant": 13,
+		"re_plant_avg": 127,
+		"no_extended_re_plant": 135
+	},
+	{
+		"year": 2014,
+		"city_area": "苗栗縣",
+		"plant_area": 24,
+		"reward_area": 33,
+		"extended_plant": 8,
+		"re_plant_avg": 72,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2014,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 28,
+		"extended_plant": 5,
+		"re_plant_avg": 50,
+		"no_extended_re_plant": 40
+	},
+	{
+		"year": 2014,
+		"city_area": "桃園縣",
+		"plant_area": 22,
+		"reward_area": 36,
+		"extended_plant": 3,
+		"re_plant_avg": 60,
+		"no_extended_re_plant": 57
+	},
+	{
+		"year": 2014,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 3,
+		"re_plant_avg": 65,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2014,
+		"city_area": "高雄市",
+		"plant_area": 38,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 82,
+		"no_extended_re_plant": 67
+	},
+	{
+		"year": 2014,
+		"city_area": "台南市",
+		"plant_area": 78,
+		"reward_area": 93,
+		"extended_plant": 30,
+		"re_plant_avg": 84,
+		"no_extended_re_plant": 77
+	},
+	{
+		"year": 2014,
+		"city_area": "台中市",
+		"plant_area": 54,
+		"reward_area": 50,
+		"extended_plant": 22,
+		"re_plant_avg": 109,
+		"no_extended_re_plant": 115
+	},
+	{
+		"year": 2014,
+		"city_area": "台北市",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 92,
+		"no_extended_re_plant": 85
+	},
+	{
+		"year": 2014,
+		"city_area": "新北市",
+		"plant_area": 10,
+		"reward_area": 26,
+		"extended_plant": 6,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 17
+	},
+	{
+		"year": 2013,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2013,
+		"city_area": "金門縣",
+		"plant_area": 4,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2013,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 121,
+		"no_extended_re_plant": 132
+	},
+	{
+		"year": 2013,
+		"city_area": "新竹市",
+		"plant_area": 1,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 61,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2013,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 26,
+		"no_extended_re_plant": 3
+	},
+	{
+		"year": 2013,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2013,
+		"city_area": "花蓮縣",
+		"plant_area": 32,
+		"reward_area": 45,
+		"extended_plant": 10,
+		"re_plant_avg": 72,
+		"no_extended_re_plant": 64
+	},
+	{
+		"year": 2013,
+		"city_area": "台東縣",
+		"plant_area": 29,
+		"reward_area": 47,
+		"extended_plant": 14,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 46
+	},
+	{
+		"year": 2013,
+		"city_area": "屏東縣",
+		"plant_area": 63,
+		"reward_area": 71,
+		"extended_plant": 37,
+		"re_plant_avg": 89,
+		"no_extended_re_plant": 77
+	},
+	{
+		"year": 2013,
+		"city_area": "嘉義縣",
+		"plant_area": 79,
+		"reward_area": 74,
+		"extended_plant": 30,
+		"re_plant_avg": 108,
+		"no_extended_re_plant": 113
+	},
+	{
+		"year": 2013,
+		"city_area": "雲林縣",
+		"plant_area": 113,
+		"reward_area": 80,
+		"extended_plant": 14,
+		"re_plant_avg": 141,
+		"no_extended_re_plant": 149
+	},
+	{
+		"year": 2013,
+		"city_area": "南投縣",
+		"plant_area": 49,
+		"reward_area": 65,
+		"extended_plant": 37,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 41
+	},
+	{
+		"year": 2013,
+		"city_area": "彰化縣",
+		"plant_area": 78,
+		"reward_area": 62,
+		"extended_plant": 13,
+		"re_plant_avg": 127,
+		"no_extended_re_plant": 134
+	},
+	{
+		"year": 2013,
+		"city_area": "苗栗縣",
+		"plant_area": 23,
+		"reward_area": 33,
+		"extended_plant": 8,
+		"re_plant_avg": 71,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2013,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 28,
+		"extended_plant": 5,
+		"re_plant_avg": 50,
+		"no_extended_re_plant": 39
+	},
+	{
+		"year": 2013,
+		"city_area": "桃園縣",
+		"plant_area": 20,
+		"reward_area": 36,
+		"extended_plant": 3,
+		"re_plant_avg": 56,
+		"no_extended_re_plant": 52
+	},
+	{
+		"year": 2013,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 3,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 62
+	},
+	{
+		"year": 2013,
+		"city_area": "高雄市",
+		"plant_area": 38,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 80,
+		"no_extended_re_plant": 64
+	},
+	{
+		"year": 2013,
+		"city_area": "台南市",
+		"plant_area": 76,
+		"reward_area": 93,
+		"extended_plant": 31,
+		"re_plant_avg": 81,
+		"no_extended_re_plant": 71
+	},
+	{
+		"year": 2013,
+		"city_area": "台中市",
+		"plant_area": 55,
+		"reward_area": 50,
+		"extended_plant": 22,
+		"re_plant_avg": 109,
+		"no_extended_re_plant": 117
+	},
+	{
+		"year": 2013,
+		"city_area": "台北市",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 94,
+		"no_extended_re_plant": 89
+	},
+	{
+		"year": 2013,
+		"city_area": "新北市",
+		"plant_area": 10,
+		"reward_area": 27,
+		"extended_plant": 6,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 17
+	},
+	{
+		"year": 2012,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2012,
+		"city_area": "金門縣",
+		"plant_area": 4,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2012,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 115,
+		"no_extended_re_plant": 122
+	},
+	{
+		"year": 2012,
+		"city_area": "新竹市",
+		"plant_area": 1,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 58,
+		"no_extended_re_plant": 54
+	},
+	{
+		"year": 2012,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 26,
+		"no_extended_re_plant": 4
+	},
+	{
+		"year": 2012,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2012,
+		"city_area": "花蓮縣",
+		"plant_area": 31,
+		"reward_area": 46,
+		"extended_plant": 10,
+		"re_plant_avg": 68,
+		"no_extended_re_plant": 60
+	},
+	{
+		"year": 2012,
+		"city_area": "台東縣",
+		"plant_area": 30,
+		"reward_area": 47,
+		"extended_plant": 15,
+		"re_plant_avg": 64,
+		"no_extended_re_plant": 47
+	},
+	{
+		"year": 2012,
+		"city_area": "屏東縣",
+		"plant_area": 62,
+		"reward_area": 71,
+		"extended_plant": 36,
+		"re_plant_avg": 87,
+		"no_extended_re_plant": 74
+	},
+	{
+		"year": 2012,
+		"city_area": "嘉義縣",
+		"plant_area": 78,
+		"reward_area": 74,
+		"extended_plant": 30,
+		"re_plant_avg": 105,
+		"no_extended_re_plant": 108
+	},
+	{
+		"year": 2012,
+		"city_area": "雲林縣",
+		"plant_area": 115,
+		"reward_area": 80,
+		"extended_plant": 13,
+		"re_plant_avg": 143,
+		"no_extended_re_plant": 151
+	},
+	{
+		"year": 2012,
+		"city_area": "南投縣",
+		"plant_area": 49,
+		"reward_area": 65,
+		"extended_plant": 37,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 41
+	},
+	{
+		"year": 2012,
+		"city_area": "彰化縣",
+		"plant_area": 76,
+		"reward_area": 62,
+		"extended_plant": 13,
+		"re_plant_avg": 123,
+		"no_extended_re_plant": 129
+	},
+	{
+		"year": 2012,
+		"city_area": "苗栗縣",
+		"plant_area": 23,
+		"reward_area": 33,
+		"extended_plant": 9,
+		"re_plant_avg": 68,
+		"no_extended_re_plant": 57
+	},
+	{
+		"year": 2012,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 28,
+		"extended_plant": 5,
+		"re_plant_avg": 49,
+		"no_extended_re_plant": 37
+	},
+	{
+		"year": 2012,
+		"city_area": "桃園縣",
+		"plant_area": 17,
+		"reward_area": 37,
+		"extended_plant": 3,
+		"re_plant_avg": 47,
+		"no_extended_re_plant": 43
+	},
+	{
+		"year": 2012,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 3,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2012,
+		"city_area": "高雄市",
+		"plant_area": 36,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2012,
+		"city_area": "台南市",
+		"plant_area": 71,
+		"reward_area": 94,
+		"extended_plant": 32,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2012,
+		"city_area": "台中市",
+		"plant_area": 55,
+		"reward_area": 51,
+		"extended_plant": 22,
+		"re_plant_avg": 109,
+		"no_extended_re_plant": 117
+	},
+	{
+		"year": 2012,
+		"city_area": "台北市",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 93,
+		"no_extended_re_plant": 88
+	},
+	{
+		"year": 2012,
+		"city_area": "新北市",
+		"plant_area": 11,
+		"reward_area": 27,
+		"extended_plant": 7,
+		"re_plant_avg": 40,
+		"no_extended_re_plant": 17
+	},
+	{
+		"year": 2011,
+		"city_area": "連江縣",
+		"plant_area": 0,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2011,
+		"city_area": "金門縣",
+		"plant_area": 4,
+		"reward_area": 0,
+		"extended_plant": 0,
+		"re_plant_avg": 0,
+		"no_extended_re_plant": 0
+	},
+	{
+		"year": 2011,
+		"city_area": "嘉義市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 114,
+		"no_extended_re_plant": 121
+	},
+	{
+		"year": 2011,
+		"city_area": "新竹市",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 60
+	},
+	{
+		"year": 2011,
+		"city_area": "基隆市",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 26,
+		"no_extended_re_plant": 4
+	},
+	{
+		"year": 2011,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2011,
+		"city_area": "花蓮縣",
+		"plant_area": 32,
+		"reward_area": 45,
+		"extended_plant": 10,
+		"re_plant_avg": 70,
+		"no_extended_re_plant": 62
+	},
+	{
+		"year": 2011,
+		"city_area": "台東縣",
+		"plant_area": 31,
+		"reward_area": 47,
+		"extended_plant": 16,
+		"re_plant_avg": 65,
+		"no_extended_re_plant": 48
+	},
+	{
+		"year": 2011,
+		"city_area": "屏東縣",
+		"plant_area": 64,
+		"reward_area": 71,
+		"extended_plant": 38,
+		"re_plant_avg": 90,
+		"no_extended_re_plant": 79
+	},
+	{
+		"year": 2011,
+		"city_area": "嘉義縣",
+		"plant_area": 80,
+		"reward_area": 74,
+		"extended_plant": 32,
+		"re_plant_avg": 108,
+		"no_extended_re_plant": 114
+	},
+	{
+		"year": 2011,
+		"city_area": "雲林縣",
+		"plant_area": 116,
+		"reward_area": 81,
+		"extended_plant": 14,
+		"re_plant_avg": 143,
+		"no_extended_re_plant": 152
+	},
+	{
+		"year": 2011,
+		"city_area": "南投縣",
+		"plant_area": 49,
+		"reward_area": 66,
+		"extended_plant": 38,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 42
+	},
+	{
+		"year": 2011,
+		"city_area": "彰化縣",
+		"plant_area": 77,
+		"reward_area": 63,
+		"extended_plant": 13,
+		"re_plant_avg": 123,
+		"no_extended_re_plant": 128
+	},
+	{
+		"year": 2011,
+		"city_area": "苗栗縣",
+		"plant_area": 22,
+		"reward_area": 33,
+		"extended_plant": 9,
+		"re_plant_avg": 67,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2011,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 29,
+		"extended_plant": 5,
+		"re_plant_avg": 50,
+		"no_extended_re_plant": 38
+	},
+	{
+		"year": 2011,
+		"city_area": "桃園縣",
+		"plant_area": 18,
+		"reward_area": 37,
+		"extended_plant": 3,
+		"re_plant_avg": 48,
+		"no_extended_re_plant": 43
+	},
+	{
+		"year": 2011,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 3,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2011,
+		"city_area": "高雄市",
+		"plant_area": 36,
+		"reward_area": 47,
+		"extended_plant": 21,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 55
+	},
+	{
+		"year": 2011,
+		"city_area": "台南市",
+		"plant_area": 71,
+		"reward_area": 94,
+		"extended_plant": 32,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 62
+	},
+	{
+		"year": 2011,
+		"city_area": "台中市",
+		"plant_area": 56,
+		"reward_area": 51,
+		"extended_plant": 23,
+		"re_plant_avg": 110,
+		"no_extended_re_plant": 118
+	},
+	{
+		"year": 2011,
+		"city_area": "台北市",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 95,
+		"no_extended_re_plant": 90
+	},
+	{
+		"year": 2011,
+		"city_area": "新北市",
+		"plant_area": 11,
+		"reward_area": 30,
+		"extended_plant": 8,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 16
+	},
+	{
+		"year": 2010,
+		"city_area": "高雄巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 53,
+		"no_extended_re_plant": 30
+	},
+	{
+		"year": 2010,
+		"city_area": "臺北巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 97,
+		"no_extended_re_plant": 95
+	},
+	{
+		"year": 2010,
+		"city_area": "臺南巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 94,
+		"no_extended_re_plant": 93
+	},
+	{
+		"year": 2010,
+		"city_area": "嘉義巿",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 116,
+		"no_extended_re_plant": 125
+	},
+	{
+		"year": 2010,
+		"city_area": "臺中巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 91,
+		"no_extended_re_plant": 87
+	},
+	{
+		"year": 2010,
+		"city_area": "新竹巿",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 64,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2010,
+		"city_area": "基隆巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 25,
+		"no_extended_re_plant": 7
+	},
+	{
+		"year": 2010,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2010,
+		"city_area": "花蓮縣",
+		"plant_area": 32,
+		"reward_area": 45,
+		"extended_plant": 11,
+		"re_plant_avg": 71,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2010,
+		"city_area": "臺東縣",
+		"plant_area": 32,
+		"reward_area": 47,
+		"extended_plant": 17,
+		"re_plant_avg": 68,
+		"no_extended_re_plant": 50
+	},
+	{
+		"year": 2010,
+		"city_area": "屏東縣",
+		"plant_area": 64,
+		"reward_area": 71,
+		"extended_plant": 38,
+		"re_plant_avg": 90,
+		"no_extended_re_plant": 78
+	},
+	{
+		"year": 2010,
+		"city_area": "高雄縣",
+		"plant_area": 36,
+		"reward_area": 48,
+		"extended_plant": 22,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 54
+	},
+	{
+		"year": 2010,
+		"city_area": "臺南縣",
+		"plant_area": 62,
+		"reward_area": 92,
+		"extended_plant": 33,
+		"re_plant_avg": 68,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2010,
+		"city_area": "嘉義縣",
+		"plant_area": 75,
+		"reward_area": 74,
+		"extended_plant": 33,
+		"re_plant_avg": 101,
+		"no_extended_re_plant": 102
+	},
+	{
+		"year": 2010,
+		"city_area": "雲林縣",
+		"plant_area": 115,
+		"reward_area": 81,
+		"extended_plant": 13,
+		"re_plant_avg": 143,
+		"no_extended_re_plant": 151
+	},
+	{
+		"year": 2010,
+		"city_area": "南投縣",
+		"plant_area": 52,
+		"reward_area": 66,
+		"extended_plant": 39,
+		"re_plant_avg": 79,
+		"no_extended_re_plant": 48
+	},
+	{
+		"year": 2010,
+		"city_area": "彰化縣",
+		"plant_area": 78,
+		"reward_area": 63,
+		"extended_plant": 13,
+		"re_plant_avg": 123,
+		"no_extended_re_plant": 130
+	},
+	{
+		"year": 2010,
+		"city_area": "臺中縣",
+		"plant_area": 53,
+		"reward_area": 48,
+		"extended_plant": 22,
+		"re_plant_avg": 110,
+		"no_extended_re_plant": 119
+	},
+	{
+		"year": 2010,
+		"city_area": "苗栗縣",
+		"plant_area": 23,
+		"reward_area": 33,
+		"extended_plant": 9,
+		"re_plant_avg": 68,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2010,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 29,
+		"extended_plant": 5,
+		"re_plant_avg": 50,
+		"no_extended_re_plant": 38
+	},
+	{
+		"year": 2010,
+		"city_area": "桃園縣",
+		"plant_area": 18,
+		"reward_area": 37,
+		"extended_plant": 3,
+		"re_plant_avg": 48,
+		"no_extended_re_plant": 44
+	},
+	{
+		"year": 2010,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2010,
+		"city_area": "臺北縣",
+		"plant_area": 11,
+		"reward_area": 31,
+		"extended_plant": 8,
+		"re_plant_avg": 37,
+		"no_extended_re_plant": 16
+	},
+	{
+		"year": 2009,
+		"city_area": "高雄巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 54,
+		"no_extended_re_plant": 32
+	},
+	{
+		"year": 2009,
+		"city_area": "臺北巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 99,
+		"no_extended_re_plant": 98
+	},
+	{
+		"year": 2009,
+		"city_area": "臺南巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 89,
+		"no_extended_re_plant": 87
+	},
+	{
+		"year": 2009,
+		"city_area": "嘉義巿",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 118,
+		"no_extended_re_plant": 129
+	},
+	{
+		"year": 2009,
+		"city_area": "臺中巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 90,
+		"no_extended_re_plant": 86
+	},
+	{
+		"year": 2009,
+		"city_area": "新竹巿",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 0,
+		"re_plant_avg": 70,
+		"no_extended_re_plant": 66
+	},
+	{
+		"year": 2009,
+		"city_area": "基隆巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 56,
+		"no_extended_re_plant": 30
+	},
+	{
+		"year": 2009,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2009,
+		"city_area": "花蓮縣",
+		"plant_area": 30,
+		"reward_area": 45,
+		"extended_plant": 11,
+		"re_plant_avg": 67,
+		"no_extended_re_plant": 57
+	},
+	{
+		"year": 2009,
+		"city_area": "臺東縣",
+		"plant_area": 32,
+		"reward_area": 48,
+		"extended_plant": 16,
+		"re_plant_avg": 67,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2009,
+		"city_area": "屏東縣",
+		"plant_area": 68,
+		"reward_area": 71,
+		"extended_plant": 41,
+		"re_plant_avg": 94,
+		"no_extended_re_plant": 87
+	},
+	{
+		"year": 2009,
+		"city_area": "高雄縣",
+		"plant_area": 37,
+		"reward_area": 48,
+		"extended_plant": 24,
+		"re_plant_avg": 79,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2009,
+		"city_area": "臺南縣",
+		"plant_area": 71,
+		"reward_area": 92,
+		"extended_plant": 33,
+		"re_plant_avg": 78,
+		"no_extended_re_plant": 65
+	},
+	{
+		"year": 2009,
+		"city_area": "嘉義縣",
+		"plant_area": 80,
+		"reward_area": 74,
+		"extended_plant": 33,
+		"re_plant_avg": 109,
+		"no_extended_re_plant": 116
+	},
+	{
+		"year": 2009,
+		"city_area": "雲林縣",
+		"plant_area": 118,
+		"reward_area": 80,
+		"extended_plant": 13,
+		"re_plant_avg": 146,
+		"no_extended_re_plant": 155
+	},
+	{
+		"year": 2009,
+		"city_area": "南投縣",
+		"plant_area": 53,
+		"reward_area": 66,
+		"extended_plant": 40,
+		"re_plant_avg": 80,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2009,
+		"city_area": "彰化縣",
+		"plant_area": 79,
+		"reward_area": 64,
+		"extended_plant": 14,
+		"re_plant_avg": 124,
+		"no_extended_re_plant": 131
+	},
+	{
+		"year": 2009,
+		"city_area": "臺中縣",
+		"plant_area": 55,
+		"reward_area": 49,
+		"extended_plant": 22,
+		"re_plant_avg": 113,
+		"no_extended_re_plant": 123
+	},
+	{
+		"year": 2009,
+		"city_area": "苗栗縣",
+		"plant_area": 24,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 72,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2009,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 29,
+		"extended_plant": 6,
+		"re_plant_avg": 49,
+		"no_extended_re_plant": 37
+	},
+	{
+		"year": 2009,
+		"city_area": "桃園縣",
+		"plant_area": 18,
+		"reward_area": 37,
+		"extended_plant": 3,
+		"re_plant_avg": 47,
+		"no_extended_re_plant": 42
+	},
+	{
+		"year": 2009,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 55
+	},
+	{
+		"year": 2009,
+		"city_area": "臺北縣",
+		"plant_area": 11,
+		"reward_area": 31,
+		"extended_plant": 8,
+		"re_plant_avg": 36,
+		"no_extended_re_plant": 16
+	},
+	{
+		"year": 2008,
+		"city_area": "高雄巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 56,
+		"no_extended_re_plant": 34
+	},
+	{
+		"year": 2008,
+		"city_area": "臺北巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 101,
+		"no_extended_re_plant": 101
+	},
+	{
+		"year": 2008,
+		"city_area": "臺南巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 94,
+		"no_extended_re_plant": 93
+	},
+	{
+		"year": 2008,
+		"city_area": "嘉義巿",
+		"plant_area": 2,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 118,
+		"no_extended_re_plant": 130
+	},
+	{
+		"year": 2008,
+		"city_area": "臺中巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 97,
+		"no_extended_re_plant": 96
+	},
+	{
+		"year": 2008,
+		"city_area": "新竹巿",
+		"plant_area": 2,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 68,
+		"no_extended_re_plant": 64
+	},
+	{
+		"year": 2008,
+		"city_area": "基隆巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 56,
+		"no_extended_re_plant": 31
+	},
+	{
+		"year": 2008,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2008,
+		"city_area": "花蓮縣",
+		"plant_area": 31,
+		"reward_area": 46,
+		"extended_plant": 11,
+		"re_plant_avg": 67,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2008,
+		"city_area": "臺東縣",
+		"plant_area": 32,
+		"reward_area": 48,
+		"extended_plant": 17,
+		"re_plant_avg": 67,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2008,
+		"city_area": "屏東縣",
+		"plant_area": 69,
+		"reward_area": 73,
+		"extended_plant": 43,
+		"re_plant_avg": 95,
+		"no_extended_re_plant": 89
+	},
+	{
+		"year": 2008,
+		"city_area": "高雄縣",
+		"plant_area": 37,
+		"reward_area": 50,
+		"extended_plant": 24,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2008,
+		"city_area": "臺南縣",
+		"plant_area": 73,
+		"reward_area": 92,
+		"extended_plant": 35,
+		"re_plant_avg": 79,
+		"no_extended_re_plant": 67
+	},
+	{
+		"year": 2008,
+		"city_area": "嘉義縣",
+		"plant_area": 82,
+		"reward_area": 74,
+		"extended_plant": 34,
+		"re_plant_avg": 110,
+		"no_extended_re_plant": 118
+	},
+	{
+		"year": 2008,
+		"city_area": "雲林縣",
+		"plant_area": 118,
+		"reward_area": 81,
+		"extended_plant": 14,
+		"re_plant_avg": 146,
+		"no_extended_re_plant": 155
+	},
+	{
+		"year": 2008,
+		"city_area": "南投縣",
+		"plant_area": 53,
+		"reward_area": 66,
+		"extended_plant": 41,
+		"re_plant_avg": 81,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2008,
+		"city_area": "彰化縣",
+		"plant_area": 78,
+		"reward_area": 64,
+		"extended_plant": 13,
+		"re_plant_avg": 123,
+		"no_extended_re_plant": 129
+	},
+	{
+		"year": 2008,
+		"city_area": "臺中縣",
+		"plant_area": 56,
+		"reward_area": 49,
+		"extended_plant": 22,
+		"re_plant_avg": 113,
+		"no_extended_re_plant": 123
+	},
+	{
+		"year": 2008,
+		"city_area": "苗栗縣",
+		"plant_area": 24,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 72,
+		"no_extended_re_plant": 61
+	},
+	{
+		"year": 2008,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 29,
+		"extended_plant": 6,
+		"re_plant_avg": 49,
+		"no_extended_re_plant": 36
+	},
+	{
+		"year": 2008,
+		"city_area": "桃園縣",
+		"plant_area": 16,
+		"reward_area": 37,
+		"extended_plant": 3,
+		"re_plant_avg": 43,
+		"no_extended_re_plant": 38
+	},
+	{
+		"year": 2008,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2008,
+		"city_area": "臺北縣",
+		"plant_area": 11,
+		"reward_area": 32,
+		"extended_plant": 8,
+		"re_plant_avg": 36,
+		"no_extended_re_plant": 15
+	},
+	{
+		"year": 2007,
+		"city_area": "高雄巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 40
+	},
+	{
+		"year": 2007,
+		"city_area": "臺北巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 99,
+		"no_extended_re_plant": 98
+	},
+	{
+		"year": 2007,
+		"city_area": "臺南巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 94,
+		"no_extended_re_plant": 93
+	},
+	{
+		"year": 2007,
+		"city_area": "嘉義巿",
+		"plant_area": 3,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 127,
+		"no_extended_re_plant": 144
+	},
+	{
+		"year": 2007,
+		"city_area": "臺中巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 99,
+		"no_extended_re_plant": 99
+	},
+	{
+		"year": 2007,
+		"city_area": "新竹巿",
+		"plant_area": 2,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 70
+	},
+	{
+		"year": 2007,
+		"city_area": "基隆巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 37
+	},
+	{
+		"year": 2007,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 12,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2007,
+		"city_area": "花蓮縣",
+		"plant_area": 30,
+		"reward_area": 46,
+		"extended_plant": 11,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 55
+	},
+	{
+		"year": 2007,
+		"city_area": "臺東縣",
+		"plant_area": 32,
+		"reward_area": 48,
+		"extended_plant": 17,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2007,
+		"city_area": "屏東縣",
+		"plant_area": 72,
+		"reward_area": 74,
+		"extended_plant": 45,
+		"re_plant_avg": 97,
+		"no_extended_re_plant": 93
+	},
+	{
+		"year": 2007,
+		"city_area": "高雄縣",
+		"plant_area": 37,
+		"reward_area": 50,
+		"extended_plant": 25,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 50
+	},
+	{
+		"year": 2007,
+		"city_area": "臺南縣",
+		"plant_area": 75,
+		"reward_area": 92,
+		"extended_plant": 35,
+		"re_plant_avg": 82,
+		"no_extended_re_plant": 70
+	},
+	{
+		"year": 2007,
+		"city_area": "嘉義縣",
+		"plant_area": 82,
+		"reward_area": 75,
+		"extended_plant": 34,
+		"re_plant_avg": 110,
+		"no_extended_re_plant": 118
+	},
+	{
+		"year": 2007,
+		"city_area": "雲林縣",
+		"plant_area": 119,
+		"reward_area": 81,
+		"extended_plant": 14,
+		"re_plant_avg": 147,
+		"no_extended_re_plant": 157
+	},
+	{
+		"year": 2007,
+		"city_area": "南投縣",
+		"plant_area": 54,
+		"reward_area": 66,
+		"extended_plant": 41,
+		"re_plant_avg": 81,
+		"no_extended_re_plant": 49
+	},
+	{
+		"year": 2007,
+		"city_area": "彰化縣",
+		"plant_area": 81,
+		"reward_area": 64,
+		"extended_plant": 13,
+		"re_plant_avg": 127,
+		"no_extended_re_plant": 134
+	},
+	{
+		"year": 2007,
+		"city_area": "臺中縣",
+		"plant_area": 56,
+		"reward_area": 49,
+		"extended_plant": 22,
+		"re_plant_avg": 114,
+		"no_extended_re_plant": 126
+	},
+	{
+		"year": 2007,
+		"city_area": "苗栗縣",
+		"plant_area": 25,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 73,
+		"no_extended_re_plant": 63
+	},
+	{
+		"year": 2007,
+		"city_area": "新竹縣",
+		"plant_area": 15,
+		"reward_area": 29,
+		"extended_plant": 6,
+		"re_plant_avg": 51,
+		"no_extended_re_plant": 38
+	},
+	{
+		"year": 2007,
+		"city_area": "桃園縣",
+		"plant_area": 17,
+		"reward_area": 38,
+		"extended_plant": 3,
+		"re_plant_avg": 45,
+		"no_extended_re_plant": 41
+	},
+	{
+		"year": 2007,
+		"city_area": "宜蘭縣",
+		"plant_area": 17,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 57
+	},
+	{
+		"year": 2007,
+		"city_area": "臺北縣",
+		"plant_area": 11,
+		"reward_area": 32,
+		"extended_plant": 8,
+		"re_plant_avg": 36,
+		"no_extended_re_plant": 15
+	},
+	{
+		"year": 2006,
+		"city_area": "高雄巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 62,
+		"no_extended_re_plant": 40
+	},
+	{
+		"year": 2006,
+		"city_area": "臺北巿",
+		"plant_area": 4,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 105,
+		"no_extended_re_plant": 109
+	},
+	{
+		"year": 2006,
+		"city_area": "臺南巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 105,
+		"no_extended_re_plant": 106
+	},
+	{
+		"year": 2006,
+		"city_area": "嘉義巿",
+		"plant_area": 3,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 130,
+		"no_extended_re_plant": 147
+	},
+	{
+		"year": 2006,
+		"city_area": "臺中巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 101,
+		"no_extended_re_plant": 102
+	},
+	{
+		"year": 2006,
+		"city_area": "新竹巿",
+		"plant_area": 2,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 57
+	},
+	{
+		"year": 2006,
+		"city_area": "基隆巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 64,
+		"no_extended_re_plant": 39
+	},
+	{
+		"year": 2006,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 13,
+		"no_extended_re_plant": 12
+	},
+	{
+		"year": 2006,
+		"city_area": "花蓮縣",
+		"plant_area": 31,
+		"reward_area": 46,
+		"extended_plant": 11,
+		"re_plant_avg": 67,
+		"no_extended_re_plant": 56
+	},
+	{
+		"year": 2006,
+		"city_area": "臺東縣",
+		"plant_area": 32,
+		"reward_area": 48,
+		"extended_plant": 17,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 48
+	},
+	{
+		"year": 2006,
+		"city_area": "屏東縣",
+		"plant_area": 74,
+		"reward_area": 74,
+		"extended_plant": 45,
+		"re_plant_avg": 99,
+		"no_extended_re_plant": 97
+	},
+	{
+		"year": 2006,
+		"city_area": "高雄縣",
+		"plant_area": 38,
+		"reward_area": 50,
+		"extended_plant": 25,
+		"re_plant_avg": 76,
+		"no_extended_re_plant": 53
+	},
+	{
+		"year": 2006,
+		"city_area": "臺南縣",
+		"plant_area": 76,
+		"reward_area": 92,
+		"extended_plant": 36,
+		"re_plant_avg": 83,
+		"no_extended_re_plant": 71
+	},
+	{
+		"year": 2006,
+		"city_area": "嘉義縣",
+		"plant_area": 84,
+		"reward_area": 75,
+		"extended_plant": 34,
+		"re_plant_avg": 112,
+		"no_extended_re_plant": 122
+	},
+	{
+		"year": 2006,
+		"city_area": "雲林縣",
+		"plant_area": 122,
+		"reward_area": 81,
+		"extended_plant": 14,
+		"re_plant_avg": 151,
+		"no_extended_re_plant": 162
+	},
+	{
+		"year": 2006,
+		"city_area": "南投縣",
+		"plant_area": 54,
+		"reward_area": 67,
+		"extended_plant": 42,
+		"re_plant_avg": 82,
+		"no_extended_re_plant": 51
+	},
+	{
+		"year": 2006,
+		"city_area": "彰化縣",
+		"plant_area": 82,
+		"reward_area": 64,
+		"extended_plant": 14,
+		"re_plant_avg": 128,
+		"no_extended_re_plant": 136
+	},
+	{
+		"year": 2006,
+		"city_area": "臺中縣",
+		"plant_area": 57,
+		"reward_area": 50,
+		"extended_plant": 22,
+		"re_plant_avg": 113,
+		"no_extended_re_plant": 124
+	},
+	{
+		"year": 2006,
+		"city_area": "苗栗縣",
+		"plant_area": 25,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 74,
+		"no_extended_re_plant": 64
+	},
+	{
+		"year": 2006,
+		"city_area": "新竹縣",
+		"plant_area": 14,
+		"reward_area": 30,
+		"extended_plant": 6,
+		"re_plant_avg": 49,
+		"no_extended_re_plant": 35
+	},
+	{
+		"year": 2006,
+		"city_area": "桃園縣",
+		"plant_area": 17,
+		"reward_area": 39,
+		"extended_plant": 3,
+		"re_plant_avg": 44,
+		"no_extended_re_plant": 38
+	},
+	{
+		"year": 2006,
+		"city_area": "宜蘭縣",
+		"plant_area": 18,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 65,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2006,
+		"city_area": "臺北縣",
+		"plant_area": 12,
+		"reward_area": 32,
+		"extended_plant": 8,
+		"re_plant_avg": 38,
+		"no_extended_re_plant": 16
+	},
+	{
+		"year": 2005,
+		"city_area": "高雄巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 63,
+		"no_extended_re_plant": 43
+	},
+	{
+		"year": 2005,
+		"city_area": "臺北巿",
+		"plant_area": 4,
+		"reward_area": 3,
+		"extended_plant": 2,
+		"re_plant_avg": 109,
+		"no_extended_re_plant": 116
+	},
+	{
+		"year": 2005,
+		"city_area": "臺南巿",
+		"plant_area": 4,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 111,
+		"no_extended_re_plant": 113
+	},
+	{
+		"year": 2005,
+		"city_area": "嘉義巿",
+		"plant_area": 3,
+		"reward_area": 2,
+		"extended_plant": 1,
+		"re_plant_avg": 123,
+		"no_extended_re_plant": 138
+	},
+	{
+		"year": 2005,
+		"city_area": "臺中巿",
+		"plant_area": 3,
+		"reward_area": 3,
+		"extended_plant": 1,
+		"re_plant_avg": 105,
+		"no_extended_re_plant": 107
+	},
+	{
+		"year": 2005,
+		"city_area": "新竹巿",
+		"plant_area": 2,
+		"reward_area": 3,
+		"extended_plant": 0,
+		"re_plant_avg": 75,
+		"no_extended_re_plant": 71
+	},
+	{
+		"year": 2005,
+		"city_area": "基隆巿",
+		"plant_area": 0,
+		"reward_area": 1,
+		"extended_plant": 0,
+		"re_plant_avg": 65,
+		"no_extended_re_plant": 40
+	},
+	{
+		"year": 2005,
+		"city_area": "澎湖縣",
+		"plant_area": 1,
+		"reward_area": 6,
+		"extended_plant": 0,
+		"re_plant_avg": 13,
+		"no_extended_re_plant": 13
+	},
+	{
+		"year": 2005,
+		"city_area": "花蓮縣",
+		"plant_area": 31,
+		"reward_area": 47,
+		"extended_plant": 11,
+		"re_plant_avg": 66,
+		"no_extended_re_plant": 55
+	},
+	{
+		"year": 2005,
+		"city_area": "臺東縣",
+		"plant_area": 31,
+		"reward_area": 48,
+		"extended_plant": 16,
+		"re_plant_avg": 65,
+		"no_extended_re_plant": 47
+	},
+	{
+		"year": 2005,
+		"city_area": "屏東縣",
+		"plant_area": 74,
+		"reward_area": 75,
+		"extended_plant": 44,
+		"re_plant_avg": 99,
+		"no_extended_re_plant": 98
+	},
+	{
+		"year": 2005,
+		"city_area": "高雄縣",
+		"plant_area": 39,
+		"reward_area": 50,
+		"extended_plant": 25,
+		"re_plant_avg": 77,
+		"no_extended_re_plant": 55
+	},
+	{
+		"year": 2005,
+		"city_area": "臺南縣",
+		"plant_area": 76,
+		"reward_area": 92,
+		"extended_plant": 36,
+		"re_plant_avg": 82,
+		"no_extended_re_plant": 71
+	},
+	{
+		"year": 2005,
+		"city_area": "嘉義縣",
+		"plant_area": 83,
+		"reward_area": 75,
+		"extended_plant": 34,
+		"re_plant_avg": 111,
+		"no_extended_re_plant": 120
+	},
+	{
+		"year": 2005,
+		"city_area": "雲林縣",
+		"plant_area": 123,
+		"reward_area": 81,
+		"extended_plant": 14,
+		"re_plant_avg": 152,
+		"no_extended_re_plant": 163
+	},
+	{
+		"year": 2005,
+		"city_area": "南投縣",
+		"plant_area": 56,
+		"reward_area": 67,
+		"extended_plant": 42,
+		"re_plant_avg": 83,
+		"no_extended_re_plant": 55
+	},
+	{
+		"year": 2005,
+		"city_area": "彰化縣",
+		"plant_area": 83,
+		"reward_area": 64,
+		"extended_plant": 13,
+		"re_plant_avg": 130,
+		"no_extended_re_plant": 137
+	},
+	{
+		"year": 2005,
+		"city_area": "臺中縣",
+		"plant_area": 57,
+		"reward_area": 50,
+		"extended_plant": 22,
+		"re_plant_avg": 115,
+		"no_extended_re_plant": 127
+	},
+	{
+		"year": 2005,
+		"city_area": "苗栗縣",
+		"plant_area": 26,
+		"reward_area": 34,
+		"extended_plant": 9,
+		"re_plant_avg": 77,
+		"no_extended_re_plant": 68
+	},
+	{
+		"year": 2005,
+		"city_area": "新竹縣",
+		"plant_area": 16,
+		"reward_area": 30,
+		"extended_plant": 7,
+		"re_plant_avg": 54,
+		"no_extended_re_plant": 41
+	},
+	{
+		"year": 2005,
+		"city_area": "桃園縣",
+		"plant_area": 18,
+		"reward_area": 39,
+		"extended_plant": 3,
+		"re_plant_avg": 47,
+		"no_extended_re_plant": 42
+	},
+	{
+		"year": 2005,
+		"city_area": "宜蘭縣",
+		"plant_area": 18,
+		"reward_area": 27,
+		"extended_plant": 4,
+		"re_plant_avg": 64,
+		"no_extended_re_plant": 58
+	},
+	{
+		"year": 2005,
+		"city_area": "臺北縣",
+		"plant_area": 12,
+		"reward_area": 33,
+		"extended_plant": 9,
+		"re_plant_avg": 38,
+		"no_extended_re_plant": 16
+	}
 ]

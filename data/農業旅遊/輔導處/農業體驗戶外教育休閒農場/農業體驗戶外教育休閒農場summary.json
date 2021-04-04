@@ -1,1 +1,17 @@
-{'ID': '242', 'Title': '農業體驗戶外教育休閒農場', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 13158, 'Lnkcnt': 4749, 'LastUpdateTime': '2020-06-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供農場名稱_中文、電話、傳真、郵遞區號、縣市、行政區、地址_中文、地址_英文、網址、經度、緯度、服務項目、Facebook等欄位資料。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvOutdoorEdu.aspx'}
+{
+	"ID": "242",
+	"Title": "農業體驗戶外教育休閒農場",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 13158,
+	"Lnkcnt": 4749,
+	"LastUpdateTime": "2020-06-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供農場名稱_中文、電話、傳真、郵遞區號、縣市、行政區、地址_中文、地址_英文、網址、經度、緯度、服務項目、Facebook等欄位資料。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvOutdoorEdu.aspx"
+}

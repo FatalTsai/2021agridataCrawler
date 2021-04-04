@@ -1,1 +1,17 @@
-{'ID': '194', 'Title': '體驗農村生活-農村主題旅遊規劃', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 15579, 'Lnkcnt': 34196, 'LastUpdateTime': '2020-06-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：名稱、其他活動項目、動線導言、親子特色、銀髮特色、遊學特色、會議特色、校外教學特色、旅遊天數、每月特產、行程商品訂購、交通指引、第一天行程、第一天行程特色、第二天行程、第二天行程特色、第三天行程、第三天行程特色、 景點縣市、鄉鎮、座標等欄位資料。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvSuggestTravel.aspx'}
+{
+	"ID": "194",
+	"Title": "體驗農村生活-農村主題旅遊規劃",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 15579,
+	"Lnkcnt": 34196,
+	"LastUpdateTime": "2020-06-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：名稱、其他活動項目、動線導言、親子特色、銀髮特色、遊學特色、會議特色、校外教學特色、旅遊天數、每月特產、行程商品訂購、交通指引、第一天行程、第一天行程特色、第二天行程、第二天行程特色、第三天行程、第三天行程特色、 景點縣市、鄉鎮、座標等欄位資料。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvSuggestTravel.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': '122', 'Title': '養蜂產銷班資訊', 'Organ': '苗栗區農業改良場', 'Catalog': '農糧', 'Counter': 7601, 'Lnkcnt': 5595, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '資料提供包括：養蜂產銷班所屬農民團體、班連絡住址、班電話_代表號、班長姓名等欄位資訊。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=122'}
+{
+	"ID": "122",
+	"Title": "養蜂產銷班資訊",
+	"Organ": "苗栗區農業改良場",
+	"Catalog": "農糧",
+	"Counter": 7601,
+	"Lnkcnt": 5595,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：養蜂產銷班所屬農民團體、班連絡住址、班電話_代表號、班長姓名等欄位資訊。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=122"
+}

@@ -1,7 +1,7 @@
 [
-  {
-    "ReportName": "A02法定比率資料 _20200917",
-    "LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=DS002W.xls",
-    "CDate": "20200917182655"
-  }
+	{
+		"ReportName": "A02法定比率資料 _20200917",
+		"LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=DS002W.xls",
+		"CDate": "20200917182655"
+	}
 ]

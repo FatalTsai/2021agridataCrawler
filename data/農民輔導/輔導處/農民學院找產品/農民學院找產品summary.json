@@ -1,1 +1,17 @@
-{'ID': '173', 'Title': '農民學院找產品', 'Organ': '輔導處', 'Catalog': '農民輔導', 'Counter': 18391, 'Lnkcnt': 6583, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：生產者、產品名稱、安全等級、月供貨量（公斤）、產季（月份）、最小出貨量（公斤）等欄位資料。', 'sourceURL': 'https://academy.coa.gov.tw/channel.php?theme=member_production', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/MemberProductData.aspx'}
+{
+	"ID": "173",
+	"Title": "農民學院找產品",
+	"Organ": "輔導處",
+	"Catalog": "農民輔導",
+	"Counter": 18391,
+	"Lnkcnt": 6583,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：生產者、產品名稱、安全等級、月供貨量（公斤）、產季（月份）、最小出貨量（公斤）等欄位資料。",
+	"sourceURL": "https://academy.coa.gov.tw/channel.php?theme=member_production",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/MemberProductData.aspx"
+}

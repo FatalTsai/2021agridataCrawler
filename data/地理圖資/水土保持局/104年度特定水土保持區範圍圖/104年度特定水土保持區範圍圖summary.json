@@ -1,1 +1,17 @@
-{'ID': 'F94', 'Title': '104年度特定水土保持區範圍圖', 'Organ': '水土保持局', 'Catalog': '地理圖資', 'Counter': 580, 'Lnkcnt': 0, 'LastUpdateTime': '2021-03-23', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '1', 'UpdateFrequency': '不更新', 'description': '提供104年度特定水土保持區範圍圖shp下載檔案，包含CLASS(類型)、ANC_AREA(特定水土保持區)、AREA_HA(面積)、MGR_UNIT(管理機關)、ANC_DATE(日期)、SWCB_PLAN(水土保持區劃定計畫)、AREA(面積)等欄位資料。', 'sourceURL': '', 'interfaceURL': ''}
+{
+	"ID": "F94",
+	"Title": "104年度特定水土保持區範圍圖",
+	"Organ": "水土保持局",
+	"Catalog": "地理圖資",
+	"Counter": 580,
+	"Lnkcnt": 0,
+	"LastUpdateTime": "2021-03-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "不更新",
+	"description": "提供104年度特定水土保持區範圍圖shp下載檔案，包含CLASS(類型)、ANC_AREA(特定水土保持區)、AREA_HA(面積)、MGR_UNIT(管理機關)、ANC_DATE(日期)、SWCB_PLAN(水土保持區劃定計畫)、AREA(面積)等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": ""
+}

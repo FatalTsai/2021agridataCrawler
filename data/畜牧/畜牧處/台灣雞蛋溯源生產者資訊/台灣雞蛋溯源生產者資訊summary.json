@@ -1,1 +1,17 @@
-{'ID': 'D44', 'Title': '台灣雞蛋溯源生產者資訊', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 9513, 'Lnkcnt': 3387, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含:溯源編號、農業經營者、簡稱、產品名稱、產地、生產者姓名、登記號碼、通訊地址、禽種、飼養規模、飼養方式、特色、畜牧場介紹等欄位資料。', 'sourceURL': 'http://www.tafte-poultry.org.tw/index.html', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Traceability/TraceabilityEgg.aspx'}
+{
+	"ID": "D44",
+	"Title": "台灣雞蛋溯源生產者資訊",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 9513,
+	"Lnkcnt": 3387,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含:溯源編號、農業經營者、簡稱、產品名稱、產地、生產者姓名、登記號碼、通訊地址、禽種、飼養規模、飼養方式、特色、畜牧場介紹等欄位資料。",
+	"sourceURL": "http://www.tafte-poultry.org.tw/index.html",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Traceability/TraceabilityEgg.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'B19', 'Title': '縣市別水產養殖面積統計資料', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 6197, 'Lnkcnt': 249, 'LastUpdateTime': '2019-11-22', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：面積單位、縣市別、資料年月、單養、混養、休養等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/OpenData/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=057'}
+{
+	"ID": "B19",
+	"Title": "縣市別水產養殖面積統計資料",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 6197,
+	"Lnkcnt": 249,
+	"LastUpdateTime": "2019-11-22",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：面積單位、縣市別、資料年月、單養、混養、休養等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/OpenData/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=057"
+}

@@ -1,1 +1,17 @@
-{'ID': 'kppSQSpPsd3u', 'Title': '農業技術交易網-技轉公告', 'Organ': '科技處', 'Catalog': '農業科技', 'Counter': 5805, 'Lnkcnt': 596, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括:標題、連結、單位、公告期間、授權方式、授權年限、授權地區、公告日期、系統編號等欄位資料。', 'sourceURL': 'https://tatm.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=kppSQSpPsd3u'}
+{
+	"ID": "kppSQSpPsd3u",
+	"Title": "農業技術交易網-技轉公告",
+	"Organ": "科技處",
+	"Catalog": "農業科技",
+	"Counter": 5805,
+	"Lnkcnt": 596,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括:標題、連結、單位、公告期間、授權方式、授權年限、授權地區、公告日期、系統編號等欄位資料。",
+	"sourceURL": "https://tatm.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=kppSQSpPsd3u"
+}

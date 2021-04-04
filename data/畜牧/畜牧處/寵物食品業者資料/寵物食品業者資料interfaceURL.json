@@ -1,13 +1,13 @@
 [
-  {
-    "ID": "A2019090000015",
-    "legaltype": "3",
-    "legalname": "",
-    "ownname": "陳宣如",
-    "legaltel": "0930512728",
-    "legaladdress": "粵寧里14鄰東蘭路39之7號",
-    "contactname": "",
-    "legalcountry": "臺中市",
-    "legalgzone": "東勢區"
-  }
+	{
+		"ID": "A2019090000015",
+		"legaltype": "3",
+		"legalname": "",
+		"ownname": "陳宣如",
+		"legaltel": "0930512728",
+		"legaladdress": "粵寧里14鄰東蘭路39之7號",
+		"contactname": "",
+		"legalcountry": "臺中市",
+		"legalgzone": "東勢區"
+	}
 ]

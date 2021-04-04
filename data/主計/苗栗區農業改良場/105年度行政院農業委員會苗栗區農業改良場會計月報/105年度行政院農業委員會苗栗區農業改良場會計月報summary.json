@@ -1,1 +1,17 @@
-{'ID': 'A20', 'Title': '105年度行政院農業委員會苗栗區農業改良場會計月報', 'Organ': '苗栗區農業改良場', 'Catalog': '主計', 'Counter': 4856, 'Lnkcnt': 515, 'LastUpdateTime': '2018-03-29', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '105年度行政院農業委員會苗栗區農業改良場會計月報', 'sourceURL': 'http://www.mdais.gov.tw/view.php?catid=4246', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A20'}
+{
+	"ID": "A20",
+	"Title": "105年度行政院農業委員會苗栗區農業改良場會計月報",
+	"Organ": "苗栗區農業改良場",
+	"Catalog": "主計",
+	"Counter": 4856,
+	"Lnkcnt": 515,
+	"LastUpdateTime": "2018-03-29",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "105年度行政院農業委員會苗栗區農業改良場會計月報",
+	"sourceURL": "http://www.mdais.gov.tw/view.php?catid=4246",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A20"
+}

@@ -1,1 +1,17 @@
-{'ID': '074', 'Title': '屏東農業生物技術園區優惠獎勵資訊', 'Organ': '屏東農業生物技術園區籌備處', 'Catalog': '農民輔導', 'Counter': 6044, 'Lnkcnt': 11065, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包含：稅捐優惠、投資獎勵與研發補助、衛星農場輔導、農業動力用電等欄位資料。', 'sourceURL': 'http://www.pabp.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=074'}
+{
+	"ID": "074",
+	"Title": "屏東農業生物技術園區優惠獎勵資訊",
+	"Organ": "屏東農業生物技術園區籌備處",
+	"Catalog": "農民輔導",
+	"Counter": 6044,
+	"Lnkcnt": 11065,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：稅捐優惠、投資獎勵與研發補助、衛星農場輔導、農業動力用電等欄位資料。",
+	"sourceURL": "http://www.pabp.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=074"
+}

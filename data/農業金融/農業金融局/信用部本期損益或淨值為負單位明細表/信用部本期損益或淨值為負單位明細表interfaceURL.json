@@ -1,7 +1,7 @@
 [
-  {
-    "ReportName": "信用部本期損益或淨值為負單位明細表_20200917",
-    "LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=FR029W.xls",
-    "CDate": "20200917182655"
-  }
+	{
+		"ReportName": "信用部本期損益或淨值為負單位明細表_20200917",
+		"LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=FR029W.xls",
+		"CDate": "20200917182655"
+	}
 ]

@@ -1,1 +1,17 @@
-{'ID': 'B62', 'Title': '行政院農業委員會家畜衛生試驗所動物用生物藥品自行銷售種類及價目表', 'Organ': '家畜衛生試驗所', 'Catalog': '畜牧', 'Counter': 5568, 'Lnkcnt': 69, 'LastUpdateTime': '2020-05-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包括：編號、名稱、包裝、價格、更新日期等欄位資訊。', 'sourceURL': 'https://www.nvri.gov.tw/Module/DisplayPageContent.aspx?pid=rQQy%2f2RCvO0%3d', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Nvri/BeginDrug.aspx'}
+{
+	"ID": "B62",
+	"Title": "行政院農業委員會家畜衛生試驗所動物用生物藥品自行銷售種類及價目表",
+	"Organ": "家畜衛生試驗所",
+	"Catalog": "畜牧",
+	"Counter": 5568,
+	"Lnkcnt": 69,
+	"LastUpdateTime": "2020-05-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包括：編號、名稱、包裝、價格、更新日期等欄位資訊。",
+	"sourceURL": "https://www.nvri.gov.tw/Module/DisplayPageContent.aspx?pid=rQQy%2f2RCvO0%3d",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Nvri/BeginDrug.aspx"
+}

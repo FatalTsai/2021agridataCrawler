@@ -1,1 +1,17 @@
-{'ID': 'E36', 'Title': '原住民知識資料部落族表', 'Organ': '林務局', 'Catalog': '其他', 'Counter': 5615, 'Lnkcnt': 45, 'LastUpdateTime': '2020-09-23', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每季', 'description': '提供資料包含:原住民知識資料部落族表鍵值、部落族編號、部落族語言等欄位資料。', 'sourceURL': 'http://ecocommunity.ieco.tw/AboriginalInfo/Knowledge/Content', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/AboriginalInfo_TKEthnic.aspx'}
+{
+	"ID": "E36",
+	"Title": "原住民知識資料部落族表",
+	"Organ": "林務局",
+	"Catalog": "其他",
+	"Counter": 5615,
+	"Lnkcnt": 45,
+	"LastUpdateTime": "2020-09-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每季",
+	"description": "提供資料包含:原住民知識資料部落族表鍵值、部落族編號、部落族語言等欄位資料。",
+	"sourceURL": "http://ecocommunity.ieco.tw/AboriginalInfo/Knowledge/Content",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/AboriginalInfo_TKEthnic.aspx"
+}

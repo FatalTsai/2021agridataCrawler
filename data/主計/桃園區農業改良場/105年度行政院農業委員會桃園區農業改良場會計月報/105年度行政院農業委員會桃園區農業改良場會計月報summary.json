@@ -1,1 +1,17 @@
-{'ID': 'F66', 'Title': '105年度行政院農業委員會桃園區農業改良場會計月報', 'Organ': '桃園區農業改良場', 'Catalog': '主計', 'Counter': 7188, 'Lnkcnt': 1604, 'LastUpdateTime': '2019-04-16', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供105年度行政院農業委員會桃園區農業改良場會計月報', 'sourceURL': 'https://www.tydares.gov.tw/ws.php?id=1078', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F66'}
+{
+	"ID": "F66",
+	"Title": "105年度行政院農業委員會桃園區農業改良場會計月報",
+	"Organ": "桃園區農業改良場",
+	"Catalog": "主計",
+	"Counter": 7188,
+	"Lnkcnt": 1604,
+	"LastUpdateTime": "2019-04-16",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供105年度行政院農業委員會桃園區農業改良場會計月報",
+	"sourceURL": "https://www.tydares.gov.tw/ws.php?id=1078",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F66"
+}

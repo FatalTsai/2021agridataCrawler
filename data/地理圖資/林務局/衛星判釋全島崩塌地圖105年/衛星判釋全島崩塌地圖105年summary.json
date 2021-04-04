@@ -1,1 +1,17 @@
-{'ID': 'E32', 'Title': '衛星判釋全島崩塌地圖105年', 'Organ': '林務局', 'Catalog': '地理圖資', 'Counter': 5261, 'Lnkcnt': 2939, 'LastUpdateTime': '2020-10-20', 'Messages': 4, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '5', 'UpdateFrequency': '不更新', 'description': '由林務局委託成功大學，以當年度1~7 月全島鑲嵌福衛二號衛星影像(93年度使用SPOT衛星影像)，建立自動判釋崩塌地作業標準，繪製崩塌地判釋最小面積為0.1 公頃。', 'sourceURL': 'https://www.tgos.tw/tgos/Web/MetaData/TGOS_MetaData_View.aspx?MID=CDBB21ACB7275BDB56E94ED8BA9E9546&amp;SHOW_BACK_BUTTON=false', 'interfaceURL': ''}
+{
+	"ID": "E32",
+	"Title": "衛星判釋全島崩塌地圖105年",
+	"Organ": "林務局",
+	"Catalog": "地理圖資",
+	"Counter": 5261,
+	"Lnkcnt": 2939,
+	"LastUpdateTime": "2020-10-20",
+	"Messages": 4,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "5",
+	"UpdateFrequency": "不更新",
+	"description": "由林務局委託成功大學，以當年度1~7 月全島鑲嵌福衛二號衛星影像(93年度使用SPOT衛星影像)，建立自動判釋崩塌地作業標準，繪製崩塌地判釋最小面積為0.1 公頃。",
+	"sourceURL": "https://www.tgos.tw/tgos/Web/MetaData/TGOS_MetaData_View.aspx?MID=CDBB21ACB7275BDB56E94ED8BA9E9546&amp;SHOW_BACK_BUTTON=false",
+	"interfaceURL": ""
+}

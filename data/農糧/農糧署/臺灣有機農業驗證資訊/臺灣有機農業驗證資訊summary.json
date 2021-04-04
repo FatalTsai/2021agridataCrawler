@@ -1,1 +1,17 @@
-{'ID': 'D45', 'Title': '臺灣有機農業驗證資訊', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 7181, 'Lnkcnt': 646, 'LastUpdateTime': '2020-01-03', 'Messages': 1, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含:農產品經營者名稱、農產品經營者地址、電話、產品品項、驗證行為、驗證機構名稱、證書序號、證書效期、驗證狀態等欄位資料。', 'sourceURL': 'http://epv.afa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Traceability/TraceabilityOrganic.aspx'}
+{
+	"ID": "D45",
+	"Title": "臺灣有機農業驗證資訊",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 7181,
+	"Lnkcnt": 646,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含:農產品經營者名稱、農產品經營者地址、電話、產品品項、驗證行為、驗證機構名稱、證書序號、證書效期、驗證狀態等欄位資料。",
+	"sourceURL": "http://epv.afa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Traceability/TraceabilityOrganic.aspx"
+}

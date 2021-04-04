@@ -1,1 +1,17 @@
-{'ID': 'D55', 'Title': '臺中區農業改良場年報', 'Organ': '台中區農業改良場', 'Catalog': '農業科技', 'Counter': 6275, 'Lnkcnt': 382, 'LastUpdateTime': '2020-07-31', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供臺中區農業改良場年報', 'sourceURL': 'https://www.tdais.gov.tw/view.php?catid=10012', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D55'}
+{
+	"ID": "D55",
+	"Title": "臺中區農業改良場年報",
+	"Organ": "台中區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 6275,
+	"Lnkcnt": 382,
+	"LastUpdateTime": "2020-07-31",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供臺中區農業改良場年報",
+	"sourceURL": "https://www.tdais.gov.tw/view.php?catid=10012",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D55"
+}

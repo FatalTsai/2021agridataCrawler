@@ -1,1 +1,17 @@
-{'ID': '748', 'Title': '第三次森林資源調查林地分級圖', 'Organ': '林務局', 'Catalog': '地理圖資', 'Counter': 2948, 'Lnkcnt': 1976, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '第三次台灣森林資源及土地利用調查資料—1.了解全島的土地利用情況。2.蒐集全島森林資源之面積及蓄積的有關資料。3.辦理林地分級。4.進行全島森林遊樂資源之勘查。5.勘查全島重要野生動物、植物資源之分布現況，並建立基礎資料庫。6.建立森林地理資訊系統。', 'sourceURL': 'https://tgos.nat.gov.tw/TGOS/Web/MetaData/TGOS_MetaData_View.aspx?MID=EEE5D5C488E1CA7867573D5AD971F80E&amp;SHOW_BACK_BUTTON=false', 'interfaceURL': ''}
+{
+	"ID": "748",
+	"Title": "第三次森林資源調查林地分級圖",
+	"Organ": "林務局",
+	"Catalog": "地理圖資",
+	"Counter": 2948,
+	"Lnkcnt": 1976,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "第三次台灣森林資源及土地利用調查資料—1.了解全島的土地利用情況。2.蒐集全島森林資源之面積及蓄積的有關資料。3.辦理林地分級。4.進行全島森林遊樂資源之勘查。5.勘查全島重要野生動物、植物資源之分布現況，並建立基礎資料庫。6.建立森林地理資訊系統。",
+	"sourceURL": "https://tgos.nat.gov.tw/TGOS/Web/MetaData/TGOS_MetaData_View.aspx?MID=EEE5D5C488E1CA7867573D5AD971F80E&amp;SHOW_BACK_BUTTON=false",
+	"interfaceURL": ""
+}

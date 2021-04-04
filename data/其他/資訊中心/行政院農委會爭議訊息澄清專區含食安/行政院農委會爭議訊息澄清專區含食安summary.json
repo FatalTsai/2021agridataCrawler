@@ -1,1 +1,17 @@
-{'ID': 'F33', 'Title': '行政院農委會爭議訊息澄清專區含食安', 'Organ': '資訊中心', 'Catalog': '其他', 'Counter': 6831, 'Lnkcnt': 535, 'LastUpdateTime': '2019-08-22', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '行政院農業委員會爭議訊息澄清專區含食安RSS', 'sourceURL': 'https://www.coa.gov.tw/open_data.php?format=rss&amp;func=faq', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/AgriculturalFoodSafetyRss.aspx'}
+{
+	"ID": "F33",
+	"Title": "行政院農委會爭議訊息澄清專區含食安",
+	"Organ": "資訊中心",
+	"Catalog": "其他",
+	"Counter": 6831,
+	"Lnkcnt": 535,
+	"LastUpdateTime": "2019-08-22",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "行政院農業委員會爭議訊息澄清專區含食安RSS",
+	"sourceURL": "https://www.coa.gov.tw/open_data.php?format=rss&amp;func=faq",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/AgriculturalFoodSafetyRss.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'D54', 'Title': '臺中區農業改良場農業技術專刊', 'Organ': '台中區農業改良場', 'Catalog': '農業科技', 'Counter': 4997, 'Lnkcnt': 390, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供台中區農業改良場同仁發表之著作。', 'sourceURL': 'http://www.tdais.gov.tw/view.php?catid=353', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D54'}
+{
+	"ID": "D54",
+	"Title": "臺中區農業改良場農業技術專刊",
+	"Organ": "台中區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 4997,
+	"Lnkcnt": 390,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供台中區農業改良場同仁發表之著作。",
+	"sourceURL": "http://www.tdais.gov.tw/view.php?catid=353",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D54"
+}

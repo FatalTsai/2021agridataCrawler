@@ -1,1 +1,17 @@
-{'ID': '024', 'Title': '植物品種權公告', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 13181, 'Lnkcnt': 11483, 'LastUpdateTime': '2020-12-15', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每周', 'description': '提供資料包含：公開案號、申請案編號、植物品項、申請登記品種名稱、申請日期、公開日期、權利狀態、權利期間、品種特性、申請人姓名或名稱、育種者等欄位資料。', 'sourceURL': 'https://newplant.afa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=024'}
+{
+	"ID": "024",
+	"Title": "植物品種權公告",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 13181,
+	"Lnkcnt": 11483,
+	"LastUpdateTime": "2020-12-15",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每周",
+	"description": "提供資料包含：公開案號、申請案編號、植物品項、申請登記品種名稱、申請日期、公開日期、權利狀態、權利期間、品種特性、申請人姓名或名稱、育種者等欄位資料。",
+	"sourceURL": "https://newplant.afa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=024"
+}

@@ -1,1 +1,17 @@
-{'ID': 'A59', 'Title': '104年度行政院農業委員會臺東區農業改良場會計報告', 'Organ': '台東區農業改良場', 'Catalog': '主計', 'Counter': 5377, 'Lnkcnt': 593, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '歲入累計表、經費累計表、平衡表、資本資產表、平衡表科目明細表、資本資產變動表、歲出用途別科目累計表、經費累計表附表－特別費、文康活動費、債務費及房屋租金支出用情形表、收入實現數與繳付公庫數分析表、支出實現數與公庫撥入數分析表、收入支出彙計表、公庫收入(支出)差額解釋表、財產增減結存表。', 'sourceURL': 'https://www.ttdares.gov.tw/ws.php?id=6818', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A59'}
+{
+	"ID": "A59",
+	"Title": "104年度行政院農業委員會臺東區農業改良場會計報告",
+	"Organ": "台東區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5377,
+	"Lnkcnt": 593,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "歲入累計表、經費累計表、平衡表、資本資產表、平衡表科目明細表、資本資產變動表、歲出用途別科目累計表、經費累計表附表－特別費、文康活動費、債務費及房屋租金支出用情形表、收入實現數與繳付公庫數分析表、支出實現數與公庫撥入數分析表、收入支出彙計表、公庫收入(支出)差額解釋表、財產增減結存表。",
+	"sourceURL": "https://www.ttdares.gov.tw/ws.php?id=6818",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A59"
+}

@@ -1,1 +1,17 @@
-{'ID': 'WVOiWSdDjWxx', 'Title': '農產品物價查報資料', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 54617, 'Lnkcnt': 13009, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '4', 'UpdateFrequency': '每月', 'description': '資料提供包括:查報價格、年、月、旬、鄉鎮農會、品項名稱等欄位資料。', 'sourceURL': 'https://apis.afa.gov.tw/pagepub/AppContentPage.aspx?itemNo=PRI075', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=WVOiWSdDjWxx'}
+{
+	"ID": "WVOiWSdDjWxx",
+	"Title": "農產品物價查報資料",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 54617,
+	"Lnkcnt": 13009,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "4",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括:查報價格、年、月、旬、鄉鎮農會、品項名稱等欄位資料。",
+	"sourceURL": "https://apis.afa.gov.tw/pagepub/AppContentPage.aspx?itemNo=PRI075",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=WVOiWSdDjWxx"
+}

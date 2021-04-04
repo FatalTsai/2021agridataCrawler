@@ -1,1 +1,17 @@
-{'ID': 'E37', 'Title': '原住民知識資料表', 'Organ': '林務局', 'Catalog': '其他', 'Counter': 5033, 'Lnkcnt': 116, 'LastUpdateTime': '2018-03-29', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每季', 'description': '提供資料包含:原住民知識資料表鍵值、部落編號、類別編號、科名、物種名稱、備註、用途、中文名、使用部位、特有種、建立資料日期等欄位資訊。', 'sourceURL': 'http://ecocommunity.ieco.tw/AboriginalInfo/Knowledge/Content', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/AboriginalInfo_TK.aspx'}
+{
+	"ID": "E37",
+	"Title": "原住民知識資料表",
+	"Organ": "林務局",
+	"Catalog": "其他",
+	"Counter": 5033,
+	"Lnkcnt": 116,
+	"LastUpdateTime": "2018-03-29",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每季",
+	"description": "提供資料包含:原住民知識資料表鍵值、部落編號、類別編號、科名、物種名稱、備註、用途、中文名、使用部位、特有種、建立資料日期等欄位資訊。",
+	"sourceURL": "http://ecocommunity.ieco.tw/AboriginalInfo/Knowledge/Content",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/AboriginalInfo_TK.aspx"
+}

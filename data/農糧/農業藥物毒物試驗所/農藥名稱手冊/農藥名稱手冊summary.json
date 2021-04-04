@@ -1,1 +1,17 @@
-{'ID': '027', 'Title': '農藥名稱手冊', 'Organ': '農業藥物毒物試驗所', 'Catalog': '農糧', 'Counter': 20019, 'Lnkcnt': 25411, 'LastUpdateTime': '2016-11-21', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '不更新', 'description': '提供資料包含：農藥名稱、農藥英文名稱、成分含量、劑型、廠商名稱、中文商品名等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/TacTriPesticideData.aspx'}
+{
+	"ID": "027",
+	"Title": "農藥名稱手冊",
+	"Organ": "農業藥物毒物試驗所",
+	"Catalog": "農糧",
+	"Counter": 20019,
+	"Lnkcnt": 25411,
+	"LastUpdateTime": "2016-11-21",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "不更新",
+	"description": "提供資料包含：農藥名稱、農藥英文名稱、成分含量、劑型、廠商名稱、中文商品名等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/TacTriPesticideData.aspx"
+}

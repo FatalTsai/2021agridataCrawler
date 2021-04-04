@@ -1,1 +1,17 @@
-{'ID': 'D97', 'Title': '臺東區農業改良場技術專刊', 'Organ': '台東區農業改良場', 'Catalog': '農業科技', 'Counter': 5434, 'Lnkcnt': 994, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供期別、出刊時間、期刊名稱、檔案連結等資料。', 'sourceURL': 'https://www.ttdares.gov.tw/ws.php?id=1575', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D97'}
+{
+	"ID": "D97",
+	"Title": "臺東區農業改良場技術專刊",
+	"Organ": "台東區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 5434,
+	"Lnkcnt": 994,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供期別、出刊時間、期刊名稱、檔案連結等資料。",
+	"sourceURL": "https://www.ttdares.gov.tw/ws.php?id=1575",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D97"
+}

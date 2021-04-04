@@ -1,7 +1,7 @@
 [
-  {
-    "ReportName": "信用部通訊錄聯絡簡表_20200917",
-    "LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=BR010W.xls",
-    "CDate": "20200917182655"
-  }
+	{
+		"ReportName": "信用部通訊錄聯絡簡表_20200917",
+		"LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=BR010W.xls",
+		"CDate": "20200917182655"
+	}
 ]

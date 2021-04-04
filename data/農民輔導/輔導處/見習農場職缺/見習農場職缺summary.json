@@ -1,1 +1,17 @@
-{'ID': 'B61', 'Title': '見習農場職缺', 'Organ': '輔導處', 'Catalog': '農民輔導', 'Counter': 6733, 'Lnkcnt': 240, 'LastUpdateTime': '2020-06-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：見習地點、農場名稱、見習工作、需求人數、尚有名額、負責人、農場地址、膳供應、宿供應、見習時段、見習內容、報名條件、地址、休假制度、主要商品及服務項目等欄位資訊。', 'sourceURL': 'https://academy.coa.gov.tw/theme_list.php?theme=farm_job&amp;WS_id=132', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FarmJobInfo.aspx'}
+{
+	"ID": "B61",
+	"Title": "見習農場職缺",
+	"Organ": "輔導處",
+	"Catalog": "農民輔導",
+	"Counter": 6733,
+	"Lnkcnt": 240,
+	"LastUpdateTime": "2020-06-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：見習地點、農場名稱、見習工作、需求人數、尚有名額、負責人、農場地址、膳供應、宿供應、見習時段、見習內容、報名條件、地址、休假制度、主要商品及服務項目等欄位資訊。",
+	"sourceURL": "https://academy.coa.gov.tw/theme_list.php?theme=farm_job&amp;WS_id=132",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FarmJobInfo.aspx"
+}

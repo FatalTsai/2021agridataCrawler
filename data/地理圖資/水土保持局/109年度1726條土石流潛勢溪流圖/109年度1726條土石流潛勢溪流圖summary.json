@@ -1,1 +1,17 @@
-{'ID': 'H18', 'Title': '109年度1726條土石流潛勢溪流圖', 'Organ': '水土保持局', 'Catalog': '地理圖資', 'Counter': 306, 'Lnkcnt': 0, 'LastUpdateTime': '2021-03-23', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '不更新', 'description': '提供109年度1726條土石流潛勢溪流圖shp下載檔案，包含ID(編號)、Debrisno(土石流潛勢溪流編號)、County01(縣市)、Town01(鄉鎮)、Vill01(村里)、County02(次要經過縣市)、Town02(次要經過鄉鎮)、Vill02(次要經過村里)、Name(名稱)、Mark(地標)、Roadname(主要道路名稱)、DW_number(保全住戶戶數級距)、Potential(風險等級)、Length(溪流長度)、R_area(面積)、Stra_1(地質)、Stra_2(岩性)、Mapid(1/25000圖號)、Owner(管理分屬)、Twpark(所屬國家公園)、Twscenic(所屬國家風景區)、Type(類型)、Basin(所屬集水區)、Sub_basin(所屬子集水區)、Date(日期)、Note01(註記01)、Note02(註記02)、公開(公開)、Full(全縣市鄉鎮村里名稱)、Debrisno_o(舊潛勢溪流編號)等欄位。', 'sourceURL': '', 'interfaceURL': ''}
+{
+	"ID": "H18",
+	"Title": "109年度1726條土石流潛勢溪流圖",
+	"Organ": "水土保持局",
+	"Catalog": "地理圖資",
+	"Counter": 306,
+	"Lnkcnt": 0,
+	"LastUpdateTime": "2021-03-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "不更新",
+	"description": "提供109年度1726條土石流潛勢溪流圖shp下載檔案，包含ID(編號)、Debrisno(土石流潛勢溪流編號)、County01(縣市)、Town01(鄉鎮)、Vill01(村里)、County02(次要經過縣市)、Town02(次要經過鄉鎮)、Vill02(次要經過村里)、Name(名稱)、Mark(地標)、Roadname(主要道路名稱)、DW_number(保全住戶戶數級距)、Potential(風險等級)、Length(溪流長度)、R_area(面積)、Stra_1(地質)、Stra_2(岩性)、Mapid(1/25000圖號)、Owner(管理分屬)、Twpark(所屬國家公園)、Twscenic(所屬國家風景區)、Type(類型)、Basin(所屬集水區)、Sub_basin(所屬子集水區)、Date(日期)、Note01(註記01)、Note02(註記02)、公開(公開)、Full(全縣市鄉鎮村里名稱)、Debrisno_o(舊潛勢溪流編號)等欄位。",
+	"sourceURL": "",
+	"interfaceURL": ""
+}

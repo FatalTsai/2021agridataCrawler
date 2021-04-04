@@ -1,1 +1,17 @@
-{'ID': 'DyplMIk3U1hf', 'Title': '全國公立動物收容所收容處理情形統計表', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 9641, 'Lnkcnt': 10075, 'LastUpdateTime': '2020-12-03', 'Messages': 4, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '2', 'UpdateFrequency': '每月', 'description': '提供資料包含：流水號、年度、縣市代碼、縣市名、月份、收容隻數_隻、認領養數_隻、認領養率_%、總認養數、人道處理數_隻、人道處理率_%*、所內死亡數_隻、所內死亡率_%*、在養數_隻等欄位資料。', 'sourceURL': 'https://animal.coa.gov.tw/Frontend/Know/AnimalResource#tab3', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=DyplMIk3U1hf'}
+{
+	"ID": "DyplMIk3U1hf",
+	"Title": "全國公立動物收容所收容處理情形統計表",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 9641,
+	"Lnkcnt": 10075,
+	"LastUpdateTime": "2020-12-03",
+	"Messages": 4,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：流水號、年度、縣市代碼、縣市名、月份、收容隻數_隻、認領養數_隻、認領養率_%、總認養數、人道處理數_隻、人道處理率_%*、所內死亡數_隻、所內死亡率_%*、在養數_隻等欄位資料。",
+	"sourceURL": "https://animal.coa.gov.tw/Frontend/Know/AnimalResource#tab3",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=DyplMIk3U1hf"
+}

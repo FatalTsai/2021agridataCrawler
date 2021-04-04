@@ -1,1 +1,17 @@
-{'ID': 'B83', 'Title': '臺東區農業改良場農情月刊', 'Organ': '台東區農業改良場', 'Catalog': '農業科技', 'Counter': 4481, 'Lnkcnt': 850, 'LastUpdateTime': '2018-03-27', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包括：期別、出刊時間、檔案連結等欄位資訊。', 'sourceURL': 'https://www.ttdares.gov.tw/ws.php?id=1574', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B83'}
+{
+	"ID": "B83",
+	"Title": "臺東區農業改良場農情月刊",
+	"Organ": "台東區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 4481,
+	"Lnkcnt": 850,
+	"LastUpdateTime": "2018-03-27",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包括：期別、出刊時間、檔案連結等欄位資訊。",
+	"sourceURL": "https://www.ttdares.gov.tw/ws.php?id=1574",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B83"
+}

@@ -1,1 +1,17 @@
-{'ID': 'B82', 'Title': '東部地區時令水果產期資訊', 'Organ': '台東區農業改良場', 'Catalog': '農糧', 'Counter': 6834, 'Lnkcnt': 1836, 'LastUpdateTime': '2020-01-07', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包括：品項、主要產期、主要產地等欄位資訊。', 'sourceURL': 'https://www.ttdares.gov.tw/ws.php?id=2989', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B82'}
+{
+	"ID": "B82",
+	"Title": "東部地區時令水果產期資訊",
+	"Organ": "台東區農業改良場",
+	"Catalog": "農糧",
+	"Counter": 6834,
+	"Lnkcnt": 1836,
+	"LastUpdateTime": "2020-01-07",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：品項、主要產期、主要產地等欄位資訊。",
+	"sourceURL": "https://www.ttdares.gov.tw/ws.php?id=2989",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B82"
+}

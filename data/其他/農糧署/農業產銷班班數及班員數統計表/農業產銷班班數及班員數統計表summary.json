@@ -1,1 +1,17 @@
-{'ID': 'A94', 'Title': '農業產銷班班數及班員數統計表', 'Organ': '農糧署', 'Catalog': '其他', 'Counter': 6528, 'Lnkcnt': 1157, 'LastUpdateTime': '2020-11-17', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包括：縣市、產業類別、班數、班員數等欄位資料。', 'sourceURL': 'http://agrpmg.afa.gov.tw/agr-Sed/agrJsp/login.jsp', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A94'}
+{
+	"ID": "A94",
+	"Title": "農業產銷班班數及班員數統計表",
+	"Organ": "農糧署",
+	"Catalog": "其他",
+	"Counter": 6528,
+	"Lnkcnt": 1157,
+	"LastUpdateTime": "2020-11-17",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包括：縣市、產業類別、班數、班員數等欄位資料。",
+	"sourceURL": "http://agrpmg.afa.gov.tw/agr-Sed/agrJsp/login.jsp",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A94"
+}

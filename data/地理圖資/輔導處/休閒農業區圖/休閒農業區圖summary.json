@@ -1,1 +1,17 @@
-{'ID': '164', 'Title': '休閒農業區圖', 'Organ': '輔導處', 'Catalog': '地理圖資', 'Counter': 16007, 'Lnkcnt': 15569, 'LastUpdateTime': '2020-01-13', 'Messages': 1, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '3', 'UpdateFrequency': '即時', 'description': '資料提供包括：檔案識別碼、圖檔中文名稱、詮釋資料建置時間、資料建置時間、摘要、目的、資料建置狀況、空間展示型別、主題關鍵字、地點關鍵字、地面解析度、資料建置比例尺、圖資加盟方式、圖資實體名稱、幾何物件型別、格式名稱、格式版本、最西經度、最東經度、最南緯度、最北緯度、維護更新頻率、參考系統識別碼、分布圖Url等資訊。', 'sourceURL': 'http://211.22.161.200/ALIES/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=164'}
+{
+	"ID": "164",
+	"Title": "休閒農業區圖",
+	"Organ": "輔導處",
+	"Catalog": "地理圖資",
+	"Counter": 16007,
+	"Lnkcnt": 15569,
+	"LastUpdateTime": "2020-01-13",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "3",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：檔案識別碼、圖檔中文名稱、詮釋資料建置時間、資料建置時間、摘要、目的、資料建置狀況、空間展示型別、主題關鍵字、地點關鍵字、地面解析度、資料建置比例尺、圖資加盟方式、圖資實體名稱、幾何物件型別、格式名稱、格式版本、最西經度、最東經度、最南緯度、最北緯度、維護更新頻率、參考系統識別碼、分布圖Url等資訊。",
+	"sourceURL": "http://211.22.161.200/ALIES/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=164"
+}

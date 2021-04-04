@@ -1,1 +1,17 @@
-{'ID': 'A36', 'Title': '105年度行政院農業委員會臺南區農業改良場會計報告', 'Organ': '台南區農業改良場', 'Catalog': '主計', 'Counter': 5119, 'Lnkcnt': 530, 'LastUpdateTime': '2018-05-11', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '105年度行政院農業委員會臺南區農業改良場會計報告', 'sourceURL': 'https://www.tndais.gov.tw/ws.php?id=2652', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A36'}
+{
+	"ID": "A36",
+	"Title": "105年度行政院農業委員會臺南區農業改良場會計報告",
+	"Organ": "台南區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5119,
+	"Lnkcnt": 530,
+	"LastUpdateTime": "2018-05-11",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "105年度行政院農業委員會臺南區農業改良場會計報告",
+	"sourceURL": "https://www.tndais.gov.tw/ws.php?id=2652",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A36"
+}

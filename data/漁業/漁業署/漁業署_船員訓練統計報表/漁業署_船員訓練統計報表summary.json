@@ -1,1 +1,17 @@
-{'ID': 'G96', 'Title': '漁業署_船員訓練統計報表', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 1709, 'Lnkcnt': 7, 'LastUpdateTime': '2020-12-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供船員訓練統計報表，提供資料包含：field001(職類)、field002(班別)、field003(人數)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS167.aspx'}
+{
+	"ID": "G96",
+	"Title": "漁業署_船員訓練統計報表",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 1709,
+	"Lnkcnt": 7,
+	"LastUpdateTime": "2020-12-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供船員訓練統計報表，提供資料包含：field001(職類)、field002(班別)、field003(人數)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS167.aspx"
+}

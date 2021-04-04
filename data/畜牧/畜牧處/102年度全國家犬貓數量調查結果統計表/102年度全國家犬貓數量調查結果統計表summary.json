@@ -1,1 +1,17 @@
-{'ID': '411', 'Title': '102年度全國家犬貓數量調查結果統計表', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 6386, 'Lnkcnt': 506, 'LastUpdateTime': '2020-05-21', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供102年度全國家犬貓數量調查結果統計表資料查詢網址。', 'sourceURL': 'https://animal.coa.gov.tw/html/index_06_1_14.html', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=411'}
+{
+	"ID": "411",
+	"Title": "102年度全國家犬貓數量調查結果統計表",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 6386,
+	"Lnkcnt": 506,
+	"LastUpdateTime": "2020-05-21",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供102年度全國家犬貓數量調查結果統計表資料查詢網址。",
+	"sourceURL": "https://animal.coa.gov.tw/html/index_06_1_14.html",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=411"
+}

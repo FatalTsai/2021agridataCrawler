@@ -1,7 +1,7 @@
 [
-  {
-    "ReportName": "牌告利率每季申報資料_20200917",
-    "LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=DS015W.xls",
-    "CDate": "20200917182655"
-  }
+	{
+		"ReportName": "牌告利率每季申報資料_20200917",
+		"LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=DS015W.xls",
+		"CDate": "20200917182655"
+	}
 ]

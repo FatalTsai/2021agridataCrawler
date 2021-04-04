@@ -1,1 +1,17 @@
-{'ID': 'D69', 'Title': '林業試驗所林業研究專訊目錄清單', 'Organ': '林業試驗所', 'Catalog': '農業科技', 'Counter': 7691, 'Lnkcnt': 1247, 'LastUpdateTime': '2020-05-28', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每年', 'description': '資料提供包括:卷期、類別、出版年、題目、作者等欄位資料。', 'sourceURL': 'https://www.tfri.gov.tw/main/science_cat.aspx?siteid=&amp;ver=&amp;usid=&amp;mnuid=5378&amp;modid=2&amp;mode=', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D69'}
+{
+	"ID": "D69",
+	"Title": "林業試驗所林業研究專訊目錄清單",
+	"Organ": "林業試驗所",
+	"Catalog": "農業科技",
+	"Counter": 7691,
+	"Lnkcnt": 1247,
+	"LastUpdateTime": "2020-05-28",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:卷期、類別、出版年、題目、作者等欄位資料。",
+	"sourceURL": "https://www.tfri.gov.tw/main/science_cat.aspx?siteid=&amp;ver=&amp;usid=&amp;mnuid=5378&amp;modid=2&amp;mode=",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D69"
+}

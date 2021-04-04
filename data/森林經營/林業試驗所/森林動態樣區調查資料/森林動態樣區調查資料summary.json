@@ -1,1 +1,17 @@
-{'ID': 'F55', 'Title': '森林動態樣區調查資料', 'Organ': '林業試驗所', 'Catalog': '森林經營', 'Counter': 7795, 'Lnkcnt': 1850, 'LastUpdateTime': '2020-11-19', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '福山(fs)、蓮華池(lhc)、墾丁(kt)等三處森林動態樣區之地形測量與每木調查成果。地形測量成果資料包括各樣區內測量樁點之水平座標與海拔高度。每木調查成果資料包括各樣區內組成樹種之代碼、學名資料，以及不同調查期別之樹木株數、胸高斷面積與族群變化數量。', 'sourceURL': 'https://metacat.tfri.gov.tw/tfri/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F55'}
+{
+	"ID": "F55",
+	"Title": "森林動態樣區調查資料",
+	"Organ": "林業試驗所",
+	"Catalog": "森林經營",
+	"Counter": 7795,
+	"Lnkcnt": 1850,
+	"LastUpdateTime": "2020-11-19",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "福山(fs)、蓮華池(lhc)、墾丁(kt)等三處森林動態樣區之地形測量與每木調查成果。地形測量成果資料包括各樣區內測量樁點之水平座標與海拔高度。每木調查成果資料包括各樣區內組成樹種之代碼、學名資料，以及不同調查期別之樹木株數、胸高斷面積與族群變化數量。",
+	"sourceURL": "https://metacat.tfri.gov.tw/tfri/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F55"
+}

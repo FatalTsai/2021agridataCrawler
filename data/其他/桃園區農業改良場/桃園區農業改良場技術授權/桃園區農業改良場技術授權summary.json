@@ -1,1 +1,17 @@
-{'ID': '808', 'Title': '桃園區農業改良場技術授權', 'Organ': '桃園區農業改良場', 'Catalog': '其他', 'Counter': 6797, 'Lnkcnt': 1815, 'LastUpdateTime': '2020-05-07', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：識別碼、曾授權技術項目、契約年限、授權金_未稅、授權方式3等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=808'}
+{
+	"ID": "808",
+	"Title": "桃園區農業改良場技術授權",
+	"Organ": "桃園區農業改良場",
+	"Catalog": "其他",
+	"Counter": 6797,
+	"Lnkcnt": 1815,
+	"LastUpdateTime": "2020-05-07",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：識別碼、曾授權技術項目、契約年限、授權金_未稅、授權方式3等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=808"
+}

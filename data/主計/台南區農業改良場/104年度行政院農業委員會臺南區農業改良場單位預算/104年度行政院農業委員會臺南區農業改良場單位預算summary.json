@@ -1,1 +1,17 @@
-{'ID': 'A30', 'Title': '104年度行政院農業委員會臺南區農業改良場單位預算', 'Organ': '台南區農業改良場', 'Catalog': '主計', 'Counter': 5445, 'Lnkcnt': 729, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '104年度行政院農業委員會臺南區農業改良場單位預算', 'sourceURL': 'https://www.tndais.gov.tw/ws.php?id=2652', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A30'}
+{
+	"ID": "A30",
+	"Title": "104年度行政院農業委員會臺南區農業改良場單位預算",
+	"Organ": "台南區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5445,
+	"Lnkcnt": 729,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "104年度行政院農業委員會臺南區農業改良場單位預算",
+	"sourceURL": "https://www.tndais.gov.tw/ws.php?id=2652",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A30"
+}

@@ -1,1 +1,17 @@
-{'ID': 'F26', 'Title': '106年度行政院農業委員會高雄區農業改良場單位決算', 'Organ': '高雄區農業改良場', 'Catalog': '主計', 'Counter': 5752, 'Lnkcnt': 261, 'LastUpdateTime': '2018-10-26', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供106年度行政院農業委員會高雄區農業改良場單位決算下載檔案', 'sourceURL': 'https://www.kdais.gov.tw/view.php?catid=5822', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F26'}
+{
+	"ID": "F26",
+	"Title": "106年度行政院農業委員會高雄區農業改良場單位決算",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5752,
+	"Lnkcnt": 261,
+	"LastUpdateTime": "2018-10-26",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供106年度行政院農業委員會高雄區農業改良場單位決算下載檔案",
+	"sourceURL": "https://www.kdais.gov.tw/view.php?catid=5822",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F26"
+}

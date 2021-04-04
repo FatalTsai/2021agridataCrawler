@@ -1,1 +1,17 @@
-{'ID': 'n96dabxCmBsC', 'Title': 'UAV空拍正射影像圖磚', 'Organ': '水土保持局', 'Catalog': '地理圖資', 'Counter': 9377, 'Lnkcnt': 3191, 'LastUpdateTime': '2021-04-03', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '8', 'UpdateFrequency': '即時', 'description': '蒐集UAV空拍影像，經地理定位與正射處理發布，建立UAV空拍正射影像圖磚提供應用系統介接。', 'sourceURL': 'https://gis.swcb.gov.tw/api/swcb/tiles/ortho', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=n96dabxCmBsC'}
+{
+	"ID": "n96dabxCmBsC",
+	"Title": "UAV空拍正射影像圖磚",
+	"Organ": "水土保持局",
+	"Catalog": "地理圖資",
+	"Counter": 9377,
+	"Lnkcnt": 3191,
+	"LastUpdateTime": "2021-04-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "8",
+	"UpdateFrequency": "即時",
+	"description": "蒐集UAV空拍影像，經地理定位與正射處理發布，建立UAV空拍正射影像圖磚提供應用系統介接。",
+	"sourceURL": "https://gis.swcb.gov.tw/api/swcb/tiles/ortho",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=n96dabxCmBsC"
+}

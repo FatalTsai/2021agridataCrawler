@@ -1,1 +1,17 @@
-{'ID': 'E06', 'Title': '107年度行政院農業委員會花蓮區農業改良場預算案', 'Organ': '花蓮區農業改良場', 'Catalog': '主計', 'Counter': 5205, 'Lnkcnt': 764, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供107年度行政院農業委員會花蓮區農業改良場預算案。', 'sourceURL': 'http://www.hdares.gov.tw/view.php?catid=2323', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E06'}
+{
+	"ID": "E06",
+	"Title": "107年度行政院農業委員會花蓮區農業改良場預算案",
+	"Organ": "花蓮區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5205,
+	"Lnkcnt": 764,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供107年度行政院農業委員會花蓮區農業改良場預算案。",
+	"sourceURL": "http://www.hdares.gov.tw/view.php?catid=2323",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E06"
+}

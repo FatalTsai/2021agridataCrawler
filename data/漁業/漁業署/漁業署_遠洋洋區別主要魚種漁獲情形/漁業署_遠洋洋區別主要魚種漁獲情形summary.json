@@ -1,1 +1,17 @@
-{'ID': 'G81', 'Title': '漁業署_遠洋洋區別主要魚種漁獲情形', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 2218, 'Lnkcnt': 307, 'LastUpdateTime': '2021-01-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供遠洋洋區別主要魚種漁獲情形，提供資料包含：field001(區域)、field002(年別)、field003(合計)、field004(大目鮪)、field005(黃鰭鮪)、field006(長鰭鮪)、field007(正鰹)、field008(旗魚類)、field009(鯊魚類)、field010(魷魚)、field011(秋刀魚)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS152.aspx'}
+{
+	"ID": "G81",
+	"Title": "漁業署_遠洋洋區別主要魚種漁獲情形",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 2218,
+	"Lnkcnt": 307,
+	"LastUpdateTime": "2021-01-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供遠洋洋區別主要魚種漁獲情形，提供資料包含：field001(區域)、field002(年別)、field003(合計)、field004(大目鮪)、field005(黃鰭鮪)、field006(長鰭鮪)、field007(正鰹)、field008(旗魚類)、field009(鯊魚類)、field010(魷魚)、field011(秋刀魚)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS152.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'XKsG34RMFQpE', 'Title': '稻米生產總表', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 6362, 'Lnkcnt': 326, 'LastUpdateTime': '2020-01-07', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '資料提供包括:年度、種植期數、種植面積(公頃)、收穫面積(公頃)、稻米生產價值(新臺幣千元)等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=XKsG34RMFQpE'}
+{
+	"ID": "XKsG34RMFQpE",
+	"Title": "稻米生產總表",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 6362,
+	"Lnkcnt": 326,
+	"LastUpdateTime": "2020-01-07",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:年度、種植期數、種植面積(公頃)、收穫面積(公頃)、稻米生產價值(新臺幣千元)等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=XKsG34RMFQpE"
+}

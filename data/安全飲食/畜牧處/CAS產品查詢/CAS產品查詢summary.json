@@ -1,1 +1,17 @@
-{'ID': 'qNRePfOf8YMS', 'Title': 'CAS產品查詢', 'Organ': '畜牧處', 'Catalog': '安全飲食', 'Counter': 18040, 'Lnkcnt': 24639, 'LastUpdateTime': '2021-04-03', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '4', 'UpdateFrequency': '每日', 'description': '資料提供包括:標章編號、廠商名稱、地址、電話、傳真、負責人、產品類別、產品種類、產品名稱等欄位資料。', 'sourceURL': 'http://cas.coa.gov.tw/AP0017/AP0017Index', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=qNRePfOf8YMS'}
+{
+	"ID": "qNRePfOf8YMS",
+	"Title": "CAS產品查詢",
+	"Organ": "畜牧處",
+	"Catalog": "安全飲食",
+	"Counter": 18040,
+	"Lnkcnt": 24639,
+	"LastUpdateTime": "2021-04-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "4",
+	"UpdateFrequency": "每日",
+	"description": "資料提供包括:標章編號、廠商名稱、地址、電話、傳真、負責人、產品類別、產品種類、產品名稱等欄位資料。",
+	"sourceURL": "http://cas.coa.gov.tw/AP0017/AP0017Index",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=qNRePfOf8YMS"
+}

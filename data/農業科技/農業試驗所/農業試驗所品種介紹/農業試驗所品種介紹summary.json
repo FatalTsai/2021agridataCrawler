@@ -1,1 +1,17 @@
-{'ID': '356', 'Title': '農業試驗所品種介紹', 'Organ': '農業試驗所', 'Catalog': '農業科技', 'Counter': 10358, 'Lnkcnt': 686, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每日', 'description': '提供資料包括：標題、連結網址、公布日期、內容、附加檔案網址等欄位資料。', 'sourceURL': 'http://www.tari.gov.tw/tour1/index.asp?Parser=99,6,37', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Tarivariety.aspx'}
+{
+	"ID": "356",
+	"Title": "農業試驗所品種介紹",
+	"Organ": "農業試驗所",
+	"Catalog": "農業科技",
+	"Counter": 10358,
+	"Lnkcnt": 686,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包括：標題、連結網址、公布日期、內容、附加檔案網址等欄位資料。",
+	"sourceURL": "http://www.tari.gov.tw/tour1/index.asp?Parser=99,6,37",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Tarivariety.aspx"
+}

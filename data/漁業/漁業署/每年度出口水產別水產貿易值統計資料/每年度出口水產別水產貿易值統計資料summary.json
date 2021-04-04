@@ -1,1 +1,17 @@
-{'ID': 'C70', 'Title': '每年度出口水產別水產貿易值統計資料', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 5229, 'Lnkcnt': 141, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包含：水產貿易商品標準分類代碼、水產貿易魚類、資料年月、價值_新台幣、價值_美金等欄位資料。', 'sourceURL': 'http://www.fa.gov.tw/cht/OpenData/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=072'}
+{
+	"ID": "C70",
+	"Title": "每年度出口水產別水產貿易值統計資料",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 5229,
+	"Lnkcnt": 141,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包含：水產貿易商品標準分類代碼、水產貿易魚類、資料年月、價值_新台幣、價值_美金等欄位資料。",
+	"sourceURL": "http://www.fa.gov.tw/cht/OpenData/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=072"
+}

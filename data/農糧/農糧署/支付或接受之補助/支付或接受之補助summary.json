@@ -1,1 +1,17 @@
-{'ID': 'CNZ2buC8G28u', 'Title': '支付或接受之補助', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 6116, 'Lnkcnt': 248, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括:系統編號、預算別、機關名稱、補助對象、縣市別、計畫名稱、核定日期、核定金額等欄位資料。', 'sourceURL': 'https://www.afa.gov.tw/cht/index.php?code=list&amp;ids=359', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=CNZ2buC8G28u'}
+{
+	"ID": "CNZ2buC8G28u",
+	"Title": "支付或接受之補助",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 6116,
+	"Lnkcnt": 248,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括:系統編號、預算別、機關名稱、補助對象、縣市別、計畫名稱、核定日期、核定金額等欄位資料。",
+	"sourceURL": "https://www.afa.gov.tw/cht/index.php?code=list&amp;ids=359",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=CNZ2buC8G28u"
+}

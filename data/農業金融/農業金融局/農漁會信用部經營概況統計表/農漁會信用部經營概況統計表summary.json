@@ -1,1 +1,17 @@
-{'ID': '129', 'Title': '農漁會信用部經營概況統計表', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 17819, 'Lnkcnt': 16811, 'LastUpdateTime': '2021-02-03', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每月', 'description': '資料提供包括：年度、月份、單位種類、單位代號、單位名稱、存款總額（千元）、放款總額（千元）、淨值（千元）、本期損益（千元）、狹義逾期放款（千元）、廣義逾期放款（千元）、狹義逾期比率（%）、廣義逾期比率（%）、備抵呆帳金額（千元）、備抵呆帳占狹義逾期放款比率（%）、備抵呆帳占廣義逾期放款比率（%）、淨值佔風險性資產比率（%）等欄位資訊。', 'sourceURL': 'http://www.boaf.gov.tw/boafwww/index.jsp?a=np&amp;ctNode=487', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=129'}
+{
+	"ID": "129",
+	"Title": "農漁會信用部經營概況統計表",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 17819,
+	"Lnkcnt": 16811,
+	"LastUpdateTime": "2021-02-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：年度、月份、單位種類、單位代號、單位名稱、存款總額（千元）、放款總額（千元）、淨值（千元）、本期損益（千元）、狹義逾期放款（千元）、廣義逾期放款（千元）、狹義逾期比率（%）、廣義逾期比率（%）、備抵呆帳金額（千元）、備抵呆帳占狹義逾期放款比率（%）、備抵呆帳占廣義逾期放款比率（%）、淨值佔風險性資產比率（%）等欄位資訊。",
+	"sourceURL": "http://www.boaf.gov.tw/boafwww/index.jsp?a=np&amp;ctNode=487",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=129"
+}

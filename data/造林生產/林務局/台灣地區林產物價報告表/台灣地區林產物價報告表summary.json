@@ -1,1 +1,17 @@
-{'ID': '284vH5YfHQjH', 'Title': '台灣地區林產物價報告表', 'Organ': '林務局', 'Catalog': '造林生產', 'Counter': 6849, 'Lnkcnt': 569, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含:民國年份、月份、報告代碼、報告種類、樹種代碼、樹種名稱、規格、羅東處本月平均價、羅東處與上月平均價差、羅東處漲跌備註、新竹處本月平均價、新竹處與上月平均價差、新竹處漲跌備註、東勢處本月平均價、東勢處與上月平均價差、東勢處漲跌備註、南投處本月平均價、南投處與上月平均價差、南投處漲跌備註、嘉義處本月平均價、嘉義處與上月平均價差、嘉義處漲跌備註、屏東處本月平均價、屏東處與上月平均價差、屏東處漲跌備註、臺東處本月平均價、臺東處與上月平均價差、臺東處漲跌備註、花蓮處本月平均價、花蓮處與上月平均價差、花蓮處漲跌備註、本月平均價格、上月平均價格、漲跌率%、漲跌備註等欄位資料。', 'sourceURL': 'http://woodprice.forest.gov.tw/Summary/Q_SummaryWoodPrice.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=284vH5YfHQjH'}
+{
+	"ID": "284vH5YfHQjH",
+	"Title": "台灣地區林產物價報告表",
+	"Organ": "林務局",
+	"Catalog": "造林生產",
+	"Counter": 6849,
+	"Lnkcnt": 569,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含:民國年份、月份、報告代碼、報告種類、樹種代碼、樹種名稱、規格、羅東處本月平均價、羅東處與上月平均價差、羅東處漲跌備註、新竹處本月平均價、新竹處與上月平均價差、新竹處漲跌備註、東勢處本月平均價、東勢處與上月平均價差、東勢處漲跌備註、南投處本月平均價、南投處與上月平均價差、南投處漲跌備註、嘉義處本月平均價、嘉義處與上月平均價差、嘉義處漲跌備註、屏東處本月平均價、屏東處與上月平均價差、屏東處漲跌備註、臺東處本月平均價、臺東處與上月平均價差、臺東處漲跌備註、花蓮處本月平均價、花蓮處與上月平均價差、花蓮處漲跌備註、本月平均價格、上月平均價格、漲跌率%、漲跌備註等欄位資料。",
+	"sourceURL": "http://woodprice.forest.gov.tw/Summary/Q_SummaryWoodPrice.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=284vH5YfHQjH"
+}

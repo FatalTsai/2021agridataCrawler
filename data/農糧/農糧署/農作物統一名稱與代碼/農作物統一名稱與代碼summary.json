@@ -1,1 +1,17 @@
-{'ID': 'LC7YWlenhLuP', 'Title': '農作物統一名稱與代碼', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 9276, 'Lnkcnt': 4898, 'LastUpdateTime': '2021-03-11', 'Messages': 1, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '4', 'UpdateFrequency': '每日', 'description': '提供資料包括：稻米、蔬菜、果樹、花卉、雜糧、特作、農產品加工及其他作物等8大類作物/農產品項之統一名稱、別名與代碼，以及大/中/小分類之中文名稱與代碼。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=LC7YWlenhLuP'}
+{
+	"ID": "LC7YWlenhLuP",
+	"Title": "農作物統一名稱與代碼",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 9276,
+	"Lnkcnt": 4898,
+	"LastUpdateTime": "2021-03-11",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "4",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包括：稻米、蔬菜、果樹、花卉、雜糧、特作、農產品加工及其他作物等8大類作物/農產品項之統一名稱、別名與代碼，以及大/中/小分類之中文名稱與代碼。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=LC7YWlenhLuP"
+}

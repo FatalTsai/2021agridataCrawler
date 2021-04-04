@@ -1,1 +1,17 @@
-{'ID': 'G67', 'Title': '漁業署_有機藻類抽檢結果', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 2017, 'Lnkcnt': 40, 'LastUpdateTime': '2020-12-18', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供有機藻類抽檢結果，提供資料包含：抽檢地區執行機關、抽檢日期、抽檢編號、產品名稱、農藥殘留抽驗、重金屬、總脫鎂葉綠鹽、標示檢查(實體及網路通路)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS136.aspx'}
+{
+	"ID": "G67",
+	"Title": "漁業署_有機藻類抽檢結果",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 2017,
+	"Lnkcnt": 40,
+	"LastUpdateTime": "2020-12-18",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供有機藻類抽檢結果，提供資料包含：抽檢地區執行機關、抽檢日期、抽檢編號、產品名稱、農藥殘留抽驗、重金屬、總脫鎂葉綠鹽、標示檢查(實體及網路通路)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS136.aspx"
+}

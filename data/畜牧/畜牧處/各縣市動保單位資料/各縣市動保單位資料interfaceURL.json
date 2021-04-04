@@ -1,178 +1,178 @@
 [
-  {
-    "ID": "AP00000022",
-    "AnimalProtectName": "連江縣政府產業發展處",
-    "Address": "連江縣南竿鄉清水村101號",
-    "Phone": "0836-22347",
-    "Url": "https://www.matsu.gov.tw/",
-    "Seq": 22
-  },
-  {
-    "ID": "AP00000021",
-    "AnimalProtectName": "金門縣動植物防疫所",
-    "Address": "金門縣金湖鎮裕民農莊20號",
-    "Phone": "082-336625",
-    "Url": "https://aphin.kinmen.gov.tw/",
-    "Seq": 21
-  },
-  {
-    "ID": "AP00000020",
-    "AnimalProtectName": "嘉義市政府建設處",
-    "Address": "嘉義市中山路199號",
-    "Phone": "05-2290357",
-    "Url": "https://economic.chiayi.gov.tw/",
-    "Seq": 20
-  },
-  {
-    "ID": "AP00000019",
-    "AnimalProtectName": "新竹市動物保護及防疫所",
-    "Address": "新竹市海濱路250號",
-    "Phone": "03-5368329",
-    "Url": "https://puppy.hccg.gov.tw/ch/index.jsp",
-    "Seq": 19
-  },
-  {
-    "ID": "AP00000018",
-    "AnimalProtectName": "基隆市動物保護防疫所",
-    "Address": "基隆市信二路241號1樓",
-    "Phone": "02-24280677",
-    "Url": "https://www.klaphio.gov.tw/index.php",
-    "Seq": 18
-  },
-  {
-    "ID": "AP00000017",
-    "AnimalProtectName": "澎湖縣家畜疾病防治所",
-    "Address": "澎湖縣馬公市西文里118之1號",
-    "Phone": "06-9212839",
-    "Url": "https://www.phldcc.gov.tw/",
-    "Seq": 17
-  },
-  {
-    "ID": "AP00000015",
-    "AnimalProtectName": "花蓮縣動植物防疫所",
-    "Address": "花蓮縣花蓮市瑞美路5號",
-    "Phone": "038-227431",
-    "Url": "http://acdc.hl.gov.tw/",
-    "Seq": 16
-  },
-  {
-    "ID": "AP00000016",
-    "AnimalProtectName": "臺東縣動物防疫所",
-    "Address": "臺東縣臺東市中興路2段733號",
-    "Phone": "089-233720",
-    "Url": "https://sites.google.com/a/jbps.ttct.edu.tw/tai-dong-xian-dong-wu-fang-yi-suo/",
-    "Seq": 15
-  },
-  {
-    "ID": "AP00000013",
-    "AnimalProtectName": "屏東縣政府農業處",
-    "Address": "屏東市自由路527號",
-    "Phone": "08-7320415",
-    "Url": "https://www.pthg.gov.tw/plancib/Default.aspx",
-    "Seq": 14
-  },
-  {
-    "ID": "AP00000012",
-    "AnimalProtectName": "嘉義縣家畜疾病防治所",
-    "Address": "嘉義縣太保市太保1路1號",
-    "Phone": "05-3620025分機27",
-    "Url": "https://ldcc.cyhg.gov.tw/",
-    "Seq": 13
-  },
-  {
-    "ID": "AP00000011",
-    "AnimalProtectName": "雲林縣動植物防疫所",
-    "Address": "雲林縣斗六市雲林路2段517號",
-    "Phone": "05-5523296",
-    "Url": "https://livestock.yunlin.gov.tw/",
-    "Seq": 12
-  },
-  {
-    "ID": "AP00000010",
-    "AnimalProtectName": "南投縣家畜疾病防治所",
-    "Address": "南投縣南投市民族路499號",
-    "Phone": "049-2222542",
-    "Url": "http://adcc.nantou.gov.tw/",
-    "Seq": 11
-  },
-  {
-    "ID": "AP00000009",
-    "AnimalProtectName": "彰化縣動物防疫所",
-    "Address": "彰化縣彰化市中央路2號",
-    "Phone": "04-7610141",
-    "Url": "http://www.chcgadcc.gov.tw/",
-    "Seq": 10
-  },
-  {
-    "ID": "AP00000008",
-    "AnimalProtectName": "苗栗縣動物保護防疫所",
-    "Address": "苗栗縣苗栗市勝利里國福路10號",
-    "Phone": "1999或037-320049分機112",
-    "Url": "http://animal.miaoli.gov.tw/animal_health/",
-    "Seq": 9
-  },
-  {
-    "ID": "AP00000007",
-    "AnimalProtectName": "新竹縣家畜疾病防治所",
-    "Address": "新竹縣竹北市縣政5街192號",
-    "Phone": "03-5519548分機114",
-    "Url": "https://web.hsinchu.gov.tw/livestock/index.jsp",
-    "Seq": 8
-  },
-  {
-    "ID": "AP00000014",
-    "AnimalProtectName": "宜蘭縣動植物防疫所",
-    "Address": "宜蘭縣五結鄉成興村利寶路60號",
-    "Phone": "03-9602350",
-    "Url": "http://animal.e-land.gov.tw/",
-    "Seq": 7
-  },
-  {
-    "ID": "AP00000006",
-    "AnimalProtectName": "桃園市政府動物保護防疫處",
-    "Address": "桃園市桃園區縣府路57號",
-    "Phone": "03-3326742",
-    "Url": "https://www.tycg.gov.tw/animal/index.jsp",
-    "Seq": 6
-  },
-  {
-    "ID": "AP00000005",
-    "AnimalProtectName": "高雄市動物保護處",
-    "Address": "高雄市鳳山區忠義街166號",
-    "Phone": "07-7462368、07-7429455",
-    "Url": "https://livestock.kcg.gov.tw/",
-    "Seq": 5
-  },
-  {
-    "ID": "AP00000004",
-    "AnimalProtectName": "臺南市動物防疫保護處       ",
-    "Address": "臺南市新營區長榮路1段501號",
-    "Phone": "06-2130958",
-    "Url": "https://ahipo.tainan.gov.tw/",
-    "Seq": 4
-  },
-  {
-    "ID": "AP00000003",
-    "AnimalProtectName": "臺中市動物保護防疫處",
-    "Address": "臺中市南屯區萬和路1段28-18號",
-    "Phone": "04-23813398、04-23869420",
-    "Url": "http://www.animal.taichung.gov.tw/",
-    "Seq": 3
-  },
-  {
-    "ID": "AP00000001",
-    "AnimalProtectName": "臺北市動物保護處",
-    "Address": "臺北市信義區吳興街600巷109號",
-    "Phone": "1999市民當家熱線、02-87913064、02-87913065",
-    "Url": "https://www.tcapo.gov.taipei/",
-    "Seq": 2
-  },
-  {
-    "ID": "AP00000002",
-    "AnimalProtectName": "新北市政府動物保護防疫處",
-    "Address": "新北市板橋區四川路1段157巷2號",
-    "Phone": "02-29596353",
-    "Url": "https://www.ahiqo.ntpc.gov.tw/cht/index.php?",
-    "Seq": 1
-  }
+	{
+		"ID": "AP00000022",
+		"AnimalProtectName": "連江縣政府產業發展處",
+		"Address": "連江縣南竿鄉清水村101號",
+		"Phone": "0836-22347",
+		"Url": "https://www.matsu.gov.tw/",
+		"Seq": 22
+	},
+	{
+		"ID": "AP00000021",
+		"AnimalProtectName": "金門縣動植物防疫所",
+		"Address": "金門縣金湖鎮裕民農莊20號",
+		"Phone": "082-336625",
+		"Url": "https://aphin.kinmen.gov.tw/",
+		"Seq": 21
+	},
+	{
+		"ID": "AP00000020",
+		"AnimalProtectName": "嘉義市政府建設處",
+		"Address": "嘉義市中山路199號",
+		"Phone": "05-2290357",
+		"Url": "https://economic.chiayi.gov.tw/",
+		"Seq": 20
+	},
+	{
+		"ID": "AP00000019",
+		"AnimalProtectName": "新竹市動物保護及防疫所",
+		"Address": "新竹市海濱路250號",
+		"Phone": "03-5368329",
+		"Url": "https://puppy.hccg.gov.tw/ch/index.jsp",
+		"Seq": 19
+	},
+	{
+		"ID": "AP00000018",
+		"AnimalProtectName": "基隆市動物保護防疫所",
+		"Address": "基隆市信二路241號1樓",
+		"Phone": "02-24280677",
+		"Url": "https://www.klaphio.gov.tw/index.php",
+		"Seq": 18
+	},
+	{
+		"ID": "AP00000017",
+		"AnimalProtectName": "澎湖縣家畜疾病防治所",
+		"Address": "澎湖縣馬公市西文里118之1號",
+		"Phone": "06-9212839",
+		"Url": "https://www.phldcc.gov.tw/",
+		"Seq": 17
+	},
+	{
+		"ID": "AP00000015",
+		"AnimalProtectName": "花蓮縣動植物防疫所",
+		"Address": "花蓮縣花蓮市瑞美路5號",
+		"Phone": "038-227431",
+		"Url": "http://acdc.hl.gov.tw/",
+		"Seq": 16
+	},
+	{
+		"ID": "AP00000016",
+		"AnimalProtectName": "臺東縣動物防疫所",
+		"Address": "臺東縣臺東市中興路2段733號",
+		"Phone": "089-233720",
+		"Url": "https://sites.google.com/a/jbps.ttct.edu.tw/tai-dong-xian-dong-wu-fang-yi-suo/",
+		"Seq": 15
+	},
+	{
+		"ID": "AP00000013",
+		"AnimalProtectName": "屏東縣政府農業處",
+		"Address": "屏東市自由路527號",
+		"Phone": "08-7320415",
+		"Url": "https://www.pthg.gov.tw/plancib/Default.aspx",
+		"Seq": 14
+	},
+	{
+		"ID": "AP00000012",
+		"AnimalProtectName": "嘉義縣家畜疾病防治所",
+		"Address": "嘉義縣太保市太保1路1號",
+		"Phone": "05-3620025分機27",
+		"Url": "https://ldcc.cyhg.gov.tw/",
+		"Seq": 13
+	},
+	{
+		"ID": "AP00000011",
+		"AnimalProtectName": "雲林縣動植物防疫所",
+		"Address": "雲林縣斗六市雲林路2段517號",
+		"Phone": "05-5523296",
+		"Url": "https://livestock.yunlin.gov.tw/",
+		"Seq": 12
+	},
+	{
+		"ID": "AP00000010",
+		"AnimalProtectName": "南投縣家畜疾病防治所",
+		"Address": "南投縣南投市民族路499號",
+		"Phone": "049-2222542",
+		"Url": "http://adcc.nantou.gov.tw/",
+		"Seq": 11
+	},
+	{
+		"ID": "AP00000009",
+		"AnimalProtectName": "彰化縣動物防疫所",
+		"Address": "彰化縣彰化市中央路2號",
+		"Phone": "04-7610141",
+		"Url": "http://www.chcgadcc.gov.tw/",
+		"Seq": 10
+	},
+	{
+		"ID": "AP00000008",
+		"AnimalProtectName": "苗栗縣動物保護防疫所",
+		"Address": "苗栗縣苗栗市勝利里國福路10號",
+		"Phone": "1999或037-320049分機112",
+		"Url": "http://animal.miaoli.gov.tw/animal_health/",
+		"Seq": 9
+	},
+	{
+		"ID": "AP00000007",
+		"AnimalProtectName": "新竹縣家畜疾病防治所",
+		"Address": "新竹縣竹北市縣政5街192號",
+		"Phone": "03-5519548分機114",
+		"Url": "https://web.hsinchu.gov.tw/livestock/index.jsp",
+		"Seq": 8
+	},
+	{
+		"ID": "AP00000014",
+		"AnimalProtectName": "宜蘭縣動植物防疫所",
+		"Address": "宜蘭縣五結鄉成興村利寶路60號",
+		"Phone": "03-9602350",
+		"Url": "http://animal.e-land.gov.tw/",
+		"Seq": 7
+	},
+	{
+		"ID": "AP00000006",
+		"AnimalProtectName": "桃園市政府動物保護防疫處",
+		"Address": "桃園市桃園區縣府路57號",
+		"Phone": "03-3326742",
+		"Url": "https://www.tycg.gov.tw/animal/index.jsp",
+		"Seq": 6
+	},
+	{
+		"ID": "AP00000005",
+		"AnimalProtectName": "高雄市動物保護處",
+		"Address": "高雄市鳳山區忠義街166號",
+		"Phone": "07-7462368、07-7429455",
+		"Url": "https://livestock.kcg.gov.tw/",
+		"Seq": 5
+	},
+	{
+		"ID": "AP00000004",
+		"AnimalProtectName": "臺南市動物防疫保護處       ",
+		"Address": "臺南市新營區長榮路1段501號",
+		"Phone": "06-2130958",
+		"Url": "https://ahipo.tainan.gov.tw/",
+		"Seq": 4
+	},
+	{
+		"ID": "AP00000003",
+		"AnimalProtectName": "臺中市動物保護防疫處",
+		"Address": "臺中市南屯區萬和路1段28-18號",
+		"Phone": "04-23813398、04-23869420",
+		"Url": "http://www.animal.taichung.gov.tw/",
+		"Seq": 3
+	},
+	{
+		"ID": "AP00000001",
+		"AnimalProtectName": "臺北市動物保護處",
+		"Address": "臺北市信義區吳興街600巷109號",
+		"Phone": "1999市民當家熱線、02-87913064、02-87913065",
+		"Url": "https://www.tcapo.gov.taipei/",
+		"Seq": 2
+	},
+	{
+		"ID": "AP00000002",
+		"AnimalProtectName": "新北市政府動物保護防疫處",
+		"Address": "新北市板橋區四川路1段157巷2號",
+		"Phone": "02-29596353",
+		"Url": "https://www.ahiqo.ntpc.gov.tw/cht/index.php?",
+		"Seq": 1
+	}
 ]

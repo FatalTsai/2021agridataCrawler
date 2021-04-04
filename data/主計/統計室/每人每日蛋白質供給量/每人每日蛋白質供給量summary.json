@@ -1,1 +1,17 @@
-{'ID': 'D13', 'Title': '每人每日蛋白質供給量', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 6756, 'Lnkcnt': 271, 'LastUpdateTime': '2020-05-04', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括:糧食別、日期、數值、單位等欄位資料。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=229101520100'}
+{
+	"ID": "D13",
+	"Title": "每人每日蛋白質供給量",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 6756,
+	"Lnkcnt": 271,
+	"LastUpdateTime": "2020-05-04",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括:糧食別、日期、數值、單位等欄位資料。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=229101520100"
+}

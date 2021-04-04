@@ -1,1 +1,17 @@
-{'ID': '876', 'Title': '「亞熱帶農作物產業之研究與發展研討會」論文集', 'Organ': '高雄區農業改良場', 'Catalog': '其他', 'Counter': 5840, 'Lnkcnt': 787, 'LastUpdateTime': '2020-05-01', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '不更新', 'description': '提供資料包括：標題、刊物網址、檔案類型等欄位資料。', 'sourceURL': 'https://oldwww.kdais.gov.tw/k100/paper/paper.htm', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=876'}
+{
+	"ID": "876",
+	"Title": "「亞熱帶農作物產業之研究與發展研討會」論文集",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "其他",
+	"Counter": 5840,
+	"Lnkcnt": 787,
+	"LastUpdateTime": "2020-05-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "不更新",
+	"description": "提供資料包括：標題、刊物網址、檔案類型等欄位資料。",
+	"sourceURL": "https://oldwww.kdais.gov.tw/k100/paper/paper.htm",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=876"
+}

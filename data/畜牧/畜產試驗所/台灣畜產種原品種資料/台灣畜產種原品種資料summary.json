@@ -1,1 +1,17 @@
-{'ID': '735', 'Title': '台灣畜產種原品種資料', 'Organ': '畜產試驗所', 'Catalog': '畜牧', 'Counter': 5652, 'Lnkcnt': 2379, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：品種、品種特徵、品種來源、照片等欄位資料。', 'sourceURL': 'http://www.angrin.tlri.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=735'}
+{
+	"ID": "735",
+	"Title": "台灣畜產種原品種資料",
+	"Organ": "畜產試驗所",
+	"Catalog": "畜牧",
+	"Counter": 5652,
+	"Lnkcnt": 2379,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：品種、品種特徵、品種來源、照片等欄位資料。",
+	"sourceURL": "http://www.angrin.tlri.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=735"
+}

@@ -1,1 +1,17 @@
-{'ID': 'E69', 'Title': '全國單日平均糧價', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 6922, 'Lnkcnt': 409, 'LastUpdateTime': '2020-05-04', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '1', 'UpdateFrequency': '每日', 'description': '資料提供包括：日期、稉種白米零售價格(元/每公斤)、硬秈白米零售價格(元/每公斤)、軟秈白米零售價格(元/每公斤)、圓糯白米零售價格(元/每公斤)、長糯白米零售價格(元/每公斤)、稉種白米躉售價格(元/每百公斤)、硬秈白米躉售價格(元/每百公斤)、軟秈白米躉售價格(元/每百公斤)、圓糯白米躉售價格(元/每百公斤)、長糯白米躉售價格(元/每百公斤)等欄位資料。', 'sourceURL': 'https://foodinformation.afa.gov.tw/Search/S02/S0201/S02010101.aspx?sys_id=S02&amp;sys_pid=S02010101', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Ricepriceavg.aspx'}
+{
+	"ID": "E69",
+	"Title": "全國單日平均糧價",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 6922,
+	"Lnkcnt": 409,
+	"LastUpdateTime": "2020-05-04",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每日",
+	"description": "資料提供包括：日期、稉種白米零售價格(元/每公斤)、硬秈白米零售價格(元/每公斤)、軟秈白米零售價格(元/每公斤)、圓糯白米零售價格(元/每公斤)、長糯白米零售價格(元/每公斤)、稉種白米躉售價格(元/每百公斤)、硬秈白米躉售價格(元/每百公斤)、軟秈白米躉售價格(元/每百公斤)、圓糯白米躉售價格(元/每百公斤)、長糯白米躉售價格(元/每百公斤)等欄位資料。",
+	"sourceURL": "https://foodinformation.afa.gov.tw/Search/S02/S0201/S02010101.aspx?sys_id=S02&amp;sys_pid=S02010101",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Ricepriceavg.aspx"
+}

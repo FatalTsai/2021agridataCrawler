@@ -1,1 +1,17 @@
-{'ID': '710', 'Title': '台北植物園園區植栽花期紀錄資料集', 'Organ': '林業試驗所', 'Catalog': '其他', 'Counter': 9160, 'Lnkcnt': 534, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：學名代碼、物種ID、花朵圖示類別、正方形圖檔、長方形圖檔、開花時序1月、開花時序2月、開花時序3月、開花時序4月、開花時序5月、開花時序6月、開花時序7月、開花時序8、開花時序9月、開花時序10月、開花時序11月、開花時序12月、植株資訊等欄位資料。', 'sourceURL': 'http://tpbg.tfri.gov.tw/calendar.php', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/BgipTrfiPhenoRecords.aspx'}
+{
+	"ID": "710",
+	"Title": "台北植物園園區植栽花期紀錄資料集",
+	"Organ": "林業試驗所",
+	"Catalog": "其他",
+	"Counter": 9160,
+	"Lnkcnt": 534,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：學名代碼、物種ID、花朵圖示類別、正方形圖檔、長方形圖檔、開花時序1月、開花時序2月、開花時序3月、開花時序4月、開花時序5月、開花時序6月、開花時序7月、開花時序8、開花時序9月、開花時序10月、開花時序11月、開花時序12月、植株資訊等欄位資料。",
+	"sourceURL": "http://tpbg.tfri.gov.tw/calendar.php",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/BgipTrfiPhenoRecords.aspx"
+}

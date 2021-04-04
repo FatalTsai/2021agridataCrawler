@@ -1,1 +1,17 @@
-{'ID': '921', 'Title': '104年度行政院農業委員會水土保持局會計報告', 'Organ': '水土保持局', 'Catalog': '主計', 'Counter': 6229, 'Lnkcnt': 812, 'LastUpdateTime': '2019-09-05', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '歲入類、經費類平衡表：資力及資產科目及金額、負擔及負債科目及金額；歲入類、經費類現金出納表：項目及摘要、總計；歲入類累計表：科目、原預算數、預算追加(減)數、全年度預算數、截至本月止分配預算數、收入憑證字號、本月實收數、截至本月止累計實收數、應收數、保留數、未收入之分配數、本月納庫數、累計納庫數截至本月止；經費累計表：科目、原預算數、預算追加(減)數、第一預備金、第二預備金、經費流用數、全年度預算數、截至本月止分配預算數、原始憑證字號、本月實現數、截至本月止累計實現數、應付數、保留數、分配數餘額、備註', 'sourceURL': 'https://www.swcb.gov.tw/Info/item_list_2?id=6209b94f27584d06abc5ec5cba001985', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=921'}
+{
+	"ID": "921",
+	"Title": "104年度行政院農業委員會水土保持局會計報告",
+	"Organ": "水土保持局",
+	"Catalog": "主計",
+	"Counter": 6229,
+	"Lnkcnt": 812,
+	"LastUpdateTime": "2019-09-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "歲入類、經費類平衡表：資力及資產科目及金額、負擔及負債科目及金額；歲入類、經費類現金出納表：項目及摘要、總計；歲入類累計表：科目、原預算數、預算追加(減)數、全年度預算數、截至本月止分配預算數、收入憑證字號、本月實收數、截至本月止累計實收數、應收數、保留數、未收入之分配數、本月納庫數、累計納庫數截至本月止；經費累計表：科目、原預算數、預算追加(減)數、第一預備金、第二預備金、經費流用數、全年度預算數、截至本月止分配預算數、原始憑證字號、本月實現數、截至本月止累計實現數、應付數、保留數、分配數餘額、備註",
+	"sourceURL": "https://www.swcb.gov.tw/Info/item_list_2?id=6209b94f27584d06abc5ec5cba001985",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=921"
+}

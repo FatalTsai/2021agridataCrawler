@@ -1,1 +1,17 @@
-{'ID': '106', 'Title': '苗栗改良場技術移轉資訊', 'Organ': '苗栗區農業改良場', 'Catalog': '農業科技', 'Counter': 7031, 'Lnkcnt': 3505, 'LastUpdateTime': '2019-09-26', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：公告日期、技術移轉項目、授權業者、網址等欄位資料。', 'sourceURL': 'http://www.mdais.gov.tw/view.php?catid=2523', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=106'}
+{
+	"ID": "106",
+	"Title": "苗栗改良場技術移轉資訊",
+	"Organ": "苗栗區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 7031,
+	"Lnkcnt": 3505,
+	"LastUpdateTime": "2019-09-26",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：公告日期、技術移轉項目、授權業者、網址等欄位資料。",
+	"sourceURL": "http://www.mdais.gov.tw/view.php?catid=2523",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=106"
+}

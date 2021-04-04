@@ -1,1 +1,17 @@
-{'ID': '200', 'Title': '畜牧場用藥監測資訊', 'Organ': '動植物防疫檢疫局', 'Catalog': '動植物防疫檢疫', 'Counter': 16981, 'Lnkcnt': 11655, 'LastUpdateTime': '2021-02-03', 'Messages': 1, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：抽驗分類、抽驗年月、畜禽別、抽驗件數、不合格件數、合格率、檢出成分、濃度(ppb)、不合格案件說明等欄位資料。', 'sourceURL': 'http://www.baphiq.gov.tw/view.php?catid=4440', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=200'}
+{
+	"ID": "200",
+	"Title": "畜牧場用藥監測資訊",
+	"Organ": "動植物防疫檢疫局",
+	"Catalog": "動植物防疫檢疫",
+	"Counter": 16981,
+	"Lnkcnt": 11655,
+	"LastUpdateTime": "2021-02-03",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：抽驗分類、抽驗年月、畜禽別、抽驗件數、不合格件數、合格率、檢出成分、濃度(ppb)、不合格案件說明等欄位資料。",
+	"sourceURL": "http://www.baphiq.gov.tw/view.php?catid=4440",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=200"
+}

@@ -1,1 +1,17 @@
-{'ID': '161', 'Title': '畜產農民常見問題集', 'Organ': '畜產試驗所', 'Catalog': '畜牧', 'Counter': 6868, 'Lnkcnt': 3311, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每半年', 'description': '資料提供包括：問題分類、標題、內容等欄位資訊。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=161'}
+{
+	"ID": "161",
+	"Title": "畜產農民常見問題集",
+	"Organ": "畜產試驗所",
+	"Catalog": "畜牧",
+	"Counter": 6868,
+	"Lnkcnt": 3311,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每半年",
+	"description": "資料提供包括：問題分類、標題、內容等欄位資訊。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=161"
+}

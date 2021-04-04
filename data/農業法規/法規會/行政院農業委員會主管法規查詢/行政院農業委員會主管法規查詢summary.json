@@ -1,1 +1,17 @@
-{'ID': '021', 'Title': '行政院農業委員會主管法規查詢', 'Organ': '法規會', 'Catalog': '農業法規', 'Counter': 16593, 'Lnkcnt': 15126, 'LastUpdateTime': '2020-12-16', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '2', 'UpdateFrequency': '每日', 'description': '提供資料包含：分類、字號、公(發)布日期、法規中文名稱、中文內容、法規英文名稱、英文內容、發布單位等欄位資料。', 'sourceURL': 'https://law.coa.gov.tw/GLRSnewsout/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/RegulationsData.aspx'}
+{
+	"ID": "021",
+	"Title": "行政院農業委員會主管法規查詢",
+	"Organ": "法規會",
+	"Catalog": "農業法規",
+	"Counter": 16593,
+	"Lnkcnt": 15126,
+	"LastUpdateTime": "2020-12-16",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包含：分類、字號、公(發)布日期、法規中文名稱、中文內容、法規英文名稱、英文內容、發布單位等欄位資料。",
+	"sourceURL": "https://law.coa.gov.tw/GLRSnewsout/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/RegulationsData.aspx"
+}

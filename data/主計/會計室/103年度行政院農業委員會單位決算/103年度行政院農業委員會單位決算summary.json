@@ -1,1 +1,17 @@
-{'ID': '693', 'Title': '103年度行政院農業委員會單位決算', 'Organ': '會計室', 'Catalog': '主計', 'Counter': 7080, 'Lnkcnt': 606, 'LastUpdateTime': '2020-05-21', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供103年度行政院農業委員會單位決算下載檔案。欄位說明：103年度行政院農業委員會單位決算歲入來源別決算表、歲出政事別決算表、歲出機關別決算表、以前年度歲入來源別轉入數決算表、以前年度歲出政事別轉入數決算表、以前年度歲出機關別轉入數決算表、歲入類平衡表、經費類平衡表等表。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=693'}
+{
+	"ID": "693",
+	"Title": "103年度行政院農業委員會單位決算",
+	"Organ": "會計室",
+	"Catalog": "主計",
+	"Counter": 7080,
+	"Lnkcnt": 606,
+	"LastUpdateTime": "2020-05-21",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供103年度行政院農業委員會單位決算下載檔案。欄位說明：103年度行政院農業委員會單位決算歲入來源別決算表、歲出政事別決算表、歲出機關別決算表、以前年度歲入來源別轉入數決算表、以前年度歲出政事別轉入數決算表、以前年度歲出機關別轉入數決算表、歲入類平衡表、經費類平衡表等表。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=693"
+}

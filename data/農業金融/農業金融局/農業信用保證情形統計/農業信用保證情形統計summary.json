@@ -1,1 +1,17 @@
-{'ID': '132', 'Title': '農業信用保證情形統計', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 16834, 'Lnkcnt': 14125, 'LastUpdateTime': '2021-02-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括：年度、月份、項目、當年累計保證件數、當年累計融資金額、當年累計保證金額、當年累計保證餘額、當年累計保證餘額結構比、總累計保證件數、總累計融資金額、總累計保證金額等欄位資訊。', 'sourceURL': 'http://www.boaf.gov.tw/boafwww/index.jsp?a=np&amp;ctNode=284', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=132'}
+{
+	"ID": "132",
+	"Title": "農業信用保證情形統計",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 16834,
+	"Lnkcnt": 14125,
+	"LastUpdateTime": "2021-02-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：年度、月份、項目、當年累計保證件數、當年累計融資金額、當年累計保證金額、當年累計保證餘額、當年累計保證餘額結構比、總累計保證件數、總累計融資金額、總累計保證金額等欄位資訊。",
+	"sourceURL": "http://www.boaf.gov.tw/boafwww/index.jsp?a=np&amp;ctNode=284",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=132"
+}

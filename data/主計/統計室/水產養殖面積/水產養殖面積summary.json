@@ -1,1 +1,17 @@
-{'ID': '624', 'Title': '水產養殖面積', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 8036, 'Lnkcnt': 279, 'LastUpdateTime': '2021-04-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包含：縣市別、漁塭別、養殖期別、年份、數值、單位等欄位資料。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=224104010120'}
+{
+	"ID": "624",
+	"Title": "水產養殖面積",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 8036,
+	"Lnkcnt": 279,
+	"LastUpdateTime": "2021-04-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包含：縣市別、漁塭別、養殖期別、年份、數值、單位等欄位資料。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=224104010120"
+}

@@ -1,1 +1,17 @@
-{'ID': 'G78', 'Title': '漁業署_領有漁船幹部船員執業證書人數-依縣市別', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 2209, 'Lnkcnt': 285, 'LastUpdateTime': '2021-01-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不定期', 'description': '漁業署提供領有漁船幹部船員執業證書人數-依縣市別，提供資料包含：field001(項目縣市別)、field002(漁航員)、field003(輪機員)、field004(報務員)、field005(話務員)、field006(合計)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS147.aspx'}
+{
+	"ID": "G78",
+	"Title": "漁業署_領有漁船幹部船員執業證書人數-依縣市別",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 2209,
+	"Lnkcnt": 285,
+	"LastUpdateTime": "2021-01-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不定期",
+	"description": "漁業署提供領有漁船幹部船員執業證書人數-依縣市別，提供資料包含：field001(項目縣市別)、field002(漁航員)、field003(輪機員)、field004(報務員)、field005(話務員)、field006(合計)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS147.aspx"
+}

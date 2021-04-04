@@ -1,1 +1,17 @@
-{'ID': 'G77', 'Title': '漁業署_珊瑚漁船漁獲管理', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 2281, 'Lnkcnt': 324, 'LastUpdateTime': '2021-01-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '漁業署提供珊瑚漁船漁獲管理，提供資料包含：field001(月別)、field002(桃紅珊瑚(Momo)(公克)活)、field003(桃紅珊瑚(Momo)(公克)枯)、field004(桃紅珊瑚(Momo)(公克)蟲)、field005(深紅珊瑚(Aka)(公克)活)、field006(深紅珊瑚(Aka)(公克)枯)、field007(深紅珊瑚(Aka)(公克)蟲)、field008(白珊瑚(Shiro)(公克)活)、field009(白珊瑚(Shiro)(公克)枯)、field010(白珊瑚(Shiro)(公克)蟲)、field011(粉紅珊瑚(Miss)(公克)活)、field012(粉紅珊瑚(Miss)(公克)枯)、field013(粉紅珊瑚(Miss)(公克)蟲)、field014(其他珊瑚(公克)活)、field015(其他珊瑚(公克)枯)、field016(其他珊瑚(公克)蟲)、field017(總計活)、field018(總計枯)、field019(總計蟲)、field020(合計)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS146.aspx'}
+{
+	"ID": "G77",
+	"Title": "漁業署_珊瑚漁船漁獲管理",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 2281,
+	"Lnkcnt": 324,
+	"LastUpdateTime": "2021-01-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "漁業署提供珊瑚漁船漁獲管理，提供資料包含：field001(月別)、field002(桃紅珊瑚(Momo)(公克)活)、field003(桃紅珊瑚(Momo)(公克)枯)、field004(桃紅珊瑚(Momo)(公克)蟲)、field005(深紅珊瑚(Aka)(公克)活)、field006(深紅珊瑚(Aka)(公克)枯)、field007(深紅珊瑚(Aka)(公克)蟲)、field008(白珊瑚(Shiro)(公克)活)、field009(白珊瑚(Shiro)(公克)枯)、field010(白珊瑚(Shiro)(公克)蟲)、field011(粉紅珊瑚(Miss)(公克)活)、field012(粉紅珊瑚(Miss)(公克)枯)、field013(粉紅珊瑚(Miss)(公克)蟲)、field014(其他珊瑚(公克)活)、field015(其他珊瑚(公克)枯)、field016(其他珊瑚(公克)蟲)、field017(總計活)、field018(總計枯)、field019(總計蟲)、field020(合計)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS146.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': '124', 'Title': '蔬菜種子業者名錄', 'Organ': '種苗改良繁殖場', 'Catalog': '農糧', 'Counter': 8175, 'Lnkcnt': 13697, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括：種子業者名稱、簡介、負責人、縣市、行政區、地址、電話1、電話2、傳真、E_mail、郵遞區號、經營類別、服務項目、茄果類蔬菜、十字花科蔬菜、瓜果類蔬菜、葉菜類蔬菜、其他蔬菜、草花及草種子、其他等欄位資訊。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=124'}
+{
+	"ID": "124",
+	"Title": "蔬菜種子業者名錄",
+	"Organ": "種苗改良繁殖場",
+	"Catalog": "農糧",
+	"Counter": 8175,
+	"Lnkcnt": 13697,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：種子業者名稱、簡介、負責人、縣市、行政區、地址、電話1、電話2、傳真、E_mail、郵遞區號、經營類別、服務項目、茄果類蔬菜、十字花科蔬菜、瓜果類蔬菜、葉菜類蔬菜、其他蔬菜、草花及草種子、其他等欄位資訊。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=124"
+}

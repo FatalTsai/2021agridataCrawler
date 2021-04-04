@@ -1,1 +1,17 @@
-{'ID': 'A74', 'Title': '不利耕作得設綠能農地範圍', 'Organ': '企劃處', 'Catalog': '地理圖資', 'Counter': 1578, 'Lnkcnt': 1954, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '3', 'UpdateFrequency': '即時', 'description': '提供「不利耕作得設綠能農地範圍」WMS圖資網址，請使用地理圖資軟體讀取。', 'sourceURL': 'http://211.22.161.200/arcgis/services/ALDOC_WMS/TALIS_WMS_TW/MapServer/WMSServer?version=1.3.0&amp;request=GetMap&amp;CRS=CRS:84&amp;bbox=119.123390,21.666314,122.902686,25.689753&amp;width=344&amp;height=400&amp;styles=default&amp;format=image/png&amp;layers=2', 'interfaceURL': ''}
+{
+	"ID": "A74",
+	"Title": "不利耕作得設綠能農地範圍",
+	"Organ": "企劃處",
+	"Catalog": "地理圖資",
+	"Counter": 1578,
+	"Lnkcnt": 1954,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "3",
+	"UpdateFrequency": "即時",
+	"description": "提供「不利耕作得設綠能農地範圍」WMS圖資網址，請使用地理圖資軟體讀取。",
+	"sourceURL": "http://211.22.161.200/arcgis/services/ALDOC_WMS/TALIS_WMS_TW/MapServer/WMSServer?version=1.3.0&amp;request=GetMap&amp;CRS=CRS:84&amp;bbox=119.123390,21.666314,122.902686,25.689753&amp;width=344&amp;height=400&amp;styles=default&amp;format=image/png&amp;layers=2",
+	"interfaceURL": ""
+}

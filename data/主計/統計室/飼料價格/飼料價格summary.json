@@ -1,1 +1,17 @@
-{'ID': '619', 'Title': '飼料價格', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 8189, 'Lnkcnt': 598, 'LastUpdateTime': '2021-04-01', 'Messages': 1, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含：飼料別、年月份、數值、單位等欄位資料。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=225902100100'}
+{
+	"ID": "619",
+	"Title": "飼料價格",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 8189,
+	"Lnkcnt": 598,
+	"LastUpdateTime": "2021-04-01",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：飼料別、年月份、數值、單位等欄位資料。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=225902100100"
+}

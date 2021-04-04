@@ -1,1 +1,17 @@
-{'ID': '240', 'Title': '服務品質認證休閒農場', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 8788, 'Lnkcnt': 2285, 'LastUpdateTime': '2020-08-27', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供農場名稱_中文、縣市、行政區、地址、經度、緯度、電話、網站連結、PermitNo、圖片等欄位資料。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvPermitAgri.aspx'}
+{
+	"ID": "240",
+	"Title": "服務品質認證休閒農場",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 8788,
+	"Lnkcnt": 2285,
+	"LastUpdateTime": "2020-08-27",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供農場名稱_中文、縣市、行政區、地址、經度、緯度、電話、網站連結、PermitNo、圖片等欄位資料。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvPermitAgri.aspx"
+}

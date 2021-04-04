@@ -1,1 +1,17 @@
-{'ID': 'D75', 'Title': '105年度行政院農業委員會臺東區農業改良場單位決算', 'Organ': '台東區農業改良場', 'Catalog': '主計', 'Counter': 4946, 'Lnkcnt': 320, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供105年度行政院農業委員會臺東區農業改良場單位決算。', 'sourceURL': 'https://www.ttdares.gov.tw/ws.php?id=5998', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D75'}
+{
+	"ID": "D75",
+	"Title": "105年度行政院農業委員會臺東區農業改良場單位決算",
+	"Organ": "台東區農業改良場",
+	"Catalog": "主計",
+	"Counter": 4946,
+	"Lnkcnt": 320,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供105年度行政院農業委員會臺東區農業改良場單位決算。",
+	"sourceURL": "https://www.ttdares.gov.tw/ws.php?id=5998",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D75"
+}

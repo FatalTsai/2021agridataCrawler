@@ -1,2572 +1,2572 @@
 [
-  {
-    "ID": 257,
-    "rpt_year": 108,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 4629,
-    "calcu_cat_num": 3212,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 256,
-    "rpt_year": 108,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 448,
-    "calcu_cat_num": 239,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 255,
-    "rpt_year": 108,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 6573,
-    "calcu_cat_num": 2314,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 254,
-    "rpt_year": 108,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 15584,
-    "calcu_cat_num": 6033,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 253,
-    "rpt_year": 108,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 39056,
-    "calcu_cat_num": 21215,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 252,
-    "rpt_year": 108,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 16812,
-    "calcu_cat_num": 8041,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 251,
-    "rpt_year": 108,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 33860,
-    "calcu_cat_num": 13240,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 250,
-    "rpt_year": 108,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 31167,
-    "calcu_cat_num": 14779,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 249,
-    "rpt_year": 108,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 105977,
-    "calcu_cat_num": 33411,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 248,
-    "rpt_year": 108,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 50274,
-    "calcu_cat_num": 15390,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 247,
-    "rpt_year": 108,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 58899,
-    "calcu_cat_num": 15449,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 246,
-    "rpt_year": 108,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 51506,
-    "calcu_cat_num": 21175,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 245,
-    "rpt_year": 108,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 80138,
-    "calcu_cat_num": 30568,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 244,
-    "rpt_year": 108,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 41954,
-    "calcu_cat_num": 16782,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 243,
-    "rpt_year": 108,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 46940,
-    "calcu_cat_num": 19530,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 242,
-    "rpt_year": 108,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 37904,
-    "calcu_cat_num": 11040,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 241,
-    "rpt_year": 108,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園市",
-    "calcu_dog_num": 131010,
-    "calcu_cat_num": 82349,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 240,
-    "rpt_year": 108,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 196423,
-    "calcu_cat_num": 79940,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 239,
-    "rpt_year": 108,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 85038,
-    "calcu_cat_num": 61489,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 238,
-    "rpt_year": 108,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 150907,
-    "calcu_cat_num": 69986,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 237,
-    "rpt_year": 108,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 140959,
-    "calcu_cat_num": 123768,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 236,
-    "rpt_year": 108,
-    "rpt_country_code": "City000003",
-    "rpt_country": "新北市",
-    "calcu_dog_num": 211383,
-    "calcu_cat_num": 113821,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 235,
-    "rpt_year": 107,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 3008,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 234,
-    "rpt_year": 107,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 22176,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 233,
-    "rpt_year": 107,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 8485,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 232,
-    "rpt_year": 107,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4660,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 231,
-    "rpt_year": 107,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 7029,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 230,
-    "rpt_year": 107,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 16473,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 229,
-    "rpt_year": 107,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 9097,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 228,
-    "rpt_year": 107,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 3094,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 227,
-    "rpt_year": 107,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 5659,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 226,
-    "rpt_year": 107,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 783,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 225,
-    "rpt_year": 107,
-    "rpt_country_code": "City000003",
-    "rpt_country": "新北市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 12202,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 224,
-    "rpt_year": 107,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 3542,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 223,
-    "rpt_year": 107,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 41,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 222,
-    "rpt_year": 107,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4807,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 221,
-    "rpt_year": 107,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 5992,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 220,
-    "rpt_year": 107,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園市",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 9686,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 219,
-    "rpt_year": 107,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 1685,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 218,
-    "rpt_year": 107,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 10973,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 217,
-    "rpt_year": 107,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4243,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 216,
-    "rpt_year": 107,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 305,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 215,
-    "rpt_year": 107,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 8167,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 214,
-    "rpt_year": 107,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4667,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 213,
-    "rpt_year": 106,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 212,
-    "rpt_year": 106,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 211,
-    "rpt_year": 106,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 210,
-    "rpt_year": 106,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 15432,
-    "calcu_cat_num": 4588,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 209,
-    "rpt_year": 106,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 36605,
-    "calcu_cat_num": 12202,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 208,
-    "rpt_year": 106,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 21147,
-    "calcu_cat_num": 9559,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 207,
-    "rpt_year": 106,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 38924,
-    "calcu_cat_num": 17609,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 206,
-    "rpt_year": 106,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 28988,
-    "calcu_cat_num": 10891,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 205,
-    "rpt_year": 106,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 94456,
-    "calcu_cat_num": 29517,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 204,
-    "rpt_year": 106,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 43753,
-    "calcu_cat_num": 13563,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 203,
-    "rpt_year": 106,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 53443,
-    "calcu_cat_num": 17320,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 202,
-    "rpt_year": 106,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 69851,
-    "calcu_cat_num": 14552,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 201,
-    "rpt_year": 106,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 93655,
-    "calcu_cat_num": 26192,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 200,
-    "rpt_year": 106,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 83118,
-    "calcu_cat_num": 27706,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 199,
-    "rpt_year": 106,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 47815,
-    "calcu_cat_num": 26114,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 198,
-    "rpt_year": 106,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 32939,
-    "calcu_cat_num": 14841,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 197,
-    "rpt_year": 106,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 258013,
-    "calcu_cat_num": 73380,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 196,
-    "rpt_year": 106,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 116198,
-    "calcu_cat_num": 67038,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 195,
-    "rpt_year": 106,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 154468,
-    "calcu_cat_num": 88819,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 194,
-    "rpt_year": 106,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園市",
-    "calcu_dog_num": 174894,
-    "calcu_cat_num": 46847,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 193,
-    "rpt_year": 106,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 169263,
-    "calcu_cat_num": 85895,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 192,
-    "rpt_year": 106,
-    "rpt_country_code": "City000003",
-    "rpt_country": "新北市",
-    "calcu_dog_num": 244290,
-    "calcu_cat_num": 146574,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 191,
-    "rpt_year": 104,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 87,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 190,
-    "rpt_year": 104,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 908,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 189,
-    "rpt_year": 104,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 20895,
-    "calcu_cat_num": 4428,
-    "stray_dog_num": 3535,
-    "els_note": ""
-  },
-  {
-    "ID": 188,
-    "rpt_year": 104,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 39243,
-    "calcu_cat_num": 10026,
-    "stray_dog_num": 1862,
-    "els_note": ""
-  },
-  {
-    "ID": 187,
-    "rpt_year": 104,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 27833,
-    "calcu_cat_num": 7455,
-    "stray_dog_num": 404,
-    "els_note": ""
-  },
-  {
-    "ID": 186,
-    "rpt_year": 104,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 713,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 185,
-    "rpt_year": 104,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 35741,
-    "calcu_cat_num": 10977,
-    "stray_dog_num": 4807,
-    "els_note": ""
-  },
-  {
-    "ID": 184,
-    "rpt_year": 104,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 24599,
-    "calcu_cat_num": 7518,
-    "stray_dog_num": 3229,
-    "els_note": ""
-  },
-  {
-    "ID": 183,
-    "rpt_year": 104,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 66672,
-    "calcu_cat_num": 22290,
-    "stray_dog_num": 4625,
-    "els_note": ""
-  },
-  {
-    "ID": 182,
-    "rpt_year": 104,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 37852,
-    "calcu_cat_num": 7797,
-    "stray_dog_num": 6811,
-    "els_note": ""
-  },
-  {
-    "ID": 181,
-    "rpt_year": 104,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 59560,
-    "calcu_cat_num": 12402,
-    "stray_dog_num": 9163,
-    "els_note": ""
-  },
-  {
-    "ID": 180,
-    "rpt_year": 104,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 45467,
-    "calcu_cat_num": 14067,
-    "stray_dog_num": 2819,
-    "els_note": ""
-  },
-  {
-    "ID": 179,
-    "rpt_year": 104,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 91692,
-    "calcu_cat_num": 23855,
-    "stray_dog_num": 7100,
-    "els_note": ""
-  },
-  {
-    "ID": 178,
-    "rpt_year": 104,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 47727,
-    "calcu_cat_num": 16043,
-    "stray_dog_num": 2435,
-    "els_note": ""
-  },
-  {
-    "ID": 177,
-    "rpt_year": 104,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 46403,
-    "calcu_cat_num": 11766,
-    "stray_dog_num": 2318,
-    "els_note": ""
-  },
-  {
-    "ID": 176,
-    "rpt_year": 104,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 34766,
-    "calcu_cat_num": 7442,
-    "stray_dog_num": 6626,
-    "els_note": ""
-  },
-  {
-    "ID": 175,
-    "rpt_year": 104,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 222177,
-    "calcu_cat_num": 59096,
-    "stray_dog_num": 15220,
-    "els_note": ""
-  },
-  {
-    "ID": 174,
-    "rpt_year": 104,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 136151,
-    "calcu_cat_num": 32287,
-    "stray_dog_num": 24596,
-    "els_note": ""
-  },
-  {
-    "ID": 173,
-    "rpt_year": 104,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 183592,
-    "calcu_cat_num": 66849,
-    "stray_dog_num": 15028,
-    "els_note": ""
-  },
-  {
-    "ID": 172,
-    "rpt_year": 104,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園市",
-    "calcu_dog_num": 176672,
-    "calcu_cat_num": 44063,
-    "stray_dog_num": 8960,
-    "els_note": "104 年起桃園縣升直轄市"
-  },
-  {
-    "ID": 171,
-    "rpt_year": 104,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 148096,
-    "calcu_cat_num": 91093,
-    "stray_dog_num": 2931,
-    "els_note": ""
-  },
-  {
-    "ID": 170,
-    "rpt_year": 104,
-    "rpt_country_code": "City000003",
-    "rpt_country": "新北市",
-    "calcu_dog_num": 269100,
-    "calcu_cat_num": 118485,
-    "stray_dog_num": 4295,
-    "els_note": ""
-  },
-  {
-    "ID": 169,
-    "rpt_year": 102,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 168,
-    "rpt_year": 102,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 167,
-    "rpt_year": 102,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 14988,
-    "calcu_cat_num": 2090,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 166,
-    "rpt_year": 102,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 23027,
-    "calcu_cat_num": 19136,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 165,
-    "rpt_year": 102,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 22988,
-    "calcu_cat_num": 15123,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 164,
-    "rpt_year": 102,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 2982,
-    "calcu_cat_num": 1659,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 163,
-    "rpt_year": 102,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 32902,
-    "calcu_cat_num": 16228,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 162,
-    "rpt_year": 102,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 21390,
-    "calcu_cat_num": 8355,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 161,
-    "rpt_year": 102,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 74033,
-    "calcu_cat_num": 20689,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 160,
-    "rpt_year": 102,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 44259,
-    "calcu_cat_num": 6840,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 159,
-    "rpt_year": 102,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 70718,
-    "calcu_cat_num": 11321,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 158,
-    "rpt_year": 102,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 48535,
-    "calcu_cat_num": 12778,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 157,
-    "rpt_year": 102,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 91701,
-    "calcu_cat_num": 21378,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 156,
-    "rpt_year": 102,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 44744,
-    "calcu_cat_num": 18620,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 155,
-    "rpt_year": 102,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 47802,
-    "calcu_cat_num": 10036,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 154,
-    "rpt_year": 102,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 152873,
-    "calcu_cat_num": 41873,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 153,
-    "rpt_year": 102,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 40082,
-    "calcu_cat_num": 2227,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 152,
-    "rpt_year": 102,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 236190,
-    "calcu_cat_num": 47206,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 151,
-    "rpt_year": 102,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 146828,
-    "calcu_cat_num": 32883,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 150,
-    "rpt_year": 102,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 197626,
-    "calcu_cat_num": 53687,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 149,
-    "rpt_year": 102,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 154522,
-    "calcu_cat_num": 124876,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 148,
-    "rpt_year": 102,
-    "rpt_country_code": "City000003",
-    "rpt_country": "新北市",
-    "calcu_dog_num": 273412,
-    "calcu_cat_num": 111988,
-    "stray_dog_num": 0,
-    "els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
-  },
-  {
-    "ID": 147,
-    "rpt_year": 100,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 4728,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家犬資料來源：全國寵物登記管理系統。未調查家貓數量。"
-  },
-  {
-    "ID": 146,
-    "rpt_year": 100,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 1293,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家犬資料來源：全國寵物登記管理系統。未調查家貓數量。"
-  },
-  {
-    "ID": 145,
-    "rpt_year": 100,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 13660,
-    "calcu_cat_num": 3235,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 144,
-    "rpt_year": 100,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 20216,
-    "calcu_cat_num": 4788,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 143,
-    "rpt_year": 100,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 19627,
-    "calcu_cat_num": 4649,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 142,
-    "rpt_year": 100,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 6634,
-    "calcu_cat_num": 891,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 141,
-    "rpt_year": 100,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 19736,
-    "calcu_cat_num": 3770,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 140,
-    "rpt_year": 100,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 15859,
-    "calcu_cat_num": 2142,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 139,
-    "rpt_year": 100,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 50166,
-    "calcu_cat_num": 7875,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 138,
-    "rpt_year": 100,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 31784,
-    "calcu_cat_num": 4329,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 137,
-    "rpt_year": 100,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 41548,
-    "calcu_cat_num": 5459,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 136,
-    "rpt_year": 100,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 33543,
-    "calcu_cat_num": 4827,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 135,
-    "rpt_year": 100,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 63376,
-    "calcu_cat_num": 10346,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 134,
-    "rpt_year": 100,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 34120,
-    "calcu_cat_num": 5266,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 133,
-    "rpt_year": 100,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 32882,
-    "calcu_cat_num": 4899,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 132,
-    "rpt_year": 100,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 113103,
-    "calcu_cat_num": 22623,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 131,
-    "rpt_year": 100,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 25153,
-    "calcu_cat_num": 4341,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 130,
-    "rpt_year": 100,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 149486,
-    "calcu_cat_num": 40732,
-    "stray_dog_num": 0,
-    "els_note": "100 年起與高雄縣合併為直轄市"
-  },
-  {
-    "ID": 129,
-    "rpt_year": 100,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 99256,
-    "calcu_cat_num": 22267,
-    "stray_dog_num": 0,
-    "els_note": "100 年起與臺南縣合併為直轄市"
-  },
-  {
-    "ID": 128,
-    "rpt_year": 100,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 133215,
-    "calcu_cat_num": 30324,
-    "stray_dog_num": 0,
-    "els_note": "100 年起與臺中縣合併為直轄市"
-  },
-  {
-    "ID": 127,
-    "rpt_year": 100,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 139844,
-    "calcu_cat_num": 66707,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 126,
-    "rpt_year": 100,
-    "rpt_country_code": "City000003",
-    "rpt_country": "新北市",
-    "calcu_dog_num": 198701,
-    "calcu_cat_num": 53375,
-    "stray_dog_num": 0,
-    "els_note": "100 年起臺北縣升直轄市"
-  },
-  {
-    "ID": 125,
-    "rpt_year": 98,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 3596,
-    "calcu_cat_num": 516,
-    "stray_dog_num": 87,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 124,
-    "rpt_year": 98,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 442,
-    "els_note": "未調查家犬及家貓數量。遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 123,
-    "rpt_year": 98,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 46835,
-    "calcu_cat_num": 10514,
-    "stray_dog_num": 3992,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 122,
-    "rpt_year": 98,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 149164,
-    "calcu_cat_num": 74267,
-    "stray_dog_num": 3192,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 121,
-    "rpt_year": 98,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 32792,
-    "calcu_cat_num": 7751,
-    "stray_dog_num": 673,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 120,
-    "rpt_year": 98,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 11460,
-    "calcu_cat_num": 3416,
-    "stray_dog_num": 573,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 119,
-    "rpt_year": 98,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 49310,
-    "calcu_cat_num": 18474,
-    "stray_dog_num": 3145,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 118,
-    "rpt_year": 98,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 22855,
-    "calcu_cat_num": 4734,
-    "stray_dog_num": 2304,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 117,
-    "rpt_year": 98,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 21765,
-    "calcu_cat_num": 6376,
-    "stray_dog_num": 626,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 116,
-    "rpt_year": 98,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 3112,
-    "calcu_cat_num": 448,
-    "stray_dog_num": 725,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 115,
-    "rpt_year": 98,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 29429,
-    "calcu_cat_num": 4598,
-    "stray_dog_num": 2084,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 114,
-    "rpt_year": 98,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 20752,
-    "calcu_cat_num": 6917,
-    "stray_dog_num": 3130,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 113,
-    "rpt_year": 98,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 56873,
-    "calcu_cat_num": 6811,
-    "stray_dog_num": 1783,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 112,
-    "rpt_year": 98,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄縣",
-    "calcu_dog_num": 72156,
-    "calcu_cat_num": 2858,
-    "stray_dog_num": 5513,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 111,
-    "rpt_year": 98,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南縣",
-    "calcu_dog_num": 52032,
-    "calcu_cat_num": 14247,
-    "stray_dog_num": 5197,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 110,
-    "rpt_year": 98,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 34442,
-    "calcu_cat_num": 7589,
-    "stray_dog_num": 3579,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 109,
-    "rpt_year": 98,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 40412,
-    "calcu_cat_num": 6233,
-    "stray_dog_num": 8646,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 108,
-    "rpt_year": 98,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 42882,
-    "calcu_cat_num": 7021,
-    "stray_dog_num": 1202,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 107,
-    "rpt_year": 98,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 71060,
-    "calcu_cat_num": 8814,
-    "stray_dog_num": 7130,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 106,
-    "rpt_year": 98,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中縣",
-    "calcu_dog_num": 75828,
-    "calcu_cat_num": 7583,
-    "stray_dog_num": 6029,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 105,
-    "rpt_year": 98,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 40646,
-    "calcu_cat_num": 3952,
-    "stray_dog_num": 6543,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 104,
-    "rpt_year": 98,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 47070,
-    "calcu_cat_num": 7584,
-    "stray_dog_num": 5210,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 103,
-    "rpt_year": 98,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 107624,
-    "calcu_cat_num": 21137,
-    "stray_dog_num": 4020,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 102,
-    "rpt_year": 98,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 13352,
-    "calcu_cat_num": 3279,
-    "stray_dog_num": 4006,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 101,
-    "rpt_year": 98,
-    "rpt_country_code": "City000003",
-    "rpt_country": "臺北縣",
-    "calcu_dog_num": 193156,
-    "calcu_cat_num": 76120,
-    "stray_dog_num": 5060,
-    "els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
-  },
-  {
-    "ID": 100,
-    "rpt_year": 96,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 99,
-    "rpt_year": 96,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "未調查家犬及家貓數量。"
-  },
-  {
-    "ID": 98,
-    "rpt_year": 96,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 64533,
-    "calcu_cat_num": 15151,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 97,
-    "rpt_year": 96,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 138057,
-    "calcu_cat_num": 56009,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 96,
-    "rpt_year": 96,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 30988,
-    "calcu_cat_num": 9786,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 95,
-    "rpt_year": 96,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 12272,
-    "calcu_cat_num": 538,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 94,
-    "rpt_year": 96,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 36806,
-    "calcu_cat_num": 14921,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 93,
-    "rpt_year": 96,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 21996,
-    "calcu_cat_num": 1609,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 92,
-    "rpt_year": 96,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 15875,
-    "calcu_cat_num": 6145,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 91,
-    "rpt_year": 96,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 3721,
-    "calcu_cat_num": 1063,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 90,
-    "rpt_year": 96,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 44852,
-    "calcu_cat_num": 8918,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 89,
-    "rpt_year": 96,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 30673,
-    "calcu_cat_num": 6025,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 88,
-    "rpt_year": 96,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 88664,
-    "calcu_cat_num": 8461,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 87,
-    "rpt_year": 96,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄縣",
-    "calcu_dog_num": 72328,
-    "calcu_cat_num": 6265,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 86,
-    "rpt_year": 96,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南縣",
-    "calcu_dog_num": 68317,
-    "calcu_cat_num": 12158,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 85,
-    "rpt_year": 96,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 37851,
-    "calcu_cat_num": 5120,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 84,
-    "rpt_year": 96,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 71547,
-    "calcu_cat_num": 9356,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 83,
-    "rpt_year": 96,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 54737,
-    "calcu_cat_num": 17493,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 82,
-    "rpt_year": 96,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 62302,
-    "calcu_cat_num": 5006,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 81,
-    "rpt_year": 96,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中縣",
-    "calcu_dog_num": 77114,
-    "calcu_cat_num": 20826,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 80,
-    "rpt_year": 96,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 45181,
-    "calcu_cat_num": 12477,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 79,
-    "rpt_year": 96,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 58863,
-    "calcu_cat_num": 4572,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 78,
-    "rpt_year": 96,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 87742,
-    "calcu_cat_num": 13405,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 77,
-    "rpt_year": 96,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 11548,
-    "calcu_cat_num": 1575,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 76,
-    "rpt_year": 96,
-    "rpt_country_code": "City000003",
-    "rpt_country": "臺北縣",
-    "calcu_dog_num": 203502,
-    "calcu_cat_num": 48394,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 75,
-    "rpt_year": 94,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家犬：抽樣3戶均未飼養，故未列入；另該縣申報之寵物登記數，軍犬15隻、家犬187隻為參考數目。家貓：抽樣3戶，均未飼養，故未列入。"
-  },
-  {
-    "ID": 74,
-    "rpt_year": 94,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 4968,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家貓：抽樣42戶均未飼養，故未列入。"
-  },
-  {
-    "ID": 73,
-    "rpt_year": 94,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 57203,
-    "calcu_cat_num": 6822,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 72,
-    "rpt_year": 94,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 142863,
-    "calcu_cat_num": 52953,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 71,
-    "rpt_year": 94,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 24916,
-    "calcu_cat_num": 6610,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 70,
-    "rpt_year": 94,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 9496,
-    "calcu_cat_num": 1499,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 69,
-    "rpt_year": 94,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 30651,
-    "calcu_cat_num": 4644,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 68,
-    "rpt_year": 94,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 19603,
-    "calcu_cat_num": 3016,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 67,
-    "rpt_year": 94,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 23455,
-    "calcu_cat_num": 4308,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 66,
-    "rpt_year": 94,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 3968,
-    "calcu_cat_num": 496,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 65,
-    "rpt_year": 94,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 18395,
-    "calcu_cat_num": 7154,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 64,
-    "rpt_year": 94,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 24868,
-    "calcu_cat_num": 2926,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 63,
-    "rpt_year": 94,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 12263,
-    "calcu_cat_num": 2453,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 62,
-    "rpt_year": 94,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 62825,
-    "calcu_cat_num": 11615,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 61,
-    "rpt_year": 94,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄縣",
-    "calcu_dog_num": 70849,
-    "calcu_cat_num": 11719,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 60,
-    "rpt_year": 94,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南縣",
-    "calcu_dog_num": 50276,
-    "calcu_cat_num": 10272,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 59,
-    "rpt_year": 94,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 30318,
-    "calcu_cat_num": 3723,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 58,
-    "rpt_year": 94,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 42581,
-    "calcu_cat_num": 1539,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 57,
-    "rpt_year": 94,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 65481,
-    "calcu_cat_num": 12472,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 56,
-    "rpt_year": 94,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 39523,
-    "calcu_cat_num": 3162,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 55,
-    "rpt_year": 94,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中縣",
-    "calcu_dog_num": 78409,
-    "calcu_cat_num": 9472,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 54,
-    "rpt_year": 94,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 37087,
-    "calcu_cat_num": 11656,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 53,
-    "rpt_year": 94,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 43345,
-    "calcu_cat_num": 4281,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 52,
-    "rpt_year": 94,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 83908,
-    "calcu_cat_num": 15914,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 51,
-    "rpt_year": 94,
-    "rpt_country_code": "City000003",
-    "rpt_country": "臺北縣",
-    "calcu_dog_num": 169238,
-    "calcu_cat_num": 32525,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 50,
-    "rpt_year": 92,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 0,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家犬及家貓：抽樣戶均未飼養，故未列入。"
-  },
-  {
-    "ID": 49,
-    "rpt_year": 92,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 500,
-    "calcu_cat_num": 110,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 48,
-    "rpt_year": 92,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 84433,
-    "calcu_cat_num": 9887,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 47,
-    "rpt_year": 92,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 217539,
-    "calcu_cat_num": 52518,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 46,
-    "rpt_year": 92,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 24767,
-    "calcu_cat_num": 1189,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 45,
-    "rpt_year": 92,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 10702,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家貓：抽樣戶均未飼養，故未列入。"
-  },
-  {
-    "ID": 44,
-    "rpt_year": 92,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 52240,
-    "calcu_cat_num": 17154,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 43,
-    "rpt_year": 92,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 27984,
-    "calcu_cat_num": 4568,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 42,
-    "rpt_year": 92,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 14367,
-    "calcu_cat_num": 2991,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 41,
-    "rpt_year": 92,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 5041,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 0,
-    "els_note": "家貓：抽樣戶均未飼養，故未列入。"
-  },
-  {
-    "ID": 40,
-    "rpt_year": 92,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 27923,
-    "calcu_cat_num": 5505,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 39,
-    "rpt_year": 92,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 23134,
-    "calcu_cat_num": 3391,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 38,
-    "rpt_year": 92,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 62705,
-    "calcu_cat_num": 9628,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 37,
-    "rpt_year": 92,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄縣",
-    "calcu_dog_num": 72438,
-    "calcu_cat_num": 6676,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 36,
-    "rpt_year": 92,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南縣",
-    "calcu_dog_num": 40098,
-    "calcu_cat_num": 3532,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 35,
-    "rpt_year": 92,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 28762,
-    "calcu_cat_num": 4335,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 34,
-    "rpt_year": 92,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 40890,
-    "calcu_cat_num": 4628,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 33,
-    "rpt_year": 92,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 50980,
-    "calcu_cat_num": 16934,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 32,
-    "rpt_year": 92,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 64921,
-    "calcu_cat_num": 7498,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 31,
-    "rpt_year": 92,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中縣",
-    "calcu_dog_num": 63121,
-    "calcu_cat_num": 9767,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 30,
-    "rpt_year": 92,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 59044,
-    "calcu_cat_num": 3106,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 29,
-    "rpt_year": 92,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 38549,
-    "calcu_cat_num": 23183,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 28,
-    "rpt_year": 92,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 92638,
-    "calcu_cat_num": 22910,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 27,
-    "rpt_year": 92,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 20304,
-    "calcu_cat_num": 2079,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 26,
-    "rpt_year": 92,
-    "rpt_country_code": "City000003",
-    "rpt_country": "臺北縣",
-    "calcu_dog_num": 229710,
-    "calcu_cat_num": 35976,
-    "stray_dog_num": 0,
-    "els_note": ""
-  },
-  {
-    "ID": 25,
-    "rpt_year": 90,
-    "rpt_country_code": "City000022",
-    "rpt_country": "連江縣",
-    "calcu_dog_num": 373,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 95,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 24,
-    "rpt_year": 90,
-    "rpt_country_code": "City000021",
-    "rpt_country": "金門縣",
-    "calcu_dog_num": 4841,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 634,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 23,
-    "rpt_year": 90,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄市",
-    "calcu_dog_num": 110547,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 6022,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 22,
-    "rpt_year": 90,
-    "rpt_country_code": "City000002",
-    "rpt_country": "臺北市",
-    "calcu_dog_num": 214995,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4946,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 21,
-    "rpt_year": 90,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南市",
-    "calcu_dog_num": 50443,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 2807,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 20,
-    "rpt_year": 90,
-    "rpt_country_code": "City000013",
-    "rpt_country": "嘉義市",
-    "calcu_dog_num": 19979,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 1191,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 19,
-    "rpt_year": 90,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中市",
-    "calcu_dog_num": 64237,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 3113,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 18,
-    "rpt_year": 90,
-    "rpt_country_code": "City000006",
-    "rpt_country": "新竹市",
-    "calcu_dog_num": 35936,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 1688,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 17,
-    "rpt_year": 90,
-    "rpt_country_code": "City000001",
-    "rpt_country": "基隆市",
-    "calcu_dog_num": 27802,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 5229,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 16,
-    "rpt_year": 90,
-    "rpt_country_code": "City000020",
-    "rpt_country": "澎湖縣",
-    "calcu_dog_num": 3212,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 311,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 15,
-    "rpt_year": 90,
-    "rpt_country_code": "City000018",
-    "rpt_country": "花蓮縣",
-    "calcu_dog_num": 43168,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4989,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 14,
-    "rpt_year": 90,
-    "rpt_country_code": "City000017",
-    "rpt_country": "臺東縣",
-    "calcu_dog_num": 32995,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4036,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 13,
-    "rpt_year": 90,
-    "rpt_country_code": "City000016",
-    "rpt_country": "屏東縣",
-    "calcu_dog_num": 100802,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 8143,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 12,
-    "rpt_year": 90,
-    "rpt_country_code": "City000015",
-    "rpt_country": "高雄縣",
-    "calcu_dog_num": 91241,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 10906,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 11,
-    "rpt_year": 90,
-    "rpt_country_code": "City000014",
-    "rpt_country": "臺南縣",
-    "calcu_dog_num": 76569,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 5439,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 10,
-    "rpt_year": 90,
-    "rpt_country_code": "City000012",
-    "rpt_country": "嘉義縣",
-    "calcu_dog_num": 42612,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 2662,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 9,
-    "rpt_year": 90,
-    "rpt_country_code": "City000011",
-    "rpt_country": "雲林縣",
-    "calcu_dog_num": 66392,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 2819,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 8,
-    "rpt_year": 90,
-    "rpt_country_code": "City000008",
-    "rpt_country": "南投縣",
-    "calcu_dog_num": 39104,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 3730,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 7,
-    "rpt_year": 90,
-    "rpt_country_code": "City000010",
-    "rpt_country": "彰化縣",
-    "calcu_dog_num": 86792,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 12141,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 6,
-    "rpt_year": 90,
-    "rpt_country_code": "City000009",
-    "rpt_country": "臺中縣",
-    "calcu_dog_num": 157680,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 21849,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 5,
-    "rpt_year": 90,
-    "rpt_country_code": "City000007",
-    "rpt_country": "苗栗縣",
-    "calcu_dog_num": 36897,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 11302,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 4,
-    "rpt_year": 90,
-    "rpt_country_code": "City000005",
-    "rpt_country": "新竹縣",
-    "calcu_dog_num": 43337,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 4828,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 3,
-    "rpt_year": 90,
-    "rpt_country_code": "City000004",
-    "rpt_country": "桃園縣",
-    "calcu_dog_num": 133657,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 16187,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 2,
-    "rpt_year": 90,
-    "rpt_country_code": "City000019",
-    "rpt_country": "宜蘭縣",
-    "calcu_dog_num": 28223,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 8430,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  },
-  {
-    "ID": 1,
-    "rpt_year": 90,
-    "rpt_country_code": "City000003",
-    "rpt_country": "臺北縣",
-    "calcu_dog_num": 278346,
-    "calcu_cat_num": 0,
-    "stray_dog_num": 35960,
-    "els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
-  }
+	{
+		"ID": 257,
+		"rpt_year": 108,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 4629,
+		"calcu_cat_num": 3212,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 256,
+		"rpt_year": 108,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 448,
+		"calcu_cat_num": 239,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 255,
+		"rpt_year": 108,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 6573,
+		"calcu_cat_num": 2314,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 254,
+		"rpt_year": 108,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 15584,
+		"calcu_cat_num": 6033,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 253,
+		"rpt_year": 108,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 39056,
+		"calcu_cat_num": 21215,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 252,
+		"rpt_year": 108,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 16812,
+		"calcu_cat_num": 8041,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 251,
+		"rpt_year": 108,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 33860,
+		"calcu_cat_num": 13240,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 250,
+		"rpt_year": 108,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 31167,
+		"calcu_cat_num": 14779,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 249,
+		"rpt_year": 108,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 105977,
+		"calcu_cat_num": 33411,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 248,
+		"rpt_year": 108,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 50274,
+		"calcu_cat_num": 15390,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 247,
+		"rpt_year": 108,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 58899,
+		"calcu_cat_num": 15449,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 246,
+		"rpt_year": 108,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 51506,
+		"calcu_cat_num": 21175,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 245,
+		"rpt_year": 108,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 80138,
+		"calcu_cat_num": 30568,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 244,
+		"rpt_year": 108,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 41954,
+		"calcu_cat_num": 16782,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 243,
+		"rpt_year": 108,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 46940,
+		"calcu_cat_num": 19530,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 242,
+		"rpt_year": 108,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 37904,
+		"calcu_cat_num": 11040,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 241,
+		"rpt_year": 108,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園市",
+		"calcu_dog_num": 131010,
+		"calcu_cat_num": 82349,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 240,
+		"rpt_year": 108,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 196423,
+		"calcu_cat_num": 79940,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 239,
+		"rpt_year": 108,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 85038,
+		"calcu_cat_num": 61489,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 238,
+		"rpt_year": 108,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 150907,
+		"calcu_cat_num": 69986,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 237,
+		"rpt_year": 108,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 140959,
+		"calcu_cat_num": 123768,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 236,
+		"rpt_year": 108,
+		"rpt_country_code": "City000003",
+		"rpt_country": "新北市",
+		"calcu_dog_num": 211383,
+		"calcu_cat_num": 113821,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 235,
+		"rpt_year": 107,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 3008,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 234,
+		"rpt_year": 107,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 22176,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 233,
+		"rpt_year": 107,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 8485,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 232,
+		"rpt_year": 107,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4660,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 231,
+		"rpt_year": 107,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 7029,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 230,
+		"rpt_year": 107,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 16473,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 229,
+		"rpt_year": 107,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 9097,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 228,
+		"rpt_year": 107,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 3094,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 227,
+		"rpt_year": 107,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 5659,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 226,
+		"rpt_year": 107,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 783,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 225,
+		"rpt_year": 107,
+		"rpt_country_code": "City000003",
+		"rpt_country": "新北市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 12202,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 224,
+		"rpt_year": 107,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 3542,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 223,
+		"rpt_year": 107,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 41,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 222,
+		"rpt_year": 107,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4807,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 221,
+		"rpt_year": 107,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 5992,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 220,
+		"rpt_year": 107,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園市",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 9686,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 219,
+		"rpt_year": 107,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 1685,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 218,
+		"rpt_year": 107,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 10973,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 217,
+		"rpt_year": 107,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4243,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 216,
+		"rpt_year": 107,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 305,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 215,
+		"rpt_year": 107,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 8167,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 214,
+		"rpt_year": 107,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4667,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 213,
+		"rpt_year": 106,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 212,
+		"rpt_year": 106,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 211,
+		"rpt_year": 106,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 210,
+		"rpt_year": 106,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 15432,
+		"calcu_cat_num": 4588,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 209,
+		"rpt_year": 106,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 36605,
+		"calcu_cat_num": 12202,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 208,
+		"rpt_year": 106,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 21147,
+		"calcu_cat_num": 9559,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 207,
+		"rpt_year": 106,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 38924,
+		"calcu_cat_num": 17609,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 206,
+		"rpt_year": 106,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 28988,
+		"calcu_cat_num": 10891,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 205,
+		"rpt_year": 106,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 94456,
+		"calcu_cat_num": 29517,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 204,
+		"rpt_year": 106,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 43753,
+		"calcu_cat_num": 13563,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 203,
+		"rpt_year": 106,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 53443,
+		"calcu_cat_num": 17320,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 202,
+		"rpt_year": 106,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 69851,
+		"calcu_cat_num": 14552,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 201,
+		"rpt_year": 106,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 93655,
+		"calcu_cat_num": 26192,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 200,
+		"rpt_year": 106,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 83118,
+		"calcu_cat_num": 27706,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 199,
+		"rpt_year": 106,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 47815,
+		"calcu_cat_num": 26114,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 198,
+		"rpt_year": 106,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 32939,
+		"calcu_cat_num": 14841,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 197,
+		"rpt_year": 106,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 258013,
+		"calcu_cat_num": 73380,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 196,
+		"rpt_year": 106,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 116198,
+		"calcu_cat_num": 67038,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 195,
+		"rpt_year": 106,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 154468,
+		"calcu_cat_num": 88819,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 194,
+		"rpt_year": 106,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園市",
+		"calcu_dog_num": 174894,
+		"calcu_cat_num": 46847,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 193,
+		"rpt_year": 106,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 169263,
+		"calcu_cat_num": 85895,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 192,
+		"rpt_year": 106,
+		"rpt_country_code": "City000003",
+		"rpt_country": "新北市",
+		"calcu_dog_num": 244290,
+		"calcu_cat_num": 146574,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 191,
+		"rpt_year": 104,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 87,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 190,
+		"rpt_year": 104,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 908,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 189,
+		"rpt_year": 104,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 20895,
+		"calcu_cat_num": 4428,
+		"stray_dog_num": 3535,
+		"els_note": ""
+	},
+	{
+		"ID": 188,
+		"rpt_year": 104,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 39243,
+		"calcu_cat_num": 10026,
+		"stray_dog_num": 1862,
+		"els_note": ""
+	},
+	{
+		"ID": 187,
+		"rpt_year": 104,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 27833,
+		"calcu_cat_num": 7455,
+		"stray_dog_num": 404,
+		"els_note": ""
+	},
+	{
+		"ID": 186,
+		"rpt_year": 104,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 713,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 185,
+		"rpt_year": 104,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 35741,
+		"calcu_cat_num": 10977,
+		"stray_dog_num": 4807,
+		"els_note": ""
+	},
+	{
+		"ID": 184,
+		"rpt_year": 104,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 24599,
+		"calcu_cat_num": 7518,
+		"stray_dog_num": 3229,
+		"els_note": ""
+	},
+	{
+		"ID": 183,
+		"rpt_year": 104,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 66672,
+		"calcu_cat_num": 22290,
+		"stray_dog_num": 4625,
+		"els_note": ""
+	},
+	{
+		"ID": 182,
+		"rpt_year": 104,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 37852,
+		"calcu_cat_num": 7797,
+		"stray_dog_num": 6811,
+		"els_note": ""
+	},
+	{
+		"ID": 181,
+		"rpt_year": 104,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 59560,
+		"calcu_cat_num": 12402,
+		"stray_dog_num": 9163,
+		"els_note": ""
+	},
+	{
+		"ID": 180,
+		"rpt_year": 104,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 45467,
+		"calcu_cat_num": 14067,
+		"stray_dog_num": 2819,
+		"els_note": ""
+	},
+	{
+		"ID": 179,
+		"rpt_year": 104,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 91692,
+		"calcu_cat_num": 23855,
+		"stray_dog_num": 7100,
+		"els_note": ""
+	},
+	{
+		"ID": 178,
+		"rpt_year": 104,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 47727,
+		"calcu_cat_num": 16043,
+		"stray_dog_num": 2435,
+		"els_note": ""
+	},
+	{
+		"ID": 177,
+		"rpt_year": 104,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 46403,
+		"calcu_cat_num": 11766,
+		"stray_dog_num": 2318,
+		"els_note": ""
+	},
+	{
+		"ID": 176,
+		"rpt_year": 104,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 34766,
+		"calcu_cat_num": 7442,
+		"stray_dog_num": 6626,
+		"els_note": ""
+	},
+	{
+		"ID": 175,
+		"rpt_year": 104,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 222177,
+		"calcu_cat_num": 59096,
+		"stray_dog_num": 15220,
+		"els_note": ""
+	},
+	{
+		"ID": 174,
+		"rpt_year": 104,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 136151,
+		"calcu_cat_num": 32287,
+		"stray_dog_num": 24596,
+		"els_note": ""
+	},
+	{
+		"ID": 173,
+		"rpt_year": 104,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 183592,
+		"calcu_cat_num": 66849,
+		"stray_dog_num": 15028,
+		"els_note": ""
+	},
+	{
+		"ID": 172,
+		"rpt_year": 104,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園市",
+		"calcu_dog_num": 176672,
+		"calcu_cat_num": 44063,
+		"stray_dog_num": 8960,
+		"els_note": "104 年起桃園縣升直轄市"
+	},
+	{
+		"ID": 171,
+		"rpt_year": 104,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 148096,
+		"calcu_cat_num": 91093,
+		"stray_dog_num": 2931,
+		"els_note": ""
+	},
+	{
+		"ID": 170,
+		"rpt_year": 104,
+		"rpt_country_code": "City000003",
+		"rpt_country": "新北市",
+		"calcu_dog_num": 269100,
+		"calcu_cat_num": 118485,
+		"stray_dog_num": 4295,
+		"els_note": ""
+	},
+	{
+		"ID": 169,
+		"rpt_year": 102,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 168,
+		"rpt_year": 102,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 167,
+		"rpt_year": 102,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 14988,
+		"calcu_cat_num": 2090,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 166,
+		"rpt_year": 102,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 23027,
+		"calcu_cat_num": 19136,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 165,
+		"rpt_year": 102,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 22988,
+		"calcu_cat_num": 15123,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 164,
+		"rpt_year": 102,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 2982,
+		"calcu_cat_num": 1659,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 163,
+		"rpt_year": 102,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 32902,
+		"calcu_cat_num": 16228,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 162,
+		"rpt_year": 102,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 21390,
+		"calcu_cat_num": 8355,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 161,
+		"rpt_year": 102,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 74033,
+		"calcu_cat_num": 20689,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 160,
+		"rpt_year": 102,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 44259,
+		"calcu_cat_num": 6840,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 159,
+		"rpt_year": 102,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 70718,
+		"calcu_cat_num": 11321,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 158,
+		"rpt_year": 102,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 48535,
+		"calcu_cat_num": 12778,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 157,
+		"rpt_year": 102,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 91701,
+		"calcu_cat_num": 21378,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 156,
+		"rpt_year": 102,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 44744,
+		"calcu_cat_num": 18620,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 155,
+		"rpt_year": 102,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 47802,
+		"calcu_cat_num": 10036,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 154,
+		"rpt_year": 102,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 152873,
+		"calcu_cat_num": 41873,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 153,
+		"rpt_year": 102,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 40082,
+		"calcu_cat_num": 2227,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 152,
+		"rpt_year": 102,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 236190,
+		"calcu_cat_num": 47206,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 151,
+		"rpt_year": 102,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 146828,
+		"calcu_cat_num": 32883,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 150,
+		"rpt_year": 102,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 197626,
+		"calcu_cat_num": 53687,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 149,
+		"rpt_year": 102,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 154522,
+		"calcu_cat_num": 124876,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 148,
+		"rpt_year": 102,
+		"rpt_country_code": "City000003",
+		"rpt_country": "新北市",
+		"calcu_dog_num": 273412,
+		"calcu_cat_num": 111988,
+		"stray_dog_num": 0,
+		"els_note": "家犬統計結果參採民政系統及疫苗施打等公務登記資料調整，與100年及以前年度資料統計方法不同，請注意時間序列比較之侷限性。"
+	},
+	{
+		"ID": 147,
+		"rpt_year": 100,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 4728,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家犬資料來源：全國寵物登記管理系統。未調查家貓數量。"
+	},
+	{
+		"ID": 146,
+		"rpt_year": 100,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 1293,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家犬資料來源：全國寵物登記管理系統。未調查家貓數量。"
+	},
+	{
+		"ID": 145,
+		"rpt_year": 100,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 13660,
+		"calcu_cat_num": 3235,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 144,
+		"rpt_year": 100,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 20216,
+		"calcu_cat_num": 4788,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 143,
+		"rpt_year": 100,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 19627,
+		"calcu_cat_num": 4649,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 142,
+		"rpt_year": 100,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 6634,
+		"calcu_cat_num": 891,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 141,
+		"rpt_year": 100,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 19736,
+		"calcu_cat_num": 3770,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 140,
+		"rpt_year": 100,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 15859,
+		"calcu_cat_num": 2142,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 139,
+		"rpt_year": 100,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 50166,
+		"calcu_cat_num": 7875,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 138,
+		"rpt_year": 100,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 31784,
+		"calcu_cat_num": 4329,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 137,
+		"rpt_year": 100,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 41548,
+		"calcu_cat_num": 5459,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 136,
+		"rpt_year": 100,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 33543,
+		"calcu_cat_num": 4827,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 135,
+		"rpt_year": 100,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 63376,
+		"calcu_cat_num": 10346,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 134,
+		"rpt_year": 100,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 34120,
+		"calcu_cat_num": 5266,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 133,
+		"rpt_year": 100,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 32882,
+		"calcu_cat_num": 4899,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 132,
+		"rpt_year": 100,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 113103,
+		"calcu_cat_num": 22623,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 131,
+		"rpt_year": 100,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 25153,
+		"calcu_cat_num": 4341,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 130,
+		"rpt_year": 100,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 149486,
+		"calcu_cat_num": 40732,
+		"stray_dog_num": 0,
+		"els_note": "100 年起與高雄縣合併為直轄市"
+	},
+	{
+		"ID": 129,
+		"rpt_year": 100,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 99256,
+		"calcu_cat_num": 22267,
+		"stray_dog_num": 0,
+		"els_note": "100 年起與臺南縣合併為直轄市"
+	},
+	{
+		"ID": 128,
+		"rpt_year": 100,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 133215,
+		"calcu_cat_num": 30324,
+		"stray_dog_num": 0,
+		"els_note": "100 年起與臺中縣合併為直轄市"
+	},
+	{
+		"ID": 127,
+		"rpt_year": 100,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 139844,
+		"calcu_cat_num": 66707,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 126,
+		"rpt_year": 100,
+		"rpt_country_code": "City000003",
+		"rpt_country": "新北市",
+		"calcu_dog_num": 198701,
+		"calcu_cat_num": 53375,
+		"stray_dog_num": 0,
+		"els_note": "100 年起臺北縣升直轄市"
+	},
+	{
+		"ID": 125,
+		"rpt_year": 98,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 3596,
+		"calcu_cat_num": 516,
+		"stray_dog_num": 87,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 124,
+		"rpt_year": 98,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 442,
+		"els_note": "未調查家犬及家貓數量。遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 123,
+		"rpt_year": 98,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 46835,
+		"calcu_cat_num": 10514,
+		"stray_dog_num": 3992,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 122,
+		"rpt_year": 98,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 149164,
+		"calcu_cat_num": 74267,
+		"stray_dog_num": 3192,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 121,
+		"rpt_year": 98,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 32792,
+		"calcu_cat_num": 7751,
+		"stray_dog_num": 673,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 120,
+		"rpt_year": 98,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 11460,
+		"calcu_cat_num": 3416,
+		"stray_dog_num": 573,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 119,
+		"rpt_year": 98,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 49310,
+		"calcu_cat_num": 18474,
+		"stray_dog_num": 3145,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 118,
+		"rpt_year": 98,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 22855,
+		"calcu_cat_num": 4734,
+		"stray_dog_num": 2304,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 117,
+		"rpt_year": 98,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 21765,
+		"calcu_cat_num": 6376,
+		"stray_dog_num": 626,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 116,
+		"rpt_year": 98,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 3112,
+		"calcu_cat_num": 448,
+		"stray_dog_num": 725,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 115,
+		"rpt_year": 98,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 29429,
+		"calcu_cat_num": 4598,
+		"stray_dog_num": 2084,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 114,
+		"rpt_year": 98,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 20752,
+		"calcu_cat_num": 6917,
+		"stray_dog_num": 3130,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 113,
+		"rpt_year": 98,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 56873,
+		"calcu_cat_num": 6811,
+		"stray_dog_num": 1783,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 112,
+		"rpt_year": 98,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄縣",
+		"calcu_dog_num": 72156,
+		"calcu_cat_num": 2858,
+		"stray_dog_num": 5513,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 111,
+		"rpt_year": 98,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南縣",
+		"calcu_dog_num": 52032,
+		"calcu_cat_num": 14247,
+		"stray_dog_num": 5197,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 110,
+		"rpt_year": 98,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 34442,
+		"calcu_cat_num": 7589,
+		"stray_dog_num": 3579,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 109,
+		"rpt_year": 98,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 40412,
+		"calcu_cat_num": 6233,
+		"stray_dog_num": 8646,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 108,
+		"rpt_year": 98,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 42882,
+		"calcu_cat_num": 7021,
+		"stray_dog_num": 1202,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 107,
+		"rpt_year": 98,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 71060,
+		"calcu_cat_num": 8814,
+		"stray_dog_num": 7130,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 106,
+		"rpt_year": 98,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中縣",
+		"calcu_dog_num": 75828,
+		"calcu_cat_num": 7583,
+		"stray_dog_num": 6029,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 105,
+		"rpt_year": 98,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 40646,
+		"calcu_cat_num": 3952,
+		"stray_dog_num": 6543,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 104,
+		"rpt_year": 98,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 47070,
+		"calcu_cat_num": 7584,
+		"stray_dog_num": 5210,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 103,
+		"rpt_year": 98,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 107624,
+		"calcu_cat_num": 21137,
+		"stray_dog_num": 4020,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 102,
+		"rpt_year": 98,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 13352,
+		"calcu_cat_num": 3279,
+		"stray_dog_num": 4006,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 101,
+		"rpt_year": 98,
+		"rpt_country_code": "City000003",
+		"rpt_country": "臺北縣",
+		"calcu_dog_num": 193156,
+		"calcu_cat_num": 76120,
+		"stray_dog_num": 5060,
+		"els_note": "遊蕩犬資料來源：委由台灣大學獸醫系費昌勇教授調查。"
+	},
+	{
+		"ID": 100,
+		"rpt_year": 96,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 99,
+		"rpt_year": 96,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "未調查家犬及家貓數量。"
+	},
+	{
+		"ID": 98,
+		"rpt_year": 96,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 64533,
+		"calcu_cat_num": 15151,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 97,
+		"rpt_year": 96,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 138057,
+		"calcu_cat_num": 56009,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 96,
+		"rpt_year": 96,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 30988,
+		"calcu_cat_num": 9786,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 95,
+		"rpt_year": 96,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 12272,
+		"calcu_cat_num": 538,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 94,
+		"rpt_year": 96,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 36806,
+		"calcu_cat_num": 14921,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 93,
+		"rpt_year": 96,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 21996,
+		"calcu_cat_num": 1609,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 92,
+		"rpt_year": 96,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 15875,
+		"calcu_cat_num": 6145,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 91,
+		"rpt_year": 96,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 3721,
+		"calcu_cat_num": 1063,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 90,
+		"rpt_year": 96,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 44852,
+		"calcu_cat_num": 8918,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 89,
+		"rpt_year": 96,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 30673,
+		"calcu_cat_num": 6025,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 88,
+		"rpt_year": 96,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 88664,
+		"calcu_cat_num": 8461,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 87,
+		"rpt_year": 96,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄縣",
+		"calcu_dog_num": 72328,
+		"calcu_cat_num": 6265,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 86,
+		"rpt_year": 96,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南縣",
+		"calcu_dog_num": 68317,
+		"calcu_cat_num": 12158,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 85,
+		"rpt_year": 96,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 37851,
+		"calcu_cat_num": 5120,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 84,
+		"rpt_year": 96,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 71547,
+		"calcu_cat_num": 9356,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 83,
+		"rpt_year": 96,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 54737,
+		"calcu_cat_num": 17493,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 82,
+		"rpt_year": 96,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 62302,
+		"calcu_cat_num": 5006,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 81,
+		"rpt_year": 96,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中縣",
+		"calcu_dog_num": 77114,
+		"calcu_cat_num": 20826,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 80,
+		"rpt_year": 96,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 45181,
+		"calcu_cat_num": 12477,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 79,
+		"rpt_year": 96,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 58863,
+		"calcu_cat_num": 4572,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 78,
+		"rpt_year": 96,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 87742,
+		"calcu_cat_num": 13405,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 77,
+		"rpt_year": 96,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 11548,
+		"calcu_cat_num": 1575,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 76,
+		"rpt_year": 96,
+		"rpt_country_code": "City000003",
+		"rpt_country": "臺北縣",
+		"calcu_dog_num": 203502,
+		"calcu_cat_num": 48394,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 75,
+		"rpt_year": 94,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家犬：抽樣3戶均未飼養，故未列入；另該縣申報之寵物登記數，軍犬15隻、家犬187隻為參考數目。家貓：抽樣3戶，均未飼養，故未列入。"
+	},
+	{
+		"ID": 74,
+		"rpt_year": 94,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 4968,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家貓：抽樣42戶均未飼養，故未列入。"
+	},
+	{
+		"ID": 73,
+		"rpt_year": 94,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 57203,
+		"calcu_cat_num": 6822,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 72,
+		"rpt_year": 94,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 142863,
+		"calcu_cat_num": 52953,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 71,
+		"rpt_year": 94,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 24916,
+		"calcu_cat_num": 6610,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 70,
+		"rpt_year": 94,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 9496,
+		"calcu_cat_num": 1499,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 69,
+		"rpt_year": 94,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 30651,
+		"calcu_cat_num": 4644,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 68,
+		"rpt_year": 94,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 19603,
+		"calcu_cat_num": 3016,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 67,
+		"rpt_year": 94,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 23455,
+		"calcu_cat_num": 4308,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 66,
+		"rpt_year": 94,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 3968,
+		"calcu_cat_num": 496,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 65,
+		"rpt_year": 94,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 18395,
+		"calcu_cat_num": 7154,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 64,
+		"rpt_year": 94,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 24868,
+		"calcu_cat_num": 2926,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 63,
+		"rpt_year": 94,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 12263,
+		"calcu_cat_num": 2453,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 62,
+		"rpt_year": 94,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 62825,
+		"calcu_cat_num": 11615,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 61,
+		"rpt_year": 94,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄縣",
+		"calcu_dog_num": 70849,
+		"calcu_cat_num": 11719,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 60,
+		"rpt_year": 94,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南縣",
+		"calcu_dog_num": 50276,
+		"calcu_cat_num": 10272,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 59,
+		"rpt_year": 94,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 30318,
+		"calcu_cat_num": 3723,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 58,
+		"rpt_year": 94,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 42581,
+		"calcu_cat_num": 1539,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 57,
+		"rpt_year": 94,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 65481,
+		"calcu_cat_num": 12472,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 56,
+		"rpt_year": 94,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 39523,
+		"calcu_cat_num": 3162,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 55,
+		"rpt_year": 94,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中縣",
+		"calcu_dog_num": 78409,
+		"calcu_cat_num": 9472,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 54,
+		"rpt_year": 94,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 37087,
+		"calcu_cat_num": 11656,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 53,
+		"rpt_year": 94,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 43345,
+		"calcu_cat_num": 4281,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 52,
+		"rpt_year": 94,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 83908,
+		"calcu_cat_num": 15914,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 51,
+		"rpt_year": 94,
+		"rpt_country_code": "City000003",
+		"rpt_country": "臺北縣",
+		"calcu_dog_num": 169238,
+		"calcu_cat_num": 32525,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 50,
+		"rpt_year": 92,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 0,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家犬及家貓：抽樣戶均未飼養，故未列入。"
+	},
+	{
+		"ID": 49,
+		"rpt_year": 92,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 500,
+		"calcu_cat_num": 110,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 48,
+		"rpt_year": 92,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 84433,
+		"calcu_cat_num": 9887,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 47,
+		"rpt_year": 92,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 217539,
+		"calcu_cat_num": 52518,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 46,
+		"rpt_year": 92,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 24767,
+		"calcu_cat_num": 1189,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 45,
+		"rpt_year": 92,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 10702,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家貓：抽樣戶均未飼養，故未列入。"
+	},
+	{
+		"ID": 44,
+		"rpt_year": 92,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 52240,
+		"calcu_cat_num": 17154,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 43,
+		"rpt_year": 92,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 27984,
+		"calcu_cat_num": 4568,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 42,
+		"rpt_year": 92,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 14367,
+		"calcu_cat_num": 2991,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 41,
+		"rpt_year": 92,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 5041,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 0,
+		"els_note": "家貓：抽樣戶均未飼養，故未列入。"
+	},
+	{
+		"ID": 40,
+		"rpt_year": 92,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 27923,
+		"calcu_cat_num": 5505,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 39,
+		"rpt_year": 92,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 23134,
+		"calcu_cat_num": 3391,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 38,
+		"rpt_year": 92,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 62705,
+		"calcu_cat_num": 9628,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 37,
+		"rpt_year": 92,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄縣",
+		"calcu_dog_num": 72438,
+		"calcu_cat_num": 6676,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 36,
+		"rpt_year": 92,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南縣",
+		"calcu_dog_num": 40098,
+		"calcu_cat_num": 3532,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 35,
+		"rpt_year": 92,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 28762,
+		"calcu_cat_num": 4335,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 34,
+		"rpt_year": 92,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 40890,
+		"calcu_cat_num": 4628,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 33,
+		"rpt_year": 92,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 50980,
+		"calcu_cat_num": 16934,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 32,
+		"rpt_year": 92,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 64921,
+		"calcu_cat_num": 7498,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 31,
+		"rpt_year": 92,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中縣",
+		"calcu_dog_num": 63121,
+		"calcu_cat_num": 9767,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 30,
+		"rpt_year": 92,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 59044,
+		"calcu_cat_num": 3106,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 29,
+		"rpt_year": 92,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 38549,
+		"calcu_cat_num": 23183,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 28,
+		"rpt_year": 92,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 92638,
+		"calcu_cat_num": 22910,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 27,
+		"rpt_year": 92,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 20304,
+		"calcu_cat_num": 2079,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 26,
+		"rpt_year": 92,
+		"rpt_country_code": "City000003",
+		"rpt_country": "臺北縣",
+		"calcu_dog_num": 229710,
+		"calcu_cat_num": 35976,
+		"stray_dog_num": 0,
+		"els_note": ""
+	},
+	{
+		"ID": 25,
+		"rpt_year": 90,
+		"rpt_country_code": "City000022",
+		"rpt_country": "連江縣",
+		"calcu_dog_num": 373,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 95,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 24,
+		"rpt_year": 90,
+		"rpt_country_code": "City000021",
+		"rpt_country": "金門縣",
+		"calcu_dog_num": 4841,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 634,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 23,
+		"rpt_year": 90,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄市",
+		"calcu_dog_num": 110547,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 6022,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 22,
+		"rpt_year": 90,
+		"rpt_country_code": "City000002",
+		"rpt_country": "臺北市",
+		"calcu_dog_num": 214995,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4946,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 21,
+		"rpt_year": 90,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南市",
+		"calcu_dog_num": 50443,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 2807,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 20,
+		"rpt_year": 90,
+		"rpt_country_code": "City000013",
+		"rpt_country": "嘉義市",
+		"calcu_dog_num": 19979,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 1191,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 19,
+		"rpt_year": 90,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中市",
+		"calcu_dog_num": 64237,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 3113,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 18,
+		"rpt_year": 90,
+		"rpt_country_code": "City000006",
+		"rpt_country": "新竹市",
+		"calcu_dog_num": 35936,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 1688,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 17,
+		"rpt_year": 90,
+		"rpt_country_code": "City000001",
+		"rpt_country": "基隆市",
+		"calcu_dog_num": 27802,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 5229,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 16,
+		"rpt_year": 90,
+		"rpt_country_code": "City000020",
+		"rpt_country": "澎湖縣",
+		"calcu_dog_num": 3212,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 311,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 15,
+		"rpt_year": 90,
+		"rpt_country_code": "City000018",
+		"rpt_country": "花蓮縣",
+		"calcu_dog_num": 43168,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4989,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 14,
+		"rpt_year": 90,
+		"rpt_country_code": "City000017",
+		"rpt_country": "臺東縣",
+		"calcu_dog_num": 32995,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4036,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 13,
+		"rpt_year": 90,
+		"rpt_country_code": "City000016",
+		"rpt_country": "屏東縣",
+		"calcu_dog_num": 100802,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 8143,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 12,
+		"rpt_year": 90,
+		"rpt_country_code": "City000015",
+		"rpt_country": "高雄縣",
+		"calcu_dog_num": 91241,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 10906,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 11,
+		"rpt_year": 90,
+		"rpt_country_code": "City000014",
+		"rpt_country": "臺南縣",
+		"calcu_dog_num": 76569,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 5439,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 10,
+		"rpt_year": 90,
+		"rpt_country_code": "City000012",
+		"rpt_country": "嘉義縣",
+		"calcu_dog_num": 42612,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 2662,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 9,
+		"rpt_year": 90,
+		"rpt_country_code": "City000011",
+		"rpt_country": "雲林縣",
+		"calcu_dog_num": 66392,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 2819,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 8,
+		"rpt_year": 90,
+		"rpt_country_code": "City000008",
+		"rpt_country": "南投縣",
+		"calcu_dog_num": 39104,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 3730,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 7,
+		"rpt_year": 90,
+		"rpt_country_code": "City000010",
+		"rpt_country": "彰化縣",
+		"calcu_dog_num": 86792,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 12141,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 6,
+		"rpt_year": 90,
+		"rpt_country_code": "City000009",
+		"rpt_country": "臺中縣",
+		"calcu_dog_num": 157680,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 21849,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 5,
+		"rpt_year": 90,
+		"rpt_country_code": "City000007",
+		"rpt_country": "苗栗縣",
+		"calcu_dog_num": 36897,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 11302,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 4,
+		"rpt_year": 90,
+		"rpt_country_code": "City000005",
+		"rpt_country": "新竹縣",
+		"calcu_dog_num": 43337,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 4828,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 3,
+		"rpt_year": 90,
+		"rpt_country_code": "City000004",
+		"rpt_country": "桃園縣",
+		"calcu_dog_num": 133657,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 16187,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 2,
+		"rpt_year": 90,
+		"rpt_country_code": "City000019",
+		"rpt_country": "宜蘭縣",
+		"calcu_dog_num": 28223,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 8430,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	},
+	{
+		"ID": 1,
+		"rpt_year": 90,
+		"rpt_country_code": "City000003",
+		"rpt_country": "臺北縣",
+		"calcu_dog_num": 278346,
+		"calcu_cat_num": 0,
+		"stray_dog_num": 35960,
+		"els_note": "家犬資料來源：國立台灣大學獸醫學系　費昌勇教授。該年度未調查家貓數量。"
+	}
 ]

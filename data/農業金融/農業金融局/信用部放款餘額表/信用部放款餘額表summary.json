@@ -1,1 +1,17 @@
-{'ID': 'D01', 'Title': '信用部放款餘額表', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 5485, 'Lnkcnt': 95, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括:檔案名稱、連結、更新日期等欄位資料。', 'sourceURL': 'http://www.boaf.gov.tw/boafwww/index.jsp', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODBoaf.aspx?key=FR028W'}
+{
+	"ID": "D01",
+	"Title": "信用部放款餘額表",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 5485,
+	"Lnkcnt": 95,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括:檔案名稱、連結、更新日期等欄位資料。",
+	"sourceURL": "http://www.boaf.gov.tw/boafwww/index.jsp",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODBoaf.aspx?key=FR028W"
+}

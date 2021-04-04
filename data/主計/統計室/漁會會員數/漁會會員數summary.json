@@ -1,1 +1,17 @@
-{'ID': 'D26', 'Title': '漁會會員數', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 6222, 'Lnkcnt': 42, 'LastUpdateTime': '2020-05-04', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括:縣市別、漁會會員別、性別、日期、單位、數量等欄位資料。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=292201160120'}
+{
+	"ID": "D26",
+	"Title": "漁會會員數",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 6222,
+	"Lnkcnt": 42,
+	"LastUpdateTime": "2020-05-04",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括:縣市別、漁會會員別、性別、日期、單位、數量等欄位資料。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=292201160120"
+}

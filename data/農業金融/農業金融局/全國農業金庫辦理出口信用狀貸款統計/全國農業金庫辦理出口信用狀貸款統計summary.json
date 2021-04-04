@@ -1,1 +1,17 @@
-{'ID': 'ohNeWgWgbH7B', 'Title': '全國農業金庫辦理出口信用狀貸款統計', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 5721, 'Lnkcnt': 76, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括：年月、本月辦理出口信用狀貸款餘額、上年同月辦理出口信用狀貸款餘額、本月辦理出口信用狀貸款餘額與上年同月比較增減率、本年累計辦理出口信用狀貸款餘額、上年同期累計辦理出口信用狀貸款餘額、本年累計辦理出口信用狀貸款餘額與上年同期累計比較增減率等欄位資訊。', 'sourceURL': 'https://www.boaf.gov.tw/boafwww/index.jsp?a=lp&amp;amp;ctNode=337&amp;amp;CtUnit=171&amp;amp;BaseDSD=7', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=ohNeWgWgbH7B'}
+{
+	"ID": "ohNeWgWgbH7B",
+	"Title": "全國農業金庫辦理出口信用狀貸款統計",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 5721,
+	"Lnkcnt": 76,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：年月、本月辦理出口信用狀貸款餘額、上年同月辦理出口信用狀貸款餘額、本月辦理出口信用狀貸款餘額與上年同月比較增減率、本年累計辦理出口信用狀貸款餘額、上年同期累計辦理出口信用狀貸款餘額、本年累計辦理出口信用狀貸款餘額與上年同期累計比較增減率等欄位資訊。",
+	"sourceURL": "https://www.boaf.gov.tw/boafwww/index.jsp?a=lp&amp;amp;ctNode=337&amp;amp;CtUnit=171&amp;amp;BaseDSD=7",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=ohNeWgWgbH7B"
+}

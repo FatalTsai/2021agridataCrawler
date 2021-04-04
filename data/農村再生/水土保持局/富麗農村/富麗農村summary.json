@@ -1,1 +1,17 @@
-{'ID': '044', 'Title': '富麗農村', 'Organ': '水土保持局', 'Catalog': '農村再生', 'Counter': 11713, 'Lnkcnt': 33063, 'LastUpdateTime': '2016-11-21', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '因應業務及系統調整，本項資料不再更新；原先提供資料包含：縣市、鄉鎮、社區名稱、社區介紹、圖片連結、原網連結等欄位資料。後續若有資料需求請參考農村風情網。', 'sourceURL': 'http://rural.swcb.gov.tw/Home/Index2', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/SumptuousVillageData.aspx'}
+{
+	"ID": "044",
+	"Title": "富麗農村",
+	"Organ": "水土保持局",
+	"Catalog": "農村再生",
+	"Counter": 11713,
+	"Lnkcnt": 33063,
+	"LastUpdateTime": "2016-11-21",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "因應業務及系統調整，本項資料不再更新；原先提供資料包含：縣市、鄉鎮、社區名稱、社區介紹、圖片連結、原網連結等欄位資料。後續若有資料需求請參考農村風情網。",
+	"sourceURL": "http://rural.swcb.gov.tw/Home/Index2",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/SumptuousVillageData.aspx"
+}

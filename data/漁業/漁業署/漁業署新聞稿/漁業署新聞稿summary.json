@@ -1,1 +1,17 @@
-{'ID': '043', 'Title': '漁業署新聞稿', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 23351, 'Lnkcnt': 52452, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每日', 'description': '提供資料包含：標題、內文、張貼日等欄位資料。', 'sourceURL': 'http://www.fa.gov.tw/cht/NewsPaper/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/FishNewsData.aspx'}
+{
+	"ID": "043",
+	"Title": "漁業署新聞稿",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 23351,
+	"Lnkcnt": 52452,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包含：標題、內文、張貼日等欄位資料。",
+	"sourceURL": "http://www.fa.gov.tw/cht/NewsPaper/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/FishNewsData.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'A95', 'Title': '養豬統計手冊', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 6728, 'Lnkcnt': 1143, 'LastUpdateTime': '2020-05-29', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供養豬統計手冊PDF檔案下載。', 'sourceURL': 'http://www.naif.org.tw/publicList.aspx?frontMenuID=238&amp;sDate=&amp;eDate=&amp;key1=&amp;frontTitleMenuID=37&amp;pn=1', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A95'}
+{
+	"ID": "A95",
+	"Title": "養豬統計手冊",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 6728,
+	"Lnkcnt": 1143,
+	"LastUpdateTime": "2020-05-29",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供養豬統計手冊PDF檔案下載。",
+	"sourceURL": "http://www.naif.org.tw/publicList.aspx?frontMenuID=238&amp;sDate=&amp;eDate=&amp;key1=&amp;frontTitleMenuID=37&amp;pn=1",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A95"
+}

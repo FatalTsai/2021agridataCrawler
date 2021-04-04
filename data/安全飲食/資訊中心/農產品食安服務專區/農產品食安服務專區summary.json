@@ -1,1 +1,17 @@
-{'ID': '732', 'Title': '農產品食安服務專區', 'Organ': '資訊中心', 'Catalog': '安全飲食', 'Counter': 7747, 'Lnkcnt': 417, 'LastUpdateTime': '2020-06-12', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：標題、連結、內容、發布日期等欄位資料。', 'sourceURL': 'https://www.coa.gov.tw/faq/faq_list.php', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/AgriculturalFoodSafetyRss.aspx?'}
+{
+	"ID": "732",
+	"Title": "農產品食安服務專區",
+	"Organ": "資訊中心",
+	"Catalog": "安全飲食",
+	"Counter": 7747,
+	"Lnkcnt": 417,
+	"LastUpdateTime": "2020-06-12",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：標題、連結、內容、發布日期等欄位資料。",
+	"sourceURL": "https://www.coa.gov.tw/faq/faq_list.php",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/AgriculturalFoodSafetyRss.aspx?"
+}

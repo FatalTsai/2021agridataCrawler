@@ -1,1 +1,17 @@
-{'ID': 'A05', 'Title': '104年度行政院農業委員會桃園區農業改良場單位預算', 'Organ': '桃園區農業改良場', 'Catalog': '主計', 'Counter': 4417, 'Lnkcnt': 544, 'LastUpdateTime': '2018-03-27', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '104年度行政院農業委員會桃園區農業改良場單位預算', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A05'}
+{
+	"ID": "A05",
+	"Title": "104年度行政院農業委員會桃園區農業改良場單位預算",
+	"Organ": "桃園區農業改良場",
+	"Catalog": "主計",
+	"Counter": 4417,
+	"Lnkcnt": 544,
+	"LastUpdateTime": "2018-03-27",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "104年度行政院農業委員會桃園區農業改良場單位預算",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A05"
+}

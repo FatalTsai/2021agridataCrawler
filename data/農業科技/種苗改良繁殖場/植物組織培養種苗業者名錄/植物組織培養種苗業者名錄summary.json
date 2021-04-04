@@ -1,1 +1,17 @@
-{'ID': '133', 'Title': '植物組織培養種苗業者名錄', 'Organ': '種苗改良繁殖場', 'Catalog': '農業科技', 'Counter': 7409, 'Lnkcnt': 14628, 'LastUpdateTime': '2018-08-23', 'Messages': 1, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括：縣市區、組織培養場_公司名稱、簡介、聯絡人、聯絡人電話、負責人、郵遞區號、地址、英文地址、電話1、電話2、傳真、網址、email、自行選育的品種、市場上流通品種、代工生產、瓶外種苗培育、無菌操作台、瓶苗培養室_坪、育苗溫網室_坪、經營理念、服務項目、蘭科作物、特用作物、觀賞花木、蔬果作物、切花作物、其他等欄位資訊。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=133'}
+{
+	"ID": "133",
+	"Title": "植物組織培養種苗業者名錄",
+	"Organ": "種苗改良繁殖場",
+	"Catalog": "農業科技",
+	"Counter": 7409,
+	"Lnkcnt": 14628,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：縣市區、組織培養場_公司名稱、簡介、聯絡人、聯絡人電話、負責人、郵遞區號、地址、英文地址、電話1、電話2、傳真、網址、email、自行選育的品種、市場上流通品種、代工生產、瓶外種苗培育、無菌操作台、瓶苗培養室_坪、育苗溫網室_坪、經營理念、服務項目、蘭科作物、特用作物、觀賞花木、蔬果作物、切花作物、其他等欄位資訊。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=133"
+}

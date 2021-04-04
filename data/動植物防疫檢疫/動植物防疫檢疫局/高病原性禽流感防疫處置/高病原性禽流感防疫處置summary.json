@@ -1,1 +1,17 @@
-{'ID': 'B8DJ4eebHxVH', 'Title': '高病原性禽流感防疫處置', 'Organ': '動植物防疫檢疫局', 'Catalog': '動植物防疫檢疫', 'Counter': 3587, 'Lnkcnt': 1732, 'LastUpdateTime': '2021-04-03', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '4', 'UpdateFrequency': '每日', 'description': '高病原性禽流感防疫處置(提供109年起家禽場確診高病原性禽流感案例及處理情形)，提供資料包含：ID(流水號)、countyname(縣市)、townname(鄉鎮)、sample_date(採樣日期)、judge_date(判定日期)、avian_species(飼養禽種)、AI_2_general(亞型(H5、N7))、AI_2_general(撲殺日期)、AI_2_general(撲殺數量)等欄位', 'sourceURL': 'https://twai.baphiq.gov.tw/AI_m', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=B8DJ4eebHxVH'}
+{
+	"ID": "B8DJ4eebHxVH",
+	"Title": "高病原性禽流感防疫處置",
+	"Organ": "動植物防疫檢疫局",
+	"Catalog": "動植物防疫檢疫",
+	"Counter": 3587,
+	"Lnkcnt": 1732,
+	"LastUpdateTime": "2021-04-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "4",
+	"UpdateFrequency": "每日",
+	"description": "高病原性禽流感防疫處置(提供109年起家禽場確診高病原性禽流感案例及處理情形)，提供資料包含：ID(流水號)、countyname(縣市)、townname(鄉鎮)、sample_date(採樣日期)、judge_date(判定日期)、avian_species(飼養禽種)、AI_2_general(亞型(H5、N7))、AI_2_general(撲殺日期)、AI_2_general(撲殺數量)等欄位",
+	"sourceURL": "https://twai.baphiq.gov.tw/AI_m",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=B8DJ4eebHxVH"
+}

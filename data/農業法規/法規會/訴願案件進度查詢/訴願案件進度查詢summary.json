@@ -1,1 +1,17 @@
-{'ID': '049', 'Title': '訴願案件進度查詢', 'Organ': '法規會', 'Catalog': '農業法規', 'Counter': 9693, 'Lnkcnt': 8351, 'LastUpdateTime': '2020-10-06', 'Messages': 0, 'Collect': 0, 'rating': '1', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供原處分書字、原處分書號、訴願人姓名等資訊。', 'sourceURL': 'https://chiefsuit.coa.gov.tw/LawSuit/jsp/peopleAll.jsp', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DeterminationProgressData.aspx'}
+{
+	"ID": "049",
+	"Title": "訴願案件進度查詢",
+	"Organ": "法規會",
+	"Catalog": "農業法規",
+	"Counter": 9693,
+	"Lnkcnt": 8351,
+	"LastUpdateTime": "2020-10-06",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "1",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供原處分書字、原處分書號、訴願人姓名等資訊。",
+	"sourceURL": "https://chiefsuit.coa.gov.tw/LawSuit/jsp/peopleAll.jsp",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DeterminationProgressData.aspx"
+}

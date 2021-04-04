@@ -1,1 +1,17 @@
-{'ID': 'iRVI1gMPWbJl', 'Title': '農漁會信用部營運概況', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 5834, 'Lnkcnt': 109, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括：年月別、總機構數、農會家數、漁會家數、資產、淨值、存款總額、放款總額、狹義逾放金額、廣義逾放金額、備抵呆帳覆蓋率等欄位資訊。', 'sourceURL': 'https://www.boaf.gov.tw/boafwww/index.jsp?a=np&amp;amp;ctNode=284', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=iRVI1gMPWbJl'}
+{
+	"ID": "iRVI1gMPWbJl",
+	"Title": "農漁會信用部營運概況",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 5834,
+	"Lnkcnt": 109,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：年月別、總機構數、農會家數、漁會家數、資產、淨值、存款總額、放款總額、狹義逾放金額、廣義逾放金額、備抵呆帳覆蓋率等欄位資訊。",
+	"sourceURL": "https://www.boaf.gov.tw/boafwww/index.jsp?a=np&amp;amp;ctNode=284",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=iRVI1gMPWbJl"
+}

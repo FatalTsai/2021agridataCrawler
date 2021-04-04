@@ -1,1 +1,17 @@
-{'ID': 'B00', 'Title': '山坡地可利用限度查定成果統計表', 'Organ': '水土保持局', 'Catalog': '主計', 'Counter': 7357, 'Lnkcnt': 1106, 'LastUpdateTime': '2020-01-07', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '2', 'UpdateFrequency': '每年', 'description': '統計年報-9.山坡地土地可利用限度查定成果統計表，提供資料包括：年度、月份、縣市別、山坡地面積_公頃、已查定面積_宜農牧地_公頃、已查定面積_宜林地_公頃、已查定面積_加強保育地_公頃、已查定面積_不屬查定範圍土地_公頃、已查定面積_合計公頃、未查定面積_公頃等欄位資料。', 'sourceURL': 'https://www.swcb.gov.tw/Statistics/item_list?mid=220', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B00'}
+{
+	"ID": "B00",
+	"Title": "山坡地可利用限度查定成果統計表",
+	"Organ": "水土保持局",
+	"Catalog": "主計",
+	"Counter": 7357,
+	"Lnkcnt": 1106,
+	"LastUpdateTime": "2020-01-07",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每年",
+	"description": "統計年報-9.山坡地土地可利用限度查定成果統計表，提供資料包括：年度、月份、縣市別、山坡地面積_公頃、已查定面積_宜農牧地_公頃、已查定面積_宜林地_公頃、已查定面積_加強保育地_公頃、已查定面積_不屬查定範圍土地_公頃、已查定面積_合計公頃、未查定面積_公頃等欄位資料。",
+	"sourceURL": "https://www.swcb.gov.tw/Statistics/item_list?mid=220",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B00"
+}

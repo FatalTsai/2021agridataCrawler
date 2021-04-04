@@ -1,1 +1,17 @@
-{'ID': 'E08', 'Title': '105年度行政院農業委員會花蓮區農業改良場決算', 'Organ': '花蓮區農業改良場', 'Catalog': '主計', 'Counter': 5977, 'Lnkcnt': 1303, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供105年度行政院農業委員會花蓮區農業改良場決算。', 'sourceURL': 'http://www.hdares.gov.tw/view.php?catid=2323', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E08'}
+{
+	"ID": "E08",
+	"Title": "105年度行政院農業委員會花蓮區農業改良場決算",
+	"Organ": "花蓮區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5977,
+	"Lnkcnt": 1303,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供105年度行政院農業委員會花蓮區農業改良場決算。",
+	"sourceURL": "http://www.hdares.gov.tw/view.php?catid=2323",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E08"
+}

@@ -1,1 +1,17 @@
-{'ID': '266', 'Title': '糧價查詢', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 15850, 'Lnkcnt': 3685, 'LastUpdateTime': '2021-04-03', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '3', 'UpdateFrequency': '每日', 'description': '資料提供包括：縣市、日期、稉種白米零售價格(元/每公斤)、硬秈白米零售價格(元/每公斤)、軟秈白米零售價格(元/每公斤)、圓糯白米零售價格(元/每公斤)、長糯白米零售價格(元/每公斤)、稉種白米躉售價格(元/每百公斤)、硬秈白米躉售價格(元/每百公斤)、軟秈白米躉售價格(元/每百公斤)、圓糯白米躉售價格(元/每百公斤)、長糯白米躉售價格(元/每百公斤)、稻穀稉種價格(元/每百公斤)、稻穀硬秈價格(元/每百公斤)、稻穀軟秈價格(元/每百公斤)、稻穀圓糯價格(元/每百公斤)、稻穀長糯價格(元/每百公斤)等欄位資料。', 'sourceURL': 'https://foodinformation.afa.gov.tw/Search/S02/S0201/S02010101.aspx?sys_id=S02&amp;sys_pid=S02010101', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/RicepriceData.aspx'}
+{
+	"ID": "266",
+	"Title": "糧價查詢",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 15850,
+	"Lnkcnt": 3685,
+	"LastUpdateTime": "2021-04-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "3",
+	"UpdateFrequency": "每日",
+	"description": "資料提供包括：縣市、日期、稉種白米零售價格(元/每公斤)、硬秈白米零售價格(元/每公斤)、軟秈白米零售價格(元/每公斤)、圓糯白米零售價格(元/每公斤)、長糯白米零售價格(元/每公斤)、稉種白米躉售價格(元/每百公斤)、硬秈白米躉售價格(元/每百公斤)、軟秈白米躉售價格(元/每百公斤)、圓糯白米躉售價格(元/每百公斤)、長糯白米躉售價格(元/每百公斤)、稻穀稉種價格(元/每百公斤)、稻穀硬秈價格(元/每百公斤)、稻穀軟秈價格(元/每百公斤)、稻穀圓糯價格(元/每百公斤)、稻穀長糯價格(元/每百公斤)等欄位資料。",
+	"sourceURL": "https://foodinformation.afa.gov.tw/Search/S02/S0201/S02010101.aspx?sys_id=S02&amp;sys_pid=S02010101",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/RicepriceData.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'C30', 'Title': '信用部經營指標表', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 4980, 'Lnkcnt': 3, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含：檔案名稱、連結、更新日期等欄位資訊。', 'sourceURL': 'http://www.boaf.gov.tw/boafwww/index.jsp', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODBoaf.aspx?key=FR001W'}
+{
+	"ID": "C30",
+	"Title": "信用部經營指標表",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 4980,
+	"Lnkcnt": 3,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：檔案名稱、連結、更新日期等欄位資訊。",
+	"sourceURL": "http://www.boaf.gov.tw/boafwww/index.jsp",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODBoaf.aspx?key=FR001W"
+}

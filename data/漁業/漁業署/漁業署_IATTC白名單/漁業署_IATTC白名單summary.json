@@ -1,1 +1,17 @@
-{'ID': 'G91', 'Title': '漁業署_IATTC白名單', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 2080, 'Lnkcnt': 48, 'LastUpdateTime': '2020-12-16', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供IATTC白名單，提供資料包含：中文船名、英文船名、漁船統一編號、國際識別編號等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS162.aspx'}
+{
+	"ID": "G91",
+	"Title": "漁業署_IATTC白名單",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 2080,
+	"Lnkcnt": 48,
+	"LastUpdateTime": "2020-12-16",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供IATTC白名單，提供資料包含：中文船名、英文船名、漁船統一編號、國際識別編號等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS162.aspx"
+}

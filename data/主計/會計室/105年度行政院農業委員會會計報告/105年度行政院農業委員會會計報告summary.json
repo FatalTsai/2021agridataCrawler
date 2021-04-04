@@ -1,1 +1,17 @@
-{'ID': '696', 'Title': '105年度行政院農業委員會會計報告', 'Organ': '會計室', 'Catalog': '主計', 'Counter': 7244, 'Lnkcnt': 829, 'LastUpdateTime': '2020-05-21', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供105年度行政院農業委員會會計報告下載檔案。欄位說明：105年度行政院農業委員會會計報告歲入累計表、經費累計表、以前年度歲入轉入數累計表、以前年度歲出轉入數累計表、平衡表等會計報告。', 'sourceURL': 'https://www.coa.gov.tw/ws.php?id=2504428', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=696'}
+{
+	"ID": "696",
+	"Title": "105年度行政院農業委員會會計報告",
+	"Organ": "會計室",
+	"Catalog": "主計",
+	"Counter": 7244,
+	"Lnkcnt": 829,
+	"LastUpdateTime": "2020-05-21",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供105年度行政院農業委員會會計報告下載檔案。欄位說明：105年度行政院農業委員會會計報告歲入累計表、經費累計表、以前年度歲入轉入數累計表、以前年度歲出轉入數累計表、平衡表等會計報告。",
+	"sourceURL": "https://www.coa.gov.tw/ws.php?id=2504428",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=696"
+}

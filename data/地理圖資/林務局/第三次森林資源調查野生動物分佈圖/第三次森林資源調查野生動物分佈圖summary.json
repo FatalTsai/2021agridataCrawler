@@ -1,1 +1,17 @@
-{'ID': '749', 'Title': '第三次森林資源調查野生動物分佈圖', 'Organ': '林務局', 'Catalog': '地理圖資', 'Counter': 1480, 'Lnkcnt': 1647, 'LastUpdateTime': '2020-11-13', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供第三次森林資源調查野生動物分佈圖shp下載檔案及詮釋資料下載網址。', 'sourceURL': 'https://tgos.nat.gov.tw/tgos/Web/Metadata/TGOS_MetaData_View.aspx?MID=1C94B7A0F3DD64E47ED8D58E129BC680&amp;SHOW_BACK_BUTTON=false&amp;keyword=第三次森林資源調查野生動物分佈圖', 'interfaceURL': ''}
+{
+	"ID": "749",
+	"Title": "第三次森林資源調查野生動物分佈圖",
+	"Organ": "林務局",
+	"Catalog": "地理圖資",
+	"Counter": 1480,
+	"Lnkcnt": 1647,
+	"LastUpdateTime": "2020-11-13",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供第三次森林資源調查野生動物分佈圖shp下載檔案及詮釋資料下載網址。",
+	"sourceURL": "https://tgos.nat.gov.tw/tgos/Web/Metadata/TGOS_MetaData_View.aspx?MID=1C94B7A0F3DD64E47ED8D58E129BC680&amp;SHOW_BACK_BUTTON=false&amp;keyword=第三次森林資源調查野生動物分佈圖",
+	"interfaceURL": ""
+}

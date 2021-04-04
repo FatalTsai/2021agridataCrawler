@@ -1,1 +1,17 @@
-{'ID': 'F47', 'Title': '105年度633個農村再生社區範圍圖', 'Organ': '水土保持局', 'Catalog': '地理圖資', 'Counter': 1720, 'Lnkcnt': 693, 'LastUpdateTime': '2021-02-22', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '2', 'UpdateFrequency': '不更新', 'description': '提供水保局所轄105年度633個農村再生社區範圍圖shp下載檔案，包含縣市(縣市)、村里(村里)、鄉鎮(鄉鎮)、社區Name(社區名稱)、Code(編碼)等欄位。', 'sourceURL': '無', 'interfaceURL': ''}
+{
+	"ID": "F47",
+	"Title": "105年度633個農村再生社區範圍圖",
+	"Organ": "水土保持局",
+	"Catalog": "地理圖資",
+	"Counter": 1720,
+	"Lnkcnt": 693,
+	"LastUpdateTime": "2021-02-22",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "不更新",
+	"description": "提供水保局所轄105年度633個農村再生社區範圍圖shp下載檔案，包含縣市(縣市)、村里(村里)、鄉鎮(鄉鎮)、社區Name(社區名稱)、Code(編碼)等欄位。",
+	"sourceURL": "無",
+	"interfaceURL": ""
+}

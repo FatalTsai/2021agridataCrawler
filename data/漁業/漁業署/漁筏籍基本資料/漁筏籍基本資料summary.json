@@ -1,1 +1,17 @@
-{'ID': '715', 'Title': '漁筏籍基本資料', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 10013, 'Lnkcnt': 772, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包含：組織型態、主管機關、發照機關、漁業執照有效期限、船殼結構、造船廠、船員人數、漁業根據地代碼、起卸港(1)、起卸港(2)、所屬漁會、漁期、建造日期、下水日期、下次檢查日期、檢查完成日期、…等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/OpenData/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=005'}
+{
+	"ID": "715",
+	"Title": "漁筏籍基本資料",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 10013,
+	"Lnkcnt": 772,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包含：組織型態、主管機關、發照機關、漁業執照有效期限、船殼結構、造船廠、船員人數、漁業根據地代碼、起卸港(1)、起卸港(2)、所屬漁會、漁期、建造日期、下水日期、下次檢查日期、檢查完成日期、…等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/OpenData/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=005"
+}

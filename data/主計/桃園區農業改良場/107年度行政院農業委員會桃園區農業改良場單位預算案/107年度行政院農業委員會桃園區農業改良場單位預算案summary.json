@@ -1,1 +1,17 @@
-{'ID': 'D84', 'Title': '107年度行政院農業委員會桃園區農業改良場單位預算案', 'Organ': '桃園區農業改良場', 'Catalog': '主計', 'Counter': 5429, 'Lnkcnt': 723, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供行政院農業委員會桃園區農業改良場年度單位預算案', 'sourceURL': 'http://www.tydares.gov.tw/view.php?catid=1079', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D84'}
+{
+	"ID": "D84",
+	"Title": "107年度行政院農業委員會桃園區農業改良場單位預算案",
+	"Organ": "桃園區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5429,
+	"Lnkcnt": 723,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供行政院農業委員會桃園區農業改良場年度單位預算案",
+	"sourceURL": "http://www.tydares.gov.tw/view.php?catid=1079",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D84"
+}

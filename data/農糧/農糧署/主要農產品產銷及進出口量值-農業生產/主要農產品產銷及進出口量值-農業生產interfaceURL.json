@@ -1,4106 +1,4106 @@
 [
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 237,
-    "reward_area": 237,
-    "yield_avg": 21540,
-    "yield": 5112
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 247,
-    "reward_area": 247,
-    "yield_avg": 20709,
-    "yield": 5119
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 249,
-    "reward_area": 249,
-    "yield_avg": 21185,
-    "yield": 5282
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 266,
-    "reward_area": 266,
-    "yield_avg": 18766,
-    "yield": 4987
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 261,
-    "reward_area": 261,
-    "yield_avg": 21218,
-    "yield": 5532
-  },
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 352,
-    "reward_area": 352,
-    "yield_avg": 16557,
-    "yield": 5829
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 343,
-    "reward_area": 343,
-    "yield_avg": 16232,
-    "yield": 5567
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 325,
-    "reward_area": 325,
-    "yield_avg": 18422,
-    "yield": 5983
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 347,
-    "reward_area": 347,
-    "yield_avg": 18295,
-    "yield": 6340
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 322,
-    "reward_area": 322,
-    "yield_avg": 19280,
-    "yield": 6214
-  },
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 91,
-    "reward_area": 91,
-    "yield_avg": 23726,
-    "yield": 2167
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 91,
-    "reward_area": 91,
-    "yield_avg": 23603,
-    "yield": 2138
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 69,
-    "reward_area": 69,
-    "yield_avg": 23983,
-    "yield": 1649
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 102,
-    "reward_area": 102,
-    "yield_avg": 24229,
-    "yield": 2472
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 105,
-    "reward_area": 105,
-    "yield_avg": 24542,
-    "yield": 2581
-  },
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 117,
-    "reward_area": 117,
-    "yield_avg": 15535,
-    "yield": 1813
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 133,
-    "reward_area": 133,
-    "yield_avg": 15800,
-    "yield": 2108
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 144,
-    "reward_area": 144,
-    "yield_avg": 15710,
-    "yield": 2263
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 164,
-    "reward_area": 164,
-    "yield_avg": 16582,
-    "yield": 2719
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 189,
-    "reward_area": 189,
-    "yield_avg": 17140,
-    "yield": 3235
-  },
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 161,
-    "reward_area": 161,
-    "yield_avg": 20781,
-    "yield": 3336
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 161,
-    "reward_area": 161,
-    "yield_avg": 21078,
-    "yield": 3399
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 175,
-    "reward_area": 175,
-    "yield_avg": 21125,
-    "yield": 3694
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 177,
-    "reward_area": 177,
-    "yield_avg": 18765,
-    "yield": 3327
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 183,
-    "reward_area": 183,
-    "yield_avg": 21630,
-    "yield": 3968
-  },
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 178,
-    "reward_area": 178,
-    "yield_avg": 38779,
-    "yield": 6912
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 189,
-    "reward_area": 189,
-    "yield_avg": 39617,
-    "yield": 7484
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 189,
-    "reward_area": 189,
-    "yield_avg": 40002,
-    "yield": 7575
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 193,
-    "reward_area": 193,
-    "yield_avg": 39395,
-    "yield": 7601
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 203,
-    "reward_area": 203,
-    "yield_avg": 39976,
-    "yield": 8105
-  },
-  {
-    "year": 108,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 649,
-    "reward_area": 649,
-    "yield_avg": 23665,
-    "yield": 15352
-  },
-  {
-    "year": 107,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 637,
-    "reward_area": 637,
-    "yield_avg": 23112,
-    "yield": 14719
-  },
-  {
-    "year": 106,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 649,
-    "reward_area": 649,
-    "yield_avg": 23905,
-    "yield": 15503
-  },
-  {
-    "year": 105,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 654,
-    "reward_area": 654,
-    "yield_avg": 24577,
-    "yield": 16072
-  },
-  {
-    "year": 104,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 703,
-    "reward_area": 703,
-    "yield_avg": 24295,
-    "yield": 17081
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5119,
-    "reward_area": 5114,
-    "yield_avg": 7742,
-    "yield": 39595
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5251,
-    "reward_area": 5239,
-    "yield_avg": 16091,
-    "yield": 84301
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5348,
-    "reward_area": 5203,
-    "yield_avg": 12132,
-    "yield": 63115
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5448,
-    "reward_area": 5251,
-    "yield_avg": 11477,
-    "yield": 60266
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5459,
-    "reward_area": 5208,
-    "yield_avg": 11699,
-    "yield": 60929
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 41965,
-    "reward_area": 40920,
-    "yield_avg": 2536,
-    "yield": 103767
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 42510,
-    "reward_area": 41500,
-    "yield_avg": 2480,
-    "yield": 102918
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 42661,
-    "reward_area": 41802,
-    "yield_avg": 2444,
-    "yield": 102165
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 42940,
-    "reward_area": 42576,
-    "yield_avg": 2349,
-    "yield": 99992
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 43832,
-    "reward_area": 43226,
-    "yield_avg": 2618,
-    "yield": 113182
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 1446,
-    "reward_area": 1434,
-    "yield_avg": 5641,
-    "yield": 8090
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 1523,
-    "reward_area": 1502,
-    "yield_avg": 8711,
-    "yield": 13080
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 1569,
-    "reward_area": 1569,
-    "yield_avg": 8148,
-    "yield": 12787
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 1722,
-    "reward_area": 1720,
-    "yield_avg": 7980,
-    "yield": 13727
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 1575,
-    "reward_area": 1571,
-    "yield_avg": 8915,
-    "yield": 14003
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 10707,
-    "reward_area": 10690,
-    "yield_avg": 1707,
-    "yield": 18251
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 10975,
-    "reward_area": 10962,
-    "yield_avg": 7043,
-    "yield": 77198
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 10976,
-    "reward_area": 10963,
-    "yield_avg": 6253,
-    "yield": 68545
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 11182,
-    "reward_area": 11180,
-    "yield_avg": 6165,
-    "yield": 68927
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 11316,
-    "reward_area": 11304,
-    "yield_avg": 7536,
-    "yield": 85189
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 9884,
-    "reward_area": 9832,
-    "yield_avg": 2569,
-    "yield": 25255
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 9807,
-    "reward_area": 9788,
-    "yield_avg": 8037,
-    "yield": 78668
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 9984,
-    "reward_area": 9960,
-    "yield_avg": 6004,
-    "yield": 59796
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 10215,
-    "reward_area": 10212,
-    "yield_avg": 4561,
-    "yield": 46576
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 10350,
-    "reward_area": 10312,
-    "yield_avg": 8487,
-    "yield": 87515
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 3678,
-    "reward_area": 3653,
-    "yield_avg": 2264,
-    "yield": 8270
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 3786,
-    "reward_area": 3764,
-    "yield_avg": 4619,
-    "yield": 17382
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 3946,
-    "reward_area": 3922,
-    "yield_avg": 3968,
-    "yield": 15565
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 4220,
-    "reward_area": 4204,
-    "yield_avg": 3951,
-    "yield": 16613
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 4253,
-    "reward_area": 4229,
-    "yield_avg": 7678,
-    "yield": 32473
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 9061,
-    "reward_area": 9020,
-    "yield_avg": 19514,
-    "yield": 176004
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 10603,
-    "reward_area": 10591,
-    "yield_avg": 20852,
-    "yield": 220846
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 10441,
-    "reward_area": 10421,
-    "yield_avg": 20216,
-    "yield": 210661
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 10733,
-    "reward_area": 10717,
-    "yield_avg": 18768,
-    "yield": 201133
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 11233,
-    "reward_area": 10888,
-    "yield_avg": 19974,
-    "yield": 217466
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7582,
-    "reward_area": 7433,
-    "yield_avg": 24086,
-    "yield": 179038
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7442,
-    "reward_area": 7320,
-    "yield_avg": 24085,
-    "yield": 176304
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7326,
-    "reward_area": 7258,
-    "yield_avg": 23832,
-    "yield": 172982
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7159,
-    "reward_area": 7113,
-    "yield_avg": 18709,
-    "yield": 133075
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7165,
-    "reward_area": 7091,
-    "yield_avg": 21249,
-    "yield": 150687
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 16247,
-    "reward_area": 16037,
-    "yield_avg": 10128,
-    "yield": 162424
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 16109,
-    "reward_area": 15905,
-    "yield_avg": 9222,
-    "yield": 146673
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 16050,
-    "reward_area": 15863,
-    "yield_avg": 9491,
-    "yield": 150559
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 15683,
-    "reward_area": 15616,
-    "yield_avg": 6837,
-    "yield": 106766
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 15465,
-    "reward_area": 15205,
-    "yield_avg": 10934,
-    "yield": 166260
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 3255,
-    "reward_area": 3151,
-    "yield_avg": 18097,
-    "yield": 57014
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 3415,
-    "reward_area": 3310,
-    "yield_avg": 14785,
-    "yield": 48939
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 3542,
-    "reward_area": 3486,
-    "yield_avg": 14386,
-    "yield": 50158
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 3646,
-    "reward_area": 3574,
-    "yield_avg": 14180,
-    "yield": 50675
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 3849,
-    "reward_area": 3776,
-    "yield_avg": 17419,
-    "yield": 65775
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5197,
-    "reward_area": 5192,
-    "yield_avg": 17534,
-    "yield": 91032
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5275,
-    "reward_area": 5274,
-    "yield_avg": 22499,
-    "yield": 118649
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5320,
-    "reward_area": 5317,
-    "yield_avg": 22135,
-    "yield": 117694
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5396,
-    "reward_area": 5395,
-    "yield_avg": 20654,
-    "yield": 111424
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5465,
-    "reward_area": 5454,
-    "yield_avg": 23289,
-    "yield": 127016
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2046,
-    "reward_area": 2041,
-    "yield_avg": 7924,
-    "yield": 16171
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2075,
-    "reward_area": 2072,
-    "yield_avg": 10864,
-    "yield": 22506
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2133,
-    "reward_area": 2126,
-    "yield_avg": 10936,
-    "yield": 23254
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2185,
-    "reward_area": 2165,
-    "yield_avg": 10360,
-    "yield": 22430
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2278,
-    "reward_area": 2254,
-    "yield_avg": 11992,
-    "yield": 27026
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2743,
-    "reward_area": 2633,
-    "yield_avg": 46436,
-    "yield": 122272
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2681,
-    "reward_area": 2602,
-    "yield_avg": 48899,
-    "yield": 127244
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2563,
-    "reward_area": 2494,
-    "yield_avg": 50327,
-    "yield": 125521
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2635,
-    "reward_area": 2584,
-    "yield_avg": 40988,
-    "yield": 105921
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2640,
-    "reward_area": 2500,
-    "yield_avg": 46051,
-    "yield": 115115
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2715,
-    "reward_area": 2715,
-    "yield_avg": 32650,
-    "yield": 88635
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2786,
-    "reward_area": 2785,
-    "yield_avg": 35122,
-    "yield": 97799
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2829,
-    "reward_area": 2828,
-    "yield_avg": 32746,
-    "yield": 92602
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2877,
-    "reward_area": 2868,
-    "yield_avg": 27780,
-    "yield": 79680
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2956,
-    "reward_area": 2944,
-    "yield_avg": 29017,
-    "yield": 85435
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 540,
-    "reward_area": 523,
-    "yield_avg": 16397,
-    "yield": 8582
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 545,
-    "reward_area": 539,
-    "yield_avg": 16122,
-    "yield": 8682
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 553,
-    "reward_area": 552,
-    "yield_avg": 16046,
-    "yield": 8850
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 565,
-    "reward_area": 564,
-    "yield_avg": 14223,
-    "yield": 8026
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 559,
-    "reward_area": 558,
-    "yield_avg": 15309,
-    "yield": 8550
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 2828,
-    "reward_area": 2701,
-    "yield_avg": 17070,
-    "yield": 46105
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 2777,
-    "reward_area": 2655,
-    "yield_avg": 15606,
-    "yield": 41431
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 2737,
-    "reward_area": 2664,
-    "yield_avg": 13727,
-    "yield": 36575
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 2790,
-    "reward_area": 2721,
-    "yield_avg": 13337,
-    "yield": 36289
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 2644,
-    "reward_area": 2452,
-    "yield_avg": 15787,
-    "yield": 38705
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3110,
-    "reward_area": 3096,
-    "yield_avg": 17462,
-    "yield": 54069
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3123,
-    "reward_area": 3107,
-    "yield_avg": 17302,
-    "yield": 53764
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3163,
-    "reward_area": 3154,
-    "yield_avg": 18042,
-    "yield": 56910
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3175,
-    "reward_area": 3146,
-    "yield_avg": 16505,
-    "yield": 51924
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3175,
-    "reward_area": 3125,
-    "yield_avg": 16649,
-    "yield": 52023
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 5366,
-    "reward_area": 5364,
-    "yield_avg": 22747,
-    "yield": 122027
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 5457,
-    "reward_area": 5452,
-    "yield_avg": 22823,
-    "yield": 124440
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 5492,
-    "reward_area": 5491,
-    "yield_avg": 23136,
-    "yield": 127045
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 5572,
-    "reward_area": 5572,
-    "yield_avg": 19219,
-    "yield": 107086
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 5730,
-    "reward_area": 5729,
-    "yield_avg": 18862,
-    "yield": 108058
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5090,
-    "reward_area": 5042,
-    "yield_avg": 29321,
-    "yield": 147842
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5128,
-    "reward_area": 5077,
-    "yield_avg": 28049,
-    "yield": 142397
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5150,
-    "reward_area": 5131,
-    "yield_avg": 30009,
-    "yield": 153966
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5244,
-    "reward_area": 5240,
-    "yield_avg": 25065,
-    "yield": 131329
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5292,
-    "reward_area": 5277,
-    "yield_avg": 26433,
-    "yield": 139494
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 11676,
-    "reward_area": 8239,
-    "yield_avg": 52322,
-    "yield": 431084
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 11794,
-    "reward_area": 8428,
-    "yield_avg": 51270,
-    "yield": 432084
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 11453,
-    "reward_area": 10491,
-    "yield_avg": 52765,
-    "yield": 553531
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 10974,
-    "reward_area": 10379,
-    "yield_avg": 50789,
-    "yield": 527161
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 10516,
-    "reward_area": 9472,
-    "yield_avg": 52153,
-    "yield": 493998
-  },
-  {
-    "year": 108,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 16342,
-    "reward_area": 14914,
-    "yield_avg": 22974,
-    "yield": 342629
-  },
-  {
-    "year": 107,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 16639,
-    "reward_area": 15448,
-    "yield_avg": 23061,
-    "yield": 356238
-  },
-  {
-    "year": 106,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 16842,
-    "reward_area": 15804,
-    "yield_avg": 22527,
-    "yield": 356017
-  },
-  {
-    "year": 105,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 16016,
-    "reward_area": 15697,
-    "yield_avg": 16408,
-    "yield": 257559
-  },
-  {
-    "year": 104,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 14605,
-    "reward_area": 14093,
-    "yield_avg": 19447,
-    "yield": 274066
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 7686,
-    "reward_area": 7686,
-    "yield_avg": 9018,
-    "yield": 69309
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 9180,
-    "reward_area": 9180,
-    "yield_avg": 9203,
-    "yield": 84490
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 9045,
-    "reward_area": 9045,
-    "yield_avg": 8686,
-    "yield": 78570
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 8314,
-    "reward_area": 8288,
-    "yield_avg": 7455,
-    "yield": 61783
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 8242,
-    "reward_area": 8242,
-    "yield_avg": 7575,
-    "yield": 62428
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 855,
-    "reward_area": 855,
-    "yield_avg": 11690,
-    "yield": 9990
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 920,
-    "reward_area": 920,
-    "yield_avg": 11727,
-    "yield": 10789
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 900,
-    "reward_area": 900,
-    "yield_avg": 11881,
-    "yield": 10692
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 897,
-    "reward_area": 897,
-    "yield_avg": 10934,
-    "yield": 9807
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 889,
-    "reward_area": 889,
-    "yield_avg": 11410,
-    "yield": 10146
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 431,
-    "reward_area": 431,
-    "yield_avg": 9424,
-    "yield": 4060
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 417,
-    "reward_area": 417,
-    "yield_avg": 9259,
-    "yield": 3860
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 458,
-    "reward_area": 458,
-    "yield_avg": 8945,
-    "yield": 4096
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 553,
-    "reward_area": 553,
-    "yield_avg": 8136,
-    "yield": 4501
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 464,
-    "reward_area": 464,
-    "yield_avg": 8129,
-    "yield": 3773
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 1353,
-    "reward_area": 1144,
-    "yield_avg": 7885,
-    "yield": 9024
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 1298,
-    "reward_area": 1258,
-    "yield_avg": 7811,
-    "yield": 9823
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 1232,
-    "reward_area": 1246,
-    "yield_avg": 7860,
-    "yield": 9797
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 1256,
-    "reward_area": 1237,
-    "yield_avg": 7242,
-    "yield": 8957
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 1155,
-    "reward_area": 1164,
-    "yield_avg": 7322,
-    "yield": 8521
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 4326,
-    "reward_area": 4316,
-    "yield_avg": 24282,
-    "yield": 104794
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 4416,
-    "reward_area": 4415,
-    "yield_avg": 24481,
-    "yield": 108082
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 4486,
-    "reward_area": 4480,
-    "yield_avg": 24803,
-    "yield": 111125
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 5006,
-    "reward_area": 4997,
-    "yield_avg": 23804,
-    "yield": 118958
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 4906,
-    "reward_area": 4906,
-    "yield_avg": 25335,
-    "yield": 124288
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 1893,
-    "reward_area": 1893,
-    "yield_avg": 25874,
-    "yield": 48968
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 1987,
-    "reward_area": 1986,
-    "yield_avg": 25788,
-    "yield": 51224
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 2029,
-    "reward_area": 2029,
-    "yield_avg": 25268,
-    "yield": 51264
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 2115,
-    "reward_area": 2114,
-    "yield_avg": 22675,
-    "yield": 47926
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 2151,
-    "reward_area": 2150,
-    "yield_avg": 22104,
-    "yield": 47521
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1286,
-    "reward_area": 1286,
-    "yield_avg": 27127,
-    "yield": 34874
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1298,
-    "reward_area": 1298,
-    "yield_avg": 26635,
-    "yield": 34561
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1327,
-    "reward_area": 1326,
-    "yield_avg": 24143,
-    "yield": 32015
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1254,
-    "reward_area": 1253,
-    "yield_avg": 19659,
-    "yield": 24635
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1194,
-    "reward_area": 1194,
-    "yield_avg": 21376,
-    "yield": 25520
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 1538,
-    "reward_area": 1538,
-    "yield_avg": 25277,
-    "yield": 38882
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 1518,
-    "reward_area": 1518,
-    "yield_avg": 24095,
-    "yield": 36580
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 1616,
-    "reward_area": 1616,
-    "yield_avg": 24713,
-    "yield": 39945
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 1750,
-    "reward_area": 1749,
-    "yield_avg": 26901,
-    "yield": 47046
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 1679,
-    "reward_area": 1679,
-    "yield_avg": 27226,
-    "yield": 45718
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 1225,
-    "reward_area": 1225,
-    "yield_avg": 21167,
-    "yield": 25931
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 1275,
-    "reward_area": 1275,
-    "yield_avg": 20784,
-    "yield": 26498
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 1095,
-    "reward_area": 1095,
-    "yield_avg": 20608,
-    "yield": 22561
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 1022,
-    "reward_area": 1020,
-    "yield_avg": 20072,
-    "yield": 20476
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 1025,
-    "reward_area": 1025,
-    "yield_avg": 20547,
-    "yield": 21062
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 1807,
-    "reward_area": 1790,
-    "yield_avg": 40766,
-    "yield": 72955
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 2160,
-    "reward_area": 2154,
-    "yield_avg": 40507,
-    "yield": 87252
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 2144,
-    "reward_area": 2130,
-    "yield_avg": 39999,
-    "yield": 85212
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 2125,
-    "reward_area": 2118,
-    "yield_avg": 37826,
-    "yield": 80096
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 1955,
-    "reward_area": 1955,
-    "yield_avg": 40107,
-    "yield": 78421
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 5466,
-    "reward_area": 5466,
-    "yield_avg": 19445,
-    "yield": 106288
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 4958,
-    "reward_area": 4958,
-    "yield_avg": 18909,
-    "yield": 93754
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 5263,
-    "reward_area": 5263,
-    "yield_avg": 18687,
-    "yield": 98351
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 5020,
-    "reward_area": 5019,
-    "yield_avg": 18472,
-    "yield": 92717
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 4176,
-    "reward_area": 4176,
-    "yield_avg": 18187,
-    "yield": 75943
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 8297,
-    "reward_area": 8292,
-    "yield_avg": 51080,
-    "yield": 423567
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 8339,
-    "reward_area": 8336,
-    "yield_avg": 51817,
-    "yield": 431968
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 8790,
-    "reward_area": 8783,
-    "yield_avg": 48086,
-    "yield": 422320
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 8668,
-    "reward_area": 8661,
-    "yield_avg": 46147,
-    "yield": 399667
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 7415,
-    "reward_area": 7415,
-    "yield_avg": 48727,
-    "yield": 361317
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 27325,
-    "reward_area": 27151,
-    "yield_avg": 9133,
-    "yield": 247958
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 27477,
-    "reward_area": 27363,
-    "yield_avg": 9172,
-    "yield": 250989
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 27449,
-    "reward_area": 27048,
-    "yield_avg": 9535,
-    "yield": 257895
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 27354,
-    "reward_area": 26469,
-    "yield_avg": 9060,
-    "yield": 239800
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 27354,
-    "reward_area": 26659,
-    "yield_avg": 9282,
-    "yield": 247450
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 488,
-    "reward_area": 488,
-    "yield_avg": 5497,
-    "yield": 2681
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 471,
-    "reward_area": 469,
-    "yield_avg": 5507,
-    "yield": 2582
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 458,
-    "reward_area": 458,
-    "yield_avg": 5585,
-    "yield": 2556
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 450,
-    "reward_area": 443,
-    "yield_avg": 4561,
-    "yield": 2021
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 575,
-    "reward_area": 575,
-    "yield_avg": 5241,
-    "yield": 3014
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 863,
-    "reward_area": 885,
-    "yield_avg": 24717,
-    "yield": 21865
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 863,
-    "reward_area": 863,
-    "yield_avg": 25331,
-    "yield": 21865
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 906,
-    "reward_area": 906,
-    "yield_avg": 29074,
-    "yield": 26351
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 1010,
-    "reward_area": 1010,
-    "yield_avg": 21644,
-    "yield": 21865
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 863,
-    "reward_area": 863,
-    "yield_avg": 30542,
-    "yield": 26351
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 4712,
-    "reward_area": 4712,
-    "yield_avg": 8418,
-    "yield": 39667
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 4782,
-    "reward_area": 4782,
-    "yield_avg": 10878,
-    "yield": 52016
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 3781,
-    "reward_area": 3781,
-    "yield_avg": 9665,
-    "yield": 36543
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 4309,
-    "reward_area": 4309,
-    "yield_avg": 8045,
-    "yield": 34667
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 4148,
-    "reward_area": 4148,
-    "yield_avg": 11985,
-    "yield": 49716
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 405,
-    "reward_area": 405,
-    "yield_avg": 19325,
-    "yield": 7831
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 441,
-    "reward_area": 441,
-    "yield_avg": 18259,
-    "yield": 8059
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 412,
-    "reward_area": 412,
-    "yield_avg": 17468,
-    "yield": 7195
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 563,
-    "reward_area": 563,
-    "yield_avg": 17464,
-    "yield": 9830
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 692,
-    "reward_area": 692,
-    "yield_avg": 18813,
-    "yield": 13012
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4298,
-    "reward_area": 4298,
-    "yield_avg": 23690,
-    "yield": 101815
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4989,
-    "reward_area": 4989,
-    "yield_avg": 23492,
-    "yield": 117210
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4821,
-    "reward_area": 4821,
-    "yield_avg": 23208,
-    "yield": 111883
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4811,
-    "reward_area": 4811,
-    "yield_avg": 21042,
-    "yield": 101228
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4564,
-    "reward_area": 4564,
-    "yield_avg": 21286,
-    "yield": 97147
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 114115,
-    "reward_area": 114115,
-    "yield_avg": 40,
-    "yield": 4571
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 125477,
-    "reward_area": 125477,
-    "yield_avg": 40,
-    "yield": 5054
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 111238,
-    "reward_area": 111238,
-    "yield_avg": 44,
-    "yield": 4945
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 112752,
-    "reward_area": 112752,
-    "yield_avg": 44,
-    "yield": 4958
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 108825,
-    "reward_area": 108825,
-    "yield_avg": 44,
-    "yield": 4820
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1361,
-    "reward_area": 1361,
-    "yield_avg": 42589,
-    "yield": 57974
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1399,
-    "reward_area": 1399,
-    "yield_avg": 54154,
-    "yield": 75768
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1118,
-    "reward_area": 1118,
-    "yield_avg": 54688,
-    "yield": 61168
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1337,
-    "reward_area": 1337,
-    "yield_avg": 45186,
-    "yield": 60422
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1094,
-    "reward_area": 1094,
-    "yield_avg": 51770,
-    "yield": 56614
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2585,
-    "reward_area": 2585,
-    "yield_avg": 24161,
-    "yield": 62447
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2654,
-    "reward_area": 2654,
-    "yield_avg": 23466,
-    "yield": 62287
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2441,
-    "reward_area": 2441,
-    "yield_avg": 22502,
-    "yield": 54929
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2724,
-    "reward_area": 2724,
-    "yield_avg": 21305,
-    "yield": 58023
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2518,
-    "reward_area": 2518,
-    "yield_avg": 25515,
-    "yield": 64250
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2064,
-    "reward_area": 2064,
-    "yield_avg": 50344,
-    "yield": 103898
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2281,
-    "reward_area": 2281,
-    "yield_avg": 50149,
-    "yield": 114388
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2310,
-    "reward_area": 2310,
-    "yield_avg": 49541,
-    "yield": 114447
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2465,
-    "reward_area": 2460,
-    "yield_avg": 40233,
-    "yield": 98988
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2364,
-    "reward_area": 2364,
-    "yield_avg": 46083,
-    "yield": 108956
-  },
-  {
-    "year": 108,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2736,
-    "reward_area": 2733,
-    "yield_avg": 33712,
-    "yield": 92132
-  },
-  {
-    "year": 107,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2750,
-    "reward_area": 2749,
-    "yield_avg": 34558,
-    "yield": 95017
-  },
-  {
-    "year": 106,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2684,
-    "reward_area": 2684,
-    "yield_avg": 36177,
-    "yield": 97104
-  },
-  {
-    "year": 105,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2633,
-    "reward_area": 2632,
-    "yield_avg": 33505,
-    "yield": 88197
-  },
-  {
-    "year": 104,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2463,
-    "reward_area": 2458,
-    "yield_avg": 36506,
-    "yield": 89720
-  },
-  {
-    "year": 108,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 12203,
-    "reward_area": 11796,
-    "yield_avg": 1242,
-    "yield": 14656
-  },
-  {
-    "year": 107,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 12079,
-    "reward_area": 11660,
-    "yield_avg": 1264,
-    "yield": 14738
-  },
-  {
-    "year": 106,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 11765,
-    "reward_area": 11400,
-    "yield_avg": 1179,
-    "yield": 13443
-  },
-  {
-    "year": 105,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 11814,
-    "reward_area": 11606,
-    "yield_avg": 1122,
-    "yield": 13018
-  },
-  {
-    "year": 104,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 11780,
-    "reward_area": 11620,
-    "yield_avg": 1240,
-    "yield": 14405
-  },
-  {
-    "year": 108,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 48,
-    "reward_area": 45,
-    "yield_avg": 13608,
-    "yield": 616
-  },
-  {
-    "year": 107,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 49,
-    "reward_area": 45,
-    "yield_avg": 13419,
-    "yield": 609
-  },
-  {
-    "year": 106,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 42,
-    "reward_area": 41,
-    "yield_avg": 13919,
-    "yield": 565
-  },
-  {
-    "year": 105,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 42,
-    "reward_area": 39,
-    "yield_avg": 13532,
-    "yield": 525
-  },
-  {
-    "year": 104,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 39,
-    "reward_area": 37,
-    "yield_avg": 13999,
-    "yield": 525
-  },
-  {
-    "year": 106,
-    "type": "特用作物",
-    "category": "菸葉",
-    "plant_area": 624,
-    "reward_area": 624,
-    "yield_avg": 2137,
-    "yield": 1335
-  },
-  {
-    "year": 105,
-    "type": "特用作物",
-    "category": "菸葉",
-    "plant_area": 631,
-    "reward_area": 631,
-    "yield_avg": 2173,
-    "yield": 1371
-  },
-  {
-    "year": 104,
-    "type": "特用作物",
-    "category": "菸葉",
-    "plant_area": 641,
-    "reward_area": 641,
-    "yield_avg": 2504,
-    "yield": 1604
-  },
-  {
-    "year": 108,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 8093,
-    "reward_area": 8086,
-    "yield_avg": 65863,
-    "yield": 532569
-  },
-  {
-    "year": 107,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 8525,
-    "reward_area": 8513,
-    "yield_avg": 67988,
-    "yield": 578778
-  },
-  {
-    "year": 106,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 7595,
-    "reward_area": 7586,
-    "yield_avg": 59998,
-    "yield": 455144
-  },
-  {
-    "year": 105,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 9038,
-    "reward_area": 8945,
-    "yield_avg": 58898,
-    "yield": 526843
-  },
-  {
-    "year": 104,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 8898,
-    "reward_area": 8764,
-    "yield_avg": 70546,
-    "yield": 618264
-  },
-  {
-    "year": 108,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 653,
-    "reward_area": 567,
-    "yield_avg": 75387,
-    "yield": 42778
-  },
-  {
-    "year": 107,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 649,
-    "reward_area": 620,
-    "yield_avg": 69517,
-    "yield": 43093
-  },
-  {
-    "year": 106,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 677,
-    "reward_area": 656,
-    "yield_avg": 70939,
-    "yield": 46561
-  },
-  {
-    "year": 105,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 729,
-    "reward_area": 697,
-    "yield_avg": 66839,
-    "yield": 46602
-  },
-  {
-    "year": 104,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 730,
-    "reward_area": 702,
-    "yield_avg": 66484,
-    "yield": 46647
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 19452,
-    "reward_area": 19452,
-    "yield_avg": 2735,
-    "yield": 53198
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 21184,
-    "reward_area": 21183,
-    "yield_avg": 2808,
-    "yield": 59471
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 21596,
-    "reward_area": 21595,
-    "yield_avg": 2931,
-    "yield": 63287
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 21430,
-    "reward_area": 21430,
-    "yield_avg": 2885,
-    "yield": 61832
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 20743,
-    "reward_area": 20743,
-    "yield_avg": 2993,
-    "yield": 62083
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 15210,
-    "reward_area": 15207,
-    "yield_avg": 4836,
-    "yield": 73540
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 14562,
-    "reward_area": 14562,
-    "yield_avg": 4716,
-    "yield": 68668
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 15171,
-    "reward_area": 15170,
-    "yield_avg": 4941,
-    "yield": 74952
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 16157,
-    "reward_area": 16147,
-    "yield_avg": 4032,
-    "yield": 65105
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 15135,
-    "reward_area": 15134,
-    "yield_avg": 4539,
-    "yield": 68694
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 6369,
-    "reward_area": 6365,
-    "yield_avg": 1907,
-    "yield": 12136
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 6627,
-    "reward_area": 6621,
-    "yield_avg": 1985,
-    "yield": 13145
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 6199,
-    "reward_area": 6198,
-    "yield_avg": 1878,
-    "yield": 11641
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 6305,
-    "reward_area": 6301,
-    "yield_avg": 1903,
-    "yield": 11992
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 6089,
-    "reward_area": 6089,
-    "yield_avg": 2096,
-    "yield": 12765
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 89,
-    "reward_area": 89,
-    "yield_avg": 794,
-    "yield": 70
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 348,
-    "reward_area": 348,
-    "yield_avg": 788,
-    "yield": 274
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 393,
-    "reward_area": 366,
-    "yield_avg": 1032,
-    "yield": 378
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 174,
-    "reward_area": 174,
-    "yield_avg": 1074,
-    "yield": 187
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 129,
-    "reward_area": 129,
-    "yield_avg": 1134,
-    "yield": 146
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 3405,
-    "reward_area": 3405,
-    "yield_avg": 1400,
-    "yield": 4769
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 3023,
-    "reward_area": 3021,
-    "yield_avg": 1457,
-    "yield": 4404
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 3188,
-    "reward_area": 3182,
-    "yield_avg": 1469,
-    "yield": 4674
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 2177,
-    "reward_area": 2105,
-    "yield_avg": 1454,
-    "yield": 3061
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 1652,
-    "reward_area": 1648,
-    "yield_avg": 1653,
-    "yield": 2725
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 2574,
-    "reward_area": 2560,
-    "yield_avg": 1887,
-    "yield": 4831
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 2531,
-    "reward_area": 2531,
-    "yield_avg": 2409,
-    "yield": 6096
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 2394,
-    "reward_area": 2392,
-    "yield_avg": 2249,
-    "yield": 5379
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 2412,
-    "reward_area": 2345,
-    "yield_avg": 1552,
-    "yield": 3638
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 3116,
-    "reward_area": 3116,
-    "yield_avg": 2354,
-    "yield": 7335
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 1793,
-    "reward_area": 1793,
-    "yield_avg": 1265,
-    "yield": 2268
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 1348,
-    "reward_area": 1348,
-    "yield_avg": 1728,
-    "yield": 2329
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 1969,
-    "reward_area": 1969,
-    "yield_avg": 1038,
-    "yield": 2043
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 2027,
-    "reward_area": 2027,
-    "yield_avg": 780,
-    "yield": 1582
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 1882,
-    "reward_area": 1882,
-    "yield_avg": 1548,
-    "yield": 2913
-  },
-  {
-    "year": 108,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 270066,
-    "reward_area": 270066,
-    "yield_avg": 11921,
-    "yield": 3219462
-  },
-  {
-    "year": 107,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 271506,
-    "reward_area": 271506,
-    "yield_avg": 12933,
-    "yield": 3511438
-  },
-  {
-    "year": 106,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 274677,
-    "reward_area": 274677,
-    "yield_avg": 11468,
-    "yield": 3150120
-  },
-  {
-    "year": 105,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 273837,
-    "reward_area": 273837,
-    "yield_avg": 10415,
-    "yield": 2851905
-  },
-  {
-    "year": 104,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 251861,
-    "reward_area": 251861,
-    "yield_avg": 11284,
-    "yield": 2842094
-  },
-  {
-    "year": 102,
-    "type": "其他產品",
-    "category": "蜂王漿",
-    "plant_area": 0,
-    "reward_area": 0,
-    "yield_avg": 0,
-    "yield": 369100
-  },
-  {
-    "year": 102,
-    "type": "其他產品",
-    "category": "蜂蜜",
-    "plant_area": 0,
-    "reward_area": 0,
-    "yield_avg": 0,
-    "yield": 12758000
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 261,
-    "reward_area": 261,
-    "yield_avg": 22003,
-    "yield": 5736
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "文心蘭",
-    "plant_area": 249,
-    "reward_area": 249,
-    "yield_avg": 21436,
-    "yield": 5334
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 303,
-    "reward_area": 303,
-    "yield_avg": 19540,
-    "yield": 5913
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "百合",
-    "plant_area": 290,
-    "reward_area": 290,
-    "yield_avg": 20429,
-    "yield": 5919
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 121,
-    "reward_area": 121,
-    "yield_avg": 24266,
-    "yield": 2940
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "洋桔梗",
-    "plant_area": 114,
-    "reward_area": 114,
-    "yield_avg": 25108,
-    "yield": 2870
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 210,
-    "reward_area": 210,
-    "yield_avg": 17306,
-    "yield": 3640
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "唐昌蒲",
-    "plant_area": 197,
-    "reward_area": 197,
-    "yield_avg": 16935,
-    "yield": 3343
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 189,
-    "reward_area": 189,
-    "yield_avg": 22253,
-    "yield": 4214
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "火鶴",
-    "plant_area": 198,
-    "reward_area": 198,
-    "yield_avg": 21650,
-    "yield": 4284
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 222,
-    "reward_area": 222,
-    "yield_avg": 42813,
-    "yield": 9525
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "玫瑰",
-    "plant_area": 228,
-    "reward_area": 228,
-    "yield_avg": 41898,
-    "yield": 9543
-  },
-  {
-    "year": 103,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 747,
-    "reward_area": 747,
-    "yield_avg": 22847,
-    "yield": 17077
-  },
-  {
-    "year": 102,
-    "type": "花卉類",
-    "category": "菊花",
-    "plant_area": 745,
-    "reward_area": 745,
-    "yield_avg": 23748,
-    "yield": 17693
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5572,
-    "reward_area": 5263,
-    "yield_avg": 13827,
-    "yield": 72764
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "柿子",
-    "plant_area": 5451,
-    "reward_area": 5086,
-    "yield_avg": 12524,
-    "yield": 63694
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 44959,
-    "reward_area": 44511,
-    "yield_avg": 2728,
-    "yield": 121435
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "檳榔",
-    "plant_area": 45792,
-    "reward_area": 45329,
-    "yield_avg": 2737,
-    "yield": 124054
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 1607,
-    "reward_area": 1604,
-    "yield_avg": 9523,
-    "yield": 15271
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "李子",
-    "plant_area": 2339,
-    "reward_area": 2335,
-    "yield_avg": 9243,
-    "yield": 21582
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 11432,
-    "reward_area": 11417,
-    "yield_avg": 8905,
-    "yield": 101668
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "龍眼",
-    "plant_area": 11498,
-    "reward_area": 11477,
-    "yield_avg": 7927,
-    "yield": 90975
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 11138,
-    "reward_area": 11079,
-    "yield_avg": 8401,
-    "yield": 93078
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "荔枝",
-    "plant_area": 11388,
-    "reward_area": 11333,
-    "yield_avg": 8225,
-    "yield": 93221
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 4280,
-    "reward_area": 4256,
-    "yield_avg": 8156,
-    "yield": 34709
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "梅",
-    "plant_area": 4089,
-    "reward_area": 4064,
-    "yield_avg": 7556,
-    "yield": 30706
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 10545,
-    "reward_area": 10545,
-    "yield_avg": 20041,
-    "yield": 211330
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "西瓜",
-    "plant_area": 11193,
-    "reward_area": 10748,
-    "yield_avg": 19788,
-    "yield": 212690
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7128,
-    "reward_area": 7045,
-    "yield_avg": 23904,
-    "yield": 168392
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "番石榴",
-    "plant_area": 7171,
-    "reward_area": 7082,
-    "yield_avg": 25767,
-    "yield": 182479
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 15068,
-    "reward_area": 14833,
-    "yield_avg": 10311,
-    "yield": 152932
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "芒果",
-    "plant_area": 16509,
-    "reward_area": 16352,
-    "yield_avg": 13159,
-    "yield": 215168
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 4714,
-    "reward_area": 4602,
-    "yield_avg": 17904,
-    "yield": 82390
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "蓮霧",
-    "plant_area": 5113,
-    "reward_area": 4978,
-    "yield_avg": 19991,
-    "yield": 99526
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5575,
-    "reward_area": 5562,
-    "yield_avg": 24192,
-    "yield": 134549
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "梨",
-    "plant_area": 5786,
-    "reward_area": 5770,
-    "yield_avg": 18908,
-    "yield": 109105
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2307,
-    "reward_area": 2286,
-    "yield_avg": 12542,
-    "yield": 28677
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "桃子",
-    "plant_area": 2314,
-    "reward_area": 2300,
-    "yield_avg": 11805,
-    "yield": 27156
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2450,
-    "reward_area": 2295,
-    "yield_avg": 50452,
-    "yield": 115780
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "木瓜",
-    "plant_area": 2615,
-    "reward_area": 2469,
-    "yield_avg": 48129,
-    "yield": 118822
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2941,
-    "reward_area": 2901,
-    "yield_avg": 28332,
-    "yield": 82199
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "葡萄",
-    "plant_area": 2921,
-    "reward_area": 2912,
-    "yield_avg": 33394,
-    "yield": 97256
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 595,
-    "reward_area": 589,
-    "yield_avg": 16099,
-    "yield": 9481
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "葡萄柚",
-    "plant_area": 626,
-    "reward_area": 620,
-    "yield_avg": 14595,
-    "yield": 9044
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 2160,
-    "reward_area": 2023,
-    "yield_avg": 18053,
-    "yield": 36520
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "檸檬",
-    "plant_area": 1888,
-    "reward_area": 1820,
-    "yield_avg": 16940,
-    "yield": 30831
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3323,
-    "reward_area": 3238,
-    "yield_avg": 18384,
-    "yield": 59520
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "桶柑",
-    "plant_area": 3331,
-    "reward_area": 3265,
-    "yield_avg": 13751,
-    "yield": 44903
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 5841,
-    "reward_area": 5836,
-    "yield_avg": 23497,
-    "yield": 137136
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "椪柑",
-    "plant_area": 6038,
-    "reward_area": 6034,
-    "yield_avg": 22084,
-    "yield": 133253
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5392,
-    "reward_area": 5378,
-    "yield_avg": 30224,
-    "yield": 162533
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "柳橙",
-    "plant_area": 5628,
-    "reward_area": 5619,
-    "yield_avg": 28561,
-    "yield": 160496
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 10154,
-    "reward_area": 8950,
-    "yield_avg": 50976,
-    "yield": 456243
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "?梨",
-    "plant_area": 9797,
-    "reward_area": 8658,
-    "yield_avg": 47757,
-    "yield": 413465
-  },
-  {
-    "year": 103,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 13999,
-    "reward_area": 13291,
-    "yield_avg": 22565,
-    "yield": 299900
-  },
-  {
-    "year": 102,
-    "type": "果品類",
-    "category": "香蕉",
-    "plant_area": 13344,
-    "reward_area": 13042,
-    "yield_avg": 22334,
-    "yield": 291292
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 8532,
-    "reward_area": 8532,
-    "yield_avg": 7366,
-    "yield": 62847
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "毛豆",
-    "plant_area": 9293,
-    "reward_area": 9286,
-    "yield_avg": 7525,
-    "yield": 69877
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 827,
-    "reward_area": 826,
-    "yield_avg": 12065,
-    "yield": 9959
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "菜豆",
-    "plant_area": 853,
-    "reward_area": 853,
-    "yield_avg": 12037,
-    "yield": 10267
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 675,
-    "reward_area": 675,
-    "yield_avg": 7595,
-    "yield": 5128
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "豌豆",
-    "plant_area": 557,
-    "reward_area": 508,
-    "yield_avg": 8151,
-    "yield": 4137
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 2498,
-    "reward_area": 2498,
-    "yield_avg": 10871,
-    "yield": 27153
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "番椒",
-    "plant_area": 2471,
-    "reward_area": 2470,
-    "yield_avg": 10762,
-    "yield": 26586
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 5347,
-    "reward_area": 5245,
-    "yield_avg": 25940,
-    "yield": 136066
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "蕃茄",
-    "plant_area": 5634,
-    "reward_area": 5609,
-    "yield_avg": 25295,
-    "yield": 141881
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 2073,
-    "reward_area": 2072,
-    "yield_avg": 22572,
-    "yield": 46775
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "胡瓜",
-    "plant_area": 2089,
-    "reward_area": 2089,
-    "yield_avg": 21001,
-    "yield": 43851
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1303,
-    "reward_area": 1302,
-    "yield_avg": 20391,
-    "yield": 26543
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "茄子",
-    "plant_area": 1321,
-    "reward_area": 1320,
-    "yield_avg": 19088,
-    "yield": 25198
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 3271,
-    "reward_area": 3271,
-    "yield_avg": 24293,
-    "yield": 79451
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "花椰菜",
-    "plant_area": 3325,
-    "reward_area": 3325,
-    "yield_avg": 24374,
-    "yield": 81045
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 970,
-    "reward_area": 970,
-    "yield_avg": 20924,
-    "yield": 20289
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "芹菜",
-    "plant_area": 1017,
-    "reward_area": 1017,
-    "yield_avg": 20675,
-    "yield": 21019
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 2014,
-    "reward_area": 2014,
-    "yield_avg": 40267,
-    "yield": 81082
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "結球白菜",
-    "plant_area": 2051,
-    "reward_area": 2049,
-    "yield_avg": 39367,
-    "yield": 80653
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 4202,
-    "reward_area": 4202,
-    "yield_avg": 18542,
-    "yield": 77919
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "不結球白菜",
-    "plant_area": 4335,
-    "reward_area": 4335,
-    "yield_avg": 18418,
-    "yield": 79837
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 7893,
-    "reward_area": 7892,
-    "yield_avg": 47695,
-    "yield": 376417
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "甘藍",
-    "plant_area": 7570,
-    "reward_area": 7554,
-    "yield_avg": 46912,
-    "yield": 354390
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 26323,
-    "reward_area": 26278,
-    "yield_avg": 10549,
-    "yield": 277201
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "竹筍",
-    "plant_area": 25881,
-    "reward_area": 25825,
-    "yield_avg": 10342,
-    "yield": 267092
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 578,
-    "reward_area": 577,
-    "yield_avg": 5622,
-    "yield": 3243
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "蘆筍",
-    "plant_area": 609,
-    "reward_area": 609,
-    "yield_avg": 5475,
-    "yield": 3328
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 752,
-    "reward_area": 752,
-    "yield_avg": 29092,
-    "yield": 21865
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "薑",
-    "plant_area": 899,
-    "reward_area": 899,
-    "yield_avg": 29323,
-    "yield": 26351
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 5195,
-    "reward_area": 5195,
-    "yield_avg": 11452,
-    "yield": 59496
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "蒜頭",
-    "plant_area": 4507,
-    "reward_area": 4507,
-    "yield_avg": 9739,
-    "yield": 43894
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 760,
-    "reward_area": 760,
-    "yield_avg": 18648,
-    "yield": 14168
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "蒜",
-    "plant_area": 824,
-    "reward_area": 824,
-    "yield_avg": 17782,
-    "yield": 14647
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4706,
-    "reward_area": 4706,
-    "yield_avg": 22447,
-    "yield": 105647
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "蔥",
-    "plant_area": 4701,
-    "reward_area": 4691,
-    "yield_avg": 21911,
-    "yield": 102789
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 249,
-    "reward_area": 249,
-    "yield_avg": 12,
-    "yield": 3110
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "洋菇",
-    "plant_area": 242,
-    "reward_area": 242,
-    "yield_avg": 12,
-    "yield": 2921
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1188,
-    "reward_area": 1188,
-    "yield_avg": 54162,
-    "yield": 64325
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "洋蔥",
-    "plant_area": 1160,
-    "reward_area": 1160,
-    "yield_avg": 44169,
-    "yield": 51234
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2297,
-    "reward_area": 2297,
-    "yield_avg": 24503,
-    "yield": 56284
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "馬鈴薯",
-    "plant_area": 2071,
-    "reward_area": 2071,
-    "yield_avg": 24787,
-    "yield": 51327
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2710,
-    "reward_area": 2710,
-    "yield_avg": 48180,
-    "yield": 130583
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "胡蘿蔔",
-    "plant_area": 2474,
-    "reward_area": 2474,
-    "yield_avg": 45893,
-    "yield": 113524
-  },
-  {
-    "year": 103,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2650,
-    "reward_area": 2650,
-    "yield_avg": 38247,
-    "yield": 101349
-  },
-  {
-    "year": 102,
-    "type": "蔬菜類",
-    "category": "蘿蔔",
-    "plant_area": 2732,
-    "reward_area": 2729,
-    "yield_avg": 36873,
-    "yield": 100629
-  },
-  {
-    "year": 103,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 11906,
-    "reward_area": 11785,
-    "yield_avg": 1290,
-    "yield": 15200
-  },
-  {
-    "year": 102,
-    "type": "特用作物",
-    "category": "茶葉",
-    "plant_area": 11903,
-    "reward_area": 11818,
-    "yield_avg": 1245,
-    "yield": 14718
-  },
-  {
-    "year": 103,
-    "type": "特用作物",
-    "category": "山藥",
-    "plant_area": 478,
-    "reward_area": 478,
-    "yield_avg": 26769,
-    "yield": 12805
-  },
-  {
-    "year": 102,
-    "type": "特用作物",
-    "category": "山藥",
-    "plant_area": 473,
-    "reward_area": 473,
-    "yield_avg": 25060,
-    "yield": 11854
-  },
-  {
-    "year": 103,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 35,
-    "reward_area": 35,
-    "yield_avg": 14954,
-    "yield": 518
-  },
-  {
-    "year": 102,
-    "type": "特用作物",
-    "category": "樹薯",
-    "plant_area": 41,
-    "reward_area": 41,
-    "yield_avg": 14192,
-    "yield": 583
-  },
-  {
-    "year": 103,
-    "type": "特用作物",
-    "category": "菸葉",
-    "plant_area": 661,
-    "reward_area": 661,
-    "yield_avg": 2496,
-    "yield": 1650
-  },
-  {
-    "year": 102,
-    "type": "特用作物",
-    "category": "菸葉",
-    "plant_area": 681,
-    "reward_area": 681,
-    "yield_avg": 2498,
-    "yield": 1700
-  },
-  {
-    "year": 103,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 8635,
-    "reward_area": 7442,
-    "yield_avg": 67547,
-    "yield": 502706
-  },
-  {
-    "year": 102,
-    "type": "特用作物",
-    "category": "製糖甘蔗",
-    "plant_area": 8109,
-    "reward_area": 8085,
-    "yield_avg": 62528,
-    "yield": 505526
-  },
-  {
-    "year": 103,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 541,
-    "reward_area": 496,
-    "yield_avg": 79581,
-    "yield": 39463
-  },
-  {
-    "year": 102,
-    "type": "特用作物",
-    "category": "生食甘蔗",
-    "plant_area": 411,
-    "reward_area": 368,
-    "yield_avg": 76418,
-    "yield": 28112
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "小米",
-    "plant_area": 370,
-    "reward_area": 370,
-    "yield_avg": 1918,
-    "yield": 709
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "小米",
-    "plant_area": 313,
-    "reward_area": 313,
-    "yield_avg": 1841,
-    "yield": 576
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 21645,
-    "reward_area": 21644,
-    "yield_avg": 3165,
-    "yield": 68513
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "落花生",
-    "plant_area": 18610,
-    "reward_area": 18609,
-    "yield_avg": 2515,
-    "yield": 46809
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "甘藷",
-    "plant_area": 10128,
-    "reward_area": 10128,
-    "yield_avg": 23190,
-    "yield": 234883
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "甘藷",
-    "plant_area": 9662,
-    "reward_area": 9658,
-    "yield_avg": 22270,
-    "yield": 215093
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "食用玉米",
-    "plant_area": 13464,
-    "reward_area": 13461,
-    "yield_avg": 7697,
-    "yield": 103608
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "食用玉米",
-    "plant_area": 12661,
-    "reward_area": 12661,
-    "yield_avg": 7382,
-    "yield": 93465
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 13544,
-    "reward_area": 13544,
-    "yield_avg": 4592,
-    "yield": 62192
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "硬質(飼料)玉米",
-    "plant_area": 8350,
-    "reward_area": 8350,
-    "yield_avg": 4723,
-    "yield": 39440
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 5884,
-    "reward_area": 5884,
-    "yield_avg": 2000,
-    "yield": 11769
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "紅豆",
-    "plant_area": 5693,
-    "reward_area": 5693,
-    "yield_avg": 2083,
-    "yield": 11858
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 145,
-    "reward_area": 145,
-    "yield_avg": 1091,
-    "yield": 158
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "綠豆",
-    "plant_area": 268,
-    "reward_area": 268,
-    "yield_avg": 838,
-    "yield": 224
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 680,
-    "reward_area": 668,
-    "yield_avg": 1755,
-    "yield": 1173
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "大豆",
-    "plant_area": 471,
-    "reward_area": 469,
-    "yield_avg": 1873,
-    "yield": 879
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 2209,
-    "reward_area": 2209,
-    "yield_avg": 3084,
-    "yield": 6811
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "小麥",
-    "plant_area": 2078,
-    "reward_area": 2075,
-    "yield_avg": 1989,
-    "yield": 4127
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 2056,
-    "reward_area": 2038,
-    "yield_avg": 1081,
-    "yield": 2203
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "高粱",
-    "plant_area": 2021,
-    "reward_area": 1970,
-    "yield_avg": 1676,
-    "yield": 3300
-  },
-  {
-    "year": 103,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 271077,
-    "reward_area": 271051,
-    "yield_avg": 5163,
-    "yield": 1399392
-  },
-  {
-    "year": 102,
-    "type": "稻米及雜糧作物",
-    "category": "稻米",
-    "plant_area": 270264,
-    "reward_area": 270165,
-    "yield_avg": 4721,
-    "yield": 1275456
-  }
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 237,
+		"reward_area": 237,
+		"yield_avg": 21540,
+		"yield": 5112
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 247,
+		"reward_area": 247,
+		"yield_avg": 20709,
+		"yield": 5119
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 249,
+		"reward_area": 249,
+		"yield_avg": 21185,
+		"yield": 5282
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 266,
+		"reward_area": 266,
+		"yield_avg": 18766,
+		"yield": 4987
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 261,
+		"reward_area": 261,
+		"yield_avg": 21218,
+		"yield": 5532
+	},
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 352,
+		"reward_area": 352,
+		"yield_avg": 16557,
+		"yield": 5829
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 343,
+		"reward_area": 343,
+		"yield_avg": 16232,
+		"yield": 5567
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 325,
+		"reward_area": 325,
+		"yield_avg": 18422,
+		"yield": 5983
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 347,
+		"reward_area": 347,
+		"yield_avg": 18295,
+		"yield": 6340
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 322,
+		"reward_area": 322,
+		"yield_avg": 19280,
+		"yield": 6214
+	},
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 91,
+		"reward_area": 91,
+		"yield_avg": 23726,
+		"yield": 2167
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 91,
+		"reward_area": 91,
+		"yield_avg": 23603,
+		"yield": 2138
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 69,
+		"reward_area": 69,
+		"yield_avg": 23983,
+		"yield": 1649
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 102,
+		"reward_area": 102,
+		"yield_avg": 24229,
+		"yield": 2472
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 105,
+		"reward_area": 105,
+		"yield_avg": 24542,
+		"yield": 2581
+	},
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 117,
+		"reward_area": 117,
+		"yield_avg": 15535,
+		"yield": 1813
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 133,
+		"reward_area": 133,
+		"yield_avg": 15800,
+		"yield": 2108
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 144,
+		"reward_area": 144,
+		"yield_avg": 15710,
+		"yield": 2263
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 164,
+		"reward_area": 164,
+		"yield_avg": 16582,
+		"yield": 2719
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 189,
+		"reward_area": 189,
+		"yield_avg": 17140,
+		"yield": 3235
+	},
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 161,
+		"reward_area": 161,
+		"yield_avg": 20781,
+		"yield": 3336
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 161,
+		"reward_area": 161,
+		"yield_avg": 21078,
+		"yield": 3399
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 175,
+		"reward_area": 175,
+		"yield_avg": 21125,
+		"yield": 3694
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 177,
+		"reward_area": 177,
+		"yield_avg": 18765,
+		"yield": 3327
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 183,
+		"reward_area": 183,
+		"yield_avg": 21630,
+		"yield": 3968
+	},
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 178,
+		"reward_area": 178,
+		"yield_avg": 38779,
+		"yield": 6912
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 189,
+		"reward_area": 189,
+		"yield_avg": 39617,
+		"yield": 7484
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 189,
+		"reward_area": 189,
+		"yield_avg": 40002,
+		"yield": 7575
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 193,
+		"reward_area": 193,
+		"yield_avg": 39395,
+		"yield": 7601
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 203,
+		"reward_area": 203,
+		"yield_avg": 39976,
+		"yield": 8105
+	},
+	{
+		"year": 108,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 649,
+		"reward_area": 649,
+		"yield_avg": 23665,
+		"yield": 15352
+	},
+	{
+		"year": 107,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 637,
+		"reward_area": 637,
+		"yield_avg": 23112,
+		"yield": 14719
+	},
+	{
+		"year": 106,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 649,
+		"reward_area": 649,
+		"yield_avg": 23905,
+		"yield": 15503
+	},
+	{
+		"year": 105,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 654,
+		"reward_area": 654,
+		"yield_avg": 24577,
+		"yield": 16072
+	},
+	{
+		"year": 104,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 703,
+		"reward_area": 703,
+		"yield_avg": 24295,
+		"yield": 17081
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5119,
+		"reward_area": 5114,
+		"yield_avg": 7742,
+		"yield": 39595
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5251,
+		"reward_area": 5239,
+		"yield_avg": 16091,
+		"yield": 84301
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5348,
+		"reward_area": 5203,
+		"yield_avg": 12132,
+		"yield": 63115
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5448,
+		"reward_area": 5251,
+		"yield_avg": 11477,
+		"yield": 60266
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5459,
+		"reward_area": 5208,
+		"yield_avg": 11699,
+		"yield": 60929
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 41965,
+		"reward_area": 40920,
+		"yield_avg": 2536,
+		"yield": 103767
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 42510,
+		"reward_area": 41500,
+		"yield_avg": 2480,
+		"yield": 102918
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 42661,
+		"reward_area": 41802,
+		"yield_avg": 2444,
+		"yield": 102165
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 42940,
+		"reward_area": 42576,
+		"yield_avg": 2349,
+		"yield": 99992
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 43832,
+		"reward_area": 43226,
+		"yield_avg": 2618,
+		"yield": 113182
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 1446,
+		"reward_area": 1434,
+		"yield_avg": 5641,
+		"yield": 8090
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 1523,
+		"reward_area": 1502,
+		"yield_avg": 8711,
+		"yield": 13080
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 1569,
+		"reward_area": 1569,
+		"yield_avg": 8148,
+		"yield": 12787
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 1722,
+		"reward_area": 1720,
+		"yield_avg": 7980,
+		"yield": 13727
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 1575,
+		"reward_area": 1571,
+		"yield_avg": 8915,
+		"yield": 14003
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 10707,
+		"reward_area": 10690,
+		"yield_avg": 1707,
+		"yield": 18251
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 10975,
+		"reward_area": 10962,
+		"yield_avg": 7043,
+		"yield": 77198
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 10976,
+		"reward_area": 10963,
+		"yield_avg": 6253,
+		"yield": 68545
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 11182,
+		"reward_area": 11180,
+		"yield_avg": 6165,
+		"yield": 68927
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 11316,
+		"reward_area": 11304,
+		"yield_avg": 7536,
+		"yield": 85189
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 9884,
+		"reward_area": 9832,
+		"yield_avg": 2569,
+		"yield": 25255
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 9807,
+		"reward_area": 9788,
+		"yield_avg": 8037,
+		"yield": 78668
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 9984,
+		"reward_area": 9960,
+		"yield_avg": 6004,
+		"yield": 59796
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 10215,
+		"reward_area": 10212,
+		"yield_avg": 4561,
+		"yield": 46576
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 10350,
+		"reward_area": 10312,
+		"yield_avg": 8487,
+		"yield": 87515
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 3678,
+		"reward_area": 3653,
+		"yield_avg": 2264,
+		"yield": 8270
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 3786,
+		"reward_area": 3764,
+		"yield_avg": 4619,
+		"yield": 17382
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 3946,
+		"reward_area": 3922,
+		"yield_avg": 3968,
+		"yield": 15565
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 4220,
+		"reward_area": 4204,
+		"yield_avg": 3951,
+		"yield": 16613
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 4253,
+		"reward_area": 4229,
+		"yield_avg": 7678,
+		"yield": 32473
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 9061,
+		"reward_area": 9020,
+		"yield_avg": 19514,
+		"yield": 176004
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 10603,
+		"reward_area": 10591,
+		"yield_avg": 20852,
+		"yield": 220846
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 10441,
+		"reward_area": 10421,
+		"yield_avg": 20216,
+		"yield": 210661
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 10733,
+		"reward_area": 10717,
+		"yield_avg": 18768,
+		"yield": 201133
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 11233,
+		"reward_area": 10888,
+		"yield_avg": 19974,
+		"yield": 217466
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7582,
+		"reward_area": 7433,
+		"yield_avg": 24086,
+		"yield": 179038
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7442,
+		"reward_area": 7320,
+		"yield_avg": 24085,
+		"yield": 176304
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7326,
+		"reward_area": 7258,
+		"yield_avg": 23832,
+		"yield": 172982
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7159,
+		"reward_area": 7113,
+		"yield_avg": 18709,
+		"yield": 133075
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7165,
+		"reward_area": 7091,
+		"yield_avg": 21249,
+		"yield": 150687
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 16247,
+		"reward_area": 16037,
+		"yield_avg": 10128,
+		"yield": 162424
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 16109,
+		"reward_area": 15905,
+		"yield_avg": 9222,
+		"yield": 146673
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 16050,
+		"reward_area": 15863,
+		"yield_avg": 9491,
+		"yield": 150559
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 15683,
+		"reward_area": 15616,
+		"yield_avg": 6837,
+		"yield": 106766
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 15465,
+		"reward_area": 15205,
+		"yield_avg": 10934,
+		"yield": 166260
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 3255,
+		"reward_area": 3151,
+		"yield_avg": 18097,
+		"yield": 57014
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 3415,
+		"reward_area": 3310,
+		"yield_avg": 14785,
+		"yield": 48939
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 3542,
+		"reward_area": 3486,
+		"yield_avg": 14386,
+		"yield": 50158
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 3646,
+		"reward_area": 3574,
+		"yield_avg": 14180,
+		"yield": 50675
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 3849,
+		"reward_area": 3776,
+		"yield_avg": 17419,
+		"yield": 65775
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5197,
+		"reward_area": 5192,
+		"yield_avg": 17534,
+		"yield": 91032
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5275,
+		"reward_area": 5274,
+		"yield_avg": 22499,
+		"yield": 118649
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5320,
+		"reward_area": 5317,
+		"yield_avg": 22135,
+		"yield": 117694
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5396,
+		"reward_area": 5395,
+		"yield_avg": 20654,
+		"yield": 111424
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5465,
+		"reward_area": 5454,
+		"yield_avg": 23289,
+		"yield": 127016
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2046,
+		"reward_area": 2041,
+		"yield_avg": 7924,
+		"yield": 16171
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2075,
+		"reward_area": 2072,
+		"yield_avg": 10864,
+		"yield": 22506
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2133,
+		"reward_area": 2126,
+		"yield_avg": 10936,
+		"yield": 23254
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2185,
+		"reward_area": 2165,
+		"yield_avg": 10360,
+		"yield": 22430
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2278,
+		"reward_area": 2254,
+		"yield_avg": 11992,
+		"yield": 27026
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2743,
+		"reward_area": 2633,
+		"yield_avg": 46436,
+		"yield": 122272
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2681,
+		"reward_area": 2602,
+		"yield_avg": 48899,
+		"yield": 127244
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2563,
+		"reward_area": 2494,
+		"yield_avg": 50327,
+		"yield": 125521
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2635,
+		"reward_area": 2584,
+		"yield_avg": 40988,
+		"yield": 105921
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2640,
+		"reward_area": 2500,
+		"yield_avg": 46051,
+		"yield": 115115
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2715,
+		"reward_area": 2715,
+		"yield_avg": 32650,
+		"yield": 88635
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2786,
+		"reward_area": 2785,
+		"yield_avg": 35122,
+		"yield": 97799
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2829,
+		"reward_area": 2828,
+		"yield_avg": 32746,
+		"yield": 92602
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2877,
+		"reward_area": 2868,
+		"yield_avg": 27780,
+		"yield": 79680
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2956,
+		"reward_area": 2944,
+		"yield_avg": 29017,
+		"yield": 85435
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 540,
+		"reward_area": 523,
+		"yield_avg": 16397,
+		"yield": 8582
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 545,
+		"reward_area": 539,
+		"yield_avg": 16122,
+		"yield": 8682
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 553,
+		"reward_area": 552,
+		"yield_avg": 16046,
+		"yield": 8850
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 565,
+		"reward_area": 564,
+		"yield_avg": 14223,
+		"yield": 8026
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 559,
+		"reward_area": 558,
+		"yield_avg": 15309,
+		"yield": 8550
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 2828,
+		"reward_area": 2701,
+		"yield_avg": 17070,
+		"yield": 46105
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 2777,
+		"reward_area": 2655,
+		"yield_avg": 15606,
+		"yield": 41431
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 2737,
+		"reward_area": 2664,
+		"yield_avg": 13727,
+		"yield": 36575
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 2790,
+		"reward_area": 2721,
+		"yield_avg": 13337,
+		"yield": 36289
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 2644,
+		"reward_area": 2452,
+		"yield_avg": 15787,
+		"yield": 38705
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3110,
+		"reward_area": 3096,
+		"yield_avg": 17462,
+		"yield": 54069
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3123,
+		"reward_area": 3107,
+		"yield_avg": 17302,
+		"yield": 53764
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3163,
+		"reward_area": 3154,
+		"yield_avg": 18042,
+		"yield": 56910
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3175,
+		"reward_area": 3146,
+		"yield_avg": 16505,
+		"yield": 51924
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3175,
+		"reward_area": 3125,
+		"yield_avg": 16649,
+		"yield": 52023
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 5366,
+		"reward_area": 5364,
+		"yield_avg": 22747,
+		"yield": 122027
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 5457,
+		"reward_area": 5452,
+		"yield_avg": 22823,
+		"yield": 124440
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 5492,
+		"reward_area": 5491,
+		"yield_avg": 23136,
+		"yield": 127045
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 5572,
+		"reward_area": 5572,
+		"yield_avg": 19219,
+		"yield": 107086
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 5730,
+		"reward_area": 5729,
+		"yield_avg": 18862,
+		"yield": 108058
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5090,
+		"reward_area": 5042,
+		"yield_avg": 29321,
+		"yield": 147842
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5128,
+		"reward_area": 5077,
+		"yield_avg": 28049,
+		"yield": 142397
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5150,
+		"reward_area": 5131,
+		"yield_avg": 30009,
+		"yield": 153966
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5244,
+		"reward_area": 5240,
+		"yield_avg": 25065,
+		"yield": 131329
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5292,
+		"reward_area": 5277,
+		"yield_avg": 26433,
+		"yield": 139494
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 11676,
+		"reward_area": 8239,
+		"yield_avg": 52322,
+		"yield": 431084
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 11794,
+		"reward_area": 8428,
+		"yield_avg": 51270,
+		"yield": 432084
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 11453,
+		"reward_area": 10491,
+		"yield_avg": 52765,
+		"yield": 553531
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 10974,
+		"reward_area": 10379,
+		"yield_avg": 50789,
+		"yield": 527161
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 10516,
+		"reward_area": 9472,
+		"yield_avg": 52153,
+		"yield": 493998
+	},
+	{
+		"year": 108,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 16342,
+		"reward_area": 14914,
+		"yield_avg": 22974,
+		"yield": 342629
+	},
+	{
+		"year": 107,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 16639,
+		"reward_area": 15448,
+		"yield_avg": 23061,
+		"yield": 356238
+	},
+	{
+		"year": 106,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 16842,
+		"reward_area": 15804,
+		"yield_avg": 22527,
+		"yield": 356017
+	},
+	{
+		"year": 105,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 16016,
+		"reward_area": 15697,
+		"yield_avg": 16408,
+		"yield": 257559
+	},
+	{
+		"year": 104,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 14605,
+		"reward_area": 14093,
+		"yield_avg": 19447,
+		"yield": 274066
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 7686,
+		"reward_area": 7686,
+		"yield_avg": 9018,
+		"yield": 69309
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 9180,
+		"reward_area": 9180,
+		"yield_avg": 9203,
+		"yield": 84490
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 9045,
+		"reward_area": 9045,
+		"yield_avg": 8686,
+		"yield": 78570
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 8314,
+		"reward_area": 8288,
+		"yield_avg": 7455,
+		"yield": 61783
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 8242,
+		"reward_area": 8242,
+		"yield_avg": 7575,
+		"yield": 62428
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 855,
+		"reward_area": 855,
+		"yield_avg": 11690,
+		"yield": 9990
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 920,
+		"reward_area": 920,
+		"yield_avg": 11727,
+		"yield": 10789
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 900,
+		"reward_area": 900,
+		"yield_avg": 11881,
+		"yield": 10692
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 897,
+		"reward_area": 897,
+		"yield_avg": 10934,
+		"yield": 9807
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 889,
+		"reward_area": 889,
+		"yield_avg": 11410,
+		"yield": 10146
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 431,
+		"reward_area": 431,
+		"yield_avg": 9424,
+		"yield": 4060
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 417,
+		"reward_area": 417,
+		"yield_avg": 9259,
+		"yield": 3860
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 458,
+		"reward_area": 458,
+		"yield_avg": 8945,
+		"yield": 4096
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 553,
+		"reward_area": 553,
+		"yield_avg": 8136,
+		"yield": 4501
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 464,
+		"reward_area": 464,
+		"yield_avg": 8129,
+		"yield": 3773
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 1353,
+		"reward_area": 1144,
+		"yield_avg": 7885,
+		"yield": 9024
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 1298,
+		"reward_area": 1258,
+		"yield_avg": 7811,
+		"yield": 9823
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 1232,
+		"reward_area": 1246,
+		"yield_avg": 7860,
+		"yield": 9797
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 1256,
+		"reward_area": 1237,
+		"yield_avg": 7242,
+		"yield": 8957
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 1155,
+		"reward_area": 1164,
+		"yield_avg": 7322,
+		"yield": 8521
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 4326,
+		"reward_area": 4316,
+		"yield_avg": 24282,
+		"yield": 104794
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 4416,
+		"reward_area": 4415,
+		"yield_avg": 24481,
+		"yield": 108082
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 4486,
+		"reward_area": 4480,
+		"yield_avg": 24803,
+		"yield": 111125
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 5006,
+		"reward_area": 4997,
+		"yield_avg": 23804,
+		"yield": 118958
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 4906,
+		"reward_area": 4906,
+		"yield_avg": 25335,
+		"yield": 124288
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 1893,
+		"reward_area": 1893,
+		"yield_avg": 25874,
+		"yield": 48968
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 1987,
+		"reward_area": 1986,
+		"yield_avg": 25788,
+		"yield": 51224
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 2029,
+		"reward_area": 2029,
+		"yield_avg": 25268,
+		"yield": 51264
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 2115,
+		"reward_area": 2114,
+		"yield_avg": 22675,
+		"yield": 47926
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 2151,
+		"reward_area": 2150,
+		"yield_avg": 22104,
+		"yield": 47521
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1286,
+		"reward_area": 1286,
+		"yield_avg": 27127,
+		"yield": 34874
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1298,
+		"reward_area": 1298,
+		"yield_avg": 26635,
+		"yield": 34561
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1327,
+		"reward_area": 1326,
+		"yield_avg": 24143,
+		"yield": 32015
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1254,
+		"reward_area": 1253,
+		"yield_avg": 19659,
+		"yield": 24635
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1194,
+		"reward_area": 1194,
+		"yield_avg": 21376,
+		"yield": 25520
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 1538,
+		"reward_area": 1538,
+		"yield_avg": 25277,
+		"yield": 38882
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 1518,
+		"reward_area": 1518,
+		"yield_avg": 24095,
+		"yield": 36580
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 1616,
+		"reward_area": 1616,
+		"yield_avg": 24713,
+		"yield": 39945
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 1750,
+		"reward_area": 1749,
+		"yield_avg": 26901,
+		"yield": 47046
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 1679,
+		"reward_area": 1679,
+		"yield_avg": 27226,
+		"yield": 45718
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 1225,
+		"reward_area": 1225,
+		"yield_avg": 21167,
+		"yield": 25931
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 1275,
+		"reward_area": 1275,
+		"yield_avg": 20784,
+		"yield": 26498
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 1095,
+		"reward_area": 1095,
+		"yield_avg": 20608,
+		"yield": 22561
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 1022,
+		"reward_area": 1020,
+		"yield_avg": 20072,
+		"yield": 20476
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 1025,
+		"reward_area": 1025,
+		"yield_avg": 20547,
+		"yield": 21062
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 1807,
+		"reward_area": 1790,
+		"yield_avg": 40766,
+		"yield": 72955
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 2160,
+		"reward_area": 2154,
+		"yield_avg": 40507,
+		"yield": 87252
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 2144,
+		"reward_area": 2130,
+		"yield_avg": 39999,
+		"yield": 85212
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 2125,
+		"reward_area": 2118,
+		"yield_avg": 37826,
+		"yield": 80096
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 1955,
+		"reward_area": 1955,
+		"yield_avg": 40107,
+		"yield": 78421
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 5466,
+		"reward_area": 5466,
+		"yield_avg": 19445,
+		"yield": 106288
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 4958,
+		"reward_area": 4958,
+		"yield_avg": 18909,
+		"yield": 93754
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 5263,
+		"reward_area": 5263,
+		"yield_avg": 18687,
+		"yield": 98351
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 5020,
+		"reward_area": 5019,
+		"yield_avg": 18472,
+		"yield": 92717
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 4176,
+		"reward_area": 4176,
+		"yield_avg": 18187,
+		"yield": 75943
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 8297,
+		"reward_area": 8292,
+		"yield_avg": 51080,
+		"yield": 423567
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 8339,
+		"reward_area": 8336,
+		"yield_avg": 51817,
+		"yield": 431968
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 8790,
+		"reward_area": 8783,
+		"yield_avg": 48086,
+		"yield": 422320
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 8668,
+		"reward_area": 8661,
+		"yield_avg": 46147,
+		"yield": 399667
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 7415,
+		"reward_area": 7415,
+		"yield_avg": 48727,
+		"yield": 361317
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 27325,
+		"reward_area": 27151,
+		"yield_avg": 9133,
+		"yield": 247958
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 27477,
+		"reward_area": 27363,
+		"yield_avg": 9172,
+		"yield": 250989
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 27449,
+		"reward_area": 27048,
+		"yield_avg": 9535,
+		"yield": 257895
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 27354,
+		"reward_area": 26469,
+		"yield_avg": 9060,
+		"yield": 239800
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 27354,
+		"reward_area": 26659,
+		"yield_avg": 9282,
+		"yield": 247450
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 488,
+		"reward_area": 488,
+		"yield_avg": 5497,
+		"yield": 2681
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 471,
+		"reward_area": 469,
+		"yield_avg": 5507,
+		"yield": 2582
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 458,
+		"reward_area": 458,
+		"yield_avg": 5585,
+		"yield": 2556
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 450,
+		"reward_area": 443,
+		"yield_avg": 4561,
+		"yield": 2021
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 575,
+		"reward_area": 575,
+		"yield_avg": 5241,
+		"yield": 3014
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 863,
+		"reward_area": 885,
+		"yield_avg": 24717,
+		"yield": 21865
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 863,
+		"reward_area": 863,
+		"yield_avg": 25331,
+		"yield": 21865
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 906,
+		"reward_area": 906,
+		"yield_avg": 29074,
+		"yield": 26351
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 1010,
+		"reward_area": 1010,
+		"yield_avg": 21644,
+		"yield": 21865
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 863,
+		"reward_area": 863,
+		"yield_avg": 30542,
+		"yield": 26351
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 4712,
+		"reward_area": 4712,
+		"yield_avg": 8418,
+		"yield": 39667
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 4782,
+		"reward_area": 4782,
+		"yield_avg": 10878,
+		"yield": 52016
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 3781,
+		"reward_area": 3781,
+		"yield_avg": 9665,
+		"yield": 36543
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 4309,
+		"reward_area": 4309,
+		"yield_avg": 8045,
+		"yield": 34667
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 4148,
+		"reward_area": 4148,
+		"yield_avg": 11985,
+		"yield": 49716
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 405,
+		"reward_area": 405,
+		"yield_avg": 19325,
+		"yield": 7831
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 441,
+		"reward_area": 441,
+		"yield_avg": 18259,
+		"yield": 8059
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 412,
+		"reward_area": 412,
+		"yield_avg": 17468,
+		"yield": 7195
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 563,
+		"reward_area": 563,
+		"yield_avg": 17464,
+		"yield": 9830
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 692,
+		"reward_area": 692,
+		"yield_avg": 18813,
+		"yield": 13012
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4298,
+		"reward_area": 4298,
+		"yield_avg": 23690,
+		"yield": 101815
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4989,
+		"reward_area": 4989,
+		"yield_avg": 23492,
+		"yield": 117210
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4821,
+		"reward_area": 4821,
+		"yield_avg": 23208,
+		"yield": 111883
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4811,
+		"reward_area": 4811,
+		"yield_avg": 21042,
+		"yield": 101228
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4564,
+		"reward_area": 4564,
+		"yield_avg": 21286,
+		"yield": 97147
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 114115,
+		"reward_area": 114115,
+		"yield_avg": 40,
+		"yield": 4571
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 125477,
+		"reward_area": 125477,
+		"yield_avg": 40,
+		"yield": 5054
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 111238,
+		"reward_area": 111238,
+		"yield_avg": 44,
+		"yield": 4945
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 112752,
+		"reward_area": 112752,
+		"yield_avg": 44,
+		"yield": 4958
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 108825,
+		"reward_area": 108825,
+		"yield_avg": 44,
+		"yield": 4820
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1361,
+		"reward_area": 1361,
+		"yield_avg": 42589,
+		"yield": 57974
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1399,
+		"reward_area": 1399,
+		"yield_avg": 54154,
+		"yield": 75768
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1118,
+		"reward_area": 1118,
+		"yield_avg": 54688,
+		"yield": 61168
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1337,
+		"reward_area": 1337,
+		"yield_avg": 45186,
+		"yield": 60422
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1094,
+		"reward_area": 1094,
+		"yield_avg": 51770,
+		"yield": 56614
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2585,
+		"reward_area": 2585,
+		"yield_avg": 24161,
+		"yield": 62447
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2654,
+		"reward_area": 2654,
+		"yield_avg": 23466,
+		"yield": 62287
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2441,
+		"reward_area": 2441,
+		"yield_avg": 22502,
+		"yield": 54929
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2724,
+		"reward_area": 2724,
+		"yield_avg": 21305,
+		"yield": 58023
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2518,
+		"reward_area": 2518,
+		"yield_avg": 25515,
+		"yield": 64250
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2064,
+		"reward_area": 2064,
+		"yield_avg": 50344,
+		"yield": 103898
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2281,
+		"reward_area": 2281,
+		"yield_avg": 50149,
+		"yield": 114388
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2310,
+		"reward_area": 2310,
+		"yield_avg": 49541,
+		"yield": 114447
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2465,
+		"reward_area": 2460,
+		"yield_avg": 40233,
+		"yield": 98988
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2364,
+		"reward_area": 2364,
+		"yield_avg": 46083,
+		"yield": 108956
+	},
+	{
+		"year": 108,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2736,
+		"reward_area": 2733,
+		"yield_avg": 33712,
+		"yield": 92132
+	},
+	{
+		"year": 107,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2750,
+		"reward_area": 2749,
+		"yield_avg": 34558,
+		"yield": 95017
+	},
+	{
+		"year": 106,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2684,
+		"reward_area": 2684,
+		"yield_avg": 36177,
+		"yield": 97104
+	},
+	{
+		"year": 105,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2633,
+		"reward_area": 2632,
+		"yield_avg": 33505,
+		"yield": 88197
+	},
+	{
+		"year": 104,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2463,
+		"reward_area": 2458,
+		"yield_avg": 36506,
+		"yield": 89720
+	},
+	{
+		"year": 108,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 12203,
+		"reward_area": 11796,
+		"yield_avg": 1242,
+		"yield": 14656
+	},
+	{
+		"year": 107,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 12079,
+		"reward_area": 11660,
+		"yield_avg": 1264,
+		"yield": 14738
+	},
+	{
+		"year": 106,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 11765,
+		"reward_area": 11400,
+		"yield_avg": 1179,
+		"yield": 13443
+	},
+	{
+		"year": 105,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 11814,
+		"reward_area": 11606,
+		"yield_avg": 1122,
+		"yield": 13018
+	},
+	{
+		"year": 104,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 11780,
+		"reward_area": 11620,
+		"yield_avg": 1240,
+		"yield": 14405
+	},
+	{
+		"year": 108,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 48,
+		"reward_area": 45,
+		"yield_avg": 13608,
+		"yield": 616
+	},
+	{
+		"year": 107,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 49,
+		"reward_area": 45,
+		"yield_avg": 13419,
+		"yield": 609
+	},
+	{
+		"year": 106,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 42,
+		"reward_area": 41,
+		"yield_avg": 13919,
+		"yield": 565
+	},
+	{
+		"year": 105,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 42,
+		"reward_area": 39,
+		"yield_avg": 13532,
+		"yield": 525
+	},
+	{
+		"year": 104,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 39,
+		"reward_area": 37,
+		"yield_avg": 13999,
+		"yield": 525
+	},
+	{
+		"year": 106,
+		"type": "特用作物",
+		"category": "菸葉",
+		"plant_area": 624,
+		"reward_area": 624,
+		"yield_avg": 2137,
+		"yield": 1335
+	},
+	{
+		"year": 105,
+		"type": "特用作物",
+		"category": "菸葉",
+		"plant_area": 631,
+		"reward_area": 631,
+		"yield_avg": 2173,
+		"yield": 1371
+	},
+	{
+		"year": 104,
+		"type": "特用作物",
+		"category": "菸葉",
+		"plant_area": 641,
+		"reward_area": 641,
+		"yield_avg": 2504,
+		"yield": 1604
+	},
+	{
+		"year": 108,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 8093,
+		"reward_area": 8086,
+		"yield_avg": 65863,
+		"yield": 532569
+	},
+	{
+		"year": 107,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 8525,
+		"reward_area": 8513,
+		"yield_avg": 67988,
+		"yield": 578778
+	},
+	{
+		"year": 106,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 7595,
+		"reward_area": 7586,
+		"yield_avg": 59998,
+		"yield": 455144
+	},
+	{
+		"year": 105,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 9038,
+		"reward_area": 8945,
+		"yield_avg": 58898,
+		"yield": 526843
+	},
+	{
+		"year": 104,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 8898,
+		"reward_area": 8764,
+		"yield_avg": 70546,
+		"yield": 618264
+	},
+	{
+		"year": 108,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 653,
+		"reward_area": 567,
+		"yield_avg": 75387,
+		"yield": 42778
+	},
+	{
+		"year": 107,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 649,
+		"reward_area": 620,
+		"yield_avg": 69517,
+		"yield": 43093
+	},
+	{
+		"year": 106,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 677,
+		"reward_area": 656,
+		"yield_avg": 70939,
+		"yield": 46561
+	},
+	{
+		"year": 105,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 729,
+		"reward_area": 697,
+		"yield_avg": 66839,
+		"yield": 46602
+	},
+	{
+		"year": 104,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 730,
+		"reward_area": 702,
+		"yield_avg": 66484,
+		"yield": 46647
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 19452,
+		"reward_area": 19452,
+		"yield_avg": 2735,
+		"yield": 53198
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 21184,
+		"reward_area": 21183,
+		"yield_avg": 2808,
+		"yield": 59471
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 21596,
+		"reward_area": 21595,
+		"yield_avg": 2931,
+		"yield": 63287
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 21430,
+		"reward_area": 21430,
+		"yield_avg": 2885,
+		"yield": 61832
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 20743,
+		"reward_area": 20743,
+		"yield_avg": 2993,
+		"yield": 62083
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 15210,
+		"reward_area": 15207,
+		"yield_avg": 4836,
+		"yield": 73540
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 14562,
+		"reward_area": 14562,
+		"yield_avg": 4716,
+		"yield": 68668
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 15171,
+		"reward_area": 15170,
+		"yield_avg": 4941,
+		"yield": 74952
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 16157,
+		"reward_area": 16147,
+		"yield_avg": 4032,
+		"yield": 65105
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 15135,
+		"reward_area": 15134,
+		"yield_avg": 4539,
+		"yield": 68694
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 6369,
+		"reward_area": 6365,
+		"yield_avg": 1907,
+		"yield": 12136
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 6627,
+		"reward_area": 6621,
+		"yield_avg": 1985,
+		"yield": 13145
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 6199,
+		"reward_area": 6198,
+		"yield_avg": 1878,
+		"yield": 11641
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 6305,
+		"reward_area": 6301,
+		"yield_avg": 1903,
+		"yield": 11992
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 6089,
+		"reward_area": 6089,
+		"yield_avg": 2096,
+		"yield": 12765
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 89,
+		"reward_area": 89,
+		"yield_avg": 794,
+		"yield": 70
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 348,
+		"reward_area": 348,
+		"yield_avg": 788,
+		"yield": 274
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 393,
+		"reward_area": 366,
+		"yield_avg": 1032,
+		"yield": 378
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 174,
+		"reward_area": 174,
+		"yield_avg": 1074,
+		"yield": 187
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 129,
+		"reward_area": 129,
+		"yield_avg": 1134,
+		"yield": 146
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 3405,
+		"reward_area": 3405,
+		"yield_avg": 1400,
+		"yield": 4769
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 3023,
+		"reward_area": 3021,
+		"yield_avg": 1457,
+		"yield": 4404
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 3188,
+		"reward_area": 3182,
+		"yield_avg": 1469,
+		"yield": 4674
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 2177,
+		"reward_area": 2105,
+		"yield_avg": 1454,
+		"yield": 3061
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 1652,
+		"reward_area": 1648,
+		"yield_avg": 1653,
+		"yield": 2725
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 2574,
+		"reward_area": 2560,
+		"yield_avg": 1887,
+		"yield": 4831
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 2531,
+		"reward_area": 2531,
+		"yield_avg": 2409,
+		"yield": 6096
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 2394,
+		"reward_area": 2392,
+		"yield_avg": 2249,
+		"yield": 5379
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 2412,
+		"reward_area": 2345,
+		"yield_avg": 1552,
+		"yield": 3638
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 3116,
+		"reward_area": 3116,
+		"yield_avg": 2354,
+		"yield": 7335
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 1793,
+		"reward_area": 1793,
+		"yield_avg": 1265,
+		"yield": 2268
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 1348,
+		"reward_area": 1348,
+		"yield_avg": 1728,
+		"yield": 2329
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 1969,
+		"reward_area": 1969,
+		"yield_avg": 1038,
+		"yield": 2043
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 2027,
+		"reward_area": 2027,
+		"yield_avg": 780,
+		"yield": 1582
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 1882,
+		"reward_area": 1882,
+		"yield_avg": 1548,
+		"yield": 2913
+	},
+	{
+		"year": 108,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 270066,
+		"reward_area": 270066,
+		"yield_avg": 11921,
+		"yield": 3219462
+	},
+	{
+		"year": 107,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 271506,
+		"reward_area": 271506,
+		"yield_avg": 12933,
+		"yield": 3511438
+	},
+	{
+		"year": 106,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 274677,
+		"reward_area": 274677,
+		"yield_avg": 11468,
+		"yield": 3150120
+	},
+	{
+		"year": 105,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 273837,
+		"reward_area": 273837,
+		"yield_avg": 10415,
+		"yield": 2851905
+	},
+	{
+		"year": 104,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 251861,
+		"reward_area": 251861,
+		"yield_avg": 11284,
+		"yield": 2842094
+	},
+	{
+		"year": 102,
+		"type": "其他產品",
+		"category": "蜂王漿",
+		"plant_area": 0,
+		"reward_area": 0,
+		"yield_avg": 0,
+		"yield": 369100
+	},
+	{
+		"year": 102,
+		"type": "其他產品",
+		"category": "蜂蜜",
+		"plant_area": 0,
+		"reward_area": 0,
+		"yield_avg": 0,
+		"yield": 12758000
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 261,
+		"reward_area": 261,
+		"yield_avg": 22003,
+		"yield": 5736
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "文心蘭",
+		"plant_area": 249,
+		"reward_area": 249,
+		"yield_avg": 21436,
+		"yield": 5334
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 303,
+		"reward_area": 303,
+		"yield_avg": 19540,
+		"yield": 5913
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "百合",
+		"plant_area": 290,
+		"reward_area": 290,
+		"yield_avg": 20429,
+		"yield": 5919
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 121,
+		"reward_area": 121,
+		"yield_avg": 24266,
+		"yield": 2940
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "洋桔梗",
+		"plant_area": 114,
+		"reward_area": 114,
+		"yield_avg": 25108,
+		"yield": 2870
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 210,
+		"reward_area": 210,
+		"yield_avg": 17306,
+		"yield": 3640
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "唐昌蒲",
+		"plant_area": 197,
+		"reward_area": 197,
+		"yield_avg": 16935,
+		"yield": 3343
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 189,
+		"reward_area": 189,
+		"yield_avg": 22253,
+		"yield": 4214
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "火鶴",
+		"plant_area": 198,
+		"reward_area": 198,
+		"yield_avg": 21650,
+		"yield": 4284
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 222,
+		"reward_area": 222,
+		"yield_avg": 42813,
+		"yield": 9525
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "玫瑰",
+		"plant_area": 228,
+		"reward_area": 228,
+		"yield_avg": 41898,
+		"yield": 9543
+	},
+	{
+		"year": 103,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 747,
+		"reward_area": 747,
+		"yield_avg": 22847,
+		"yield": 17077
+	},
+	{
+		"year": 102,
+		"type": "花卉類",
+		"category": "菊花",
+		"plant_area": 745,
+		"reward_area": 745,
+		"yield_avg": 23748,
+		"yield": 17693
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5572,
+		"reward_area": 5263,
+		"yield_avg": 13827,
+		"yield": 72764
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "柿子",
+		"plant_area": 5451,
+		"reward_area": 5086,
+		"yield_avg": 12524,
+		"yield": 63694
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 44959,
+		"reward_area": 44511,
+		"yield_avg": 2728,
+		"yield": 121435
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "檳榔",
+		"plant_area": 45792,
+		"reward_area": 45329,
+		"yield_avg": 2737,
+		"yield": 124054
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 1607,
+		"reward_area": 1604,
+		"yield_avg": 9523,
+		"yield": 15271
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "李子",
+		"plant_area": 2339,
+		"reward_area": 2335,
+		"yield_avg": 9243,
+		"yield": 21582
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 11432,
+		"reward_area": 11417,
+		"yield_avg": 8905,
+		"yield": 101668
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "龍眼",
+		"plant_area": 11498,
+		"reward_area": 11477,
+		"yield_avg": 7927,
+		"yield": 90975
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 11138,
+		"reward_area": 11079,
+		"yield_avg": 8401,
+		"yield": 93078
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "荔枝",
+		"plant_area": 11388,
+		"reward_area": 11333,
+		"yield_avg": 8225,
+		"yield": 93221
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 4280,
+		"reward_area": 4256,
+		"yield_avg": 8156,
+		"yield": 34709
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "梅",
+		"plant_area": 4089,
+		"reward_area": 4064,
+		"yield_avg": 7556,
+		"yield": 30706
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 10545,
+		"reward_area": 10545,
+		"yield_avg": 20041,
+		"yield": 211330
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "西瓜",
+		"plant_area": 11193,
+		"reward_area": 10748,
+		"yield_avg": 19788,
+		"yield": 212690
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7128,
+		"reward_area": 7045,
+		"yield_avg": 23904,
+		"yield": 168392
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "番石榴",
+		"plant_area": 7171,
+		"reward_area": 7082,
+		"yield_avg": 25767,
+		"yield": 182479
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 15068,
+		"reward_area": 14833,
+		"yield_avg": 10311,
+		"yield": 152932
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "芒果",
+		"plant_area": 16509,
+		"reward_area": 16352,
+		"yield_avg": 13159,
+		"yield": 215168
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 4714,
+		"reward_area": 4602,
+		"yield_avg": 17904,
+		"yield": 82390
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "蓮霧",
+		"plant_area": 5113,
+		"reward_area": 4978,
+		"yield_avg": 19991,
+		"yield": 99526
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5575,
+		"reward_area": 5562,
+		"yield_avg": 24192,
+		"yield": 134549
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "梨",
+		"plant_area": 5786,
+		"reward_area": 5770,
+		"yield_avg": 18908,
+		"yield": 109105
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2307,
+		"reward_area": 2286,
+		"yield_avg": 12542,
+		"yield": 28677
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "桃子",
+		"plant_area": 2314,
+		"reward_area": 2300,
+		"yield_avg": 11805,
+		"yield": 27156
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2450,
+		"reward_area": 2295,
+		"yield_avg": 50452,
+		"yield": 115780
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "木瓜",
+		"plant_area": 2615,
+		"reward_area": 2469,
+		"yield_avg": 48129,
+		"yield": 118822
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2941,
+		"reward_area": 2901,
+		"yield_avg": 28332,
+		"yield": 82199
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "葡萄",
+		"plant_area": 2921,
+		"reward_area": 2912,
+		"yield_avg": 33394,
+		"yield": 97256
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 595,
+		"reward_area": 589,
+		"yield_avg": 16099,
+		"yield": 9481
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "葡萄柚",
+		"plant_area": 626,
+		"reward_area": 620,
+		"yield_avg": 14595,
+		"yield": 9044
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 2160,
+		"reward_area": 2023,
+		"yield_avg": 18053,
+		"yield": 36520
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "檸檬",
+		"plant_area": 1888,
+		"reward_area": 1820,
+		"yield_avg": 16940,
+		"yield": 30831
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3323,
+		"reward_area": 3238,
+		"yield_avg": 18384,
+		"yield": 59520
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "桶柑",
+		"plant_area": 3331,
+		"reward_area": 3265,
+		"yield_avg": 13751,
+		"yield": 44903
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 5841,
+		"reward_area": 5836,
+		"yield_avg": 23497,
+		"yield": 137136
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "椪柑",
+		"plant_area": 6038,
+		"reward_area": 6034,
+		"yield_avg": 22084,
+		"yield": 133253
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5392,
+		"reward_area": 5378,
+		"yield_avg": 30224,
+		"yield": 162533
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "柳橙",
+		"plant_area": 5628,
+		"reward_area": 5619,
+		"yield_avg": 28561,
+		"yield": 160496
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 10154,
+		"reward_area": 8950,
+		"yield_avg": 50976,
+		"yield": 456243
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "?梨",
+		"plant_area": 9797,
+		"reward_area": 8658,
+		"yield_avg": 47757,
+		"yield": 413465
+	},
+	{
+		"year": 103,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 13999,
+		"reward_area": 13291,
+		"yield_avg": 22565,
+		"yield": 299900
+	},
+	{
+		"year": 102,
+		"type": "果品類",
+		"category": "香蕉",
+		"plant_area": 13344,
+		"reward_area": 13042,
+		"yield_avg": 22334,
+		"yield": 291292
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 8532,
+		"reward_area": 8532,
+		"yield_avg": 7366,
+		"yield": 62847
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "毛豆",
+		"plant_area": 9293,
+		"reward_area": 9286,
+		"yield_avg": 7525,
+		"yield": 69877
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 827,
+		"reward_area": 826,
+		"yield_avg": 12065,
+		"yield": 9959
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "菜豆",
+		"plant_area": 853,
+		"reward_area": 853,
+		"yield_avg": 12037,
+		"yield": 10267
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 675,
+		"reward_area": 675,
+		"yield_avg": 7595,
+		"yield": 5128
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "豌豆",
+		"plant_area": 557,
+		"reward_area": 508,
+		"yield_avg": 8151,
+		"yield": 4137
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 2498,
+		"reward_area": 2498,
+		"yield_avg": 10871,
+		"yield": 27153
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "番椒",
+		"plant_area": 2471,
+		"reward_area": 2470,
+		"yield_avg": 10762,
+		"yield": 26586
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 5347,
+		"reward_area": 5245,
+		"yield_avg": 25940,
+		"yield": 136066
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "蕃茄",
+		"plant_area": 5634,
+		"reward_area": 5609,
+		"yield_avg": 25295,
+		"yield": 141881
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 2073,
+		"reward_area": 2072,
+		"yield_avg": 22572,
+		"yield": 46775
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "胡瓜",
+		"plant_area": 2089,
+		"reward_area": 2089,
+		"yield_avg": 21001,
+		"yield": 43851
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1303,
+		"reward_area": 1302,
+		"yield_avg": 20391,
+		"yield": 26543
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "茄子",
+		"plant_area": 1321,
+		"reward_area": 1320,
+		"yield_avg": 19088,
+		"yield": 25198
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 3271,
+		"reward_area": 3271,
+		"yield_avg": 24293,
+		"yield": 79451
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "花椰菜",
+		"plant_area": 3325,
+		"reward_area": 3325,
+		"yield_avg": 24374,
+		"yield": 81045
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 970,
+		"reward_area": 970,
+		"yield_avg": 20924,
+		"yield": 20289
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "芹菜",
+		"plant_area": 1017,
+		"reward_area": 1017,
+		"yield_avg": 20675,
+		"yield": 21019
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 2014,
+		"reward_area": 2014,
+		"yield_avg": 40267,
+		"yield": 81082
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "結球白菜",
+		"plant_area": 2051,
+		"reward_area": 2049,
+		"yield_avg": 39367,
+		"yield": 80653
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 4202,
+		"reward_area": 4202,
+		"yield_avg": 18542,
+		"yield": 77919
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "不結球白菜",
+		"plant_area": 4335,
+		"reward_area": 4335,
+		"yield_avg": 18418,
+		"yield": 79837
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 7893,
+		"reward_area": 7892,
+		"yield_avg": 47695,
+		"yield": 376417
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "甘藍",
+		"plant_area": 7570,
+		"reward_area": 7554,
+		"yield_avg": 46912,
+		"yield": 354390
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 26323,
+		"reward_area": 26278,
+		"yield_avg": 10549,
+		"yield": 277201
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "竹筍",
+		"plant_area": 25881,
+		"reward_area": 25825,
+		"yield_avg": 10342,
+		"yield": 267092
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 578,
+		"reward_area": 577,
+		"yield_avg": 5622,
+		"yield": 3243
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "蘆筍",
+		"plant_area": 609,
+		"reward_area": 609,
+		"yield_avg": 5475,
+		"yield": 3328
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 752,
+		"reward_area": 752,
+		"yield_avg": 29092,
+		"yield": 21865
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "薑",
+		"plant_area": 899,
+		"reward_area": 899,
+		"yield_avg": 29323,
+		"yield": 26351
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 5195,
+		"reward_area": 5195,
+		"yield_avg": 11452,
+		"yield": 59496
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "蒜頭",
+		"plant_area": 4507,
+		"reward_area": 4507,
+		"yield_avg": 9739,
+		"yield": 43894
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 760,
+		"reward_area": 760,
+		"yield_avg": 18648,
+		"yield": 14168
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "蒜",
+		"plant_area": 824,
+		"reward_area": 824,
+		"yield_avg": 17782,
+		"yield": 14647
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4706,
+		"reward_area": 4706,
+		"yield_avg": 22447,
+		"yield": 105647
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "蔥",
+		"plant_area": 4701,
+		"reward_area": 4691,
+		"yield_avg": 21911,
+		"yield": 102789
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 249,
+		"reward_area": 249,
+		"yield_avg": 12,
+		"yield": 3110
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "洋菇",
+		"plant_area": 242,
+		"reward_area": 242,
+		"yield_avg": 12,
+		"yield": 2921
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1188,
+		"reward_area": 1188,
+		"yield_avg": 54162,
+		"yield": 64325
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "洋蔥",
+		"plant_area": 1160,
+		"reward_area": 1160,
+		"yield_avg": 44169,
+		"yield": 51234
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2297,
+		"reward_area": 2297,
+		"yield_avg": 24503,
+		"yield": 56284
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "馬鈴薯",
+		"plant_area": 2071,
+		"reward_area": 2071,
+		"yield_avg": 24787,
+		"yield": 51327
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2710,
+		"reward_area": 2710,
+		"yield_avg": 48180,
+		"yield": 130583
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "胡蘿蔔",
+		"plant_area": 2474,
+		"reward_area": 2474,
+		"yield_avg": 45893,
+		"yield": 113524
+	},
+	{
+		"year": 103,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2650,
+		"reward_area": 2650,
+		"yield_avg": 38247,
+		"yield": 101349
+	},
+	{
+		"year": 102,
+		"type": "蔬菜類",
+		"category": "蘿蔔",
+		"plant_area": 2732,
+		"reward_area": 2729,
+		"yield_avg": 36873,
+		"yield": 100629
+	},
+	{
+		"year": 103,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 11906,
+		"reward_area": 11785,
+		"yield_avg": 1290,
+		"yield": 15200
+	},
+	{
+		"year": 102,
+		"type": "特用作物",
+		"category": "茶葉",
+		"plant_area": 11903,
+		"reward_area": 11818,
+		"yield_avg": 1245,
+		"yield": 14718
+	},
+	{
+		"year": 103,
+		"type": "特用作物",
+		"category": "山藥",
+		"plant_area": 478,
+		"reward_area": 478,
+		"yield_avg": 26769,
+		"yield": 12805
+	},
+	{
+		"year": 102,
+		"type": "特用作物",
+		"category": "山藥",
+		"plant_area": 473,
+		"reward_area": 473,
+		"yield_avg": 25060,
+		"yield": 11854
+	},
+	{
+		"year": 103,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 35,
+		"reward_area": 35,
+		"yield_avg": 14954,
+		"yield": 518
+	},
+	{
+		"year": 102,
+		"type": "特用作物",
+		"category": "樹薯",
+		"plant_area": 41,
+		"reward_area": 41,
+		"yield_avg": 14192,
+		"yield": 583
+	},
+	{
+		"year": 103,
+		"type": "特用作物",
+		"category": "菸葉",
+		"plant_area": 661,
+		"reward_area": 661,
+		"yield_avg": 2496,
+		"yield": 1650
+	},
+	{
+		"year": 102,
+		"type": "特用作物",
+		"category": "菸葉",
+		"plant_area": 681,
+		"reward_area": 681,
+		"yield_avg": 2498,
+		"yield": 1700
+	},
+	{
+		"year": 103,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 8635,
+		"reward_area": 7442,
+		"yield_avg": 67547,
+		"yield": 502706
+	},
+	{
+		"year": 102,
+		"type": "特用作物",
+		"category": "製糖甘蔗",
+		"plant_area": 8109,
+		"reward_area": 8085,
+		"yield_avg": 62528,
+		"yield": 505526
+	},
+	{
+		"year": 103,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 541,
+		"reward_area": 496,
+		"yield_avg": 79581,
+		"yield": 39463
+	},
+	{
+		"year": 102,
+		"type": "特用作物",
+		"category": "生食甘蔗",
+		"plant_area": 411,
+		"reward_area": 368,
+		"yield_avg": 76418,
+		"yield": 28112
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "小米",
+		"plant_area": 370,
+		"reward_area": 370,
+		"yield_avg": 1918,
+		"yield": 709
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "小米",
+		"plant_area": 313,
+		"reward_area": 313,
+		"yield_avg": 1841,
+		"yield": 576
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 21645,
+		"reward_area": 21644,
+		"yield_avg": 3165,
+		"yield": 68513
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "落花生",
+		"plant_area": 18610,
+		"reward_area": 18609,
+		"yield_avg": 2515,
+		"yield": 46809
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "甘藷",
+		"plant_area": 10128,
+		"reward_area": 10128,
+		"yield_avg": 23190,
+		"yield": 234883
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "甘藷",
+		"plant_area": 9662,
+		"reward_area": 9658,
+		"yield_avg": 22270,
+		"yield": 215093
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "食用玉米",
+		"plant_area": 13464,
+		"reward_area": 13461,
+		"yield_avg": 7697,
+		"yield": 103608
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "食用玉米",
+		"plant_area": 12661,
+		"reward_area": 12661,
+		"yield_avg": 7382,
+		"yield": 93465
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 13544,
+		"reward_area": 13544,
+		"yield_avg": 4592,
+		"yield": 62192
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "硬質(飼料)玉米",
+		"plant_area": 8350,
+		"reward_area": 8350,
+		"yield_avg": 4723,
+		"yield": 39440
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 5884,
+		"reward_area": 5884,
+		"yield_avg": 2000,
+		"yield": 11769
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "紅豆",
+		"plant_area": 5693,
+		"reward_area": 5693,
+		"yield_avg": 2083,
+		"yield": 11858
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 145,
+		"reward_area": 145,
+		"yield_avg": 1091,
+		"yield": 158
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "綠豆",
+		"plant_area": 268,
+		"reward_area": 268,
+		"yield_avg": 838,
+		"yield": 224
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 680,
+		"reward_area": 668,
+		"yield_avg": 1755,
+		"yield": 1173
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "大豆",
+		"plant_area": 471,
+		"reward_area": 469,
+		"yield_avg": 1873,
+		"yield": 879
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 2209,
+		"reward_area": 2209,
+		"yield_avg": 3084,
+		"yield": 6811
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "小麥",
+		"plant_area": 2078,
+		"reward_area": 2075,
+		"yield_avg": 1989,
+		"yield": 4127
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 2056,
+		"reward_area": 2038,
+		"yield_avg": 1081,
+		"yield": 2203
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "高粱",
+		"plant_area": 2021,
+		"reward_area": 1970,
+		"yield_avg": 1676,
+		"yield": 3300
+	},
+	{
+		"year": 103,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 271077,
+		"reward_area": 271051,
+		"yield_avg": 5163,
+		"yield": 1399392
+	},
+	{
+		"year": 102,
+		"type": "稻米及雜糧作物",
+		"category": "稻米",
+		"plant_area": 270264,
+		"reward_area": 270165,
+		"yield_avg": 4721,
+		"yield": 1275456
+	}
 ]

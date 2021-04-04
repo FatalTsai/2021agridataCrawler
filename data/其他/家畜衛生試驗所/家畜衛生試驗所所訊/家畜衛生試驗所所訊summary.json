@@ -1,1 +1,17 @@
-{'ID': 'B65', 'Title': '家畜衛生試驗所所訊', 'Organ': '家畜衛生試驗所', 'Catalog': '其他', 'Counter': 5275, 'Lnkcnt': 46, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：刊號、摘要、連結、名稱、下載檔案等欄位資訊。', 'sourceURL': 'http://www.nvri.gov.tw/main.aspx?pid=ynJ4xAOrlBE%3D', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Nvri/Newspaper.aspx'}
+{
+	"ID": "B65",
+	"Title": "家畜衛生試驗所所訊",
+	"Organ": "家畜衛生試驗所",
+	"Catalog": "其他",
+	"Counter": 5275,
+	"Lnkcnt": 46,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：刊號、摘要、連結、名稱、下載檔案等欄位資訊。",
+	"sourceURL": "http://www.nvri.gov.tw/main.aspx?pid=ynJ4xAOrlBE%3D",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Nvri/Newspaper.aspx"
+}

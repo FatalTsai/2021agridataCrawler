@@ -1,1 +1,17 @@
-{'ID': '107', 'Title': '高雄區農業改良場休耕地復耕生產技術服務團名冊', 'Organ': '高雄區農業改良場', 'Catalog': '農民輔導', 'Counter': 12726, 'Lnkcnt': 13249, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：姓名、單位、職稱、聮絡電話、電子信箱、責任分配等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=107'}
+{
+	"ID": "107",
+	"Title": "高雄區農業改良場休耕地復耕生產技術服務團名冊",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "農民輔導",
+	"Counter": 12726,
+	"Lnkcnt": 13249,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：姓名、單位、職稱、聮絡電話、電子信箱、責任分配等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=107"
+}

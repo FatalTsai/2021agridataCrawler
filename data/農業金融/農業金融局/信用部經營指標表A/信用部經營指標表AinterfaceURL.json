@@ -1,7 +1,7 @@
 [
-  {
-    "ReportName": "信用部經營指標表A_20200917",
-    "LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=FR001WA.xls",
-    "CDate": "20200917182655"
-  }
+	{
+		"ReportName": "信用部經營指標表A_20200917",
+		"LinkUrl": "https://data.coa.gov.tw/Service/DownLoadBoafFile.aspx?FileName=FR001WA.xls",
+		"CDate": "20200917182655"
+	}
 ]

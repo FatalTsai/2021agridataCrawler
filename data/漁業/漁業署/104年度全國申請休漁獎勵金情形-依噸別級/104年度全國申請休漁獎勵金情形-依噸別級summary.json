@@ -1,1 +1,17 @@
-{'ID': '720', 'Title': '104年度全國申請休漁獎勵金情形-依噸別級', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 9498, 'Lnkcnt': 288, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包含：申請年度、噸級別、休漁獎勵艘數、休漁獎勵金額(元)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/OpenData/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=010'}
+{
+	"ID": "720",
+	"Title": "104年度全國申請休漁獎勵金情形-依噸別級",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 9498,
+	"Lnkcnt": 288,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包含：申請年度、噸級別、休漁獎勵艘數、休漁獎勵金額(元)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/OpenData/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=010"
+}

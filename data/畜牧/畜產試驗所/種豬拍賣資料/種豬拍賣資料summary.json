@@ -1,1 +1,17 @@
-{'ID': '736', 'Title': '種豬拍賣資料', 'Organ': '畜產試驗所', 'Catalog': '畜牧', 'Counter': 5797, 'Lnkcnt': 1296, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每半年', 'description': '提供資料包含：個體系統流水號、檢定期別系統代號、個體編號、品種、耳號、出生日期、性別、牧場代號、父登錄號、母登錄號、同胎公仔數、同胎母仔數、同胎顯示、左側乳頭數、右側乳頭數、乳頭顯示、進站體重、欄位、耳標號、緊迫基因、肉質基因、多產基因、淘汰日期、淘汰原因、是否開檢、輸入日期、售價、肉質基因I、肉質基因II、肉質基因III、購買人代號、登錄生產卡號、出售日期、增肌基因、增長基因、瘦肉基因等欄位資料。', 'sourceURL': 'http://pigbase.angrin.tlri.gov.tw/pigfarm/sowsale_qur.asp', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=736'}
+{
+	"ID": "736",
+	"Title": "種豬拍賣資料",
+	"Organ": "畜產試驗所",
+	"Catalog": "畜牧",
+	"Counter": 5797,
+	"Lnkcnt": 1296,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每半年",
+	"description": "提供資料包含：個體系統流水號、檢定期別系統代號、個體編號、品種、耳號、出生日期、性別、牧場代號、父登錄號、母登錄號、同胎公仔數、同胎母仔數、同胎顯示、左側乳頭數、右側乳頭數、乳頭顯示、進站體重、欄位、耳標號、緊迫基因、肉質基因、多產基因、淘汰日期、淘汰原因、是否開檢、輸入日期、售價、肉質基因I、肉質基因II、肉質基因III、購買人代號、登錄生產卡號、出售日期、增肌基因、增長基因、瘦肉基因等欄位資料。",
+	"sourceURL": "http://pigbase.angrin.tlri.gov.tw/pigfarm/sowsale_qur.asp",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=736"
+}

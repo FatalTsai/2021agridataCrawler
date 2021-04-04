@@ -1,1 +1,17 @@
-{'ID': '724', 'Title': '專用漁業權基本資料', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 9723, 'Lnkcnt': 465, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包括：漁業權人、面積、起始日期、終止日期、經營漁業總類、專用漁業權執照編號、漁場位置及區域、所屬縣市等欄位資訊。', 'sourceURL': 'https://www.fa.gov.tw/cht/OpenData/index.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=065'}
+{
+	"ID": "724",
+	"Title": "專用漁業權基本資料",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 9723,
+	"Lnkcnt": 465,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包括：漁業權人、面積、起始日期、終止日期、經營漁業總類、專用漁業權執照編號、漁場位置及區域、所屬縣市等欄位資訊。",
+	"sourceURL": "https://www.fa.gov.tw/cht/OpenData/index.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=065"
+}

@@ -1,1 +1,17 @@
-{'ID': '375', 'Title': '農漁會年度百大農業精品好禮', 'Organ': '輔導處', 'Catalog': '農民輔導', 'Counter': 12936, 'Lnkcnt': 7707, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包括：廠商名稱、縣市、鄉鎮、住址、經度_X、緯度_Y、廠商電話、廠商網址、百大精品類別名稱、百大精品產品名稱、百大精品產品說明、百大精品產品售價說明等欄位資訊。', 'sourceURL': 'https://ezgo.coa.gov.tw/zh-TW/Front/SouvenirBest/Index/?ByBtTypeID=1', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvAgriBestItem.aspx'}
+{
+	"ID": "375",
+	"Title": "農漁會年度百大農業精品好禮",
+	"Organ": "輔導處",
+	"Catalog": "農民輔導",
+	"Counter": 12936,
+	"Lnkcnt": 7707,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包括：廠商名稱、縣市、鄉鎮、住址、經度_X、緯度_Y、廠商電話、廠商網址、百大精品類別名稱、百大精品產品名稱、百大精品產品說明、百大精品產品售價說明等欄位資訊。",
+	"sourceURL": "https://ezgo.coa.gov.tw/zh-TW/Front/SouvenirBest/Index/?ByBtTypeID=1",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvAgriBestItem.aspx"
+}

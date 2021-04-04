@@ -1,1 +1,17 @@
-{'ID': '197', 'Title': '推薦農村優良伴手禮', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 16628, 'Lnkcnt': 5596, 'LastUpdateTime': '2020-09-22', 'Messages': 1, 'Collect': 0, 'rating': '2', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包含：產品名稱、產品特色、購買地點、出品單位、規格與售價、訂購網址、出品單位聯絡電話等欄位資料。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvAgriculturalProduce.aspx'}
+{
+	"ID": "197",
+	"Title": "推薦農村優良伴手禮",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 16628,
+	"Lnkcnt": 5596,
+	"LastUpdateTime": "2020-09-22",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "2",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：產品名稱、產品特色、購買地點、出品單位、規格與售價、訂購網址、出品單位聯絡電話等欄位資料。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvAgriculturalProduce.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': '063', 'Title': '產銷履歷', 'Organ': '資訊中心', 'Catalog': '安全飲食', 'Counter': 27413, 'Lnkcnt': 6969938, 'LastUpdateTime': '2020-11-19', 'Messages': 4, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '11', 'UpdateFrequency': '每日', 'description': '資料提供包括：追蹤碼、農民經營業者、組織代碼、產品名稱、產地、生產者名稱、包裝日期、驗證機構、驗證有效日期、通路商資訊、詳細栽種流程、詳細履歷資料、詳細加工流程、其他驗證資訊、農產品產地地段地號、原料追溯碼網址、一籤一碼追溯碼等欄位資訊。', 'sourceURL': 'https://taft.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Resume/ResumeData_Plus.aspx'}
+{
+	"ID": "063",
+	"Title": "產銷履歷",
+	"Organ": "資訊中心",
+	"Catalog": "安全飲食",
+	"Counter": 27413,
+	"Lnkcnt": 6969938,
+	"LastUpdateTime": "2020-11-19",
+	"Messages": 4,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "11",
+	"UpdateFrequency": "每日",
+	"description": "資料提供包括：追蹤碼、農民經營業者、組織代碼、產品名稱、產地、生產者名稱、包裝日期、驗證機構、驗證有效日期、通路商資訊、詳細栽種流程、詳細履歷資料、詳細加工流程、其他驗證資訊、農產品產地地段地號、原料追溯碼網址、一籤一碼追溯碼等欄位資訊。",
+	"sourceURL": "https://taft.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Resume/ResumeData_Plus.aspx"
+}

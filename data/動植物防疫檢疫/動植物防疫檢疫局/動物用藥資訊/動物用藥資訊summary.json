@@ -1,1 +1,17 @@
-{'ID': '023', 'Title': '動物用藥資訊', 'Organ': '動植物防疫檢疫局', 'Catalog': '動植物防疫檢疫', 'Counter': 35498, 'Lnkcnt': 67930, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '7', 'UpdateFrequency': '每周', 'description': '許可證字號、動物用藥品中文名稱、動物用藥品英文名稱、業者名稱、業者地址、製造廠名稱、製造廠地址、劑型、包裝、效能(適應症)、成分、核發日期、有效期間、外銷專用', 'sourceURL': 'http://163.29.152.42/Animal/AMItem4.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/ADProData.aspx'}
+{
+	"ID": "023",
+	"Title": "動物用藥資訊",
+	"Organ": "動植物防疫檢疫局",
+	"Catalog": "動植物防疫檢疫",
+	"Counter": 35498,
+	"Lnkcnt": 67930,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "7",
+	"UpdateFrequency": "每周",
+	"description": "許可證字號、動物用藥品中文名稱、動物用藥品英文名稱、業者名稱、業者地址、製造廠名稱、製造廠地址、劑型、包裝、效能(適應症)、成分、核發日期、有效期間、外銷專用",
+	"sourceURL": "http://163.29.152.42/Animal/AMItem4.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/ADProData.aspx"
+}

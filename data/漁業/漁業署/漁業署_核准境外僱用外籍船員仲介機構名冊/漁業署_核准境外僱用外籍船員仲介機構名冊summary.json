@@ -1,1 +1,17 @@
-{'ID': 'G79', 'Title': '漁業署_核准境外僱用外籍船員仲介機構名冊', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 1767, 'Lnkcnt': 32, 'LastUpdateTime': '2020-12-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供核准境外僱用外籍船員仲介機構名冊，提供資料包含：field001(文號)、field002(公司名稱)、field003(負責人)、field004(公司地址)、field005(聯絡人)、field006(聯絡電話)、field007(傳真)、field008(核准仲介人數)、field009(核准期限)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS150.aspx'}
+{
+	"ID": "G79",
+	"Title": "漁業署_核准境外僱用外籍船員仲介機構名冊",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 1767,
+	"Lnkcnt": 32,
+	"LastUpdateTime": "2020-12-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供核准境外僱用外籍船員仲介機構名冊，提供資料包含：field001(文號)、field002(公司名稱)、field003(負責人)、field004(公司地址)、field005(聯絡人)、field006(聯絡電話)、field007(傳真)、field008(核准仲介人數)、field009(核准期限)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS150.aspx"
+}

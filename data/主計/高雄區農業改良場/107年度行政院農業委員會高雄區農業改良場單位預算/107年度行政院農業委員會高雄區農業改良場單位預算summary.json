@@ -1,1 +1,17 @@
-{'ID': 'F07', 'Title': '107年度行政院農業委員會高雄區農業改良場單位預算', 'Organ': '高雄區農業改良場', 'Catalog': '主計', 'Counter': 5702, 'Lnkcnt': 235, 'LastUpdateTime': '2018-10-26', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不定期', 'description': '提供107年度行政院農業委員會高雄區農業改良場單位預算下載檔案', 'sourceURL': 'https://www.kdais.gov.tw/view.php?catid=5822', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F07'}
+{
+	"ID": "F07",
+	"Title": "107年度行政院農業委員會高雄區農業改良場單位預算",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5702,
+	"Lnkcnt": 235,
+	"LastUpdateTime": "2018-10-26",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不定期",
+	"description": "提供107年度行政院農業委員會高雄區農業改良場單位預算下載檔案",
+	"sourceURL": "https://www.kdais.gov.tw/view.php?catid=5822",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F07"
+}

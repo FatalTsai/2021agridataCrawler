@@ -1,1 +1,17 @@
-{'ID': 'D18', 'Title': '自配飼料供應量', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 6532, 'Lnkcnt': 106, 'LastUpdateTime': '2020-09-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括:糧食別、日期、數值、單位等欄位資料。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=2259020121B0'}
+{
+	"ID": "D18",
+	"Title": "自配飼料供應量",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 6532,
+	"Lnkcnt": 106,
+	"LastUpdateTime": "2020-09-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括:糧食別、日期、數值、單位等欄位資料。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=2259020121B0"
+}

@@ -1,1 +1,17 @@
-{'ID': 'B74', 'Title': '水產試驗所技轉', 'Organ': '水產試驗所', 'Catalog': '漁業', 'Counter': 5471, 'Lnkcnt': 101, 'LastUpdateTime': '2020-09-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：技術名稱、連結、說明、更新日期等欄位資訊。', 'sourceURL': 'https://www.tfrin.gov.tw/OpenData.aspx?SN=24474215983F6554', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TfrinRss/TfrinRss05.aspx'}
+{
+	"ID": "B74",
+	"Title": "水產試驗所技轉",
+	"Organ": "水產試驗所",
+	"Catalog": "漁業",
+	"Counter": 5471,
+	"Lnkcnt": 101,
+	"LastUpdateTime": "2020-09-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：技術名稱、連結、說明、更新日期等欄位資訊。",
+	"sourceURL": "https://www.tfrin.gov.tw/OpenData.aspx?SN=24474215983F6554",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TfrinRss/TfrinRss05.aspx"
+}

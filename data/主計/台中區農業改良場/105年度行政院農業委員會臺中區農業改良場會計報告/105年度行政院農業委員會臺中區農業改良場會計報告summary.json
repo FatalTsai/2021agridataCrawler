@@ -1,1 +1,17 @@
-{'ID': 'A23', 'Title': '105年度行政院農業委員會臺中區農業改良場會計報告', 'Organ': '台中區農業改良場', 'Catalog': '主計', 'Counter': 6267, 'Lnkcnt': 572, 'LastUpdateTime': '2020-06-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '歲入類平衡表、歲入類現金出納表、歲入類累計表、經費類平衡表、經費類現金出納表、經費類累計表等6表', 'sourceURL': 'http://www.tdais.gov.tw/view.php?catid=10743', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A23'}
+{
+	"ID": "A23",
+	"Title": "105年度行政院農業委員會臺中區農業改良場會計報告",
+	"Organ": "台中區農業改良場",
+	"Catalog": "主計",
+	"Counter": 6267,
+	"Lnkcnt": 572,
+	"LastUpdateTime": "2020-06-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "歲入類平衡表、歲入類現金出納表、歲入類累計表、經費類平衡表、經費類現金出納表、經費類累計表等6表",
+	"sourceURL": "http://www.tdais.gov.tw/view.php?catid=10743",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A23"
+}

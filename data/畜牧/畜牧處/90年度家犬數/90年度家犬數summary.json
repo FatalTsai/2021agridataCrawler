@@ -1,1 +1,17 @@
-{'ID': '398', 'Title': '90年度家犬數', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 16895, 'Lnkcnt': 6461, 'LastUpdateTime': '2018-03-28', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供90年度家犬數資料查詢網址。', 'sourceURL': 'http://animal.coa.gov.tw/html/index_06_1_13.html', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=398'}
+{
+	"ID": "398",
+	"Title": "90年度家犬數",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 16895,
+	"Lnkcnt": 6461,
+	"LastUpdateTime": "2018-03-28",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供90年度家犬數資料查詢網址。",
+	"sourceURL": "http://animal.coa.gov.tw/html/index_06_1_13.html",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=398"
+}

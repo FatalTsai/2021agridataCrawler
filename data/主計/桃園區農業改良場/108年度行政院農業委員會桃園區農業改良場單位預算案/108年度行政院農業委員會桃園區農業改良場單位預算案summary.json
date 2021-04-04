@@ -1,1 +1,17 @@
-{'ID': 'E76', 'Title': '108年度行政院農業委員會桃園區農業改良場單位預算案', 'Organ': '桃園區農業改良場', 'Catalog': '主計', 'Counter': 6360, 'Lnkcnt': 929, 'LastUpdateTime': '2018-08-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供108年度行政院農業委員會桃園區農業改良場單位預算案下載檔案', 'sourceURL': 'https://www.tydares.gov.tw/view.php?catid=1079', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E76'}
+{
+	"ID": "E76",
+	"Title": "108年度行政院農業委員會桃園區農業改良場單位預算案",
+	"Organ": "桃園區農業改良場",
+	"Catalog": "主計",
+	"Counter": 6360,
+	"Lnkcnt": 929,
+	"LastUpdateTime": "2018-08-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供108年度行政院農業委員會桃園區農業改良場單位預算案下載檔案",
+	"sourceURL": "https://www.tydares.gov.tw/view.php?catid=1079",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E76"
+}

@@ -1,1 +1,17 @@
-{'ID': 'H50', 'Title': '臺灣地區箱網範圍', 'Organ': '漁業署', 'Catalog': '地理圖資', 'Counter': 206, 'Lnkcnt': 1, 'LastUpdateTime': '2020-07-14', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供全臺範圍42組箱網範圍shp下載檔案，包含public_no(核准字號)、township(箱網設籍鄉鎮市區)、location(箱網位置)等欄位。', 'sourceURL': 'https://www.fa.gov.tw/cht/OpenData/index.aspx', 'interfaceURL': ''}
+{
+	"ID": "H50",
+	"Title": "臺灣地區箱網範圍",
+	"Organ": "漁業署",
+	"Catalog": "地理圖資",
+	"Counter": 206,
+	"Lnkcnt": 1,
+	"LastUpdateTime": "2020-07-14",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供全臺範圍42組箱網範圍shp下載檔案，包含public_no(核准字號)、township(箱網設籍鄉鎮市區)、location(箱網位置)等欄位。",
+	"sourceURL": "https://www.fa.gov.tw/cht/OpenData/index.aspx",
+	"interfaceURL": ""
+}

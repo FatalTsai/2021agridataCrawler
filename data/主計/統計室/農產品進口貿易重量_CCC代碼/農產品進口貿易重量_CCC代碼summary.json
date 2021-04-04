@@ -1,1 +1,17 @@
-{'ID': '634', 'Title': '農產品進口貿易重量_CCC代碼', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 7825, 'Lnkcnt': 229, 'LastUpdateTime': '2021-04-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含：貨品號列代碼、國家代碼年、月份、數值、單位等欄位資料', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=244201070240&amp;dimension_code=$QA01TOTAL&amp;dimension_group_code_1=QA02'}
+{
+	"ID": "634",
+	"Title": "農產品進口貿易重量_CCC代碼",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 7825,
+	"Lnkcnt": 229,
+	"LastUpdateTime": "2021-04-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：貨品號列代碼、國家代碼年、月份、數值、單位等欄位資料",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=244201070240&amp;dimension_code=$QA01TOTAL&amp;dimension_group_code_1=QA02"
+}

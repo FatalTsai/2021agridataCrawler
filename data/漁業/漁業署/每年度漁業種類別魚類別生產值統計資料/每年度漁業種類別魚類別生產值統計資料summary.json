@@ -1,1 +1,17 @@
-{'ID': 'E59', 'Title': '每年度漁業種類別魚類別生產值統計資料', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 5289, 'Lnkcnt': 119, 'LastUpdateTime': '2018-07-16', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '資料提供包括:漁業種類、魚類代碼、資料年月、價值等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/OpenData/index.aspx?pn=2', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=077'}
+{
+	"ID": "E59",
+	"Title": "每年度漁業種類別魚類別生產值統計資料",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 5289,
+	"Lnkcnt": 119,
+	"LastUpdateTime": "2018-07-16",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:漁業種類、魚類代碼、資料年月、價值等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/OpenData/index.aspx?pn=2",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss.aspx?key=077"
+}

@@ -1,1 +1,17 @@
-{'ID': '120', 'Title': '臺灣地區蔬菜生產概況-菇類', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 12811, 'Lnkcnt': 11696, 'LastUpdateTime': '2020-07-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '6', 'UpdateFrequency': '每年', 'description': '資料提供包括：年度、地區別、洋菇_種植面積、洋菇_收穫面積、洋菇_每平方公尺產量、洋菇_產量、段木香菇_栽培數量、段木香菇_每公噸產量、段木香菇_產量、太空包香菇、太空包香菇_每萬包產量、太空包香菇_產量等欄位資訊。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=120'}
+{
+	"ID": "120",
+	"Title": "臺灣地區蔬菜生產概況-菇類",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 12811,
+	"Lnkcnt": 11696,
+	"LastUpdateTime": "2020-07-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "6",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括：年度、地區別、洋菇_種植面積、洋菇_收穫面積、洋菇_每平方公尺產量、洋菇_產量、段木香菇_栽培數量、段木香菇_每公噸產量、段木香菇_產量、太空包香菇、太空包香菇_每萬包產量、太空包香菇_產量等欄位資訊。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=120"
+}

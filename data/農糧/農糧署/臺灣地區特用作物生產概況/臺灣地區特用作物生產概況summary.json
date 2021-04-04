@@ -1,1 +1,17 @@
-{'ID': '136', 'Title': '臺灣地區特用作物生產概況', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 12029, 'Lnkcnt': 17197, 'LastUpdateTime': '2020-07-10', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '4', 'UpdateFrequency': '每年', 'description': '資料提供包括：年度、地區別、特用作物類別、種植面積、收穫面積、茶菁產量-每公頃平均產量、粗製茶-產量等欄位資訊。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=136'}
+{
+	"ID": "136",
+	"Title": "臺灣地區特用作物生產概況",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 12029,
+	"Lnkcnt": 17197,
+	"LastUpdateTime": "2020-07-10",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "4",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括：年度、地區別、特用作物類別、種植面積、收穫面積、茶菁產量-每公頃平均產量、粗製茶-產量等欄位資訊。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=136"
+}

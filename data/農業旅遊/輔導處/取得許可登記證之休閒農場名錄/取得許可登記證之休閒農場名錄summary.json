@@ -1,1 +1,17 @@
-{'ID': '376', 'Title': '取得許可登記證之休閒農場名錄', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 15667, 'Lnkcnt': 7336, 'LastUpdateTime': '2018-03-28', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '11', 'UpdateFrequency': '每月', 'description': '資料提供包括：農場名稱_中文、農場名稱_英文、農場名稱_日文、農場特色_中文、農場特色_英文、農場特色_日文、認證有效日_開始、認證有效日_結束、電話、傳真、郵遞區號、縣市、行政區、地址_中文、地址_英文、地址_日文、網址、經度、緯度、通過認證項目等欄位資訊。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvQualityFarm.aspx'}
+{
+	"ID": "376",
+	"Title": "取得許可登記證之休閒農場名錄",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 15667,
+	"Lnkcnt": 7336,
+	"LastUpdateTime": "2018-03-28",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "11",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：農場名稱_中文、農場名稱_英文、農場名稱_日文、農場特色_中文、農場特色_英文、農場特色_日文、認證有效日_開始、認證有效日_結束、電話、傳真、郵遞區號、縣市、行政區、地址_中文、地址_英文、地址_日文、網址、經度、緯度、通過認證項目等欄位資訊。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvQualityFarm.aspx"
+}

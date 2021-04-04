@@ -1,1 +1,17 @@
-{'ID': '075', 'Title': '屏東農業生物技術園區設廠資訊', 'Organ': '屏東農業生物技術園區籌備處', 'Catalog': '農民輔導', 'Counter': 7371, 'Lnkcnt': 7261, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包含：建廠用地、標準廠房_第一期虎躍館、標準廠房_第二期龍騰樓、龍騰樓各樓層租金標準、龍騰樓各樓層租金標準備註、標準廠房_第三期動物疫苗專區、標準廠房_第四期亞太水族營運中心、實驗農場等欄位資料。', 'sourceURL': 'http://www.pabp.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=075'}
+{
+	"ID": "075",
+	"Title": "屏東農業生物技術園區設廠資訊",
+	"Organ": "屏東農業生物技術園區籌備處",
+	"Catalog": "農民輔導",
+	"Counter": 7371,
+	"Lnkcnt": 7261,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：建廠用地、標準廠房_第一期虎躍館、標準廠房_第二期龍騰樓、龍騰樓各樓層租金標準、龍騰樓各樓層租金標準備註、標準廠房_第三期動物疫苗專區、標準廠房_第四期亞太水族營運中心、實驗農場等欄位資料。",
+	"sourceURL": "http://www.pabp.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=075"
+}

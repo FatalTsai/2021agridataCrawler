@@ -1,1 +1,17 @@
-{'ID': 'XxgLmBJd294w', 'Title': '主要農產品產銷及進出口量值-農業生產', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 7358, 'Lnkcnt': 638, 'LastUpdateTime': '2020-06-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '資料提供包括:年度、種類、分類、種植面積(公頃)、收穫面積(公頃)、每公頃產量(公斤)、產量(公噸)等欄位資料。', 'sourceURL': 'http://www.afa.gov.tw/GrainStatistics_index.aspx?CatID=194', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=XxgLmBJd294w'}
+{
+	"ID": "XxgLmBJd294w",
+	"Title": "主要農產品產銷及進出口量值-農業生產",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 7358,
+	"Lnkcnt": 638,
+	"LastUpdateTime": "2020-06-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:年度、種類、分類、種植面積(公頃)、收穫面積(公頃)、每公頃產量(公斤)、產量(公噸)等欄位資料。",
+	"sourceURL": "http://www.afa.gov.tw/GrainStatistics_index.aspx?CatID=194",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=XxgLmBJd294w"
+}

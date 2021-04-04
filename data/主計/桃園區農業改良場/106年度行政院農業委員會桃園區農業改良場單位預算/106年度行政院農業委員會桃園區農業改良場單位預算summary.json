@@ -1,1 +1,17 @@
-{'ID': 'C64', 'Title': '106年度行政院農業委員會桃園區農業改良場單位預算', 'Organ': '桃園區農業改良場', 'Catalog': '主計', 'Counter': 5074, 'Lnkcnt': 572, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供106年度行政院農業委員會桃園區農業改良場單位預算下載網址。', 'sourceURL': 'http://www.tydares.gov.tw/view.php?catid=1079', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=C64'}
+{
+	"ID": "C64",
+	"Title": "106年度行政院農業委員會桃園區農業改良場單位預算",
+	"Organ": "桃園區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5074,
+	"Lnkcnt": 572,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供106年度行政院農業委員會桃園區農業改良場單位預算下載網址。",
+	"sourceURL": "http://www.tydares.gov.tw/view.php?catid=1079",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=C64"
+}

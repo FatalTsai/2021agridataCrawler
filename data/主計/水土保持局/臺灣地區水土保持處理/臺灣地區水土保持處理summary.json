@@ -1,1 +1,17 @@
-{'ID': 'B07', 'Title': '臺灣地區水土保持處理', 'Organ': '水土保持局', 'Catalog': '主計', 'Counter': 6096, 'Lnkcnt': 625, 'LastUpdateTime': '2019-09-05', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '統計年報-5.水土保持處理面積縣市別，提供資料包括：年度、縣市別、農地水土保持_合計_公頃、農地水土保持_平台階段_公頃、農地水土保持_山邊溝_公頃、農地水土保持_石牆_公頃、農地水土保持_其他_公頃、蝕溝控制_處、邊坡穩定_處、排水溝系統-安全排水_公尺、排水溝系統_其他_處、植生處理_全園植草_公頃、植生處理_草花種植_平方公尺、植生處理_喬灌木及藤類種植_株、植生處理_其他_公頃、植生處理_台壁植草_平方公尺、植生處理_山邊溝植草_公頃、植生處理_道路植草_平方公尺等欄位資料。', 'sourceURL': 'https://www.swcb.gov.tw/Statistics/item_list?mid=220', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B07'}
+{
+	"ID": "B07",
+	"Title": "臺灣地區水土保持處理",
+	"Organ": "水土保持局",
+	"Catalog": "主計",
+	"Counter": 6096,
+	"Lnkcnt": 625,
+	"LastUpdateTime": "2019-09-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "統計年報-5.水土保持處理面積縣市別，提供資料包括：年度、縣市別、農地水土保持_合計_公頃、農地水土保持_平台階段_公頃、農地水土保持_山邊溝_公頃、農地水土保持_石牆_公頃、農地水土保持_其他_公頃、蝕溝控制_處、邊坡穩定_處、排水溝系統-安全排水_公尺、排水溝系統_其他_處、植生處理_全園植草_公頃、植生處理_草花種植_平方公尺、植生處理_喬灌木及藤類種植_株、植生處理_其他_公頃、植生處理_台壁植草_平方公尺、植生處理_山邊溝植草_公頃、植生處理_道路植草_平方公尺等欄位資料。",
+	"sourceURL": "https://www.swcb.gov.tw/Statistics/item_list?mid=220",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B07"
+}

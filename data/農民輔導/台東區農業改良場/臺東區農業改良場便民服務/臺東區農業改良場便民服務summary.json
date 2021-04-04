@@ -1,1 +1,17 @@
-{'ID': 'B81', 'Title': '臺東區農業改良場便民服務', 'Organ': '台東區農業改良場', 'Catalog': '農民輔導', 'Counter': 5281, 'Lnkcnt': 875, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供臺東區農業改良場便民服務網址', 'sourceURL': 'https://www.ttdares.gov.tw/ws.php?id=1', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B81'}
+{
+	"ID": "B81",
+	"Title": "臺東區農業改良場便民服務",
+	"Organ": "台東區農業改良場",
+	"Catalog": "農民輔導",
+	"Counter": 5281,
+	"Lnkcnt": 875,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供臺東區農業改良場便民服務網址",
+	"sourceURL": "https://www.ttdares.gov.tw/ws.php?id=1",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B81"
+}

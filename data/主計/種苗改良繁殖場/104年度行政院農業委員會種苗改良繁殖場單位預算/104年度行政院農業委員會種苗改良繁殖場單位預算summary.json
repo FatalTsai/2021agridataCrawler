@@ -1,1 +1,17 @@
-{'ID': 'A70', 'Title': '104年度行政院農業委員會種苗改良繁殖場單位預算', 'Organ': '種苗改良繁殖場', 'Catalog': '主計', 'Counter': 5292, 'Lnkcnt': 632, 'LastUpdateTime': '2018-04-18', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '104年度行政院農業委員會種苗改良繁殖場單位預算資料', 'sourceURL': 'https://www.tss.gov.tw/ws.php?id=519', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A70'}
+{
+	"ID": "A70",
+	"Title": "104年度行政院農業委員會種苗改良繁殖場單位預算",
+	"Organ": "種苗改良繁殖場",
+	"Catalog": "主計",
+	"Counter": 5292,
+	"Lnkcnt": 632,
+	"LastUpdateTime": "2018-04-18",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "104年度行政院農業委員會種苗改良繁殖場單位預算資料",
+	"sourceURL": "https://www.tss.gov.tw/ws.php?id=519",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A70"
+}

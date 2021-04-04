@@ -1,1 +1,17 @@
-{'ID': 'G66', 'Title': '漁業署_各縣市申領船員手冊人數', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 1980, 'Lnkcnt': 177, 'LastUpdateTime': '2020-12-31', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供各縣市申領船員手冊人數，提供資料包含：field001(縣市別)、field002(曾申領漁船船員手冊人數)、field003(未申換新式漁船船員手冊人數)、field004(已申換新式漁船船員手冊人數)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS133.aspx'}
+{
+	"ID": "G66",
+	"Title": "漁業署_各縣市申領船員手冊人數",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 1980,
+	"Lnkcnt": 177,
+	"LastUpdateTime": "2020-12-31",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供各縣市申領船員手冊人數，提供資料包含：field001(縣市別)、field002(曾申領漁船船員手冊人數)、field003(未申換新式漁船船員手冊人數)、field004(已申換新式漁船船員手冊人數)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS133.aspx"
+}

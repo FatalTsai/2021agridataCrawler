@@ -1,1 +1,17 @@
-{'ID': 'G69', 'Title': '漁業署_輸歐盟漁產品養殖場登錄合格名單', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 1985, 'Lnkcnt': 190, 'LastUpdateTime': '2020-12-31', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '漁業署提供輸歐盟漁產品養殖場登錄合格名單，提供資料包含：field001(序號)、field002(編號)、field003(魚種)、field004(公司(養殖場)名稱)、field005(英文譯名(外交部護照外文姓名拼音))、field006(場址所在縣市)、field007(聯絡人)、field008(有效期限)、field009(目前狀態)等欄位資料。', 'sourceURL': 'https://www.fa.gov.tw/cht/rss.ashx?mid=479', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS138.aspx'}
+{
+	"ID": "G69",
+	"Title": "漁業署_輸歐盟漁產品養殖場登錄合格名單",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 1985,
+	"Lnkcnt": 190,
+	"LastUpdateTime": "2020-12-31",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "漁業署提供輸歐盟漁產品養殖場登錄合格名單，提供資料包含：field001(序號)、field002(編號)、field003(魚種)、field004(公司(養殖場)名稱)、field005(英文譯名(外交部護照外文姓名拼音))、field006(場址所在縣市)、field007(聯絡人)、field008(有效期限)、field009(目前狀態)等欄位資料。",
+	"sourceURL": "https://www.fa.gov.tw/cht/rss.ashx?mid=479",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FaRss/FaRSS138.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'QcbUEzN6E6DL', 'Title': '動物認領養', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 40770, 'Lnkcnt': 4174877, 'LastUpdateTime': '2021-04-03', 'Messages': 22, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '17', 'UpdateFrequency': '每日', 'description': '資料提供包括：動物的流水編號、動物的區域編號、動物所屬縣市代碼、動物所屬收容所代碼、動物的實際所在地、動物的類型、動物性別、動物體型、動物毛色、動物年紀、是否絕育、是否施打狂犬病疫苗、動物尋獲地、動物網頁標題、動物狀態、資料備註、其他說明、開放認養時間(起)、開放認養時間(迄)、動物資料異動時間、動物資料建立時間、動物所屬收容所名稱、圖片名稱、異動時間、資料更新時間、地址、聯絡電話等欄位資訊。', 'sourceURL': 'https://asms.coa.gov.tw/AmlApp/App/AnnounceMent.aspx?PageType=Adopt', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL'}
+{
+	"ID": "QcbUEzN6E6DL",
+	"Title": "動物認領養",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 40770,
+	"Lnkcnt": 4174877,
+	"LastUpdateTime": "2021-04-03",
+	"Messages": 22,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "17",
+	"UpdateFrequency": "每日",
+	"description": "資料提供包括：動物的流水編號、動物的區域編號、動物所屬縣市代碼、動物所屬收容所代碼、動物的實際所在地、動物的類型、動物性別、動物體型、動物毛色、動物年紀、是否絕育、是否施打狂犬病疫苗、動物尋獲地、動物網頁標題、動物狀態、資料備註、其他說明、開放認養時間(起)、開放認養時間(迄)、動物資料異動時間、動物資料建立時間、動物所屬收容所名稱、圖片名稱、異動時間、資料更新時間、地址、聯絡電話等欄位資訊。",
+	"sourceURL": "https://asms.coa.gov.tw/AmlApp/App/AnnounceMent.aspx?PageType=Adopt",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL"
+}

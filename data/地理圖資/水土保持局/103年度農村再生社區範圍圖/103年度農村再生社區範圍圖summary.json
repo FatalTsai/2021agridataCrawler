@@ -1,1 +1,17 @@
-{'ID': '523', 'Title': '103年度農村再生社區範圍圖', 'Organ': '水土保持局', 'Catalog': '地理圖資', 'Counter': 1525, 'Lnkcnt': 1943, 'LastUpdateTime': '2021-02-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供水保局所轄103年度農村再生社區範圍圖shp下載檔案，內容包括Location(位置)、Source(來源)、年度(年度)、縣市(縣市)、村里(村里)、社區Name(社區名稱)、編碼(編碼)、NOTE(備註)、漁村(是否漁村)、Abo_Area(是否原住民地區)、Na_park(是否國家公園區)、Urb_area(是否都市計畫區)、跨合Ex(跨合示範)、鄉鎮(鄉鎮)、Ar_area(是否休閒農業區)、Across(是否跨村里)、Update(系統更新)、AREA(面積)、Urban(申請都計)、103Across(103跨村里)等欄位。', 'sourceURL': '', 'interfaceURL': ''}
+{
+	"ID": "523",
+	"Title": "103年度農村再生社區範圍圖",
+	"Organ": "水土保持局",
+	"Catalog": "地理圖資",
+	"Counter": 1525,
+	"Lnkcnt": 1943,
+	"LastUpdateTime": "2021-02-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供水保局所轄103年度農村再生社區範圍圖shp下載檔案，內容包括Location(位置)、Source(來源)、年度(年度)、縣市(縣市)、村里(村里)、社區Name(社區名稱)、編碼(編碼)、NOTE(備註)、漁村(是否漁村)、Abo_Area(是否原住民地區)、Na_park(是否國家公園區)、Urb_area(是否都市計畫區)、跨合Ex(跨合示範)、鄉鎮(鄉鎮)、Ar_area(是否休閒農業區)、Across(是否跨村里)、Update(系統更新)、AREA(面積)、Urban(申請都計)、103Across(103跨村里)等欄位。",
+	"sourceURL": "",
+	"interfaceURL": ""
+}

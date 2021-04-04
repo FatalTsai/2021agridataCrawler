@@ -1,1 +1,17 @@
-{'ID': '875', 'Title': '高雄區農業改良場建場百週年紀念專刊', 'Organ': '高雄區農業改良場', 'Catalog': '其他', 'Counter': 5936, 'Lnkcnt': 1097, 'LastUpdateTime': '2020-05-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供資料包括：標題、刊物網址、檔案類型等欄位資料。', 'sourceURL': 'https://www.kdais.gov.tw/redirect_link.php?theme=web_structure&amp;id=7673', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=875'}
+{
+	"ID": "875",
+	"Title": "高雄區農業改良場建場百週年紀念專刊",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "其他",
+	"Counter": 5936,
+	"Lnkcnt": 1097,
+	"LastUpdateTime": "2020-05-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供資料包括：標題、刊物網址、檔案類型等欄位資料。",
+	"sourceURL": "https://www.kdais.gov.tw/redirect_link.php?theme=web_structure&amp;id=7673",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=875"
+}

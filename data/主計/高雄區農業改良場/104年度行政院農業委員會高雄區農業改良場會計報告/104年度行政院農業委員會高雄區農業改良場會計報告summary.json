@@ -1,1 +1,17 @@
-{'ID': 'A40', 'Title': '104年度行政院農業委員會高雄區農業改良場會計報告', 'Organ': '高雄區農業改良場', 'Catalog': '主計', 'Counter': 4709, 'Lnkcnt': 565, 'LastUpdateTime': '2018-03-28', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '104年度行政院農業委員會高雄區農業改良場會計報告', 'sourceURL': 'http://www.kdais.gov.tw/view.php?catid=6185', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A40'}
+{
+	"ID": "A40",
+	"Title": "104年度行政院農業委員會高雄區農業改良場會計報告",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "主計",
+	"Counter": 4709,
+	"Lnkcnt": 565,
+	"LastUpdateTime": "2018-03-28",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "104年度行政院農業委員會高雄區農業改良場會計報告",
+	"sourceURL": "http://www.kdais.gov.tw/view.php?catid=6185",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=A40"
+}

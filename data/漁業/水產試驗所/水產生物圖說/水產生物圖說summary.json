@@ -1,1 +1,17 @@
-{'ID': '374', 'Title': '水產生物圖說', 'Organ': '水產試驗所', 'Catalog': '漁業', 'Counter': 7363, 'Lnkcnt': 5893, 'LastUpdateTime': '2020-06-18', 'Messages': 1, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：圖號、編修日期、圖檔、分類、中名、學名、英名、科名、俗名、命名者、特徵、生態、分布、利用等欄位資訊。', 'sourceURL': 'http://www.tfrin.gov.tw/lp.asp?ctNode=2443&amp;CtUnit=145&amp;BaseDSD=77&amp;mp=1', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=374'}
+{
+	"ID": "374",
+	"Title": "水產生物圖說",
+	"Organ": "水產試驗所",
+	"Catalog": "漁業",
+	"Counter": 7363,
+	"Lnkcnt": 5893,
+	"LastUpdateTime": "2020-06-18",
+	"Messages": 1,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：圖號、編修日期、圖檔、分類、中名、學名、英名、科名、俗名、命名者、特徵、生態、分布、利用等欄位資訊。",
+	"sourceURL": "http://www.tfrin.gov.tw/lp.asp?ctNode=2443&amp;CtUnit=145&amp;BaseDSD=77&amp;mp=1",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=374"
+}

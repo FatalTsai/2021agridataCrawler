@@ -1,1 +1,17 @@
-{'ID': 'C89', 'Title': '農田水利灌排渠道系統圖', 'Organ': '農田水利署', 'Catalog': '地理圖資', 'Counter': 15204, 'Lnkcnt': 21720, 'LastUpdateTime': '2021-01-27', 'Messages': 9, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '17', 'UpdateFrequency': '每年', 'description': '臺灣農田水利會渠道圖(WMS)農田水利會灌排渠道系統圖代碼名稱對照表請參考介接說明文件。', 'sourceURL': 'https://irrggis.aerc.org.tw/arcgis/services/WMS/OpenData/MapServer/WmsServer?', 'interfaceURL': ''}
+{
+	"ID": "C89",
+	"Title": "農田水利灌排渠道系統圖",
+	"Organ": "農田水利署",
+	"Catalog": "地理圖資",
+	"Counter": 15204,
+	"Lnkcnt": 21720,
+	"LastUpdateTime": "2021-01-27",
+	"Messages": 9,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "17",
+	"UpdateFrequency": "每年",
+	"description": "臺灣農田水利會渠道圖(WMS)農田水利會灌排渠道系統圖代碼名稱對照表請參考介接說明文件。",
+	"sourceURL": "https://irrggis.aerc.org.tw/arcgis/services/WMS/OpenData/MapServer/WmsServer?",
+	"interfaceURL": ""
+}

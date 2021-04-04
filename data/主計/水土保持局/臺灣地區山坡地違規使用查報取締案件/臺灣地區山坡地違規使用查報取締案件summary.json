@@ -1,1 +1,17 @@
-{'ID': 'B04', 'Title': '臺灣地區山坡地違規使用查報取締案件', 'Organ': '水土保持局', 'Catalog': '主計', 'Counter': 6114, 'Lnkcnt': 703, 'LastUpdateTime': '2019-09-05', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '統計年報-13山坡地違規使用查報與取締案件，提供資料包括：年度、縣市別、查報取締案件_件數、查報取締案件_面積公頃、處罰案件_件數、處罰案件_面積公頃、移送司法偵辦案件_件數等欄位資料。', 'sourceURL': 'https://www.swcb.gov.tw/Statistics/item_list?mid=220', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B04'}
+{
+	"ID": "B04",
+	"Title": "臺灣地區山坡地違規使用查報取締案件",
+	"Organ": "水土保持局",
+	"Catalog": "主計",
+	"Counter": 6114,
+	"Lnkcnt": 703,
+	"LastUpdateTime": "2019-09-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "統計年報-13山坡地違規使用查報與取締案件，提供資料包括：年度、縣市別、查報取締案件_件數、查報取締案件_面積公頃、處罰案件_件數、處罰案件_面積公頃、移送司法偵辦案件_件數等欄位資料。",
+	"sourceURL": "https://www.swcb.gov.tw/Statistics/item_list?mid=220",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B04"
+}

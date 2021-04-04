@@ -1,1 +1,17 @@
-{'ID': 'Rj3FGOKhebdJ', 'Title': '電子交易估算金額-巨峰葡萄', 'Organ': '資訊中心', 'Catalog': '農糧', 'Counter': 7872, 'Lnkcnt': 1494, 'LastUpdateTime': '2020-02-05', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括:年、月、日、縣市、估算總金額(元)等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=Rj3FGOKhebdJ'}
+{
+	"ID": "Rj3FGOKhebdJ",
+	"Title": "電子交易估算金額-巨峰葡萄",
+	"Organ": "資訊中心",
+	"Catalog": "農糧",
+	"Counter": 7872,
+	"Lnkcnt": 1494,
+	"LastUpdateTime": "2020-02-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括:年、月、日、縣市、估算總金額(元)等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=Rj3FGOKhebdJ"
+}

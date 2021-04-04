@@ -1,1 +1,17 @@
-{'ID': '739', 'Title': '三級竹林產業_行銷產品推廣商', 'Organ': '林務局', 'Catalog': '造林生產', 'Counter': 5609, 'Lnkcnt': 1795, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：公司名稱、地址、電話、主要項目、級別、備註等欄位資料。', 'sourceURL': 'http://www.bambootw.net/index04_02.asp?seeword=3', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=739'}
+{
+	"ID": "739",
+	"Title": "三級竹林產業_行銷產品推廣商",
+	"Organ": "林務局",
+	"Catalog": "造林生產",
+	"Counter": 5609,
+	"Lnkcnt": 1795,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：公司名稱、地址、電話、主要項目、級別、備註等欄位資料。",
+	"sourceURL": "http://www.bambootw.net/index04_02.asp?seeword=3",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=739"
+}

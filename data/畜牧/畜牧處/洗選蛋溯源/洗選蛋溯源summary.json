@@ -1,1 +1,17 @@
-{'ID': 'E38', 'Title': '洗選蛋溯源', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 8853, 'Lnkcnt': 2520, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '資料提供包括:編號、統一編號、通路商名稱、負責人、所在地、溯源編號_起、溯源編號_迄、負責人、蛋農名稱、所在地、負責人2、蛋農名稱2、所在地2、負責人3、蛋農名稱3、所在地3等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TafteSallerData.aspx'}
+{
+	"ID": "E38",
+	"Title": "洗選蛋溯源",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 8853,
+	"Lnkcnt": 2520,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括:編號、統一編號、通路商名稱、負責人、所在地、溯源編號_起、溯源編號_迄、負責人、蛋農名稱、所在地、負責人2、蛋農名稱2、所在地2、負責人3、蛋農名稱3、所在地3等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TafteSallerData.aspx"
+}

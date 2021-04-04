@@ -1,1 +1,17 @@
-{'ID': '373', 'Title': '水產知識淺說', 'Organ': '水產試驗所', 'Catalog': '漁業', 'Counter': 6712, 'Lnkcnt': 3668, 'LastUpdateTime': '2020-09-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：標題、分類、編修日期、解答等欄位資訊。', 'sourceURL': 'http://www.tfrin.gov.tw/lp.asp?ctNode=1224&amp;CtUnit=146&amp;BaseDSD=7&amp;mp=1', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=373'}
+{
+	"ID": "373",
+	"Title": "水產知識淺說",
+	"Organ": "水產試驗所",
+	"Catalog": "漁業",
+	"Counter": 6712,
+	"Lnkcnt": 3668,
+	"LastUpdateTime": "2020-09-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：標題、分類、編修日期、解答等欄位資訊。",
+	"sourceURL": "http://www.tfrin.gov.tw/lp.asp?ctNode=1224&amp;CtUnit=146&amp;BaseDSD=7&amp;mp=1",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=373"
+}

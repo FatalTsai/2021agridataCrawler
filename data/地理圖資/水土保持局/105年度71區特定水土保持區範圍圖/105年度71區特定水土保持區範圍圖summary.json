@@ -1,1 +1,17 @@
-{'ID': '640', 'Title': '105年度71區特定水土保持區範圍圖', 'Organ': '水土保持局', 'Catalog': '地理圖資', 'Counter': 1984, 'Lnkcnt': 1943, 'LastUpdateTime': '2020-03-31', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供公告全臺特定水土保持區圖層_TWD97shp下載檔案，內容包含TYPES(類型)、SCALE(資料比例尺)、LEG_NAME(法令名稱)、DATE(日期)、AREA(刪除)、NAME(名稱)、ORGAN(主管機關)、TIME(資料日期)等欄位。', 'sourceURL': '', 'interfaceURL': ''}
+{
+	"ID": "640",
+	"Title": "105年度71區特定水土保持區範圍圖",
+	"Organ": "水土保持局",
+	"Catalog": "地理圖資",
+	"Counter": 1984,
+	"Lnkcnt": 1943,
+	"LastUpdateTime": "2020-03-31",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供公告全臺特定水土保持區圖層_TWD97shp下載檔案，內容包含TYPES(類型)、SCALE(資料比例尺)、LEG_NAME(法令名稱)、DATE(日期)、AREA(刪除)、NAME(名稱)、ORGAN(主管機關)、TIME(資料日期)等欄位。",
+	"sourceURL": "",
+	"interfaceURL": ""
+}

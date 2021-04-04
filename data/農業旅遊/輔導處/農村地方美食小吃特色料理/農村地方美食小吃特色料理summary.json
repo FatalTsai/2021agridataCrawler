@@ -1,1 +1,17 @@
-{'ID': '193', 'Title': '農村地方美食小吃特色料理', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 20272, 'Lnkcnt': 16819, 'LastUpdateTime': '2020-08-27', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '7', 'UpdateFrequency': '即時', 'description': '提供資料包含：名稱、地址、電話、主人的話、費用簡介、營業時間、刷卡(True_False)、國民旅遊卡(True_False)、交通指引、停車場、網站連結、業者email、部落格網址、寵物須知、貼心叮嚀、最佳時令、容納人數、美食特色、景點縣市、鄉鎮、座標等欄位資料。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvTravelFood.aspx'}
+{
+	"ID": "193",
+	"Title": "農村地方美食小吃特色料理",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 20272,
+	"Lnkcnt": 16819,
+	"LastUpdateTime": "2020-08-27",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "7",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：名稱、地址、電話、主人的話、費用簡介、營業時間、刷卡(True_False)、國民旅遊卡(True_False)、交通指引、停車場、網站連結、業者email、部落格網址、寵物須知、貼心叮嚀、最佳時令、容納人數、美食特色、景點縣市、鄉鎮、座標等欄位資料。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvTravelFood.aspx"
+}

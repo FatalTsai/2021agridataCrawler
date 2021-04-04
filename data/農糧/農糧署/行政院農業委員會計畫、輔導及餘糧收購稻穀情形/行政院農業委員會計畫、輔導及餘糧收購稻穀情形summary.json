@@ -1,1 +1,17 @@
-{'ID': 'THX6cvqajSrM', 'Title': '行政院農業委員會計畫、輔導及餘糧收購稻穀情形', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 6363, 'Lnkcnt': 330, 'LastUpdateTime': '2020-01-07', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '資料提供包括:年度、期別、分署別、辦事處、作物、計畫收購、輔導收購、餘糧收購等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=THX6cvqajSrM'}
+{
+	"ID": "THX6cvqajSrM",
+	"Title": "行政院農業委員會計畫、輔導及餘糧收購稻穀情形",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 6363,
+	"Lnkcnt": 330,
+	"LastUpdateTime": "2020-01-07",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:年度、期別、分署別、辦事處、作物、計畫收購、輔導收購、餘糧收購等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=THX6cvqajSrM"
+}

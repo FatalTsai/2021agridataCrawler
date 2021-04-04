@@ -1,1 +1,17 @@
-{'ID': '9Rd9ImlSEeig', 'Title': '電子交易估算金額-青蔥', 'Organ': '資訊中心', 'Catalog': '農糧', 'Counter': 8432, 'Lnkcnt': 1842, 'LastUpdateTime': '2020-03-03', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '2', 'UpdateFrequency': '每月', 'description': '資料提供包括:年、月、日、縣市、估算總金額(元)等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=9Rd9ImlSEeig'}
+{
+	"ID": "9Rd9ImlSEeig",
+	"Title": "電子交易估算金額-青蔥",
+	"Organ": "資訊中心",
+	"Catalog": "農糧",
+	"Counter": 8432,
+	"Lnkcnt": 1842,
+	"LastUpdateTime": "2020-03-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括:年、月、日、縣市、估算總金額(元)等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=9Rd9ImlSEeig"
+}

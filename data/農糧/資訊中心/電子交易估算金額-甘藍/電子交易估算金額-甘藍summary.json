@@ -1,1 +1,17 @@
-{'ID': 'ZoqlzIPvF3PL', 'Title': '電子交易估算金額-甘藍', 'Organ': '資訊中心', 'Catalog': '農糧', 'Counter': 7235, 'Lnkcnt': 1235, 'LastUpdateTime': '2020-03-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括:年、月、日、縣市、估算總金額(元)等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=ZoqlzIPvF3PL'}
+{
+	"ID": "ZoqlzIPvF3PL",
+	"Title": "電子交易估算金額-甘藍",
+	"Organ": "資訊中心",
+	"Catalog": "農糧",
+	"Counter": 7235,
+	"Lnkcnt": 1235,
+	"LastUpdateTime": "2020-03-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括:年、月、日、縣市、估算總金額(元)等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=ZoqlzIPvF3PL"
+}

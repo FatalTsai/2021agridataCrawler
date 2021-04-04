@@ -1,1 +1,17 @@
-{'ID': 'B05', 'Title': '臺灣地區農路改善及維護工程', 'Organ': '水土保持局', 'Catalog': '主計', 'Counter': 6149, 'Lnkcnt': 746, 'LastUpdateTime': '2019-09-05', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '統計年報-7.臺灣地區農路改善及維護工程，提供資料包括：年度、縣市別、工程件數、道路總長度_改善_公里、道路總長度_維護_公里、總工程費_合計_新台幣元、總工程費_中央_新台幣元、總工程費_省(市)_新台幣元、總工程費_縣(市)_新台幣元、總工程費_其他_新台幣元等欄位資料。', 'sourceURL': 'https://www.swcb.gov.tw/Statistics/item_list?mid=220', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B05'}
+{
+	"ID": "B05",
+	"Title": "臺灣地區農路改善及維護工程",
+	"Organ": "水土保持局",
+	"Catalog": "主計",
+	"Counter": 6149,
+	"Lnkcnt": 746,
+	"LastUpdateTime": "2019-09-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "統計年報-7.臺灣地區農路改善及維護工程，提供資料包括：年度、縣市別、工程件數、道路總長度_改善_公里、道路總長度_維護_公里、總工程費_合計_新台幣元、總工程費_中央_新台幣元、總工程費_省(市)_新台幣元、總工程費_縣(市)_新台幣元、總工程費_其他_新台幣元等欄位資料。",
+	"sourceURL": "https://www.swcb.gov.tw/Statistics/item_list?mid=220",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B05"
+}

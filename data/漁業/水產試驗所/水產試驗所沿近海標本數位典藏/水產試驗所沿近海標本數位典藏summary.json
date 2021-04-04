@@ -1,1 +1,17 @@
-{'ID': 'B72', 'Title': '水產試驗所沿近海標本數位典藏', 'Organ': '水產試驗所', 'Catalog': '漁業', 'Counter': 5492, 'Lnkcnt': 165, 'LastUpdateTime': '2020-09-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包括：標本號、連結、說明、更新日期等欄位資訊。', 'sourceURL': 'https://www.tfrin.gov.tw/OpenData.aspx?SN=89870A47A0364B13', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TfrinRss/TfrinRss03.aspx'}
+{
+	"ID": "B72",
+	"Title": "水產試驗所沿近海標本數位典藏",
+	"Organ": "水產試驗所",
+	"Catalog": "漁業",
+	"Counter": 5492,
+	"Lnkcnt": 165,
+	"LastUpdateTime": "2020-09-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包括：標本號、連結、說明、更新日期等欄位資訊。",
+	"sourceURL": "https://www.tfrin.gov.tw/OpenData.aspx?SN=89870A47A0364B13",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TfrinRss/TfrinRss03.aspx"
+}

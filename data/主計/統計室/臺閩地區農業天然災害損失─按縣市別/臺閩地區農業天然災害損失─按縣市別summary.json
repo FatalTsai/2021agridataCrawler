@@ -1,1 +1,17 @@
-{'ID': 'G98', 'Title': '臺閩地區農業天然災害損失─按縣市別', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 5478, 'Lnkcnt': 44, 'LastUpdateTime': '2020-04-16', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供臺閩地區農業天然災害損失─按縣市別下載檔案', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/agrstat_office.aspx?report_code=1140-00-07'}
+{
+	"ID": "G98",
+	"Title": "臺閩地區農業天然災害損失─按縣市別",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 5478,
+	"Lnkcnt": 44,
+	"LastUpdateTime": "2020-04-16",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供臺閩地區農業天然災害損失─按縣市別下載檔案",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/agrstat_office.aspx?report_code=1140-00-07"
+}

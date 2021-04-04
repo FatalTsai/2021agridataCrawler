@@ -1,1 +1,17 @@
-{'ID': 'E19', 'Title': '105年度行政院農業委員會高雄區農業改良場單位決算資料', 'Organ': '高雄區農業改良場', 'Catalog': '主計', 'Counter': 5197, 'Lnkcnt': 687, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供105年度行政院農業委員會高雄區農業改良場單位決算資料。', 'sourceURL': 'http://www.kdais.gov.tw/view.php?catid=5822', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E19'}
+{
+	"ID": "E19",
+	"Title": "105年度行政院農業委員會高雄區農業改良場單位決算資料",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5197,
+	"Lnkcnt": 687,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供105年度行政院農業委員會高雄區農業改良場單位決算資料。",
+	"sourceURL": "http://www.kdais.gov.tw/view.php?catid=5822",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E19"
+}

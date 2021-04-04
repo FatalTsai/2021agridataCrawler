@@ -1,1 +1,17 @@
-{'ID': 'B90', 'Title': '歷年來全體農漁會信用部簡明放款結構表', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 5248, 'Lnkcnt': 88, 'LastUpdateTime': '2018-03-30', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '2', 'UpdateFrequency': '每年', 'description': '提供資料包含：檔案名稱、連結、更新日期等欄位資訊。', 'sourceURL': 'http://www.boaf.gov.tw/boafwww/index.jsp?a=dp&amp;mp=3', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODBoaf.aspx?key=AN002W'}
+{
+	"ID": "B90",
+	"Title": "歷年來全體農漁會信用部簡明放款結構表",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 5248,
+	"Lnkcnt": 88,
+	"LastUpdateTime": "2018-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包含：檔案名稱、連結、更新日期等欄位資訊。",
+	"sourceURL": "http://www.boaf.gov.tw/boafwww/index.jsp?a=dp&amp;mp=3",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODBoaf.aspx?key=AN002W"
+}

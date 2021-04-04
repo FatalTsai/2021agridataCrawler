@@ -1,1 +1,17 @@
-{'ID': 'H02', 'Title': '天然災害漁業損失統計─按災害別分', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 5463, 'Lnkcnt': 47, 'LastUpdateTime': '2020-05-04', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '天然災害漁業損失統計─按災害別分', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/agrstat_office.aspx?report_code=1140-00-03'}
+{
+	"ID": "H02",
+	"Title": "天然災害漁業損失統計─按災害別分",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 5463,
+	"Lnkcnt": 47,
+	"LastUpdateTime": "2020-05-04",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "天然災害漁業損失統計─按災害別分",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/agrstat_office.aspx?report_code=1140-00-03"
+}

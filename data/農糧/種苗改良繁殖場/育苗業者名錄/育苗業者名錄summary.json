@@ -1,1 +1,17 @@
-{'ID': '125', 'Title': '育苗業者名錄', 'Organ': '種苗改良繁殖場', 'Catalog': '農糧', 'Counter': 7404, 'Lnkcnt': 14468, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括：育苗場名稱、簡介、負責人、郵遞區號、縣市、行政區、地址、電話1、電話2、傳真、email、網址、育苗溫網室、員工人數、服務項目、主要培育菜苗、茄果類、十字花科、瓜果類、葉菜類、其他類蔬菜、蔬菜嫁接苗、花壇草花類、香草類、切花類花卉、其他等欄位資訊。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=125'}
+{
+	"ID": "125",
+	"Title": "育苗業者名錄",
+	"Organ": "種苗改良繁殖場",
+	"Catalog": "農糧",
+	"Counter": 7404,
+	"Lnkcnt": 14468,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：育苗場名稱、簡介、負責人、郵遞區號、縣市、行政區、地址、電話1、電話2、傳真、email、網址、育苗溫網室、員工人數、服務項目、主要培育菜苗、茄果類、十字花科、瓜果類、葉菜類、其他類蔬菜、蔬菜嫁接苗、花壇草花類、香草類、切花類花卉、其他等欄位資訊。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=125"
+}

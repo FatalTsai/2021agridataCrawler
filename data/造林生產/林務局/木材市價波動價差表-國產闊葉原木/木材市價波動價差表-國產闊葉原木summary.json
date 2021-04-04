@@ -1,1 +1,17 @@
-{'ID': 'x2FMSoSHgqsK', 'Title': '木材市價波動價差表-國產闊葉原木', 'Organ': '林務局', 'Catalog': '造林生產', 'Counter': 6542, 'Lnkcnt': 732, 'LastUpdateTime': '2021-03-25', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含:民國年份、月份、樹種代碼、樹種名稱、品等名稱、品等代碼、羅東價格、新竹價格、東勢價格、南投價格、嘉義價格、屏東價格、臺東價格、花蓮價格、比較上個月份增減元等欄位資料。', 'sourceURL': 'http://woodprice.forest.gov.tw/Change/Q_ChangeProvinceBroadleaved.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=x2FMSoSHgqsK'}
+{
+	"ID": "x2FMSoSHgqsK",
+	"Title": "木材市價波動價差表-國產闊葉原木",
+	"Organ": "林務局",
+	"Catalog": "造林生產",
+	"Counter": 6542,
+	"Lnkcnt": 732,
+	"LastUpdateTime": "2021-03-25",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含:民國年份、月份、樹種代碼、樹種名稱、品等名稱、品等代碼、羅東價格、新竹價格、東勢價格、南投價格、嘉義價格、屏東價格、臺東價格、花蓮價格、比較上個月份增減元等欄位資料。",
+	"sourceURL": "http://woodprice.forest.gov.tw/Change/Q_ChangeProvinceBroadleaved.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=x2FMSoSHgqsK"
+}

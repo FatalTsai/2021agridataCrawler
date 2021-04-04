@@ -1,1 +1,17 @@
-{'ID': 'D70', 'Title': '林業試驗所台灣林業科學目錄清單', 'Organ': '林業試驗所', 'Catalog': '農業科技', 'Counter': 7939, 'Lnkcnt': 2055, 'LastUpdateTime': '2020-03-10', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每年', 'description': '資料提供包括:卷期、題目、作者、出版年、關鍵字等欄位資料。', 'sourceURL': 'https://www.tfri.gov.tw/main/science_cat.aspx?siteid=&amp;ver=&amp;usid=&amp;mnuid=5377&amp;modid=1&amp;mode=', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D70'}
+{
+	"ID": "D70",
+	"Title": "林業試驗所台灣林業科學目錄清單",
+	"Organ": "林業試驗所",
+	"Catalog": "農業科技",
+	"Counter": 7939,
+	"Lnkcnt": 2055,
+	"LastUpdateTime": "2020-03-10",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:卷期、題目、作者、出版年、關鍵字等欄位資料。",
+	"sourceURL": "https://www.tfri.gov.tw/main/science_cat.aspx?siteid=&amp;ver=&amp;usid=&amp;mnuid=5377&amp;modid=1&amp;mode=",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=D70"
+}

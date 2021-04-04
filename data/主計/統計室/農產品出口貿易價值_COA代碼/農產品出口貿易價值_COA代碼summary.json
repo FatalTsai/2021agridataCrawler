@@ -1,1 +1,17 @@
-{'ID': '631', 'Title': '農產品出口貿易價值_COA代碼', 'Organ': '統計室', 'Catalog': '主計', 'Counter': 7820, 'Lnkcnt': 304, 'LastUpdateTime': '2021-04-01', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含：農產貿易代碼、國家代碼、年月份、數值、單位等欄位資料', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx', 'interfaceURL': 'https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=244201010240&amp;dimension_code=$QA01TOTAL&amp;dimension_group_code_1=QA03'}
+{
+	"ID": "631",
+	"Title": "農產品出口貿易價值_COA代碼",
+	"Organ": "統計室",
+	"Catalog": "主計",
+	"Counter": 7820,
+	"Lnkcnt": 304,
+	"LastUpdateTime": "2021-04-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：農產貿易代碼、國家代碼、年月份、數值、單位等欄位資料",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/service/opendata/agrstatUnit.aspx?item_code=244201010240&amp;dimension_code=$QA01TOTAL&amp;dimension_group_code_1=QA03"
+}

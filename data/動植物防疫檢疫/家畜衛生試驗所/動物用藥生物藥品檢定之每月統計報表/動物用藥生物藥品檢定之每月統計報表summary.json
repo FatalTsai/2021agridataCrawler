@@ -1,1 +1,17 @@
-{'ID': '025', 'Title': '動物用藥生物藥品檢定之每月統計報表', 'Organ': '家畜衛生試驗所', 'Catalog': '動植物防疫檢疫', 'Counter': 15844, 'Lnkcnt': 14633, 'LastUpdateTime': '2019-12-11', 'Messages': 0, 'Collect': 0, 'rating': '1', 'NumberOfVoters': '1', 'UpdateFrequency': '每月', 'description': '提供資料包含：年度、月份、動物種類、用途、疫苗名稱、代碼、廠牌類別、廠牌名稱、批號、總劑量、有效日期、判定等欄位資料。', 'sourceURL': 'https://www.nvri.gov.tw/main.aspx?pid=gdg1f3KlZqE%3d', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/AnimalDrugData.aspx'}
+{
+	"ID": "025",
+	"Title": "動物用藥生物藥品檢定之每月統計報表",
+	"Organ": "家畜衛生試驗所",
+	"Catalog": "動植物防疫檢疫",
+	"Counter": 15844,
+	"Lnkcnt": 14633,
+	"LastUpdateTime": "2019-12-11",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "1",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：年度、月份、動物種類、用途、疫苗名稱、代碼、廠牌類別、廠牌名稱、批號、總劑量、有效日期、判定等欄位資料。",
+	"sourceURL": "https://www.nvri.gov.tw/main.aspx?pid=gdg1f3KlZqE%3d",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/AnimalDrugData.aspx"
+}

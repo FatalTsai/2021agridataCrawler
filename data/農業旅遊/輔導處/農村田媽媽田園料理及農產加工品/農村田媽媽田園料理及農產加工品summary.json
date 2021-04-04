@@ -1,1 +1,17 @@
-{'ID': '196', 'Title': '農村田媽媽田園料理及農產加工品', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 16147, 'Lnkcnt': 34950, 'LastUpdateTime': '2020-06-02', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包含：名稱、故事報導生平事蹟、景點縣市、鄉鎮、座標等欄位資料。', 'sourceURL': 'https://ezgo.coa.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvLocalFeature.aspx'}
+{
+	"ID": "196",
+	"Title": "農村田媽媽田園料理及農產加工品",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 16147,
+	"Lnkcnt": 34950,
+	"LastUpdateTime": "2020-06-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：名稱、故事報導生平事蹟、景點縣市、鄉鎮、座標等欄位資料。",
+	"sourceURL": "https://ezgo.coa.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvLocalFeature.aspx"
+}

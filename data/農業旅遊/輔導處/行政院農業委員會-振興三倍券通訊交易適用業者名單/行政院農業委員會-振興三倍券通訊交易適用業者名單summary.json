@@ -1,1 +1,17 @@
-{'ID': 'H54', 'Title': '行政院農業委員會-振興三倍券通訊交易適用業者名單', 'Organ': '輔導處', 'Catalog': '農業旅遊', 'Counter': 5415, 'Lnkcnt': 1354, 'LastUpdateTime': '2020-07-24', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供資料包含：識別標章編號、提供單位名稱、特店對外名稱、特店網址、啟用日期、終止日期等欄位資料。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=H54'}
+{
+	"ID": "H54",
+	"Title": "行政院農業委員會-振興三倍券通訊交易適用業者名單",
+	"Organ": "輔導處",
+	"Catalog": "農業旅遊",
+	"Counter": 5415,
+	"Lnkcnt": 1354,
+	"LastUpdateTime": "2020-07-24",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：識別標章編號、提供單位名稱、特店對外名稱、特店網址、啟用日期、終止日期等欄位資料。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=H54"
+}

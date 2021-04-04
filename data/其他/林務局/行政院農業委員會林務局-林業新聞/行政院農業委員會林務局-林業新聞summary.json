@@ -1,1 +1,17 @@
-{'ID': 'C78', 'Title': '行政院農業委員會林務局-林業新聞', 'Organ': '林務局', 'Catalog': '其他', 'Counter': 7112, 'Lnkcnt': 813, 'LastUpdateTime': '2020-09-04', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每日', 'description': '本局全球資訊網林業新聞資料，下載時，即時自動產生本(含)日以前30天林業新聞資料之資料集內容。提供資料包含：新聞編號、新聞標題、新聞內容、發布單位、新聞發布日期、修改日期、更新日期。', 'sourceURL': 'http://www.forest.gov.tw/DataResource/0000014', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Forest/Forest0014.aspx'}
+{
+	"ID": "C78",
+	"Title": "行政院農業委員會林務局-林業新聞",
+	"Organ": "林務局",
+	"Catalog": "其他",
+	"Counter": 7112,
+	"Lnkcnt": 813,
+	"LastUpdateTime": "2020-09-04",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每日",
+	"description": "本局全球資訊網林業新聞資料，下載時，即時自動產生本(含)日以前30天林業新聞資料之資料集內容。提供資料包含：新聞編號、新聞標題、新聞內容、發布單位、新聞發布日期、修改日期、更新日期。",
+	"sourceURL": "http://www.forest.gov.tw/DataResource/0000014",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Forest/Forest0014.aspx"
+}

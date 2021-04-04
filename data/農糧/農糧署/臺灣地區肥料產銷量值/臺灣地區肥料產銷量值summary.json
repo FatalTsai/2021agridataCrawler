@@ -1,1 +1,17 @@
-{'ID': '139', 'Title': '臺灣地區肥料產銷量值', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 9818, 'Lnkcnt': 15309, 'LastUpdateTime': '2020-10-08', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '資料提供包括：年度、肥料別、產銷類別、數量(公噸)、價值(新台幣仟元)等欄位資訊。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=139'}
+{
+	"ID": "139",
+	"Title": "臺灣地區肥料產銷量值",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 9818,
+	"Lnkcnt": 15309,
+	"LastUpdateTime": "2020-10-08",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括：年度、肥料別、產銷類別、數量(公噸)、價值(新台幣仟元)等欄位資訊。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=139"
+}

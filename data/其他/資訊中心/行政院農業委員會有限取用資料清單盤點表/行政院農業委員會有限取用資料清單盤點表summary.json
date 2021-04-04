@@ -1,1 +1,17 @@
-{'ID': 'E77', 'Title': '行政院農業委員會有限取用資料清單盤點表', 'Organ': '資訊中心', 'Catalog': '其他', 'Counter': 7123, 'Lnkcnt': 1828, 'LastUpdateTime': '2018-09-06', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供行政院農業委員會有限取用資料清單盤點表清單。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E77'}
+{
+	"ID": "E77",
+	"Title": "行政院農業委員會有限取用資料清單盤點表",
+	"Organ": "資訊中心",
+	"Catalog": "其他",
+	"Counter": 7123,
+	"Lnkcnt": 1828,
+	"LastUpdateTime": "2018-09-06",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供行政院農業委員會有限取用資料清單盤點表清單。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E77"
+}

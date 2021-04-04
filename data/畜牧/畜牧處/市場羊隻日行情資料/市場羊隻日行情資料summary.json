@@ -1,1 +1,17 @@
-{'ID': '276', 'Title': '市場羊隻日行情資料', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 10980, 'Lnkcnt': 1357, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每日', 'description': '提供資料包括：市場代碼、市場簡稱、市場名稱、交易日期、產品代碼、產品名稱、產品類型、數量、平均重、平均價、最高價格等欄位資料。', 'sourceURL': 'http://ppg.naif.org.tw/naif/MarketInformation/Sheep/TranStatistics.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/SheepTransData.aspx'}
+{
+	"ID": "276",
+	"Title": "市場羊隻日行情資料",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 10980,
+	"Lnkcnt": 1357,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包括：市場代碼、市場簡稱、市場名稱、交易日期、產品代碼、產品名稱、產品類型、數量、平均重、平均價、最高價格等欄位資料。",
+	"sourceURL": "http://ppg.naif.org.tw/naif/MarketInformation/Sheep/TranStatistics.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/SheepTransData.aspx"
+}

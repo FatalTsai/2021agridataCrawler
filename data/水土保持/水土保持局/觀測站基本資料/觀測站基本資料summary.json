@@ -1,1 +1,17 @@
-{'ID': 'rtiMBAKZcO6P', 'Title': '觀測站基本資料', 'Organ': '水土保持局', 'Catalog': '水土保持', 'Counter': 6666, 'Lnkcnt': 708, 'LastUpdateTime': '2021-03-30', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供資料包含：站代碼、站名稱、站英文名稱、經度、緯度、行政區、土石流潛勢溪流、類型、溪流名稱、流域、集水區、子集水區等欄位資料。', 'sourceURL': 'https://dfm.swcb.gov.tw/DebrisService/InformationService.asmx/GetStation', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=rtiMBAKZcO6P'}
+{
+	"ID": "rtiMBAKZcO6P",
+	"Title": "觀測站基本資料",
+	"Organ": "水土保持局",
+	"Catalog": "水土保持",
+	"Counter": 6666,
+	"Lnkcnt": 708,
+	"LastUpdateTime": "2021-03-30",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：站代碼、站名稱、站英文名稱、經度、緯度、行政區、土石流潛勢溪流、類型、溪流名稱、流域、集水區、子集水區等欄位資料。",
+	"sourceURL": "https://dfm.swcb.gov.tw/DebrisService/InformationService.asmx/GetStation",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=rtiMBAKZcO6P"
+}

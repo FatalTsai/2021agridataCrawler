@@ -1,1 +1,17 @@
-{'ID': 'G07', 'Title': '林務局山區手機可通訊點標示', 'Organ': '林務局', 'Catalog': '地理圖資', 'Counter': 1069, 'Lnkcnt': 1510, 'LastUpdateTime': '2020-10-26', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '1', 'UpdateFrequency': '每年', 'description': '本資料為標示林務局山區手機可通訊參考點，通訊易受山區地形、氣候、電力供應等因素影響品質，請參考使用。', 'sourceURL': 'https://www.tgos.tw/TGOS/Web/Metadata/TGOS_MetaData_View.aspx?MID=3DAE96469950B26D80938EE2671C4453', 'interfaceURL': ''}
+{
+	"ID": "G07",
+	"Title": "林務局山區手機可通訊點標示",
+	"Organ": "林務局",
+	"Catalog": "地理圖資",
+	"Counter": 1069,
+	"Lnkcnt": 1510,
+	"LastUpdateTime": "2020-10-26",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每年",
+	"description": "本資料為標示林務局山區手機可通訊參考點，通訊易受山區地形、氣候、電力供應等因素影響品質，請參考使用。",
+	"sourceURL": "https://www.tgos.tw/TGOS/Web/Metadata/TGOS_MetaData_View.aspx?MID=3DAE96469950B26D80938EE2671C4453",
+	"interfaceURL": ""
+}

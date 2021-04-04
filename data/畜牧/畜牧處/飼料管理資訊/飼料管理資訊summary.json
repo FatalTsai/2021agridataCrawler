@@ -1,1 +1,17 @@
-{'ID': '175', 'Title': '飼料管理資訊', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 9051, 'Lnkcnt': 9673, 'LastUpdateTime': '2020-05-29', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '資料提供包括：登記證字號、核發日期、有效日期、登記證類別、飼料品目、商號名稱等欄位資訊。', 'sourceURL': 'http://permit.coa.gov.tw/Feed/B0201/index.action', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=175'}
+{
+	"ID": "175",
+	"Title": "飼料管理資訊",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 9051,
+	"Lnkcnt": 9673,
+	"LastUpdateTime": "2020-05-29",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：登記證字號、核發日期、有效日期、登記證類別、飼料品目、商號名稱等欄位資訊。",
+	"sourceURL": "http://permit.coa.gov.tw/Feed/B0201/index.action",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=175"
+}

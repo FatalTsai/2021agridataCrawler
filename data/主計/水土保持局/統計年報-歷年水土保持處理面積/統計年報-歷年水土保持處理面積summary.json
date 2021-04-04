@@ -1,1 +1,17 @@
-{'ID': 'B01', 'Title': '統計年報-歷年水土保持處理面積', 'Organ': '水土保持局', 'Catalog': '主計', 'Counter': 6022, 'Lnkcnt': 570, 'LastUpdateTime': '2019-09-05', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每年', 'description': '統計年報-4.歷年水土保持處理面積，提供資料包括：年度-公頃、合計-公頃、山邊溝-公頃、果園山邊溝-公頃、平台階段-公頃、石牆-公頃、窄階段-公頃、其他-公頃等欄位資料。', 'sourceURL': 'https://www.swcb.gov.tw/Statistics/item_list?mid=220', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B01'}
+{
+	"ID": "B01",
+	"Title": "統計年報-歷年水土保持處理面積",
+	"Organ": "水土保持局",
+	"Catalog": "主計",
+	"Counter": 6022,
+	"Lnkcnt": 570,
+	"LastUpdateTime": "2019-09-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每年",
+	"description": "統計年報-4.歷年水土保持處理面積，提供資料包括：年度-公頃、合計-公頃、山邊溝-公頃、果園山邊溝-公頃、平台階段-公頃、石牆-公頃、窄階段-公頃、其他-公頃等欄位資料。",
+	"sourceURL": "https://www.swcb.gov.tw/Statistics/item_list?mid=220",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=B01"
+}

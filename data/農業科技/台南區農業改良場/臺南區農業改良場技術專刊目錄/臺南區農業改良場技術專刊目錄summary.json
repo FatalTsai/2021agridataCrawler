@@ -1,1 +1,17 @@
-{'ID': '740', 'Title': '臺南區農業改良場技術專刊目錄', 'Organ': '台南區農業改良場', 'Catalog': '農業科技', 'Counter': 6153, 'Lnkcnt': 2107, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '1', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供資料包含：編號、題目、作者、出版日期年月、頁數、定價、政府出版品編號GPN、ISBN、連結位址1PDF、連結位址2HTM、備註等欄位資料', 'sourceURL': 'https://book.tndais.gov.tw/Brochure/brochure.htm', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=740'}
+{
+	"ID": "740",
+	"Title": "臺南區農業改良場技術專刊目錄",
+	"Organ": "台南區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 6153,
+	"Lnkcnt": 2107,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "1",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供資料包含：編號、題目、作者、出版日期年月、頁數、定價、政府出版品編號GPN、ISBN、連結位址1PDF、連結位址2HTM、備註等欄位資料",
+	"sourceURL": "https://book.tndais.gov.tw/Brochure/brochure.htm",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=740"
+}

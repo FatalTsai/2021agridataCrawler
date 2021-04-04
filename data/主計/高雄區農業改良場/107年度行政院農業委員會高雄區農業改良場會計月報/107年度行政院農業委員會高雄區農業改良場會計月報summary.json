@@ -1,1 +1,17 @@
-{'ID': 'F27', 'Title': '107年度行政院農業委員會高雄區農業改良場會計月報', 'Organ': '高雄區農業改良場', 'Catalog': '主計', 'Counter': 5996, 'Lnkcnt': 503, 'LastUpdateTime': '2019-02-18', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '提供107年度行政院農業委員會高雄區農業改良場會計月報下載檔案', 'sourceURL': 'https://www.kdais.gov.tw/view.php?catid=6185', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F27'}
+{
+	"ID": "F27",
+	"Title": "107年度行政院農業委員會高雄區農業改良場會計月報",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "主計",
+	"Counter": 5996,
+	"Lnkcnt": 503,
+	"LastUpdateTime": "2019-02-18",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "提供107年度行政院農業委員會高雄區農業改良場會計月報下載檔案",
+	"sourceURL": "https://www.kdais.gov.tw/view.php?catid=6185",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=F27"
+}

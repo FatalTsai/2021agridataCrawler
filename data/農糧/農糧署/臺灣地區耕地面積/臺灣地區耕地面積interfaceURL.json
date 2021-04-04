@@ -1,602 +1,602 @@
 [
-  {
-    "year": 105,
-    "local": "嘉義市",
-    "rice": "742.68",
-    "short_norice": "53.19",
-    "short_leisure": "362.28",
-    "long_farm": "587.05",
-    "long_leisure": "80.06",
-    "cultivated_area": "30.41"
-  },
-  {
-    "year": 105,
-    "local": "新竹市",
-    "rice": "635.62",
-    "short_norice": "43.15",
-    "short_leisure": "1258.27",
-    "long_farm": "168.28",
-    "long_leisure": "132.4",
-    "cultivated_area": "21.49"
-  },
-  {
-    "year": 105,
-    "local": "基隆市",
-    "rice": "0",
-    "short_norice": "11.23",
-    "short_leisure": "450.11",
-    "long_farm": "170.62",
-    "long_leisure": "103.32",
-    "cultivated_area": "5.54"
-  },
-  {
-    "year": 105,
-    "local": "澎湖縣",
-    "rice": "0",
-    "short_norice": "194.96",
-    "short_leisure": "751.93",
-    "long_farm": "488.2",
-    "long_leisure": "4217.37",
-    "cultivated_area": "44.56"
-  },
-  {
-    "year": 105,
-    "local": "花蓮縣",
-    "rice": "9158.56",
-    "short_norice": "4778.84",
-    "short_leisure": "18862.16",
-    "long_farm": "10422.29",
-    "long_leisure": "1885.34",
-    "cultivated_area": "9.75"
-  },
-  {
-    "year": 105,
-    "local": "臺東縣",
-    "rice": "6459.18",
-    "short_norice": "1926.84",
-    "short_leisure": "17631.47",
-    "long_farm": "14749.52",
-    "long_leisure": "6246.11",
-    "cultivated_area": "13.37"
-  },
-  {
-    "year": 105,
-    "local": "屏東縣",
-    "rice": "5945.19",
-    "short_norice": "6034.31",
-    "short_leisure": "20375.61",
-    "long_farm": "37211.58",
-    "long_leisure": "1103.92",
-    "cultivated_area": "25.46"
-  },
-  {
-    "year": 105,
-    "local": "嘉義縣",
-    "rice": "18570.81",
-    "short_norice": "9058.01",
-    "short_leisure": "13226.97",
-    "long_farm": "32300.78",
-    "long_leisure": "290.95",
-    "cultivated_area": "38.58"
-  },
-  {
-    "year": 105,
-    "local": "雲林縣",
-    "rice": "29748.1",
-    "short_norice": "18056.63",
-    "short_leisure": "15657",
-    "long_farm": "15433.53",
-    "long_leisure": "1191.24",
-    "cultivated_area": "62.04"
-  },
-  {
-    "year": 105,
-    "local": "南投縣",
-    "rice": "2395.18",
-    "short_norice": "3492.81",
-    "short_leisure": "15743.44",
-    "long_farm": "37520.55",
-    "long_leisure": "6120.9",
-    "cultivated_area": "15.9"
-  },
-  {
-    "year": 105,
-    "local": "彰化縣",
-    "rice": "27485.16",
-    "short_norice": "5885.91",
-    "short_leisure": "10742.68",
-    "long_farm": "14979.56",
-    "long_leisure": "2417.49",
-    "cultivated_area": "57.25"
-  },
-  {
-    "year": 105,
-    "local": "苗栗縣",
-    "rice": "6669.26",
-    "short_norice": "2146.07",
-    "short_leisure": "13091.68",
-    "long_farm": "9455.13",
-    "long_leisure": "2443.9",
-    "cultivated_area": "18.57"
-  },
-  {
-    "year": 105,
-    "local": "新竹縣",
-    "rice": "4776.07",
-    "short_norice": "620.23",
-    "short_leisure": "15581.81",
-    "long_farm": "4629.14",
-    "long_leisure": "2195.3",
-    "cultivated_area": "19.48"
-  },
-  {
-    "year": 105,
-    "local": "宜蘭縣",
-    "rice": "11241.96",
-    "short_norice": "2592.26",
-    "short_leisure": "9738.64",
-    "long_farm": "2768.48",
-    "long_leisure": "1199.15",
-    "cultivated_area": "12.85"
-  },
-  {
-    "year": 105,
-    "local": "高雄市",
-    "rice": "4634.43",
-    "short_norice": "4493.27",
-    "short_leisure": "16068.09",
-    "long_farm": "21165",
-    "long_leisure": "994.98",
-    "cultivated_area": "16.04"
-  },
-  {
-    "year": 105,
-    "local": "臺南市",
-    "rice": "14554.33",
-    "short_norice": "14705.81",
-    "short_leisure": "26125.37",
-    "long_farm": "31423.87",
-    "long_leisure": "5856.58",
-    "cultivated_area": "42.28"
-  },
-  {
-    "year": 105,
-    "local": "臺中市",
-    "rice": "13437.86",
-    "short_norice": "3334.07",
-    "short_leisure": "8344.79",
-    "long_farm": "22344.37",
-    "long_leisure": "1334.44",
-    "cultivated_area": "22.03"
-  },
-  {
-    "year": 105,
-    "local": "桃園市",
-    "rice": "12028.66",
-    "short_norice": "1211.41",
-    "short_leisure": "15016.06",
-    "long_farm": "3194.42",
-    "long_leisure": "2589.47",
-    "cultivated_area": "27.88"
-  },
-  {
-    "year": 105,
-    "local": "臺北市",
-    "rice": "237.51",
-    "short_norice": "354.01",
-    "short_leisure": "1318.27",
-    "long_farm": "1107.23",
-    "long_leisure": "216.36",
-    "cultivated_area": "11.9"
-  },
-  {
-    "year": 105,
-    "local": "新北市",
-    "rice": "151.01",
-    "short_norice": "1321.91",
-    "short_leisure": "9732.77",
-    "long_farm": "6239.38",
-    "long_leisure": "7758.76",
-    "cultivated_area": "12.28"
-  },
-  {
-    "year": 104,
-    "local": "嘉義市",
-    "rice": "738.2",
-    "short_norice": "42.3",
-    "short_leisure": "358.86",
-    "long_farm": "604.22",
-    "long_leisure": "84.84",
-    "cultivated_area": "30.46"
-  },
-  {
-    "year": 104,
-    "local": "新竹市",
-    "rice": "202.93",
-    "short_norice": "219.17",
-    "short_leisure": "1500.86",
-    "long_farm": "188.11",
-    "long_leisure": "131",
-    "cultivated_area": "21.53"
-  },
-  {
-    "year": 104,
-    "local": "基隆市",
-    "rice": "0",
-    "short_norice": "5.53",
-    "short_leisure": "454.48",
-    "long_farm": "170.56",
-    "long_leisure": "104.71",
-    "cultivated_area": "5.54"
-  },
-  {
-    "year": 104,
-    "local": "澎湖縣",
-    "rice": "0",
-    "short_norice": "192.92",
-    "short_leisure": "749.57",
-    "long_farm": "495.6",
-    "long_leisure": "4221.32",
-    "cultivated_area": "44.61"
-  },
-  {
-    "year": 104,
-    "local": "花蓮縣",
-    "rice": "9293.39",
-    "short_norice": "4843.61",
-    "short_leisure": "19722.25",
-    "long_farm": "10758.93",
-    "long_leisure": "1465.64",
-    "cultivated_area": "9.96"
-  },
-  {
-    "year": 104,
-    "local": "臺東縣",
-    "rice": "6365.84",
-    "short_norice": "1840.28",
-    "short_leisure": "17663.34",
-    "long_farm": "14098.57",
-    "long_leisure": "6998.53",
-    "cultivated_area": "13.36"
-  },
-  {
-    "year": 104,
-    "local": "屏東縣",
-    "rice": "5773.16",
-    "short_norice": "6617.82",
-    "short_leisure": "20072.65",
-    "long_farm": "37137.87",
-    "long_leisure": "1026.99",
-    "cultivated_area": "25.45"
-  },
-  {
-    "year": 104,
-    "local": "嘉義縣",
-    "rice": "12165.24",
-    "short_norice": "13588.76",
-    "short_leisure": "16256.81",
-    "long_farm": "31151.3",
-    "long_leisure": "289.34",
-    "cultivated_area": "38.58"
-  },
-  {
-    "year": 104,
-    "local": "雲林縣",
-    "rice": "30150.16",
-    "short_norice": "19613.3",
-    "short_leisure": "14018.15",
-    "long_farm": "14973.76",
-    "long_leisure": "1384.2",
-    "cultivated_area": "62.08"
-  },
-  {
-    "year": 104,
-    "local": "南投縣",
-    "rice": "2485.7",
-    "short_norice": "3533.03",
-    "short_leisure": "15438.83",
-    "long_farm": "37588.53",
-    "long_leisure": "6274.06",
-    "cultivated_area": "15.91"
-  },
-  {
-    "year": 104,
-    "local": "彰化縣",
-    "rice": "27364.28",
-    "short_norice": "5944.02",
-    "short_leisure": "11174.38",
-    "long_farm": "14946.32",
-    "long_leisure": "2370.29",
-    "cultivated_area": "57.52"
-  },
-  {
-    "year": 104,
-    "local": "苗栗縣",
-    "rice": "3722.9",
-    "short_norice": "3478.48",
-    "short_leisure": "15169.76",
-    "long_farm": "9174.93",
-    "long_leisure": "2427.09",
-    "cultivated_area": "18.66"
-  },
-  {
-    "year": 104,
-    "local": "新竹縣",
-    "rice": "1663.3",
-    "short_norice": "1184.85",
-    "short_leisure": "19007.67",
-    "long_farm": "4737",
-    "long_leisure": "1470.09",
-    "cultivated_area": "19.66"
-  },
-  {
-    "year": 104,
-    "local": "宜蘭縣",
-    "rice": "11112.44",
-    "short_norice": "2596.62",
-    "short_leisure": "7979.2",
-    "long_farm": "2787.2",
-    "long_leisure": "2412.92",
-    "cultivated_area": "12.54"
-  },
-  {
-    "year": 104,
-    "local": "高雄市",
-    "rice": "4674.78",
-    "short_norice": "3988.13",
-    "short_leisure": "16439.38",
-    "long_farm": "21314.82",
-    "long_leisure": "943.64",
-    "cultivated_area": "16.04"
-  },
-  {
-    "year": 104,
-    "local": "臺南市",
-    "rice": "14022.98",
-    "short_norice": "18148.66",
-    "short_leisure": "23313.08",
-    "long_farm": "31471.9",
-    "long_leisure": "5873.13",
-    "cultivated_area": "42.36"
-  },
-  {
-    "year": 104,
-    "local": "臺中市",
-    "rice": "12354.77",
-    "short_norice": "3418.69",
-    "short_leisure": "9548.54",
-    "long_farm": "22169.04",
-    "long_leisure": "1886.6",
-    "cultivated_area": "22.29"
-  },
-  {
-    "year": 104,
-    "local": "桃園市",
-    "rice": "4156.86",
-    "short_norice": "7283.13",
-    "short_leisure": "17073.47",
-    "long_farm": "3265.06",
-    "long_leisure": "2947.81",
-    "cultivated_area": "28.44"
-  },
-  {
-    "year": 104,
-    "local": "臺北市",
-    "rice": "240.49",
-    "short_norice": "345.4",
-    "short_leisure": "1190.54",
-    "long_farm": "1391.84",
-    "long_leisure": "52.31",
-    "cultivated_area": "11.85"
-  },
-  {
-    "year": 104,
-    "local": "新北市",
-    "rice": "109.88",
-    "short_norice": "1754.63",
-    "short_leisure": "9455.4",
-    "long_farm": "6326.9",
-    "long_leisure": "7677.64",
-    "cultivated_area": "12.34"
-  },
-  {
-    "year": 103,
-    "local": "嘉義市",
-    "rice": "748.97",
-    "short_norice": "105.63",
-    "short_leisure": "277.36",
-    "long_farm": "615.86",
-    "long_leisure": "95.76",
-    "cultivated_area": "30.71"
-  },
-  {
-    "year": 103,
-    "local": "新竹市",
-    "rice": "580.35",
-    "short_norice": "117.83",
-    "short_leisure": "1216.59",
-    "long_farm": "214.31",
-    "long_leisure": "128.48",
-    "cultivated_area": "21.68"
-  },
-  {
-    "year": 103,
-    "local": "基隆市",
-    "rice": "0",
-    "short_norice": "5.95",
-    "short_leisure": "453.72",
-    "long_farm": "171.06",
-    "long_leisure": "104.55",
-    "cultivated_area": "5.54"
-  },
-  {
-    "year": 103,
-    "local": "澎湖縣",
-    "rice": "0",
-    "short_norice": "193.38",
-    "short_leisure": "721",
-    "long_farm": "493.32",
-    "long_leisure": "4271.56",
-    "cultivated_area": "44.77"
-  },
-  {
-    "year": 103,
-    "local": "花蓮縣",
-    "rice": "9270.25",
-    "short_norice": "5203.57",
-    "short_leisure": "19423.68",
-    "long_farm": "10666.95",
-    "long_leisure": "1495.39",
-    "cultivated_area": "9.95"
-  },
-  {
-    "year": 103,
-    "local": "臺東縣",
-    "rice": "6333.4",
-    "short_norice": "1527.93",
-    "short_leisure": "18242.89",
-    "long_farm": "14133.77",
-    "long_leisure": "6808.21",
-    "cultivated_area": "13.38"
-  },
-  {
-    "year": 103,
-    "local": "屏東縣",
-    "rice": "5643.2",
-    "short_norice": "6797.42",
-    "short_leisure": "19556.11",
-    "long_farm": "37760.69",
-    "long_leisure": "1145.5",
-    "cultivated_area": "25.55"
-  },
-  {
-    "year": 103,
-    "local": "嘉義縣",
-    "rice": "18311.58",
-    "short_norice": "10475.32",
-    "short_leisure": "13309.52",
-    "long_farm": "31102.25",
-    "long_leisure": "387.8",
-    "cultivated_area": "38.66"
-  },
-  {
-    "year": 103,
-    "local": "雲林縣",
-    "rice": "30404.18",
-    "short_norice": "19881.62",
-    "short_leisure": "13911.1",
-    "long_farm": "14802.04",
-    "long_leisure": "1296.25",
-    "cultivated_area": "62.2"
-  },
-  {
-    "year": 103,
-    "local": "南投縣",
-    "rice": "2388.16",
-    "short_norice": "3719.17",
-    "short_leisure": "15276.15",
-    "long_farm": "37851.44",
-    "long_leisure": "6177.3",
-    "cultivated_area": "15.93"
-  },
-  {
-    "year": 103,
-    "local": "彰化縣",
-    "rice": "27001.39",
-    "short_norice": "6740.52",
-    "short_leisure": "11080.41",
-    "long_farm": "14552.97",
-    "long_leisure": "2448.39",
-    "cultivated_area": "57.54"
-  },
-  {
-    "year": 103,
-    "local": "苗栗縣",
-    "rice": "6569.79",
-    "short_norice": "2765.55",
-    "short_leisure": "13136.79",
-    "long_farm": "7856.03",
-    "long_leisure": "2617.56",
-    "cultivated_area": "18.1"
-  },
-  {
-    "year": 103,
-    "local": "新竹縣",
-    "rice": "4675.92",
-    "short_norice": "634.51",
-    "short_leisure": "16512.73",
-    "long_farm": "4853.99",
-    "long_leisure": "1444.42",
-    "cultivated_area": "19.7"
-  },
-  {
-    "year": 103,
-    "local": "宜蘭縣",
-    "rice": "10375.78",
-    "short_norice": "5776.48",
-    "short_leisure": "13078.07",
-    "long_farm": "3268.08",
-    "long_leisure": "3797.59",
-    "cultivated_area": "29.73"
-  },
-  {
-    "year": 103,
-    "local": "高雄市",
-    "rice": "133245.59",
-    "short_norice": "66697.6",
-    "short_leisure": "164141.27",
-    "long_farm": "181014.45",
-    "long_leisure": "34775.09",
-    "cultivated_area": "22.02"
-  },
-  {
-    "year": 103,
-    "local": "臺南市",
-    "rice": "4607.84",
-    "short_norice": "4325.81",
-    "short_leisure": "15782.17",
-    "long_farm": "21412.26",
-    "long_leisure": "954.63",
-    "cultivated_area": "15.97"
-  },
-  {
-    "year": 103,
-    "local": "臺中市",
-    "rice": "14719.66",
-    "short_norice": "19499.44",
-    "short_leisure": "21791.21",
-    "long_farm": "31383.3",
-    "long_leisure": "5630.13",
-    "cultivated_area": "42.44"
-  },
-  {
-    "year": 103,
-    "local": "桃園市",
-    "rice": "13635.02",
-    "short_norice": "3602.83",
-    "short_leisure": "8731.68",
-    "long_farm": "22280.66",
-    "long_leisure": "1718.68",
-    "cultivated_area": "22.56"
-  },
-  {
-    "year": 103,
-    "local": "臺北市",
-    "rice": "240.99",
-    "short_norice": "371.19",
-    "short_leisure": "1111.48",
-    "long_farm": "1442.97",
-    "long_leisure": "53.95",
-    "cultivated_area": "11.85"
-  },
-  {
-    "year": 103,
-    "local": "新北市",
-    "rice": "152.67",
-    "short_norice": "2005.85",
-    "short_leisure": "9931.5",
-    "long_farm": "6485.12",
-    "long_leisure": "7866.24",
-    "cultivated_area": "12.88"
-  }
+	{
+		"year": 105,
+		"local": "嘉義市",
+		"rice": "742.68",
+		"short_norice": "53.19",
+		"short_leisure": "362.28",
+		"long_farm": "587.05",
+		"long_leisure": "80.06",
+		"cultivated_area": "30.41"
+	},
+	{
+		"year": 105,
+		"local": "新竹市",
+		"rice": "635.62",
+		"short_norice": "43.15",
+		"short_leisure": "1258.27",
+		"long_farm": "168.28",
+		"long_leisure": "132.4",
+		"cultivated_area": "21.49"
+	},
+	{
+		"year": 105,
+		"local": "基隆市",
+		"rice": "0",
+		"short_norice": "11.23",
+		"short_leisure": "450.11",
+		"long_farm": "170.62",
+		"long_leisure": "103.32",
+		"cultivated_area": "5.54"
+	},
+	{
+		"year": 105,
+		"local": "澎湖縣",
+		"rice": "0",
+		"short_norice": "194.96",
+		"short_leisure": "751.93",
+		"long_farm": "488.2",
+		"long_leisure": "4217.37",
+		"cultivated_area": "44.56"
+	},
+	{
+		"year": 105,
+		"local": "花蓮縣",
+		"rice": "9158.56",
+		"short_norice": "4778.84",
+		"short_leisure": "18862.16",
+		"long_farm": "10422.29",
+		"long_leisure": "1885.34",
+		"cultivated_area": "9.75"
+	},
+	{
+		"year": 105,
+		"local": "臺東縣",
+		"rice": "6459.18",
+		"short_norice": "1926.84",
+		"short_leisure": "17631.47",
+		"long_farm": "14749.52",
+		"long_leisure": "6246.11",
+		"cultivated_area": "13.37"
+	},
+	{
+		"year": 105,
+		"local": "屏東縣",
+		"rice": "5945.19",
+		"short_norice": "6034.31",
+		"short_leisure": "20375.61",
+		"long_farm": "37211.58",
+		"long_leisure": "1103.92",
+		"cultivated_area": "25.46"
+	},
+	{
+		"year": 105,
+		"local": "嘉義縣",
+		"rice": "18570.81",
+		"short_norice": "9058.01",
+		"short_leisure": "13226.97",
+		"long_farm": "32300.78",
+		"long_leisure": "290.95",
+		"cultivated_area": "38.58"
+	},
+	{
+		"year": 105,
+		"local": "雲林縣",
+		"rice": "29748.1",
+		"short_norice": "18056.63",
+		"short_leisure": "15657",
+		"long_farm": "15433.53",
+		"long_leisure": "1191.24",
+		"cultivated_area": "62.04"
+	},
+	{
+		"year": 105,
+		"local": "南投縣",
+		"rice": "2395.18",
+		"short_norice": "3492.81",
+		"short_leisure": "15743.44",
+		"long_farm": "37520.55",
+		"long_leisure": "6120.9",
+		"cultivated_area": "15.9"
+	},
+	{
+		"year": 105,
+		"local": "彰化縣",
+		"rice": "27485.16",
+		"short_norice": "5885.91",
+		"short_leisure": "10742.68",
+		"long_farm": "14979.56",
+		"long_leisure": "2417.49",
+		"cultivated_area": "57.25"
+	},
+	{
+		"year": 105,
+		"local": "苗栗縣",
+		"rice": "6669.26",
+		"short_norice": "2146.07",
+		"short_leisure": "13091.68",
+		"long_farm": "9455.13",
+		"long_leisure": "2443.9",
+		"cultivated_area": "18.57"
+	},
+	{
+		"year": 105,
+		"local": "新竹縣",
+		"rice": "4776.07",
+		"short_norice": "620.23",
+		"short_leisure": "15581.81",
+		"long_farm": "4629.14",
+		"long_leisure": "2195.3",
+		"cultivated_area": "19.48"
+	},
+	{
+		"year": 105,
+		"local": "宜蘭縣",
+		"rice": "11241.96",
+		"short_norice": "2592.26",
+		"short_leisure": "9738.64",
+		"long_farm": "2768.48",
+		"long_leisure": "1199.15",
+		"cultivated_area": "12.85"
+	},
+	{
+		"year": 105,
+		"local": "高雄市",
+		"rice": "4634.43",
+		"short_norice": "4493.27",
+		"short_leisure": "16068.09",
+		"long_farm": "21165",
+		"long_leisure": "994.98",
+		"cultivated_area": "16.04"
+	},
+	{
+		"year": 105,
+		"local": "臺南市",
+		"rice": "14554.33",
+		"short_norice": "14705.81",
+		"short_leisure": "26125.37",
+		"long_farm": "31423.87",
+		"long_leisure": "5856.58",
+		"cultivated_area": "42.28"
+	},
+	{
+		"year": 105,
+		"local": "臺中市",
+		"rice": "13437.86",
+		"short_norice": "3334.07",
+		"short_leisure": "8344.79",
+		"long_farm": "22344.37",
+		"long_leisure": "1334.44",
+		"cultivated_area": "22.03"
+	},
+	{
+		"year": 105,
+		"local": "桃園市",
+		"rice": "12028.66",
+		"short_norice": "1211.41",
+		"short_leisure": "15016.06",
+		"long_farm": "3194.42",
+		"long_leisure": "2589.47",
+		"cultivated_area": "27.88"
+	},
+	{
+		"year": 105,
+		"local": "臺北市",
+		"rice": "237.51",
+		"short_norice": "354.01",
+		"short_leisure": "1318.27",
+		"long_farm": "1107.23",
+		"long_leisure": "216.36",
+		"cultivated_area": "11.9"
+	},
+	{
+		"year": 105,
+		"local": "新北市",
+		"rice": "151.01",
+		"short_norice": "1321.91",
+		"short_leisure": "9732.77",
+		"long_farm": "6239.38",
+		"long_leisure": "7758.76",
+		"cultivated_area": "12.28"
+	},
+	{
+		"year": 104,
+		"local": "嘉義市",
+		"rice": "738.2",
+		"short_norice": "42.3",
+		"short_leisure": "358.86",
+		"long_farm": "604.22",
+		"long_leisure": "84.84",
+		"cultivated_area": "30.46"
+	},
+	{
+		"year": 104,
+		"local": "新竹市",
+		"rice": "202.93",
+		"short_norice": "219.17",
+		"short_leisure": "1500.86",
+		"long_farm": "188.11",
+		"long_leisure": "131",
+		"cultivated_area": "21.53"
+	},
+	{
+		"year": 104,
+		"local": "基隆市",
+		"rice": "0",
+		"short_norice": "5.53",
+		"short_leisure": "454.48",
+		"long_farm": "170.56",
+		"long_leisure": "104.71",
+		"cultivated_area": "5.54"
+	},
+	{
+		"year": 104,
+		"local": "澎湖縣",
+		"rice": "0",
+		"short_norice": "192.92",
+		"short_leisure": "749.57",
+		"long_farm": "495.6",
+		"long_leisure": "4221.32",
+		"cultivated_area": "44.61"
+	},
+	{
+		"year": 104,
+		"local": "花蓮縣",
+		"rice": "9293.39",
+		"short_norice": "4843.61",
+		"short_leisure": "19722.25",
+		"long_farm": "10758.93",
+		"long_leisure": "1465.64",
+		"cultivated_area": "9.96"
+	},
+	{
+		"year": 104,
+		"local": "臺東縣",
+		"rice": "6365.84",
+		"short_norice": "1840.28",
+		"short_leisure": "17663.34",
+		"long_farm": "14098.57",
+		"long_leisure": "6998.53",
+		"cultivated_area": "13.36"
+	},
+	{
+		"year": 104,
+		"local": "屏東縣",
+		"rice": "5773.16",
+		"short_norice": "6617.82",
+		"short_leisure": "20072.65",
+		"long_farm": "37137.87",
+		"long_leisure": "1026.99",
+		"cultivated_area": "25.45"
+	},
+	{
+		"year": 104,
+		"local": "嘉義縣",
+		"rice": "12165.24",
+		"short_norice": "13588.76",
+		"short_leisure": "16256.81",
+		"long_farm": "31151.3",
+		"long_leisure": "289.34",
+		"cultivated_area": "38.58"
+	},
+	{
+		"year": 104,
+		"local": "雲林縣",
+		"rice": "30150.16",
+		"short_norice": "19613.3",
+		"short_leisure": "14018.15",
+		"long_farm": "14973.76",
+		"long_leisure": "1384.2",
+		"cultivated_area": "62.08"
+	},
+	{
+		"year": 104,
+		"local": "南投縣",
+		"rice": "2485.7",
+		"short_norice": "3533.03",
+		"short_leisure": "15438.83",
+		"long_farm": "37588.53",
+		"long_leisure": "6274.06",
+		"cultivated_area": "15.91"
+	},
+	{
+		"year": 104,
+		"local": "彰化縣",
+		"rice": "27364.28",
+		"short_norice": "5944.02",
+		"short_leisure": "11174.38",
+		"long_farm": "14946.32",
+		"long_leisure": "2370.29",
+		"cultivated_area": "57.52"
+	},
+	{
+		"year": 104,
+		"local": "苗栗縣",
+		"rice": "3722.9",
+		"short_norice": "3478.48",
+		"short_leisure": "15169.76",
+		"long_farm": "9174.93",
+		"long_leisure": "2427.09",
+		"cultivated_area": "18.66"
+	},
+	{
+		"year": 104,
+		"local": "新竹縣",
+		"rice": "1663.3",
+		"short_norice": "1184.85",
+		"short_leisure": "19007.67",
+		"long_farm": "4737",
+		"long_leisure": "1470.09",
+		"cultivated_area": "19.66"
+	},
+	{
+		"year": 104,
+		"local": "宜蘭縣",
+		"rice": "11112.44",
+		"short_norice": "2596.62",
+		"short_leisure": "7979.2",
+		"long_farm": "2787.2",
+		"long_leisure": "2412.92",
+		"cultivated_area": "12.54"
+	},
+	{
+		"year": 104,
+		"local": "高雄市",
+		"rice": "4674.78",
+		"short_norice": "3988.13",
+		"short_leisure": "16439.38",
+		"long_farm": "21314.82",
+		"long_leisure": "943.64",
+		"cultivated_area": "16.04"
+	},
+	{
+		"year": 104,
+		"local": "臺南市",
+		"rice": "14022.98",
+		"short_norice": "18148.66",
+		"short_leisure": "23313.08",
+		"long_farm": "31471.9",
+		"long_leisure": "5873.13",
+		"cultivated_area": "42.36"
+	},
+	{
+		"year": 104,
+		"local": "臺中市",
+		"rice": "12354.77",
+		"short_norice": "3418.69",
+		"short_leisure": "9548.54",
+		"long_farm": "22169.04",
+		"long_leisure": "1886.6",
+		"cultivated_area": "22.29"
+	},
+	{
+		"year": 104,
+		"local": "桃園市",
+		"rice": "4156.86",
+		"short_norice": "7283.13",
+		"short_leisure": "17073.47",
+		"long_farm": "3265.06",
+		"long_leisure": "2947.81",
+		"cultivated_area": "28.44"
+	},
+	{
+		"year": 104,
+		"local": "臺北市",
+		"rice": "240.49",
+		"short_norice": "345.4",
+		"short_leisure": "1190.54",
+		"long_farm": "1391.84",
+		"long_leisure": "52.31",
+		"cultivated_area": "11.85"
+	},
+	{
+		"year": 104,
+		"local": "新北市",
+		"rice": "109.88",
+		"short_norice": "1754.63",
+		"short_leisure": "9455.4",
+		"long_farm": "6326.9",
+		"long_leisure": "7677.64",
+		"cultivated_area": "12.34"
+	},
+	{
+		"year": 103,
+		"local": "嘉義市",
+		"rice": "748.97",
+		"short_norice": "105.63",
+		"short_leisure": "277.36",
+		"long_farm": "615.86",
+		"long_leisure": "95.76",
+		"cultivated_area": "30.71"
+	},
+	{
+		"year": 103,
+		"local": "新竹市",
+		"rice": "580.35",
+		"short_norice": "117.83",
+		"short_leisure": "1216.59",
+		"long_farm": "214.31",
+		"long_leisure": "128.48",
+		"cultivated_area": "21.68"
+	},
+	{
+		"year": 103,
+		"local": "基隆市",
+		"rice": "0",
+		"short_norice": "5.95",
+		"short_leisure": "453.72",
+		"long_farm": "171.06",
+		"long_leisure": "104.55",
+		"cultivated_area": "5.54"
+	},
+	{
+		"year": 103,
+		"local": "澎湖縣",
+		"rice": "0",
+		"short_norice": "193.38",
+		"short_leisure": "721",
+		"long_farm": "493.32",
+		"long_leisure": "4271.56",
+		"cultivated_area": "44.77"
+	},
+	{
+		"year": 103,
+		"local": "花蓮縣",
+		"rice": "9270.25",
+		"short_norice": "5203.57",
+		"short_leisure": "19423.68",
+		"long_farm": "10666.95",
+		"long_leisure": "1495.39",
+		"cultivated_area": "9.95"
+	},
+	{
+		"year": 103,
+		"local": "臺東縣",
+		"rice": "6333.4",
+		"short_norice": "1527.93",
+		"short_leisure": "18242.89",
+		"long_farm": "14133.77",
+		"long_leisure": "6808.21",
+		"cultivated_area": "13.38"
+	},
+	{
+		"year": 103,
+		"local": "屏東縣",
+		"rice": "5643.2",
+		"short_norice": "6797.42",
+		"short_leisure": "19556.11",
+		"long_farm": "37760.69",
+		"long_leisure": "1145.5",
+		"cultivated_area": "25.55"
+	},
+	{
+		"year": 103,
+		"local": "嘉義縣",
+		"rice": "18311.58",
+		"short_norice": "10475.32",
+		"short_leisure": "13309.52",
+		"long_farm": "31102.25",
+		"long_leisure": "387.8",
+		"cultivated_area": "38.66"
+	},
+	{
+		"year": 103,
+		"local": "雲林縣",
+		"rice": "30404.18",
+		"short_norice": "19881.62",
+		"short_leisure": "13911.1",
+		"long_farm": "14802.04",
+		"long_leisure": "1296.25",
+		"cultivated_area": "62.2"
+	},
+	{
+		"year": 103,
+		"local": "南投縣",
+		"rice": "2388.16",
+		"short_norice": "3719.17",
+		"short_leisure": "15276.15",
+		"long_farm": "37851.44",
+		"long_leisure": "6177.3",
+		"cultivated_area": "15.93"
+	},
+	{
+		"year": 103,
+		"local": "彰化縣",
+		"rice": "27001.39",
+		"short_norice": "6740.52",
+		"short_leisure": "11080.41",
+		"long_farm": "14552.97",
+		"long_leisure": "2448.39",
+		"cultivated_area": "57.54"
+	},
+	{
+		"year": 103,
+		"local": "苗栗縣",
+		"rice": "6569.79",
+		"short_norice": "2765.55",
+		"short_leisure": "13136.79",
+		"long_farm": "7856.03",
+		"long_leisure": "2617.56",
+		"cultivated_area": "18.1"
+	},
+	{
+		"year": 103,
+		"local": "新竹縣",
+		"rice": "4675.92",
+		"short_norice": "634.51",
+		"short_leisure": "16512.73",
+		"long_farm": "4853.99",
+		"long_leisure": "1444.42",
+		"cultivated_area": "19.7"
+	},
+	{
+		"year": 103,
+		"local": "宜蘭縣",
+		"rice": "10375.78",
+		"short_norice": "5776.48",
+		"short_leisure": "13078.07",
+		"long_farm": "3268.08",
+		"long_leisure": "3797.59",
+		"cultivated_area": "29.73"
+	},
+	{
+		"year": 103,
+		"local": "高雄市",
+		"rice": "133245.59",
+		"short_norice": "66697.6",
+		"short_leisure": "164141.27",
+		"long_farm": "181014.45",
+		"long_leisure": "34775.09",
+		"cultivated_area": "22.02"
+	},
+	{
+		"year": 103,
+		"local": "臺南市",
+		"rice": "4607.84",
+		"short_norice": "4325.81",
+		"short_leisure": "15782.17",
+		"long_farm": "21412.26",
+		"long_leisure": "954.63",
+		"cultivated_area": "15.97"
+	},
+	{
+		"year": 103,
+		"local": "臺中市",
+		"rice": "14719.66",
+		"short_norice": "19499.44",
+		"short_leisure": "21791.21",
+		"long_farm": "31383.3",
+		"long_leisure": "5630.13",
+		"cultivated_area": "42.44"
+	},
+	{
+		"year": 103,
+		"local": "桃園市",
+		"rice": "13635.02",
+		"short_norice": "3602.83",
+		"short_leisure": "8731.68",
+		"long_farm": "22280.66",
+		"long_leisure": "1718.68",
+		"cultivated_area": "22.56"
+	},
+	{
+		"year": 103,
+		"local": "臺北市",
+		"rice": "240.99",
+		"short_norice": "371.19",
+		"short_leisure": "1111.48",
+		"long_farm": "1442.97",
+		"long_leisure": "53.95",
+		"cultivated_area": "11.85"
+	},
+	{
+		"year": 103,
+		"local": "新北市",
+		"rice": "152.67",
+		"short_norice": "2005.85",
+		"short_leisure": "9931.5",
+		"long_farm": "6485.12",
+		"long_leisure": "7866.24",
+		"cultivated_area": "12.88"
+	}
 ]

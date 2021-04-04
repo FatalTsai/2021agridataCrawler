@@ -1,1 +1,17 @@
-{'ID': '354', 'Title': '農業試驗所技轉產學公告', 'Organ': '農業試驗所', 'Catalog': '農業科技', 'Counter': 10228, 'Lnkcnt': 799, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每日', 'description': '提供資料包括：標題、連結網址、公布日期、截止日期、內容、附加檔案網址等欄位資料。', 'sourceURL': 'http://www.tari.gov.tw/news/index.asp?Parser=9,4,28', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Tarinews.aspx'}
+{
+	"ID": "354",
+	"Title": "農業試驗所技轉產學公告",
+	"Organ": "農業試驗所",
+	"Catalog": "農業科技",
+	"Counter": 10228,
+	"Lnkcnt": 799,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包括：標題、連結網址、公布日期、截止日期、內容、附加檔案網址等欄位資料。",
+	"sourceURL": "http://www.tari.gov.tw/news/index.asp?Parser=9,4,28",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Tarinews.aspx"
+}

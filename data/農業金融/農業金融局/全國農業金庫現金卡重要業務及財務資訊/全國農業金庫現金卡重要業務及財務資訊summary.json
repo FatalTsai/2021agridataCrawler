@@ -1,1 +1,17 @@
-{'ID': 'JbMMFQuCUlAD', 'Title': '全國農業金庫現金卡重要業務及財務資訊', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 5789, 'Lnkcnt': 84, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括：年月、已動用額度卡數(張)、未動用額度卡數(張)、放款契約額度總和、放款可動用額度總和、放款餘額(含催收款)、逾放比率、已提列備抵呆帳餘額、本月轉銷呆帳金額、本年度累計轉銷呆帳金額等欄位資訊。', 'sourceURL': 'https://www.boaf.gov.tw/boafwww/index.jsp?a=lp&amp;amp;ctNode=337&amp;amp;CtUnit=171&amp;amp;BaseDSD=7', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=JbMMFQuCUlAD'}
+{
+	"ID": "JbMMFQuCUlAD",
+	"Title": "全國農業金庫現金卡重要業務及財務資訊",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 5789,
+	"Lnkcnt": 84,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：年月、已動用額度卡數(張)、未動用額度卡數(張)、放款契約額度總和、放款可動用額度總和、放款餘額(含催收款)、逾放比率、已提列備抵呆帳餘額、本月轉銷呆帳金額、本年度累計轉銷呆帳金額等欄位資訊。",
+	"sourceURL": "https://www.boaf.gov.tw/boafwww/index.jsp?a=lp&amp;amp;ctNode=337&amp;amp;CtUnit=171&amp;amp;BaseDSD=7",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=JbMMFQuCUlAD"
+}

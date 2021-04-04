@@ -1,1 +1,17 @@
-{'ID': '369', 'Title': '國產牛肉追溯資訊系統', 'Organ': '畜牧處', 'Catalog': '畜牧', 'Counter': 35568, 'Lnkcnt': 25034, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '4', 'UpdateFrequency': '每日', 'description': '提供資料包括：牛隻追溯號碼、屠宰日期、畜牧場名稱、畜牧場負責人、畜牧場場址、畜牧場登記證號、屠宰場、屠宰場登記證、屠宰場負責人、屠宰場廠址等欄位資料。', 'sourceURL': 'http://beeftraceability.naif2.org.tw/trace/#', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TraceBeefData.aspx'}
+{
+	"ID": "369",
+	"Title": "國產牛肉追溯資訊系統",
+	"Organ": "畜牧處",
+	"Catalog": "畜牧",
+	"Counter": 35568,
+	"Lnkcnt": 25034,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "4",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包括：牛隻追溯號碼、屠宰日期、畜牧場名稱、畜牧場負責人、畜牧場場址、畜牧場登記證號、屠宰場、屠宰場登記證、屠宰場負責人、屠宰場廠址等欄位資料。",
+	"sourceURL": "http://beeftraceability.naif2.org.tw/trace/#",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TraceBeefData.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': '692', 'Title': '農田水利署各管理處灌溉供水滿足度情形', 'Organ': '農田水利署', 'Catalog': '農田水利', 'Counter': 9901, 'Lnkcnt': 460, 'LastUpdateTime': '2021-04-02', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '不更新', 'description': '提供資料包括：會別、年別、灌溉滿足度、期作等欄位資料。本項資料為評估性指標，該指標無法適切反映供水情形，爰105年起停止辦理', 'sourceURL': 'http://opendata.water.tku.edu.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Tkucod003.aspx'}
+{
+	"ID": "692",
+	"Title": "農田水利署各管理處灌溉供水滿足度情形",
+	"Organ": "農田水利署",
+	"Catalog": "農田水利",
+	"Counter": 9901,
+	"Lnkcnt": 460,
+	"LastUpdateTime": "2021-04-02",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "不更新",
+	"description": "提供資料包括：會別、年別、灌溉滿足度、期作等欄位資料。本項資料為評估性指標，該指標無法適切反映供水情形，爰105年起停止辦理",
+	"sourceURL": "http://opendata.water.tku.edu.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Tkucod003.aspx"
+}

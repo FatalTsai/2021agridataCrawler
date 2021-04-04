@@ -1,1 +1,17 @@
-{'ID': '268', 'Title': '市售食米抽檢不合格產品', 'Organ': '農糧署', 'Catalog': '安全飲食', 'Counter': 15857, 'Lnkcnt': 5368, 'LastUpdateTime': '2021-02-08', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '6', 'UpdateFrequency': '每月', 'description': '提供資料包括：標題、編號、品名、國際條碼、廠商名稱、廠商地址、檢驗結果、不合格原因、違反規定、行政處分、更新日期等欄位資訊。', 'sourceURL': 'https://www.afa.gov.tw/cht/index.php?code=list&amp;ids=664', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/AgricultureiRiceFailure.aspx'}
+{
+	"ID": "268",
+	"Title": "市售食米抽檢不合格產品",
+	"Organ": "農糧署",
+	"Catalog": "安全飲食",
+	"Counter": 15857,
+	"Lnkcnt": 5368,
+	"LastUpdateTime": "2021-02-08",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "6",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包括：標題、編號、品名、國際條碼、廠商名稱、廠商地址、檢驗結果、不合格原因、違反規定、行政處分、更新日期等欄位資訊。",
+	"sourceURL": "https://www.afa.gov.tw/cht/index.php?code=list&amp;ids=664",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/AgricultureiRiceFailure.aspx"
+}

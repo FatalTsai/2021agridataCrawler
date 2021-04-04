@@ -1,1 +1,17 @@
-{'ID': '263', 'Title': '產銷履歷農糧產品檢驗結果', 'Organ': '農糧署', 'Catalog': '安全飲食', 'Counter': 16237, 'Lnkcnt': 20833, 'LastUpdateTime': '2020-10-05', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '資料提供包括：編號、抽檢日期、商品名稱、條碼編號、經營業者名稱、採樣地點、抽檢結果、備註等欄位資訊。', 'sourceURL': 'https://www.afa.gov.tw/cht/index.php?code=list&amp;ids=764', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=263'}
+{
+	"ID": "263",
+	"Title": "產銷履歷農糧產品檢驗結果",
+	"Organ": "農糧署",
+	"Catalog": "安全飲食",
+	"Counter": 16237,
+	"Lnkcnt": 20833,
+	"LastUpdateTime": "2020-10-05",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "資料提供包括：編號、抽檢日期、商品名稱、條碼編號、經營業者名稱、採樣地點、抽檢結果、備註等欄位資訊。",
+	"sourceURL": "https://www.afa.gov.tw/cht/index.php?code=list&amp;ids=764",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=263"
+}

@@ -1,1919 +1,1919 @@
 [
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 957667,
-    "assistance_purchase": 7884
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 199555,
-    "assistance_purchase": 15172
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 95855,
-    "assistance_purchase": 4297
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 212076,
-    "assistance_purchase": 51509
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "硬秈稻",
-    "plan_purchase": 193481,
-    "assistance_purchase": 196
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 3672,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 320232,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1108752,
-    "assistance_purchase": 4654
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2424105,
-    "assistance_purchase": 91459
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1099818,
-    "assistance_purchase": 182050
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 310495,
-    "assistance_purchase": 18291
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 13401475,
-    "assistance_purchase": 4663238
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 35403,
-    "assistance_purchase": 1055
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2568489,
-    "assistance_purchase": 83209
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 39604,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2715234,
-    "assistance_purchase": 659424
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 29678,
-    "assistance_purchase": 2134
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 8437361,
-    "assistance_purchase": 869384
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "硬秈稻",
-    "plan_purchase": 391646,
-    "assistance_purchase": 56809
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 516036,
-    "assistance_purchase": 189729
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 847408,
-    "assistance_purchase": 38243
-  },
-  {
-    "year": 97,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 21574034,
-    "assistance_purchase": 2534372
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "雲林縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "雲林縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 278814,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "雲林縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1075026,
-    "assistance_purchase": 518
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "南投縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "南投縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "南投縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 102981,
-    "assistance_purchase": 3255
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "彰化縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 113055,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "彰化縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "彰化縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 13893,
-    "assistance_purchase": 414
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "台中市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "台中市",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "台中市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 113392,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "台中縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "台中縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "中區分署",
-    "local": "台中縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 735908,
-    "assistance_purchase": 7217
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "苗栗縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "苗栗縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "苗栗縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2037858,
-    "assistance_purchase": 316
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "新竹市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "新竹市",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "新竹市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 107184,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "新竹縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "新竹縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "新竹縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1957183,
-    "assistance_purchase": 3744
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "桃園縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "桃園縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "桃園縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1947714,
-    "assistance_purchase": 12206
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "台北市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "台北市",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "台北市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "台北縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "台北縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 2,
-    "council": "北區分署",
-    "local": "台北縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2164297,
-    "assistance_purchase": 115181
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1126110,
-    "assistance_purchase": 73899
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 333067,
-    "assistance_purchase": 175237
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 13853165,
-    "assistance_purchase": 4731819
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 14581,
-    "assistance_purchase": 3294
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2840915,
-    "assistance_purchase": 177941
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 43105,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 2724546,
-    "assistance_purchase": 634264
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 27170,
-    "assistance_purchase": 213
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 8379106,
-    "assistance_purchase": 644132
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 267006,
-    "assistance_purchase": 9775
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 462125,
-    "assistance_purchase": 117183
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "硬秈稻(在來)",
-    "plan_purchase": 600859,
-    "assistance_purchase": 74856
-  },
-  {
-    "year": 96,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 22760463,
-    "assistance_purchase": 3656741
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 881529,
-    "assistance_purchase": 1341
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 91894,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 124769,
-    "assistance_purchase": 5570
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 204428,
-    "assistance_purchase": 16849
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 5224768,
-    "assistance_purchase": 137541
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "硬秈稻",
-    "plan_purchase": 123042,
-    "assistance_purchase": 458
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 428072,
-    "assistance_purchase": 15077
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 321120,
-    "assistance_purchase": 1615
-  },
-  {
-    "year": 95,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 12923807,
-    "assistance_purchase": 234221
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1994112,
-    "assistance_purchase": 148536
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1287594,
-    "assistance_purchase": 73098
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 277910,
-    "assistance_purchase": 10984
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 14483396,
-    "assistance_purchase": 1580616
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 37409,
-    "assistance_purchase": 2903
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 3246923,
-    "assistance_purchase": 789491
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 37791,
-    "assistance_purchase": 66
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 3140570,
-    "assistance_purchase": 982022
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 10777,
-    "assistance_purchase": 2720
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 39754,
-    "assistance_purchase": 1645
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 9379173,
-    "assistance_purchase": 818698
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "硬秈稻",
-    "plan_purchase": 269816,
-    "assistance_purchase": 12915
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 579975,
-    "assistance_purchase": 187612
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 589416,
-    "assistance_purchase": 14652
-  },
-  {
-    "year": 95,
-    "period": 1,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 21548393,
-    "assistance_purchase": 2193667
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "花蓮縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 227529,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "台東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 7128,
-    "assistance_purchase": 583
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "東區分署",
-    "local": "宜蘭縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "屏東縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 240195,
-    "assistance_purchase": 12499
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "高雄縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 391600,
-    "assistance_purchase": 30206
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "台南縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 771683,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "硬秈稻",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義市",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 157916,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "軟秈稻(秈稻)",
-    "plan_purchase": 0,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "硬秈稻",
-    "plan_purchase": 204514,
-    "assistance_purchase": 0
-  },
-  {
-    "year": 94,
-    "period": 2,
-    "council": "南區分署",
-    "local": "嘉義縣",
-    "crop": "稉稻(蓬萊)",
-    "plan_purchase": 1050243,
-    "assistance_purchase": 540
-  }
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 957667,
+		"assistance_purchase": 7884
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 199555,
+		"assistance_purchase": 15172
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 95855,
+		"assistance_purchase": 4297
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 212076,
+		"assistance_purchase": 51509
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "硬秈稻",
+		"plan_purchase": 193481,
+		"assistance_purchase": 196
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 3672,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 320232,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1108752,
+		"assistance_purchase": 4654
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2424105,
+		"assistance_purchase": 91459
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1099818,
+		"assistance_purchase": 182050
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 310495,
+		"assistance_purchase": 18291
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 13401475,
+		"assistance_purchase": 4663238
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 35403,
+		"assistance_purchase": 1055
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2568489,
+		"assistance_purchase": 83209
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 39604,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2715234,
+		"assistance_purchase": 659424
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 29678,
+		"assistance_purchase": 2134
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 8437361,
+		"assistance_purchase": 869384
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "硬秈稻",
+		"plan_purchase": 391646,
+		"assistance_purchase": 56809
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 516036,
+		"assistance_purchase": 189729
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 847408,
+		"assistance_purchase": 38243
+	},
+	{
+		"year": 97,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 21574034,
+		"assistance_purchase": 2534372
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "雲林縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "雲林縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 278814,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "雲林縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1075026,
+		"assistance_purchase": 518
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "南投縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "南投縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "南投縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 102981,
+		"assistance_purchase": 3255
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "彰化縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 113055,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "彰化縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "彰化縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 13893,
+		"assistance_purchase": 414
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "台中市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "台中市",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "台中市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 113392,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "台中縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "台中縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "中區分署",
+		"local": "台中縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 735908,
+		"assistance_purchase": 7217
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "苗栗縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "苗栗縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "苗栗縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2037858,
+		"assistance_purchase": 316
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "新竹市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "新竹市",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "新竹市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 107184,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "新竹縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "新竹縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "新竹縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1957183,
+		"assistance_purchase": 3744
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "桃園縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "桃園縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "桃園縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1947714,
+		"assistance_purchase": 12206
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "台北市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "台北市",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "台北市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "台北縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "台北縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 2,
+		"council": "北區分署",
+		"local": "台北縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2164297,
+		"assistance_purchase": 115181
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1126110,
+		"assistance_purchase": 73899
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 333067,
+		"assistance_purchase": 175237
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 13853165,
+		"assistance_purchase": 4731819
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 14581,
+		"assistance_purchase": 3294
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2840915,
+		"assistance_purchase": 177941
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 43105,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 2724546,
+		"assistance_purchase": 634264
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 27170,
+		"assistance_purchase": 213
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 8379106,
+		"assistance_purchase": 644132
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 267006,
+		"assistance_purchase": 9775
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 462125,
+		"assistance_purchase": 117183
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "硬秈稻(在來)",
+		"plan_purchase": 600859,
+		"assistance_purchase": 74856
+	},
+	{
+		"year": 96,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 22760463,
+		"assistance_purchase": 3656741
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 881529,
+		"assistance_purchase": 1341
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 91894,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 124769,
+		"assistance_purchase": 5570
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 204428,
+		"assistance_purchase": 16849
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 5224768,
+		"assistance_purchase": 137541
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "硬秈稻",
+		"plan_purchase": 123042,
+		"assistance_purchase": 458
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 428072,
+		"assistance_purchase": 15077
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 321120,
+		"assistance_purchase": 1615
+	},
+	{
+		"year": 95,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 12923807,
+		"assistance_purchase": 234221
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1994112,
+		"assistance_purchase": 148536
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1287594,
+		"assistance_purchase": 73098
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 277910,
+		"assistance_purchase": 10984
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 14483396,
+		"assistance_purchase": 1580616
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 37409,
+		"assistance_purchase": 2903
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 3246923,
+		"assistance_purchase": 789491
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 37791,
+		"assistance_purchase": 66
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 3140570,
+		"assistance_purchase": 982022
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 10777,
+		"assistance_purchase": 2720
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 39754,
+		"assistance_purchase": 1645
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 9379173,
+		"assistance_purchase": 818698
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "硬秈稻",
+		"plan_purchase": 269816,
+		"assistance_purchase": 12915
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 579975,
+		"assistance_purchase": 187612
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 589416,
+		"assistance_purchase": 14652
+	},
+	{
+		"year": 95,
+		"period": 1,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 21548393,
+		"assistance_purchase": 2193667
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "花蓮縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 227529,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "台東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 7128,
+		"assistance_purchase": 583
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "東區分署",
+		"local": "宜蘭縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "屏東縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 240195,
+		"assistance_purchase": 12499
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "高雄縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 391600,
+		"assistance_purchase": 30206
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "台南縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 771683,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "硬秈稻",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義市",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 157916,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "軟秈稻(秈稻)",
+		"plan_purchase": 0,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "硬秈稻",
+		"plan_purchase": 204514,
+		"assistance_purchase": 0
+	},
+	{
+		"year": 94,
+		"period": 2,
+		"council": "南區分署",
+		"local": "嘉義縣",
+		"crop": "稉稻(蓬萊)",
+		"plan_purchase": 1050243,
+		"assistance_purchase": 540
+	}
 ]

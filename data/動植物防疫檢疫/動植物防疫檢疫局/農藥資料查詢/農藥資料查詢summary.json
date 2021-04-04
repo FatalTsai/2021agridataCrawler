@@ -1,1 +1,17 @@
-{'ID': '034', 'Title': '農藥資料查詢', 'Organ': '動植物防疫檢疫局', 'Catalog': '動植物防疫檢疫', 'Counter': 28890, 'Lnkcnt': 64021258, 'LastUpdateTime': '2021-03-29', 'Messages': 5, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '5', 'UpdateFrequency': '每周', 'description': '提供資料包含：許可證字、許可證號、中文名稱、農藥代號、英文名稱、廠牌名稱、化學成分、國外原製造廠商、劑型、含量、作物名稱、病蟲害名稱、公頃用藥量、施用次數、使用方法、注意事項、有效期限、廠商名稱、農藥使用範圍、FRAC殺菌劑抗藥性、HRAC除草劑抗藥性、IRAC殺蟲劑抗藥性等欄位資料。', 'sourceURL': 'https://pesticide.baphiq.gov.tw/web/Insecticides_MenuItem5_3.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/PesticideData.aspx'}
+{
+	"ID": "034",
+	"Title": "農藥資料查詢",
+	"Organ": "動植物防疫檢疫局",
+	"Catalog": "動植物防疫檢疫",
+	"Counter": 28890,
+	"Lnkcnt": 64021258,
+	"LastUpdateTime": "2021-03-29",
+	"Messages": 5,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "5",
+	"UpdateFrequency": "每周",
+	"description": "提供資料包含：許可證字、許可證號、中文名稱、農藥代號、英文名稱、廠牌名稱、化學成分、國外原製造廠商、劑型、含量、作物名稱、病蟲害名稱、公頃用藥量、施用次數、使用方法、注意事項、有效期限、廠商名稱、農藥使用範圍、FRAC殺菌劑抗藥性、HRAC除草劑抗藥性、IRAC殺蟲劑抗藥性等欄位資料。",
+	"sourceURL": "https://pesticide.baphiq.gov.tw/web/Insecticides_MenuItem5_3.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/PesticideData.aspx"
+}

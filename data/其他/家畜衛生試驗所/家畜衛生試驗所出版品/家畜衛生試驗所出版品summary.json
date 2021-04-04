@@ -1,1 +1,17 @@
-{'ID': 'B64', 'Title': '家畜衛生試驗所出版品', 'Organ': '家畜衛生試驗所', 'Catalog': '其他', 'Counter': 4457, 'Lnkcnt': 70, 'LastUpdateTime': '2018-03-27', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每年', 'description': '提供資料包括：年份、名稱、作者、價格、更新日期等欄位資訊。', 'sourceURL': 'http://www.nvri.gov.tw/main.aspx?pid=7YcsHpW/lOk=', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/Nvri/Publish.aspx'}
+{
+	"ID": "B64",
+	"Title": "家畜衛生試驗所出版品",
+	"Organ": "家畜衛生試驗所",
+	"Catalog": "其他",
+	"Counter": 4457,
+	"Lnkcnt": 70,
+	"LastUpdateTime": "2018-03-27",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每年",
+	"description": "提供資料包括：年份、名稱、作者、價格、更新日期等欄位資訊。",
+	"sourceURL": "http://www.nvri.gov.tw/main.aspx?pid=7YcsHpW/lOk=",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/Nvri/Publish.aspx"
+}

@@ -1,1 +1,17 @@
-{'ID': 'E18', 'Title': '山地農村廣播書刊', 'Organ': '高雄區農業改良場', 'Catalog': '農民輔導', 'Counter': 6316, 'Lnkcnt': 715, 'LastUpdateTime': '2020-07-31', 'Messages': 0, 'Collect': 0, 'rating': '1', 'NumberOfVoters': '1', 'UpdateFrequency': '即時', 'description': '提供山地農村廣播書刊。', 'sourceURL': 'https://www.kdais.gov.tw/view.php?catid=416', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E18'}
+{
+	"ID": "E18",
+	"Title": "山地農村廣播書刊",
+	"Organ": "高雄區農業改良場",
+	"Catalog": "農民輔導",
+	"Counter": 6316,
+	"Lnkcnt": 715,
+	"LastUpdateTime": "2020-07-31",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "1",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "即時",
+	"description": "提供山地農村廣播書刊。",
+	"sourceURL": "https://www.kdais.gov.tw/view.php?catid=416",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=E18"
+}

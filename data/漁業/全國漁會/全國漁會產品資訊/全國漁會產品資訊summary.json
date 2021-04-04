@@ -1,1 +1,17 @@
-{'ID': '073', 'Title': '全國漁會產品資訊', 'Organ': '全國漁會', 'Catalog': '漁業', 'Counter': 14177, 'Lnkcnt': 10876, 'LastUpdateTime': '2019-04-18', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '2', 'UpdateFrequency': '每季', 'description': '提供資料包含：名稱、描述等欄位資訊。', 'sourceURL': '', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=073'}
+{
+	"ID": "073",
+	"Title": "全國漁會產品資訊",
+	"Organ": "全國漁會",
+	"Catalog": "漁業",
+	"Counter": 14177,
+	"Lnkcnt": 10876,
+	"LastUpdateTime": "2019-04-18",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每季",
+	"description": "提供資料包含：名稱、描述等欄位資訊。",
+	"sourceURL": "",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=073"
+}

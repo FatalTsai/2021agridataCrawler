@@ -1,1 +1,17 @@
-{'ID': '9I9LVp6QoeJX', 'Title': '全國農業金庫支票存款', 'Organ': '農業金融局', 'Catalog': '農業金融', 'Counter': 6016, 'Lnkcnt': 89, 'LastUpdateTime': '2020-01-03', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '每月', 'description': '資料提供包括：年月、公司戶數、公司餘額、個人戶數、個人餘額、其他戶數、其他餘額、合計戶數、合計餘額、本月戶數與上月比較增減比率、本月餘額與上月比較增減比率、本月戶數與上年比較增減比率、本月餘額與上年比較增減比率等欄位資訊。', 'sourceURL': 'https://www.boaf.gov.tw/boafwww/index.jsp?a=lp&amp;amp;ctNode=337&amp;amp;CtUnit=171&amp;amp;BaseDSD=7', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=9I9LVp6QoeJX'}
+{
+	"ID": "9I9LVp6QoeJX",
+	"Title": "全國農業金庫支票存款",
+	"Organ": "農業金融局",
+	"Catalog": "農業金融",
+	"Counter": 6016,
+	"Lnkcnt": 89,
+	"LastUpdateTime": "2020-01-03",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "每月",
+	"description": "資料提供包括：年月、公司戶數、公司餘額、個人戶數、個人餘額、其他戶數、其他餘額、合計戶數、合計餘額、本月戶數與上月比較增減比率、本月餘額與上月比較增減比率、本月戶數與上年比較增減比率、本月餘額與上年比較增減比率等欄位資訊。",
+	"sourceURL": "https://www.boaf.gov.tw/boafwww/index.jsp?a=lp&amp;amp;ctNode=337&amp;amp;CtUnit=171&amp;amp;BaseDSD=7",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=9I9LVp6QoeJX"
+}

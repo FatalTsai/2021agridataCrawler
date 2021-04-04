@@ -1,1 +1,17 @@
-{'ID': 'F34', 'Title': '行政院農業委員會新聞澄清稿', 'Organ': '資訊中心', 'Catalog': '其他', 'Counter': 6070, 'Lnkcnt': 156, 'LastUpdateTime': '2019-08-22', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供行政院農業委員會新聞澄清稿RSS', 'sourceURL': 'https://www.coa.gov.tw/open_data.php?format=rss&amp;func=explain', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/AgriculturalexplainRss.aspx'}
+{
+	"ID": "F34",
+	"Title": "行政院農業委員會新聞澄清稿",
+	"Organ": "資訊中心",
+	"Catalog": "其他",
+	"Counter": 6070,
+	"Lnkcnt": 156,
+	"LastUpdateTime": "2019-08-22",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供行政院農業委員會新聞澄清稿RSS",
+	"sourceURL": "https://www.coa.gov.tw/open_data.php?format=rss&amp;func=explain",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/AgriculturalexplainRss.aspx"
+}

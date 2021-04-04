@@ -1,1 +1,17 @@
-{'ID': '077', 'Title': '屏東農業生物技術園區進駐企業資訊', 'Organ': '屏東農業生物技術園區籌備處', 'Catalog': '農民輔導', 'Counter': 13751, 'Lnkcnt': 13857, 'LastUpdateTime': '2020-09-16', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每季', 'description': '提供資料包含：廠商名稱、聯絡電話、營業內容等欄位資料。', 'sourceURL': 'http://www.pabp.gov.tw/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=077'}
+{
+	"ID": "077",
+	"Title": "屏東農業生物技術園區進駐企業資訊",
+	"Organ": "屏東農業生物技術園區籌備處",
+	"Catalog": "農民輔導",
+	"Counter": 13751,
+	"Lnkcnt": 13857,
+	"LastUpdateTime": "2020-09-16",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每季",
+	"description": "提供資料包含：廠商名稱、聯絡電話、營業內容等欄位資料。",
+	"sourceURL": "http://www.pabp.gov.tw/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=077"
+}

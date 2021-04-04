@@ -1,1 +1,17 @@
-{'ID': '169', 'Title': '花蓮區農業改良場育成品種', 'Organ': '花蓮區農業改良場', 'Catalog': '農業科技', 'Counter': 13894, 'Lnkcnt': 6204, 'LastUpdateTime': '2019-06-20', 'Messages': 0, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '10', 'UpdateFrequency': '每月', 'description': '提供資料包含：文章編號、品種名稱、簡述、育成時間、品種描述、圖片連結、文章連結、文章最後更新時間等欄位資料。', 'sourceURL': 'http://www.hdares.gov.tw/show_index.php', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/BredData.aspx'}
+{
+	"ID": "169",
+	"Title": "花蓮區農業改良場育成品種",
+	"Organ": "花蓮區農業改良場",
+	"Catalog": "農業科技",
+	"Counter": 13894,
+	"Lnkcnt": 6204,
+	"LastUpdateTime": "2019-06-20",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "10",
+	"UpdateFrequency": "每月",
+	"description": "提供資料包含：文章編號、品種名稱、簡述、育成時間、品種描述、圖片連結、文章連結、文章最後更新時間等欄位資料。",
+	"sourceURL": "http://www.hdares.gov.tw/show_index.php",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/BredData.aspx"
+}

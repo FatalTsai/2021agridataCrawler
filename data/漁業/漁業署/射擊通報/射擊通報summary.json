@@ -1,1 +1,17 @@
-{'ID': '040', 'Title': '射擊通報', 'Organ': '漁業署', 'Catalog': '漁業', 'Counter': 18353, 'Lnkcnt': 15087, 'LastUpdateTime': '2021-04-01', 'Messages': 0, 'Collect': 0, 'rating': '5', 'NumberOfVoters': '1', 'UpdateFrequency': '每日', 'description': '提供資料包含：日期、項目、網址等欄位資料。', 'sourceURL': 'http://www.fa.gov.tw/cht/AnnounceShooting/', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/FromM/ShootingBulletinData.aspx'}
+{
+	"ID": "040",
+	"Title": "射擊通報",
+	"Organ": "漁業署",
+	"Catalog": "漁業",
+	"Counter": 18353,
+	"Lnkcnt": 15087,
+	"LastUpdateTime": "2021-04-01",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "5",
+	"NumberOfVoters": "1",
+	"UpdateFrequency": "每日",
+	"description": "提供資料包含：日期、項目、網址等欄位資料。",
+	"sourceURL": "http://www.fa.gov.tw/cht/AnnounceShooting/",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/FromM/ShootingBulletinData.aspx"
+}

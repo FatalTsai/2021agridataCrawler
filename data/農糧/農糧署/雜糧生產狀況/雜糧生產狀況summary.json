@@ -1,1 +1,17 @@
-{'ID': '8v9pJZ858uOz', 'Title': '雜糧生產狀況', 'Organ': '農糧署', 'Catalog': '農糧', 'Counter': 8210, 'Lnkcnt': 2869, 'LastUpdateTime': '2020-04-15', 'Messages': 2, 'Collect': 0, 'rating': '4', 'NumberOfVoters': '2', 'UpdateFrequency': '每年', 'description': '資料提供包括:年度、地區別、雜糧類別、種植面積、收穫面積、每公頃平均產量、產量等欄位資料。', 'sourceURL': 'https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=8v9pJZ858uOz'}
+{
+	"ID": "8v9pJZ858uOz",
+	"Title": "雜糧生產狀況",
+	"Organ": "農糧署",
+	"Catalog": "農糧",
+	"Counter": 8210,
+	"Lnkcnt": 2869,
+	"LastUpdateTime": "2020-04-15",
+	"Messages": 2,
+	"Collect": 0,
+	"rating": "4",
+	"NumberOfVoters": "2",
+	"UpdateFrequency": "每年",
+	"description": "資料提供包括:年度、地區別、雜糧類別、種植面積、收穫面積、每公頃平均產量、產量等欄位資料。",
+	"sourceURL": "https://agrstat.coa.gov.tw/sdweb/public/official/OfficialInformation.aspx",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=8v9pJZ858uOz"
+}

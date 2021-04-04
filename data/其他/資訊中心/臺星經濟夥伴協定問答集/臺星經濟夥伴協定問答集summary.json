@@ -1,1 +1,17 @@
-{'ID': 'C48', 'Title': '臺星經濟夥伴協定問答集', 'Organ': '資訊中心', 'Catalog': '其他', 'Counter': 5310, 'Lnkcnt': 566, 'LastUpdateTime': '2018-08-23', 'Messages': 0, 'Collect': 0, 'rating': '3', 'NumberOfVoters': '0', 'UpdateFrequency': '即時', 'description': '提供臺星經濟夥伴協定問答集的網址連結。', 'sourceURL': 'https://www.coa.gov.tw/ws.php?id=2500379', 'interfaceURL': 'https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=C48'}
+{
+	"ID": "C48",
+	"Title": "臺星經濟夥伴協定問答集",
+	"Organ": "資訊中心",
+	"Catalog": "其他",
+	"Counter": 5310,
+	"Lnkcnt": 566,
+	"LastUpdateTime": "2018-08-23",
+	"Messages": 0,
+	"Collect": 0,
+	"rating": "3",
+	"NumberOfVoters": "0",
+	"UpdateFrequency": "即時",
+	"description": "提供臺星經濟夥伴協定問答集的網址連結。",
+	"sourceURL": "https://www.coa.gov.tw/ws.php?id=2500379",
+	"interfaceURL": "https://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=C48"
+}
