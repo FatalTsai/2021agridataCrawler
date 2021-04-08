@@ -1,0 +1,48 @@
+{
+	"get": {
+		"summary": "毛豬交易行情",
+		"description": "毛豬交易行情<p><b>DATA</b>:[<br>{<br><b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>MarketName</b>(<span style=\"font-color:#6666ff\">string</option>):市場名稱\n<b>TransNum_Total</b>(<span style=\"font-color:#6666ff\">integer</option>):成交頭數總數\n<b>TransNum_AvgWgt</b>(<span style=\"font-color:#6666ff\">number</option>):成交頭數平均重量\n<b>TransNum_AvgPrice</b>(<span style=\"font-color:#6666ff\">number</option>):成交頭數平均價格\n<b>SpecPig_Num_75up</b>(<span style=\"font-color:#6666ff\">integer</option>):規格豬(75公斤以上)_頭數\n<b>SpecPig_AvgWgt_75up</b>(<span style=\"font-color:#6666ff\">number</option>):規格豬(75公斤以上)_平均重量\n<b>SpecPig_AvgPrice_75up</b>(<span style=\"font-color:#6666ff\">number</option>):規格豬(75公斤以上)_平均價格\n<b>Num_95in_115in</b>(<span style=\"font-color:#6666ff\">integer</option>):95(含)-115(含)_頭數\n<b>AvgWgt_95in_115in</b>(<span style=\"font-color:#6666ff\">number</option>):95(含)_115(含)-平均重量\n<b>AvgPrice_95in_115in</b>(<span style=\"font-color:#6666ff\">number</option>):95(含)_115(含)_平均價格\n<b>Num_75in_95</b>(<span style=\"font-color:#6666ff\">integer</option>):75(含)_95(不含)_頭數\n<b>AvgWgt_75in_95</b>(<span style=\"font-color:#6666ff\">number</option>):75(含)_95(不含)_平均重量\n<b>AvgPrice_75in_95</b>(<span style=\"font-color:#6666ff\">number</option>):75(含)_95(不含)_平均價格\n<b>Num_115up</b>(<span style=\"font-color:#6666ff\">integer</option>):115公斤以上_頭數\n<b>AvgWgt_115up</b>(<span style=\"font-color:#6666ff\">number</option>):115公斤以上_平均重量\n<b>AvgPrice_115up</b>(<span style=\"font-color:#6666ff\">number</option>):115公斤以上_平均價格\n<b>Num_75low</b>(<span style=\"font-color:#6666ff\">integer</option>):75公斤以下_頭數\n<b>AvgWgt_75low</b>(<span style=\"font-color:#6666ff\">number</option>):75公斤以下_平均重量\n<b>AvgPrice_75low</b>(<span style=\"font-color:#6666ff\">number</option>):75公斤以下_平均價格\n<b>OutPigs_Num</b>(<span style=\"font-color:#6666ff\">integer</option>):淘汰豬種_頭數\n<b>OutPigs_AvgWgt</b>(<span style=\"font-color:#6666ff\">number</option>):淘汰豬種_平均重量\n<b>OutPigs_AvgPrice</b>(<span style=\"font-color:#6666ff\">number</option>):淘汰豬種_平均價格\n<b>OtherPigs_Num</b>(<span style=\"font-color:#6666ff\">integer</option>):其他豬_頭數\n<b>OtherPigs_AvgWgt</b>(<span style=\"font-color:#6666ff\">number</option>):其他豬_平均重量\n<b>OtherPigs_AvgPrice</b>(<span style=\"font-color:#6666ff\">number</option>):其他豬_平均價格\n<b>FreezerPigs_Num</b>(<span style=\"font-color:#6666ff\">integer</option>):冷凍廠_頭數\n<b>FreezerPigs_AvgWgt</b>(<span style=\"font-color:#6666ff\">number</option>):冷凍廠_平均重量\n<b>FreezerPigs_AvgPrice</b>(<span style=\"font-color:#6666ff\">number</option>):冷凍廠_平均價格\n<b>TotalTrans_ExcludeFreezer_Num</b>(<span style=\"font-color:#6666ff\">integer</option>):成交總數(不含冷凍廠)_頭數\n<b>TotalTrans_ExcludeFreezer_AvgWeight</b>(<span style=\"font-color:#6666ff\">number</option>):成交總數(不含冷凍廠)_平均重量\n<b>TotalTrans_ExcludeFreezer_AvgPrice</b>(<span style=\"font-color:#6666ff\">number</option>):成交總數(不含冷凍廠)_平均價格\n<br>}<br>]</p>",
+		"operationId": "PorkTransType",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "TransDate",
+				"in": "query",
+				"description": "交易日期",
+				"default": "1070625",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "MarketName",
+				"in": "query",
+				"description": "市場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PorkTransType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

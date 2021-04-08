@@ -1,0 +1,89 @@
+{
+	"get": {
+		"summary": "林火預警紀錄",
+		"description": "林火預警紀錄<p><b>DATA</b>:[<br>{<br><b>id</b>(<span style=\"font-color:#6666ff\">string</option>):序號\n<b>LOCATION</b>(<span style=\"font-color:#6666ff\">string</option>):測站名稱\n<b>LOCATION_ID</b>(<span style=\"font-color:#6666ff\">string</option>):測站編號\n<b>DIST_C</b>(<span style=\"font-color:#6666ff\">string</option>):單位名稱\n<b>STTN_C</b>(<span style=\"font-color:#6666ff\">string</option>):工作站名稱\n<b>DANGERRATE</b>(<span style=\"font-color:#6666ff\">string</option>):危險度推估值\n<b>DANGERRATELEVEL</b>(<span style=\"font-color:#6666ff\">string</option>):危險等級\n<b>IMGURL</b>(<span style=\"font-color:#6666ff\">string</option>):林火危險度分級圖下載網址\n<b>CRTDAT</b>(<span style=\"font-color:#6666ff\">string</option>):建立日期\n<br>}<br>]</p>",
+		"operationId": "",
+		"tags": [
+			"造林生產"
+		],
+		"parameters": [
+			{
+				"name": "id",
+				"in": "query",
+				"description": "序號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LOCATION",
+				"in": "query",
+				"description": "測站名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LOCATION_ID",
+				"in": "query",
+				"description": "測站編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "DIST_C",
+				"in": "query",
+				"description": "單位名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "STTN_C",
+				"in": "query",
+				"description": "工作站名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "DANGERRATE",
+				"in": "query",
+				"description": "危險度推估值",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "DANGERRATELEVEL",
+				"in": "query",
+				"description": "危險等級",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "IMGURL",
+				"in": "query",
+				"description": "林火危險度分級圖下載網址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "CRTDAT",
+				"in": "query",
+				"description": "建立日期",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

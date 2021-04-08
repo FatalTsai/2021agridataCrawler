@@ -1,0 +1,72 @@
+{
+	"get": {
+		"summary": "家禽交易行情(養鵝協會當日行情)",
+		"description": "家禽交易行情(養鵝協會當日行情)<p><b>DATA</b>:[<br>{<br><b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>GoosePrices_TaijinPrice</b>(<span style=\"font-color:#6666ff\">integer</option>):肉鵝(上鵝)價格_土鵝(元/台斤)\n<b>Goose_S_Prices</b>(<span style=\"font-color:#6666ff\">integer</option>):小鵝產地價格(隻)_土鵝(元/隻)\n<b>Goose_WR_TaijinPrice</b>(<span style=\"font-color:#6666ff\">integer</option>):肉鵝(上鵝)價格_白羅曼鵝(元/台斤)\n<b>Goose_SWR_Prices</b>(<span style=\"font-color:#6666ff\">integer</option>):小鵝產地價格(隻)_白羅曼鵝(元/隻)\n<b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>GoosePrices_TaijinPrice</b>(<span style=\"font-color:#6666ff\">integer</option>):肉鵝(上鵝)價格_土鵝(元/台斤)\n<b>Goose_S_Prices</b>(<span style=\"font-color:#6666ff\">integer</option>):小鵝產地價格(隻)_土鵝(元/隻)\n<b>Goose_WR_TaijinPrice</b>(<span style=\"font-color:#6666ff\">integer</option>):肉鵝(上鵝)價格_白羅曼鵝(元/台斤)\n<b>Goose_SWR_Prices</b>(<span style=\"font-color:#6666ff\">integer</option>):小鵝產地價格(隻)_白羅曼鵝(元/隻)\n<br>}<br>]</p>",
+		"operationId": "PoultryTransType_Goose_Day",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "2018/01/01",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "交易日期(迄)",
+				"default": "2018/06/30",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "2018/01/01",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "交易日期(迄)",
+				"default": "2018/06/30",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PoultryTransType_Goose_Day"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

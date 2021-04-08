@@ -1,0 +1,48 @@
+{
+	"get": {
+		"summary": "農產品生產成本查詢",
+		"description": "農產品生產成本查詢<p><b>DATA</b>:[<br>{<br><b>作物名稱</b>(<span style=\"font-color:#6666ff\">string</option>):作物名稱\n<b>年度</b>(<span style=\"font-color:#6666ff\">integer</option>):年度\n<b>成本檔URL</b>(<span style=\"font-color:#6666ff\">string</option>):成本檔URL\n<b>群組</b>(<span style=\"font-color:#6666ff\">string</option>):群組\n<br>}<br>]</p>",
+		"operationId": "",
+		"tags": [
+			"農糧"
+		],
+		"parameters": [
+			{
+				"name": "Year",
+				"in": "query",
+				"description": "年度",
+				"default": "2018",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Group",
+				"in": "query",
+				"description": "群組",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ProductName",
+				"in": "query",
+				"description": "作物名稱",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

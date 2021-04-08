@@ -1,0 +1,76 @@
+{
+	"get": {
+		"summary": "糧商資訊系統",
+		"description": "糧商資訊系統<p><b>DATA</b>:[<br>{<br><b>bb_newid</b>(<span style=\"font-color:#6666ff\">string</option>):糧商登記證證號\n<b>bb_name</b>(<span style=\"font-color:#6666ff\">string</option>):公司或商號名稱\n<b>bb_address</b>(<span style=\"font-color:#6666ff\">string</option>):營業地址\n<b>bb_telno</b>(<span style=\"font-color:#6666ff\">string</option>):糧商電話號碼\n<b>business_category</b>(<span style=\"font-color:#6666ff\">string</option>):經營業務種類\n<b>food_category</b>(<span style=\"font-color:#6666ff\">string</option>):經營糧食種類\n<br>}<br>]</p>",
+		"operationId": "FoodBusinessData",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "bb_newid",
+				"in": "query",
+				"description": "糧商登記證證號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "bb_name",
+				"in": "query",
+				"description": "公司或商號名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "bb_address",
+				"in": "query",
+				"description": "營業地址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "bb_telno",
+				"in": "query",
+				"description": "糧商電話號碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "business_category",
+				"in": "query",
+				"description": "經營業務種類",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "food_category",
+				"in": "query",
+				"description": "經營糧食種類",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"default": "1",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/FoodBusinessData"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

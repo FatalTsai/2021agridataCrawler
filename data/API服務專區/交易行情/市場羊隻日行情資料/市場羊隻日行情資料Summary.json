@@ -1,0 +1,140 @@
+{
+	"get": {
+		"summary": "市場羊隻日行情資料",
+		"description": "市場羊隻日行情資料<p><b>DATA</b>:[<br>{<br><b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>MarketCode</b>(<span style=\"font-color:#6666ff\">string</option>):市場代碼\n<b>ShortName</b>(<span style=\"font-color:#6666ff\">string</option>):市場簡稱_縣市\n<b>MarketName</b>(<span style=\"font-color:#6666ff\">string</option>):市場名稱\n<b>LivestockProdCode</b>(<span style=\"font-color:#6666ff\">string</option>):產品代碼\n<b>LivestockProdName</b>(<span style=\"font-color:#6666ff\">string</option>):產品名稱\n<b>ProdType</b>(<span style=\"font-color:#6666ff\">string</option>):產品類型\n<b>Quantity</b>(<span style=\"font-color:#6666ff\">integer</option>):數量\n<b>Avg_Wgt</b>(<span style=\"font-color:#6666ff\">number</option>):平均重\n<b>Avg_Price</b>(<span style=\"font-color:#6666ff\">number</option>):平均價\n<b>Highest_Price</b>(<span style=\"font-color:#6666ff\">integer</option>):最高價格\n<b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>MarketCode</b>(<span style=\"font-color:#6666ff\">string</option>):市場代碼\n<b>ShortName</b>(<span style=\"font-color:#6666ff\">string</option>):市場簡稱_縣市\n<b>MarketName</b>(<span style=\"font-color:#6666ff\">string</option>):市場名稱\n<b>LivestockProdCode</b>(<span style=\"font-color:#6666ff\">string</option>):產品代碼\n<b>LivestockProdName</b>(<span style=\"font-color:#6666ff\">string</option>):產品名稱\n<b>ProdType</b>(<span style=\"font-color:#6666ff\">string</option>):產品類型\n<b>Quantity</b>(<span style=\"font-color:#6666ff\">integer</option>):數量\n<b>Avg_Wgt</b>(<span style=\"font-color:#6666ff\">number</option>):平均重\n<b>Avg_Price</b>(<span style=\"font-color:#6666ff\">number</option>):平均價\n<b>Highest_Price</b>(<span style=\"font-color:#6666ff\">integer</option>):最高價格\n<br>}<br>]</p>",
+		"operationId": "SheepTransType_Day",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "TransDate",
+				"in": "query",
+				"description": "交易日期",
+				"default": "2018/01/01",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MarketCode",
+				"in": "query",
+				"description": "市場代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ShortName",
+				"in": "query",
+				"description": "市場簡稱_縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MarketName",
+				"in": "query",
+				"description": "市場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LivestockProdCode",
+				"in": "query",
+				"description": "產品代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LivestockProdName",
+				"in": "query",
+				"description": "產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ProdType",
+				"in": "query",
+				"description": "產品類型",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "TransDate",
+				"in": "query",
+				"description": "交易日期",
+				"default": "2018/01/01",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MarketCode",
+				"in": "query",
+				"description": "市場代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ShortName",
+				"in": "query",
+				"description": "市場簡稱_縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MarketName",
+				"in": "query",
+				"description": "市場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LivestockProdCode",
+				"in": "query",
+				"description": "產品代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LivestockProdName",
+				"in": "query",
+				"description": "產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ProdType",
+				"in": "query",
+				"description": "產品類型",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/SheepTransType_Day"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

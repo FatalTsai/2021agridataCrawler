@@ -1,0 +1,68 @@
+{
+	"get": {
+		"summary": "臺灣有機農業驗證資訊",
+		"description": "臺灣有機農業驗證資訊<p><b>DATA</b>:[<br>{<br><b>Name</b>(<span style=\"font-color:#6666ff\">string</option>):農產品經營者名稱\n<b>Address</b>(<span style=\"font-color:#6666ff\">string</option>):農產品經營者地址\n<b>Tel</b>(<span style=\"font-color:#6666ff\">string</option>):電話\n<b>Products</b>(<span style=\"font-color:#6666ff\">string</option>):產品品項\n<b>BehaviorType</b>(<span style=\"font-color:#6666ff\">string</option>):驗證行為\n<b>CompanyName</b>(<span style=\"font-color:#6666ff\">string</option>):驗證機構名稱\n<b>CertOrganicSn</b>(<span style=\"font-color:#6666ff\">string</option>):證書序號\n<b>EffectiveDate</b>(<span style=\"font-color:#6666ff\">string</option>):證書效期\n<br>}<br>]</p>",
+		"operationId": "FertilizerIntegrationInfoType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "Name",
+				"in": "query",
+				"description": "農產品經營者名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Address",
+				"in": "query",
+				"description": "農產品經營者地址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Tel",
+				"in": "query",
+				"description": "電話",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Products",
+				"in": "query",
+				"description": "產品品項",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "CertOrganicSn",
+				"in": "query",
+				"description": "證書序號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/FertilizerIntegrationInfoType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

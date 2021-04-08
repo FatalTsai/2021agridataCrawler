@@ -1,0 +1,25 @@
+{
+	"get": {
+		"summary": "土石流警戒資料",
+		"description": "土石流警戒資料<p><b>DATA</b>:[<br>{<br><b>county</b>(<span style=\"font-color:#6666ff\">string</option>):警戒發布縣市\n<b>town</b>(<span style=\"font-color:#6666ff\">string</option>):警戒發布鄉鎮\n<b>vill</b>(<span style=\"font-color:#6666ff\">string</option>):警戒發布村里\n<b>debrisNo</b>(<span style=\"font-color:#6666ff\">string</option>):土石流潛勢溪流編號\n<b>alert_date</b>(<span style=\"font-color:#6666ff\">string</option>):紅色警戒發布時間(如有時間值代表發布紅色警戒)\n<b>alert_date_yellow</b>(<span style=\"font-color:#6666ff\">string</option>):黃色警戒發布時間(如有時間值代表發布黃色警戒)\n<br>}<br>]</p>",
+		"operationId": "GetCustomerDebrisAlertInfo",
+		"tags": [
+			"水土保持"
+		],
+		"parameters": [],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/GetCustomerDebrisAlertInfo"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

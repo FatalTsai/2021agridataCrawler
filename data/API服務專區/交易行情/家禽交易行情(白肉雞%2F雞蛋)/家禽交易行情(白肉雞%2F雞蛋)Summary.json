@@ -1,0 +1,80 @@
+{
+	"get": {
+		"summary": "家禽交易行情(白肉雞/雞蛋)",
+		"description": "家禽交易行情(白肉雞/雞蛋)<p><b>DATA</b>:[<br>{<br><b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>LunarCalendar</b>(<span style=\"font-color:#6666ff\">string</option>):農曆\n<b>TaijinPrice_2.0kgup</b>(<span style=\"font-color:#6666ff\">string</option>):白肉雞2.0Kg以上(元/台斤)\n<b>TaijinPrice_1.75kg_1.95kg</b>(<span style=\"font-color:#6666ff\">string</option>):白肉雞1.75-1.95Kg(元/台斤)\n<b>Store_KP_TaijinPrice</b>(<span style=\"font-color:#6666ff\">string</option>):白肉雞門市價高屏(元/台斤)\n<b>egg_TaijinPrice</b>(<span style=\"font-color:#6666ff\">string</option>):雞蛋_產地(元/台斤)\n<b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>LunarCalendar</b>(<span style=\"font-color:#6666ff\">string</option>):農曆\n<b>TaijinPrice_2.0kgup</b>(<span style=\"font-color:#6666ff\">string</option>):白肉雞2.0Kg以上(元/台斤)\n<b>TaijinPrice_1.75kg_1.95kg</b>(<span style=\"font-color:#6666ff\">string</option>):白肉雞1.75-1.95Kg(元/台斤)\n<b>Store_KP_TaijinPrice</b>(<span style=\"font-color:#6666ff\">string</option>):白肉雞門市價高屏(元/台斤)\n<b>egg_TaijinPrice</b>(<span style=\"font-color:#6666ff\">string</option>):雞蛋_產地(元/台斤)\n<br>}<br>]</p>",
+		"operationId": "PoultryTransType_BoiledChicken_Eggs",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "43281",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "2018/01/01",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "交易日期(迄)",
+				"default": "2018/06/30",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "2018/01/01",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "交易日期(迄)",
+				"default": "2018/06/30",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PoultryTransType_BoiledChicken_Eggs"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

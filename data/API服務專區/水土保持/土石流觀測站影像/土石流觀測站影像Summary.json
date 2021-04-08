@@ -1,0 +1,83 @@
+{
+	"get": {
+		"summary": "土石流觀測站影像",
+		"description": "土石流觀測站影像<p><b>DATA</b>:[<br>{<br><b>攝影機名稱</b>(<span style=\"font-color:#6666ff\">string</option>):攝影機名稱\n<b>縣市</b>(<span style=\"font-color:#6666ff\">string</option>):縣市\n<b>行政區</b>(<span style=\"font-color:#6666ff\">string</option>):行政區\n<b>架設或拍攝地點</b>(<span style=\"font-color:#6666ff\">string</option>):架設或拍攝地點\n<b>影像網址</b>(<span style=\"font-color:#6666ff\">string</option>):影像網址\n<b>經度</b>(<span style=\"font-color:#6666ff\">string</option>):經度\n<b>緯度</b>(<span style=\"font-color:#6666ff\">string</option>):緯度\n<br>}<br>]</p>",
+		"operationId": "GetStationMonitor",
+		"tags": [
+			"水土保持"
+		],
+		"parameters": [
+			{
+				"name": "攝影機名稱",
+				"in": "query",
+				"description": "攝影機名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "縣市",
+				"in": "query",
+				"description": "縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "行政區",
+				"in": "query",
+				"description": "行政區",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "架設或拍攝地點",
+				"in": "query",
+				"description": "架設或拍攝地點",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "影像網址",
+				"in": "query",
+				"description": "影像網址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "經度",
+				"in": "query",
+				"description": "經度",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "緯度",
+				"in": "query",
+				"description": "緯度",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼",
+				"default": "1",
+				"required": true,
+				"type": "integer"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/GetStationMonitor"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

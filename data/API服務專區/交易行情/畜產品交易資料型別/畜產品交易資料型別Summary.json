@@ -1,0 +1,40 @@
+{
+	"get": {
+		"summary": "畜產品交易資料型別",
+		"description": "畜產品交易資料型別<p><b>DATA</b>:[<br>{<br><b>LivestockProdCode</b>(<span style=\"font-color:#6666ff\">string</option>):畜產品代碼\n<b>LivestockProdType</b>(<span style=\"font-color:#6666ff\">string</option>):畜產品種類\n<br>}<br>]</p>",
+		"operationId": "TransLivestockProdType",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "LivestockProdType",
+				"in": "query",
+				"description": "畜產品種類",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TransLivestockProdType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

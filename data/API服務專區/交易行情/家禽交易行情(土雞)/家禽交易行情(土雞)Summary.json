@@ -1,0 +1,49 @@
+{
+	"get": {
+		"summary": "家禽交易行情(土雞)",
+		"description": "家禽交易行情(土雞)<p><b>DATA</b>:[<br>{<br><b>LunarCalendar</b>(<span style=\"font-color:#6666ff\">string</option>):農曆\n<b>RedFeather_C</b>(<span style=\"font-color:#6666ff\">string</option>):紅羽土雞中區\n<b>RedFeather_N</b>(<span style=\"font-color:#6666ff\">string</option>):紅羽土雞北區\n<b>RedFeather_S</b>(<span style=\"font-color:#6666ff\">string</option>):紅羽土雞南區\n<b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>BlackFeather_S_F</b>(<span style=\"font-color:#6666ff\">string</option>):黑羽土雞舍飼(南區)母\n<b>BlackFeather_S_M</b>(<span style=\"font-color:#6666ff\">string</option>):黑羽土雞舍飼(南區)公\n<br>}<br>]</p>",
+		"operationId": "PoultryTransType_Chicken",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "交易日期(迄)",
+				"default": "2018/06/30",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "2018/01/01",
+				"required": true,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PoultryTransType_Chicken"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

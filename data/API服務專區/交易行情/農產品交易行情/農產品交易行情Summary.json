@@ -1,0 +1,70 @@
+{
+	"get": {
+		"summary": "農產品交易行情",
+		"description": "農產品交易行情<p><b>DATA</b>:[<br>{<br><b>CropCode</b>(<span style=\"font-color:#6666ff\">string</option>):農產品代碼\n<b>CropName</b>(<span style=\"font-color:#6666ff\">string</option>):農產品名稱\n<b>MarketName</b>(<span style=\"font-color:#6666ff\">string</option>):市場名稱\n<b>TransDate</b>(<span style=\"font-color:#6666ff\">string</option>):交易日期\n<b>MarketCode</b>(<span style=\"font-color:#6666ff\">string</option>):市場代號\n<b>Upper_Price</b>(<span style=\"font-color:#6666ff\">number</option>):上價(元/公斤)\n<b>Middle_Price</b>(<span style=\"font-color:#6666ff\">number</option>):中價(元/公斤)\n<b>Lower_Price</b>(<span style=\"font-color:#6666ff\">number</option>):下價(元/公斤)\n<b>Avg_Price</b>(<span style=\"font-color:#6666ff\">number</option>):平均價(元/公斤)\n<b>Trans_Quantity</b>(<span style=\"font-color:#6666ff\">number</option>):交易量(公斤)\n<br>}<br>]</p>",
+		"operationId": "AgriProductsTransType",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "交易日期(起)",
+				"default": "107.07.01",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "交易日期(迄)",
+				"default": "107.07.10",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "CropCode",
+				"in": "query",
+				"description": "農產品代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "CropName",
+				"in": "query",
+				"description": "農產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MarketName",
+				"in": "query",
+				"description": "市場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/AgriProductsTransType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"get": {
+		"summary": "臺灣農產品生產追溯-產品資訊",
+		"description": "臺灣農產品生產追溯-產品資訊<p><b>DATA</b>:[<br>{<br><b>TraceCode</b>(<span style=\"font-color:#6666ff\">string</option>):追溯編號\n<b>Product</b>(<span style=\"font-color:#6666ff\">string</option>):產品名稱\n<b>Place</b>(<span style=\"font-color:#6666ff\">string</option>):生產地\n<b>Mark</b>(<span style=\"font-color:#6666ff\">string</option>):驗證標章\n<br>}<br>]</p>",
+		"operationId": "TWAgriProductsTraceabilityType_ProductInfo",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "TraceCode",
+				"in": "query",
+				"description": "追溯編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Product",
+				"in": "query",
+				"description": "產品名稱",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TWAgriProductsTraceabilityType_ProductInfo"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

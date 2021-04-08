@@ -1,0 +1,42 @@
+{
+	"get": {
+		"summary": "土石流潛勢溪流資料",
+		"description": "土石流潛勢溪流資料<p><b>DATA</b>:[<br>{<br><b>County</b>(<span style=\"font-color:#6666ff\">string</option>):縣市\n<b>Town</b>(<span style=\"font-color:#6666ff\">string</option>):鄉鎮市區名稱\n<b>Debrisno</b>(<span style=\"font-color:#6666ff\">string</option>):警戒溪流編號\n<b>AlertValue</b>(<span style=\"font-color:#6666ff\">integer</option>):警戒值\n<b>station1ID</b>(<span style=\"font-color:#6666ff\">integer</option>):偵測站編號\n<b>station1StationName</b>(<span style=\"font-color:#6666ff\">string</option>):偵測站名稱\n<b>station2ID</b>(<span style=\"font-color:#6666ff\">string</option>):偵測站2編號\n<b>station2StationName</b>(<span style=\"font-color:#6666ff\">string</option>):偵測站2名稱\n<br>}<br>]</p>",
+		"operationId": "GetDebrisVillInfo",
+		"tags": [
+			"水土保持"
+		],
+		"parameters": [
+			{
+				"name": "strCountry",
+				"in": "query",
+				"description": "縣市名稱",
+				"default": "臺中市",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "strTown",
+				"in": "query",
+				"description": "鄉鎮市區名稱",
+				"default": "北屯區",
+				"required": true,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/GetDebrisVillInfo"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

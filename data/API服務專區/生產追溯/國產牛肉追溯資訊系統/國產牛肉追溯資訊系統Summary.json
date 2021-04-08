@@ -1,0 +1,75 @@
+{
+	"get": {
+		"summary": "國產牛肉追溯資訊系統",
+		"description": "國產牛肉追溯資訊系統<p><b>DATA</b>:[<br>{<br><b>CowTracecode</b>(<span style=\"font-color:#6666ff\">string</option>):牛隻追溯號碼\n<b>SlaughterDate</b>(<span style=\"font-color:#6666ff\">string</option>):屠宰日期\n<b>FarmName</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場名稱\n<b>FarmPrincipal</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場負責人\n<b>FarmAdd</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場場址\n<b>FarmID</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場登記證號\n<b>SlaughterName</b>(<span style=\"font-color:#6666ff\">string</option>):屠宰場\n<b>SlaughterID</b>(<span style=\"font-color:#6666ff\">string</option>):屠宰場登記證\n<b>SlaughterPrincipal</b>(<span style=\"font-color:#6666ff\">string</option>):屠宰場負責人\n<b>SlaughterAdd</b>(<span style=\"font-color:#6666ff\">string</option>):屠宰場場址\n<b>CDate</b>(<span style=\"font-color:#6666ff\">string</option>):更新日期\n<br>}<br>]</p>",
+		"operationId": "DomesticBeefTraceabilitySystemType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "CowTracecode",
+				"in": "query",
+				"description": "牛隻追溯號碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "SlaughterDate",
+				"in": "query",
+				"description": "屠宰日期",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "FarmName",
+				"in": "query",
+				"description": "畜牧場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmID",
+				"in": "query",
+				"description": "畜牧場登記證號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "SlaughterName",
+				"in": "query",
+				"description": "屠宰場",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "SlaughterID",
+				"in": "query",
+				"description": "屠宰場登記證",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DomesticBeefTraceabilitySystemType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

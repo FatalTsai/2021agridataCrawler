@@ -1,0 +1,96 @@
+{
+	"get": {
+		"summary": "CAS產品查詢",
+		"description": "CAS產品查詢<p><b>DATA</b>:[<br>{<br><b>Emblem_ID</b>(<span style=\"font-color:#6666ff\">string</option>):標章編號\n<b>Factory_CName</b>(<span style=\"font-color:#6666ff\">string</option>):廠商名稱\n<b>Factory_Address</b>(<span style=\"font-color:#6666ff\">string</option>):地址\n<b>Factory_Tel</b>(<span style=\"font-color:#6666ff\">string</option>):電話\n<b>Factory_Fax</b>(<span style=\"font-color:#6666ff\">string</option>):傳真\n<b>Factory_Director</b>(<span style=\"font-color:#6666ff\">string</option>):負責人\n<b>Material_Name</b>(<span style=\"font-color:#6666ff\">string</option>):產品類別\n<b>PType_Name</b>(<span style=\"font-color:#6666ff\">string</option>):產品種類\n<b>Product_Name</b>(<span style=\"font-color:#6666ff\">string</option>):產品名稱\n<b>Emb_No</b>(<span style=\"font-color:#6666ff\">string</option>):標章資料唯一值\n<br>}<br>]</p>",
+		"operationId": "CASProductInquiryType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "Emblem_ID",
+				"in": "query",
+				"description": "標章編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Factory_CName",
+				"in": "query",
+				"description": "廠商名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Factory_Address",
+				"in": "query",
+				"description": "地址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Factory_Tel",
+				"in": "query",
+				"description": "電話",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Factory_Fax",
+				"in": "query",
+				"description": "傳真",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Factory_Director",
+				"in": "query",
+				"description": "負責人",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Material_Name",
+				"in": "query",
+				"description": "產品類別",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "PType_Name",
+				"in": "query",
+				"description": "產品種類",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Product_Name",
+				"in": "query",
+				"description": "產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/CASProductInquiryType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

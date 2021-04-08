@@ -1,0 +1,47 @@
+{
+	"get": {
+		"summary": "漁產品交易資料型別",
+		"description": "漁產品交易資料型別<p><b>DATA</b>:[<br>{<br><b>SeafoodProdName</b>(<span style=\"font-color:#6666ff\">string</option>):漁產品名稱\n<b>SeafoodProdCode</b>(<span style=\"font-color:#6666ff\">string</option>):漁產品代碼\n<br>}<br>]</p>",
+		"operationId": "TransSeafoodProdType",
+		"tags": [
+			"交易行情"
+		],
+		"parameters": [
+			{
+				"name": "SeafoodProdName",
+				"in": "query",
+				"description": "漁產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "SeafoodProdCode",
+				"in": "query",
+				"description": "漁產品代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TransSeafoodProdType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

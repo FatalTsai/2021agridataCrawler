@@ -1,0 +1,231 @@
+{
+	"get": {
+		"summary": "動物認領養",
+		"description": "動物認領養<p><b>DATA</b>:[<br>{<br><b>animal_id</b>(<span style=\"font-color:#6666ff\">integer</option>):動物的流水編號\n<b>animal_subid</b>(<span style=\"font-color:#6666ff\">string</option>):動物的區域編號\n<b>animal_area_pkid</b>(<span style=\"font-color:#6666ff\">string</option>):動物所屬縣市代碼\n<b>animal_shelter_pkid</b>(<span style=\"font-color:#6666ff\">string</option>):動物所屬收容所代碼\n<b>animal_place</b>(<span style=\"font-color:#6666ff\">string</option>):動物的實際所在地\n<b>animal_kind</b>(<span style=\"font-color:#6666ff\">string</option>):動物的類型\n<b>animal_sex</b>(<span style=\"font-color:#6666ff\">string</option>):動物性別\n<b>animal_bodytype</b>(<span style=\"font-color:#6666ff\">string</option>):動物體型\n<b>animal_colour</b>(<span style=\"font-color:#6666ff\">string</option>):動物毛色\n<b>animal_age</b>(<span style=\"font-color:#6666ff\">string</option>):動物年紀\n<b>animal_sterilization</b>(<span style=\"font-color:#6666ff\">string</option>):是否絕育\n<b>animal_foundplace</b>(<span style=\"font-color:#6666ff\">string</option>):動物尋獲地\n<b>animal_title</b>(<span style=\"font-color:#6666ff\">string</option>):動物網頁標題\n<b>animal_status</b>(<span style=\"font-color:#6666ff\">string</option>):動物狀態\n<b>animal_remark</b>(<span style=\"font-color:#6666ff\">string</option>):資料備註\n<b>animal_caption</b>(<span style=\"font-color:#6666ff\">string</option>):其他說明\n<b>animal_opendate</b>(<span style=\"font-color:#6666ff\">string</option>):開放認養時間(起)\n<b>animal_closeddate</b>(<span style=\"font-color:#6666ff\">string</option>):開放認養時間(迄)\n<b>animal_update</b>(<span style=\"font-color:#6666ff\">string</option>):動物資料異動時間\n<b>animal_createtime</b>(<span style=\"font-color:#6666ff\">string</option>):動物資料建立時間\n<b>shelter_name</b>(<span style=\"font-color:#6666ff\">string</option>):動物所屬收容所名稱\n<b>album_file</b>(<span style=\"font-color:#6666ff\">string</option>):圖片名稱\n<b>album_update</b>(<span style=\"font-color:#6666ff\">string</option>):資料更新時間\n<b>cDate</b>(<span style=\"font-color:#6666ff\">string</option>):資料建立時間\n<b>shelter_address</b>(<span style=\"font-color:#6666ff\">string</option>):地址\n<b>shelter_tel</b>(<span style=\"font-color:#6666ff\">string</option>):聯絡電話\n<br>}<br>]</p>",
+		"operationId": "",
+		"tags": [
+			"寵物"
+		],
+		"parameters": [
+			{
+				"name": "animal_id",
+				"in": "query",
+				"description": "動物的流水編號",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "animal_subid",
+				"in": "query",
+				"description": "動物的區域編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_area_pkid",
+				"in": "query",
+				"description": "動物所屬縣市代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_shelter_pkid",
+				"in": "query",
+				"description": "動物所屬收容所代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_place",
+				"in": "query",
+				"description": "動物的實際所在地",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_kind",
+				"in": "query",
+				"description": "動物的類型",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_sex",
+				"in": "query",
+				"description": "動物性別",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_bodytype",
+				"in": "query",
+				"description": "動物體型",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_colour",
+				"in": "query",
+				"description": "動物毛色",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_age",
+				"in": "query",
+				"description": "動物年紀",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_sterilization",
+				"in": "query",
+				"description": "是否絕育",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_bacterin",
+				"in": "query",
+				"description": "是否施打狂犬病疫苗",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_foundplace",
+				"in": "query",
+				"description": "動物尋獲地",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_title",
+				"in": "query",
+				"description": "動物網頁標題",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_status",
+				"in": "query",
+				"description": "動物狀態",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_remark",
+				"in": "query",
+				"description": "資料備註",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_caption",
+				"in": "query",
+				"description": "其他說明",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_opendate",
+				"in": "query",
+				"description": "開放認養時間(起)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_closeddate",
+				"in": "query",
+				"description": "開放認養時間(迄)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_update",
+				"in": "query",
+				"description": "動物資料異動時間",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "animal_createtime",
+				"in": "query",
+				"description": "動物資料建立時間",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "shelter_name",
+				"in": "query",
+				"description": "動物所屬收容所名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "album_file",
+				"in": "query",
+				"description": "圖片名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "album_update",
+				"in": "query",
+				"description": "資料更新時間",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "cDate",
+				"in": "query",
+				"description": "資料建立時間",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "shelter_address",
+				"in": "query",
+				"description": "地址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "shelter_tel",
+				"in": "query",
+				"description": "聯絡電話",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "$top",
+				"in": "query",
+				"description": "取得前幾筆",
+				"default": "1000",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼",
+				"default": "1",
+				"required": true,
+				"type": "integer"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

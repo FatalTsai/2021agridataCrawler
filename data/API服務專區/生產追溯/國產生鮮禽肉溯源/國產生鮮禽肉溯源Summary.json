@@ -1,0 +1,61 @@
+{
+	"get": {
+		"summary": "國產生鮮禽肉溯源",
+		"description": "國產生鮮禽肉溯源<p><b>DATA</b>:[<br>{<br><b>Kil_No</b>(<span style=\"font-color:#6666ff\">string</option>):統一編號\n<b>Kil_Name</b>(<span style=\"font-color:#6666ff\">string</option>):電宰場名稱\n<b>Kil_Regno</b>(<span style=\"font-color:#6666ff\">string</option>):登記證號\n<b>Kil_Boss</b>(<span style=\"font-color:#6666ff\">string</option>):負責人\n<b>Kil_Tel</b>(<span style=\"font-color:#6666ff\">string</option>):電話\n<b>Kil_Addr</b>(<span style=\"font-color:#6666ff\">string</option>):地址\n<b>Traceno_Start</b>(<span style=\"font-color:#6666ff\">string</option>):溯源編號-起\n<b>Traceno_End</b>(<span style=\"font-color:#6666ff\">string</option>):溯源編號-迄\n<b>FarmersUser1</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場生產者1\n<b>FarmersName1</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場名稱1\n<b>FarmersType1</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場禽種1\n<b>Farmersplace1</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場所在地1\n<b>FarmersUser2</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場生產者2\n<b>FarmersName2</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場名稱2\n<b>FarmersType2</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場禽種2\n<b>Farmersplace2</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場所在地2\n<b>FarmersUser3</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場生產者3\n<b>FarmersName3</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場名稱3\n<b>FarmersType3</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場禽種3\n<b>Farmersplace3</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場所在地3\n<b>FarmersUser4</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場生產者4\n<b>FarmersName4</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場名稱4\n<b>FarmersType4</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場禽種4\n<b>Farmersplace4</b>(<span style=\"font-color:#6666ff\">string</option>):來源牧場所在地4\n<b>Cdate</b>(<span style=\"font-color:#6666ff\">string</option>):日期\n<br>}<br>]</p>",
+		"operationId": "DomesticPoultryTraceabilityType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "Kil_Name",
+				"in": "query",
+				"description": "電宰場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Kil_Regno",
+				"in": "query",
+				"description": "登記證號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Traceno_Start",
+				"in": "query",
+				"description": "溯源編號-起",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Traceno_End",
+				"in": "query",
+				"description": "溯源編號-迄",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DomesticPoultryTraceabilityType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

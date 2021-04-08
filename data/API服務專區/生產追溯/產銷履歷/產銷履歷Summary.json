@@ -1,0 +1,68 @@
+{
+	"get": {
+		"summary": "產銷履歷",
+		"description": "產銷履歷<p><b>DATA</b>:[<br>{<br><b>Tracecode</b>(<span style=\"font-color:#6666ff\">string</option>):追蹤碼\n<b>FarmerName</b>(<span style=\"font-color:#6666ff\">string</option>):生產者名稱\n<b>ProductName</b>(<span style=\"font-color:#6666ff\">string</option>):產品名稱\n<b>OrgID</b>(<span style=\"font-color:#6666ff\">string</option>):組織代碼\n<b>Producer</b>(<span style=\"font-color:#6666ff\">string</option>):農業經營業者\n<b>Place</b>(<span style=\"font-color:#6666ff\">string</option>):產地\n<b>PackDate</b>(<span style=\"font-color:#6666ff\">string</option>):包裝日期\n<b>CertificationName</b>(<span style=\"font-color:#6666ff\">string</option>):驗證機構\n<b>ValidDate</b>(<span style=\"font-color:#6666ff\">string</option>):驗證有效日期\n<b>StoreInfo</b>(<span style=\"font-color:#6666ff\">string</option>):通路商資訊\n<b>LandSecNO</b>(<span style=\"font-color:#6666ff\">string</option>):農產品產地地段地號\n<b>ParentTraceCode</b>(<span style=\"font-color:#6666ff\">string</option>):原料追溯碼網址\n<b>TraceCodelist</b>(<span style=\"font-color:#6666ff\">string</option>):一籤一碼追溯碼\n<b>Log_UpdateTime</b>(<span style=\"font-color:#6666ff\">string</option>):資料更新時間\n<b>OperationDetail</b>(<span style=\"font-color:#6666ff\">string</option>):詳細栽種流程\n<b>ResumeDetail</b>(<span style=\"font-color:#6666ff\">string</option>):詳細履歷資料\n<b>ProcessDetail</b>(<span style=\"font-color:#6666ff\">string</option>):詳細加工流程\n<b>CertificateDetail</b>(<span style=\"font-color:#6666ff\">string</option>):其他驗證資訊\n<br>}<br>]</p>",
+		"operationId": "TraceabilityType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "Tracecode",
+				"in": "query",
+				"description": "追蹤碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmerName",
+				"in": "query",
+				"description": "生產者名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ProductName",
+				"in": "query",
+				"description": "產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "TraceCodelist",
+				"in": "query",
+				"description": "一籤一碼追溯碼",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "TraceCodelistCache",
+				"in": "query",
+				"description": "一籤一碼追溯碼(快取)",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TraceabilityType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"get": {
+		"summary": "國產生鮮豬肉追溯拍賣編號清單",
+		"description": "國產生鮮豬肉追溯拍賣編號清單<p><b>DATA</b>:[<br>{<br><b>SaleNo</b>(<span style=\"font-color:#6666ff\">string</option>):拍賣編號\n<b>FarmName</b>(<span style=\"font-color:#6666ff\">string</option>):來源畜牧場\n<br>}<br>]</p>",
+		"operationId": "DomesticPorkTraceabilityListType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "Year",
+				"in": "query",
+				"description": "年份",
+				"default": "2018",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "SaleNo",
+				"in": "query",
+				"description": "拍賣編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmName",
+				"in": "query",
+				"description": "來源畜牧場",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/DomesticPorkTraceabilityListType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

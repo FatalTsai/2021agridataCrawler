@@ -1,0 +1,96 @@
+{
+	"get": {
+		"summary": "農民學院",
+		"description": "農民學院<p><b>DATA</b>:[<br>{<br><b>course_id</b>(<span style=\"font-color:#6666ff\">string</option>):課程編號\n<b>course_name</b>(<span style=\"font-color:#6666ff\">string</option>):課程名稱\n<b>grade</b>(<span style=\"font-color:#6666ff\">string</option>):訓練別\n<b>register_time</b>(<span style=\"font-color:#6666ff\">string</option>):報名時間\n<b>course_type</b>(<span style=\"font-color:#6666ff\">string</option>):課程型態\n<b>skill_type</b>(<span style=\"font-color:#6666ff\">string</option>):產業別\n<b>course_status</b>(<span style=\"font-color:#6666ff\">string</option>):課程狀態\n<b>money</b>(<span style=\"font-color:#6666ff\">string</option>):課程費用\n<b>register_time</b>(<span style=\"font-color:#6666ff\">string</option>):報名時間\n<b>qualify_num</b>(<span style=\"font-color:#6666ff\">string</option>):名額\n<b>num</b>(<span style=\"font-color:#6666ff\">string</option>):報名人數\n<b>content</b>(<span style=\"font-color:#6666ff\">string</option>):課程內容\n<b>target</b>(<span style=\"font-color:#6666ff\">string</option>):參加對象\n<b>condition</b>(<span style=\"font-color:#6666ff\">string</option>):資格條件\n<b>location</b>(<span style=\"font-color:#6666ff\">string</option>):課程地點\n<b>contact</b>(<span style=\"font-color:#6666ff\">string</option>):聯絡資訊\n<b>course_name</b>(<span style=\"font-color:#6666ff\">string</option>):課程名稱\n<br>}<br>]</p>",
+		"operationId": "FarmerAcademyData",
+		"tags": [
+			"進修充電"
+		],
+		"parameters": [
+			{
+				"name": "course_id",
+				"in": "query",
+				"description": "課程編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "course_name",
+				"in": "query",
+				"description": "課程名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "grade",
+				"in": "query",
+				"description": "訓練別",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "register_time",
+				"in": "query",
+				"description": "報名時間",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "course_type",
+				"in": "query",
+				"description": "課程型態",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "skill_type",
+				"in": "query",
+				"description": "產業別",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "course_start",
+				"in": "query",
+				"description": "課程開始日期",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "course_end",
+				"in": "query",
+				"description": "課程結束日期",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "course_date",
+				"in": "query",
+				"description": "課程日期",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "course_status",
+				"in": "query",
+				"description": "課程狀態",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/FarmerAcademyData"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

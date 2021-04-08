@@ -1,0 +1,127 @@
+{
+	"get": {
+		"summary": "寵物遺失啟事",
+		"description": "寵物遺失啟事<p><b>DATA</b>:[<br>{<br><b>ChipNum</b>(<span style=\"font-color:#6666ff\">string</option>):晶片號碼\n<b>PetName</b>(<span style=\"font-color:#6666ff\">string</option>):寵物名\n<b>PetCategory</b>(<span style=\"font-color:#6666ff\">string</option>):寵物別\n<b>Gender</b>(<span style=\"font-color:#6666ff\">string</option>):性別\n<b>Variety</b>(<span style=\"font-color:#6666ff\">string</option>):品種\n<b>Coat</b>(<span style=\"font-color:#6666ff\">string</option>):毛色\n<b>Exterior</b>(<span style=\"font-color:#6666ff\">string</option>):外觀\n<b>Feature</b>(<span style=\"font-color:#6666ff\">string</option>):特徵\n<b>LostTime</b>(<span style=\"font-color:#6666ff\">string</option>):遺失時間\n<b>LostPlace</b>(<span style=\"font-color:#6666ff\">string</option>):遺失地點\n<b>FeederName</b>(<span style=\"font-color:#6666ff\">string</option>):飼主姓名\n<b>PhoneNum</b>(<span style=\"font-color:#6666ff\">string</option>):連絡電話\n<b>EMail</b>(<span style=\"font-color:#6666ff\">string</option>):EMail\n<br>}<br>]</p>",
+		"operationId": "PetLoseList",
+		"tags": [
+			"寵物"
+		],
+		"parameters": [
+			{
+				"name": "ChipNum",
+				"in": "query",
+				"description": "晶片號碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"default": "1",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "PetName",
+				"in": "query",
+				"description": "寵物名",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "PetCategory",
+				"in": "query",
+				"description": "寵物別",
+				"default": "狗",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Gender",
+				"in": "query",
+				"description": "性別",
+				"default": "公",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Variety",
+				"in": "query",
+				"description": "品種",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Coat",
+				"in": "query",
+				"description": "毛色",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Exterior",
+				"in": "query",
+				"description": "外觀",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Feature",
+				"in": "query",
+				"description": "特徵",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LostTime",
+				"in": "query",
+				"description": "遺失時間",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "LostPlace",
+				"in": "query",
+				"description": "遺失地點",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FeederName",
+				"in": "query",
+				"description": "飼主姓名",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "PhoneNum",
+				"in": "query",
+				"description": "連絡電話",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "EMail",
+				"in": "query",
+				"description": "EMail",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PetLoseList"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

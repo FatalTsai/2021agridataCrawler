@@ -1,0 +1,61 @@
+{
+	"get": {
+		"summary": "農藥資料查詢",
+		"description": "農藥資料查詢<p><b>DATA</b>:[<br>{<br><b>EnName</b>(<span style=\"font-color:#6666ff\">string</option>):英文名稱\n<b>ChineseName</b>(<span style=\"font-color:#6666ff\">string</option>):中文名稱\n<b>ChemicalComposition</b>(<span style=\"font-color:#6666ff\">string</option>):化學成分\n<b>Vendor</b>(<span style=\"font-color:#6666ff\">string</option>):廠商名稱\n<b>Permit</b>(<span style=\"font-color:#6666ff\">string</option>):許可證字\n<b>PermitNumber</b>(<span style=\"font-color:#6666ff\">string</option>):許可證號\n<b>PesticideCode</b>(<span style=\"font-color:#6666ff\">string</option>):農藥代號\n<b>ForeignMaker</b>(<span style=\"font-color:#6666ff\">string</option>):國外原製造廠商\n<b>ExpireDate</b>(<span style=\"font-color:#6666ff\">string</option>):有效期限\n<b>BrandName</b>(<span style=\"font-color:#6666ff\">string</option>):廠牌名稱\n<b>ScopeOfUse</b>(<span style=\"font-color:#6666ff\">string</option>):農藥使用範圍\n<br>}<br>]</p>",
+		"operationId": "PesticideDataQueryType",
+		"tags": [
+			"施肥用藥"
+		],
+		"parameters": [
+			{
+				"name": "EnName",
+				"in": "query",
+				"description": "英文名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ChineseName",
+				"in": "query",
+				"description": "中文名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ChemicalComposition",
+				"in": "query",
+				"description": "化學成分",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Vendor",
+				"in": "query",
+				"description": "廠商名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PesticideDataQueryType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

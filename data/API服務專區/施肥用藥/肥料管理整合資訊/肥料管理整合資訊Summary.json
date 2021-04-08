@@ -1,0 +1,102 @@
+{
+	"get": {
+		"summary": "肥料管理整合資訊",
+		"description": "肥料管理整合資訊<p><b>DATA</b>:[<br>{<br><b>FertilizerID</b>(<span style=\"font-color:#6666ff\">string</option>):登記證字號\n<b>IndustryName</b>(<span style=\"font-color:#6666ff\">string</option>):業者名稱\n<b>BrandName</b>(<span style=\"font-color:#6666ff\">string</option>):廠牌商品名稱\n<b>ItemName</b>(<span style=\"font-color:#6666ff\">string</option>):品目名稱\n<b>ExpiryDate</b>(<span style=\"font-color:#6666ff\">string</option>):有效日期\n<b>SellerAddress</b>(<span style=\"font-color:#6666ff\">string</option>):地址\n<b>SellerPhone</b>(<span style=\"font-color:#6666ff\">string</option>):電話\n<b>Element</b>(<span style=\"font-color:#6666ff\">string</option>):成份\n<b>FertilizerID</b>(<span style=\"font-color:#6666ff\">string</option>):登記證字號\n<b>IndustryName</b>(<span style=\"font-color:#6666ff\">string</option>):業者名稱\n<b>BrandName</b>(<span style=\"font-color:#6666ff\">string</option>):廠牌商品名稱\n<b>ItemName</b>(<span style=\"font-color:#6666ff\">string</option>):品目名稱\n<b>ExpiryDate</b>(<span style=\"font-color:#6666ff\">string</option>):有效日期\n<b>SellerAddress</b>(<span style=\"font-color:#6666ff\">string</option>):地址\n<b>SellerPhone</b>(<span style=\"font-color:#6666ff\">string</option>):電話\n<b>Element</b>(<span style=\"font-color:#6666ff\">string</option>):成份\n<br>}<br>]</p>",
+		"operationId": "FertilizerIntegrationInfoType",
+		"tags": [
+			"施肥用藥"
+		],
+		"parameters": [
+			{
+				"name": "FertilizerID",
+				"in": "query",
+				"description": "登記證字號",
+				"default": "0006002",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "IndustryName",
+				"in": "query",
+				"description": "業者名稱",
+				"default": "五葉肥料股份有限公司",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "BrandName",
+				"in": "query",
+				"description": "廠牌商品名稱",
+				"default": "五葉牌黑肥",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ItemName",
+				"in": "query",
+				"description": "品目名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FertilizerID",
+				"in": "query",
+				"description": "登記證字號",
+				"default": "0006002",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "IndustryName",
+				"in": "query",
+				"description": "業者名稱",
+				"default": "五葉肥料股份有限公司",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "BrandName",
+				"in": "query",
+				"description": "廠牌商品名稱",
+				"default": "五葉牌黑肥",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "ItemName",
+				"in": "query",
+				"description": "品目名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/FertilizerIntegrationInfoType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"get": {
+		"summary": "畜牧場基本資料",
+		"description": "畜牧場基本資料<p><b>DATA</b>:[<br>{<br><b>FarmID</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場登記證號\n<b>FarmName</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場名稱\n<b>FarmCounty</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場所在縣市\n<b>FarmDist</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場所在鄉鎮區\n<b>FarmAddress</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場地址\n<b>Farmer</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場負責人\n<b>RegisterCount</b>(<span style=\"font-color:#6666ff\">string</option>):飼養種類\n<b>Cdate</b>(<span style=\"font-color:#6666ff\">string</option>):日期\n<br>}<br>]</p>",
+		"operationId": "",
+		"tags": [
+			"畜牧"
+		],
+		"parameters": [
+			{
+				"name": "FarmID",
+				"in": "query",
+				"description": "畜牧場登記證號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmName",
+				"in": "query",
+				"description": "畜牧場名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmCounty",
+				"in": "query",
+				"description": "畜牧場所在縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmDist",
+				"in": "query",
+				"description": "畜牧場所在鄉鎮區",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FarmAddress",
+				"in": "query",
+				"description": "畜牧場地址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Farmer",
+				"in": "query",
+				"description": "畜牧場負責人",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "RegisterCount",
+				"in": "query",
+				"description": "飼養種類",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Cdate",
+				"in": "query",
+				"description": "日期",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

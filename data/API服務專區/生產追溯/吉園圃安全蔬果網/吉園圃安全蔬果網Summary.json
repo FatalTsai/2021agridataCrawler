@@ -1,0 +1,89 @@
+{
+	"get": {
+		"summary": "吉園圃安全蔬果網",
+		"description": "吉園圃安全蔬果網<p><b>DATA</b>:[<br>{<br><b>labels</b>(<span style=\"font-color:#6666ff\">string</option>):標章資訊\n<b>classNo</b>(<span style=\"font-color:#6666ff\">string</option>):產銷班代碼\n<b>className</b>(<span style=\"font-color:#6666ff\">string</option>):產銷班名稱\n<b>orgNo</b>(<span style=\"font-color:#6666ff\">string</option>):輔導單位代碼\n<b>orgName</b>(<span style=\"font-color:#6666ff\">string</option>):輔導單位名稱\n<b>mainClassNo</b>(<span style=\"font-color:#6666ff\">string</option>):產業代碼\n<b>mainClassName</b>(<span style=\"font-color:#6666ff\">string</option>):產業\n<b>crops</b>(<span style=\"font-color:#6666ff\">string</option>):作物資訊\n<b>plants</b>(<span style=\"font-color:#6666ff\">string</option>):植物資訊\n<b>countyNo</b>(<span style=\"font-color:#6666ff\">string</option>):縣市代碼\n<b>county</b>(<span style=\"font-color:#6666ff\">string</option>):縣市\n<br>}<br>]</p>",
+		"operationId": "GAPSafeVegetablefruitNetType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "classNo",
+				"in": "query",
+				"description": "產銷班代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "className",
+				"in": "query",
+				"description": "產銷班名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "orgNo",
+				"in": "query",
+				"description": "輔導單位代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "orgName",
+				"in": "query",
+				"description": "輔導單位名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "mainClassNo",
+				"in": "query",
+				"description": "產業代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "mainClassName",
+				"in": "query",
+				"description": "產業",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "countyNo",
+				"in": "query",
+				"description": "縣市代碼",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "county",
+				"in": "query",
+				"description": "縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/GAPSafeVegetablefruitNetType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

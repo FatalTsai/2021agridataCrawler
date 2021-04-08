@@ -1,0 +1,99 @@
+{
+	"get": {
+		"summary": "重大土石災情報告",
+		"description": "重大土石災情報告<p><b>DATA</b>:[<br>{<br><b>年度</b>(<span style=\"font-color:#6666ff\">string</option>):年度\n<b>事件名稱</b>(<span style=\"font-color:#6666ff\">string</option>):事件名稱\n<b>災害類型</b>(<span style=\"font-color:#6666ff\">string</option>):災害類型\n<b>縣市</b>(<span style=\"font-color:#6666ff\">string</option>):縣市\n<b>鄉鎮</b>(<span style=\"font-color:#6666ff\">string</option>):鄉鎮\n<b>村里</b>(<span style=\"font-color:#6666ff\">string</option>):村里\n<b>災害地點</b>(<span style=\"font-color:#6666ff\">string</option>):災害地點\n<b>速報連結</b>(<span style=\"font-color:#6666ff\">string</option>):速報連結\n<b>災害時間</b>(<span style=\"font-color:#6666ff\">string</option>):災害時間\n<b>審查會議日期</b>(<span style=\"font-color:#6666ff\">string</option>):審查會議日期\n<br>}<br>]</p>",
+		"operationId": "GetImpDisasterReport",
+		"tags": [
+			"水土保持"
+		],
+		"parameters": [
+			{
+				"name": "年度",
+				"in": "query",
+				"description": "年度",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "事件名稱",
+				"in": "query",
+				"description": "事件名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "災害類型",
+				"in": "query",
+				"description": "災害類型",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "縣市",
+				"in": "query",
+				"description": "縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "鄉鎮",
+				"in": "query",
+				"description": "鄉鎮",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "村里",
+				"in": "query",
+				"description": "村里",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "災害地點",
+				"in": "query",
+				"description": "災害地點",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "災害時間",
+				"in": "query",
+				"description": "災害時間",
+				"default": "2015/8/8",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "審查會議日期",
+				"in": "query",
+				"description": "審查會議日期",
+				"default": "2016/1/4",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼",
+				"default": "1",
+				"required": true,
+				"type": "integer"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/GetImpDisasterReport"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

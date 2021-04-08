@@ -1,0 +1,54 @@
+{
+	"get": {
+		"summary": "農產品生產追溯-生產者資訊",
+		"description": "農產品生產追溯-生產者資訊<p><b>DATA</b>:[<br>{<br><b>TraceCode</b>(<span style=\"font-color:#6666ff\">string</option>):追溯編號\n<b>Producer</b>(<span style=\"font-color:#6666ff\">string</option>):生產者\n<b>Address</b>(<span style=\"font-color:#6666ff\">string</option>):聯絡地址\n<b>Mark</b>(<span style=\"font-color:#6666ff\">string</option>):驗證標章\n<b>Url</b>(<span style=\"font-color:#6666ff\">string</option>):網址\n<b>Description</b>(<span style=\"font-color:#6666ff\">string</option>):簡介\n<b>Status</b>(<span style=\"font-color:#6666ff\">string</option>):使用狀態\n<b>ModifyDate</b>(<span style=\"font-color:#6666ff\">string</option>):異動日期,格式提供YYYY-MM-dd\n<br>}<br>]</p>",
+		"operationId": "TWAgriProductsTraceabilityType_ProducerInfo",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "TraceCode",
+				"in": "query",
+				"description": "追溯編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Producer",
+				"in": "query",
+				"description": "生產者",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Address",
+				"in": "query",
+				"description": "聯絡地址",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TWAgriProductsTraceabilityType_ProducerInfo"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"get": {
+		"summary": "植物疫情",
+		"description": "植物疫情<p><b>DATA</b>:[<br>{<br><b>City</b>(<span style=\"font-color:#6666ff\">string</option>):發布縣市\n<b>PlantName</b>(<span style=\"font-color:#6666ff\">string</option>):植物品項\n<b>Body</b>(<span style=\"font-color:#6666ff\">string</option>):疫情內容\n<b>Prescription</b>(<span style=\"font-color:#6666ff\">string</option>):建議用藥\n<b>Issue</b>(<span style=\"font-color:#6666ff\">string</option>):發布單位\n<b>Subject</b>(<span style=\"font-color:#6666ff\">string</option>):主旨\n<b>PubDate</b>(<span style=\"font-color:#6666ff\">string</option>):發佈日期\n<br>}<br>]</p>",
+		"operationId": "PlantEpidemicType",
+		"tags": [
+			"施肥用藥"
+		],
+		"parameters": [
+			{
+				"name": "Year",
+				"in": "query",
+				"description": "發布日期(年份如:2018)",
+				"default": "2017",
+				"required": true,
+				"type": "string"
+			},
+			{
+				"name": "Month",
+				"in": "query",
+				"description": "發布日期(月份)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "City",
+				"in": "query",
+				"description": "發布縣市",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "PlantName",
+				"in": "query",
+				"description": "植物品項",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Body",
+				"in": "query",
+				"description": "疫情內容",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Prescription",
+				"in": "query",
+				"description": "建議用藥",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Issue",
+				"in": "query",
+				"description": "發布單位",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/PlantEpidemicType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

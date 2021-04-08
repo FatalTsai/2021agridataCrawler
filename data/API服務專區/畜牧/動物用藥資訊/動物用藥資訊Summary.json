@@ -1,0 +1,76 @@
+{
+	"get": {
+		"summary": "動物用藥資訊",
+		"description": "動物用藥資訊<p><b>DATA</b>:[<br>{<br><b>LicenceNum</b>(<span style=\"font-color:#6666ff\">string</option>):許可證字號\n<b>MedicineCName</b>(<span style=\"font-color:#6666ff\">string</option>):動物用藥品中文名稱\n<b>MedicineEName</b>(<span style=\"font-color:#6666ff\">string</option>):動物用藥品英文名稱\n<b>CompanyName</b>(<span style=\"font-color:#6666ff\">string</option>):業者名稱\n<b>CompanyAddress</b>(<span style=\"font-color:#6666ff\">string</option>):業者地址\n<b>FactoryName</b>(<span style=\"font-color:#6666ff\">string</option>):製造廠名稱\n<b>FactoryAddress</b>(<span style=\"font-color:#6666ff\">string</option>):製造廠地址\n<b>DrugType</b>(<span style=\"font-color:#6666ff\">string</option>):劑型\n<b>AllowPackage</b>(<span style=\"font-color:#6666ff\">string</option>):包裝\n<b>Efficacy</b>(<span style=\"font-color:#6666ff\">string</option>):效能(適應症)\n<b>Ingredient</b>(<span style=\"font-color:#6666ff\">string</option>):成分\n<b>IssueDate</b>(<span style=\"font-color:#6666ff\">string</option>):核發日期\n<b>ValidDate</b>(<span style=\"font-color:#6666ff\">string</option>):有效期間\n<b>SaleAbroad</b>(<span style=\"font-color:#6666ff\">string</option>):外銷專用\n<br>}<br>]</p>",
+		"operationId": "ADProData",
+		"tags": [
+			"畜牧"
+		],
+		"parameters": [
+			{
+				"name": "LicenceNum",
+				"in": "query",
+				"description": "許可證字號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MedicineCName",
+				"in": "query",
+				"description": "動物用藥品中文名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "MedicineEName",
+				"in": "query",
+				"description": "動物用藥品英文名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "CompanyName",
+				"in": "query",
+				"description": "業者名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "FactoryName",
+				"in": "query",
+				"description": "製造廠名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "DrugType",
+				"in": "query",
+				"description": "劑型",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"default": "1",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/ADProData"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

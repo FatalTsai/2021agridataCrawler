@@ -1,0 +1,61 @@
+{
+	"get": {
+		"summary": "台灣雞蛋溯源生產者資訊",
+		"description": "台灣雞蛋溯源生產者資訊<p><b>DATA</b>:[<br>{<br><b>TraceNo</b>(<span style=\"font-color:#6666ff\">string</option>):溯源編號\n<b>Name</b>(<span style=\"font-color:#6666ff\">string</option>):農業經營者\n<b>Sname</b>(<span style=\"font-color:#6666ff\">string</option>):簡稱\n<b>Prod</b>(<span style=\"font-color:#6666ff\">string</option>):產品名稱\n<b>Addr</b>(<span style=\"font-color:#6666ff\">string</option>):產地\n<b>Boss</b>(<span style=\"font-color:#6666ff\">string</option>):生產者姓名\n<b>RegNo</b>(<span style=\"font-color:#6666ff\">string</option>):登記號碼\n<b>Addr2</b>(<span style=\"font-color:#6666ff\">string</option>):通訊地址\n<b>C01_Name</b>(<span style=\"font-color:#6666ff\">string</option>):禽種\n<b>Qty</b>(<span style=\"font-color:#6666ff\">string</option>):飼養規模\n<b>C02</b>(<span style=\"font-color:#6666ff\">string</option>):飼養方式\n<b>Typical</b>(<span style=\"font-color:#6666ff\">string</option>):特色\n<b>Introduce</b>(<span style=\"font-color:#6666ff\">string</option>):畜牧場介紹\n<br>}<br>]</p>",
+		"operationId": "TWEggTracerProducerInfoType",
+		"tags": [
+			"生產追溯"
+		],
+		"parameters": [
+			{
+				"name": "TraceNo",
+				"in": "query",
+				"description": "溯源編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Name",
+				"in": "query",
+				"description": "農業經營者",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Sname",
+				"in": "query",
+				"description": "簡稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Prod",
+				"in": "query",
+				"description": "產品名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/TWEggTracerProducerInfoType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

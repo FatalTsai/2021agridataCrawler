@@ -1,0 +1,75 @@
+{
+	"get": {
+		"summary": "自動氣象站",
+		"description": "自動氣象站<p><b>DATA</b>:[<br>{<br><b>Start_time</b>(<span style=\"font-color:#6666ff\">string</option>):時間(起)\n<b>End_time</b>(<span style=\"font-color:#6666ff\">string</option>):時間(迄)\n<b>Station_name</b>(<span style=\"font-color:#6666ff\">string</option>):測站名稱\n<b>Station_ID</b>(<span style=\"font-color:#6666ff\">string</option>):測站編號\n<b>Station_Latitude</b>(<span style=\"font-color:#6666ff\">number</option>):測站位置緯度(TWD67)\n<b>Station_Longitude</b>(<span style=\"font-color:#6666ff\">number</option>):測站位置經度(TWD67)\n<b>TIME</b>(<span style=\"font-color:#6666ff\">string</option>):資料觀測時間\n<b>ELEV</b>(<span style=\"font-color:#6666ff\">number</option>):高度\n<b>WDIR</b>(<span style=\"font-color:#6666ff\">integer</option>):風向\n<b>WDSD</b>(<span style=\"font-color:#6666ff\">number</option>):風速\n<b>TEMP</b>(<span style=\"font-color:#6666ff\">number</option>):溫度\n<b>HUMD</b>(<span style=\"font-color:#6666ff\">number</option>):相對濕度\n<b>PRES</b>(<span style=\"font-color:#6666ff\">number</option>):測站氣壓\n<b>SUN</b>(<span style=\"font-color:#6666ff\">integer</option>):日照時數\n<b>H_24R</b>(<span style=\"font-color:#6666ff\">number</option>):日累積雨量\n<b>CITY</b>(<span style=\"font-color:#6666ff\">string</option>):縣市\n<b>CITY_SN</b>(<span style=\"font-color:#6666ff\">integer</option>):縣市編號\n<b>TOWN</b>(<span style=\"font-color:#6666ff\">string</option>):鄉鎮\n<b>TOWN_SN</b>(<span style=\"font-color:#6666ff\">integer</option>):鄉鎮編號\n<br>}<br>]</p>",
+		"operationId": "AutoWeatherStationType",
+		"tags": [
+			"農業氣象"
+		],
+		"parameters": [
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "時間(起)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "時間(迄)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Station_name",
+				"in": "query",
+				"description": "測站名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Station_ID",
+				"in": "query",
+				"description": "測站編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "CITY_SN",
+				"in": "query",
+				"description": "縣市編號",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "TOWN_SN",
+				"in": "query",
+				"description": "鄉鎮編號",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/AutoWeatherStationType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

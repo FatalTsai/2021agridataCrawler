@@ -1,0 +1,76 @@
+{
+	"get": {
+		"summary": "飼料管理資訊",
+		"description": "飼料管理資訊<p><b>DATA</b>:[<br>{<br><b>登記證字號</b>(<span style=\"font-color:#6666ff\">string</option>):登記證字號\n<b>核發日期</b>(<span style=\"font-color:#6666ff\">string</option>):核發日期\n<b>有效日期</b>(<span style=\"font-color:#6666ff\">string</option>):有效日期\n<b>登記證類別</b>(<span style=\"font-color:#6666ff\">string</option>):登記證類別\n<b>飼料品目</b>(<span style=\"font-color:#6666ff\">string</option>):飼料品目\n<b>商號名稱</b>(<span style=\"font-color:#6666ff\">string</option>):商號名稱\n<br>}<br>]</p>",
+		"operationId": "",
+		"tags": [
+			"畜牧"
+		],
+		"parameters": [
+			{
+				"name": "登記證字號",
+				"in": "query",
+				"description": "登記證字號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "核發日期",
+				"in": "query",
+				"description": "核發日期",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "有效日期",
+				"in": "query",
+				"description": "有效日期",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "登記證類別",
+				"in": "query",
+				"description": "登記證類別",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "飼料品目",
+				"in": "query",
+				"description": "飼料品目",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "商號名稱",
+				"in": "query",
+				"description": "商號名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼",
+				"default": "1",
+				"required": true,
+				"type": "integer"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}

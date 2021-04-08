@@ -1,0 +1,75 @@
+{
+	"get": {
+		"summary": "自動雨量站",
+		"description": "自動雨量站<p><b>DATA</b>:[<br>{<br><b>Start_time</b>(<span style=\"font-color:#6666ff\">string</option>):時間(起)\n<b>End_time</b>(<span style=\"font-color:#6666ff\">string</option>):時間(迄)\n<b>Station_name</b>(<span style=\"font-color:#6666ff\">string</option>):測站名稱\n<b>Station_ID</b>(<span style=\"font-color:#6666ff\">string</option>):測站編號\n<b>TIME</b>(<span style=\"font-color:#6666ff\">string</option>):觀測資料時間\n<b>LAT</b>(<span style=\"font-color:#6666ff\">number</option>):緯度\n<b>LON</b>(<span style=\"font-color:#6666ff\">number</option>):經度\n<b>ELEV</b>(<span style=\"font-color:#6666ff\">number</option>):高度\n<b>RAIN</b>(<span style=\"font-color:#6666ff\">integer</option>):60分鐘累積雨量\n<b>MIN_10</b>(<span style=\"font-color:#6666ff\">integer</option>):10分鐘累積雨量\n<b>HOUR_3</b>(<span style=\"font-color:#6666ff\">integer</option>):3小時累積雨量\n<b>HOUR_6</b>(<span style=\"font-color:#6666ff\">integer</option>):6小時累積雨量\n<b>HOUR_12</b>(<span style=\"font-color:#6666ff\">integer</option>):12小時累積雨量\n<b>HOUR_24</b>(<span style=\"font-color:#6666ff\">integer</option>):24小時累積雨量\n<b>NOW</b>(<span style=\"font-color:#6666ff\">integer</option>):本日累積雨量\n<b>CITY</b>(<span style=\"font-color:#6666ff\">string</option>):縣市\n<b>CITY_SN</b>(<span style=\"font-color:#6666ff\">integer</option>):縣市編號\n<b>TOWN</b>(<span style=\"font-color:#6666ff\">string</option>):鄉鎮\n<b>TOWN_SN</b>(<span style=\"font-color:#6666ff\">integer</option>):鄉鎮編號\n<b>ATTRIBUTE</b>(<span style=\"font-color:#6666ff\">string</option>):自動站屬性\n<br>}<br>]</p>",
+		"operationId": "AutoRainfallStationType",
+		"tags": [
+			"農業氣象"
+		],
+		"parameters": [
+			{
+				"name": "Start_time",
+				"in": "query",
+				"description": "時間(起)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "End_time",
+				"in": "query",
+				"description": "時間(迄)",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Station_name",
+				"in": "query",
+				"description": "測站名稱",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "Station_ID",
+				"in": "query",
+				"description": "測站編號",
+				"required": false,
+				"type": "string"
+			},
+			{
+				"name": "CITY_SN",
+				"in": "query",
+				"description": "縣市編號",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "TOWN_SN",
+				"in": "query",
+				"description": "鄉鎮編號",
+				"required": false,
+				"type": "integer"
+			},
+			{
+				"name": "Page",
+				"in": "query",
+				"description": "頁碼控制, 當回傳結果Next=ture時, 才需傳入此參數",
+				"required": false,
+				"type": "string"
+			}
+		],
+		"responses": {
+			"200": {
+				"description": "OK",
+				"schema": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/AutoRainfallStationType"
+					}
+				}
+			},
+			"400": {
+				"description": "無此API"
+			}
+		}
+	}
+}
